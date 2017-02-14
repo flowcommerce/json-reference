@@ -94,8 +94,7 @@ func download(url string) string {
 	return target.Name()
 }
 
-// readCsv Reads a CSV file, mapping names to well known values, and returns
-// a list of map[string]string objects
+// readCsv Reads a CSV file, returning a list of map[string]string objects
 func readCsv(file string) []map[string]string {
 	input, err := os.Open(file)
 	exitIfError(err, fmt.Sprintf("Error opening file %s", file))
@@ -126,6 +125,13 @@ func readCsv(file string) []map[string]string {
 		}
 	}
 
+	return all
+}
+
+// readJson Reads a JSON file, returning a list of map[string]string objects
+func readJson(file string) []map[string]string {
+	all := []map[string]string{}
+	err := json.Unmarshal(common.ReadFile(file), &output)
 	return all
 }
 
