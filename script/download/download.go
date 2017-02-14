@@ -3,7 +3,8 @@ package download
 // Downloads source files, storing locally in the sources directory
 
 import (
-//	"../common"
+	"../common"
+	"bufio"
 	"encoding/csv"
 	"encoding/json"
         "fmt"
@@ -43,15 +44,26 @@ type Language struct {
 	Countries                []string `json:"countries"`
 }
 
+type IncomingLanguages struct {
+	LanguageFamilies    []string `json:"languageFamilies"`
+	Languages           []IncomingLanguage `json:"languages"`
+}
+
+type IncomingLanguage struct {
+	Iso_639_2           string `json:"iso639_1"`
+	Names               []string `json:"name"`
+	Countries           []string `json:"countries"`
+}
+
+
 type convert func(records map[string]string) interface{}
 
 func DownloadAll() {
-	// tmp := download("https://raw.githubusercontent.com/bdswiss/country-language/master/data.json")
-	// os.Rename(tmp, "sources/languages.json")
+	tmp := download("https://raw.githubusercontent.com/bdswiss/country-language/master/data.json")
+	writeJson("sources/languages.json", readLanguages(tmp))
 
-	tmp := download("https://raw.githubusercontent.com/datasets/country-codes/master/data/country-codes.csv")
-	countries := readCsv(tmp)
-	writeJson("sources/countries.json", toObjects(countries, func(record map[string]string) interface{} {
+	tmp = download("https://raw.githubusercontent.com/datasets/country-codes/master/data/country-codes.csv")
+	writeJson("sources/countries.json", toObjects(readCsv(tmp), func(record map[string]string) interface{} {
 		return Country {
 			Name: record["official_name_en"],
 			Iso_3166_2: record["ISO3166-1-Alpha-2"],
@@ -63,7 +75,7 @@ func DownloadAll() {
 			Continent: record["Continent"],
 		}
 	}))
-	fmt.Println(len(countries))
+
 	//os.Rename(tmp, "sources/countries.json")
 
 	// tmp = download("http://dev.maxmind.com/static/csv/codes/country_continent.csv")
@@ -128,23 +140,42 @@ func readCsv(file string) []map[string]string {
 	return all
 }
 
-// readJson Reads a JSON file, returning a list of map[string]string objects
-func readJson(file string) []map[string]string {
-	all := []map[string]string{}
-	err := json.Unmarshal(common.ReadFile(file), &output)
-	return all
+func readLanguages(file string) []common.Language {
+	lang := IncomingLanguages{}
+	err := json.Unmarshal(common.ReadFile(file), &lang)
+	exitIfError(err, fmt.Sprintf("Failed to unmarshall languages: %s", err))
+
+	languages := []common.Language{}
+	
+	for _, l := range(lang.Languages) {
+		name := l.Names[0]
+		if len(l.Iso_639_2) > 0 && name != "" {
+			languages = append(languages, common.Language{
+				Name: name,
+				Iso_639_2: l.Iso_639_2,
+				Countries: l.Countries,
+			})
+		}
+	}
+
+	return languages
 }
 
 func writeJson(target string, data interface{}) {
-	jsonFile, err := ioutil.TempFile("", "reference-csv-to-json")
+	tmp, err := ioutil.TempFile("", "reference-csv-to-json")
 	exitIfError(err, "Error creating temporary file")
-	defer jsonFile.Close()
+	defer tmp.Close()
 
-	enc := json.NewEncoder(jsonFile)
-	err = enc.Encode(&data)
+	v, err := json.MarshalIndent(data, "", "  ")
 	exitIfError(err, "Error marshalling record to json")
-
-	err = os.Rename(jsonFile.Name(), target)
+	//enc := json.NewEncoder(tmp)
+	//err = enc.Encode(&data)
+	
+	w := bufio.NewWriter(tmp)
+	_, err = w.Write(v)
+	exitIfError(err, "Error writing to tmp file")
+	
+	err = os.Rename(tmp.Name(), target)
 	exitIfError(err, "Error renaming tmp file")
 }
 
