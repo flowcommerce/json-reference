@@ -12,6 +12,7 @@ import (
         "io/ioutil"
         "net/http"
         "os"
+	"strconv"
         "strings"
 )
 
@@ -28,7 +29,7 @@ type Country struct {
 	Iso_3166_3               string `json:"iso_3166_3"`
 	CurrencyCode             string `json:"currency_code"`
 	CurrencyName             string `json:"currency_name"`
-	CurrencyNumberDecimals   string `json:"currency_number_decimals"`
+	CurrencyNumberDecimals   int64  `json:"currency_number_decimals"`
 	Languages                []string `json:"languages"`
 }
 
@@ -59,27 +60,26 @@ type IncomingLanguage struct {
 type convert func(records map[string]string) interface{}
 
 func DownloadAll() {
-	tmp := download("https://raw.githubusercontent.com/bdswiss/country-language/master/data.json")
-	writeJson("sources/languages.json", readLanguages(tmp))
+	download("sources/languages.json", "https://raw.githubusercontent.com/bdswiss/country-language/master/data.json")
+	writeJson("raw/languages.json", readLanguages("sources/languages.json"))
 
-	tmp = download("https://raw.githubusercontent.com/datasets/country-codes/master/data/country-codes.csv")
-	writeJson("sources/countries.json", toObjects(readCsv(tmp), func(record map[string]string) interface{} {
+	download("sources/countries.csv", "https://raw.githubusercontent.com/datasets/country-codes/master/data/country-codes.csv")
+	writeJson("raw/countries.json", toObjects(readCsv("sources/countries.csv"), func(record map[string]string) interface{} {
+		numberDecimals, err := strconv.ParseInt(record["ISO4217-currency_number_decimals"], 10, 0)
+		exitIfError(err, fmt.Sprintf("Error parsing int[%s]", record["ISO4217-currency_number_decimals"]))
 		return Country {
 			Name: record["official_name_en"],
 			Iso_3166_2: record["ISO3166-1-Alpha-2"],
 			Iso_3166_3: record["ISO3166-1-Alpha-3"],
 			CurrencyCode: record["ISO4217-currency_alphabetic_code"],
-			CurrencyNumberDecimals: record["ISO4217-currency_number_decimals"],
+			CurrencyNumberDecimals: numberDecimals,
 			CurrencyName: record["ISO4217-currency_name"],
 			Languages: strings.Split(record["Languages"], ","),
 			Continent: record["Continent"],
 		}
 	}))
 
-	//os.Rename(tmp, "sources/countries.json")
-
-	// tmp = download("http://dev.maxmind.com/static/csv/codes/country_continent.csv")
-	// os.Rename(tmp, "sources/continents.csv")
+	// tmp = download("sources/continents.csv", "http://dev.maxmind.com/static/csv/codes/country_continent.csv")
 }
 
 func exitIfError(err error, message string) {
@@ -91,19 +91,19 @@ func exitIfError(err error, message string) {
 }
 
 // Download the provided url to a temp file, returning the file
-func download(url string) string {
-	target, err := ioutil.TempFile("", "reference-download")
+func download(target string, url string) {
+	tmp, err := ioutil.TempFile("", "reference-download")
 	exitIfError(err, "Error creating temporary file")
-	defer target.Close()
+	defer tmp.Close()
 	
         response, err := http.Get(url)
 	exitIfError(err, fmt.Sprintf("Error downloading url %s", url))
 	defer response.Body.Close()
 
-	_, err = io.Copy(target, response.Body)
-	exitIfError(err, fmt.Sprintf("Error writing to file %s", target))
+	_, err = io.Copy(tmp, response.Body)
+	exitIfError(err, fmt.Sprintf("Error writing to file %s", tmp))
 
-	return target.Name()
+	os.Rename(tmp.Name(), target)
 }
 
 // readCsv Reads a CSV file, returning a list of map[string]string objects
@@ -168,8 +168,6 @@ func writeJson(target string, data interface{}) {
 
 	v, err := json.MarshalIndent(data, "", "  ")
 	exitIfError(err, "Error marshalling record to json")
-	//enc := json.NewEncoder(tmp)
-	//err = enc.Encode(&data)
 	
 	w := bufio.NewWriter(tmp)
 	_, err = w.Write(v)
