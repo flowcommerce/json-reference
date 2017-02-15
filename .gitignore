@@ -1,2 +1,4 @@
-sources
-raw
+sources/*.csv
+sources/*.json
+raw/*.csv
+raw/*.json
