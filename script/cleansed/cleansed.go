@@ -16,12 +16,12 @@ import (
         "strings"
 )
 
-type Continent struct {
+type CleansedContinent struct {
 	Name       string `json:"name"`
 	Code       string `json:"code"`
 }
 
-type Country struct {
+type CleansedCountry struct {
 	Name                     string `json:"name"`
 	Continent                string `json:"continent"`
 	Iso_3166_2               string `json:"iso_3166_2"`
@@ -30,7 +30,7 @@ type Country struct {
 	Languages                []string `json:"languages"`
 }
 
-type Currency struct {
+type CleansedCurrency struct {
 	Name                     string `json:"name"`
 	Iso_4217_3               string `json:"iso_4217_3"`
 	NumberDecimals           int64  `json:"number_decimals"`
@@ -67,7 +67,7 @@ func Cleanse() {
 				return record["ISO3166-1-Alpha-2"] != "" && record["ISO3166-1-Alpha-3"] != ""
 			},
 			func(record map[string]string) interface{} {
-				return Country {
+				return CleansedCountry {
 					Name: record["official_name_en"],
 					Iso_3166_2: record["ISO3166-1-Alpha-2"],
 					Iso_3166_3: record["ISO3166-1-Alpha-3"],
@@ -94,7 +94,7 @@ func Cleanse() {
 					util.ExitIfError(err, fmt.Sprintf("Error parsing int[%s]", n))
 				}
 
-				return Currency{
+				return CleansedCurrency{
 					Name: record["ISO4217-currency_name"],
 					Iso_4217_3: record["ISO4217-currency_alphabetic_code"],
 					NumberDecimals: numberDecimals,
@@ -103,20 +103,21 @@ func Cleanse() {
 		),
 	)
 
-
 	writeJson("data/2-cleansed/continents.json",
 		toObjects(readCsv("data/1-sources/continents.csv"),
 			func(record map[string]string) bool {
 				return record["continent code"] != "" && record["continent code"] != "--"
 			},
 			func(record map[string]string) interface{} {
-				return Continent{
+				return CleansedContinent{
 					Name: record["iso 3166 country"],
 					Code: record["continent code"],
 				}
 			},
 		),
 	)	
+
+	writeJson("data/2-cleansed/languages.json", filterLanguages(readLanguages("data/1-sources/languages.json")))
 }
 
 // readCsv Reads a CSV file, returning a list of map[string]string objects
@@ -151,6 +152,21 @@ func readCsv(file string) []map[string]string {
 	}
 
 	return all
+}
+
+/**
+ * Filter to languages that have at least one country assigned to them
+ */
+func filterLanguages(languages []common.Language) []common.Language {
+	final := []common.Language{}
+	
+	for _, l := range(languages) {
+		if (l.Countries != nil && len(l.Countries) > 0) {
+			final = append(final, l)
+		}
+	}
+
+	return final
 }
 
 func readLanguages(file string) []common.Language {
