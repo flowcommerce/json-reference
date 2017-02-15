@@ -1,4 +1,3 @@
-sources/*.csv
-sources/*.json
-raw/*.csv
-raw/*.json
+data/1-sources/*.csv
+data/1-sources/*.json
+data/2-cleansed/*.json

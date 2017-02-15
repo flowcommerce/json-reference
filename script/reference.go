@@ -7,7 +7,7 @@ package main
 
 import (
 	"./download"
-	"./raw"
+	"./cleansed"
 	"github.com/codegangsta/cli"
 	"os"
 )
@@ -20,17 +20,17 @@ func main() {
 	app.Commands = []cli.Command{
 		{
 			Name:  "download",
-			Usage: "Downloads source data from the web, storing in the local 'sources' directory",
+			Usage: "Downloads source data from the web, storing in the local 'data/1-sources' directory",
 			Action: func(c *cli.Context) error {
 				download.DownloadAll()
 				return nil
 			},
 		},
 		{
-			Name:  "raw",
-			Usage: "Converts downloaded files to Flow Raw format, storing in the local 'raw' directory",
+			Name:  "cleanse",
+			Usage: "Cleanses downloaded files, writing all as json to 'data/1-cleansed' directory",
 			Action: func(c *cli.Context) error {
-				raw.ConvertToRaw()
+				cleansed.Cleanse()
 				return nil
 			},
 		},

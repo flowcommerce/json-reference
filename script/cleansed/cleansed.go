@@ -1,6 +1,6 @@
-package raw
+package cleansed
 
-// Reads source files, converting to raw flow format
+// Reads source files, cleansing and writing all as json to data/1-cleansed
 
 import (
 	"github.com/flowcommerce/tools/util"
@@ -57,11 +57,11 @@ type IncomingLanguage struct {
 type convertFunction func(records map[string]string) interface{}
 type acceptsFunction func(records map[string]string) bool
 
-func ConvertToRaw() {
-	writeJson("raw/languages.json", readLanguages("sources/languages.json"))
+func Cleanse() {
+	writeJson("data/2-cleansed/languages.json", readLanguages("data/1-sources/languages.json"))
 
-	countriesSource := readCsv("sources/countries.csv")
-	writeJson("raw/countries.json",
+	countriesSource := readCsv("data/1-sources/countries.csv")
+	writeJson("data/2-cleansed/countries.json",
 		toObjects(countriesSource,
 			func(record map[string]string) bool {
 				return record["ISO3166-1-Alpha-2"] != "" && record["ISO3166-1-Alpha-3"] != ""
@@ -80,7 +80,7 @@ func ConvertToRaw() {
 		),
 	)
 
-	writeJson("raw/currencies.json",
+	writeJson("data/2-cleansed/currencies.json",
 		toObjects(countriesSource,
 			func(record map[string]string) bool {
 				return record["ISO4217-currency_name"] != "" && record["ISO4217-currency_alphabetic_code"] != ""
@@ -104,8 +104,8 @@ func ConvertToRaw() {
 	)
 
 
-	writeJson("raw/continents.json",
-		toObjects(readCsv("sources/continents.csv"),
+	writeJson("data/2-cleansed/continents.json",
+		toObjects(readCsv("data/1-sources/continents.csv"),
 			func(record map[string]string) bool {
 				return record["continent code"] != "" && record["continent code"] != "--"
 			},

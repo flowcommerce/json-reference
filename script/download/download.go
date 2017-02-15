@@ -12,9 +12,9 @@ import (
 )
 
 func DownloadAll() {
-	download("sources/languages.json", "https://raw.githubusercontent.com/bdswiss/country-language/master/data.json")
-	download("sources/countries.csv", "https://raw.githubusercontent.com/datasets/country-codes/master/data/country-codes.csv")
-	download("sources/continents.csv", "http://dev.maxmind.com/static/csv/codes/country_continent.csv")
+	download("data/1-sources/languages.json", "https://raw.githubusercontent.com/bdswiss/country-language/master/data.json")
+	download("data/1-sources/countries.csv", "https://raw.githubusercontent.com/datasets/country-codes/master/data/country-codes.csv")
+	download("data/1-sources/continents.csv", "http://dev.maxmind.com/static/csv/codes/country_continent.csv")
 }
 
 // Download the provided url to a temp file, returning the file
