@@ -187,3 +187,9 @@ func Filter(vs []string, f func(string) bool) []string {
 	}
 	return vsf
 }
+
+func FilterNonEmpty(vs []string) []string {
+	return Filter(vs, func(v string) bool {
+		return v != ""
+	})
+}

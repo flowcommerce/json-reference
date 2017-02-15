@@ -27,16 +27,14 @@ type Country struct {
 	Continent                string `json:"continent"`
 	Iso_3166_2               string `json:"iso_3166_2"`
 	Iso_3166_3               string `json:"iso_3166_3"`
-	CurrencyCode             string `json:"currency_code"`
-	CurrencyName             string `json:"currency_name"`
-	CurrencyNumberDecimals   int64  `json:"currency_number_decimals"`
+	Currency                 string `json:"currency"`
 	Languages                []string `json:"languages"`
 }
 
 type Currency struct {
 	Name                     string `json:"name"`
 	Iso_4217_3               string `json:"iso_4217_3"`
-	NumberDecimals           int    `json:"number_decimals"`
+	NumberDecimals           int64  `json:"number_decimals"`
 }
 
 type Language struct {
@@ -57,29 +55,58 @@ type IncomingLanguage struct {
 }
 
 
-type convert func(records map[string]string) interface{}
+type convertFunction func(records map[string]string) interface{}
+type acceptsFunction func(records map[string]string) bool
 
 func DownloadAll() {
 	download("sources/languages.json", "https://raw.githubusercontent.com/bdswiss/country-language/master/data.json")
 	writeJson("raw/languages.json", readLanguages("sources/languages.json"))
 
 	download("sources/countries.csv", "https://raw.githubusercontent.com/datasets/country-codes/master/data/country-codes.csv")
-	writeJson("raw/countries.json", toObjects(readCsv("sources/countries.csv"), func(record map[string]string) interface{} {
-		numberDecimals, err := strconv.ParseInt(record["ISO4217-currency_number_decimals"], 10, 0)
-		exitIfError(err, fmt.Sprintf("Error parsing int[%s]", record["ISO4217-currency_number_decimals"]))
-		return Country {
-			Name: record["official_name_en"],
-			Iso_3166_2: record["ISO3166-1-Alpha-2"],
-			Iso_3166_3: record["ISO3166-1-Alpha-3"],
-			CurrencyCode: record["ISO4217-currency_alphabetic_code"],
-			CurrencyNumberDecimals: numberDecimals,
-			CurrencyName: record["ISO4217-currency_name"],
-			Languages: strings.Split(record["Languages"], ","),
-			Continent: record["Continent"],
-		}
-	}))
+	countriesSource := readCsv("sources/countries.csv")
+	writeJson("raw/countries.json",
+		toObjects(countriesSource,
+			func(record map[string]string) bool {
+				return record["ISO3166-1-Alpha-2"] != "" && record["ISO3166-1-Alpha-3"] != ""
+			},
+			func(record map[string]string) interface{} {
+				return Country {
+					Name: record["official_name_en"],
+					Iso_3166_2: record["ISO3166-1-Alpha-2"],
+					Iso_3166_3: record["ISO3166-1-Alpha-3"],
+					Currency: record["ISO4217-currency_alphabetic_code"],
+					Languages: common.FilterNonEmpty(strings.Split(record["Languages"], ",")),
+					Continent: record["Continent"],
+					
+				}
+			},
+		),
+	)
 
-	// tmp = download("sources/continents.csv", "http://dev.maxmind.com/static/csv/codes/country_continent.csv")
+	writeJson("raw/currencies.json",
+		toObjects(countriesSource,
+			func(record map[string]string) bool {
+				return record["ISO4217-currency_name"] != "" && record["ISO4217-currency_alphabetic_code"] != ""
+			},
+			func(record map[string]string) interface{} {
+				n := record["ISO4217-currency_number_decimals"]
+				var numberDecimals int64
+				var err error
+				if (n != "") {
+					numberDecimals, err = strconv.ParseInt(n, 10, 0)
+					exitIfError(err, fmt.Sprintf("Error parsing int[%s]", n))
+				}
+
+				return Currency{
+					Name: record["ISO4217-currency_name"],
+					Iso_4217_3: record["ISO4217-currency_alphabetic_code"],
+					NumberDecimals: numberDecimals,
+				}
+			},
+		),
+	)
+
+	// download("sources/continents.csv", "http://dev.maxmind.com/static/csv/codes/country_continent.csv")
 }
 
 func exitIfError(err error, message string) {
@@ -177,10 +204,12 @@ func writeJson(target string, data interface{}) {
 	exitIfError(err, "Error renaming tmp file")
 }
 
-func toObjects(records []map[string]string, f convert) []interface{} {
+func toObjects(records []map[string]string, accepts acceptsFunction, f convertFunction) []interface{} {
 	var all []interface{}
 	for _, v := range records {
-		all = append(all, f(v))
+		if (accepts(v)) {
+			all = append(all, f(v))
+		}
 	}
 	return all
 }
