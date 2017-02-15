@@ -19,7 +19,6 @@ import (
 type Continent struct {
 	Name       string `json:"name"`
 	Code       string `json:"code"`
-	Countries  []string `json:"countries"`
 }
 
 type Country struct {
@@ -103,6 +102,21 @@ func ConvertToRaw() {
 			},
 		),
 	)
+
+
+	writeJson("raw/continents.json",
+		toObjects(readCsv("sources/continents.csv"),
+			func(record map[string]string) bool {
+				return record["continent code"] != "" && record["continent code"] != "--"
+			},
+			func(record map[string]string) interface{} {
+				return Continent{
+					Name: record["iso 3166 country"],
+					Code: record["continent code"],
+				}
+			},
+		),
+	)	
 }
 
 // readCsv Reads a CSV file, returning a list of map[string]string objects
