@@ -15,6 +15,7 @@ func DownloadAll() {
 	download("data/1-sources/languages.json", "https://raw.githubusercontent.com/bdswiss/country-language/master/data.json")
 	download("data/1-sources/countries.csv", "https://raw.githubusercontent.com/datasets/country-codes/master/data/country-codes.csv")
 	download("data/1-sources/continents.csv", "http://dev.maxmind.com/static/csv/codes/country_continent.csv")
+	download("data/1-sources/timezones.csv", "https://raw.githubusercontent.com/iambibhas/iambibhas.github.com/master/csv/timezones.csv")
 }
 
 // Download the provided url to a temp file, returning the file

@@ -48,78 +48,53 @@ type Region struct {
 }
 
 type Timezone struct {
-	Name        string `json:"name"`
-	Description string `json:"description"`
-	Offset      int `json:"offset"`
-}
-
-type CountryTimezone struct {
-	Code        string `json:"code"`
-	Timezones   []string `json:"timezones"`
+	Name                     string `json:"name"`
+	Description              string `json:"code"`
+	Offset                   int64  `json:"offset"`
 }
 
 func LoadContinents() []Continent {
 	continents := []Continent{}
-	err := json.Unmarshal(ReadFile("data/continents.json"), &continents)
+	err := json.Unmarshal(ReadFile("data/3-flow/continents.json"), &continents)
 	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshal continents: %s", err))
 	return continents
 }
 
 func LoadCountries() []Country {
 	countries := []Country{}
-	err := json.Unmarshal(ReadFile("data/countries.json"), &countries)
+	err := json.Unmarshal(ReadFile("data/3-flow/countries.json"), &countries)
 	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshal countries: %s", err))
 	return countries
 }
 
-func LoadUnsupportedCountryAndRegionCodes() []string {
-	codes := []string{}
-	err := json.Unmarshal(ReadFile("data/countries_regions_unsupported.json"), &codes)
-	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshal unsupported country and region codes: %s", err))
-	return codes
-}
-
-func LoadUnsupportedCurrencyCodes() []string {
-	codes := []string{}
-	err := json.Unmarshal(ReadFile("data/currencies_unsupported.json"), &codes)
-	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshal unsupported currency codes: %s", err))
-	return codes
-}
-
 func LoadCurrencies() []Currency {
 	currencies := []Currency{}
-	err := json.Unmarshal(ReadFile("data/currencies.json"), &currencies)
+	err := json.Unmarshal(ReadFile("data/3-flow/currencies.json"), &currencies)
 	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshal currencies: %s", err))
 	return currencies
 }
 
 func LoadLanguages() []Language {
 	languages := []Language{}
-	err := json.Unmarshal(ReadFile("data/languages.json"), &languages)
+	err := json.Unmarshal(ReadFile("data/3-flow/languages.json"), &languages)
 	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshal languages: %s", err))
 	return languages
 }
 
 func LoadTimezones() []Timezone {
 	timezones := []Timezone{}
-	err := json.Unmarshal(ReadFile("data/timezones.json"), &timezones)
+	err := json.Unmarshal(ReadFile("data/3-flow/timezones.json"), &timezones)
 	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshal timezones: %s", err))
 	return timezones
 }
 
 func LoadRegions() []Region {
 	regions := []Region{}
-	err := json.Unmarshal(ReadFile("data/regions.json"), &regions)
+	err := json.Unmarshal(ReadFile("data/3-flow/regions.json"), &regions)
 	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshal regions: %s", err))
 	return regions
 }
 
-func LoadCountryTimezones() []CountryTimezone {
-	countryTimezones := []CountryTimezone{}
-	err := json.Unmarshal(ReadFile("data/country_timezones.json"), &countryTimezones)
-	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshal country timezones: %s", err))
-	return countryTimezones
-}
 
 func ReadFile(path string) []byte {
 	file, err := ioutil.ReadFile(path)
@@ -140,19 +115,6 @@ func LanguagesForCountry(languages []Language, iso31663 string) []string {
 	for _, l := range(languages) {
 		if Contains(l.Countries, iso31663) && !Contains(codes, l.Iso_639_2) {
 			codes = append(codes, l.Iso_639_2)
-		}
-	}
-	sort.Strings(codes)
-
-	return codes
-}
-
-func TimezonesForCountry(countryTimezones []CountryTimezone, iso31663 string) []string {
-	codes := []string{}
-
-	for _, ctz := range(countryTimezones) {
-		if ctz.Code == iso31663 {
-			codes = ctz.Timezones
 		}
 	}
 	sort.Strings(codes)

@@ -42,6 +42,12 @@ type CleansedLanguage struct {
 	Countries                []string `json:"countries"`
 }
 
+type CleansedTimezone struct {
+	Code                     string `json:"code"`
+	Name                     string `json:"name"`
+	OffsetSeconds            int64  `json:"offset_seconds"`
+}
+
 type IncomingLanguages struct {
 	LanguageFamilies    []string `json:"languageFamilies"`
 	Languages           []IncomingLanguage `json:"languages"`
@@ -52,7 +58,6 @@ type IncomingLanguage struct {
 	Names               []string `json:"name"`
 	Countries           []string `json:"countries"`
 }
-
 
 type convertFunction func(records map[string]string) interface{}
 type acceptsFunction func(records map[string]string) bool
@@ -112,6 +117,27 @@ func Cleanse() {
 				return CleansedContinent{
 					Name: record["iso 3166 country"],
 					Code: record["continent code"],
+				}
+			},
+		),
+	)	
+
+	writeJson("data/2-cleansed/timezones.json",
+		toObjects(readCsv("data/1-sources/timezones.csv"),
+			func(record map[string]string) bool {
+				return record["Abbr."] != "" && record["Name"] != "" && record["offset_seconds"] != ""
+			},
+			func(record map[string]string) interface{} {
+				value := record["offset_seconds"]
+				var offsetSeconds int64
+				var err error
+				offsetSeconds, err = strconv.ParseInt(value, 10, 0)
+				util.ExitIfError(err, fmt.Sprintf("Error parsing int[%s]", value))
+
+				return CleansedTimezone{
+					Code: record["Abbr."],
+					Name: record["Name"],
+					OffsetSeconds: offsetSeconds,
 				}
 			},
 		),

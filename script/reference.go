@@ -8,6 +8,7 @@ package main
 import (
 	"./download"
 	"./cleansed"
+	"./flow"
 	"github.com/codegangsta/cli"
 	"os"
 )
@@ -26,11 +27,21 @@ func main() {
 				return nil
 			},
 		},
+
 		{
 			Name:  "cleanse",
 			Usage: "Cleanses downloaded files, writing all as json to 'data/1-cleansed' directory",
 			Action: func(c *cli.Context) error {
 				cleansed.Cleanse()
+				return nil
+			},
+		},
+
+		{
+			Name:  "flow",
+			Usage: "Pulls together all the cleansed data into the final flow reference data. Writes to 'data/3-flow' directory",
+			Action: func(c *cli.Context) error {
+				flow.Generate()
 				return nil
 			},
 		},
