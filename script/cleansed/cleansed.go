@@ -36,7 +36,7 @@ type CleansedCurrency struct {
 	NumberDecimals           int64  `json:"number_decimals"`
 }
 
-type Language struct {
+type CleansedLanguage struct {
 	Name                     string `json:"name"`
 	Iso_639_2                string `json:"iso_639_2"`
 	Countries                []string `json:"countries"`
@@ -154,32 +154,17 @@ func readCsv(file string) []map[string]string {
 	return all
 }
 
-/**
- * Filter to languages that have at least one country assigned to them
- */
-func filterLanguages(languages []common.Language) []common.Language {
-	final := []common.Language{}
-	
-	for _, l := range(languages) {
-		if (l.Countries != nil && len(l.Countries) > 0) {
-			final = append(final, l)
-		}
-	}
-
-	return final
-}
-
-func readLanguages(file string) []common.Language {
+func readLanguages(file string) []CleansedLanguage {
 	lang := IncomingLanguages{}
 	err := json.Unmarshal(common.ReadFile(file), &lang)
 	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshall languages: %s", err))
 
-	languages := []common.Language{}
+	languages := []CleansedLanguage{}
 	
 	for _, l := range(lang.Languages) {
 		name := l.Names[0]
 		if len(l.Iso_639_2) > 0 && name != "" {
-			languages = append(languages, common.Language{
+			languages = append(languages, CleansedLanguage{
 				Name: name,
 				Iso_639_2: l.Iso_639_2,
 				Countries: l.Countries,
@@ -188,6 +173,21 @@ func readLanguages(file string) []common.Language {
 	}
 
 	return languages
+}
+
+/**
+ * filterLanguages takes only the languages that have at least one country assigned to them
+ */
+func filterLanguages(languages []CleansedLanguage) []CleansedLanguage {
+	final := []CleansedLanguage{}
+	
+	for _, l := range(languages) {
+		if (l.Countries != nil && len(l.Countries) > 0) {
+			final = append(final, l)
+		}
+	}
+
+	return final
 }
 
 func writeJson(target string, data interface{}) {
