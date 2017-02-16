@@ -350,3 +350,11 @@ func LoadTimezones() []Timezone {
 	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshal timezones: %s", err))
 	return timezones
 }
+
+func LoadCountryTimezones() []CountryTimezone {
+	countryTimezones := []CountryTimezone{}
+	err := json.Unmarshal(common.ReadFile("data/2-cleansed/country-timezones.json"), &countryTimezones)
+	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshal country timezones: %s", err))
+	return countryTimezones
+}
+
