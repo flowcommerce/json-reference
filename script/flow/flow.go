@@ -13,12 +13,20 @@ import (
 func Generate() {
 	continents := cleansed.LoadContinents()
 	countries := cleansed.LoadCountries()
+	currencies := cleansed.LoadCurrencies()
 	languages := cleansed.LoadLanguages()
 
-	common.WriteJson("data/3-flow/continents.json", commonContinents(continents, countries))
-	common.WriteJson("data/3-flow/languages.json", commonLanguages(languages, countries))
+	
+	write("data/3-flow/continents.json", commonContinents(continents, countries))
+	write("data/3-flow/languages.json", commonLanguages(languages, countries))
+	write("data/3-flow/currencies.json", commonCurrencies(currencies))
 }
 
+func write(target string, objects interface{}) {
+	fmt.Printf("Writing %s\n", target)
+	common.WriteJson(target, objects)
+}
+	
 func commonContinents(continents []cleansed.Continent, countries []cleansed.Country) []common.Continent {
 	all := make([]common.Continent, len(continents))
 	for _, c := range(continents) {
@@ -52,12 +60,23 @@ func commonLanguages(languages []cleansed.Language, countries []cleansed.Country
 			theseCountries = append(theseCountries, country.Iso_3166_3)
 		}
 		sort.Strings(theseCountries)
-		fmt.Printf("%s theseCountries: %s\n", l.Name, theseCountries)
 
 		all = append(all, common.Language{
 			Name: l.Name,
 			Iso_639_2: l.Iso_639_2,
 			Countries: theseCountries,
+		})
+	}
+	return all
+}
+
+func commonCurrencies(currencies []cleansed.Currency) []common.Currency {
+	all := make([]common.Currency, len(currencies))
+	for _, c := range(currencies) {
+		all = append(all, common.Currency{
+			Name: c.Name,
+			Iso_4217_3: c.Iso_4217_3,
+			NumberDecimals: c.NumberDecimals,
 		})
 	}
 	return all

@@ -9,6 +9,7 @@ import (
 	"./download"
 	"./cleansed"
 	"./flow"
+	"fmt"
 	"github.com/codegangsta/cli"
 	"os"
 )
@@ -19,6 +20,27 @@ func main() {
 	app.Usage = "Flow Reference Library"
 
 	app.Commands = []cli.Command{
+		{
+			Name:  "all",
+			Usage: "Runs all scripts",
+			Action: func(c *cli.Context) error {
+				fmt.Println("Downloading data...")
+				fmt.Println("------------------------------")
+				download.DownloadAll()
+
+				fmt.Println("\nCleansing data...")
+				fmt.Println("------------------------------")
+				cleansed.Cleanse()
+
+				fmt.Println("\nGenerating flow models...")
+				fmt.Println("------------------------------")
+				flow.Generate()
+
+				fmt.Println("\nDone\n")
+				return nil
+			},
+		},
+
 		{
 			Name:  "download",
 			Usage: "Downloads source data from the web, storing in the local 'data/1-sources' directory",

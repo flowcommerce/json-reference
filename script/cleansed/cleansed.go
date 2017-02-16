@@ -35,7 +35,7 @@ type Country struct {
 type Currency struct {
 	Name                     string `json:"name"`
 	Iso_4217_3               string `json:"iso_4217_3"`
-	NumberDecimals           int64  `json:"number_decimals"`
+	NumberDecimals           int    `json:"number_decimals"`
 }
 
 type Language struct {
@@ -103,7 +103,7 @@ func Cleanse() {
 				return Currency{
 					Name: record["ISO4217-currency_name"],
 					Iso_4217_3: record["ISO4217-currency_alphabetic_code"],
-					NumberDecimals: numberDecimals,
+					NumberDecimals: int(numberDecimals),
 				}
 			},
 		),
