@@ -16,12 +16,17 @@ import (
         "strings"
 )
 
-type CleansedContinent struct {
-	Name       string `json:"name"`
-	Code       string `json:"code"`
+type Continent struct {
+	Code              string `json:"code"`
+	Name              string `json:"name"`
 }
 
-type CleansedCountry struct {
+type CountryContinent struct {
+	ContinentCode     string `json:"continent"`
+	CountryCode       string `json:"country"`
+}
+
+type Country struct {
 	Name                     string `json:"name"`
 	Continent                string `json:"continent"`
 	Iso_3166_2               string `json:"iso_3166_2"`
@@ -30,19 +35,19 @@ type CleansedCountry struct {
 	Languages                []string `json:"languages"`
 }
 
-type CleansedCurrency struct {
+type Currency struct {
 	Name                     string `json:"name"`
 	Iso_4217_3               string `json:"iso_4217_3"`
 	NumberDecimals           int64  `json:"number_decimals"`
 }
 
-type CleansedLanguage struct {
+type Language struct {
 	Name                     string `json:"name"`
 	Iso_639_2                string `json:"iso_639_2"`
 	Countries                []string `json:"countries"`
 }
 
-type CleansedTimezone struct {
+type Timezone struct {
 	Code                     string `json:"code"`
 	Name                     string `json:"name"`
 	OffsetSeconds            int64  `json:"offset_seconds"`
@@ -72,7 +77,7 @@ func Cleanse() {
 				return record["ISO3166-1-Alpha-2"] != "" && record["ISO3166-1-Alpha-3"] != ""
 			},
 			func(record map[string]string) interface{} {
-				return CleansedCountry {
+				return Country {
 					Name: record["official_name_en"],
 					Iso_3166_2: record["ISO3166-1-Alpha-2"],
 					Iso_3166_3: record["ISO3166-1-Alpha-3"],
@@ -99,7 +104,7 @@ func Cleanse() {
 					util.ExitIfError(err, fmt.Sprintf("Error parsing int[%s]", n))
 				}
 
-				return CleansedCurrency{
+				return Currency{
 					Name: record["ISO4217-currency_name"],
 					Iso_4217_3: record["ISO4217-currency_alphabetic_code"],
 					NumberDecimals: numberDecimals,
@@ -114,9 +119,9 @@ func Cleanse() {
 				return record["continent code"] != "" && record["continent code"] != "--"
 			},
 			func(record map[string]string) interface{} {
-				return CleansedContinent{
-					Name: record["iso 3166 country"],
-					Code: record["continent code"],
+				return CountryContinent{
+					ContinentCode: record["continent code"],
+					CountryCode: record["iso 3166 country"],
 				}
 			},
 		),
@@ -134,7 +139,7 @@ func Cleanse() {
 				offsetSeconds, err = strconv.ParseInt(value, 10, 0)
 				util.ExitIfError(err, fmt.Sprintf("Error parsing int[%s]", value))
 
-				return CleansedTimezone{
+				return Timezone{
 					Code: record["Abbr."],
 					Name: record["Name"],
 					OffsetSeconds: offsetSeconds,
@@ -180,17 +185,17 @@ func readCsv(file string) []map[string]string {
 	return all
 }
 
-func readLanguages(file string) []CleansedLanguage {
+func readLanguages(file string) []Language {
 	lang := IncomingLanguages{}
 	err := json.Unmarshal(common.ReadFile(file), &lang)
 	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshall languages: %s", err))
 
-	languages := []CleansedLanguage{}
+	languages := []Language{}
 	
 	for _, l := range(lang.Languages) {
 		name := l.Names[0]
 		if len(l.Iso_639_2) > 0 && name != "" {
-			languages = append(languages, CleansedLanguage{
+			languages = append(languages, Language{
 				Name: name,
 				Iso_639_2: l.Iso_639_2,
 				Countries: l.Countries,
@@ -204,8 +209,8 @@ func readLanguages(file string) []CleansedLanguage {
 /**
  * filterLanguages takes only the languages that have at least one country assigned to them
  */
-func filterLanguages(languages []CleansedLanguage) []CleansedLanguage {
-	final := []CleansedLanguage{}
+func filterLanguages(languages []Language) []Language {
+	final := []Language{}
 	
 	for _, l := range(languages) {
 		if (l.Countries != nil && len(l.Countries) > 0) {
@@ -242,3 +247,70 @@ func toObjects(records []map[string]string, accepts acceptsFunction, f convertFu
 	return all
 }
 
+func LoadCountryContinents() []CountryContinent {
+	countryContinents := []CountryContinent{}
+	err := json.Unmarshal(common.ReadFile("data/2-cleansed/country-continents.json"), &countryContinents)
+	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshal country continents: %s", err))
+	return countryContinents
+}
+
+func LoadContinents() []Continent {
+	return []Continent{
+		Continent{
+			Name: "Africa",
+			Code: "AFR",
+		},
+		Continent{
+			Name: "Antarctica",
+			Code: "ANT",
+		},
+		Continent{
+			Name: "Asia",
+			Code: "ASI",
+		},
+		Continent{
+			Name: "Europe",
+			Code: "EUR",
+		},
+		Continent{
+			Name: "North America",
+			Code: "NOA",
+		},
+		Continent{
+			Name: "Oceania",
+			Code: "OCE",
+		},
+		Continent{
+			Name: "South America",
+			Code: "SOA",
+		},
+	}
+}
+
+func LoadCountries() []Country {
+	countries := []Country{}
+	err := json.Unmarshal(common.ReadFile("data/2-cleansed/countries.json"), &countries)
+	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshal countries: %s", err))
+	return countries
+}
+
+func LoadCurrencies() []Currency {
+	currencies := []Currency{}
+	err := json.Unmarshal(common.ReadFile("data/2-cleansed/currencies.json"), &currencies)
+	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshal currencies: %s", err))
+	return currencies
+}
+
+func LoadLanguages() []Language {
+	languages := []Language{}
+	err := json.Unmarshal(common.ReadFile("data/2-cleansed/languages.json"), &languages)
+	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshal languages: %s", err))
+	return languages
+}
+
+func LoadTimezones() []Timezone {
+	timezones := []Timezone{}
+	err := json.Unmarshal(common.ReadFile("data/2-cleansed/timezones.json"), &timezones)
+	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshal timezones: %s", err))
+	return timezones
+}
