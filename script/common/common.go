@@ -144,7 +144,7 @@ func WriteJson(target string, data interface{}) {
 	util.ExitIfError(err, "Error creating temporary file")
 	defer tmp.Close()
 
-	v, err := json.MarshalIndent(data, "", "  ")
+	v, err := json.MarshalIndent(&data, "", "  ")
 	util.ExitIfError(err, "Error marshalling record to json")
 
 	w := bufio.NewWriter(tmp)
