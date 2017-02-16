@@ -150,9 +150,9 @@ func Cleanse() {
 	)	
 
 	writeJson("data/2-cleansed/country-timezones.json",
-		toObjects(readCsvWithHeaders("data/original/country-timezones.csv", []string { "country", "timezone" }),
+		toObjects(readCsv("data/original/country-timezones.csv"),
 			func(record map[string]string) bool {
-				return record["country"] != "" && record["timezone"] != "--"
+				return record["country"] != "" && record["timezone"] != ""
 			},
 			func(record map[string]string) interface{} {
 				return CountryTimezone{
@@ -226,6 +226,7 @@ func toMap(headers []string, record []string) map[string]string {
 			row[headers[i]] = v
 		}
 	}
+	fmt.Println(row)
 	return row
 }
 
