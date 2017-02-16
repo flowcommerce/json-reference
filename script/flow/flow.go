@@ -10,16 +10,25 @@ import (
 	"sort"
 )
 
-func Generate() {
-	continents := cleanse.LoadContinents()
-	countries := cleanse.LoadCountries()
-	currencies := cleanse.LoadCurrencies()
-	languages := cleanse.LoadLanguages()
-
+type CleansedDataSet struct {
+	Continents []cleanse.Continent
+	Countries []cleanse.Country
+	Currencies []cleanse.Currency
+	Languages []cleanse.Language
+}
 	
-	writeJson("data/3-flow/continents.json", commonContinents(continents, countries))
-	writeJson("data/3-flow/languages.json", commonLanguages(languages, countries))
-	writeJson("data/3-flow/currencies.json", commonCurrencies(currencies))
+func Generate() {
+	data := CleansedDataSet{
+		Continents: cleanse.LoadContinents(),
+		Countries: cleanse.LoadCountries(),
+		Currencies: cleanse.LoadCurrencies(),
+		Languages: cleanse.LoadLanguages(),
+	}
+
+	writeJson("data/3-flow/continents.json", commonContinents(data))
+	writeJson("data/3-flow/languages.json", commonLanguages(data))
+	writeJson("data/3-flow/currencies.json", commonCurrencies(data))
+	writeJson("data/3-flow/countries.json", commonCountries(data))
 }
 
 func writeJson(target string, objects interface{}) {
@@ -27,13 +36,13 @@ func writeJson(target string, objects interface{}) {
 	common.WriteJson(target, objects)
 }
 	
-func commonContinents(continents []cleanse.Continent, countries []cleanse.Country) []common.Continent {
-	all := make([]common.Continent, len(continents))
-	for _, c := range(continents) {
+func commonContinents(data CleansedDataSet) []common.Continent {
+	all := make([]common.Continent, len(data.Continents))
+	for _, c := range(data.Continents) {
 		var theseCountries []string
-		for _, country := range(countries) {
+		for _, country := range(data.Countries) {
 			if (country.Continent != "") {
-				continent := findContinentByCode(continents, country.Continent)
+				continent := findContinentByCode(data.Continents, country.Continent)
 				if (c == continent) {
 					theseCountries = append(theseCountries, country.Iso_3166_3)
 				}
@@ -50,13 +59,13 @@ func commonContinents(continents []cleanse.Continent, countries []cleanse.Countr
 	return all
 }
 
-func commonLanguages(languages []cleanse.Language, countries []cleanse.Country) []common.Language {
-	all := make([]common.Language, len(languages))
-	for _, l := range(languages) {
+func commonLanguages(data CleansedDataSet) []common.Language {
+	all := make([]common.Language, len(data.Languages))
+	for _, l := range(data.Languages) {
 		var theseCountries []string
 
 		for _, countryCode := range(l.Countries) {
-			country := findCountryByCode(countries, countryCode)
+			country := findCountryByCode(data.Countries, countryCode)
 			theseCountries = append(theseCountries, country.Iso_3166_3)
 		}
 		sort.Strings(theseCountries)
@@ -70,7 +79,7 @@ func commonLanguages(languages []cleanse.Language, countries []cleanse.Country) 
 	return all
 }
 
-func commonCurrencies(currencies []cleanse.Currency) []common.Currency {
+func commonCurrencies(data CleansedDataSet) []common.Currency {
 	unsupported := []string {
 		"AFN",
 		"AOA",
@@ -95,8 +104,8 @@ func commonCurrencies(currencies []cleanse.Currency) []common.Currency {
 		"ZWL",
 	}
 	
-	all := make([]common.Currency, len(currencies))
-	for _, c := range(currencies) {
+	all := make([]common.Currency, len(data.Currencies))
+	for _, c := range(data.Currencies) {
 		if !common.Contains(unsupported, c.Iso_4217_3) {
 			all = append(all, common.Currency{
 				Name: c.Name,
@@ -106,6 +115,66 @@ func commonCurrencies(currencies []cleanse.Currency) []common.Currency {
 		}
 	}
 	return all
+}
+
+func commonCountries(data CleansedDataSet) []common.Country {
+	unsupported := []string {
+		[
+			"AFG",
+			"AGO",
+			"ATF",
+			"BDI",
+			"BLR",
+			"BVT",
+			"CCK",
+			"COD",
+			"CUB",
+			"CXR",
+			"ERI",
+			"FRO",
+			"HMD",
+			"IOT",
+			"IRN",
+			"IRQ",
+			"LBR",
+			"MDG",
+			"MKD",
+			"MMR",
+			"MOZ",
+			"PSE",
+			"SDN",
+			"SGS",
+			"SUR",
+			"SYR",
+			"TJK",
+			"TKM",
+			"UMI",
+			"ZWE"
+		]
+	
+	all := make([]common.Country, len(data.Countries))
+	for _, c := range(data.Countries) {
+		if !common.Contains(unsupported, c.Iso_3166_3) {
+			languages := make([]string)
+			for _, l := range(data.Languages) {
+				if common.Contains(l.Countries, c.Iso_3166_3) {
+					languages = append(languages, c.Iso_3166_3)
+				}
+			}
+		
+			all = append(all, common.Country{
+				Name: c.Name,
+				Iso_3166_2: c.Iso_3166_2,
+				Iso_3166_3: c.Iso_3166_3,
+				MeasurementSystem: xxx,
+				DefaultCurrency: xxx,
+				Languages: languages,
+				Timezones: timezones,
+
+			})
+		}
+	}
+        return all
 }
 
 func findCountryByCode(countries []cleanse.Country, code string) cleanse.Country {
