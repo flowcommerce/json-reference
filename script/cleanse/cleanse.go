@@ -1,4 +1,4 @@
-package cleansed
+package cleanse
 
 // Reads source files, cleansing and writing all as json to data/1-cleansed
 

@@ -7,7 +7,7 @@ package main
 
 import (
 	"./download"
-	"./cleansed"
+	"./cleanse"
 	"./flow"
 	"fmt"
 	"github.com/codegangsta/cli"
@@ -30,7 +30,7 @@ func main() {
 
 				fmt.Println("\nCleansing data...")
 				fmt.Println("------------------------------")
-				cleansed.Cleanse()
+				cleanse.Cleanse()
 
 				fmt.Println("\nGenerating flow models...")
 				fmt.Println("------------------------------")
@@ -52,16 +52,16 @@ func main() {
 
 		{
 			Name:  "cleanse",
-			Usage: "Cleanses downloaded files, writing all as json to 'data/2-cleansed' directory",
+			Usage: "Cleanses downloaded files, writing all as json to 'data/2-cleanse' directory",
 			Action: func(c *cli.Context) error {
-				cleansed.Cleanse()
+				cleanse.Cleanse()
 				return nil
 			},
 		},
 
 		{
 			Name:  "flow",
-			Usage: "Pulls together all the cleansed data into the final flow reference data. Writes to 'data/3-flow' directory",
+			Usage: "Pulls together all the cleanse data into the final flow reference data. Writes to 'data/3-flow' directory",
 			Action: func(c *cli.Context) error {
 				flow.Generate()
 				return nil

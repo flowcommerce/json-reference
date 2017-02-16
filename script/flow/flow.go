@@ -3,7 +3,7 @@ package flow
 // Reads all cleansed data, transforming into the final Flow format we desire
 
 import (
-	"../cleansed"
+	"../cleanse"
 	"../common"
 	"fmt"
 	"os"
@@ -11,10 +11,10 @@ import (
 )
 
 func Generate() {
-	continents := cleansed.LoadContinents()
-	countries := cleansed.LoadCountries()
-	currencies := cleansed.LoadCurrencies()
-	languages := cleansed.LoadLanguages()
+	continents := cleanse.LoadContinents()
+	countries := cleanse.LoadCountries()
+	currencies := cleanse.LoadCurrencies()
+	languages := cleanse.LoadLanguages()
 
 	
 	write("data/3-flow/continents.json", commonContinents(continents, countries))
@@ -27,7 +27,7 @@ func write(target string, objects interface{}) {
 	common.WriteJson(target, objects)
 }
 	
-func commonContinents(continents []cleansed.Continent, countries []cleansed.Country) []common.Continent {
+func commonContinents(continents []cleanse.Continent, countries []cleanse.Country) []common.Continent {
 	all := make([]common.Continent, len(continents))
 	for _, c := range(continents) {
 		var theseCountries []string
@@ -50,7 +50,7 @@ func commonContinents(continents []cleansed.Continent, countries []cleansed.Coun
 	return all
 }
 
-func commonLanguages(languages []cleansed.Language, countries []cleansed.Country) []common.Language {
+func commonLanguages(languages []cleanse.Language, countries []cleanse.Country) []common.Language {
 	all := make([]common.Language, len(languages))
 	for _, l := range(languages) {
 		var theseCountries []string
@@ -70,7 +70,7 @@ func commonLanguages(languages []cleansed.Language, countries []cleansed.Country
 	return all
 }
 
-func commonCurrencies(currencies []cleansed.Currency) []common.Currency {
+func commonCurrencies(currencies []cleanse.Currency) []common.Currency {
 	all := make([]common.Currency, len(currencies))
 	for _, c := range(currencies) {
 		all = append(all, common.Currency{
@@ -82,7 +82,7 @@ func commonCurrencies(currencies []cleansed.Currency) []common.Currency {
 	return all
 }
 
-func findCountryByCode(countries []cleansed.Country, code string) cleansed.Country {
+func findCountryByCode(countries []cleanse.Country, code string) cleanse.Country {
 	for _, c := range(countries) {
 		if c.Iso_3166_2 == code || c.Iso_3166_3 == code {
 			return c
@@ -90,10 +90,10 @@ func findCountryByCode(countries []cleansed.Country, code string) cleansed.Count
 	}
 	fmt.Printf("Invalid country code: %s\n", code)
 	os.Exit(1)
-	return cleansed.Country{}
+	return cleanse.Country{}
 }
 
-func findContinentByCode(continents []cleansed.Continent, code string) cleansed.Continent {
+func findContinentByCode(continents []cleanse.Continent, code string) cleanse.Continent {
 	for _, c := range(continents) {
 		if c.Code2 == code || c.Code3 == code {
 			return c
@@ -101,10 +101,10 @@ func findContinentByCode(continents []cleansed.Continent, code string) cleansed.
 	}
 	fmt.Printf("Invalid continent code: %s\n", code)
 	os.Exit(1)
-	return cleansed.Continent{}
+	return cleanse.Continent{}
 }
 
-func findLanguageByCode(languages []cleansed.Language, code string) cleansed.Language {
+func findLanguageByCode(languages []cleanse.Language, code string) cleanse.Language {
 	for _, c := range(languages) {
 		if c.Iso_639_2 == code {
 			return c
@@ -112,5 +112,5 @@ func findLanguageByCode(languages []cleansed.Language, code string) cleansed.Lan
 	}
 	fmt.Printf("Invalid language code: %s\n", code)
 	os.Exit(1)
-	return cleansed.Language{}
+	return cleanse.Language{}
 }
