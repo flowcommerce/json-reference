@@ -173,14 +173,20 @@ func commonCountries(data CleansedDataSet) []common.Country {
 	var all []common.Country
 	for _, c := range(data.Countries) {
 		if !common.Contains(unsupported, c.Iso_3166_3) {
-			var languages []string
+			languages := []string {}
 			for _, l := range(data.Languages) {
 				if common.Contains(l.Countries, c.Iso_3166_3) {
 					languages = append(languages, c.Iso_3166_3)
 				}
 			}
 		
-			var timezones []string
+			timezones := []string {}
+			for _, ct := range(data.CountryTimezones) {
+				if ct.CountryCode == c.Iso_3166_2 {
+					timezones = append(timezones, c.Iso_3166_3)
+				}
+			}
+		
 
 			all = append(all, common.Country{
 				Name: c.Name,
