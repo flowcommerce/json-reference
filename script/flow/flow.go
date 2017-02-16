@@ -21,6 +21,7 @@ func commonContinents(continents []cleansed.Continent, countries []cleansed.Coun
 	for _, c := range(continents) {
 		var theseCountries []string
 		for _, country := range(countries) {
+			fmt.Printf("%s =?= %s\n", c, country.Continent, c.Code)
 			if (country.Continent == c.Code) {
 				theseCountries = append(theseCountries, country.Iso_3166_3)
 			}
