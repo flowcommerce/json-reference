@@ -150,6 +150,7 @@ func WriteJson(target string, data interface{}) {
 	w := bufio.NewWriter(tmp)
 	_, err = w.Write(v)
 	util.ExitIfError(err, "Error writing to tmp file")
+	w.Flush()
 
 	fi, err := tmp.Stat()
 	util.ExitIfError(err, "Error checking file size")
