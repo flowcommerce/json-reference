@@ -17,12 +17,12 @@ func Generate() {
 	languages := cleanse.LoadLanguages()
 
 	
-	write("data/3-flow/continents.json", commonContinents(continents, countries))
-	write("data/3-flow/languages.json", commonLanguages(languages, countries))
-	write("data/3-flow/currencies.json", commonCurrencies(currencies))
+	writeJson("data/3-flow/continents.json", commonContinents(continents, countries))
+	writeJson("data/3-flow/languages.json", commonLanguages(languages, countries))
+	writeJson("data/3-flow/currencies.json", commonCurrencies(currencies))
 }
 
-func write(target string, objects interface{}) {
+func writeJson(target string, objects interface{}) {
 	fmt.Printf("Writing %s\n", target)
 	common.WriteJson(target, objects)
 }

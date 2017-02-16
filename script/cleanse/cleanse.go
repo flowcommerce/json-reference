@@ -65,10 +65,10 @@ type convertFunction func(records map[string]string) interface{}
 type acceptsFunction func(records map[string]string) bool
 
 func Cleanse() {
-	common.WriteJson("data/2-cleansed/languages.json", readLanguages("data/1-sources/languages.json"))
+	writeJson("data/2-cleansed/languages.json", readLanguages("data/1-sources/languages.json"))
 
 	countriesSource := readCsv("data/1-sources/countries.csv")
-	common.WriteJson("data/2-cleansed/countries.json",
+	writeJson("data/2-cleansed/countries.json",
 		toObjects(countriesSource,
 			func(record map[string]string) bool {
 				return record["ISO3166-1-Alpha-2"] != "" && record["ISO3166-1-Alpha-3"] != ""
@@ -86,7 +86,7 @@ func Cleanse() {
 		),
 	)
 
-	common.WriteJson("data/2-cleansed/currencies.json",
+	writeJson("data/2-cleansed/currencies.json",
 		toObjects(countriesSource,
 			func(record map[string]string) bool {
 				return record["ISO4217-currency_name"] != "" && record["ISO4217-currency_alphabetic_code"] != ""
@@ -109,7 +109,7 @@ func Cleanse() {
 		),
 	)
 
-	common.WriteJson("data/2-cleansed/continents.json",
+	writeJson("data/2-cleansed/continents.json",
 		toObjects(readCsv("data/1-sources/continents.csv"),
 			func(record map[string]string) bool {
 				return record["continent code"] != "" && record["continent code"] != "--"
@@ -123,7 +123,7 @@ func Cleanse() {
 		),
 	)	
 
-	common.WriteJson("data/2-cleansed/timezones.json",
+	writeJson("data/2-cleansed/timezones.json",
 		toObjects(readCsv("data/1-sources/timezones.csv"),
 			func(record map[string]string) bool {
 				return record["Abbr."] != "" && record["Name"] != "" && record["offset_seconds"] != ""
@@ -144,9 +144,14 @@ func Cleanse() {
 		),
 	)	
 
-	common.WriteJson("data/2-cleansed/languages.json", filterLanguages(readLanguages("data/1-sources/languages.json")))
+	writeJson("data/2-cleansed/languages.json", filterLanguages(readLanguages("data/1-sources/languages.json")))
 }
 
+func writeJson(target string, objects interface{}) {
+	fmt.Printf("Writing %s\n", target)
+	common.WriteJson(target, objects)
+}
+	
 // readCsv Reads a CSV file, returning a list of map[string]string objects
 func readCsv(file string) []map[string]string {
 	input, err := os.Open(file)
