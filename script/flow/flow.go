@@ -183,17 +183,23 @@ func commonCountries(data CleansedDataSet) []common.Country {
 			timezones := []string {}
 			for _, ct := range(data.CountryTimezones) {
 				if ct.CountryCode == c.Iso_3166_2 {
-					timezones = append(timezones, c.Iso_3166_3)
+					tz := findTimezoneByName(data.Timezones, ct.TimezoneCode)
+					timezones = append(timezones, tz.Name)
 				}
 			}
-		
+
+			var defaultCurrency string
+			if c.Currency != "" {
+				defaultCurrency = findCurrencyByCode(data.Currencies, c.Currency).Iso_4217_3
+				
+			}
 
 			all = append(all, common.Country{
-				Name: c.Name,
+				Name: formatCountryName(c.Name),
 				Iso_3166_2: c.Iso_3166_2,
 				Iso_3166_3: c.Iso_3166_3,
-				MeasurementSystem: "", // TODO
-				DefaultCurrency: "", // TODO
+				MeasurementSystem: getMeasurementSystem(c.Iso_3166_3),
+				DefaultCurrency: defaultCurrency,
 				Languages: languages,
 				Timezones: timezones,
 
@@ -212,6 +218,17 @@ func findCountryByCode(countries []cleanse.Country, code string) cleanse.Country
 	fmt.Printf("Invalid country code: %s\n", code)
 	os.Exit(1)
 	return cleanse.Country{}
+}
+
+func findCurrencyByCode(currencies []cleanse.Currency, code string) cleanse.Currency {
+	for _, c := range(currencies) {
+		if c.Iso_4217_3 == code {
+			return c
+		}
+	}
+	fmt.Printf("Invalid currency code: %s\n", code)
+	os.Exit(1)
+	return cleanse.Currency{}
 }
 
 func findContinentByCode(continents []cleanse.Continent, code string) cleanse.Continent {
@@ -234,4 +251,36 @@ func findLanguageByCode(languages []cleanse.Language, code string) cleanse.Langu
 	fmt.Printf("Invalid language code: %s\n", code)
 	os.Exit(1)
 	return cleanse.Language{}
+}
+
+func findTimezoneByName(timezones []cleanse.Timezone, name string) cleanse.Timezone {
+	for _, c := range(timezones) {
+		if c.Name == name {
+			return c
+		}
+	}
+	fmt.Printf("Invalid timezone name: %s\n", name)
+	os.Exit(1)
+	return cleanse.Timezone{}
+}
+
+func getMeasurementSystem(iso_3166_3 string) string {
+	if iso_3166_3 == "USA" || iso_3166_3 == "LBR" || iso_3166_3 == "MMR" {
+		return "imperial"
+	}
+	return "metric"
+}
+
+func formatCountryName(name string) string {
+	switch name {
+	case "US": {
+		return "United States of America"
+	}
+	case "UK": {
+		return "United Kingdom"
+	}
+	default: {
+		return name
+	}
+	}
 }
