@@ -47,7 +47,7 @@ type Language struct {
 type Timezone struct {
 	Name                     string `json:"name"`
 	Description              string `json:"description"`
-	OffsetSeconds            int64  `json:"offset_seconds"`
+	Offset                   int    `json:"offset"`
 }
 
 type CountryTimezone struct {
@@ -128,26 +128,7 @@ func Cleanse() {
 		),
 	)	
 
-	writeJson("data/2-cleansed/timezones.json",
-		toObjects(readCsv("data/1-sources/timezones.csv"),
-			func(record map[string]string) bool {
-				return record["Abbr."] != "" && record["Name"] != "" && record["offset_seconds"] != ""
-			},
-			func(record map[string]string) interface{} {
-				value := record["offset_seconds"]
-				var offsetSeconds int64
-				var err error
-				offsetSeconds, err = strconv.ParseInt(value, 10, 0)
-				util.ExitIfError(err, fmt.Sprintf("Error parsing int[%s]", value))
-
-				return Timezone{
-					Name: record["Abbr."],
-					Description: record["Name"],
-					OffsetSeconds: offsetSeconds,
-				}
-			},
-		),
-	)	
+	writeJson("data/2-cleansed/timezones.json", loadTimezonesFromPath("data/original/timezones.json"))
 
 	writeJson("data/2-cleansed/country-timezones.json",
 		toObjects(readCsv("data/original/country-timezones.csv"),
@@ -226,7 +207,7 @@ func toMap(headers []string, record []string) map[string]string {
 			row[headers[i]] = v
 		}
 	}
-	fmt.Println(row)
+
 	return row
 }
 
@@ -346,8 +327,12 @@ func LoadLanguages() []Language {
 }
 
 func LoadTimezones() []Timezone {
+	return loadTimezonesFromPath("data/2-cleansed/timezones.json")
+}
+
+func loadTimezonesFromPath(path string) []Timezone {
 	timezones := []Timezone{}
-	err := json.Unmarshal(common.ReadFile("data/2-cleansed/timezones.json"), &timezones)
+	err := json.Unmarshal(common.ReadFile(path), &timezones)
 	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshal timezones: %s", err))
 	return timezones
 }

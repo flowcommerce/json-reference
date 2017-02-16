@@ -51,7 +51,7 @@ type Region struct {
 type Timezone struct {
 	Name                     string `json:"name"`
 	Description              string `json:"code"`
-	Offset                   int64  `json:"offset"`
+	Offset                   int    `json:"offset"`
 }
 
 func LoadContinents() []Continent {
@@ -146,7 +146,7 @@ func WriteJson(target string, data interface{}) {
 
 	v, err := json.MarshalIndent(data, "", "  ")
 	util.ExitIfError(err, "Error marshalling record to json")
-	
+
 	w := bufio.NewWriter(tmp)
 	_, err = w.Write(v)
 	util.ExitIfError(err, "Error writing to tmp file")

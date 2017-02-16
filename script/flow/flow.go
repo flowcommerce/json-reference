@@ -92,7 +92,7 @@ func commonTimezones(data CleansedDataSet) []common.Timezone {
 		all = append(all, common.Timezone{
 			Name: t.Name,
 			Description: t.Description,
-			Offset: t.OffsetSeconds / 60,
+			Offset: t.Offset,
 		})
 	}
 	return all
