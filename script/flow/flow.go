@@ -71,13 +71,39 @@ func commonLanguages(languages []cleanse.Language, countries []cleanse.Country) 
 }
 
 func commonCurrencies(currencies []cleanse.Currency) []common.Currency {
+	unsupported := []string {
+		"AFN",
+		"AOA",
+		"BIF",
+		"BYR",
+		"CUP",
+		"ERN",
+		"IQD",
+		"IRR",
+		"KPW",
+		"LRD",
+		"MGA",
+		"MKD",
+		"MMK",
+		"MZN",
+		"SDG",
+		"SRD",
+		"SSP",
+		"SYP",
+		"TJS",
+		"TMT",
+		"ZWL",
+	}
+	
 	all := make([]common.Currency, len(currencies))
 	for _, c := range(currencies) {
-		all = append(all, common.Currency{
-			Name: c.Name,
-			Iso_4217_3: c.Iso_4217_3,
-			NumberDecimals: c.NumberDecimals,
-		})
+		if !common.Contains(unsupported, c.Iso_4217_3) {
+			all = append(all, common.Currency{
+				Name: c.Name,
+				Iso_4217_3: c.Iso_4217_3,
+				NumberDecimals: c.NumberDecimals,
+			})
+		}
 	}
 	return all
 }
