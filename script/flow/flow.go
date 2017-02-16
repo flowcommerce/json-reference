@@ -13,21 +13,28 @@ import (
 type CleansedDataSet struct {
 	Continents []cleanse.Continent
 	Countries []cleanse.Country
+	CountryContinents []cleanse.CountryContinent
 	Currencies []cleanse.Currency
 	Languages []cleanse.Language
+	Timezones []cleanse.Timezone
+	CountryTimezones []cleanse.CountryTimezone
 }
 	
 func Generate() {
 	data := CleansedDataSet{
 		Continents: cleanse.LoadContinents(),
 		Countries: cleanse.LoadCountries(),
+		CountryContinents: cleanse.LoadCountryContinents(),
 		Currencies: cleanse.LoadCurrencies(),
 		Languages: cleanse.LoadLanguages(),
+		Timezones: cleanse.LoadTimezones(),
+		CountryTimezones: cleanse.LoadCountryTimezones(),
 	}
 
 	writeJson("data/3-flow/continents.json", commonContinents(data))
 	writeJson("data/3-flow/languages.json", commonLanguages(data))
 	writeJson("data/3-flow/currencies.json", commonCurrencies(data))
+	writeJson("data/3-flow/timezones.json", commonTimezones(data))
 	writeJson("data/3-flow/countries.json", commonCountries(data))
 }
 
@@ -37,7 +44,7 @@ func writeJson(target string, objects interface{}) {
 }
 	
 func commonContinents(data CleansedDataSet) []common.Continent {
-	all := make([]common.Continent, len(data.Continents))
+	var all []common.Continent
 	for _, c := range(data.Continents) {
 		var theseCountries []string
 		for _, country := range(data.Countries) {
@@ -60,7 +67,7 @@ func commonContinents(data CleansedDataSet) []common.Continent {
 }
 
 func commonLanguages(data CleansedDataSet) []common.Language {
-	all := make([]common.Language, len(data.Languages))
+	var all []common.Language
 	for _, l := range(data.Languages) {
 		var theseCountries []string
 
@@ -74,6 +81,18 @@ func commonLanguages(data CleansedDataSet) []common.Language {
 			Name: l.Name,
 			Iso_639_2: l.Iso_639_2,
 			Countries: theseCountries,
+		})
+	}
+	return all
+}
+
+func commonTimezones(data CleansedDataSet) []common.Timezone {
+	var all []common.Timezone
+	for _, t := range(data.Timezones) {
+		all = append(all, common.Timezone{
+			Name: t.Name,
+			Description: t.Description,
+			Offset: t.OffsetSeconds / 60,
 		})
 	}
 	return all
@@ -104,7 +123,7 @@ func commonCurrencies(data CleansedDataSet) []common.Currency {
 		"ZWL",
 	}
 	
-	all := make([]common.Currency, len(data.Currencies))
+	var all []common.Currency
 	for _, c := range(data.Currencies) {
 		if !common.Contains(unsupported, c.Iso_4217_3) {
 			all = append(all, common.Currency{
@@ -151,7 +170,7 @@ func commonCountries(data CleansedDataSet) []common.Country {
 		"ZWE",
 	}
 	
-	all := make([]common.Country, len(data.Countries))
+	var all []common.Country
 	for _, c := range(data.Countries) {
 		if !common.Contains(unsupported, c.Iso_3166_3) {
 			var languages []string

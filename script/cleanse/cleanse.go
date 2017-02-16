@@ -45,8 +45,8 @@ type Language struct {
 }
 
 type Timezone struct {
-	Code                     string `json:"code"`
 	Name                     string `json:"name"`
+	Description              string `json:"description"`
 	OffsetSeconds            int64  `json:"offset_seconds"`
 }
 
@@ -141,8 +141,8 @@ func Cleanse() {
 				util.ExitIfError(err, fmt.Sprintf("Error parsing int[%s]", value))
 
 				return Timezone{
-					Code: record["Abbr."],
-					Name: record["Name"],
+					Name: record["Abbr."],
+					Description: record["Name"],
 					OffsetSeconds: offsetSeconds,
 				}
 			},
