@@ -5,19 +5,17 @@ package cleansed
 import (
 	"github.com/flowcommerce/tools/util"
 	"../common"
-	"bufio"
 	"encoding/csv"
 	"encoding/json"
         "fmt"
         "io"
-        "io/ioutil"
         "os"
 	"strconv"
-        "strings"
 )
 
 type Continent struct {
-	Code              string `json:"code"`
+	Code2             string `json:"code2"`
+	Code3             string `json:"code3"`
 	Name              string `json:"name"`
 }
 
@@ -32,7 +30,6 @@ type Country struct {
 	Iso_3166_2               string `json:"iso_3166_2"`
 	Iso_3166_3               string `json:"iso_3166_3"`
 	Currency                 string `json:"currency"`
-	Languages                []string `json:"languages"`
 }
 
 type Currency struct {
@@ -68,10 +65,10 @@ type convertFunction func(records map[string]string) interface{}
 type acceptsFunction func(records map[string]string) bool
 
 func Cleanse() {
-	writeJson("data/2-cleansed/languages.json", readLanguages("data/1-sources/languages.json"))
+	common.WriteJson("data/2-cleansed/languages.json", readLanguages("data/1-sources/languages.json"))
 
 	countriesSource := readCsv("data/1-sources/countries.csv")
-	writeJson("data/2-cleansed/countries.json",
+	common.WriteJson("data/2-cleansed/countries.json",
 		toObjects(countriesSource,
 			func(record map[string]string) bool {
 				return record["ISO3166-1-Alpha-2"] != "" && record["ISO3166-1-Alpha-3"] != ""
@@ -82,7 +79,6 @@ func Cleanse() {
 					Iso_3166_2: record["ISO3166-1-Alpha-2"],
 					Iso_3166_3: record["ISO3166-1-Alpha-3"],
 					Currency: record["ISO4217-currency_alphabetic_code"],
-					Languages: common.FilterNonEmpty(strings.Split(record["Languages"], ",")),
 					Continent: record["Continent"],
 					
 				}
@@ -90,7 +86,7 @@ func Cleanse() {
 		),
 	)
 
-	writeJson("data/2-cleansed/currencies.json",
+	common.WriteJson("data/2-cleansed/currencies.json",
 		toObjects(countriesSource,
 			func(record map[string]string) bool {
 				return record["ISO4217-currency_name"] != "" && record["ISO4217-currency_alphabetic_code"] != ""
@@ -113,7 +109,7 @@ func Cleanse() {
 		),
 	)
 
-	writeJson("data/2-cleansed/continents.json",
+	common.WriteJson("data/2-cleansed/continents.json",
 		toObjects(readCsv("data/1-sources/continents.csv"),
 			func(record map[string]string) bool {
 				return record["continent code"] != "" && record["continent code"] != "--"
@@ -127,7 +123,7 @@ func Cleanse() {
 		),
 	)	
 
-	writeJson("data/2-cleansed/timezones.json",
+	common.WriteJson("data/2-cleansed/timezones.json",
 		toObjects(readCsv("data/1-sources/timezones.csv"),
 			func(record map[string]string) bool {
 				return record["Abbr."] != "" && record["Name"] != "" && record["offset_seconds"] != ""
@@ -148,7 +144,7 @@ func Cleanse() {
 		),
 	)	
 
-	writeJson("data/2-cleansed/languages.json", filterLanguages(readLanguages("data/1-sources/languages.json")))
+	common.WriteJson("data/2-cleansed/languages.json", filterLanguages(readLanguages("data/1-sources/languages.json")))
 }
 
 // readCsv Reads a CSV file, returning a list of map[string]string objects
@@ -221,22 +217,6 @@ func filterLanguages(languages []Language) []Language {
 	return final
 }
 
-func writeJson(target string, data interface{}) {
-	tmp, err := ioutil.TempFile("", "reference-csv-to-json")
-	util.ExitIfError(err, "Error creating temporary file")
-	defer tmp.Close()
-
-	v, err := json.MarshalIndent(data, "", "  ")
-	util.ExitIfError(err, "Error marshalling record to json")
-	
-	w := bufio.NewWriter(tmp)
-	_, err = w.Write(v)
-	util.ExitIfError(err, "Error writing to tmp file")
-	
-	err = os.Rename(tmp.Name(), target)
-	util.ExitIfError(err, "Error renaming tmp file")
-}
-
 func toObjects(records []map[string]string, accepts acceptsFunction, f convertFunction) []interface{} {
 	var all []interface{}
 	for _, v := range records {
@@ -258,31 +238,38 @@ func LoadContinents() []Continent {
 	return []Continent{
 		Continent{
 			Name: "Africa",
-			Code: "AFR",
+			Code2: "AF",
+			Code3: "AFR",
 		},
 		Continent{
 			Name: "Antarctica",
-			Code: "ANT",
+			Code2: "AN",
+			Code3: "ANT",
 		},
 		Continent{
 			Name: "Asia",
-			Code: "ASI",
+			Code2: "AS",
+			Code3: "ASI",
 		},
 		Continent{
 			Name: "Europe",
-			Code: "EUR",
+			Code2: "EU",
+			Code3: "EUR",
 		},
 		Continent{
 			Name: "North America",
-			Code: "NOA",
+			Code2: "NA",
+			Code3: "NOA",
 		},
 		Continent{
 			Name: "Oceania",
-			Code: "OCE",
+			Code2: "OC",
+			Code3: "OCE",
 		},
 		Continent{
 			Name: "South America",
-			Code: "SOA",
+			Code2: "SA",
+			Code3: "SOA",
 		},
 	}
 }

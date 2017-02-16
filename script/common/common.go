@@ -1,11 +1,12 @@
 package common
 
 import (
+	"bufio"
 	"encoding/json"
 	"fmt"
 	"github.com/flowcommerce/tools/util"
 	"io/ioutil"
-	"sort"
+	"os"
 	"strings"
 )
 
@@ -104,24 +105,6 @@ func ReadFile(path string) []byte {
 	return []byte(fileStr)
 }
 
-/**
- * LanguagesForCountry filters the list of languages to those spoken in
- * the given country, returning a unique sorted list of language ISO-639-2
- * codes
- */
-func LanguagesForCountry(languages []Language, iso31663 string) []string {
-	codes := []string{}
-
-	for _, l := range(languages) {
-		if Contains(l.Countries, iso31663) && !Contains(codes, l.Iso_639_2) {
-			codes = append(codes, l.Iso_639_2)
-		}
-	}
-	sort.Strings(codes)
-
-	return codes
-}
-
 func Contains(list []string, value string) bool {
 	for _, v := range list {
 		if v == value {
@@ -154,4 +137,20 @@ func FilterNonEmpty(vs []string) []string {
 	return Filter(vs, func(v string) bool {
 		return v != ""
 	})
+}
+
+func WriteJson(target string, data interface{}) {
+	tmp, err := ioutil.TempFile("", "reference-csv-to-json")
+	util.ExitIfError(err, "Error creating temporary file")
+	defer tmp.Close()
+
+	v, err := json.MarshalIndent(data, "", "  ")
+	util.ExitIfError(err, "Error marshalling record to json")
+	
+	w := bufio.NewWriter(tmp)
+	_, err = w.Write(v)
+	util.ExitIfError(err, "Error writing to tmp file")
+	
+	err = os.Rename(tmp.Name(), target)
+	util.ExitIfError(err, "Error renaming tmp file")
 }
