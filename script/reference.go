@@ -52,7 +52,7 @@ func main() {
 
 		{
 			Name:  "cleanse",
-			Usage: "Cleanses downloaded files, writing all as json to 'data/1-cleansed' directory",
+			Usage: "Cleanses downloaded files, writing all as json to 'data/2-cleansed' directory",
 			Action: func(c *cli.Context) error {
 				cleansed.Cleanse()
 				return nil
