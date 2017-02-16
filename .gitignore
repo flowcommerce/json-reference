@@ -1,4 +1,2 @@
-data/1-sources/*.csv
-data/1-sources/*.json
 data/2-cleansed/*.json
 data/3-flow/*.json

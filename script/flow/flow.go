@@ -119,55 +119,56 @@ func commonCurrencies(data CleansedDataSet) []common.Currency {
 
 func commonCountries(data CleansedDataSet) []common.Country {
 	unsupported := []string {
-		[
-			"AFG",
-			"AGO",
-			"ATF",
-			"BDI",
-			"BLR",
-			"BVT",
-			"CCK",
-			"COD",
-			"CUB",
-			"CXR",
-			"ERI",
-			"FRO",
-			"HMD",
-			"IOT",
-			"IRN",
-			"IRQ",
-			"LBR",
-			"MDG",
-			"MKD",
-			"MMR",
-			"MOZ",
-			"PSE",
-			"SDN",
-			"SGS",
-			"SUR",
-			"SYR",
-			"TJK",
-			"TKM",
-			"UMI",
-			"ZWE"
-		]
+		"AFG",
+		"AGO",
+		"ATF",
+		"BDI",
+		"BLR",
+		"BVT",
+		"CCK",
+		"COD",
+		"CUB",
+		"CXR",
+		"ERI",
+		"FRO",
+		"HMD",
+		"IOT",
+		"IRN",
+		"IRQ",
+		"LBR",
+		"MDG",
+		"MKD",
+		"MMR",
+		"MOZ",
+		"PSE",
+		"SDN",
+		"SGS",
+		"SUR",
+		"SYR",
+		"TJK",
+		"TKM",
+		"UMI",
+		"ZWE",
+	}
 	
 	all := make([]common.Country, len(data.Countries))
 	for _, c := range(data.Countries) {
 		if !common.Contains(unsupported, c.Iso_3166_3) {
-			languages := make([]string)
+			var languages []string
 			for _, l := range(data.Languages) {
 				if common.Contains(l.Countries, c.Iso_3166_3) {
 					languages = append(languages, c.Iso_3166_3)
 				}
 			}
 		
+			var timezones []string
+
 			all = append(all, common.Country{
 				Name: c.Name,
 				Iso_3166_2: c.Iso_3166_2,
 				Iso_3166_3: c.Iso_3166_3,
-				MeasurementSystem: xxx,
-				DefaultCurrency: xxx,
+				MeasurementSystem: "", // TODO
+				DefaultCurrency: "", // TODO
 				Languages: languages,
 				Timezones: timezones,
 
