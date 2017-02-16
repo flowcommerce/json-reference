@@ -16,7 +16,6 @@ func DownloadAll() {
 	download("data/1-sources/countries.csv", "https://raw.githubusercontent.com/datasets/country-codes/master/data/country-codes.csv")
 	download("data/1-sources/country-continents.csv", "http://dev.maxmind.com/static/csv/codes/country_continent.csv")
 	download("data/1-sources/timezones.csv", "https://raw.githubusercontent.com/iambibhas/iambibhas.github.com/master/csv/timezones.csv")
-	download("data/1-sources/country-timezones.csv", "https://raw.githubusercontent.com/gloriajw/Timezone-Mappings-in-CSV-format/master/countries_by_timezone.csv")
 }
 
 // Download the provided url to a temp file, returning the file
