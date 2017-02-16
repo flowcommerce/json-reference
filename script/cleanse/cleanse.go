@@ -50,6 +50,11 @@ type Timezone struct {
 	OffsetSeconds            int64  `json:"offset_seconds"`
 }
 
+type CountryTimezone struct {
+	TimezoneCode      string `json:"timezone"`
+	CountryCode       string `json:"country"`
+}
+
 type IncomingLanguages struct {
 	LanguageFamilies    []string `json:"languageFamilies"`
 	Languages           []IncomingLanguage `json:"languages"`
@@ -109,8 +114,8 @@ func Cleanse() {
 		),
 	)
 
-	writeJson("data/2-cleansed/continents.json",
-		toObjects(readCsv("data/1-sources/continents.csv"),
+	writeJson("data/2-cleansed/country-continents.json",
+		toObjects(readCsv("data/1-sources/country-continents.csv"),
 			func(record map[string]string) bool {
 				return record["continent code"] != "" && record["continent code"] != "--"
 			},
@@ -144,6 +149,20 @@ func Cleanse() {
 		),
 	)	
 
+	writeJson("data/2-cleansed/country-timezones.json",
+		toObjects(readCsvWithHeaders("data/1-sources/country-timezones.csv", []string { "country", "timezone" }),
+			func(record map[string]string) bool {
+				return record["country"] != "" && record["timezone"] != "--"
+			},
+			func(record map[string]string) interface{} {
+				return CountryTimezone{
+					TimezoneCode: record["timezone"],
+					CountryCode: record["country"],
+				}
+			},
+		),
+	)	
+	
 	writeJson("data/2-cleansed/languages.json", filterLanguages(readLanguages("data/1-sources/languages.json")))
 }
 
@@ -153,6 +172,26 @@ func writeJson(target string, objects interface{}) {
 }
 	
 // readCsv Reads a CSV file, returning a list of map[string]string objects
+func readCsvWithHeaders(file string, headers []string) []map[string]string {
+	input, err := os.Open(file)
+	util.ExitIfError(err, fmt.Sprintf("Error opening file %s", file))
+
+        r := csv.NewReader(input)
+	var all []map[string]string
+
+	for {
+		record, err := r.Read()
+		if err == io.EOF {
+			break
+		}
+		util.ExitIfError(err, fmt.Sprintf("Error processing csv file %s", file))
+		all = append(all, toMap(headers, record))
+	}
+
+	return all
+}
+
+// readCsv Reads a CSV file, assuming first line is header row, returning a list of map[string]string objects
 func readCsv(file string) []map[string]string {
 	input, err := os.Open(file)
 	util.ExitIfError(err, fmt.Sprintf("Error opening file %s", file))
@@ -172,19 +211,24 @@ func readCsv(file string) []map[string]string {
 			headers = record
 			first = false
 		} else {
-			row := make(map[string]string)
-
-			for i, v := range record {
-				if (v != "") {
-					row[headers[i]] = v
-				}
-			}
-			all = append(all, row)
+			all = append(all, toMap(headers, record))
 		}
 	}
 
 	return all
 }
+
+func toMap(headers []string, record []string) map[string]string {
+	row := make(map[string]string)
+
+	for i, v := range record {
+		if (v != "") {
+			row[headers[i]] = v
+		}
+	}
+	return row
+}
+
 
 func readLanguages(file string) []Language {
 	lang := IncomingLanguages{}
