@@ -150,6 +150,13 @@ func WriteJson(target string, data interface{}) {
 	w := bufio.NewWriter(tmp)
 	_, err = w.Write(v)
 	util.ExitIfError(err, "Error writing to tmp file")
+
+	fi, err := tmp.Stat()
+	util.ExitIfError(err, "Error checking file size")
+	if fi.Size() == 0 {
+		fmt.Printf("Failed to serialize json to file %s - empty file\n", target)
+		os.Exit(1)
+	}
 	
 	err = os.Rename(tmp.Name(), target)
 	util.ExitIfError(err, "Error renaming tmp file")
