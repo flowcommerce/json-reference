@@ -57,42 +57,42 @@ type Timezone struct {
 
 func Continents() []Continent {
 	continents := []Continent{}
-	err := json.Unmarshal(readDataFileFromUrl("data/final/continents.json"), &continents)
+	err := json.Unmarshal(readDataFileFromUrl("continents.json"), &continents)
 	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshal continents: %s", err))
 	return continents
 }
 
 func Countries() []Country {
 	countries := []Country{}
-	err := json.Unmarshal(readDataFileFromUrl("data/final/countries.json"), &countries)
+	err := json.Unmarshal(readDataFileFromUrl("countries.json"), &countries)
 	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshal countries: %s", err))
 	return countries
 }
 
 func Currencies() []Currency {
 	currencies := []Currency{}
-	err := json.Unmarshal(readDataFileFromUrl("data/final/currencies.json"), &currencies)
+	err := json.Unmarshal(readDataFileFromUrl("currencies.json"), &currencies)
 	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshal currencies: %s", err))
 	return currencies
 }
 
 func Languages() []Language {
 	languages := []Language{}
-	err := json.Unmarshal(readDataFileFromUrl("data/final/languages.json"), &languages)
+	err := json.Unmarshal(readDataFileFromUrl("languages.json"), &languages)
 	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshal languages: %s", err))
 	return languages
 }
 
 func Timezones() []Timezone {
 	timezones := []Timezone{}
-	err := json.Unmarshal(readDataFileFromUrl("data/final/timezones.json"), &timezones)
+	err := json.Unmarshal(readDataFileFromUrl("timezones.json"), &timezones)
 	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshal timezones: %s", err))
 	return timezones
 }
 
 func Regions() []Region {
 	regions := []Region{}
-	err := json.Unmarshal(readDataFileFromUrl("data/final/regions.json"), &regions)
+	err := json.Unmarshal(readDataFileFromUrl("regions.json"), &regions)
 	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshal regions: %s", err))
 	return regions
 }
