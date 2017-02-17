@@ -10,6 +10,7 @@ import (
         "fmt"
         "io"
         "os"
+	"sort"
 	"strconv"
 	"strings"
 )
@@ -69,6 +70,7 @@ type IncomingLanguage struct {
 
 type convertFunction func(records map[string]string) interface{}
 type acceptsFunction func(records map[string]string) bool
+type idFunction func(records map[string]string) string
 
 func Cleanse() {
 	writeJson("data/cleansed/languages.json", readLanguages("data/source/languages.json"))
@@ -91,6 +93,9 @@ func Cleanse() {
 					Continent: record["Continent"],
 					
 				}
+			},
+			func(record map[string]string) string {
+				return record["ISO3166-1-Alpha-3"]
 			},
 		),
 	)
@@ -115,6 +120,9 @@ func Cleanse() {
 					NumberDecimals: int(numberDecimals),
 				}
 			},
+			func(record map[string]string) string {
+				return record["ISO4217-currency_alphabetic_code"]
+			},
 		),
 	)
 
@@ -128,6 +136,9 @@ func Cleanse() {
 					ContinentCode: record["continent code"],
 					CountryCode: record["iso 3166 country"],
 				}
+			},
+			func(record map[string]string) string {
+				return record["continent code"] + record["iso 3166 country"]
 			},
 		),
 	)	
@@ -144,6 +155,9 @@ func Cleanse() {
 					TimezoneCode: record["timezone"],
 					CountryCode: strings.ToUpper(record["country"]),
 				}
+			},
+			func(record map[string]string) string {
+				return record["timezone"] + record["country"]
 			},
 		),
 	)	
@@ -252,14 +266,18 @@ func filterLanguages(languages []Language) []Language {
 	return final
 }
 
-func toObjects(records []map[string]string, accepts acceptsFunction, f convertFunction) []interface{} {
-	var all []interface{}
+func toObjects(records []map[string]string, accepts acceptsFunction, f convertFunction, id idFunction) []interface{} {
+	added := map[string]interface{} {}
 	for _, v := range records {
 		if (accepts(v)) {
-			all = append(all, f(v))
+			id := id(v)
+			if added[id] == nil {
+				added[id] = f(v)
+			}
 		}
 	}
-	return all
+
+	return sortObjects(added)
 }
 
 func LoadCountryContinents() []CountryContinent {
@@ -407,4 +425,18 @@ func unsupportedCurrencyCodes() []string {
 		"TMT",
 		"ZWL",
 	}	
+}
+
+func sortObjects(data map[string]interface{}) []interface{} {
+	keys := []string{}
+	for k := range data {
+		keys = append(keys, k)
+	}
+	sort.Strings(keys)
+
+	var all []interface{}
+	for _, key := range(keys) {
+		all = append(all, data[key])
+	}
+	return all
 }

@@ -6,9 +6,9 @@ import (
 	"../cleanse"
 	"../common"
 	"fmt"
+	"github.com/bradfitz/slice"
 	"os"
 	"regexp"
-	"github.com/bradfitz/slice"
 	"sort"
 	"strings"
 )

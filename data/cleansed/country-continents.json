@@ -1,103 +1,11 @@
 [
   {
-    "continent": "EU",
-    "country": "AD"
-  },
-  {
-    "continent": "AS",
-    "country": "AE"
-  },
-  {
-    "continent": "AS",
-    "country": "AF"
-  },
-  {
-    "continent": "NA",
-    "country": "AG"
-  },
-  {
-    "continent": "NA",
-    "country": "AI"
-  },
-  {
-    "continent": "EU",
-    "country": "AL"
-  },
-  {
-    "continent": "AS",
-    "country": "AM"
-  },
-  {
-    "continent": "NA",
-    "country": "AN"
-  },
-  {
     "continent": "AF",
     "country": "AO"
   },
   {
-    "continent": "AS",
-    "country": "AP"
-  },
-  {
-    "continent": "AN",
-    "country": "AQ"
-  },
-  {
-    "continent": "SA",
-    "country": "AR"
-  },
-  {
-    "continent": "OC",
-    "country": "AS"
-  },
-  {
-    "continent": "EU",
-    "country": "AT"
-  },
-  {
-    "continent": "OC",
-    "country": "AU"
-  },
-  {
-    "continent": "NA",
-    "country": "AW"
-  },
-  {
-    "continent": "EU",
-    "country": "AX"
-  },
-  {
-    "continent": "AS",
-    "country": "AZ"
-  },
-  {
-    "continent": "EU",
-    "country": "BA"
-  },
-  {
-    "continent": "NA",
-    "country": "BB"
-  },
-  {
-    "continent": "AS",
-    "country": "BD"
-  },
-  {
-    "continent": "EU",
-    "country": "BE"
-  },
-  {
     "continent": "AF",
     "country": "BF"
-  },
-  {
-    "continent": "EU",
-    "country": "BG"
-  },
-  {
-    "continent": "AS",
-    "country": "BH"
   },
   {
     "continent": "AF",
@@ -108,56 +16,8 @@
     "country": "BJ"
   },
   {
-    "continent": "NA",
-    "country": "BL"
-  },
-  {
-    "continent": "NA",
-    "country": "BM"
-  },
-  {
-    "continent": "AS",
-    "country": "BN"
-  },
-  {
-    "continent": "SA",
-    "country": "BO"
-  },
-  {
-    "continent": "SA",
-    "country": "BR"
-  },
-  {
-    "continent": "NA",
-    "country": "BS"
-  },
-  {
-    "continent": "AS",
-    "country": "BT"
-  },
-  {
-    "continent": "AN",
-    "country": "BV"
-  },
-  {
     "continent": "AF",
     "country": "BW"
-  },
-  {
-    "continent": "EU",
-    "country": "BY"
-  },
-  {
-    "continent": "NA",
-    "country": "BZ"
-  },
-  {
-    "continent": "NA",
-    "country": "CA"
-  },
-  {
-    "continent": "AS",
-    "country": "CC"
   },
   {
     "continent": "AF",
@@ -172,88 +32,24 @@
     "country": "CG"
   },
   {
-    "continent": "EU",
-    "country": "CH"
-  },
-  {
     "continent": "AF",
     "country": "CI"
-  },
-  {
-    "continent": "OC",
-    "country": "CK"
-  },
-  {
-    "continent": "SA",
-    "country": "CL"
   },
   {
     "continent": "AF",
     "country": "CM"
   },
   {
-    "continent": "AS",
-    "country": "CN"
-  },
-  {
-    "continent": "SA",
-    "country": "CO"
-  },
-  {
-    "continent": "NA",
-    "country": "CR"
-  },
-  {
-    "continent": "NA",
-    "country": "CU"
-  },
-  {
     "continent": "AF",
     "country": "CV"
-  },
-  {
-    "continent": "AS",
-    "country": "CX"
-  },
-  {
-    "continent": "AS",
-    "country": "CY"
-  },
-  {
-    "continent": "EU",
-    "country": "CZ"
-  },
-  {
-    "continent": "EU",
-    "country": "DE"
   },
   {
     "continent": "AF",
     "country": "DJ"
   },
   {
-    "continent": "EU",
-    "country": "DK"
-  },
-  {
-    "continent": "NA",
-    "country": "DM"
-  },
-  {
-    "continent": "NA",
-    "country": "DO"
-  },
-  {
     "continent": "AF",
     "country": "DZ"
-  },
-  {
-    "continent": "SA",
-    "country": "EC"
-  },
-  {
-    "continent": "EU",
-    "country": "EE"
   },
   {
     "continent": "AF",
@@ -268,80 +64,16 @@
     "country": "ER"
   },
   {
-    "continent": "EU",
-    "country": "ES"
-  },
-  {
     "continent": "AF",
     "country": "ET"
-  },
-  {
-    "continent": "EU",
-    "country": "EU"
-  },
-  {
-    "continent": "EU",
-    "country": "FI"
-  },
-  {
-    "continent": "OC",
-    "country": "FJ"
-  },
-  {
-    "continent": "SA",
-    "country": "FK"
-  },
-  {
-    "continent": "OC",
-    "country": "FM"
-  },
-  {
-    "continent": "EU",
-    "country": "FO"
-  },
-  {
-    "continent": "EU",
-    "country": "FR"
-  },
-  {
-    "continent": "EU",
-    "country": "FX"
   },
   {
     "continent": "AF",
     "country": "GA"
   },
   {
-    "continent": "EU",
-    "country": "GB"
-  },
-  {
-    "continent": "NA",
-    "country": "GD"
-  },
-  {
-    "continent": "AS",
-    "country": "GE"
-  },
-  {
-    "continent": "SA",
-    "country": "GF"
-  },
-  {
-    "continent": "EU",
-    "country": "GG"
-  },
-  {
     "continent": "AF",
     "country": "GH"
-  },
-  {
-    "continent": "EU",
-    "country": "GI"
-  },
-  {
-    "continent": "NA",
-    "country": "GL"
   },
   {
     "continent": "AF",
@@ -352,76 +84,236 @@
     "country": "GN"
   },
   {
-    "continent": "NA",
-    "country": "GP"
-  },
-  {
     "continent": "AF",
     "country": "GQ"
-  },
-  {
-    "continent": "EU",
-    "country": "GR"
-  },
-  {
-    "continent": "AN",
-    "country": "GS"
-  },
-  {
-    "continent": "NA",
-    "country": "GT"
-  },
-  {
-    "continent": "OC",
-    "country": "GU"
   },
   {
     "continent": "AF",
     "country": "GW"
   },
   {
-    "continent": "SA",
-    "country": "GY"
+    "continent": "AF",
+    "country": "KE"
   },
   {
-    "continent": "AS",
-    "country": "HK"
+    "continent": "AF",
+    "country": "KM"
+  },
+  {
+    "continent": "AF",
+    "country": "LR"
+  },
+  {
+    "continent": "AF",
+    "country": "LS"
+  },
+  {
+    "continent": "AF",
+    "country": "LY"
+  },
+  {
+    "continent": "AF",
+    "country": "MA"
+  },
+  {
+    "continent": "AF",
+    "country": "MG"
+  },
+  {
+    "continent": "AF",
+    "country": "ML"
+  },
+  {
+    "continent": "AF",
+    "country": "MR"
+  },
+  {
+    "continent": "AF",
+    "country": "MU"
+  },
+  {
+    "continent": "AF",
+    "country": "MW"
+  },
+  {
+    "continent": "AF",
+    "country": "MZ"
+  },
+  {
+    "continent": "AF",
+    "country": "NA"
+  },
+  {
+    "continent": "AF",
+    "country": "NE"
+  },
+  {
+    "continent": "AF",
+    "country": "NG"
+  },
+  {
+    "continent": "AF",
+    "country": "RE"
+  },
+  {
+    "continent": "AF",
+    "country": "RW"
+  },
+  {
+    "continent": "AF",
+    "country": "SC"
+  },
+  {
+    "continent": "AF",
+    "country": "SD"
+  },
+  {
+    "continent": "AF",
+    "country": "SH"
+  },
+  {
+    "continent": "AF",
+    "country": "SL"
+  },
+  {
+    "continent": "AF",
+    "country": "SN"
+  },
+  {
+    "continent": "AF",
+    "country": "SO"
+  },
+  {
+    "continent": "AF",
+    "country": "ST"
+  },
+  {
+    "continent": "AF",
+    "country": "SZ"
+  },
+  {
+    "continent": "AF",
+    "country": "TD"
+  },
+  {
+    "continent": "AF",
+    "country": "TG"
+  },
+  {
+    "continent": "AF",
+    "country": "TN"
+  },
+  {
+    "continent": "AF",
+    "country": "TZ"
+  },
+  {
+    "continent": "AF",
+    "country": "UG"
+  },
+  {
+    "continent": "AF",
+    "country": "YT"
+  },
+  {
+    "continent": "AF",
+    "country": "ZA"
+  },
+  {
+    "continent": "AF",
+    "country": "ZM"
+  },
+  {
+    "continent": "AF",
+    "country": "ZW"
+  },
+  {
+    "continent": "AN",
+    "country": "AQ"
+  },
+  {
+    "continent": "AN",
+    "country": "BV"
+  },
+  {
+    "continent": "AN",
+    "country": "GS"
   },
   {
     "continent": "AN",
     "country": "HM"
   },
   {
-    "continent": "NA",
-    "country": "HN"
+    "continent": "AN",
+    "country": "TF"
   },
   {
-    "continent": "EU",
-    "country": "HR"
+    "continent": "AS",
+    "country": "AE"
   },
   {
-    "continent": "NA",
-    "country": "HT"
+    "continent": "AS",
+    "country": "AF"
   },
   {
-    "continent": "EU",
-    "country": "HU"
+    "continent": "AS",
+    "country": "AM"
+  },
+  {
+    "continent": "AS",
+    "country": "AP"
+  },
+  {
+    "continent": "AS",
+    "country": "AZ"
+  },
+  {
+    "continent": "AS",
+    "country": "BD"
+  },
+  {
+    "continent": "AS",
+    "country": "BH"
+  },
+  {
+    "continent": "AS",
+    "country": "BN"
+  },
+  {
+    "continent": "AS",
+    "country": "BT"
+  },
+  {
+    "continent": "AS",
+    "country": "CC"
+  },
+  {
+    "continent": "AS",
+    "country": "CN"
+  },
+  {
+    "continent": "AS",
+    "country": "CX"
+  },
+  {
+    "continent": "AS",
+    "country": "CY"
+  },
+  {
+    "continent": "AS",
+    "country": "GE"
+  },
+  {
+    "continent": "AS",
+    "country": "HK"
   },
   {
     "continent": "AS",
     "country": "ID"
   },
   {
-    "continent": "EU",
-    "country": "IE"
-  },
-  {
     "continent": "AS",
     "country": "IL"
-  },
-  {
-    "continent": "EU",
-    "country": "IM"
   },
   {
     "continent": "AS",
@@ -440,22 +332,6 @@
     "country": "IR"
   },
   {
-    "continent": "EU",
-    "country": "IS"
-  },
-  {
-    "continent": "EU",
-    "country": "IT"
-  },
-  {
-    "continent": "EU",
-    "country": "JE"
-  },
-  {
-    "continent": "NA",
-    "country": "JM"
-  },
-  {
     "continent": "AS",
     "country": "JO"
   },
@@ -464,28 +340,12 @@
     "country": "JP"
   },
   {
-    "continent": "AF",
-    "country": "KE"
-  },
-  {
     "continent": "AS",
     "country": "KG"
   },
   {
     "continent": "AS",
     "country": "KH"
-  },
-  {
-    "continent": "OC",
-    "country": "KI"
-  },
-  {
-    "continent": "AF",
-    "country": "KM"
-  },
-  {
-    "continent": "NA",
-    "country": "KN"
   },
   {
     "continent": "AS",
@@ -500,10 +360,6 @@
     "country": "KW"
   },
   {
-    "continent": "NA",
-    "country": "KY"
-  },
-  {
     "continent": "AS",
     "country": "KZ"
   },
@@ -516,76 +372,8 @@
     "country": "LB"
   },
   {
-    "continent": "NA",
-    "country": "LC"
-  },
-  {
-    "continent": "EU",
-    "country": "LI"
-  },
-  {
     "continent": "AS",
     "country": "LK"
-  },
-  {
-    "continent": "AF",
-    "country": "LR"
-  },
-  {
-    "continent": "AF",
-    "country": "LS"
-  },
-  {
-    "continent": "EU",
-    "country": "LT"
-  },
-  {
-    "continent": "EU",
-    "country": "LU"
-  },
-  {
-    "continent": "EU",
-    "country": "LV"
-  },
-  {
-    "continent": "AF",
-    "country": "LY"
-  },
-  {
-    "continent": "AF",
-    "country": "MA"
-  },
-  {
-    "continent": "EU",
-    "country": "MC"
-  },
-  {
-    "continent": "EU",
-    "country": "MD"
-  },
-  {
-    "continent": "EU",
-    "country": "ME"
-  },
-  {
-    "continent": "NA",
-    "country": "MF"
-  },
-  {
-    "continent": "AF",
-    "country": "MG"
-  },
-  {
-    "continent": "OC",
-    "country": "MH"
-  },
-  {
-    "continent": "EU",
-    "country": "MK"
-  },
-  {
-    "continent": "AF",
-    "country": "ML"
   },
   {
     "continent": "AS",
@@ -600,116 +388,20 @@
     "country": "MO"
   },
   {
-    "continent": "OC",
-    "country": "MP"
-  },
-  {
-    "continent": "NA",
-    "country": "MQ"
-  },
-  {
-    "continent": "AF",
-    "country": "MR"
-  },
-  {
-    "continent": "NA",
-    "country": "MS"
-  },
-  {
-    "continent": "EU",
-    "country": "MT"
-  },
-  {
-    "continent": "AF",
-    "country": "MU"
-  },
-  {
     "continent": "AS",
     "country": "MV"
-  },
-  {
-    "continent": "AF",
-    "country": "MW"
-  },
-  {
-    "continent": "NA",
-    "country": "MX"
   },
   {
     "continent": "AS",
     "country": "MY"
   },
   {
-    "continent": "AF",
-    "country": "MZ"
-  },
-  {
-    "continent": "AF",
-    "country": "NA"
-  },
-  {
-    "continent": "OC",
-    "country": "NC"
-  },
-  {
-    "continent": "AF",
-    "country": "NE"
-  },
-  {
-    "continent": "OC",
-    "country": "NF"
-  },
-  {
-    "continent": "AF",
-    "country": "NG"
-  },
-  {
-    "continent": "NA",
-    "country": "NI"
-  },
-  {
-    "continent": "EU",
-    "country": "NL"
-  },
-  {
-    "continent": "EU",
-    "country": "NO"
-  },
-  {
     "continent": "AS",
     "country": "NP"
   },
   {
-    "continent": "OC",
-    "country": "NR"
-  },
-  {
-    "continent": "OC",
-    "country": "NU"
-  },
-  {
-    "continent": "OC",
-    "country": "NZ"
-  },
-  {
     "continent": "AS",
     "country": "OM"
-  },
-  {
-    "continent": "NA",
-    "country": "PA"
-  },
-  {
-    "continent": "SA",
-    "country": "PE"
-  },
-  {
-    "continent": "OC",
-    "country": "PF"
-  },
-  {
-    "continent": "OC",
-    "country": "PG"
   },
   {
     "continent": "AS",
@@ -720,44 +412,228 @@
     "country": "PK"
   },
   {
-    "continent": "EU",
-    "country": "PL"
-  },
-  {
-    "continent": "NA",
-    "country": "PM"
-  },
-  {
-    "continent": "OC",
-    "country": "PN"
-  },
-  {
-    "continent": "NA",
-    "country": "PR"
-  },
-  {
     "continent": "AS",
     "country": "PS"
-  },
-  {
-    "continent": "EU",
-    "country": "PT"
-  },
-  {
-    "continent": "OC",
-    "country": "PW"
-  },
-  {
-    "continent": "SA",
-    "country": "PY"
   },
   {
     "continent": "AS",
     "country": "QA"
   },
   {
-    "continent": "AF",
-    "country": "RE"
+    "continent": "AS",
+    "country": "SA"
+  },
+  {
+    "continent": "AS",
+    "country": "SG"
+  },
+  {
+    "continent": "AS",
+    "country": "SY"
+  },
+  {
+    "continent": "AS",
+    "country": "TH"
+  },
+  {
+    "continent": "AS",
+    "country": "TJ"
+  },
+  {
+    "continent": "AS",
+    "country": "TL"
+  },
+  {
+    "continent": "AS",
+    "country": "TM"
+  },
+  {
+    "continent": "AS",
+    "country": "TW"
+  },
+  {
+    "continent": "AS",
+    "country": "UZ"
+  },
+  {
+    "continent": "AS",
+    "country": "VN"
+  },
+  {
+    "continent": "AS",
+    "country": "YE"
+  },
+  {
+    "continent": "EU",
+    "country": "AD"
+  },
+  {
+    "continent": "EU",
+    "country": "AL"
+  },
+  {
+    "continent": "EU",
+    "country": "AT"
+  },
+  {
+    "continent": "EU",
+    "country": "AX"
+  },
+  {
+    "continent": "EU",
+    "country": "BA"
+  },
+  {
+    "continent": "EU",
+    "country": "BE"
+  },
+  {
+    "continent": "EU",
+    "country": "BG"
+  },
+  {
+    "continent": "EU",
+    "country": "BY"
+  },
+  {
+    "continent": "EU",
+    "country": "CH"
+  },
+  {
+    "continent": "EU",
+    "country": "CZ"
+  },
+  {
+    "continent": "EU",
+    "country": "DE"
+  },
+  {
+    "continent": "EU",
+    "country": "DK"
+  },
+  {
+    "continent": "EU",
+    "country": "EE"
+  },
+  {
+    "continent": "EU",
+    "country": "ES"
+  },
+  {
+    "continent": "EU",
+    "country": "EU"
+  },
+  {
+    "continent": "EU",
+    "country": "FI"
+  },
+  {
+    "continent": "EU",
+    "country": "FO"
+  },
+  {
+    "continent": "EU",
+    "country": "FR"
+  },
+  {
+    "continent": "EU",
+    "country": "FX"
+  },
+  {
+    "continent": "EU",
+    "country": "GB"
+  },
+  {
+    "continent": "EU",
+    "country": "GG"
+  },
+  {
+    "continent": "EU",
+    "country": "GI"
+  },
+  {
+    "continent": "EU",
+    "country": "GR"
+  },
+  {
+    "continent": "EU",
+    "country": "HR"
+  },
+  {
+    "continent": "EU",
+    "country": "HU"
+  },
+  {
+    "continent": "EU",
+    "country": "IE"
+  },
+  {
+    "continent": "EU",
+    "country": "IM"
+  },
+  {
+    "continent": "EU",
+    "country": "IS"
+  },
+  {
+    "continent": "EU",
+    "country": "IT"
+  },
+  {
+    "continent": "EU",
+    "country": "JE"
+  },
+  {
+    "continent": "EU",
+    "country": "LI"
+  },
+  {
+    "continent": "EU",
+    "country": "LT"
+  },
+  {
+    "continent": "EU",
+    "country": "LU"
+  },
+  {
+    "continent": "EU",
+    "country": "LV"
+  },
+  {
+    "continent": "EU",
+    "country": "MC"
+  },
+  {
+    "continent": "EU",
+    "country": "MD"
+  },
+  {
+    "continent": "EU",
+    "country": "ME"
+  },
+  {
+    "continent": "EU",
+    "country": "MK"
+  },
+  {
+    "continent": "EU",
+    "country": "MT"
+  },
+  {
+    "continent": "EU",
+    "country": "NL"
+  },
+  {
+    "continent": "EU",
+    "country": "NO"
+  },
+  {
+    "continent": "EU",
+    "country": "PL"
+  },
+  {
+    "continent": "EU",
+    "country": "PT"
   },
   {
     "continent": "EU",
@@ -772,36 +648,8 @@
     "country": "RU"
   },
   {
-    "continent": "AF",
-    "country": "RW"
-  },
-  {
-    "continent": "AS",
-    "country": "SA"
-  },
-  {
-    "continent": "OC",
-    "country": "SB"
-  },
-  {
-    "continent": "AF",
-    "country": "SC"
-  },
-  {
-    "continent": "AF",
-    "country": "SD"
-  },
-  {
     "continent": "EU",
     "country": "SE"
-  },
-  {
-    "continent": "AS",
-    "country": "SG"
-  },
-  {
-    "continent": "AF",
-    "country": "SH"
   },
   {
     "continent": "EU",
@@ -816,128 +664,16 @@
     "country": "SK"
   },
   {
-    "continent": "AF",
-    "country": "SL"
-  },
-  {
     "continent": "EU",
     "country": "SM"
-  },
-  {
-    "continent": "AF",
-    "country": "SN"
-  },
-  {
-    "continent": "AF",
-    "country": "SO"
-  },
-  {
-    "continent": "SA",
-    "country": "SR"
-  },
-  {
-    "continent": "AF",
-    "country": "ST"
-  },
-  {
-    "continent": "NA",
-    "country": "SV"
-  },
-  {
-    "continent": "AS",
-    "country": "SY"
-  },
-  {
-    "continent": "AF",
-    "country": "SZ"
-  },
-  {
-    "continent": "NA",
-    "country": "TC"
-  },
-  {
-    "continent": "AF",
-    "country": "TD"
-  },
-  {
-    "continent": "AN",
-    "country": "TF"
-  },
-  {
-    "continent": "AF",
-    "country": "TG"
-  },
-  {
-    "continent": "AS",
-    "country": "TH"
-  },
-  {
-    "continent": "AS",
-    "country": "TJ"
-  },
-  {
-    "continent": "OC",
-    "country": "TK"
-  },
-  {
-    "continent": "AS",
-    "country": "TL"
-  },
-  {
-    "continent": "AS",
-    "country": "TM"
-  },
-  {
-    "continent": "AF",
-    "country": "TN"
-  },
-  {
-    "continent": "OC",
-    "country": "TO"
   },
   {
     "continent": "EU",
     "country": "TR"
   },
   {
-    "continent": "NA",
-    "country": "TT"
-  },
-  {
-    "continent": "OC",
-    "country": "TV"
-  },
-  {
-    "continent": "AS",
-    "country": "TW"
-  },
-  {
-    "continent": "AF",
-    "country": "TZ"
-  },
-  {
     "continent": "EU",
     "country": "UA"
-  },
-  {
-    "continent": "AF",
-    "country": "UG"
-  },
-  {
-    "continent": "OC",
-    "country": "UM"
-  },
-  {
-    "continent": "NA",
-    "country": "US"
-  },
-  {
-    "continent": "SA",
-    "country": "UY"
-  },
-  {
-    "continent": "AS",
-    "country": "UZ"
   },
   {
     "continent": "EU",
@@ -945,11 +681,151 @@
   },
   {
     "continent": "NA",
-    "country": "VC"
+    "country": "AG"
   },
   {
-    "continent": "SA",
-    "country": "VE"
+    "continent": "NA",
+    "country": "AI"
+  },
+  {
+    "continent": "NA",
+    "country": "AN"
+  },
+  {
+    "continent": "NA",
+    "country": "AW"
+  },
+  {
+    "continent": "NA",
+    "country": "BB"
+  },
+  {
+    "continent": "NA",
+    "country": "BL"
+  },
+  {
+    "continent": "NA",
+    "country": "BM"
+  },
+  {
+    "continent": "NA",
+    "country": "BS"
+  },
+  {
+    "continent": "NA",
+    "country": "BZ"
+  },
+  {
+    "continent": "NA",
+    "country": "CA"
+  },
+  {
+    "continent": "NA",
+    "country": "CR"
+  },
+  {
+    "continent": "NA",
+    "country": "CU"
+  },
+  {
+    "continent": "NA",
+    "country": "DM"
+  },
+  {
+    "continent": "NA",
+    "country": "DO"
+  },
+  {
+    "continent": "NA",
+    "country": "GD"
+  },
+  {
+    "continent": "NA",
+    "country": "GL"
+  },
+  {
+    "continent": "NA",
+    "country": "GP"
+  },
+  {
+    "continent": "NA",
+    "country": "GT"
+  },
+  {
+    "continent": "NA",
+    "country": "HN"
+  },
+  {
+    "continent": "NA",
+    "country": "HT"
+  },
+  {
+    "continent": "NA",
+    "country": "JM"
+  },
+  {
+    "continent": "NA",
+    "country": "KN"
+  },
+  {
+    "continent": "NA",
+    "country": "KY"
+  },
+  {
+    "continent": "NA",
+    "country": "LC"
+  },
+  {
+    "continent": "NA",
+    "country": "MF"
+  },
+  {
+    "continent": "NA",
+    "country": "MQ"
+  },
+  {
+    "continent": "NA",
+    "country": "MS"
+  },
+  {
+    "continent": "NA",
+    "country": "MX"
+  },
+  {
+    "continent": "NA",
+    "country": "NI"
+  },
+  {
+    "continent": "NA",
+    "country": "PA"
+  },
+  {
+    "continent": "NA",
+    "country": "PM"
+  },
+  {
+    "continent": "NA",
+    "country": "PR"
+  },
+  {
+    "continent": "NA",
+    "country": "SV"
+  },
+  {
+    "continent": "NA",
+    "country": "TC"
+  },
+  {
+    "continent": "NA",
+    "country": "TT"
+  },
+  {
+    "continent": "NA",
+    "country": "US"
+  },
+  {
+    "continent": "NA",
+    "country": "VC"
   },
   {
     "continent": "NA",
@@ -960,8 +836,96 @@
     "country": "VI"
   },
   {
-    "continent": "AS",
-    "country": "VN"
+    "continent": "OC",
+    "country": "AS"
+  },
+  {
+    "continent": "OC",
+    "country": "AU"
+  },
+  {
+    "continent": "OC",
+    "country": "CK"
+  },
+  {
+    "continent": "OC",
+    "country": "FJ"
+  },
+  {
+    "continent": "OC",
+    "country": "FM"
+  },
+  {
+    "continent": "OC",
+    "country": "GU"
+  },
+  {
+    "continent": "OC",
+    "country": "KI"
+  },
+  {
+    "continent": "OC",
+    "country": "MH"
+  },
+  {
+    "continent": "OC",
+    "country": "MP"
+  },
+  {
+    "continent": "OC",
+    "country": "NC"
+  },
+  {
+    "continent": "OC",
+    "country": "NF"
+  },
+  {
+    "continent": "OC",
+    "country": "NR"
+  },
+  {
+    "continent": "OC",
+    "country": "NU"
+  },
+  {
+    "continent": "OC",
+    "country": "NZ"
+  },
+  {
+    "continent": "OC",
+    "country": "PF"
+  },
+  {
+    "continent": "OC",
+    "country": "PG"
+  },
+  {
+    "continent": "OC",
+    "country": "PN"
+  },
+  {
+    "continent": "OC",
+    "country": "PW"
+  },
+  {
+    "continent": "OC",
+    "country": "SB"
+  },
+  {
+    "continent": "OC",
+    "country": "TK"
+  },
+  {
+    "continent": "OC",
+    "country": "TO"
+  },
+  {
+    "continent": "OC",
+    "country": "TV"
+  },
+  {
+    "continent": "OC",
+    "country": "UM"
   },
   {
     "continent": "OC",
@@ -976,23 +940,59 @@
     "country": "WS"
   },
   {
-    "continent": "AS",
-    "country": "YE"
+    "continent": "SA",
+    "country": "AR"
   },
   {
-    "continent": "AF",
-    "country": "YT"
+    "continent": "SA",
+    "country": "BO"
   },
   {
-    "continent": "AF",
-    "country": "ZA"
+    "continent": "SA",
+    "country": "BR"
   },
   {
-    "continent": "AF",
-    "country": "ZM"
+    "continent": "SA",
+    "country": "CL"
   },
   {
-    "continent": "AF",
-    "country": "ZW"
+    "continent": "SA",
+    "country": "CO"
+  },
+  {
+    "continent": "SA",
+    "country": "EC"
+  },
+  {
+    "continent": "SA",
+    "country": "FK"
+  },
+  {
+    "continent": "SA",
+    "country": "GF"
+  },
+  {
+    "continent": "SA",
+    "country": "GY"
+  },
+  {
+    "continent": "SA",
+    "country": "PE"
+  },
+  {
+    "continent": "SA",
+    "country": "PY"
+  },
+  {
+    "continent": "SA",
+    "country": "SR"
+  },
+  {
+    "continent": "SA",
+    "country": "UY"
+  },
+  {
+    "continent": "SA",
+    "country": "VE"
   }
 ]

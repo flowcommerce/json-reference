@@ -1,5 +1,9 @@
 [
   {
+    "timezone": "America/Chicago",
+    "country": "USA"
+  },
+  {
     "timezone": "America/Los_Angeles",
     "country": "USA"
   },
@@ -8,12 +12,20 @@
     "country": "USA"
   },
   {
-    "timezone": "America/Chicago",
-    "country": "USA"
+    "timezone": "Australia/ACT",
+    "country": "AUS"
   },
   {
-    "timezone": "Mexico/General",
-    "country": "MEX"
+    "timezone": "Canada/Eastern",
+    "country": "CAN"
+  },
+  {
+    "timezone": "Central European Time",
+    "country": "FRA"
+  },
+  {
+    "timezone": "China Standard Time",
+    "country": "CHN"
   },
   {
     "timezone": "GMT",
@@ -24,19 +36,7 @@
     "country": "IRL"
   },
   {
-    "timezone": "Central European Time",
-    "country": "FRA"
-  },
-  {
-    "timezone": "Canada/Eastern",
-    "country": "CAN"
-  },
-  {
-    "timezone": "Australia/ACT",
-    "country": "AUS"
-  },
-  {
-    "timezone": "China Standard Time",
-    "country": "CHN"
+    "timezone": "Mexico/General",
+    "country": "MEX"
   }
 ]
