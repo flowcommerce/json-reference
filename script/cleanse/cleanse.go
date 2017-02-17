@@ -80,7 +80,7 @@ func Cleanse() {
 	writeJson("data/cleansed/countries.json",
 		toObjects(countriesSource,
 			func(record map[string]string) bool {
-				return record["ISO3166-1-Alpha-2"] != "" && record["ISO3166-1-Alpha-3"] != "" && record["official_name_en"] != "" && !common.Contains(unsupportedCountryCodes, record["ISO3166-1-Alpha-3"]) && !common.Contains(unsupportedCurrencyCodes, record["ISO4217-currency_alphabetic_code"])
+				return record["ISO3166-1-Alpha-2"] != "" && record["ISO3166-1-Alpha-3"] != "" && record["official_name_en"] != "" && !common.ContainsIgnoreCase(unsupportedCountryCodes, record["ISO3166-1-Alpha-3"]) && !common.ContainsIgnoreCase(unsupportedCurrencyCodes, record["ISO4217-currency_alphabetic_code"])
 			},
 			func(record map[string]string) interface{} {
 				return Country {
@@ -98,7 +98,7 @@ func Cleanse() {
 	writeJson("data/cleansed/currencies.json",
 		toObjects(countriesSource,
 			func(record map[string]string) bool {
-				return record["ISO4217-currency_name"] != "" && record["ISO4217-currency_alphabetic_code"] != "" && !common.Contains(unsupportedCurrencyCodes, record["ISO4217-currency_alphabetic_code"])
+				return record["ISO4217-currency_name"] != "" && record["ISO4217-currency_alphabetic_code"] != "" && !common.ContainsIgnoreCase(unsupportedCurrencyCodes, record["ISO4217-currency_alphabetic_code"])
 			},
 			func(record map[string]string) interface{} {
 				n := record["ISO4217-currency_number_decimals"]

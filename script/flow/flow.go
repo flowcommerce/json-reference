@@ -78,7 +78,7 @@ func commonLanguages(data CleansedDataSet) []common.Language {
 	for _, l := range(data.Languages) {
 		theseCountries := []string{}
 		for _, country := range(data.Countries) {
-			if common.Contains(l.Countries, country.Iso_3166_3) {
+			if common.ContainsIgnoreCase(l.Countries, country.Iso_3166_3) {
 				theseCountries = append(theseCountries, country.Iso_3166_3)
 			}
 		}
@@ -122,7 +122,7 @@ func commonCountries(data CleansedDataSet) []common.Country {
 	for _, c := range(data.Countries) {
 		languages := []string {}
 		for _, l := range(data.Languages) {
-			if common.Contains(l.Countries, c.Iso_3166_3) {
+			if common.ContainsIgnoreCase(l.Countries, c.Iso_3166_3) {
 				languages = append(languages, l.Iso_639_2)
 			}
 		}
@@ -319,7 +319,7 @@ func findCountries(countries []common.Country, codes []string) []common.Country 
 	matching := []common.Country{}
 
 	for _, country := range(countries) {
-		if common.Contains(codes, country.Iso_3166_3) {
+		if common.ContainsIgnoreCase(codes, country.Iso_3166_3) {
 			matching = append(matching, country)
 		}
 	}
@@ -334,7 +334,7 @@ func findCountriesByCurrency(countries []common.Country, currency string) []stri
 	codes := []string{}
 
 	for _, country := range(countries) {
-		if country.DefaultCurrency == currency && !common.Contains(codes, country.Iso_3166_3) {
+		if country.DefaultCurrency == currency && !common.ContainsIgnoreCase(codes, country.Iso_3166_3) {
 			codes = append(codes, country.Iso_3166_3)
 		}
 	}
@@ -347,7 +347,7 @@ func currenciesForCountries(countries []common.Country) []string {
 	codes := []string{}
 
 	for _, country := range(countries) {
-		if country.DefaultCurrency != "" && !common.Contains(codes, country.DefaultCurrency) {
+		if country.DefaultCurrency != "" && !common.ContainsIgnoreCase(codes, country.DefaultCurrency) {
 			codes = append(codes, country.DefaultCurrency)
 		}
 	}
@@ -361,7 +361,7 @@ func languagesForCountries(countries []common.Country) []string {
 
 	for _, country := range(countries) {
 		for _, l := range(country.Languages) {
-			if !common.Contains(codes, l) {
+			if !common.ContainsIgnoreCase(codes, l) {
 				codes = append(codes, l)
 			}
 		}
@@ -376,7 +376,7 @@ func timezonesForCountries(countries []common.Country) []string {
 
 	for _, country := range(countries) {
 		for _, tz := range(country.Timezones) {
-			if !common.Contains(codes, tz) {
+			if !common.ContainsIgnoreCase(codes, tz) {
 				codes = append(codes, tz)
 			}
 		}
@@ -390,7 +390,7 @@ func measurementSystemsForCountries(countries []common.Country) []string {
 	codes := []string{}
 
 	for _, country := range(countries) {
-		if country.MeasurementSystem != "" && !common.Contains(codes, country.MeasurementSystem) {
+		if country.MeasurementSystem != "" && !common.ContainsIgnoreCase(codes, country.MeasurementSystem) {
 			codes = append(codes, country.MeasurementSystem)
 		}
 	}
