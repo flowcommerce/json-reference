@@ -37,6 +37,12 @@ directory.
 
   `go run script/reference.go all`
 
-## Generating the data
+## Local development
 
-  `go run script/reference.go all`
+View commands available:
+
+  `go run script/reference.go`
+
+Run end to end process:
+
+  `go run script/reference.go`
