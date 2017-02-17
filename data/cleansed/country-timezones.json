@@ -1,0 +1,38 @@
+[
+  {
+    "timezone": "America/Los_Angeles",
+    "country": "USA"
+  },
+  {
+    "timezone": "America/New_York",
+    "country": "USA"
+  },
+  {
+    "timezone": "America/Chicago",
+    "country": "USA"
+  },
+  {
+    "timezone": "Mexico/General",
+    "country": "MEX"
+  },
+  {
+    "timezone": "GMT",
+    "country": "GBR"
+  },
+  {
+    "timezone": "Central European Time",
+    "country": "FRA"
+  },
+  {
+    "timezone": "Canada/Eastern",
+    "country": "CAN"
+  },
+  {
+    "timezone": "Australia/ACT",
+    "country": "AUS"
+  },
+  {
+    "timezone": "China Standard Time",
+    "country": "CHN"
+  }
+]
