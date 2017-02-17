@@ -43,7 +43,7 @@ func main() {
 
 		{
 			Name:  "download",
-			Usage: "Downloads source data from the web, storing in the local 'data/1-sources' directory",
+			Usage: "Downloads source data from the web, storing in the local 'data/source' directory",
 			Action: func(c *cli.Context) error {
 				download.DownloadAll()
 				return nil
@@ -61,7 +61,7 @@ func main() {
 
 		{
 			Name:  "flow",
-			Usage: "Pulls together all the cleanse data into the final flow reference data. Writes to 'data/3-flow' directory",
+			Usage: "Pulls together all the cleanse data into the final flow reference data. Writes to 'data/final' directory",
 			Action: func(c *cli.Context) error {
 				flow.Generate()
 				return nil

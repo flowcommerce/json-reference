@@ -32,11 +32,11 @@ func Generate() {
 		CountryTimezones: cleanse.LoadCountryTimezones(),
 	}
 
-	writeJson("data/3-flow/continents.json", commonContinents(data))
-	writeJson("data/3-flow/languages.json", commonLanguages(data))
-	writeJson("data/3-flow/currencies.json", commonCurrencies(data))
-	writeJson("data/3-flow/timezones.json", commonTimezones(data))
-	writeJson("data/3-flow/countries.json", commonCountries(data))
+	writeJson("data/final/continents.json", commonContinents(data))
+	writeJson("data/final/languages.json", commonLanguages(data))
+	writeJson("data/final/currencies.json", commonCurrencies(data))
+	writeJson("data/final/timezones.json", commonTimezones(data))
+	writeJson("data/final/countries.json", commonCountries(data))
 }
 
 func writeJson(target string, objects interface{}) {

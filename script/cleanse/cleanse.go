@@ -71,10 +71,10 @@ type convertFunction func(records map[string]string) interface{}
 type acceptsFunction func(records map[string]string) bool
 
 func Cleanse() {
-	writeJson("data/2-cleansed/languages.json", readLanguages("data/1-sources/languages.json"))
+	writeJson("data/cleansed/languages.json", readLanguages("data/source/languages.json"))
 
-	countriesSource := readCsv("data/1-sources/countries.csv")
-	writeJson("data/2-cleansed/countries.json",
+	countriesSource := readCsv("data/source/countries.csv")
+	writeJson("data/cleansed/countries.json",
 		toObjects(countriesSource,
 			func(record map[string]string) bool {
 				return record["ISO3166-1-Alpha-2"] != "" && record["ISO3166-1-Alpha-3"] != ""
@@ -92,7 +92,7 @@ func Cleanse() {
 		),
 	)
 
-	writeJson("data/2-cleansed/currencies.json",
+	writeJson("data/cleansed/currencies.json",
 		toObjects(countriesSource,
 			func(record map[string]string) bool {
 				return record["ISO4217-currency_name"] != "" && record["ISO4217-currency_alphabetic_code"] != ""
@@ -115,8 +115,8 @@ func Cleanse() {
 		),
 	)
 
-	writeJson("data/2-cleansed/country-continents.json",
-		toObjects(readCsv("data/1-sources/country-continents.csv"),
+	writeJson("data/cleansed/country-continents.json",
+		toObjects(readCsv("data/source/country-continents.csv"),
 			func(record map[string]string) bool {
 				return record["continent code"] != "" && record["continent code"] != "--"
 			},
@@ -129,9 +129,9 @@ func Cleanse() {
 		),
 	)	
 
-	writeJson("data/2-cleansed/timezones.json", loadTimezonesFromPath("data/original/timezones.json"))
+	writeJson("data/cleansed/timezones.json", loadTimezonesFromPath("data/original/timezones.json"))
 
-	writeJson("data/2-cleansed/country-timezones.json",
+	writeJson("data/cleansed/country-timezones.json",
 		toObjects(readCsv("data/original/country-timezones.csv"),
 			func(record map[string]string) bool {
 				return record["country"] != "" && record["timezone"] != ""
@@ -145,7 +145,7 @@ func Cleanse() {
 		),
 	)	
 	
-	writeJson("data/2-cleansed/languages.json", filterLanguages(readLanguages("data/1-sources/languages.json")))
+	writeJson("data/cleansed/languages.json", filterLanguages(readLanguages("data/source/languages.json")))
 }
 
 func writeJson(target string, objects interface{}) {
@@ -261,7 +261,7 @@ func toObjects(records []map[string]string, accepts acceptsFunction, f convertFu
 
 func LoadCountryContinents() []CountryContinent {
 	countryContinents := []CountryContinent{}
-	err := json.Unmarshal(common.ReadFile("data/2-cleansed/country-continents.json"), &countryContinents)
+	err := json.Unmarshal(common.ReadFile("data/cleansed/country-continents.json"), &countryContinents)
 	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshal country continents: %s", err))
 	return countryContinents
 }
@@ -308,27 +308,27 @@ func LoadContinents() []Continent {
 
 func LoadCountries() []Country {
 	countries := []Country{}
-	err := json.Unmarshal(common.ReadFile("data/2-cleansed/countries.json"), &countries)
+	err := json.Unmarshal(common.ReadFile("data/cleansed/countries.json"), &countries)
 	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshal countries: %s", err))
 	return countries
 }
 
 func LoadCurrencies() []Currency {
 	currencies := []Currency{}
-	err := json.Unmarshal(common.ReadFile("data/2-cleansed/currencies.json"), &currencies)
+	err := json.Unmarshal(common.ReadFile("data/cleansed/currencies.json"), &currencies)
 	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshal currencies: %s", err))
 	return currencies
 }
 
 func LoadLanguages() []Language {
 	languages := []Language{}
-	err := json.Unmarshal(common.ReadFile("data/2-cleansed/languages.json"), &languages)
+	err := json.Unmarshal(common.ReadFile("data/cleansed/languages.json"), &languages)
 	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshal languages: %s", err))
 	return languages
 }
 
 func LoadTimezones() []Timezone {
-	return loadTimezonesFromPath("data/2-cleansed/timezones.json")
+	return loadTimezonesFromPath("data/cleansed/timezones.json")
 }
 
 func loadTimezonesFromPath(path string) []Timezone {
@@ -340,7 +340,7 @@ func loadTimezonesFromPath(path string) []Timezone {
 
 func LoadCountryTimezones() []CountryTimezone {
 	countryTimezones := []CountryTimezone{}
-	err := json.Unmarshal(common.ReadFile("data/2-cleansed/country-timezones.json"), &countryTimezones)
+	err := json.Unmarshal(common.ReadFile("data/cleansed/country-timezones.json"), &countryTimezones)
 	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshal country timezones: %s", err))
 	return countryTimezones
 }

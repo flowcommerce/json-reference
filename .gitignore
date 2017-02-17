@@ -1,2 +1,2 @@
-data/2-cleansed/*.json
-data/3-flow/*.json
+data/cleansed/*.json
+data/final/*.json
