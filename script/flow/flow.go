@@ -76,11 +76,11 @@ func commonContinents(data CleansedDataSet) []common.Continent {
 func commonLanguages(data CleansedDataSet) []common.Language {
 	var all []common.Language
 	for _, l := range(data.Languages) {
-		var theseCountries []string
-
-		for _, countryCode := range(l.Countries) {
-			country := findCountryByCode(data.Countries, countryCode)
-			theseCountries = append(theseCountries, country.Iso_3166_3)
+		theseCountries := []string{}
+		for _, country := range(data.Countries) {
+			if common.Contains(l.Countries, country.Iso_3166_3) {
+				theseCountries = append(theseCountries, country.Iso_3166_3)
+			}
 		}
 		sort.Strings(theseCountries)
 
@@ -106,114 +106,52 @@ func commonTimezones(data CleansedDataSet) []common.Timezone {
 }
 
 func commonCurrencies(data CleansedDataSet) []common.Currency {
-	unsupported := []string {
-		"AFN",
-		"AOA",
-		"BIF",
-		"BYR",
-		"CUP",
-		"ERN",
-		"IQD",
-		"IRR",
-		"KPW",
-		"LRD",
-		"MGA",
-		"MKD",
-		"MMK",
-		"MZN",
-		"SDG",
-		"SRD",
-		"SSP",
-		"SYP",
-		"TJS",
-		"TMT",
-		"ZWL",
-	}
-	
 	var all []common.Currency
 	for _, c := range(data.Currencies) {
-		if !common.Contains(unsupported, c.Iso_4217_3) {
-			all = append(all, common.Currency{
-				Name: c.Name,
-				Iso_4217_3: c.Iso_4217_3,
-				NumberDecimals: c.NumberDecimals,
-			})
-		}
+		all = append(all, common.Currency{
+			Name: c.Name,
+			Iso_4217_3: c.Iso_4217_3,
+			NumberDecimals: c.NumberDecimals,
+		})
 	}
 	return all
 }
 
 func commonCountries(data CleansedDataSet) []common.Country {
-	unsupported := []string {
-		"AFG",
-		"AGO",
-		"ATF",
-		"BDI",
-		"BLR",
-		"BVT",
-		"CCK",
-		"COD",
-		"CUB",
-		"CXR",
-		"ERI",
-		"FRO",
-		"HMD",
-		"IOT",
-		"IRN",
-		"IRQ",
-		"LBR",
-		"MDG",
-		"MKD",
-		"MMR",
-		"MOZ",
-		"PSE",
-		"SDN",
-		"SGS",
-		"SUR",
-		"SYR",
-		"TJK",
-		"TKM",
-		"UMI",
-		"ZWE",
-	}
-	
 	var all []common.Country
 	for _, c := range(data.Countries) {
-		if !common.Contains(unsupported, c.Iso_3166_3) {
-			languages := []string {}
-			for _, l := range(data.Languages) {
-				if common.Contains(l.Countries, c.Iso_3166_3) {
-					languages = append(languages, l.Iso_639_2)
-				}
+		languages := []string {}
+		for _, l := range(data.Languages) {
+			if common.Contains(l.Countries, c.Iso_3166_3) {
+				languages = append(languages, l.Iso_639_2)
 			}
-		
-			timezones := []string {}
-			for _, ct := range(data.CountryTimezones) {
-				if ct.CountryCode == c.Iso_3166_3 {
-					tz := findTimezone(data.Timezones, ct.TimezoneCode)
-					timezones = append(timezones, tz.Name)
-				}
-			}
-
-			var defaultCurrency string
-			if c.Currency != "" {
-				defaultCurrency = findCurrencyByCode(data.Currencies, c.Currency).Iso_4217_3
-				
-			}
-
-			sort.Strings(languages)
-			sort.Strings(timezones)
-			all = append(all, common.Country{
-				Name: formatCountryName(c.Iso_3166_3, c.Name),
-				Iso_3166_2: c.Iso_3166_2,
-				Iso_3166_3: c.Iso_3166_3,
-				MeasurementSystem: getMeasurementSystem(c.Iso_3166_3),
-				DefaultCurrency: defaultCurrency,
-				Languages: languages,
-				Timezones: timezones,
-
-			})
 		}
+		
+		timezones := []string {}
+		for _, ct := range(data.CountryTimezones) {
+			if ct.CountryCode == c.Iso_3166_3 {
+				tz := findTimezone(data.Timezones, ct.TimezoneCode)
+				timezones = append(timezones, tz.Name)
+			}
+		}
+
+		var defaultCurrency string
+		if c.Currency != "" {
+			defaultCurrency = findCurrencyByCode(data.Currencies, c.Currency).Iso_4217_3
+		}
+
+		sort.Strings(languages)
+		sort.Strings(timezones)
+		all = append(all, common.Country{
+			Name: formatCountryName(c.Iso_3166_3, c.Name),
+			Iso_3166_2: c.Iso_3166_2,
+			Iso_3166_3: c.Iso_3166_3,
+			MeasurementSystem: getMeasurementSystem(c.Iso_3166_3),
+			DefaultCurrency: defaultCurrency,
+			Languages: languages,
+			Timezones: timezones,
+			
+		})
 	}
         return all
 }
@@ -243,7 +181,7 @@ func createRegions(countries []common.Country, continents []common.Continent) []
 			regions = append(regions, common.Region{
 				Id: id,
 				Name: c.Name,
-				Countries: c.Countries,
+				Countries: toCountryCodes(theseCountries),
 				Currencies: currenciesForCountries(theseCountries),
 				Languages: languagesForCountries(theseCountries),
 				MeasurementSystems: measurementSystemsForCountries(theseCountries),
@@ -364,6 +302,17 @@ func formatCountryName(iso3 string, defaultName string) string {
 		return defaultName
 	}
 	}
+}
+
+func toCountryCodes(countries []common.Country) []string {
+	codes := []string{}
+
+	for _, country := range(countries) {
+		codes = append(codes, country.Iso_3166_3)
+	}
+
+	sort.Strings(codes)
+	return codes
 }
 
 func findCountries(countries []common.Country, codes []string) []common.Country {

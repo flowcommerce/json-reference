@@ -20,6 +20,10 @@
     "country": "GBR"
   },
   {
+    "timezone": "GMT",
+    "country": "IRL"
+  },
+  {
     "timezone": "Central European Time",
     "country": "FRA"
   },

@@ -1,12 +1,5 @@
 [
   {
-    "name": "Afghanistan",
-    "continent": "AS",
-    "iso_3166_2": "AF",
-    "iso_3166_3": "AFG",
-    "currency": "AFN"
-  },
-  {
     "name": "Albania",
     "continent": "EU",
     "iso_3166_2": "AL",
@@ -35,25 +28,11 @@
     "currency": "EUR"
   },
   {
-    "name": "Angola",
-    "continent": "AF",
-    "iso_3166_2": "AO",
-    "iso_3166_3": "AGO",
-    "currency": "AOA"
-  },
-  {
     "name": "Anguilla",
     "continent": "NA",
     "iso_3166_2": "AI",
     "iso_3166_3": "AIA",
     "currency": "XCD"
-  },
-  {
-    "name": "",
-    "continent": "AN",
-    "iso_3166_2": "AQ",
-    "iso_3166_3": "ATA",
-    "currency": ""
   },
   {
     "name": "Antigua and Barbuda",
@@ -133,13 +112,6 @@
     "currency": "BBD"
   },
   {
-    "name": "Belarus",
-    "continent": "EU",
-    "iso_3166_2": "BY",
-    "iso_3166_3": "BLR",
-    "currency": "BYR"
-  },
-  {
     "name": "Belgium",
     "continent": "EU",
     "iso_3166_2": "BE",
@@ -196,25 +168,11 @@
     "currency": "BWP"
   },
   {
-    "name": "",
-    "continent": "AN",
-    "iso_3166_2": "BV",
-    "iso_3166_3": "BVT",
-    "currency": ""
-  },
-  {
     "name": "Brazil",
     "continent": "SA",
     "iso_3166_2": "BR",
     "iso_3166_3": "BRA",
     "currency": "BRL"
-  },
-  {
-    "name": "",
-    "continent": "AS",
-    "iso_3166_2": "IO",
-    "iso_3166_3": "IOT",
-    "currency": ""
   },
   {
     "name": "British Virgin Islands",
@@ -243,13 +201,6 @@
     "iso_3166_2": "BF",
     "iso_3166_3": "BFA",
     "currency": "XOF"
-  },
-  {
-    "name": "Burundi",
-    "continent": "AF",
-    "iso_3166_2": "BI",
-    "iso_3166_3": "BDI",
-    "currency": "BIF"
   },
   {
     "name": "Cambodia",
@@ -322,20 +273,6 @@
     "currency": "CNY"
   },
   {
-    "name": "",
-    "continent": "AS",
-    "iso_3166_2": "CX",
-    "iso_3166_3": "CXR",
-    "currency": ""
-  },
-  {
-    "name": "",
-    "continent": "AS",
-    "iso_3166_2": "CC",
-    "iso_3166_3": "CCK",
-    "currency": ""
-  },
-  {
     "name": "Colombia",
     "continent": "SA",
     "iso_3166_2": "CO",
@@ -357,13 +294,6 @@
     "currency": "XAF"
   },
   {
-    "name": "Democratic Republic of the Congo",
-    "continent": "AF",
-    "iso_3166_2": "CD",
-    "iso_3166_3": "COD",
-    "currency": ""
-  },
-  {
     "name": "Cook Islands",
     "continent": "OC",
     "iso_3166_2": "CK",
@@ -383,13 +313,6 @@
     "iso_3166_2": "HR",
     "iso_3166_3": "HRV",
     "currency": "HRK"
-  },
-  {
-    "name": "Cuba",
-    "continent": "NA",
-    "iso_3166_2": "CU",
-    "iso_3166_3": "CUB",
-    "currency": "CUP"
   },
   {
     "name": "Curaçao",
@@ -476,13 +399,6 @@
     "currency": "XAF"
   },
   {
-    "name": "Eritrea",
-    "continent": "AF",
-    "iso_3166_2": "ER",
-    "iso_3166_3": "ERI",
-    "currency": "ERN"
-  },
-  {
     "name": "Estonia",
     "continent": "EU",
     "iso_3166_2": "EE",
@@ -502,13 +418,6 @@
     "iso_3166_2": "FK",
     "iso_3166_3": "FLK",
     "currency": "FKP"
-  },
-  {
-    "name": "Faeroe Islands",
-    "continent": "EU",
-    "iso_3166_2": "FO",
-    "iso_3166_3": "FRO",
-    "currency": ""
   },
   {
     "name": "Fiji",
@@ -544,13 +453,6 @@
     "iso_3166_2": "PF",
     "iso_3166_3": "PYF",
     "currency": "XPF"
-  },
-  {
-    "name": "",
-    "continent": "AN",
-    "iso_3166_2": "TF",
-    "iso_3166_3": "ATF",
-    "currency": ""
   },
   {
     "name": "Gabon",
@@ -672,13 +574,6 @@
     "currency": "USD"
   },
   {
-    "name": "",
-    "continent": "AN",
-    "iso_3166_2": "HM",
-    "iso_3166_3": "HMD",
-    "currency": ""
-  },
-  {
     "name": "Honduras",
     "continent": "NA",
     "iso_3166_2": "HN",
@@ -719,20 +614,6 @@
     "iso_3166_2": "ID",
     "iso_3166_3": "IDN",
     "currency": "IDR"
-  },
-  {
-    "name": "Iran (Islamic Republic of)",
-    "continent": "AS",
-    "iso_3166_2": "IR",
-    "iso_3166_3": "IRN",
-    "currency": "IRR"
-  },
-  {
-    "name": "Iraq",
-    "continent": "AS",
-    "iso_3166_2": "IQ",
-    "iso_3166_3": "IRQ",
-    "currency": "IQD"
   },
   {
     "name": "Ireland",
@@ -854,13 +735,6 @@
     "currency": "ZAR"
   },
   {
-    "name": "Liberia",
-    "continent": "AF",
-    "iso_3166_2": "LR",
-    "iso_3166_3": "LBR",
-    "currency": "LRD"
-  },
-  {
     "name": "Libya",
     "continent": "AF",
     "iso_3166_2": "LY",
@@ -894,20 +768,6 @@
     "iso_3166_2": "MO",
     "iso_3166_3": "MAC",
     "currency": "MOP"
-  },
-  {
-    "name": "The former Yugoslav Republic of Macedonia",
-    "continent": "EU",
-    "iso_3166_2": "MK",
-    "iso_3166_3": "MKD",
-    "currency": "MKD"
-  },
-  {
-    "name": "Madagascar",
-    "continent": "AF",
-    "iso_3166_2": "MG",
-    "iso_3166_3": "MDG",
-    "currency": "MGA"
   },
   {
     "name": "Malawi",
@@ -1036,20 +896,6 @@
     "currency": "MAD"
   },
   {
-    "name": "Mozambique",
-    "continent": "AF",
-    "iso_3166_2": "MZ",
-    "iso_3166_3": "MOZ",
-    "currency": "MZN"
-  },
-  {
-    "name": "Myanmar",
-    "continent": "AS",
-    "iso_3166_2": "MM",
-    "iso_3166_3": "MMR",
-    "currency": "MMK"
-  },
-  {
     "name": "Namibia",
     "continent": "AF",
     "iso_3166_2": "NA",
@@ -1127,13 +973,6 @@
     "currency": "AUD"
   },
   {
-    "name": "Democratic People's Republic of Korea",
-    "continent": "AS",
-    "iso_3166_2": "KP",
-    "iso_3166_3": "PRK",
-    "currency": "KPW"
-  },
-  {
     "name": "Northern Mariana Islands",
     "continent": "OC",
     "iso_3166_2": "MP",
@@ -1167,13 +1006,6 @@
     "iso_3166_2": "PW",
     "iso_3166_3": "PLW",
     "currency": "USD"
-  },
-  {
-    "name": "State of Palestine",
-    "continent": "AS",
-    "iso_3166_2": "PS",
-    "iso_3166_3": "PSE",
-    "currency": ""
   },
   {
     "name": "Panama",
@@ -1372,25 +1204,11 @@
     "currency": "ZAR"
   },
   {
-    "name": "",
-    "continent": "AN",
-    "iso_3166_2": "GS",
-    "iso_3166_3": "SGS",
-    "currency": ""
-  },
-  {
     "name": "Republic of Korea",
     "continent": "AS",
     "iso_3166_2": "KR",
     "iso_3166_3": "KOR",
     "currency": "KRW"
-  },
-  {
-    "name": "South Sudan",
-    "continent": "AF",
-    "iso_3166_2": "SS",
-    "iso_3166_3": "SSD",
-    "currency": "SSP"
   },
   {
     "name": "Spain",
@@ -1456,20 +1274,6 @@
     "currency": "XCD"
   },
   {
-    "name": "Sudan",
-    "continent": "AF",
-    "iso_3166_2": "SD",
-    "iso_3166_3": "SDN",
-    "currency": "SDG"
-  },
-  {
-    "name": "Suriname",
-    "continent": "SA",
-    "iso_3166_2": "SR",
-    "iso_3166_3": "SUR",
-    "currency": "SRD"
-  },
-  {
     "name": "Svalbard and Jan Mayen Islands",
     "continent": "EU",
     "iso_3166_2": "SJ",
@@ -1498,32 +1302,11 @@
     "currency": "CHF"
   },
   {
-    "name": "Syrian Arab Republic",
-    "continent": "AS",
-    "iso_3166_2": "SY",
-    "iso_3166_3": "SYR",
-    "currency": "SYP"
-  },
-  {
     "name": "Sao Tome and Principe",
     "continent": "AF",
     "iso_3166_2": "ST",
     "iso_3166_3": "STP",
     "currency": "STD"
-  },
-  {
-    "name": "",
-    "continent": "AS",
-    "iso_3166_2": "TW",
-    "iso_3166_3": "TWN",
-    "currency": ""
-  },
-  {
-    "name": "Tajikistan",
-    "continent": "AS",
-    "iso_3166_2": "TJ",
-    "iso_3166_3": "TJK",
-    "currency": "TJS"
   },
   {
     "name": "United Republic of Tanzania",
@@ -1589,13 +1372,6 @@
     "currency": "TRY"
   },
   {
-    "name": "Turkmenistan",
-    "continent": "AS",
-    "iso_3166_2": "TM",
-    "iso_3166_3": "TKM",
-    "currency": "TMT"
-  },
-  {
     "name": "Turks and Caicos Islands",
     "continent": "NA",
     "iso_3166_2": "TC",
@@ -1608,13 +1384,6 @@
     "iso_3166_2": "TV",
     "iso_3166_3": "TUV",
     "currency": "AUD"
-  },
-  {
-    "name": "",
-    "continent": "OC",
-    "iso_3166_2": "UM",
-    "iso_3166_3": "UMI",
-    "currency": ""
   },
   {
     "name": "United States Virgin Islands",
@@ -1727,13 +1496,6 @@
     "iso_3166_2": "ZM",
     "iso_3166_3": "ZMB",
     "currency": "ZMW"
-  },
-  {
-    "name": "Zimbabwe",
-    "continent": "AF",
-    "iso_3166_2": "ZW",
-    "iso_3166_3": "ZWE",
-    "currency": "ZWL"
   },
   {
     "name": "Åland Islands",

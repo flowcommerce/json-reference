@@ -1,52 +1,20 @@
 [
   {
-    "id": "ata",
-    "name": "",
-    "countries": [
-      "ATA"
-    ],
-    "currencies": [],
-    "languages": [],
-    "measurement_systems": [
-      "metric"
-    ],
-    "timezones": []
-  },
-  {
-    "id": "twn",
-    "name": "",
-    "countries": [
-      "TWN"
-    ],
-    "currencies": [],
-    "languages": [
-      "zh"
-    ],
-    "measurement_systems": [
-      "metric"
-    ],
-    "timezones": []
-  },
-  {
     "id": "africa",
     "name": "Africa",
     "countries": [
-      "AGO",
-      "BDI",
       "BEN",
       "BFA",
       "BWA",
       "CAF",
       "CIV",
       "CMR",
-      "COD",
       "COG",
       "COM",
       "CPV",
       "DJI",
       "DZA",
       "EGY",
-      "ERI",
       "ESH",
       "ETH",
       "GAB",
@@ -56,13 +24,10 @@
       "GNB",
       "GNQ",
       "KEN",
-      "LBR",
       "LBY",
       "LSO",
       "MAR",
-      "MDG",
       "MLI",
-      "MOZ",
       "MRT",
       "MUS",
       "MWI",
@@ -72,12 +37,10 @@
       "NGA",
       "REU",
       "RWA",
-      "SDN",
       "SEN",
       "SHN",
       "SLE",
       "SOM",
-      "SSD",
       "STP",
       "SWZ",
       "SYC",
@@ -87,8 +50,7 @@
       "TZA",
       "UGA",
       "ZAF",
-      "ZMB",
-      "ZWE"
+      "ZMB"
     ],
     "currencies": [
       "BWP",
@@ -114,7 +76,6 @@
       "SHP",
       "SLL",
       "SOS",
-      "SSP",
       "STD",
       "SZL",
       "TND",
@@ -319,7 +280,6 @@
     "id": "asia",
     "name": "Asia",
     "countries": [
-      "AFG",
       "ARE",
       "ARM",
       "AZE",
@@ -327,16 +287,11 @@
       "BHR",
       "BRN",
       "BTN",
-      "CCK",
       "CHN",
-      "CXR",
       "GEO",
       "HKG",
       "IDN",
       "IND",
-      "IOT",
-      "IRN",
-      "IRQ",
       "ISR",
       "JOR",
       "JPN",
@@ -350,24 +305,17 @@
       "LKA",
       "MAC",
       "MDV",
-      "MMR",
       "MNG",
       "MYS",
       "NPL",
       "OMN",
       "PAK",
       "PHL",
-      "PRK",
-      "PSE",
       "QAT",
       "SAU",
       "SGP",
-      "SYR",
       "THA",
-      "TJK",
-      "TKM",
       "TUR",
-      "TWN",
       "UZB",
       "VNM",
       "YEM"
@@ -388,7 +336,6 @@
       "JPY",
       "KGS",
       "KHR",
-      "KPW",
       "KRW",
       "KWD",
       "KZT",
@@ -1186,23 +1133,6 @@
     "timezones": []
   },
   {
-    "id": "prk",
-    "name": "Democratic People's Republic of Korea",
-    "countries": [
-      "PRK"
-    ],
-    "currencies": [
-      "KPW"
-    ],
-    "languages": [
-      "ko"
-    ],
-    "measurement_systems": [
-      "metric"
-    ],
-    "timezones": []
-  },
-  {
     "id": "dnk",
     "name": "Denmark",
     "countries": [
@@ -1388,7 +1318,6 @@
       "BEL",
       "BGR",
       "BIH",
-      "BLR",
       "CHE",
       "CYP",
       "CZE",
@@ -1398,7 +1327,6 @@
       "EST",
       "FIN",
       "FRA",
-      "FRO",
       "GBR",
       "GGY",
       "GIB",
@@ -1416,7 +1344,6 @@
       "LVA",
       "MCO",
       "MDA",
-      "MKD",
       "MLT",
       "MNE",
       "NLD",
@@ -1573,7 +1500,8 @@
       "metric"
     ],
     "timezones": [
-      "Africa/Algiers"
+      "Africa/Algiers",
+      "GMT"
     ]
   },
   {
@@ -2092,7 +2020,9 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": []
+    "timezones": [
+      "GMT"
+    ]
   },
   {
     "id": "imn",
@@ -2943,7 +2873,6 @@
       "BRB",
       "CAN",
       "CRI",
-      "CUB",
       "CUW",
       "CYM",
       "DMA",
@@ -3076,7 +3005,6 @@
       "TLS",
       "TON",
       "TUV",
-      "UMI",
       "VUT",
       "WLF",
       "WSM"
@@ -3846,7 +3774,6 @@
       "GUY",
       "PER",
       "PRY",
-      "SUR",
       "URY",
       "VEN"
     ],
@@ -3873,23 +3800,6 @@
       "gn",
       "pt",
       "qu"
-    ],
-    "measurement_systems": [
-      "metric"
-    ],
-    "timezones": []
-  },
-  {
-    "id": "ssd",
-    "name": "South Sudan",
-    "countries": [
-      "SSD"
-    ],
-    "currencies": [
-      "SSP"
-    ],
-    "languages": [
-      "en"
     ],
     "measurement_systems": [
       "metric"
@@ -4429,7 +4339,6 @@
       "ARG",
       "ARM",
       "ASM",
-      "ATA",
       "ATG",
       "AUS",
       "AUT",
@@ -4580,7 +4489,6 @@
       "PNG",
       "POL",
       "PRI",
-      "PRK",
       "PRT",
       "PRY",
       "PYF",
@@ -4601,7 +4509,6 @@
       "SOM",
       "SPM",
       "SRB",
-      "SSD",
       "STP",
       "SVK",
       "SVN",
@@ -4620,7 +4527,6 @@
       "TUN",
       "TUR",
       "TUV",
-      "TWN",
       "TZA",
       "UGA",
       "UKR",
@@ -4699,7 +4605,6 @@
       "KGS",
       "KHR",
       "KMF",
-      "KPW",
       "KRW",
       "KWD",
       "KYD",
@@ -4743,7 +4648,6 @@
       "SHP",
       "SLL",
       "SOS",
-      "SSP",
       "STD",
       "SZL",
       "THB",

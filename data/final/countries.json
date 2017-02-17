@@ -51,14 +51,6 @@
     "timezones": []
   },
   {
-    "name": "",
-    "iso_3166_2": "AQ",
-    "iso_3166_3": "ATA",
-    "measurement_system": "metric",
-    "languages": [],
-    "timezones": []
-  },
-  {
     "name": "Antigua and Barbuda",
     "iso_3166_2": "AG",
     "iso_3166_3": "ATG",
@@ -1009,7 +1001,9 @@
       "en",
       "ga"
     ],
-    "timezones": []
+    "timezones": [
+      "GMT"
+    ]
   },
   {
     "name": "Isle of Man",
@@ -1581,17 +1575,6 @@
     "timezones": []
   },
   {
-    "name": "Democratic People's Republic of Korea",
-    "iso_3166_2": "KP",
-    "iso_3166_3": "PRK",
-    "measurement_system": "metric",
-    "default_currency": "KPW",
-    "languages": [
-      "ko"
-    ],
-    "timezones": []
-  },
-  {
     "name": "Northern Mariana Islands",
     "iso_3166_2": "MP",
     "iso_3166_3": "MNP",
@@ -1992,17 +1975,6 @@
     "timezones": []
   },
   {
-    "name": "South Sudan",
-    "iso_3166_2": "SS",
-    "iso_3166_3": "SSD",
-    "measurement_system": "metric",
-    "default_currency": "SSP",
-    "languages": [
-      "en"
-    ],
-    "timezones": []
-  },
-  {
     "name": "Spain",
     "iso_3166_2": "ES",
     "iso_3166_3": "ESP",
@@ -2153,16 +2125,6 @@
     "default_currency": "STD",
     "languages": [
       "pt"
-    ],
-    "timezones": []
-  },
-  {
-    "name": "",
-    "iso_3166_2": "TW",
-    "iso_3166_3": "TWN",
-    "measurement_system": "metric",
-    "languages": [
-      "zh"
     ],
     "timezones": []
   },

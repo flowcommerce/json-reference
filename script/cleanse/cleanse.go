@@ -73,11 +73,14 @@ type acceptsFunction func(records map[string]string) bool
 func Cleanse() {
 	writeJson("data/cleansed/languages.json", readLanguages("data/source/languages.json"))
 
+	unsupportedCurrencyCodes := unsupportedCurrencyCodes()
+	unsupportedCountryCodes := unsupportedCountryCodes()
+
 	countriesSource := readCsv("data/source/countries.csv")
 	writeJson("data/cleansed/countries.json",
 		toObjects(countriesSource,
 			func(record map[string]string) bool {
-				return record["ISO3166-1-Alpha-2"] != "" && record["ISO3166-1-Alpha-3"] != ""
+				return record["ISO3166-1-Alpha-2"] != "" && record["ISO3166-1-Alpha-3"] != "" && record["official_name_en"] != "" && !common.Contains(unsupportedCountryCodes, record["ISO3166-1-Alpha-3"]) && !common.Contains(unsupportedCurrencyCodes, record["ISO4217-currency_alphabetic_code"])
 			},
 			func(record map[string]string) interface{} {
 				return Country {
@@ -95,7 +98,7 @@ func Cleanse() {
 	writeJson("data/cleansed/currencies.json",
 		toObjects(countriesSource,
 			func(record map[string]string) bool {
-				return record["ISO4217-currency_name"] != "" && record["ISO4217-currency_alphabetic_code"] != ""
+				return record["ISO4217-currency_name"] != "" && record["ISO4217-currency_alphabetic_code"] != "" && !common.Contains(unsupportedCurrencyCodes, record["ISO4217-currency_alphabetic_code"])
 			},
 			func(record map[string]string) interface{} {
 				n := record["ISO4217-currency_number_decimals"]
@@ -345,3 +348,63 @@ func LoadCountryTimezones() []CountryTimezone {
 	return countryTimezones
 }
 
+func unsupportedCountryCodes() []string {
+	return []string {
+		"AFG",
+		"AGO",
+		"ATF",
+		"BDI",
+		"BLR",
+		"BVT",
+		"CCK",
+		"COD",
+		"CUB",
+		"CXR",
+		"ERI",
+		"FRO",
+		"HMD",
+		"IOT",
+		"IRN",
+		"IRQ",
+		"LBR",
+		"MDG",
+		"MKD",
+		"MMR",
+		"MOZ",
+		"PSE",
+		"SDN",
+		"SGS",
+		"SUR",
+		"SYR",
+		"TJK",
+		"TKM",
+		"UMI",
+		"ZWE",
+	}
+}
+
+func unsupportedCurrencyCodes() []string {
+	return []string {
+		"AFN",
+		"AOA",
+		"BIF",
+		"BYR",
+		"CUP",
+		"ERN",
+		"IQD",
+		"IRR",
+		"KPW",
+		"LRD",
+		"MGA",
+		"MKD",
+		"MMK",
+		"MZN",
+		"SDG",
+		"SRD",
+		"SSP",
+		"SYP",
+		"TJS",
+		"TMT",
+		"ZWL",
+	}	
+}

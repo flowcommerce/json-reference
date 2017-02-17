@@ -1,10 +1,5 @@
 [
   {
-    "name": "Afghani",
-    "iso_4217_3": "AFN",
-    "number_decimals": 0
-  },
-  {
     "name": "Lek",
     "iso_4217_3": "ALL",
     "number_decimals": 0
@@ -22,11 +17,6 @@
   {
     "name": "Euro",
     "iso_4217_3": "EUR",
-    "number_decimals": 0
-  },
-  {
-    "name": "Kwanza",
-    "iso_4217_3": "AOA",
     "number_decimals": 0
   },
   {
@@ -87,11 +77,6 @@
   {
     "name": "Barbados Dollar",
     "iso_4217_3": "BBD",
-    "number_decimals": 0
-  },
-  {
-    "name": "Belarussian Ruble",
-    "iso_4217_3": "BYR",
     "number_decimals": 0
   },
   {
@@ -157,11 +142,6 @@
   {
     "name": "CFA Franc BCEAO",
     "iso_4217_3": "XOF",
-    "number_decimals": 0
-  },
-  {
-    "name": "Burundi Franc",
-    "iso_4217_3": "BIF",
     "number_decimals": 0
   },
   {
@@ -245,11 +225,6 @@
     "number_decimals": 0
   },
   {
-    "name": "Cuban Peso",
-    "iso_4217_3": "CUP",
-    "number_decimals": 0
-  },
-  {
     "name": "Netherlands Antillean Guilder",
     "iso_4217_3": "ANG",
     "number_decimals": 0
@@ -302,11 +277,6 @@
   {
     "name": "CFA Franc BEAC",
     "iso_4217_3": "XAF",
-    "number_decimals": 0
-  },
-  {
-    "name": "Nakfa",
-    "iso_4217_3": "ERN",
     "number_decimals": 0
   },
   {
@@ -460,16 +430,6 @@
     "number_decimals": 0
   },
   {
-    "name": "Iranian Rial",
-    "iso_4217_3": "IRR",
-    "number_decimals": 0
-  },
-  {
-    "name": "Iraqi Dinar",
-    "iso_4217_3": "IQD",
-    "number_decimals": 0
-  },
-  {
     "name": "Euro",
     "iso_4217_3": "EUR",
     "number_decimals": 0
@@ -555,11 +515,6 @@
     "number_decimals": 0
   },
   {
-    "name": "Liberian Dollar",
-    "iso_4217_3": "LRD",
-    "number_decimals": 0
-  },
-  {
     "name": "Libyan Dinar",
     "iso_4217_3": "LYD",
     "number_decimals": 0
@@ -582,16 +537,6 @@
   {
     "name": "Pataca",
     "iso_4217_3": "MOP",
-    "number_decimals": 0
-  },
-  {
-    "name": "Denar",
-    "iso_4217_3": "MKD",
-    "number_decimals": 0
-  },
-  {
-    "name": "Malagasy Ariary",
-    "iso_4217_3": "MGA",
     "number_decimals": 0
   },
   {
@@ -685,16 +630,6 @@
     "number_decimals": 0
   },
   {
-    "name": "Mozambique Metical",
-    "iso_4217_3": "MZN",
-    "number_decimals": 0
-  },
-  {
-    "name": "Kyat",
-    "iso_4217_3": "MMK",
-    "number_decimals": 0
-  },
-  {
     "name": "Rand",
     "iso_4217_3": "ZAR",
     "number_decimals": 0
@@ -747,11 +682,6 @@
   {
     "name": "Australian Dollar",
     "iso_4217_3": "AUD",
-    "number_decimals": 0
-  },
-  {
-    "name": "North Korean Won",
-    "iso_4217_3": "KPW",
     "number_decimals": 0
   },
   {
@@ -925,11 +855,6 @@
     "number_decimals": 0
   },
   {
-    "name": "South Sudanese Pound",
-    "iso_4217_3": "SSP",
-    "number_decimals": 0
-  },
-  {
     "name": "Euro",
     "iso_4217_3": "EUR",
     "number_decimals": 0
@@ -975,16 +900,6 @@
     "number_decimals": 0
   },
   {
-    "name": "Sudanese Pound",
-    "iso_4217_3": "SDG",
-    "number_decimals": 0
-  },
-  {
-    "name": "Surinam Dollar",
-    "iso_4217_3": "SRD",
-    "number_decimals": 0
-  },
-  {
     "name": "Norwegian Krone",
     "iso_4217_3": "NOK",
     "number_decimals": 0
@@ -1005,18 +920,8 @@
     "number_decimals": 0
   },
   {
-    "name": "Syrian Pound",
-    "iso_4217_3": "SYP",
-    "number_decimals": 0
-  },
-  {
     "name": "Dobra",
     "iso_4217_3": "STD",
-    "number_decimals": 0
-  },
-  {
-    "name": "Somoni",
-    "iso_4217_3": "TJS",
     "number_decimals": 0
   },
   {
@@ -1062,11 +967,6 @@
   {
     "name": "Turkish Lira",
     "iso_4217_3": "TRY",
-    "number_decimals": 0
-  },
-  {
-    "name": "Turkmenistan New Manat",
-    "iso_4217_3": "TMT",
     "number_decimals": 0
   },
   {
@@ -1157,11 +1057,6 @@
   {
     "name": "Zambian Kwacha",
     "iso_4217_3": "ZMW",
-    "number_decimals": 0
-  },
-  {
-    "name": "Zimbabwe Dollar",
-    "iso_4217_3": "ZWL",
     "number_decimals": 0
   },
   {
