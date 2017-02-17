@@ -50,7 +50,7 @@ type Region struct {
 
 type Timezone struct {
 	Name                     string `json:"name"`
-	Description              string `json:"code"`
+	Description              string `json:"description"`
 	Offset                   int    `json:"offset"`
 }
 
