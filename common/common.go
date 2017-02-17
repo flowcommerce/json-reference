@@ -98,7 +98,7 @@ func Regions() []Region {
 }
 
 func readDataFileFromUrl(name string) []byte {
-	baseDataUrl := "https://github.com/flowcommerce/json-reference/blob/master/data/final/"
+	baseDataUrl := "https://raw.githubusercontent.com/flowcommerce/json-reference/master/data/final/"
 	return ReadUrl(baseDataUrl + name)
 }
 
