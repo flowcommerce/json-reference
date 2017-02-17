@@ -228,7 +228,7 @@ func createRegions(countries []common.Country, continents []common.Continent) []
 			Id: id,
 			Name: c.Name,
 			Countries: []string { c.Iso_3166_3 },
-			Currencies: []string { c.DefaultCurrency },
+			Currencies: currenciesForCountries([]common.Country { c }),
 			Languages: languagesForCountries([]common.Country { c }),
 			MeasurementSystems: measurementSystemsForCountries([]common.Country { c }),
 			Timezones: timezonesForCountries([]common.Country { c }),
@@ -252,16 +252,8 @@ func createRegions(countries []common.Country, continents []common.Continent) []
 		}
 	}
 
-	eurozone := eurozone(countries)
-
-	world := world(countries)
-	assertUniqueRegionId(regions, eurozone.Id)
-	regions = append(regions, eurozone, world)
-
-	for _, r := range(regions) {
-		assertUniqueRegionId(regions, r.Id)
-	}
-
+	regions = append(regions, eurozone(countries), world(countries))
+	assertUniqueRegionIds(regions)
 	sortRegions(regions)
 	return regions
 }
@@ -458,12 +450,15 @@ func measurementSystemsForCountries(countries []common.Country) []string {
 	return codes
 }
 
-func assertUniqueRegionId(regions []common.Region, id string) {
+func assertUniqueRegionIds(regions []common.Region) {
+	found := make(map[string]bool)
+
 	for _, r := range(regions) {
-		if r.Id == id {
-			fmt.Printf("ERROR: Duplicate region id[%s]\n", id)
+		if found[r.Id] {
+			fmt.Printf("ERROR: Duplicate region id[%s]\n", r.Id)
 			os.Exit(1)
 		}
+		found[r.Id] = true
 	}
 }
 
