@@ -5,6 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/flowcommerce/tools/util"
+	"net/http"
 	"io/ioutil"
 	"os"
 	"strings"
@@ -54,48 +55,62 @@ type Timezone struct {
 	Offset                   int    `json:"offset"`
 }
 
-func LoadContinents() []Continent {
+func Continents() []Continent {
 	continents := []Continent{}
-	err := json.Unmarshal(ReadFile("data/final/continents.json"), &continents)
+	err := json.Unmarshal(readDataFileFromUrl("data/final/continents.json"), &continents)
 	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshal continents: %s", err))
 	return continents
 }
 
-func LoadCountries() []Country {
+func Countries() []Country {
 	countries := []Country{}
-	err := json.Unmarshal(ReadFile("data/final/countries.json"), &countries)
+	err := json.Unmarshal(readDataFileFromUrl("data/final/countries.json"), &countries)
 	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshal countries: %s", err))
 	return countries
 }
 
-func LoadCurrencies() []Currency {
+func Currencies() []Currency {
 	currencies := []Currency{}
-	err := json.Unmarshal(ReadFile("data/final/currencies.json"), &currencies)
+	err := json.Unmarshal(readDataFileFromUrl("data/final/currencies.json"), &currencies)
 	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshal currencies: %s", err))
 	return currencies
 }
 
-func LoadLanguages() []Language {
+func Languages() []Language {
 	languages := []Language{}
-	err := json.Unmarshal(ReadFile("data/final/languages.json"), &languages)
+	err := json.Unmarshal(readDataFileFromUrl("data/final/languages.json"), &languages)
 	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshal languages: %s", err))
 	return languages
 }
 
-func LoadTimezones() []Timezone {
+func Timezones() []Timezone {
 	timezones := []Timezone{}
-	err := json.Unmarshal(ReadFile("data/final/timezones.json"), &timezones)
+	err := json.Unmarshal(readDataFileFromUrl("data/final/timezones.json"), &timezones)
 	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshal timezones: %s", err))
 	return timezones
 }
 
-func LoadRegions() []Region {
+func Regions() []Region {
 	regions := []Region{}
-	err := json.Unmarshal(ReadFile("data/final/regions.json"), &regions)
+	err := json.Unmarshal(readDataFileFromUrl("data/final/regions.json"), &regions)
 	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshal regions: %s", err))
 	return regions
 }
 
+func readDataFileFromUrl(name string) []byte {
+	baseDataUrl := "https://github.com/flowcommerce/json-reference/blob/master/data/final/"
+	return ReadUrl(baseDataUrl + name)
+}
+
+func ReadUrl(url string) []byte {
+	res, err := http.Get(url)
+	util.ExitIfError(err, fmt.Sprintf("Could not read url %s", url))
+
+	data, err := ioutil.ReadAll(res.Body)
+	res.Body.Close()
+
+	return data
+}
 
 func ReadFile(path string) []byte {
 	file, err := ioutil.ReadFile(path)
