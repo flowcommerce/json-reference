@@ -85,21 +85,6 @@
     "number_decimals": 0
   },
   {
-    "name": "CFA Franc BCEAO",
-    "iso_4217_3": "XOF",
-    "number_decimals": 0
-  },
-  {
-    "name": "CFA Franc BEAC",
-    "iso_4217_3": "XAF",
-    "number_decimals": 0
-  },
-  {
-    "name": "CFP Franc",
-    "iso_4217_3": "XPF",
-    "number_decimals": 0
-  },
-  {
     "name": "Cabo Verde Escudo",
     "iso_4217_3": "CVE",
     "number_decimals": 0
@@ -112,6 +97,21 @@
   {
     "name": "Cayman Islands Dollar",
     "iso_4217_3": "KYD",
+    "number_decimals": 0
+  },
+  {
+    "name": "CFA Franc BCEAO",
+    "iso_4217_3": "XOF",
+    "number_decimals": 0
+  },
+  {
+    "name": "CFA Franc BEAC",
+    "iso_4217_3": "XAF",
+    "number_decimals": 0
+  },
+  {
+    "name": "CFP Franc",
+    "iso_4217_3": "XPF",
     "number_decimals": 0
   },
   {
@@ -575,13 +575,13 @@
     "number_decimals": 0
   },
   {
-    "name": "US Dollar",
-    "iso_4217_3": "USD",
+    "name": "Uganda Shilling",
+    "iso_4217_3": "UGX",
     "number_decimals": 0
   },
   {
-    "name": "Uganda Shilling",
-    "iso_4217_3": "UGX",
+    "name": "US Dollar",
+    "iso_4217_3": "USD",
     "number_decimals": 0
   },
   {

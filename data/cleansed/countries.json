@@ -1421,17 +1421,17 @@
     "currency": "TZS"
   },
   {
-    "name": "United States Virgin Islands",
-    "continent": "NA",
-    "iso_3166_2": "VI",
-    "iso_3166_3": "VIR",
-    "currency": "USD"
-  },
-  {
     "name": "United States of America",
     "continent": "NA",
     "iso_3166_2": "US",
     "iso_3166_3": "USA",
+    "currency": "USD"
+  },
+  {
+    "name": "United States Virgin Islands",
+    "continent": "NA",
+    "iso_3166_2": "VI",
+    "iso_3166_3": "VIR",
     "currency": "USD"
   },
   {

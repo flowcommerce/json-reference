@@ -270,7 +270,7 @@ func toObjects(records []map[string]string, accepts acceptsFunction, f convertFu
 	added := map[string]interface{} {}
 	for _, v := range records {
 		if (accepts(v)) {
-			id := id(v)
+			id := strings.ToUpper(id(v))
 			if added[id] == nil {
 				added[id] = f(v)
 			}

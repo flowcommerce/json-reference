@@ -2308,15 +2308,6 @@
     "timezones": []
   },
   {
-    "name": "United States Virgin Islands",
-    "iso_3166_2": "VI",
-    "iso_3166_3": "VIR",
-    "measurement_system": "metric",
-    "default_currency": "USD",
-    "languages": [],
-    "timezones": []
-  },
-  {
     "name": "United States of America",
     "iso_3166_2": "US",
     "iso_3166_3": "USA",
@@ -2330,6 +2321,15 @@
       "America/Los_Angeles",
       "America/New_York"
     ]
+  },
+  {
+    "name": "United States Virgin Islands",
+    "iso_3166_2": "VI",
+    "iso_3166_3": "VIR",
+    "measurement_system": "metric",
+    "default_currency": "USD",
+    "languages": [],
+    "timezones": []
   },
   {
     "name": "Uruguay",
