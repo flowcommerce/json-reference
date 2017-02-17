@@ -8,6 +8,7 @@ import (
 	"fmt"
 	"os"
 	"sort"
+	"strings"
 )
 
 type CleansedDataSet struct {
@@ -176,14 +177,14 @@ func commonCountries(data CleansedDataSet) []common.Country {
 			languages := []string {}
 			for _, l := range(data.Languages) {
 				if common.Contains(l.Countries, c.Iso_3166_3) {
-					languages = append(languages, c.Iso_3166_3)
+					languages = append(languages, l.Iso_639_2)
 				}
 			}
 		
 			timezones := []string {}
 			for _, ct := range(data.CountryTimezones) {
-				if ct.CountryCode == c.Iso_3166_2 {
-					tz := findTimezoneByName(data.Timezones, ct.TimezoneCode)
+				if ct.CountryCode == c.Iso_3166_3 {
+					tz := findTimezone(data.Timezones, ct.TimezoneCode)
 					timezones = append(timezones, tz.Name)
 				}
 			}
@@ -194,8 +195,10 @@ func commonCountries(data CleansedDataSet) []common.Country {
 				
 			}
 
+			sort.Strings(languages)
+			sort.Strings(timezones)
 			all = append(all, common.Country{
-				Name: formatCountryName(c.Name),
+				Name: formatCountryName(c.Iso_3166_3, c.Name),
 				Iso_3166_2: c.Iso_3166_2,
 				Iso_3166_3: c.Iso_3166_3,
 				MeasurementSystem: getMeasurementSystem(c.Iso_3166_3),
@@ -253,9 +256,9 @@ func findLanguageByCode(languages []cleanse.Language, code string) cleanse.Langu
 	return cleanse.Language{}
 }
 
-func findTimezoneByName(timezones []cleanse.Timezone, name string) cleanse.Timezone {
+func findTimezone(timezones []cleanse.Timezone, name string) cleanse.Timezone {
 	for _, c := range(timezones) {
-		if c.Name == name {
+		if strings.ToUpper(c.Name) == strings.ToUpper(name) || strings.ToUpper(c.Description) == strings.ToUpper(name) {
 			return c
 		}
 	}
@@ -271,16 +274,16 @@ func getMeasurementSystem(iso_3166_3 string) string {
 	return "metric"
 }
 
-func formatCountryName(name string) string {
-	switch name {
-	case "US": {
+func formatCountryName(iso3 string, defaultName string) string {
+	switch iso3 {
+	case "USA": {
 		return "United States of America"
 	}
-	case "UK": {
+	case "GBR": {
 		return "United Kingdom"
 	}
 	default: {
-		return name
+		return defaultName
 	}
 	}
 }

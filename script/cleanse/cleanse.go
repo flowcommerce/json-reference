@@ -11,6 +11,7 @@ import (
         "io"
         "os"
 	"strconv"
+	"strings"
 )
 
 type Continent struct {
@@ -138,7 +139,7 @@ func Cleanse() {
 			func(record map[string]string) interface{} {
 				return CountryTimezone{
 					TimezoneCode: record["timezone"],
-					CountryCode: record["country"],
+					CountryCode: strings.ToUpper(record["country"]),
 				}
 			},
 		),

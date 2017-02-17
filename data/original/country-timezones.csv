@@ -1,7 +1,10 @@
 country,timezone
+usa,America/Los_Angeles
 usa,America/New_York
+usa,America/Chicago
 mex,Mexico/General
-gbr,gmt
-fra,cet
+gbr,GMT
+fra,Central European Time
 can,Canada/Eastern
-aus,Australia/Queensland
+aus,Australia/ACT
+chn,China Standard Time
