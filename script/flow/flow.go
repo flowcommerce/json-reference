@@ -7,6 +7,8 @@ import (
 	"../common"
 	"fmt"
 	"os"
+	"regexp"
+	"github.com/bradfitz/slice"
 	"sort"
 	"strings"
 )
@@ -32,11 +34,15 @@ func Generate() {
 		CountryTimezones: cleanse.LoadCountryTimezones(),
 	}
 
-	writeJson("data/final/continents.json", commonContinents(data))
+	continents := commonContinents(data)
+	countries := commonCountries(data)
+
+	writeJson("data/final/continents.json", continents)
 	writeJson("data/final/languages.json", commonLanguages(data))
 	writeJson("data/final/currencies.json", commonCurrencies(data))
 	writeJson("data/final/timezones.json", commonTimezones(data))
-	writeJson("data/final/countries.json", commonCountries(data))
+	writeJson("data/final/countries.json", countries)
+	writeJson("data/final/regions.json", createRegions(countries, continents))
 }
 
 func writeJson(target string, objects interface{}) {
@@ -212,6 +218,86 @@ func commonCountries(data CleansedDataSet) []common.Country {
         return all
 }
 
+func createRegions(countries []common.Country, continents []common.Continent) []common.Region {
+	regions := []common.Region{}
+
+	for _, c := range(countries) {
+		id := generateId(c.Iso_3166_3)
+
+		regions = append(regions, common.Region{
+			Id: id,
+			Name: c.Name,
+			Countries: []string { c.Iso_3166_3 },
+			Currencies: []string { c.DefaultCurrency },
+			Languages: languagesForCountries([]common.Country { c }),
+			MeasurementSystems: measurementSystemsForCountries([]common.Country { c }),
+			Timezones: timezonesForCountries([]common.Country { c }),
+		})
+	}
+	
+	for _, c := range(continents) {
+		if c.Code != "ANT" {
+			id := generateId(c.Name)
+
+			theseCountries := findCountries(countries, c.Countries)
+			regions = append(regions, common.Region{
+				Id: id,
+				Name: c.Name,
+				Countries: c.Countries,
+				Currencies: currenciesForCountries(theseCountries),
+				Languages: languagesForCountries(theseCountries),
+				MeasurementSystems: measurementSystemsForCountries(theseCountries),
+				Timezones: timezonesForCountries(theseCountries),
+			})
+		}
+	}
+
+	eurozone := eurozone(countries)
+
+	world := world(countries)
+	assertUniqueRegionId(regions, eurozone.Id)
+	regions = append(regions, eurozone, world)
+
+	for _, r := range(regions) {
+		assertUniqueRegionId(regions, r.Id)
+	}
+
+	sortRegions(regions)
+	return regions
+}
+
+func eurozone(countries []common.Country) common.Region {
+	countryCodes := findCountriesByCurrency(countries, "EUR")
+	theseCountries := findCountries(countries, countryCodes)	
+	return common.Region{
+		Id: "eurozone",
+		Name: "Eurozone",
+		Countries: countryCodes,
+		Currencies: currenciesForCountries(theseCountries),
+		Languages: languagesForCountries(theseCountries),
+		MeasurementSystems: measurementSystemsForCountries(theseCountries),
+		Timezones: timezonesForCountries(theseCountries),
+	}
+}
+
+func world(countries []common.Country) common.Region {
+	var codes []string
+	for _, c := range(countries) {
+		codes = append(codes, c.Iso_3166_3)
+	}
+	sort.Strings(codes)
+
+	return common.Region{
+		Id: "world",
+		Name: "World",
+		Countries: codes,
+		Currencies: currenciesForCountries(countries),
+		Languages: languagesForCountries(countries),
+		MeasurementSystems: []string{"metric", "imperial"},
+		Timezones: timezonesForCountries(countries),
+	}
+}
+
 func findCountryByCode(countries []cleanse.Country, code string) cleanse.Country {
 	for _, c := range(countries) {
 		if c.Iso_3166_2 == code || c.Iso_3166_3 == code {
@@ -286,4 +372,109 @@ func formatCountryName(iso3 string, defaultName string) string {
 		return defaultName
 	}
 	}
+}
+
+func findCountries(countries []common.Country, codes []string) []common.Country {
+	matching := []common.Country{}
+
+	for _, country := range(countries) {
+		if common.Contains(codes, country.Iso_3166_3) {
+			matching = append(matching, country)
+		}
+	}
+		
+	return matching
+}
+
+/**
+ * Filters the list of countries to those with a matching default currency.
+ */
+func findCountriesByCurrency(countries []common.Country, currency string) []string {
+	codes := []string{}
+
+	for _, country := range(countries) {
+		if country.DefaultCurrency == currency && !common.Contains(codes, country.Iso_3166_3) {
+			codes = append(codes, country.Iso_3166_3)
+		}
+	}
+
+	sort.Strings(codes)
+	return codes
+}
+
+func currenciesForCountries(countries []common.Country) []string {
+	codes := []string{}
+
+	for _, country := range(countries) {
+		if country.DefaultCurrency != "" && !common.Contains(codes, country.DefaultCurrency) {
+			codes = append(codes, country.DefaultCurrency)
+		}
+	}
+
+	sort.Strings(codes)
+	return codes
+}
+
+func languagesForCountries(countries []common.Country) []string {
+	codes := []string{}
+
+	for _, country := range(countries) {
+		for _, l := range(country.Languages) {
+			if !common.Contains(codes, l) {
+				codes = append(codes, l)
+			}
+		}
+	}
+
+	sort.Strings(codes)
+	return codes
+}
+
+func timezonesForCountries(countries []common.Country) []string {
+	codes := []string{}
+
+	for _, country := range(countries) {
+		for _, tz := range(country.Timezones) {
+			if !common.Contains(codes, tz) {
+				codes = append(codes, tz)
+			}
+		}
+	}
+
+	sort.Strings(codes)
+	return codes
+}
+
+func measurementSystemsForCountries(countries []common.Country) []string {
+	codes := []string{}
+
+	for _, country := range(countries) {
+		if country.MeasurementSystem != "" && !common.Contains(codes, country.MeasurementSystem) {
+			codes = append(codes, country.MeasurementSystem)
+		}
+	}
+
+	sort.Strings(codes)
+	return codes
+}
+
+func assertUniqueRegionId(regions []common.Region, id string) {
+	for _, r := range(regions) {
+		if r.Id == id {
+			fmt.Printf("ERROR: Duplicate region id[%s]\n", id)
+			os.Exit(1)
+		}
+	}
+}
+
+func generateId(name string) string {
+	safe := regexp.MustCompile("[^A-Za-z0-9]+").ReplaceAllString(name, "-")
+	return strings.ToLower(safe)
+}
+
+func sortRegions(regions []common.Region) []common.Region {
+	slice.Sort(regions[:], func(i, j int) bool {
+		return strings.ToLower(regions[i].Name) < strings.ToLower(regions[j].Name)
+	})
+	return regions
 }
