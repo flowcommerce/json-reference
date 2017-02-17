@@ -1,31 +1,24 @@
 [
   {
-    "name": "Aruba",
-    "continent": "NA",
-    "iso_3166_2": "AW",
-    "iso_3166_3": "ABW",
-    "currency": "AWG"
-  },
-  {
-    "name": "Anguilla",
-    "continent": "NA",
-    "iso_3166_2": "AI",
-    "iso_3166_3": "AIA",
-    "currency": "XCD"
-  },
-  {
-    "name": "Åland Islands",
-    "continent": "EU",
-    "iso_3166_2": "AX",
-    "iso_3166_3": "ALA",
-    "currency": "EUR"
-  },
-  {
     "name": "Albania",
     "continent": "EU",
     "iso_3166_2": "AL",
     "iso_3166_3": "ALB",
     "currency": "ALL"
+  },
+  {
+    "name": "Algeria",
+    "continent": "AF",
+    "iso_3166_2": "DZ",
+    "iso_3166_3": "DZA",
+    "currency": "DZD"
+  },
+  {
+    "name": "American Samoa",
+    "continent": "OC",
+    "iso_3166_2": "AS",
+    "iso_3166_3": "ASM",
+    "currency": "USD"
   },
   {
     "name": "Andorra",
@@ -35,11 +28,18 @@
     "currency": "EUR"
   },
   {
-    "name": "United Arab Emirates",
-    "continent": "AS",
-    "iso_3166_2": "AE",
-    "iso_3166_3": "ARE",
-    "currency": "AED"
+    "name": "Anguilla",
+    "continent": "NA",
+    "iso_3166_2": "AI",
+    "iso_3166_3": "AIA",
+    "currency": "XCD"
+  },
+  {
+    "name": "Antigua and Barbuda",
+    "continent": "NA",
+    "iso_3166_2": "AG",
+    "iso_3166_3": "ATG",
+    "currency": "XCD"
   },
   {
     "name": "Argentina",
@@ -56,18 +56,11 @@
     "currency": "AMD"
   },
   {
-    "name": "American Samoa",
-    "continent": "OC",
-    "iso_3166_2": "AS",
-    "iso_3166_3": "ASM",
-    "currency": "USD"
-  },
-  {
-    "name": "Antigua and Barbuda",
+    "name": "Aruba",
     "continent": "NA",
-    "iso_3166_2": "AG",
-    "iso_3166_3": "ATG",
-    "currency": "XCD"
+    "iso_3166_2": "AW",
+    "iso_3166_3": "ABW",
+    "currency": "AWG"
   },
   {
     "name": "Australia",
@@ -91,46 +84,11 @@
     "currency": "AZN"
   },
   {
-    "name": "Belgium",
-    "continent": "EU",
-    "iso_3166_2": "BE",
-    "iso_3166_3": "BEL",
-    "currency": "EUR"
-  },
-  {
-    "name": "Benin",
-    "continent": "AF",
-    "iso_3166_2": "BJ",
-    "iso_3166_3": "BEN",
-    "currency": "XOF"
-  },
-  {
-    "name": "Bonaire, Sint Eustatius and Saba",
+    "name": "Bahamas",
     "continent": "NA",
-    "iso_3166_2": "BQ",
-    "iso_3166_3": "BES",
-    "currency": "USD"
-  },
-  {
-    "name": "Burkina Faso",
-    "continent": "AF",
-    "iso_3166_2": "BF",
-    "iso_3166_3": "BFA",
-    "currency": "XOF"
-  },
-  {
-    "name": "Bangladesh",
-    "continent": "AS",
-    "iso_3166_2": "BD",
-    "iso_3166_3": "BGD",
-    "currency": "BDT"
-  },
-  {
-    "name": "Bulgaria",
-    "continent": "EU",
-    "iso_3166_2": "BG",
-    "iso_3166_3": "BGR",
-    "currency": "BGN"
+    "iso_3166_2": "BS",
+    "iso_3166_3": "BHS",
+    "currency": "BSD"
   },
   {
     "name": "Bahrain",
@@ -140,24 +98,24 @@
     "currency": "BHD"
   },
   {
-    "name": "Bahamas",
-    "continent": "NA",
-    "iso_3166_2": "BS",
-    "iso_3166_3": "BHS",
-    "currency": "BSD"
+    "name": "Bangladesh",
+    "continent": "AS",
+    "iso_3166_2": "BD",
+    "iso_3166_3": "BGD",
+    "currency": "BDT"
   },
   {
-    "name": "Bosnia and Herzegovina",
+    "name": "Barbados",
+    "continent": "NA",
+    "iso_3166_2": "BB",
+    "iso_3166_3": "BRB",
+    "currency": "BBD"
+  },
+  {
+    "name": "Belgium",
     "continent": "EU",
-    "iso_3166_2": "BA",
-    "iso_3166_3": "BIH",
-    "currency": "BAM"
-  },
-  {
-    "name": "Saint Barthélemy",
-    "continent": "NA",
-    "iso_3166_2": "BL",
-    "iso_3166_3": "BLM",
+    "iso_3166_2": "BE",
+    "iso_3166_3": "BEL",
     "currency": "EUR"
   },
   {
@@ -168,39 +126,18 @@
     "currency": "BZD"
   },
   {
+    "name": "Benin",
+    "continent": "AF",
+    "iso_3166_2": "BJ",
+    "iso_3166_3": "BEN",
+    "currency": "XOF"
+  },
+  {
     "name": "Bermuda",
     "continent": "NA",
     "iso_3166_2": "BM",
     "iso_3166_3": "BMU",
     "currency": "BMD"
-  },
-  {
-    "name": "Bolivia (Plurinational State of)",
-    "continent": "SA",
-    "iso_3166_2": "BO",
-    "iso_3166_3": "BOL",
-    "currency": "BOB"
-  },
-  {
-    "name": "Brazil",
-    "continent": "SA",
-    "iso_3166_2": "BR",
-    "iso_3166_3": "BRA",
-    "currency": "BRL"
-  },
-  {
-    "name": "Barbados",
-    "continent": "NA",
-    "iso_3166_2": "BB",
-    "iso_3166_3": "BRB",
-    "currency": "BBD"
-  },
-  {
-    "name": "Brunei Darussalam",
-    "continent": "AS",
-    "iso_3166_2": "BN",
-    "iso_3166_3": "BRN",
-    "currency": "BND"
   },
   {
     "name": "Bhutan",
@@ -210,6 +147,27 @@
     "currency": "INR"
   },
   {
+    "name": "Bolivia (Plurinational State of)",
+    "continent": "SA",
+    "iso_3166_2": "BO",
+    "iso_3166_3": "BOL",
+    "currency": "BOB"
+  },
+  {
+    "name": "Bonaire, Sint Eustatius and Saba",
+    "continent": "NA",
+    "iso_3166_2": "BQ",
+    "iso_3166_3": "BES",
+    "currency": "USD"
+  },
+  {
+    "name": "Bosnia and Herzegovina",
+    "continent": "EU",
+    "iso_3166_2": "BA",
+    "iso_3166_3": "BIH",
+    "currency": "BAM"
+  },
+  {
     "name": "Botswana",
     "continent": "AF",
     "iso_3166_2": "BW",
@@ -217,10 +175,59 @@
     "currency": "BWP"
   },
   {
-    "name": "Central African Republic",
+    "name": "Brazil",
+    "continent": "SA",
+    "iso_3166_2": "BR",
+    "iso_3166_3": "BRA",
+    "currency": "BRL"
+  },
+  {
+    "name": "British Virgin Islands",
+    "continent": "NA",
+    "iso_3166_2": "VG",
+    "iso_3166_3": "VGB",
+    "currency": "USD"
+  },
+  {
+    "name": "Brunei Darussalam",
+    "continent": "AS",
+    "iso_3166_2": "BN",
+    "iso_3166_3": "BRN",
+    "currency": "BND"
+  },
+  {
+    "name": "Bulgaria",
+    "continent": "EU",
+    "iso_3166_2": "BG",
+    "iso_3166_3": "BGR",
+    "currency": "BGN"
+  },
+  {
+    "name": "Burkina Faso",
     "continent": "AF",
-    "iso_3166_2": "CF",
-    "iso_3166_3": "CAF",
+    "iso_3166_2": "BF",
+    "iso_3166_3": "BFA",
+    "currency": "XOF"
+  },
+  {
+    "name": "Cabo Verde",
+    "continent": "AF",
+    "iso_3166_2": "CV",
+    "iso_3166_3": "CPV",
+    "currency": "CVE"
+  },
+  {
+    "name": "Cambodia",
+    "continent": "AS",
+    "iso_3166_2": "KH",
+    "iso_3166_3": "KHM",
+    "currency": "KHR"
+  },
+  {
+    "name": "Cameroon",
+    "continent": "AF",
+    "iso_3166_2": "CM",
+    "iso_3166_3": "CMR",
     "currency": "XAF"
   },
   {
@@ -231,11 +238,25 @@
     "currency": "CAD"
   },
   {
-    "name": "Switzerland",
-    "continent": "EU",
-    "iso_3166_2": "CH",
-    "iso_3166_3": "CHE",
-    "currency": "CHF"
+    "name": "Cayman Islands",
+    "continent": "NA",
+    "iso_3166_2": "KY",
+    "iso_3166_3": "CYM",
+    "currency": "KYD"
+  },
+  {
+    "name": "Central African Republic",
+    "continent": "AF",
+    "iso_3166_2": "CF",
+    "iso_3166_3": "CAF",
+    "currency": "XAF"
+  },
+  {
+    "name": "Chad",
+    "continent": "AF",
+    "iso_3166_2": "TD",
+    "iso_3166_3": "TCD",
+    "currency": "XAF"
   },
   {
     "name": "Chile",
@@ -252,32 +273,18 @@
     "currency": "CNY"
   },
   {
-    "name": "Côte d'Ivoire",
-    "continent": "AF",
-    "iso_3166_2": "CI",
-    "iso_3166_3": "CIV",
-    "currency": "XOF"
+    "name": "China, Hong Kong Special Administrative Region",
+    "continent": "AS",
+    "iso_3166_2": "HK",
+    "iso_3166_3": "HKG",
+    "currency": ""
   },
   {
-    "name": "Cameroon",
-    "continent": "AF",
-    "iso_3166_2": "CM",
-    "iso_3166_3": "CMR",
-    "currency": "XAF"
-  },
-  {
-    "name": "Congo",
-    "continent": "AF",
-    "iso_3166_2": "CG",
-    "iso_3166_3": "COG",
-    "currency": "XAF"
-  },
-  {
-    "name": "Cook Islands",
-    "continent": "OC",
-    "iso_3166_2": "CK",
-    "iso_3166_3": "COK",
-    "currency": "NZD"
+    "name": "China, Macao Special Administrative Region",
+    "continent": "AS",
+    "iso_3166_2": "MO",
+    "iso_3166_3": "MAC",
+    "currency": "MOP"
   },
   {
     "name": "Colombia",
@@ -294,11 +301,18 @@
     "currency": "KMF"
   },
   {
-    "name": "Cabo Verde",
+    "name": "Congo",
     "continent": "AF",
-    "iso_3166_2": "CV",
-    "iso_3166_3": "CPV",
-    "currency": "CVE"
+    "iso_3166_2": "CG",
+    "iso_3166_3": "COG",
+    "currency": "XAF"
+  },
+  {
+    "name": "Cook Islands",
+    "continent": "OC",
+    "iso_3166_2": "CK",
+    "iso_3166_3": "COK",
+    "currency": "NZD"
   },
   {
     "name": "Costa Rica",
@@ -308,18 +322,18 @@
     "currency": "CRC"
   },
   {
+    "name": "Croatia",
+    "continent": "EU",
+    "iso_3166_2": "HR",
+    "iso_3166_3": "HRV",
+    "currency": "HRK"
+  },
+  {
     "name": "Curaçao",
     "continent": "NA",
     "iso_3166_2": "CW",
     "iso_3166_3": "CUW",
     "currency": "ANG"
-  },
-  {
-    "name": "Cayman Islands",
-    "continent": "NA",
-    "iso_3166_2": "KY",
-    "iso_3166_3": "CYM",
-    "currency": "KYD"
   },
   {
     "name": "Cyprus",
@@ -336,11 +350,18 @@
     "currency": ""
   },
   {
-    "name": "Germany",
+    "name": "Côte d'Ivoire",
+    "continent": "AF",
+    "iso_3166_2": "CI",
+    "iso_3166_3": "CIV",
+    "currency": "XOF"
+  },
+  {
+    "name": "Denmark",
     "continent": "EU",
-    "iso_3166_2": "DE",
-    "iso_3166_3": "DEU",
-    "currency": "EUR"
+    "iso_3166_2": "DK",
+    "iso_3166_3": "DNK",
+    "currency": "DKK"
   },
   {
     "name": "Djibouti",
@@ -357,25 +378,11 @@
     "currency": "XCD"
   },
   {
-    "name": "Denmark",
-    "continent": "EU",
-    "iso_3166_2": "DK",
-    "iso_3166_3": "DNK",
-    "currency": "DKK"
-  },
-  {
     "name": "Dominican Republic",
     "continent": "NA",
     "iso_3166_2": "DO",
     "iso_3166_3": "DOM",
     "currency": "DOP"
-  },
-  {
-    "name": "Algeria",
-    "continent": "AF",
-    "iso_3166_2": "DZ",
-    "iso_3166_3": "DZA",
-    "currency": "DZD"
   },
   {
     "name": "Ecuador",
@@ -392,18 +399,18 @@
     "currency": "EGP"
   },
   {
-    "name": "Western Sahara",
-    "continent": "AF",
-    "iso_3166_2": "EH",
-    "iso_3166_3": "ESH",
-    "currency": "MAD"
+    "name": "El Salvador",
+    "continent": "NA",
+    "iso_3166_2": "SV",
+    "iso_3166_3": "SLV",
+    "currency": "USD"
   },
   {
-    "name": "Spain",
-    "continent": "EU",
-    "iso_3166_2": "ES",
-    "iso_3166_3": "ESP",
-    "currency": "EUR"
+    "name": "Equatorial Guinea",
+    "continent": "AF",
+    "iso_3166_2": "GQ",
+    "iso_3166_3": "GNQ",
+    "currency": "XAF"
   },
   {
     "name": "Estonia",
@@ -420,11 +427,11 @@
     "currency": "ETB"
   },
   {
-    "name": "Finland",
-    "continent": "EU",
-    "iso_3166_2": "FI",
-    "iso_3166_3": "FIN",
-    "currency": "EUR"
+    "name": "Falkland Islands (Malvinas)",
+    "continent": "SA",
+    "iso_3166_2": "FK",
+    "iso_3166_3": "FLK",
+    "currency": "FKP"
   },
   {
     "name": "Fiji",
@@ -434,11 +441,11 @@
     "currency": "FJD"
   },
   {
-    "name": "Falkland Islands (Malvinas)",
-    "continent": "SA",
-    "iso_3166_2": "FK",
-    "iso_3166_3": "FLK",
-    "currency": "FKP"
+    "name": "Finland",
+    "continent": "EU",
+    "iso_3166_2": "FI",
+    "iso_3166_3": "FIN",
+    "currency": "EUR"
   },
   {
     "name": "France",
@@ -448,11 +455,18 @@
     "currency": "EUR"
   },
   {
-    "name": "Micronesia (Federated States of)",
+    "name": "French Guiana",
+    "continent": "SA",
+    "iso_3166_2": "GF",
+    "iso_3166_3": "GUF",
+    "currency": "EUR"
+  },
+  {
+    "name": "French Polynesia",
     "continent": "OC",
-    "iso_3166_2": "FM",
-    "iso_3166_3": "FSM",
-    "currency": "USD"
+    "iso_3166_2": "PF",
+    "iso_3166_3": "PYF",
+    "currency": "XPF"
   },
   {
     "name": "Gabon",
@@ -462,11 +476,11 @@
     "currency": "XAF"
   },
   {
-    "name": "United Kingdom of Great Britain and Northern Ireland",
-    "continent": "EU",
-    "iso_3166_2": "GB",
-    "iso_3166_3": "GBR",
-    "currency": "GBP"
+    "name": "Gambia",
+    "continent": "AF",
+    "iso_3166_2": "GM",
+    "iso_3166_3": "GMB",
+    "currency": "GMD"
   },
   {
     "name": "Georgia",
@@ -476,11 +490,11 @@
     "currency": "GEL"
   },
   {
-    "name": "Guernsey",
+    "name": "Germany",
     "continent": "EU",
-    "iso_3166_2": "GG",
-    "iso_3166_3": "GGY",
-    "currency": "GBP"
+    "iso_3166_2": "DE",
+    "iso_3166_3": "DEU",
+    "currency": "EUR"
   },
   {
     "name": "Ghana",
@@ -497,53 +511,11 @@
     "currency": "GIP"
   },
   {
-    "name": "Guinea",
-    "continent": "AF",
-    "iso_3166_2": "GN",
-    "iso_3166_3": "GIN",
-    "currency": "GNF"
-  },
-  {
-    "name": "Guadeloupe",
-    "continent": "NA",
-    "iso_3166_2": "GP",
-    "iso_3166_3": "GLP",
-    "currency": "EUR"
-  },
-  {
-    "name": "Gambia",
-    "continent": "AF",
-    "iso_3166_2": "GM",
-    "iso_3166_3": "GMB",
-    "currency": "GMD"
-  },
-  {
-    "name": "Guinea-Bissau",
-    "continent": "AF",
-    "iso_3166_2": "GW",
-    "iso_3166_3": "GNB",
-    "currency": "XOF"
-  },
-  {
-    "name": "Equatorial Guinea",
-    "continent": "AF",
-    "iso_3166_2": "GQ",
-    "iso_3166_3": "GNQ",
-    "currency": "XAF"
-  },
-  {
     "name": "Greece",
     "continent": "EU",
     "iso_3166_2": "GR",
     "iso_3166_3": "GRC",
     "currency": "EUR"
-  },
-  {
-    "name": "Grenada",
-    "continent": "NA",
-    "iso_3166_2": "GD",
-    "iso_3166_3": "GRD",
-    "currency": "XCD"
   },
   {
     "name": "Greenland",
@@ -553,17 +525,17 @@
     "currency": "DKK"
   },
   {
-    "name": "Guatemala",
+    "name": "Grenada",
     "continent": "NA",
-    "iso_3166_2": "GT",
-    "iso_3166_3": "GTM",
-    "currency": "GTQ"
+    "iso_3166_2": "GD",
+    "iso_3166_3": "GRD",
+    "currency": "XCD"
   },
   {
-    "name": "French Guiana",
-    "continent": "SA",
-    "iso_3166_2": "GF",
-    "iso_3166_3": "GUF",
+    "name": "Guadeloupe",
+    "continent": "NA",
+    "iso_3166_2": "GP",
+    "iso_3166_3": "GLP",
     "currency": "EUR"
   },
   {
@@ -574,32 +546,39 @@
     "currency": "USD"
   },
   {
+    "name": "Guatemala",
+    "continent": "NA",
+    "iso_3166_2": "GT",
+    "iso_3166_3": "GTM",
+    "currency": "GTQ"
+  },
+  {
+    "name": "Guernsey",
+    "continent": "EU",
+    "iso_3166_2": "GG",
+    "iso_3166_3": "GGY",
+    "currency": "GBP"
+  },
+  {
+    "name": "Guinea",
+    "continent": "AF",
+    "iso_3166_2": "GN",
+    "iso_3166_3": "GIN",
+    "currency": "GNF"
+  },
+  {
+    "name": "Guinea-Bissau",
+    "continent": "AF",
+    "iso_3166_2": "GW",
+    "iso_3166_3": "GNB",
+    "currency": "XOF"
+  },
+  {
     "name": "Guyana",
     "continent": "SA",
     "iso_3166_2": "GY",
     "iso_3166_3": "GUY",
     "currency": "GYD"
-  },
-  {
-    "name": "China, Hong Kong Special Administrative Region",
-    "continent": "AS",
-    "iso_3166_2": "HK",
-    "iso_3166_3": "HKG",
-    "currency": ""
-  },
-  {
-    "name": "Honduras",
-    "continent": "NA",
-    "iso_3166_2": "HN",
-    "iso_3166_3": "HND",
-    "currency": "HNL"
-  },
-  {
-    "name": "Croatia",
-    "continent": "EU",
-    "iso_3166_2": "HR",
-    "iso_3166_3": "HRV",
-    "currency": "HRK"
   },
   {
     "name": "Haiti",
@@ -609,6 +588,20 @@
     "currency": "USD"
   },
   {
+    "name": "Holy See",
+    "continent": "EU",
+    "iso_3166_2": "VA",
+    "iso_3166_3": "VAT",
+    "currency": "EUR"
+  },
+  {
+    "name": "Honduras",
+    "continent": "NA",
+    "iso_3166_2": "HN",
+    "iso_3166_3": "HND",
+    "currency": "HNL"
+  },
+  {
     "name": "Hungary",
     "continent": "EU",
     "iso_3166_2": "HU",
@@ -616,18 +609,11 @@
     "currency": "HUF"
   },
   {
-    "name": "Indonesia",
-    "continent": "AS",
-    "iso_3166_2": "ID",
-    "iso_3166_3": "IDN",
-    "currency": "IDR"
-  },
-  {
-    "name": "Isle of Man",
+    "name": "Iceland",
     "continent": "EU",
-    "iso_3166_2": "IM",
-    "iso_3166_3": "IMN",
-    "currency": "GBP"
+    "iso_3166_2": "IS",
+    "iso_3166_3": "ISL",
+    "currency": "ISK"
   },
   {
     "name": "India",
@@ -637,6 +623,13 @@
     "currency": "INR"
   },
   {
+    "name": "Indonesia",
+    "continent": "AS",
+    "iso_3166_2": "ID",
+    "iso_3166_3": "IDN",
+    "currency": "IDR"
+  },
+  {
     "name": "Ireland",
     "continent": "EU",
     "iso_3166_2": "IE",
@@ -644,11 +637,11 @@
     "currency": "EUR"
   },
   {
-    "name": "Iceland",
+    "name": "Isle of Man",
     "continent": "EU",
-    "iso_3166_2": "IS",
-    "iso_3166_3": "ISL",
-    "currency": "ISK"
+    "iso_3166_2": "IM",
+    "iso_3166_3": "IMN",
+    "currency": "GBP"
   },
   {
     "name": "Israel",
@@ -672,6 +665,13 @@
     "currency": "JMD"
   },
   {
+    "name": "Japan",
+    "continent": "AS",
+    "iso_3166_2": "JP",
+    "iso_3166_3": "JPN",
+    "currency": "JPY"
+  },
+  {
     "name": "Jersey",
     "continent": "EU",
     "iso_3166_2": "JE",
@@ -684,13 +684,6 @@
     "iso_3166_2": "JO",
     "iso_3166_3": "JOR",
     "currency": "JOD"
-  },
-  {
-    "name": "Japan",
-    "continent": "AS",
-    "iso_3166_2": "JP",
-    "iso_3166_3": "JPN",
-    "currency": "JPY"
   },
   {
     "name": "Kazakhstan",
@@ -707,39 +700,11 @@
     "currency": "KES"
   },
   {
-    "name": "Kyrgyzstan",
-    "continent": "AS",
-    "iso_3166_2": "KG",
-    "iso_3166_3": "KGZ",
-    "currency": "KGS"
-  },
-  {
-    "name": "Cambodia",
-    "continent": "AS",
-    "iso_3166_2": "KH",
-    "iso_3166_3": "KHM",
-    "currency": "KHR"
-  },
-  {
     "name": "Kiribati",
     "continent": "OC",
     "iso_3166_2": "KI",
     "iso_3166_3": "KIR",
     "currency": "AUD"
-  },
-  {
-    "name": "Saint Kitts and Nevis",
-    "continent": "NA",
-    "iso_3166_2": "KN",
-    "iso_3166_3": "KNA",
-    "currency": "XCD"
-  },
-  {
-    "name": "Republic of Korea",
-    "continent": "AS",
-    "iso_3166_2": "KR",
-    "iso_3166_3": "KOR",
-    "currency": "KRW"
   },
   {
     "name": "Kuwait",
@@ -749,11 +714,25 @@
     "currency": "KWD"
   },
   {
+    "name": "Kyrgyzstan",
+    "continent": "AS",
+    "iso_3166_2": "KG",
+    "iso_3166_3": "KGZ",
+    "currency": "KGS"
+  },
+  {
     "name": "Lao People's Democratic Republic",
     "continent": "AS",
     "iso_3166_2": "LA",
     "iso_3166_3": "LAO",
     "currency": "LAK"
+  },
+  {
+    "name": "Latvia",
+    "continent": "EU",
+    "iso_3166_2": "LV",
+    "iso_3166_3": "LVA",
+    "currency": "EUR"
   },
   {
     "name": "Lebanon",
@@ -763,6 +742,13 @@
     "currency": "LBP"
   },
   {
+    "name": "Lesotho",
+    "continent": "AF",
+    "iso_3166_2": "LS",
+    "iso_3166_3": "LSO",
+    "currency": "ZAR"
+  },
+  {
     "name": "Libya",
     "continent": "AF",
     "iso_3166_2": "LY",
@@ -770,32 +756,11 @@
     "currency": "LYD"
   },
   {
-    "name": "Saint Lucia",
-    "continent": "NA",
-    "iso_3166_2": "LC",
-    "iso_3166_3": "LCA",
-    "currency": "XCD"
-  },
-  {
     "name": "Liechtenstein",
     "continent": "EU",
     "iso_3166_2": "LI",
     "iso_3166_3": "LIE",
     "currency": "CHF"
-  },
-  {
-    "name": "Sri Lanka",
-    "continent": "AS",
-    "iso_3166_2": "LK",
-    "iso_3166_3": "LKA",
-    "currency": "LKR"
-  },
-  {
-    "name": "Lesotho",
-    "continent": "AF",
-    "iso_3166_2": "LS",
-    "iso_3166_3": "LSO",
-    "currency": "ZAR"
   },
   {
     "name": "Lithuania",
@@ -812,46 +777,18 @@
     "currency": "EUR"
   },
   {
-    "name": "Latvia",
-    "continent": "EU",
-    "iso_3166_2": "LV",
-    "iso_3166_3": "LVA",
-    "currency": "EUR"
-  },
-  {
-    "name": "China, Macao Special Administrative Region",
-    "continent": "AS",
-    "iso_3166_2": "MO",
-    "iso_3166_3": "MAC",
-    "currency": "MOP"
-  },
-  {
-    "name": "Saint Martin (French part)",
-    "continent": "NA",
-    "iso_3166_2": "MF",
-    "iso_3166_3": "MAF",
-    "currency": "EUR"
-  },
-  {
-    "name": "Morocco",
+    "name": "Malawi",
     "continent": "AF",
-    "iso_3166_2": "MA",
-    "iso_3166_3": "MAR",
-    "currency": "MAD"
+    "iso_3166_2": "MW",
+    "iso_3166_3": "MWI",
+    "currency": "MWK"
   },
   {
-    "name": "Monaco",
-    "continent": "EU",
-    "iso_3166_2": "MC",
-    "iso_3166_3": "MCO",
-    "currency": "EUR"
-  },
-  {
-    "name": "Republic of Moldova",
-    "continent": "EU",
-    "iso_3166_2": "MD",
-    "iso_3166_3": "MDA",
-    "currency": "MDL"
+    "name": "Malaysia",
+    "continent": "AS",
+    "iso_3166_2": "MY",
+    "iso_3166_3": "MYS",
+    "currency": "MYR"
   },
   {
     "name": "Maldives",
@@ -859,20 +796,6 @@
     "iso_3166_2": "MV",
     "iso_3166_3": "MDV",
     "currency": "MVR"
-  },
-  {
-    "name": "Mexico",
-    "continent": "NA",
-    "iso_3166_2": "MX",
-    "iso_3166_3": "MEX",
-    "currency": "MXN"
-  },
-  {
-    "name": "Marshall Islands",
-    "continent": "OC",
-    "iso_3166_2": "MH",
-    "iso_3166_3": "MHL",
-    "currency": "USD"
   },
   {
     "name": "Mali",
@@ -889,10 +812,59 @@
     "currency": "EUR"
   },
   {
-    "name": "Montenegro",
+    "name": "Marshall Islands",
+    "continent": "OC",
+    "iso_3166_2": "MH",
+    "iso_3166_3": "MHL",
+    "currency": "USD"
+  },
+  {
+    "name": "Martinique",
+    "continent": "NA",
+    "iso_3166_2": "MQ",
+    "iso_3166_3": "MTQ",
+    "currency": "EUR"
+  },
+  {
+    "name": "Mauritania",
+    "continent": "AF",
+    "iso_3166_2": "MR",
+    "iso_3166_3": "MRT",
+    "currency": "MRO"
+  },
+  {
+    "name": "Mauritius",
+    "continent": "AF",
+    "iso_3166_2": "MU",
+    "iso_3166_3": "MUS",
+    "currency": "MUR"
+  },
+  {
+    "name": "Mayotte",
+    "continent": "AF",
+    "iso_3166_2": "YT",
+    "iso_3166_3": "MYT",
+    "currency": "EUR"
+  },
+  {
+    "name": "Mexico",
+    "continent": "NA",
+    "iso_3166_2": "MX",
+    "iso_3166_3": "MEX",
+    "currency": "MXN"
+  },
+  {
+    "name": "Micronesia (Federated States of)",
+    "continent": "OC",
+    "iso_3166_2": "FM",
+    "iso_3166_3": "FSM",
+    "currency": "USD"
+  },
+  {
+    "name": "Monaco",
     "continent": "EU",
-    "iso_3166_2": "ME",
-    "iso_3166_3": "MNE",
+    "iso_3166_2": "MC",
+    "iso_3166_3": "MCO",
     "currency": "EUR"
   },
   {
@@ -903,18 +875,11 @@
     "currency": "MNT"
   },
   {
-    "name": "Northern Mariana Islands",
-    "continent": "OC",
-    "iso_3166_2": "MP",
-    "iso_3166_3": "MNP",
-    "currency": "USD"
-  },
-  {
-    "name": "Mauritania",
-    "continent": "AF",
-    "iso_3166_2": "MR",
-    "iso_3166_3": "MRT",
-    "currency": "MRO"
+    "name": "Montenegro",
+    "continent": "EU",
+    "iso_3166_2": "ME",
+    "iso_3166_3": "MNE",
+    "currency": "EUR"
   },
   {
     "name": "Montserrat",
@@ -924,39 +889,11 @@
     "currency": "XCD"
   },
   {
-    "name": "Martinique",
-    "continent": "NA",
-    "iso_3166_2": "MQ",
-    "iso_3166_3": "MTQ",
-    "currency": "EUR"
-  },
-  {
-    "name": "Mauritius",
+    "name": "Morocco",
     "continent": "AF",
-    "iso_3166_2": "MU",
-    "iso_3166_3": "MUS",
-    "currency": "MUR"
-  },
-  {
-    "name": "Malawi",
-    "continent": "AF",
-    "iso_3166_2": "MW",
-    "iso_3166_3": "MWI",
-    "currency": "MWK"
-  },
-  {
-    "name": "Malaysia",
-    "continent": "AS",
-    "iso_3166_2": "MY",
-    "iso_3166_3": "MYS",
-    "currency": "MYR"
-  },
-  {
-    "name": "Mayotte",
-    "continent": "AF",
-    "iso_3166_2": "YT",
-    "iso_3166_3": "MYT",
-    "currency": "EUR"
+    "iso_3166_2": "MA",
+    "iso_3166_3": "MAR",
+    "currency": "MAD"
   },
   {
     "name": "Namibia",
@@ -966,60 +903,11 @@
     "currency": "ZAR"
   },
   {
-    "name": "New Caledonia",
+    "name": "Nauru",
     "continent": "OC",
-    "iso_3166_2": "NC",
-    "iso_3166_3": "NCL",
-    "currency": "XPF"
-  },
-  {
-    "name": "Niger",
-    "continent": "AF",
-    "iso_3166_2": "NE",
-    "iso_3166_3": "NER",
-    "currency": "XOF"
-  },
-  {
-    "name": "Norfolk Island",
-    "continent": "OC",
-    "iso_3166_2": "NF",
-    "iso_3166_3": "NFK",
+    "iso_3166_2": "NR",
+    "iso_3166_3": "NRU",
     "currency": "AUD"
-  },
-  {
-    "name": "Nigeria",
-    "continent": "AF",
-    "iso_3166_2": "NG",
-    "iso_3166_3": "NGA",
-    "currency": "NGN"
-  },
-  {
-    "name": "Nicaragua",
-    "continent": "NA",
-    "iso_3166_2": "NI",
-    "iso_3166_3": "NIC",
-    "currency": "NIO"
-  },
-  {
-    "name": "Niue",
-    "continent": "OC",
-    "iso_3166_2": "NU",
-    "iso_3166_3": "NIU",
-    "currency": "NZD"
-  },
-  {
-    "name": "Netherlands",
-    "continent": "EU",
-    "iso_3166_2": "NL",
-    "iso_3166_3": "NLD",
-    "currency": "EUR"
-  },
-  {
-    "name": "Norway",
-    "continent": "EU",
-    "iso_3166_2": "NO",
-    "iso_3166_3": "NOR",
-    "currency": "NOK"
   },
   {
     "name": "Nepal",
@@ -1029,11 +917,18 @@
     "currency": "NPR"
   },
   {
-    "name": "Nauru",
+    "name": "Netherlands",
+    "continent": "EU",
+    "iso_3166_2": "NL",
+    "iso_3166_3": "NLD",
+    "currency": "EUR"
+  },
+  {
+    "name": "New Caledonia",
     "continent": "OC",
-    "iso_3166_2": "NR",
-    "iso_3166_3": "NRU",
-    "currency": "AUD"
+    "iso_3166_2": "NC",
+    "iso_3166_3": "NCL",
+    "currency": "XPF"
   },
   {
     "name": "New Zealand",
@@ -1041,6 +936,55 @@
     "iso_3166_2": "NZ",
     "iso_3166_3": "NZL",
     "currency": "NZD"
+  },
+  {
+    "name": "Nicaragua",
+    "continent": "NA",
+    "iso_3166_2": "NI",
+    "iso_3166_3": "NIC",
+    "currency": "NIO"
+  },
+  {
+    "name": "Niger",
+    "continent": "AF",
+    "iso_3166_2": "NE",
+    "iso_3166_3": "NER",
+    "currency": "XOF"
+  },
+  {
+    "name": "Nigeria",
+    "continent": "AF",
+    "iso_3166_2": "NG",
+    "iso_3166_3": "NGA",
+    "currency": "NGN"
+  },
+  {
+    "name": "Niue",
+    "continent": "OC",
+    "iso_3166_2": "NU",
+    "iso_3166_3": "NIU",
+    "currency": "NZD"
+  },
+  {
+    "name": "Norfolk Island",
+    "continent": "OC",
+    "iso_3166_2": "NF",
+    "iso_3166_3": "NFK",
+    "currency": "AUD"
+  },
+  {
+    "name": "Northern Mariana Islands",
+    "continent": "OC",
+    "iso_3166_2": "MP",
+    "iso_3166_3": "MNP",
+    "currency": "USD"
+  },
+  {
+    "name": "Norway",
+    "continent": "EU",
+    "iso_3166_2": "NO",
+    "iso_3166_3": "NOR",
+    "currency": "NOK"
   },
   {
     "name": "Oman",
@@ -1057,6 +1001,13 @@
     "currency": "PKR"
   },
   {
+    "name": "Palau",
+    "continent": "OC",
+    "iso_3166_2": "PW",
+    "iso_3166_3": "PLW",
+    "currency": "USD"
+  },
+  {
     "name": "Panama",
     "continent": "NA",
     "iso_3166_2": "PA",
@@ -1064,11 +1015,18 @@
     "currency": "USD"
   },
   {
-    "name": "Pitcairn",
+    "name": "Papua New Guinea",
     "continent": "OC",
-    "iso_3166_2": "PN",
-    "iso_3166_3": "PCN",
-    "currency": "NZD"
+    "iso_3166_2": "PG",
+    "iso_3166_3": "PNG",
+    "currency": "PGK"
+  },
+  {
+    "name": "Paraguay",
+    "continent": "SA",
+    "iso_3166_2": "PY",
+    "iso_3166_3": "PRY",
+    "currency": "PYG"
   },
   {
     "name": "Peru",
@@ -1085,18 +1043,11 @@
     "currency": "PHP"
   },
   {
-    "name": "Palau",
+    "name": "Pitcairn",
     "continent": "OC",
-    "iso_3166_2": "PW",
-    "iso_3166_3": "PLW",
-    "currency": "USD"
-  },
-  {
-    "name": "Papua New Guinea",
-    "continent": "OC",
-    "iso_3166_2": "PG",
-    "iso_3166_3": "PNG",
-    "currency": "PGK"
+    "iso_3166_2": "PN",
+    "iso_3166_3": "PCN",
+    "currency": "NZD"
   },
   {
     "name": "Poland",
@@ -1106,13 +1057,6 @@
     "currency": "PLN"
   },
   {
-    "name": "Puerto Rico",
-    "continent": "NA",
-    "iso_3166_2": "PR",
-    "iso_3166_3": "PRI",
-    "currency": "USD"
-  },
-  {
     "name": "Portugal",
     "continent": "EU",
     "iso_3166_2": "PT",
@@ -1120,18 +1064,11 @@
     "currency": "EUR"
   },
   {
-    "name": "Paraguay",
-    "continent": "SA",
-    "iso_3166_2": "PY",
-    "iso_3166_3": "PRY",
-    "currency": "PYG"
-  },
-  {
-    "name": "French Polynesia",
-    "continent": "OC",
-    "iso_3166_2": "PF",
-    "iso_3166_3": "PYF",
-    "currency": "XPF"
+    "name": "Puerto Rico",
+    "continent": "NA",
+    "iso_3166_2": "PR",
+    "iso_3166_3": "PRI",
+    "currency": "USD"
   },
   {
     "name": "Qatar",
@@ -1141,11 +1078,18 @@
     "currency": "QAR"
   },
   {
-    "name": "Réunion",
-    "continent": "AF",
-    "iso_3166_2": "RE",
-    "iso_3166_3": "REU",
-    "currency": "EUR"
+    "name": "Republic of Korea",
+    "continent": "AS",
+    "iso_3166_2": "KR",
+    "iso_3166_3": "KOR",
+    "currency": "KRW"
+  },
+  {
+    "name": "Republic of Moldova",
+    "continent": "EU",
+    "iso_3166_2": "MD",
+    "iso_3166_3": "MDA",
+    "currency": "MDL"
   },
   {
     "name": "Romania",
@@ -1169,6 +1113,83 @@
     "currency": "RWF"
   },
   {
+    "name": "Réunion",
+    "continent": "AF",
+    "iso_3166_2": "RE",
+    "iso_3166_3": "REU",
+    "currency": "EUR"
+  },
+  {
+    "name": "Saint Barthélemy",
+    "continent": "NA",
+    "iso_3166_2": "BL",
+    "iso_3166_3": "BLM",
+    "currency": "EUR"
+  },
+  {
+    "name": "Saint Helena",
+    "continent": "AF",
+    "iso_3166_2": "SH",
+    "iso_3166_3": "SHN",
+    "currency": "SHP"
+  },
+  {
+    "name": "Saint Kitts and Nevis",
+    "continent": "NA",
+    "iso_3166_2": "KN",
+    "iso_3166_3": "KNA",
+    "currency": "XCD"
+  },
+  {
+    "name": "Saint Lucia",
+    "continent": "NA",
+    "iso_3166_2": "LC",
+    "iso_3166_3": "LCA",
+    "currency": "XCD"
+  },
+  {
+    "name": "Saint Martin (French part)",
+    "continent": "NA",
+    "iso_3166_2": "MF",
+    "iso_3166_3": "MAF",
+    "currency": "EUR"
+  },
+  {
+    "name": "Saint Pierre and Miquelon",
+    "continent": "NA",
+    "iso_3166_2": "PM",
+    "iso_3166_3": "SPM",
+    "currency": "EUR"
+  },
+  {
+    "name": "Saint Vincent and the Grenadines",
+    "continent": "NA",
+    "iso_3166_2": "VC",
+    "iso_3166_3": "VCT",
+    "currency": "XCD"
+  },
+  {
+    "name": "Samoa",
+    "continent": "OC",
+    "iso_3166_2": "WS",
+    "iso_3166_3": "WSM",
+    "currency": "WST"
+  },
+  {
+    "name": "San Marino",
+    "continent": "EU",
+    "iso_3166_2": "SM",
+    "iso_3166_3": "SMR",
+    "currency": "EUR"
+  },
+  {
+    "name": "Sao Tome and Principe",
+    "continent": "AF",
+    "iso_3166_2": "ST",
+    "iso_3166_3": "STP",
+    "currency": "STD"
+  },
+  {
     "name": "Saudi Arabia",
     "continent": "AS",
     "iso_3166_2": "SA",
@@ -1183,32 +1204,18 @@
     "currency": "XOF"
   },
   {
-    "name": "Singapore",
-    "continent": "AS",
-    "iso_3166_2": "SG",
-    "iso_3166_3": "SGP",
-    "currency": "SGD"
-  },
-  {
-    "name": "Saint Helena",
-    "continent": "AF",
-    "iso_3166_2": "SH",
-    "iso_3166_3": "SHN",
-    "currency": "SHP"
-  },
-  {
-    "name": "Svalbard and Jan Mayen Islands",
+    "name": "Serbia",
     "continent": "EU",
-    "iso_3166_2": "SJ",
-    "iso_3166_3": "SJM",
-    "currency": "NOK"
+    "iso_3166_2": "RS",
+    "iso_3166_3": "SRB",
+    "currency": "RSD"
   },
   {
-    "name": "Solomon Islands",
-    "continent": "OC",
-    "iso_3166_2": "SB",
-    "iso_3166_3": "SLB",
-    "currency": "SBD"
+    "name": "Seychelles",
+    "continent": "AF",
+    "iso_3166_2": "SC",
+    "iso_3166_3": "SYC",
+    "currency": "SCR"
   },
   {
     "name": "Sierra Leone",
@@ -1218,46 +1225,18 @@
     "currency": "SLL"
   },
   {
-    "name": "El Salvador",
+    "name": "Singapore",
+    "continent": "AS",
+    "iso_3166_2": "SG",
+    "iso_3166_3": "SGP",
+    "currency": "SGD"
+  },
+  {
+    "name": "Sint Maarten (Dutch part)",
     "continent": "NA",
-    "iso_3166_2": "SV",
-    "iso_3166_3": "SLV",
-    "currency": "USD"
-  },
-  {
-    "name": "San Marino",
-    "continent": "EU",
-    "iso_3166_2": "SM",
-    "iso_3166_3": "SMR",
-    "currency": "EUR"
-  },
-  {
-    "name": "Somalia",
-    "continent": "AF",
-    "iso_3166_2": "SO",
-    "iso_3166_3": "SOM",
-    "currency": "SOS"
-  },
-  {
-    "name": "Saint Pierre and Miquelon",
-    "continent": "NA",
-    "iso_3166_2": "PM",
-    "iso_3166_3": "SPM",
-    "currency": "EUR"
-  },
-  {
-    "name": "Serbia",
-    "continent": "EU",
-    "iso_3166_2": "RS",
-    "iso_3166_3": "SRB",
-    "currency": "RSD"
-  },
-  {
-    "name": "Sao Tome and Principe",
-    "continent": "AF",
-    "iso_3166_2": "ST",
-    "iso_3166_3": "STP",
-    "currency": "STD"
+    "iso_3166_2": "SX",
+    "iso_3166_3": "SXM",
+    "currency": "ANG"
   },
   {
     "name": "Slovakia",
@@ -1274,11 +1253,46 @@
     "currency": "EUR"
   },
   {
-    "name": "Sweden",
+    "name": "Solomon Islands",
+    "continent": "OC",
+    "iso_3166_2": "SB",
+    "iso_3166_3": "SLB",
+    "currency": "SBD"
+  },
+  {
+    "name": "Somalia",
+    "continent": "AF",
+    "iso_3166_2": "SO",
+    "iso_3166_3": "SOM",
+    "currency": "SOS"
+  },
+  {
+    "name": "South Africa",
+    "continent": "AF",
+    "iso_3166_2": "ZA",
+    "iso_3166_3": "ZAF",
+    "currency": "ZAR"
+  },
+  {
+    "name": "Spain",
     "continent": "EU",
-    "iso_3166_2": "SE",
-    "iso_3166_3": "SWE",
-    "currency": "SEK"
+    "iso_3166_2": "ES",
+    "iso_3166_3": "ESP",
+    "currency": "EUR"
+  },
+  {
+    "name": "Sri Lanka",
+    "continent": "AS",
+    "iso_3166_2": "LK",
+    "iso_3166_3": "LKA",
+    "currency": "LKR"
+  },
+  {
+    "name": "Svalbard and Jan Mayen Islands",
+    "continent": "EU",
+    "iso_3166_2": "SJ",
+    "iso_3166_3": "SJM",
+    "currency": "NOK"
   },
   {
     "name": "Swaziland",
@@ -1288,39 +1302,18 @@
     "currency": "SZL"
   },
   {
-    "name": "Sint Maarten (Dutch part)",
-    "continent": "NA",
-    "iso_3166_2": "SX",
-    "iso_3166_3": "SXM",
-    "currency": "ANG"
+    "name": "Sweden",
+    "continent": "EU",
+    "iso_3166_2": "SE",
+    "iso_3166_3": "SWE",
+    "currency": "SEK"
   },
   {
-    "name": "Seychelles",
-    "continent": "AF",
-    "iso_3166_2": "SC",
-    "iso_3166_3": "SYC",
-    "currency": "SCR"
-  },
-  {
-    "name": "Turks and Caicos Islands",
-    "continent": "NA",
-    "iso_3166_2": "TC",
-    "iso_3166_3": "TCA",
-    "currency": "USD"
-  },
-  {
-    "name": "Chad",
-    "continent": "AF",
-    "iso_3166_2": "TD",
-    "iso_3166_3": "TCD",
-    "currency": "XAF"
-  },
-  {
-    "name": "Togo",
-    "continent": "AF",
-    "iso_3166_2": "TG",
-    "iso_3166_3": "TGO",
-    "currency": "XOF"
+    "name": "Switzerland",
+    "continent": "EU",
+    "iso_3166_2": "CH",
+    "iso_3166_3": "CHE",
+    "currency": "CHF"
   },
   {
     "name": "Thailand",
@@ -1330,18 +1323,25 @@
     "currency": "THB"
   },
   {
-    "name": "Tokelau",
-    "continent": "OC",
-    "iso_3166_2": "TK",
-    "iso_3166_3": "TKL",
-    "currency": "NZD"
-  },
-  {
     "name": "Timor-Leste",
     "continent": "OC",
     "iso_3166_2": "TL",
     "iso_3166_3": "TLS",
     "currency": "USD"
+  },
+  {
+    "name": "Togo",
+    "continent": "AF",
+    "iso_3166_2": "TG",
+    "iso_3166_3": "TGO",
+    "currency": "XOF"
+  },
+  {
+    "name": "Tokelau",
+    "continent": "OC",
+    "iso_3166_2": "TK",
+    "iso_3166_3": "TKL",
+    "currency": "NZD"
   },
   {
     "name": "Tonga",
@@ -1372,18 +1372,18 @@
     "currency": "TRY"
   },
   {
+    "name": "Turks and Caicos Islands",
+    "continent": "NA",
+    "iso_3166_2": "TC",
+    "iso_3166_3": "TCA",
+    "currency": "USD"
+  },
+  {
     "name": "Tuvalu",
     "continent": "OC",
     "iso_3166_2": "TV",
     "iso_3166_3": "TUV",
     "currency": "AUD"
-  },
-  {
-    "name": "United Republic of Tanzania",
-    "continent": "AF",
-    "iso_3166_2": "TZ",
-    "iso_3166_3": "TZA",
-    "currency": "TZS"
   },
   {
     "name": "Uganda",
@@ -1400,53 +1400,25 @@
     "currency": "UAH"
   },
   {
-    "name": "Uruguay",
-    "continent": "SA",
-    "iso_3166_2": "UY",
-    "iso_3166_3": "URY",
-    "currency": "UYU"
-  },
-  {
-    "name": "United States of America",
-    "continent": "NA",
-    "iso_3166_2": "US",
-    "iso_3166_3": "USA",
-    "currency": "USD"
-  },
-  {
-    "name": "Uzbekistan",
+    "name": "United Arab Emirates",
     "continent": "AS",
-    "iso_3166_2": "UZ",
-    "iso_3166_3": "UZB",
-    "currency": "UZS"
+    "iso_3166_2": "AE",
+    "iso_3166_3": "ARE",
+    "currency": "AED"
   },
   {
-    "name": "Holy See",
+    "name": "United Kingdom of Great Britain and Northern Ireland",
     "continent": "EU",
-    "iso_3166_2": "VA",
-    "iso_3166_3": "VAT",
-    "currency": "EUR"
+    "iso_3166_2": "GB",
+    "iso_3166_3": "GBR",
+    "currency": "GBP"
   },
   {
-    "name": "Saint Vincent and the Grenadines",
-    "continent": "NA",
-    "iso_3166_2": "VC",
-    "iso_3166_3": "VCT",
-    "currency": "XCD"
-  },
-  {
-    "name": "Venezuela (Bolivarian Republic of)",
-    "continent": "SA",
-    "iso_3166_2": "VE",
-    "iso_3166_3": "VEN",
-    "currency": "VEF"
-  },
-  {
-    "name": "British Virgin Islands",
-    "continent": "NA",
-    "iso_3166_2": "VG",
-    "iso_3166_3": "VGB",
-    "currency": "USD"
+    "name": "United Republic of Tanzania",
+    "continent": "AF",
+    "iso_3166_2": "TZ",
+    "iso_3166_3": "TZA",
+    "currency": "TZS"
   },
   {
     "name": "United States Virgin Islands",
@@ -1456,11 +1428,25 @@
     "currency": "USD"
   },
   {
-    "name": "Viet Nam",
+    "name": "United States of America",
+    "continent": "NA",
+    "iso_3166_2": "US",
+    "iso_3166_3": "USA",
+    "currency": "USD"
+  },
+  {
+    "name": "Uruguay",
+    "continent": "SA",
+    "iso_3166_2": "UY",
+    "iso_3166_3": "URY",
+    "currency": "UYU"
+  },
+  {
+    "name": "Uzbekistan",
     "continent": "AS",
-    "iso_3166_2": "VN",
-    "iso_3166_3": "VNM",
-    "currency": "VND"
+    "iso_3166_2": "UZ",
+    "iso_3166_3": "UZB",
+    "currency": "UZS"
   },
   {
     "name": "Vanuatu",
@@ -1470,6 +1456,20 @@
     "currency": "VUV"
   },
   {
+    "name": "Venezuela (Bolivarian Republic of)",
+    "continent": "SA",
+    "iso_3166_2": "VE",
+    "iso_3166_3": "VEN",
+    "currency": "VEF"
+  },
+  {
+    "name": "Viet Nam",
+    "continent": "AS",
+    "iso_3166_2": "VN",
+    "iso_3166_3": "VNM",
+    "currency": "VND"
+  },
+  {
     "name": "Wallis and Futuna Islands",
     "continent": "OC",
     "iso_3166_2": "WF",
@@ -1477,11 +1477,11 @@
     "currency": "XPF"
   },
   {
-    "name": "Samoa",
-    "continent": "OC",
-    "iso_3166_2": "WS",
-    "iso_3166_3": "WSM",
-    "currency": "WST"
+    "name": "Western Sahara",
+    "continent": "AF",
+    "iso_3166_2": "EH",
+    "iso_3166_3": "ESH",
+    "currency": "MAD"
   },
   {
     "name": "Yemen",
@@ -1491,17 +1491,17 @@
     "currency": "YER"
   },
   {
-    "name": "South Africa",
-    "continent": "AF",
-    "iso_3166_2": "ZA",
-    "iso_3166_3": "ZAF",
-    "currency": "ZAR"
-  },
-  {
     "name": "Zambia",
     "continent": "AF",
     "iso_3166_2": "ZM",
     "iso_3166_3": "ZMB",
     "currency": "ZMW"
+  },
+  {
+    "name": "Åland Islands",
+    "continent": "EU",
+    "iso_3166_2": "AX",
+    "iso_3166_3": "ALA",
+    "currency": "EUR"
   }
 ]

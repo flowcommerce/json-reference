@@ -95,7 +95,7 @@ func Cleanse() {
 				}
 			},
 			func(record map[string]string) string {
-				return record["ISO3166-1-Alpha-3"]
+				return record["official_name_en"]
 			},
 		),
 	)
@@ -121,7 +121,7 @@ func Cleanse() {
 				}
 			},
 			func(record map[string]string) string {
-				return record["ISO4217-currency_alphabetic_code"]
+				return record["ISO4217-currency_name"]
 			},
 		),
 	)
