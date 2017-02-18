@@ -239,14 +239,17 @@ func readCurrencies(file string) []Currency {
 	err := json.Unmarshal(common.ReadFile(file), &data)
 	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshall currencies: %s", err))
 
+	unsupportedCurrencyCodes := unsupportedCurrencyCodes()
 	currencies := []Currency{}
 
 	for _, c := range(data) {
-		currencies = append(currencies, Currency{
-			Name: c.Name,
-			Iso_4217_3: c.Iso_4217_3,
-			NumberDecimals: c.NumberDecimals,
-		})
+		if !common.ContainsIgnoreCase(unsupportedCurrencyCodes, c.Iso_4217_3) {
+			currencies = append(currencies, Currency{
+				Name: c.Name,
+				Iso_4217_3: c.Iso_4217_3,
+				NumberDecimals: c.NumberDecimals,
+			})
+		}
 	}
 	sortCurrencies(currencies)
 
