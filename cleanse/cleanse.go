@@ -8,10 +8,10 @@ import (
 	"encoding/csv"
 	"encoding/json"
         "fmt"
+	"github.com/bradfitz/slice"
         "io"
         "os"
 	"sort"
-	"strconv"
 	"strings"
 )
 
@@ -68,6 +68,12 @@ type IncomingLanguage struct {
 	Countries           []string `json:"countries"`
 }
 
+type IncomingCurrency struct {
+	Name           string `json:"name"`
+	Iso_4217_3     string `json:"iso_4217_3"`
+	NumberDecimals int `json:"number_decimals"`
+}
+
 type convertFunction func(records map[string]string) interface{}
 type acceptsFunction func(records map[string]string) bool
 type idFunction func(records map[string]string) string
@@ -100,31 +106,8 @@ func Cleanse() {
 		),
 	)
 
-	writeJson("data/cleansed/currencies.json",
-		toObjects(countriesSource,
-			func(record map[string]string) bool {
-				return record["ISO4217-currency_name"] != "" && record["ISO4217-currency_alphabetic_code"] != "" && !common.ContainsIgnoreCase(unsupportedCurrencyCodes, record["ISO4217-currency_alphabetic_code"])
-			},
-			func(record map[string]string) interface{} {
-				n := record["ISO4217-currency_number_decimals"]
-				var numberDecimals int64
-				var err error
-				if (n != "") {
-					numberDecimals, err = strconv.ParseInt(n, 10, 0)
-					util.ExitIfError(err, fmt.Sprintf("Error parsing int[%s]", n))
-				}
-
-				return Currency{
-					Name: record["ISO4217-currency_name"],
-					Iso_4217_3: record["ISO4217-currency_alphabetic_code"],
-					NumberDecimals: int(numberDecimals),
-				}
-			},
-			func(record map[string]string) string {
-				return record["ISO4217-currency_name"]
-			},
-		),
-	)
+	currencies := readCurrencies("data/original/currencies.json")
+	writeJson("data/cleansed/currencies.json", currencies)
 
 	writeJson("data/cleansed/country-continents.json",
 		toObjects(readCsv("data/source/country-continents.csv"),
@@ -249,6 +232,25 @@ func readLanguages(file string) []Language {
 	}
 
 	return languages
+}
+
+func readCurrencies(file string) []Currency {
+	data := []IncomingCurrency{}
+	err := json.Unmarshal(common.ReadFile(file), &data)
+	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshall currencies: %s", err))
+
+	currencies := []Currency{}
+
+	for _, c := range(data) {
+		currencies = append(currencies, Currency{
+			Name: c.Name,
+			Iso_4217_3: c.Iso_4217_3,
+			NumberDecimals: c.NumberDecimals,
+		})
+	}
+	sortCurrencies(currencies)
+
+	return currencies
 }
 
 /**
@@ -439,4 +441,11 @@ func sortObjects(data map[string]interface{}) []interface{} {
 		all = append(all, data[key])
 	}
 	return all
+}
+
+func sortCurrencies(currencies []Currency) []Currency {
+	slice.Sort(currencies[:], func(i, j int) bool {
+		return strings.ToLower(currencies[i].Name) < strings.ToLower(currencies[j].Name)
+	})
+	return currencies
 }
