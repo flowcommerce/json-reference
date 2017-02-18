@@ -15,6 +15,7 @@ func DownloadAll() {
 	download("data/source/languages.json", "https://raw.githubusercontent.com/bdswiss/country-language/master/data.json")
 	download("data/source/countries.csv", "https://raw.githubusercontent.com/datasets/country-codes/master/data/country-codes.csv")
 	download("data/source/country-continents.csv", "http://dev.maxmind.com/static/csv/codes/country_continent.csv")
+	download("data/source/currencies.json", "https://raw.githubusercontent.com/unicode-cldr/cldr-numbers-full/master/main/en-US-POSIX/currencies.json")
 	download("data/source/numbers.json", "https://raw.githubusercontent.com/unicode-cldr/cldr-numbers-full/master/main/en-US-POSIX/numbers.json")
 }
 
