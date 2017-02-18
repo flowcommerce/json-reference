@@ -68,6 +68,29 @@ type IncomingLanguage struct {
 	Countries           []string `json:"countries"`
 }
 
+type IncomingCurrencies struct {
+	Main        IncomingCurrenciesMain`json:"main"`
+}
+
+type IncomingCurrenciesMain struct {
+	EnUsPosix   IncomingCurrenciesPosix `json:"en-US-POSIX"`
+}
+
+type IncomingCurrenciesPosix struct {
+	Numbers     IncomingCurrenciesNumbers `json:"numbers"`
+}
+
+type IncomingCurrenciesNumbers struct {
+	Currencies     map[string]IncomingCurrency `json:"currencies"`
+}
+
+type IncomingCurrency struct {
+	Name           string `json:"displayName"`
+	NameSingle     string `json:"displayName-count-one"`
+	NameMultiple   string `json:"displayName-count-other"`
+	Symbol         string `json:"symbol"`
+}
+
 type convertFunction func(records map[string]string) interface{}
 type acceptsFunction func(records map[string]string) bool
 type idFunction func(records map[string]string) string
@@ -100,6 +123,8 @@ func Cleanse() {
 		),
 	)
 
+	currencies := readCurrencies("data/source/currencies.json")
+	fmt.Println(len(currencies))
 	writeJson("data/cleansed/currencies.json",
 		toObjects(countriesSource,
 			func(record map[string]string) bool {
@@ -249,6 +274,23 @@ func readLanguages(file string) []Language {
 	}
 
 	return languages
+}
+
+func readCurrencies(file string) []Currency {
+	data := IncomingCurrencies{}
+	err := json.Unmarshal(common.ReadFile(file), &data)
+	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshall currencies: %s", err))
+
+	currencies := []Currency{}
+
+	for _, c := range(data.Main.EnUsPosix.Numbers.Currencies) {
+		currencies = append(currencies, Currency{
+			Name: c.Name,
+			Iso_639_2: c.Symbol,
+		})
+	}
+
+	return currencies
 }
 
 /**
