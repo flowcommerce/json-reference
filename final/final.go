@@ -18,6 +18,7 @@ type CleansedDataSet struct {
 	Countries []cleanse.Country
 	CountryContinents []cleanse.CountryContinent
 	Currencies []cleanse.Currency
+	CurrencySymbols map[string]cleanse.CurrencySymbols
 	Languages []cleanse.Language
 	Timezones []cleanse.Timezone
 	CountryTimezones []cleanse.CountryTimezone
@@ -29,6 +30,7 @@ func Generate() {
 		Countries: cleanse.LoadCountries(),
 		CountryContinents: cleanse.LoadCountryContinents(),
 		Currencies: cleanse.LoadCurrencies(),
+		CurrencySymbols: cleanse.LoadCurrencySymbols(),
 		Languages: cleanse.LoadLanguages(),
 		Timezones: cleanse.LoadTimezones(),
 		CountryTimezones: cleanse.LoadCountryTimezones(),
@@ -108,10 +110,15 @@ func commonTimezones(data CleansedDataSet) []common.Timezone {
 func commonCurrencies(data CleansedDataSet) []common.Currency {
 	var all []common.Currency
 	for _, c := range(data.Currencies) {
+		symbols := data.CurrencySymbols[c.Iso_4217_3]
 		all = append(all, common.Currency{
 			Name: c.Name,
 			Iso_4217_3: c.Iso_4217_3,
 			NumberDecimals: c.NumberDecimals,
+			Symbols: common.CurrencySymbols{
+					Primary: symbols.Primary,
+				Narrow: symbols.Narrow,
+			},
 		})
 	}
 	return all

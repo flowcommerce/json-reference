@@ -79,11 +79,11 @@ type IncomingNumbers struct {
 }
 
 type IncomingNumbersMain struct {
-	Identity    IncomingNumbersIdentity `json:"identity"`
+	Identity    CldrIdentity `json:"identity"`
 	Numbers     IncomingNumbersNumbers `json:"numbers"`
 }
 
-type IncomingNumbersIdentity struct {
+type CldrIdentity struct {
         Language    string `json:"language"`
         Territory   string `json:"territory"`
 }
@@ -108,6 +108,36 @@ type Separators struct {
 	Group             string `json:"group"`
 }
 
+type CldrCurrencies struct {
+	Main        map[string]CldrCurrenciesMain `json:"main"`
+}
+
+type CldrCurrenciesMain struct {
+	Identity    CldrIdentity `json:"identity"`
+	Numbers     CldrCurrenciesNumbers `json:"numbers"`
+}
+
+type CldrCurrenciesNumbers struct {
+	Currencies     map[string]CldrIncomingCurrency `json:"currencies"`
+}
+
+type CldrIncomingCurrency struct {
+	Name             string `json:"displayName"`
+	NameCountOne     string `json:"displayName-count-one"`
+	NameCountOther   string `json:"displayName-count-other"`
+	Symbol           string `json:"symbol,omitempty"`
+	SymbolAltNarrow  string `json:"symbol-alt-narrow,omitempty"`
+}
+
+type CldrCurrency struct {
+	Iso_4217_3       string `json:"iso_4217_3"`
+	Symbols          CurrencySymbols `json:"symbols"`
+}
+
+type CurrencySymbols struct {
+	Primary          string `json:"primary"`
+	Narrow           string `json:"narrow,omitempty"`
+}
 
 type convertFunction func(records map[string]string) interface{}
 type acceptsFunction func(records map[string]string) bool
@@ -143,6 +173,9 @@ func Cleanse() {
 
 	numbers := readNumbers("data/source/numbers.json")
 	writeJson("data/cleansed/numbers.json", numbers)
+
+	currencySymbols := readCurrencySymbols("data/source/cldr-currencies.json")
+	writeJson("data/cleansed/currency-symbols.json", currencySymbols)
 
 	currencies := readCurrencies("data/original/currencies.json")
 	writeJson("data/cleansed/currencies.json", currencies)
@@ -270,6 +303,36 @@ func readLanguages(file string) []Language {
 	}
 
 	return languages
+}
+
+func readCurrencySymbols(file string) map[string]CurrencySymbols {
+	data := CldrCurrencies{}
+	err := json.Unmarshal(common.ReadFile(file), &data)
+	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshall cldr currencies: %s", err))
+
+	unsupportedCurrencyCodes := unsupportedCurrencyCodes()
+	currencySymbols := map[string]CurrencySymbols{}
+
+	for _, main := range(data.Main) {
+		for code, c := range(main.Numbers.Currencies) {
+			if !common.ContainsIgnoreCase(unsupportedCurrencyCodes, code) {
+				if c.Symbol != "" && c.Symbol != code {
+					var narrow string
+					if c.Symbol == c.SymbolAltNarrow {
+						narrow = ""
+					} else {
+						narrow = c.SymbolAltNarrow
+					}
+
+					currencySymbols[code] = CurrencySymbols{
+						Primary: c.Symbol,
+						Narrow: narrow,
+					}
+				}
+			}
+		}
+	}
+	return currencySymbols
 }
 
 func readCurrencies(file string) []Currency {
@@ -402,6 +465,13 @@ func LoadCurrencies() []Currency {
 	err := json.Unmarshal(common.ReadFile("data/cleansed/currencies.json"), &currencies)
 	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshal currencies: %s", err))
 	return currencies
+}
+
+func LoadCurrencySymbols() map[string]CurrencySymbols {
+	symbols := map[string]CurrencySymbols{}
+	err := json.Unmarshal(common.ReadFile("data/cleansed/currency-symbols.json"), &symbols)
+	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshal symbols: %s", err))
+	return symbols
 }
 
 func LoadLanguages() []Language {
