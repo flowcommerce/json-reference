@@ -28,10 +28,11 @@ type Country struct {
 }
 
 type Currency struct {
-	Name           string          `json:"name"`
-	Iso_4217_3     string          `json:"iso_4217_3"`
-	NumberDecimals int             `json:"number_decimals"`
-	Symbols        CurrencySymbols `json:"symbols"`
+	Name            string          `json:"name"`
+	Iso_4217_3      string          `json:"iso_4217_3"`
+	NumberDecimals  int             `json:"number_decimals"`
+	Symbols         CurrencySymbols `json:"symbols"`
+	DefaultLocale   string `json:"locale,omitempty"`	
 }
 
 type CurrencySymbols struct {

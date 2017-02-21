@@ -1,1 +1,4 @@
 download all of the numbers for all of the countries
+
+  - maybe add https://github.com/unicode-cldr/cldr-json#cldr-json as a
+    submodule - easier to keep up to date
