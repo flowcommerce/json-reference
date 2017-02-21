@@ -1,0 +1,11 @@
+[
+  {
+    "code": "en_US",
+    "country": "US",
+    "language": "en",
+    "numbers": {
+      "decimal": ".",
+      "group": ","
+    }
+  }
+]

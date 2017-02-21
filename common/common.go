@@ -61,6 +61,18 @@ type Timezone struct {
 	Offset                   int    `json:"offset"`
 }
 
+type Locale struct {
+	Code              string `json:"code"`
+	Country           string `json:"country"`
+	Language          string `json:"language,omitempty"`
+	Numbers           LocaleNumbers `json:"numbers"`
+}
+
+type LocaleNumbers struct {
+	Decimal           string `json:"decimal"`
+	Group             string `json:"group"`
+}
+
 func Continents() []Continent {
 	continents := []Continent{}
 	err := json.Unmarshal(readDataFileFromUrl("continents.json"), &continents)

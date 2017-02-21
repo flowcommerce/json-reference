@@ -19,6 +19,7 @@ type CleansedDataSet struct {
 	CountryContinents []cleanse.CountryContinent
 	Currencies []cleanse.Currency
 	CurrencySymbols map[string]cleanse.CurrencySymbols
+	Numbers []cleanse.Number
 	Languages []cleanse.Language
 	Timezones []cleanse.Timezone
 	CountryTimezones []cleanse.CountryTimezone
@@ -32,6 +33,7 @@ func Generate() {
 		Currencies: cleanse.LoadCurrencies(),
 		CurrencySymbols: cleanse.LoadCurrencySymbols(),
 		Languages: cleanse.LoadLanguages(),
+		Numbers: cleanse.LoadNumbers(),
 		Timezones: cleanse.LoadTimezones(),
 		CountryTimezones: cleanse.LoadCountryTimezones(),
 	}
@@ -41,6 +43,7 @@ func Generate() {
 
 	writeJson("data/final/continents.json", continents)
 	writeJson("data/final/languages.json", commonLanguages(data))
+	writeJson("data/final/locales.json", commonLocales(data))
 	writeJson("data/final/currencies.json", commonCurrencies(data))
 	writeJson("data/final/timezones.json", commonTimezones(data))
 	writeJson("data/final/countries.json", countries)
@@ -70,6 +73,29 @@ func commonContinents(data CleansedDataSet) []common.Continent {
 			Name: c.Name,
 			Code: c.Code3,
 			Countries: theseCountries,
+		})
+	}
+	return all
+}
+
+func commonLocales(data CleansedDataSet) []common.Locale {
+	var all []common.Locale
+	for _, n := range(data.Numbers) {
+		code := ""
+		if n.Language == "" {
+			code = n.Country
+		} else {
+			code = fmt.Sprintf("%s_%s", n.Language, n.Country)
+		}
+
+		all = append(all, common.Locale{
+			Code: code,
+			Country: n.Country,
+			Language: n.Language,
+			Numbers: common.LocaleNumbers{
+				Decimal: n.Separators.Decimal,
+				Group: n.Separators.Group,
+			},
 		})
 	}
 	return all
