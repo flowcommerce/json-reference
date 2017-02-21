@@ -1,3 +1,3 @@
-parse currency symbols and narrow symbols from data/original/currencies.json
+parse currency symbols and narrow symbols from data/source/currencies.json
 
 download all of the numbers for all of the countries
