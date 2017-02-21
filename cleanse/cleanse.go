@@ -481,6 +481,13 @@ func LoadLanguages() []Language {
 	return languages
 }
 
+func LoadNumbers() []Number {
+	numbers := []Number{}
+	err := json.Unmarshal(common.ReadFile("data/cleansed/numbers.json"), &numbers)
+	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshal numbers: %s", err))
+	return numbers
+}
+
 func LoadTimezones() []Timezone {
 	return loadTimezonesFromPath("data/cleansed/timezones.json")
 }
