@@ -8,7 +8,7 @@ package main
 import (
 	"./download"
 	"./cleanse"
-	"./flow"
+	"./final"
 	"fmt"
 	"github.com/codegangsta/cli"
 	"os"
@@ -32,9 +32,9 @@ func main() {
 				fmt.Println("------------------------------")
 				cleanse.Cleanse()
 
-				fmt.Println("\nGenerating flow models...")
+				fmt.Println("\nGenerating final models...")
 				fmt.Println("------------------------------")
-				flow.Generate()
+				final.Generate()
 
 				fmt.Println("\nDone\n")
 				return nil
@@ -60,10 +60,10 @@ func main() {
 		},
 
 		{
-			Name:  "flow",
-			Usage: "Pulls together all the cleanse data into the final flow reference data. Writes to 'data/final' directory",
+			Name:  "final",
+			Usage: "Pulls together all the cleanse data into the final final reference data. Writes to 'data/final' directory",
 			Action: func(c *cli.Context) error {
-				flow.Generate()
+				final.Generate()
 				return nil
 			},
 		},

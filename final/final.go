@@ -1,6 +1,6 @@
-package flow
+package final
 
-// Reads all cleansed data, transforming into the final Flow format we desire
+// Reads all cleansed data, transforming into the final format we desire
 
 import (
 	"../cleanse"
