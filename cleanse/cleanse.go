@@ -467,6 +467,13 @@ func LoadCurrencies() []Currency {
 	return currencies
 }
 
+func LoadCurrencySymbols() map[string]CurrencySymbols {
+	symbols := map[string]CurrencySymbols{}
+	err := json.Unmarshal(common.ReadFile("data/cleansed/currency-symbols.json"), &symbols)
+	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshal symbols: %s", err))
+	return symbols
+}
+
 func LoadLanguages() []Language {
 	languages := []Language{}
 	err := json.Unmarshal(common.ReadFile("data/cleansed/languages.json"), &languages)

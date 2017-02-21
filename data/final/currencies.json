@@ -2,681 +2,865 @@
   {
     "name": "Albanian Lek",
     "iso_4217_3": "ALL",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Algerian Dinar",
     "iso_4217_3": "DZD",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Antillian Guilder",
     "iso_4217_3": "ANG",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Argentine Peso",
     "iso_4217_3": "ARS",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Armenian Dram",
     "iso_4217_3": "AMD",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Aruban Guilder",
     "iso_4217_3": "AWG",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Australian Dollar",
     "iso_4217_3": "AUD",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {
+      "primary": "A$",
+      "narrow": "$"
+    }
   },
   {
     "name": "Azerbaijani manat",
     "iso_4217_3": "AZN",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Bahamian Dollar",
     "iso_4217_3": "BSD",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Bahraini Dinar",
     "iso_4217_3": "BHD",
-    "number_decimals": 3
+    "number_decimals": 3,
+    "symbols": {}
   },
   {
     "name": "Bangladesh Taka",
     "iso_4217_3": "BDT",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Barbados Dollar",
     "iso_4217_3": "BBD",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Belize Dollar",
     "iso_4217_3": "BZD",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Bermudian Dollar",
     "iso_4217_3": "BMD",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Bolivia Boliviano",
     "iso_4217_3": "BOB",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Bosnia and Herzegovina Convertible Marks",
     "iso_4217_3": "BAM",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Botswana Pula",
     "iso_4217_3": "BWP",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Brazilian Real",
     "iso_4217_3": "BRL",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {
+      "primary": "R$"
+    }
   },
   {
     "name": "Brunei Dollar",
     "iso_4217_3": "BND",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Cambodia Riel",
     "iso_4217_3": "KHR",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Canadian Dollar",
     "iso_4217_3": "CAD",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {
+      "primary": "CA$",
+      "narrow": "$"
+    }
   },
   {
     "name": "Cape Verdi Escudo",
     "iso_4217_3": "CVE",
-    "number_decimals": 0
+    "number_decimals": 0,
+    "symbols": {}
   },
   {
     "name": "Cayman Islands Dollar",
     "iso_4217_3": "KYD",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "CFA Franc BCEAO",
     "iso_4217_3": "XOF",
-    "number_decimals": 0
+    "number_decimals": 0,
+    "symbols": {
+      "primary": "CFA"
+    }
   },
   {
     "name": "CFA Franc BEAC",
     "iso_4217_3": "XAF",
-    "number_decimals": 0
+    "number_decimals": 0,
+    "symbols": {
+      "primary": "FCFA"
+    }
   },
   {
     "name": "CFP Franc",
     "iso_4217_3": "XPF",
-    "number_decimals": 0
+    "number_decimals": 0,
+    "symbols": {
+      "primary": "CFPF"
+    }
   },
   {
     "name": "Chilean Peso",
     "iso_4217_3": "CLP",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Colombian Peso",
     "iso_4217_3": "COP",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Comoro Franc",
     "iso_4217_3": "KMF",
-    "number_decimals": 0
+    "number_decimals": 0,
+    "symbols": {}
   },
   {
     "name": "Costa Rican Colon",
     "iso_4217_3": "CRC",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Croatia Kuna",
     "iso_4217_3": "HRK",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Czech Koruna",
     "iso_4217_3": "CZK",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Danish Krone",
     "iso_4217_3": "DKK",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Djibouti Franc",
     "iso_4217_3": "DJF",
-    "number_decimals": 0
+    "number_decimals": 0,
+    "symbols": {}
   },
   {
     "name": "Dominican Republic Peso",
     "iso_4217_3": "DOP",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "East Carribean Dollar",
     "iso_4217_3": "XCD",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {
+      "primary": "EC$",
+      "narrow": "$"
+    }
   },
   {
     "name": "Egyptian Pound",
     "iso_4217_3": "EGP",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "El Salvador Colón",
     "iso_4217_3": "SVC",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Estonian Krone",
     "iso_4217_3": "EEK",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Ethiopian Birr",
     "iso_4217_3": "ETB",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Euro",
     "iso_4217_3": "EUR",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {
+      "primary": "€"
+    }
   },
   {
     "name": "Falkland Islands Pound",
     "iso_4217_3": "FKP",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Fiji Dollar",
     "iso_4217_3": "FJD",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Gambia Delasi",
     "iso_4217_3": "GMD",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Georgian Lari",
     "iso_4217_3": "GEL",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Ghanaian Cedi (3rd)",
     "iso_4217_3": "GHS",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Gibraltar Pound",
     "iso_4217_3": "GIP",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Guatemala Quetzal",
     "iso_4217_3": "GTQ",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Guinea Franc",
     "iso_4217_3": "GNF",
-    "number_decimals": 0
+    "number_decimals": 0,
+    "symbols": {}
   },
   {
     "name": "Guyanese Dollar",
     "iso_4217_3": "GYD",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Haitian Gourde",
     "iso_4217_3": "HTG",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Honduras Lempira",
     "iso_4217_3": "HNL",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Hong Kong Dollar",
     "iso_4217_3": "HKD",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {
+      "primary": "HK$",
+      "narrow": "$"
+    }
   },
   {
     "name": "Hungarian Forint",
     "iso_4217_3": "HUF",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Iceland Krona",
     "iso_4217_3": "ISK",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Indian Rupee",
     "iso_4217_3": "INR",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {
+      "primary": "₹"
+    }
   },
   {
     "name": "Indonesian Rupiah",
     "iso_4217_3": "IDR",
-    "number_decimals": 0
+    "number_decimals": 0,
+    "symbols": {}
   },
   {
     "name": "Jamaican Dollar",
     "iso_4217_3": "JMD",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Japanese Yen",
     "iso_4217_3": "JPY",
-    "number_decimals": 0
+    "number_decimals": 0,
+    "symbols": {
+      "primary": "¥"
+    }
   },
   {
     "name": "Jordanian Dinar",
     "iso_4217_3": "JOD",
-    "number_decimals": 3
+    "number_decimals": 3,
+    "symbols": {}
   },
   {
     "name": "Kazakhstani Tenge",
     "iso_4217_3": "KZT",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Kenyan Shilling",
     "iso_4217_3": "KES",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Kuwaiti Dinar",
     "iso_4217_3": "KWD",
-    "number_decimals": 3
+    "number_decimals": 3,
+    "symbols": {}
   },
   {
     "name": "Kyrgyzstan Som",
     "iso_4217_3": "KGS",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Laos Kip",
     "iso_4217_3": "LAK",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Latvian Lats",
     "iso_4217_3": "LVL",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Lebanese Pound",
     "iso_4217_3": "LBP",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Libyan Dinar",
     "iso_4217_3": "LYD",
-    "number_decimals": 3
+    "number_decimals": 3,
+    "symbols": {}
   },
   {
     "name": "Lithuanian Litas",
     "iso_4217_3": "LTL",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Macau Pataca",
     "iso_4217_3": "MOP",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Malawi Kwacha",
     "iso_4217_3": "MWK",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Malaysian Ringgit",
     "iso_4217_3": "MYR",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Maldives Rufiyaa",
     "iso_4217_3": "MVR",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Mauritania Ouguiya",
     "iso_4217_3": "MRO",
-    "number_decimals": 1
+    "number_decimals": 1,
+    "symbols": {}
   },
   {
     "name": "Mauritius Rupee",
     "iso_4217_3": "MUR",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Mexican Peso",
     "iso_4217_3": "MXN",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {
+      "primary": "MX$",
+      "narrow": "$"
+    }
   },
   {
     "name": "Moldovia Leu",
     "iso_4217_3": "MDL",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Mongolia Tugrik",
     "iso_4217_3": "MNT",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Moroccan Dirham",
     "iso_4217_3": "MAD",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Namibian Dollar",
     "iso_4217_3": "NAD",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Nepalese Rupee",
     "iso_4217_3": "NPR",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "New Belarusian Ruble",
     "iso_4217_3": "BYN",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "New Bulgarian Lev",
     "iso_4217_3": "BGN",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "New Guinea Kina",
     "iso_4217_3": "PGK",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "New Israeli Scheqel",
     "iso_4217_3": "ILS",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {
+      "primary": "₪"
+    }
   },
   {
     "name": "New Polish Zloty",
     "iso_4217_3": "PLN",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "New Romanian Lei",
     "iso_4217_3": "RON",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "New Taiwan Dollar",
     "iso_4217_3": "TWD",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {
+      "primary": "NT$",
+      "narrow": "$"
+    }
   },
   {
     "name": "New Turkish Lira",
     "iso_4217_3": "TRY",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "New Zealand Dollar",
     "iso_4217_3": "NZD",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {
+      "primary": "NZ$",
+      "narrow": "$"
+    }
   },
   {
     "name": "Nicaragua Cordoba Oro",
     "iso_4217_3": "NIO",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Nigerian Naira",
     "iso_4217_3": "NGN",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Norwegian Krone",
     "iso_4217_3": "NOK",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Pakistan Rupee",
     "iso_4217_3": "PKR",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Panamanian Balboa",
     "iso_4217_3": "PAB",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Paraguay Guarani",
     "iso_4217_3": "PYG",
-    "number_decimals": 0
+    "number_decimals": 0,
+    "symbols": {}
   },
   {
     "name": "Peruvian Nuevo Sol",
     "iso_4217_3": "PEN",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Peso Uruguayo",
     "iso_4217_3": "UYU",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Philippine Peso",
     "iso_4217_3": "PHP",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Pound Sterling",
     "iso_4217_3": "GBP",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {
+      "primary": "£"
+    }
   },
   {
     "name": "Qatari Rial",
     "iso_4217_3": "QAR",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Rial Omani",
     "iso_4217_3": "OMR",
-    "number_decimals": 3
+    "number_decimals": 3,
+    "symbols": {}
   },
   {
     "name": "Russian Ruble",
     "iso_4217_3": "RUB",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Rwanda Franc",
     "iso_4217_3": "RWF",
-    "number_decimals": 0
+    "number_decimals": 0,
+    "symbols": {}
   },
   {
     "name": "Samoan Tala",
     "iso_4217_3": "WST",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Sao Tome \u0026 Principe Dobra",
     "iso_4217_3": "STD",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Saudi Riyal",
     "iso_4217_3": "SAR",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Serbian Dinar",
     "iso_4217_3": "RSD",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Seychelles Rupee",
     "iso_4217_3": "SCR",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Sierra Leone",
     "iso_4217_3": "SLL",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Singapore Dollar",
     "iso_4217_3": "SGD",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Solomon Island Dollar",
     "iso_4217_3": "SBD",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Somalia Shilling",
     "iso_4217_3": "SOS",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "South African Rand",
     "iso_4217_3": "ZAR",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "South-Korean Won",
     "iso_4217_3": "KRW",
-    "number_decimals": 0
+    "number_decimals": 0,
+    "symbols": {
+      "primary": "₩"
+    }
   },
   {
     "name": "Sri Lanka Rupee",
     "iso_4217_3": "LKR",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "St. Helena Pound",
     "iso_4217_3": "SHP",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Swaziland Lilangeni",
     "iso_4217_3": "SZL",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Swedish Krone",
     "iso_4217_3": "SEK",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Swiss Franc",
     "iso_4217_3": "CHF",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Tanzanian Shilling",
     "iso_4217_3": "TZS",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Thai Baht",
     "iso_4217_3": "THB",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Tonga Pa'anga",
     "iso_4217_3": "TOP",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Trinidad \u0026 Tobago Dollar",
     "iso_4217_3": "TTD",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Tunisian Dinar",
     "iso_4217_3": "TND",
-    "number_decimals": 3
+    "number_decimals": 3,
+    "symbols": {}
   },
   {
     "name": "UAE Dirham",
     "iso_4217_3": "AED",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Uganda Shilling",
     "iso_4217_3": "UGX",
-    "number_decimals": 0
+    "number_decimals": 0,
+    "symbols": {}
   },
   {
     "name": "Ukraine Hryvnia",
     "iso_4217_3": "UAH",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "US Dollars",
     "iso_4217_3": "USD",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {
+      "primary": "$"
+    }
   },
   {
     "name": "Uzbekistani Som",
     "iso_4217_3": "UZS",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Vanuatu Vatu",
     "iso_4217_3": "VUV",
-    "number_decimals": 0
+    "number_decimals": 0,
+    "symbols": {}
   },
   {
     "name": "Venezuelan Bolívar",
     "iso_4217_3": "VEF",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Vietnamese New Dong",
     "iso_4217_3": "VND",
-    "number_decimals": 0
+    "number_decimals": 0,
+    "symbols": {
+      "primary": "₫"
+    }
   },
   {
     "name": "Yemeni Rial",
     "iso_4217_3": "YER",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   },
   {
     "name": "Yuan Renminbi",
     "iso_4217_3": "CNY",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {
+      "primary": "CN¥",
+      "narrow": "¥"
+    }
   },
   {
     "name": "Zambia Kwacha",
     "iso_4217_3": "ZMW",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "symbols": {}
   }
 ]
