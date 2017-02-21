@@ -1,0 +1,10 @@
+[
+  {
+    "country": "US",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  }
+]

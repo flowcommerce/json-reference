@@ -74,6 +74,41 @@ type IncomingCurrency struct {
 	NumberDecimals int `json:"number_decimals"`
 }
 
+type IncomingNumbers struct {
+	Main        map[string]IncomingNumbersMain `json:"main"`
+}
+
+type IncomingNumbersMain struct {
+	Identity    IncomingNumbersIdentity `json:"identity"`
+	Numbers     IncomingNumbersNumbers `json:"numbers"`
+}
+
+type IncomingNumbersIdentity struct {
+        Language    string `json:"language"`
+        Territory   string `json:"territory"`
+}
+
+type IncomingNumbersNumbers struct {
+	Symbols     IncomingNumbersSymbols `json:"symbols-numberSystem-latn"`
+}
+
+type IncomingNumbersSymbols struct {
+        Decimal     string `json:"decimal"`
+        Group       string `json:"group"`
+}
+
+type Number struct {
+	Country           string `json:"country"`
+	Language          string `json:"language"`
+	Separators        Separators `json:"separators"`
+}
+
+type Separators struct {
+	Decimal           string `json:"decimal"`
+	Group             string `json:"group"`
+}
+
+
 type convertFunction func(records map[string]string) interface{}
 type acceptsFunction func(records map[string]string) bool
 type idFunction func(records map[string]string) string
@@ -105,6 +140,9 @@ func Cleanse() {
 			},
 		),
 	)
+
+	numbers := readNumbers("data/source/numbers.json")
+	writeJson("data/cleansed/numbers.json", numbers)
 
 	currencies := readCurrencies("data/original/currencies.json")
 	writeJson("data/cleansed/currencies.json", currencies)
@@ -254,6 +292,26 @@ func readCurrencies(file string) []Currency {
 	sortCurrencies(currencies)
 
 	return currencies
+}
+
+func readNumbers(file string) []Number {
+	data := IncomingNumbers{}
+	err := json.Unmarshal(common.ReadFile(file), &data)
+	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshall numbers: %s", err))
+
+	numbers := []Number{}
+	for _, main := range(data.Main) {
+		numbers = append(numbers, Number{
+			Language: main.Identity.Language,
+			Country: main.Identity.Territory,
+			Separators: Separators{
+				Decimal: main.Numbers.Symbols.Decimal,
+				Group: main.Numbers.Symbols.Group,
+			},
+		})
+	}
+
+	return numbers
 }
 
 /**
