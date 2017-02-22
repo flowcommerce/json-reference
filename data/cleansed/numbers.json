@@ -1,7 +1,2399 @@
 [
   {
+    "country": "NA",
+    "language": "af",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "AE",
+    "language": "ar",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "BH",
+    "language": "ar",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "DJ",
+    "language": "ar",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "DZ",
+    "language": "ar",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "EG",
+    "language": "ar",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "EH",
+    "language": "ar",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "ER",
+    "language": "ar",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "IL",
+    "language": "ar",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "IQ",
+    "language": "ar",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "JO",
+    "language": "ar",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "KM",
+    "language": "ar",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "KW",
+    "language": "ar",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "LB",
+    "language": "ar",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "LY",
+    "language": "ar",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "MA",
+    "language": "ar",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "MR",
+    "language": "ar",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "OM",
+    "language": "ar",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "PS",
+    "language": "ar",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "QA",
+    "language": "ar",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "SA",
+    "language": "ar",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "SD",
+    "language": "ar",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "SO",
+    "language": "ar",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "SS",
+    "language": "ar",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "SY",
+    "language": "ar",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "TD",
+    "language": "ar",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "TN",
+    "language": "ar",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "YE",
+    "language": "ar",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "IN",
+    "language": "bn",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "IN",
+    "language": "bo",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "AD",
+    "language": "ca",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "ES",
+    "language": "ca",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "FR",
+    "language": "ca",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "IT",
+    "language": "ca",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "IR",
+    "language": "ckb",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "GL",
+    "language": "da",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "AT",
+    "language": "de",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "BE",
+    "language": "de",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "CH",
+    "language": "de",
+    "separators": {
+      "decimal": ".",
+      "group": "'"
+    }
+  },
+  {
+    "country": "IT",
+    "language": "de",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "LI",
+    "language": "de",
+    "separators": {
+      "decimal": ".",
+      "group": "'"
+    }
+  },
+  {
+    "country": "LU",
+    "language": "de",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "TG",
+    "language": "ee",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "CY",
+    "language": "el",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "001",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "150",
+    "language": "en",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "AG",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "AI",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "AS",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "AT",
+    "language": "en",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "AU",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "BB",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "BE",
+    "language": "en",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "BI",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "BM",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "BS",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "BW",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "BZ",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "CA",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "CC",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "CH",
+    "language": "en",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "CK",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "CM",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "CX",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "CY",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "DE",
+    "language": "en",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "DG",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "DK",
+    "language": "en",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "DM",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "ER",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "FI",
+    "language": "en",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "FJ",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "FK",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "FM",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "GB",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "GD",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "GG",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "GH",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "GI",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "GM",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "GU",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "GY",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "HK",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "IE",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "IL",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "IM",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "IN",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "IO",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "JE",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "JM",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "KE",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "KI",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "KN",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "KY",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "LC",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "LR",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "LS",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "MG",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "MH",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "MO",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "MP",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "MS",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "MT",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "MU",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "MW",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "MY",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "NA",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "NF",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "NG",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "NL",
+    "language": "en",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "NR",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "NU",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "NZ",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "PG",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "PH",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "PK",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "PN",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "PR",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "PW",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "RW",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "SB",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "SC",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "SD",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "SE",
+    "language": "en",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "SG",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "SH",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "SI",
+    "language": "en",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "SL",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "SS",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "SX",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "SZ",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "TC",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "TK",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "TO",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "TT",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "TV",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "TZ",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "UG",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "UM",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
     "country": "US",
     "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "VC",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "VG",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "VI",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "VU",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "WS",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "ZA",
+    "language": "en",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "ZM",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "ZW",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "419",
+    "language": "es",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "AR",
+    "language": "es",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "BO",
+    "language": "es",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "BR",
+    "language": "es",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "CL",
+    "language": "es",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "CO",
+    "language": "es",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "CR",
+    "language": "es",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "CU",
+    "language": "es",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "DO",
+    "language": "es",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "EA",
+    "language": "es",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "EC",
+    "language": "es",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "GQ",
+    "language": "es",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "GT",
+    "language": "es",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "HN",
+    "language": "es",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "IC",
+    "language": "es",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "MX",
+    "language": "es",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "NI",
+    "language": "es",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "PA",
+    "language": "es",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "PE",
+    "language": "es",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "PH",
+    "language": "es",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "PR",
+    "language": "es",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "PY",
+    "language": "es",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "SV",
+    "language": "es",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "US",
+    "language": "es",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "UY",
+    "language": "es",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "VE",
+    "language": "es",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "AF",
+    "language": "fa",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "CM",
+    "language": "ff",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "GN",
+    "language": "ff",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "MR",
+    "language": "ff",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "DK",
+    "language": "fo",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "BE",
+    "language": "fr",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "BF",
+    "language": "fr",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "BI",
+    "language": "fr",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "BJ",
+    "language": "fr",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "BL",
+    "language": "fr",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "CA",
+    "language": "fr",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "CD",
+    "language": "fr",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "CF",
+    "language": "fr",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "CG",
+    "language": "fr",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "CH",
+    "language": "fr",
+    "separators": {
+      "decimal": ".",
+      "group": " "
+    }
+  },
+  {
+    "country": "CI",
+    "language": "fr",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "CM",
+    "language": "fr",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "DJ",
+    "language": "fr",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "DZ",
+    "language": "fr",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "GA",
+    "language": "fr",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "GF",
+    "language": "fr",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "GN",
+    "language": "fr",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "GP",
+    "language": "fr",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "GQ",
+    "language": "fr",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "HT",
+    "language": "fr",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "KM",
+    "language": "fr",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "LU",
+    "language": "fr",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "MA",
+    "language": "fr",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "MC",
+    "language": "fr",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "MF",
+    "language": "fr",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "MG",
+    "language": "fr",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "ML",
+    "language": "fr",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "MQ",
+    "language": "fr",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "MR",
+    "language": "fr",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "MU",
+    "language": "fr",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "NC",
+    "language": "fr",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "NE",
+    "language": "fr",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "PF",
+    "language": "fr",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "PM",
+    "language": "fr",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "RE",
+    "language": "fr",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "RW",
+    "language": "fr",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "SC",
+    "language": "fr",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "SN",
+    "language": "fr",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "SY",
+    "language": "fr",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "TD",
+    "language": "fr",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "TG",
+    "language": "fr",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "TN",
+    "language": "fr",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "VU",
+    "language": "fr",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "WF",
+    "language": "fr",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "YT",
+    "language": "fr",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "FR",
+    "language": "gsw",
+    "separators": {
+      "decimal": ".",
+      "group": "’"
+    }
+  },
+  {
+    "country": "LI",
+    "language": "gsw",
+    "separators": {
+      "decimal": ".",
+      "group": "’"
+    }
+  },
+  {
+    "country": "GH",
+    "language": "ha",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "NE",
+    "language": "ha",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "BA",
+    "language": "hr",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "CH",
+    "language": "it",
+    "separators": {
+      "decimal": ".",
+      "group": "'"
+    }
+  },
+  {
+    "country": "SM",
+    "language": "it",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "KP",
+    "language": "ko",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "AO",
+    "language": "ln",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "CF",
+    "language": "ln",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "CG",
+    "language": "ln",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "IQ",
+    "language": "lrc",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "TZ",
+    "language": "mas",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "BN",
+    "language": "ms",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "SG",
+    "language": "ms",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "SJ",
+    "language": "nb",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "NL",
+    "language": "nds",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "IN",
+    "language": "ne",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "AW",
+    "language": "nl",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "BE",
+    "language": "nl",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "BQ",
+    "language": "nl",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "CW",
+    "language": "nl",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "SR",
+    "language": "nl",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "SX",
+    "language": "nl",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "KE",
+    "language": "om",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "RU",
+    "language": "os",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "AO",
+    "language": "pt",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "CH",
+    "language": "pt",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "CV",
+    "language": "pt",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "GQ",
+    "language": "pt",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "GW",
+    "language": "pt",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "LU",
+    "language": "pt",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "MO",
+    "language": "pt",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "MZ",
+    "language": "pt",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "PT",
+    "language": "pt",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "ST",
+    "language": "pt",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "TL",
+    "language": "pt",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "BO",
+    "language": "qu",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "EC",
+    "language": "qu",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "MD",
+    "language": "ro",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "BY",
+    "language": "ru",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "KG",
+    "language": "ru",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "KZ",
+    "language": "ru",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "MD",
+    "language": "ru",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "UA",
+    "language": "ru",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "FI",
+    "language": "se",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "SE",
+    "language": "se",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "DJ",
+    "language": "so",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "ET",
+    "language": "so",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "KE",
+    "language": "so",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "MK",
+    "language": "sq",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "XK",
+    "language": "sq",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "BA",
+    "language": "sr",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "ME",
+    "language": "sr",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "XK",
+    "language": "sr",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "BA",
+    "language": "sr",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "ME",
+    "language": "sr",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "XK",
+    "language": "sr",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "AX",
+    "language": "sv",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "FI",
+    "language": "sv",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "CD",
+    "language": "sw",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "KE",
+    "language": "sw",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "UG",
+    "language": "sw",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "LK",
+    "language": "ta",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "MY",
+    "language": "ta",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "SG",
+    "language": "ta",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "KE",
+    "language": "teo",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "ER",
+    "language": "ti",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "CY",
+    "language": "tr",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "IN",
+    "language": "ur",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "BJ",
+    "language": "yo",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "HK",
+    "language": "zh",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "MO",
+    "language": "zh",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "SG",
+    "language": "zh",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "HK",
+    "language": "zh",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "MO",
+    "language": "zh",
     "separators": {
       "decimal": ".",
       "group": ","

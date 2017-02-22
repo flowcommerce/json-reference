@@ -11,6 +11,7 @@ import (
 	"github.com/bradfitz/slice"
         "io"
         "os"
+	"path/filepath"
 	"sort"
 	"strings"
 )
@@ -171,7 +172,7 @@ func Cleanse() {
 		),
 	)
 
-	numbers := readNumbers("data/source/numbers.json")
+	numbers := loadCldrNumbers("cldr-numbers-full/main")
 	writeJson("data/cleansed/numbers.json", numbers)
 
 	currencySymbols := readCurrencySymbols("data/source/cldr-currencies.json")
@@ -504,6 +505,27 @@ func LoadCountryTimezones() []CountryTimezone {
 	err := json.Unmarshal(common.ReadFile("data/cleansed/country-timezones.json"), &countryTimezones)
 	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshal country timezones: %s", err))
 	return countryTimezones
+}
+
+func loadCldrNumbers(dir string) []Number {
+	numbers := []Number{}
+	filepath.Walk(dir, func(path string, dirInfo os.FileInfo, err error) error {
+		numbersPath := fmt.Sprintf("%s/%s/numbers.json", dir, dirInfo.Name())
+		if fileExists(numbersPath) {
+			for _, n := range(readNumbers(numbersPath)) {
+				if n.Country != "" {
+					numbers = append(numbers, n)
+				}
+			}
+		}
+		return nil
+	})
+	return numbers
+}
+
+func fileExists(path string) bool {
+    _, err := os.Stat(path)
+    return !os.IsNotExist(err)
 }
 
 func unsupportedCountryCodes() []string {
