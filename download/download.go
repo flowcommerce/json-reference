@@ -3,12 +3,12 @@ package download
 // Downloads source files, storing locally in the sources directory
 
 import (
-	"github.com/flowcommerce/tools/util"
 	"fmt"
+	"github.com/flowcommerce/tools/util"
 	"io"
-        "io/ioutil"
-        "net/http"
-        "os"
+	"io/ioutil"
+	"net/http"
+	"os"
 )
 
 func DownloadAll() {
@@ -24,8 +24,8 @@ func download(target string, url string) {
 	tmp, err := ioutil.TempFile("", "reference-download")
 	util.ExitIfError(err, "Error creating temporary file")
 	defer tmp.Close()
-	
-        response, err := http.Get(url)
+
+	response, err := http.Get(url)
 	util.ExitIfError(err, fmt.Sprintf("Error downloading url %s", url))
 	defer response.Body.Close()
 

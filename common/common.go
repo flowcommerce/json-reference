@@ -5,73 +5,73 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/flowcommerce/tools/util"
-	"net/http"
 	"io/ioutil"
+	"net/http"
 	"os"
 	"strings"
 )
 
 type Continent struct {
-	Name       string `json:"name"`
-	Code       string `json:"code"`
-	Countries  []string `json:"countries"`
+	Name      string   `json:"name"`
+	Code      string   `json:"code"`
+	Countries []string `json:"countries"`
 }
 
 type Country struct {
-	Name               string `json:"name"`
-	Iso_3166_2         string `json:"iso_3166_2"`
-	Iso_3166_3         string `json:"iso_3166_3"`
-	MeasurementSystem  string `json:"measurement_system"`
-	DefaultCurrency    string `json:"default_currency,omitempty"`
-	Languages          []string `json:"languages"`
-	Timezones          []string	`json:"timezones"`
+	Name              string   `json:"name"`
+	Iso_3166_2        string   `json:"iso_3166_2"`
+	Iso_3166_3        string   `json:"iso_3166_3"`
+	MeasurementSystem string   `json:"measurement_system"`
+	DefaultCurrency   string   `json:"default_currency,omitempty"`
+	Languages         []string `json:"languages"`
+	Timezones         []string `json:"timezones"`
 }
 
 type Currency struct {
-	Name            string          `json:"name"`
-	Iso_4217_3      string          `json:"iso_4217_3"`
-	NumberDecimals  int             `json:"number_decimals"`
-	Symbols         CurrencySymbols `json:"symbols"`
-	DefaultLocale   string `json:"locale,omitempty"`	
+	Name           string          `json:"name"`
+	Iso_4217_3     string          `json:"iso_4217_3"`
+	NumberDecimals int             `json:"number_decimals"`
+	Symbols        CurrencySymbols `json:"symbols"`
+	DefaultLocale  string          `json:"locale,omitempty"`
 }
 
 type CurrencySymbols struct {
-	Primary          string `json:"primary,omitempty"`
-	Narrow           string `json:"narrow,omitempty"`
+	Primary string `json:"primary,omitempty"`
+	Narrow  string `json:"narrow,omitempty"`
 }
 
 type Language struct {
-	Name               string `json:"name"`
-	Iso_639_2          string `json:"iso_639_2"`
-	Countries          []string `json:"countries"`
+	Name      string   `json:"name"`
+	Iso_639_2 string   `json:"iso_639_2"`
+	Countries []string `json:"countries"`
 }
 
 type Region struct {
-	Id                  string `json:"id"`
-	Name                string `json:"name"`
-	Countries           []string `json:"countries"`
-	Currencies          []string `json:"currencies"`
-	Languages           []string `json:"languages"`
-	MeasurementSystems  []string `json:"measurement_systems"`
-	Timezones           []string `json:"timezones"`
+	Id                 string   `json:"id"`
+	Name               string   `json:"name"`
+	Countries          []string `json:"countries"`
+	Currencies         []string `json:"currencies"`
+	Languages          []string `json:"languages"`
+	MeasurementSystems []string `json:"measurement_systems"`
+	Timezones          []string `json:"timezones"`
 }
 
 type Timezone struct {
-	Name                     string `json:"name"`
-	Description              string `json:"description"`
-	Offset                   int    `json:"offset"`
+	Name        string `json:"name"`
+	Description string `json:"description"`
+	Offset      int    `json:"offset"`
 }
 
 type Locale struct {
-	Code              string `json:"code"`
-	Country           string `json:"country"`
-	Language          string `json:"language,omitempty"`
-	Numbers           LocaleNumbers `json:"numbers"`
+	Code     string        `json:"code"`
+	Country  string        `json:"country"`
+	Language string        `json:"language,omitempty"`
+	Numbers  LocaleNumbers `json:"numbers"`
 }
 
 type LocaleNumbers struct {
-	Decimal           string `json:"decimal"`
-	Group             string `json:"group"`
+	Decimal string `json:"decimal"`
+	Group   string `json:"group"`
 }
 
 func Continents() []Continent {
@@ -150,7 +150,7 @@ func Contains(list []string, value string) bool {
 
 func ContainsIgnoreCase(list []string, value string) bool {
 	for _, v := range list {
-		if (strings.ToUpper(v) == strings.ToUpper(value)) {
+		if strings.ToUpper(v) == strings.ToUpper(value) {
 			return true
 		}
 	}
@@ -192,7 +192,7 @@ func WriteJson(target string, data interface{}) {
 		fmt.Printf("Failed to serialize json to file %s - empty file\n", target)
 		os.Exit(1)
 	}
-	
+
 	err = os.Rename(tmp.Name(), target)
 	util.ExitIfError(err, "Error renaming tmp file")
 }

@@ -3,141 +3,141 @@ package cleanse
 // Reads source files, cleansing and writing all as json to data/1-cleansed
 
 import (
-	"github.com/flowcommerce/tools/util"
 	"../common"
 	"encoding/csv"
 	"encoding/json"
-        "fmt"
+	"fmt"
 	"github.com/bradfitz/slice"
-        "io"
-        "os"
+	"github.com/flowcommerce/tools/util"
+	"io"
+	"os"
 	"path/filepath"
 	"sort"
 	"strings"
 )
 
 type Continent struct {
-	Code2             string `json:"code2"`
-	Code3             string `json:"code3"`
-	Name              string `json:"name"`
+	Code2 string `json:"code2"`
+	Code3 string `json:"code3"`
+	Name  string `json:"name"`
 }
 
 type CountryContinent struct {
-	ContinentCode     string `json:"continent"`
-	CountryCode       string `json:"country"`
+	ContinentCode string `json:"continent"`
+	CountryCode   string `json:"country"`
 }
 
 type Country struct {
-	Name                     string `json:"name"`
-	Continent                string `json:"continent"`
-	Iso_3166_2               string `json:"iso_3166_2"`
-	Iso_3166_3               string `json:"iso_3166_3"`
-	Currency                 string `json:"currency"`
+	Name       string `json:"name"`
+	Continent  string `json:"continent"`
+	Iso_3166_2 string `json:"iso_3166_2"`
+	Iso_3166_3 string `json:"iso_3166_3"`
+	Currency   string `json:"currency"`
 }
 
 type Currency struct {
-	Name                     string `json:"name"`
-	Iso_4217_3               string `json:"iso_4217_3"`
-	NumberDecimals           int    `json:"number_decimals"`
+	Name           string `json:"name"`
+	Iso_4217_3     string `json:"iso_4217_3"`
+	NumberDecimals int    `json:"number_decimals"`
 }
 
 type Language struct {
-	Name                     string `json:"name"`
-	Iso_639_2                string `json:"iso_639_2"`
-	Countries                []string `json:"countries"`
+	Name      string   `json:"name"`
+	Iso_639_2 string   `json:"iso_639_2"`
+	Countries []string `json:"countries"`
 }
 
 type Timezone struct {
-	Name                     string `json:"name"`
-	Description              string `json:"description"`
-	Offset                   int    `json:"offset"`
+	Name        string `json:"name"`
+	Description string `json:"description"`
+	Offset      int    `json:"offset"`
 }
 
 type CountryTimezone struct {
-	TimezoneCode      string `json:"timezone"`
-	CountryCode       string `json:"country"`
+	TimezoneCode string `json:"timezone"`
+	CountryCode  string `json:"country"`
 }
 
 type IncomingLanguages struct {
-	LanguageFamilies    []string `json:"languageFamilies"`
-	Languages           []IncomingLanguage `json:"languages"`
+	LanguageFamilies []string           `json:"languageFamilies"`
+	Languages        []IncomingLanguage `json:"languages"`
 }
 
 type IncomingLanguage struct {
-	Iso_639_2           string `json:"iso639_1"`
-	Names               []string `json:"name"`
-	Countries           []string `json:"countries"`
+	Iso_639_2 string   `json:"iso639_1"`
+	Names     []string `json:"name"`
+	Countries []string `json:"countries"`
 }
 
 type IncomingCurrency struct {
 	Name           string `json:"name"`
 	Iso_4217_3     string `json:"iso_4217_3"`
-	NumberDecimals int `json:"number_decimals"`
+	NumberDecimals int    `json:"number_decimals"`
 }
 
 type IncomingNumbers struct {
-	Main        map[string]IncomingNumbersMain `json:"main"`
+	Main map[string]IncomingNumbersMain `json:"main"`
 }
 
 type IncomingNumbersMain struct {
-	Identity    CldrIdentity `json:"identity"`
-	Numbers     IncomingNumbersNumbers `json:"numbers"`
+	Identity CldrIdentity           `json:"identity"`
+	Numbers  IncomingNumbersNumbers `json:"numbers"`
 }
 
 type CldrIdentity struct {
-        Language    string `json:"language"`
-        Territory   string `json:"territory"`
+	Language  string `json:"language"`
+	Territory string `json:"territory"`
 }
 
 type IncomingNumbersNumbers struct {
-	Symbols     IncomingNumbersSymbols `json:"symbols-numberSystem-latn"`
+	Symbols IncomingNumbersSymbols `json:"symbols-numberSystem-latn"`
 }
 
 type IncomingNumbersSymbols struct {
-        Decimal     string `json:"decimal"`
-        Group       string `json:"group"`
+	Decimal string `json:"decimal"`
+	Group   string `json:"group"`
 }
 
 type Number struct {
-	Country           string `json:"country"`
-	Language          string `json:"language"`
-	Separators        Separators `json:"separators"`
+	Country    string     `json:"country"`
+	Language   string     `json:"language"`
+	Separators Separators `json:"separators"`
 }
 
 type Separators struct {
-	Decimal           string `json:"decimal"`
-	Group             string `json:"group"`
+	Decimal string `json:"decimal"`
+	Group   string `json:"group"`
 }
 
 type CldrCurrencies struct {
-	Main        map[string]CldrCurrenciesMain `json:"main"`
+	Main map[string]CldrCurrenciesMain `json:"main"`
 }
 
 type CldrCurrenciesMain struct {
-	Identity    CldrIdentity `json:"identity"`
-	Numbers     CldrCurrenciesNumbers `json:"numbers"`
+	Identity CldrIdentity          `json:"identity"`
+	Numbers  CldrCurrenciesNumbers `json:"numbers"`
 }
 
 type CldrCurrenciesNumbers struct {
-	Currencies     map[string]CldrIncomingCurrency `json:"currencies"`
+	Currencies map[string]CldrIncomingCurrency `json:"currencies"`
 }
 
 type CldrIncomingCurrency struct {
-	Name             string `json:"displayName"`
-	NameCountOne     string `json:"displayName-count-one"`
-	NameCountOther   string `json:"displayName-count-other"`
-	Symbol           string `json:"symbol,omitempty"`
-	SymbolAltNarrow  string `json:"symbol-alt-narrow,omitempty"`
+	Name            string `json:"displayName"`
+	NameCountOne    string `json:"displayName-count-one"`
+	NameCountOther  string `json:"displayName-count-other"`
+	Symbol          string `json:"symbol,omitempty"`
+	SymbolAltNarrow string `json:"symbol-alt-narrow,omitempty"`
 }
 
 type CldrCurrency struct {
-	Iso_4217_3       string `json:"iso_4217_3"`
-	Symbols          CurrencySymbols `json:"symbols"`
+	Iso_4217_3 string          `json:"iso_4217_3"`
+	Symbols    CurrencySymbols `json:"symbols"`
 }
 
 type CurrencySymbols struct {
-	Primary          string `json:"primary"`
-	Narrow           string `json:"narrow,omitempty"`
+	Primary string `json:"primary"`
+	Narrow  string `json:"narrow,omitempty"`
 }
 
 type convertFunction func(records map[string]string) interface{}
@@ -157,13 +157,12 @@ func Cleanse() {
 				return record["ISO3166-1-Alpha-2"] != "" && record["ISO3166-1-Alpha-3"] != "" && record["official_name_en"] != "" && !common.ContainsIgnoreCase(unsupportedCountryCodes, record["ISO3166-1-Alpha-3"]) && !common.ContainsIgnoreCase(unsupportedCurrencyCodes, record["ISO4217-currency_alphabetic_code"])
 			},
 			func(record map[string]string) interface{} {
-				return Country {
-					Name: record["official_name_en"],
+				return Country{
+					Name:       record["official_name_en"],
 					Iso_3166_2: record["ISO3166-1-Alpha-2"],
 					Iso_3166_3: record["ISO3166-1-Alpha-3"],
-					Currency: record["ISO4217-currency_alphabetic_code"],
-					Continent: record["Continent"],
-					
+					Currency:   record["ISO4217-currency_alphabetic_code"],
+					Continent:  record["Continent"],
 				}
 			},
 			func(record map[string]string) string {
@@ -189,14 +188,14 @@ func Cleanse() {
 			func(record map[string]string) interface{} {
 				return CountryContinent{
 					ContinentCode: record["continent code"],
-					CountryCode: record["iso 3166 country"],
+					CountryCode:   record["iso 3166 country"],
 				}
 			},
 			func(record map[string]string) string {
 				return record["continent code"] + record["iso 3166 country"]
 			},
 		),
-	)	
+	)
 
 	writeJson("data/cleansed/timezones.json", loadTimezonesFromPath("data/original/timezones.json"))
 
@@ -208,15 +207,15 @@ func Cleanse() {
 			func(record map[string]string) interface{} {
 				return CountryTimezone{
 					TimezoneCode: record["timezone"],
-					CountryCode: strings.ToUpper(record["country"]),
+					CountryCode:  strings.ToUpper(record["country"]),
 				}
 			},
 			func(record map[string]string) string {
 				return record["timezone"] + record["country"]
 			},
 		),
-	)	
-	
+	)
+
 	writeJson("data/cleansed/languages.json", filterLanguages(readLanguages("data/source/languages.json")))
 }
 
@@ -224,13 +223,13 @@ func writeJson(target string, objects interface{}) {
 	fmt.Printf("Writing %s\n", target)
 	common.WriteJson(target, objects)
 }
-	
+
 // readCsv Reads a CSV file, returning a list of map[string]string objects
 func readCsvWithHeaders(file string, headers []string) []map[string]string {
 	input, err := os.Open(file)
 	util.ExitIfError(err, fmt.Sprintf("Error opening file %s", file))
 
-        r := csv.NewReader(input)
+	r := csv.NewReader(input)
 	var all []map[string]string
 
 	for {
@@ -250,7 +249,7 @@ func readCsv(file string) []map[string]string {
 	input, err := os.Open(file)
 	util.ExitIfError(err, fmt.Sprintf("Error opening file %s", file))
 
-        r := csv.NewReader(input)
+	r := csv.NewReader(input)
 	var headers []string
 	first := true
 	var all []map[string]string
@@ -261,7 +260,7 @@ func readCsv(file string) []map[string]string {
 			break
 		}
 		util.ExitIfError(err, fmt.Sprintf("Error processing csv file %s", file))
-		if (first) {
+		if first {
 			headers = record
 			first = false
 		} else {
@@ -276,7 +275,7 @@ func toMap(headers []string, record []string) map[string]string {
 	row := make(map[string]string)
 
 	for i, v := range record {
-		if (v != "") {
+		if v != "" {
 			row[headers[i]] = v
 		}
 	}
@@ -284,19 +283,18 @@ func toMap(headers []string, record []string) map[string]string {
 	return row
 }
 
-
 func readLanguages(file string) []Language {
 	lang := IncomingLanguages{}
 	err := json.Unmarshal(common.ReadFile(file), &lang)
 	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshall languages: %s", err))
 
 	languages := []Language{}
-	
-	for _, l := range(lang.Languages) {
+
+	for _, l := range lang.Languages {
 		name := l.Names[0]
 		if len(l.Iso_639_2) > 0 && name != "" {
 			languages = append(languages, Language{
-				Name: name,
+				Name:      name,
 				Iso_639_2: l.Iso_639_2,
 				Countries: l.Countries,
 			})
@@ -314,8 +312,8 @@ func readCurrencySymbols(file string) map[string]CurrencySymbols {
 	unsupportedCurrencyCodes := unsupportedCurrencyCodes()
 	currencySymbols := map[string]CurrencySymbols{}
 
-	for _, main := range(data.Main) {
-		for code, c := range(main.Numbers.Currencies) {
+	for _, main := range data.Main {
+		for code, c := range main.Numbers.Currencies {
 			if !common.ContainsIgnoreCase(unsupportedCurrencyCodes, code) {
 				if c.Symbol != "" && c.Symbol != code {
 					var narrow string
@@ -327,7 +325,7 @@ func readCurrencySymbols(file string) map[string]CurrencySymbols {
 
 					currencySymbols[code] = CurrencySymbols{
 						Primary: c.Symbol,
-						Narrow: narrow,
+						Narrow:  narrow,
 					}
 				}
 			}
@@ -344,11 +342,11 @@ func readCurrencies(file string) []Currency {
 	unsupportedCurrencyCodes := unsupportedCurrencyCodes()
 	currencies := []Currency{}
 
-	for _, c := range(data) {
+	for _, c := range data {
 		if !common.ContainsIgnoreCase(unsupportedCurrencyCodes, c.Iso_4217_3) {
 			currencies = append(currencies, Currency{
-				Name: c.Name,
-				Iso_4217_3: c.Iso_4217_3,
+				Name:           c.Name,
+				Iso_4217_3:     c.Iso_4217_3,
 				NumberDecimals: c.NumberDecimals,
 			})
 		}
@@ -364,13 +362,13 @@ func readNumbers(file string) []Number {
 	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshall numbers: %s", err))
 
 	numbers := []Number{}
-	for _, main := range(data.Main) {
+	for _, main := range data.Main {
 		numbers = append(numbers, Number{
 			Language: main.Identity.Language,
-			Country: main.Identity.Territory,
+			Country:  main.Identity.Territory,
 			Separators: Separators{
 				Decimal: main.Numbers.Symbols.Decimal,
-				Group: main.Numbers.Symbols.Group,
+				Group:   main.Numbers.Symbols.Group,
 			},
 		})
 	}
@@ -383,9 +381,9 @@ func readNumbers(file string) []Number {
  */
 func filterLanguages(languages []Language) []Language {
 	final := []Language{}
-	
-	for _, l := range(languages) {
-		if (l.Countries != nil && len(l.Countries) > 0) {
+
+	for _, l := range languages {
+		if l.Countries != nil && len(l.Countries) > 0 {
 			final = append(final, l)
 		}
 	}
@@ -394,9 +392,9 @@ func filterLanguages(languages []Language) []Language {
 }
 
 func toObjects(records []map[string]string, accepts acceptsFunction, f convertFunction, id idFunction) []interface{} {
-	added := map[string]interface{} {}
+	added := map[string]interface{}{}
 	for _, v := range records {
-		if (accepts(v)) {
+		if accepts(v) {
 			id := strings.ToUpper(id(v))
 			if added[id] == nil {
 				added[id] = f(v)
@@ -417,37 +415,37 @@ func LoadCountryContinents() []CountryContinent {
 func LoadContinents() []Continent {
 	return []Continent{
 		Continent{
-			Name: "Africa",
+			Name:  "Africa",
 			Code2: "AF",
 			Code3: "AFR",
 		},
 		Continent{
-			Name: "Antarctica",
+			Name:  "Antarctica",
 			Code2: "AN",
 			Code3: "ANT",
 		},
 		Continent{
-			Name: "Asia",
+			Name:  "Asia",
 			Code2: "AS",
 			Code3: "ASI",
 		},
 		Continent{
-			Name: "Europe",
+			Name:  "Europe",
 			Code2: "EU",
 			Code3: "EUR",
 		},
 		Continent{
-			Name: "North America",
+			Name:  "North America",
 			Code2: "NA",
 			Code3: "NOA",
 		},
 		Continent{
-			Name: "Oceania",
+			Name:  "Oceania",
 			Code2: "OC",
 			Code3: "OCE",
 		},
 		Continent{
-			Name: "South America",
+			Name:  "South America",
 			Code2: "SA",
 			Code3: "SOA",
 		},
@@ -512,7 +510,7 @@ func loadCldrNumbers(dir string) []Number {
 	filepath.Walk(dir, func(path string, dirInfo os.FileInfo, err error) error {
 		numbersPath := fmt.Sprintf("%s/%s/numbers.json", dir, dirInfo.Name())
 		if fileExists(numbersPath) {
-			for _, n := range(readNumbers(numbersPath)) {
+			for _, n := range readNumbers(numbersPath) {
 				if n.Country != "" {
 					numbers = append(numbers, n)
 				}
@@ -524,12 +522,12 @@ func loadCldrNumbers(dir string) []Number {
 }
 
 func fileExists(path string) bool {
-    _, err := os.Stat(path)
-    return !os.IsNotExist(err)
+	_, err := os.Stat(path)
+	return !os.IsNotExist(err)
 }
 
 func unsupportedCountryCodes() []string {
-	return []string {
+	return []string{
 		"AFG",
 		"AGO",
 		"ATF",
@@ -564,7 +562,7 @@ func unsupportedCountryCodes() []string {
 }
 
 func unsupportedCurrencyCodes() []string {
-	return []string {
+	return []string{
 		"AFN",
 		"AOA",
 		"BIF",
@@ -586,7 +584,7 @@ func unsupportedCurrencyCodes() []string {
 		"TJS",
 		"TMT",
 		"ZWL",
-	}	
+	}
 }
 
 func sortObjects(data map[string]interface{}) []interface{} {
@@ -597,7 +595,7 @@ func sortObjects(data map[string]interface{}) []interface{} {
 	sort.Strings(keys)
 
 	var all []interface{}
-	for _, key := range(keys) {
+	for _, key := range keys {
 		all = append(all, data[key])
 	}
 	return all

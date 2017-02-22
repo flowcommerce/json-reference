@@ -6,8 +6,8 @@
 package main
 
 import (
-	"./download"
 	"./cleanse"
+	"./download"
 	"./final"
 	"fmt"
 	"github.com/codegangsta/cli"
