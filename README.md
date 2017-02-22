@@ -39,6 +39,15 @@ directory.
 
 ## Local development
 
+We rely on a git submodule to pull in the `cldr-json` project. Before
+running the underlying commands, first run:
+
+
+```
+git submodule init
+git submodule update
+```
+
 View commands available:
 
   `go run script/reference.go`
