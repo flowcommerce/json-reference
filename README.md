@@ -11,29 +11,32 @@ JSON data files can be found in the
 [data/final](/flowcommerce/json-reference/tree/master/data/final)
 directory.
 
-  - [Continents](/flowcommerce/json-reference/blob/master/data/final/continents.json)
+  - [Continents](https://github.com/flowcommerce/json-reference/blob/master/data/final/continents.json)
     A list of continents and the countries they contain
 
-  - [Countries](/flowcommerce/json-reference/blob/master/data/final/countries.json)
+  - [Countries](https://github.com/flowcommerce/json-reference/blob/master/data/final/countries.json)
     A list of countries, including metadata on their measurement
     system, default currency, languages, and timezones
 
-  - [Currencies](/flowcommerce/json-reference/blob/master/data/final/currencies.json)
+  - [Currencies](https://github.com/flowcommerce/json-reference/blob/master/data/final/currencies.json)
     A list of currencies, including metadata for localization
 
-  - [Languages](/flowcommerce/json-reference/blob/master/data/final/languages.json)
+  - [Languages](https://github.com/flowcommerce/json-reference/blob/master/data/final/languages.json)
     A list of languages and the countries in which they are spoken
 
-  - [Regions](/flowcommerce/json-reference/blob/master/data/final/regions.json)
+  - [Locales](https://github.com/flowcommerce/json-reference/blob/master/data/final/locales.json)
+    A list of locales and specific number formats
+
+  - [Regions](https://github.com/flowcommerce/json-reference/blob/master/data/final/regions.json)
     A region represents a geographic area of the world. Regions can be countries, continents or other political areas (like the Eurozone)
 
-  - [Timezones](/flowcommerce/json-reference/blob/master/data/final/timezones.json)
+  - [Timezones](https://github.com/flowcommerce/json-reference/blob/master/data/final/timezones.json)
     A list of timezones
 
 ## Related libraries
 
-  - [Scala Library](/flowcommerce/lib-reference-scala)
-  - [JavaScript Library](/flowcommerce/lib-reference-javascript)
+  - [Scala Library](https://github.com/flowcommerce/lib-reference-scala)
+  - [JavaScript Library](https://github.com/flowcommerce/lib-reference-javascript)
 
   `go run reference.go all`
 
