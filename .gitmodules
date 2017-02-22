@@ -1,0 +1,3 @@
+[submodule "cldr-numbers-full"]
+	path = cldr-numbers-full
+	url = https://github.com/unicode-cldr/cldr-numbers-full
