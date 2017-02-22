@@ -98,7 +98,11 @@ func commonLocales(data CleansedDataSet) []common.Locale {
 			},
 		})
 	}
-	return all
+
+	uniqueLocales := uniqueLocaleCode(all)
+	sortLocales(uniqueLocales)
+
+	return uniqueLocales
 }
 
 func commonLanguages(data CleansedDataSet) []common.Language {
@@ -444,6 +448,21 @@ func assertUniqueRegionIds(regions []common.Region) {
 	}
 }
 
+func uniqueLocaleCode(locales []common.Locale) []common.Locale {
+	unique := []common.Locale{}
+
+	found := make(map[string]bool)
+
+	for _, l := range(locales) {
+		if !found[l.Code] {
+			unique = append(unique, l)
+		}
+		found[l.Code] = true
+	}
+
+	return unique
+}
+
 func generateId(name string) string {
 	safe := regexp.MustCompile("[^A-Za-z0-9]+").ReplaceAllString(name, "-")
 	return strings.ToLower(safe)
@@ -454,4 +473,11 @@ func sortRegions(regions []common.Region) []common.Region {
 		return strings.ToLower(regions[i].Name) < strings.ToLower(regions[j].Name)
 	})
 	return regions
+}
+
+func sortLocales(locales []common.Locale) []common.Locale {
+	slice.Sort(locales[:], func(i, j int) bool {
+		return strings.ToLower(locales[i].Code) < strings.ToLower(locales[j].Code)
+	})
+	return locales
 }

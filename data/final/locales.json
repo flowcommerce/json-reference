@@ -2511,33 +2511,6 @@
     }
   },
   {
-    "code": "sr_BA",
-    "country": "BA",
-    "language": "sr",
-    "numbers": {
-      "decimal": ",",
-      "group": "."
-    }
-  },
-  {
-    "code": "sr_ME",
-    "country": "ME",
-    "language": "sr",
-    "numbers": {
-      "decimal": ",",
-      "group": "."
-    }
-  },
-  {
-    "code": "sr_XK",
-    "country": "XK",
-    "language": "sr",
-    "numbers": {
-      "decimal": ",",
-      "group": "."
-    }
-  },
-  {
     "code": "sv_AX",
     "country": "AX",
     "language": "sv",
@@ -2675,24 +2648,6 @@
   {
     "code": "zh_SG",
     "country": "SG",
-    "language": "zh",
-    "numbers": {
-      "decimal": ".",
-      "group": ","
-    }
-  },
-  {
-    "code": "zh_HK",
-    "country": "HK",
-    "language": "zh",
-    "numbers": {
-      "decimal": ".",
-      "group": ","
-    }
-  },
-  {
-    "code": "zh_MO",
-    "country": "MO",
     "language": "zh",
     "numbers": {
       "decimal": ".",
