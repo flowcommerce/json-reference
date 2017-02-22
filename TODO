@@ -1,4 +1,5 @@
-download all of the numbers for all of the countries
+Locale:
 
-  - maybe add https://github.com/unicode-cldr/cldr-json#cldr-json as a
-    submodule - easier to keep up to date
+  - Rename code to 'id'
+
+Figure out where to add default locale (country? currency?)
