@@ -95,13 +95,28 @@ func commonLocales(data CleansedDataSet) []common.Locale {
 			if language == "" {
 				// fmt.Printf(" - skipping locale[%s] as language code[%s] is not known\n", id, n.Language)
 			} else {
+				separator := ""
+				if (n.Separators.Group == ",") {
+					separator = ","
+				} else if (n.Separators.Group == " ") {
+					// Weird encoding from cldr-json
+					separator = " "
+				} else if (n.Separators.Group == ".") {
+					separator = "."
+				} else if (n.Separators.Group == "'") {
+					separator = "'"
+				} else {
+					fmt.Printf("Invalid group separator[%s]\n", n.Separators.Group)
+					os.Exit(1)
+				}
+				
 				all = append(all, common.Locale{
 					Id:       id,
 					Country:  country,
 					Language: language,
 					Numbers: common.LocaleNumbers{
 						Decimal: n.Separators.Decimal,
-						Group:   n.Separators.Group,
+						Group:   separator,
 					},
 				})
 			}
