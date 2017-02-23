@@ -87,16 +87,25 @@ func commonLocales(data CleansedDataSet) []common.Locale {
 		} else {
 			id = fmt.Sprintf("%s_%s", n.Language, n.Country)
 		}
-
-		all = append(all, common.Locale{
-			Id:       id,
-			Country:  n.Country,
-			Language: n.Language,
-			Numbers: common.LocaleNumbers{
-				Decimal: n.Separators.Decimal,
-				Group:   n.Separators.Group,
-			},
-		})
+		country := normalizeCountryCode(data.Countries, n.Country)
+		if country == "" {
+			fmt.Printf(" - skipping locale[%s] as country code[%s] is not known\n", id, n.Country)
+		} else {
+			language := normalizeLanguageCode(data.Languages, n.Language)
+			if language == "" {
+				fmt.Printf(" - skipping locale[%s] as language code[%s] is not known\n", id, n.Language)
+			} else {
+				all = append(all, common.Locale{
+					Id:       id,
+					Country:  country,
+					Language: language,
+					Numbers: common.LocaleNumbers{
+						Decimal: n.Separators.Decimal,
+						Group:   n.Separators.Group,
+					},
+				})
+			}
+		}
 	}
 
 	uniqueLocales := uniqueLocaleIds(all)
@@ -275,6 +284,15 @@ func findCountryByCode(countries []cleanse.Country, code string) cleanse.Country
 	return cleanse.Country{}
 }
 
+func normalizeCountryCode(countries []cleanse.Country, code string) string {
+	for _, c := range countries {
+		if c.Iso_3166_2 == code || c.Iso_3166_3 == code {
+			return c.Iso_3166_3
+		}
+	}
+	return ""
+}
+
 func findCurrencyByCode(currencies []cleanse.Currency, code string) cleanse.Currency {
 	for _, c := range currencies {
 		if c.Iso_4217_3 == code {
@@ -306,6 +324,15 @@ func findLanguageByCode(languages []cleanse.Language, code string) cleanse.Langu
 	fmt.Printf("Invalid language code: %s\n", code)
 	os.Exit(1)
 	return cleanse.Language{}
+}
+
+func normalizeLanguageCode(languages []cleanse.Language, code string) string {
+	for _, c := range languages {
+		if c.Iso_639_2 == code {
+			return c.Iso_639_2
+		}
+	}
+	return ""
 }
 
 func findTimezone(timezones []cleanse.Timezone, name string) cleanse.Timezone {
