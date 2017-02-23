@@ -63,7 +63,7 @@ type Timezone struct {
 }
 
 type Locale struct {
-	Code     string        `json:"code"`
+	Id       string        `json:"id"`
 	Country  string        `json:"country"`
 	Language string        `json:"language,omitempty"`
 	Numbers  LocaleNumbers `json:"numbers"`
@@ -100,6 +100,13 @@ func Languages() []Language {
 	err := json.Unmarshal(readDataFileFromUrl("languages.json"), &languages)
 	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshal languages: %s", err))
 	return languages
+}
+
+func Locales() []Locale {
+	locales := []Locale{}
+	err := json.Unmarshal(readDataFileFromUrl("locales.json"), &locales)
+	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshal locales: %s", err))
+	return locales
 }
 
 func Timezones() []Timezone {

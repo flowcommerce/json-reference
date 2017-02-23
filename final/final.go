@@ -81,15 +81,15 @@ func commonContinents(data CleansedDataSet) []common.Continent {
 func commonLocales(data CleansedDataSet) []common.Locale {
 	var all []common.Locale
 	for _, n := range data.Numbers {
-		code := ""
+		id := ""
 		if n.Language == "" {
-			code = n.Country
+			id = n.Country
 		} else {
-			code = fmt.Sprintf("%s_%s", n.Language, n.Country)
+			id = fmt.Sprintf("%s_%s", n.Language, n.Country)
 		}
 
 		all = append(all, common.Locale{
-			Code:     code,
+			Id:       id,
 			Country:  n.Country,
 			Language: n.Language,
 			Numbers: common.LocaleNumbers{
@@ -99,7 +99,7 @@ func commonLocales(data CleansedDataSet) []common.Locale {
 		})
 	}
 
-	uniqueLocales := uniqueLocaleCode(all)
+	uniqueLocales := uniqueLocaleIds(all)
 	sortLocales(uniqueLocales)
 
 	return uniqueLocales
@@ -450,16 +450,16 @@ func assertUniqueRegionIds(regions []common.Region) {
 	}
 }
 
-func uniqueLocaleCode(locales []common.Locale) []common.Locale {
+func uniqueLocaleIds(locales []common.Locale) []common.Locale {
 	unique := []common.Locale{}
 
 	found := make(map[string]bool)
 
 	for _, l := range locales {
-		if !found[l.Code] {
+		if !found[l.Id] {
 			unique = append(unique, l)
 		}
-		found[l.Code] = true
+		found[l.Id] = true
 	}
 
 	return unique
@@ -479,7 +479,7 @@ func sortRegions(regions []common.Region) []common.Region {
 
 func sortLocales(locales []common.Locale) []common.Locale {
 	slice.Sort(locales[:], func(i, j int) bool {
-		return strings.ToLower(locales[i].Code) < strings.ToLower(locales[j].Code)
+		return strings.ToLower(locales[i].Id) < strings.ToLower(locales[j].Id)
 	})
 	return locales
 }

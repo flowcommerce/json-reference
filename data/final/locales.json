@@ -1,6 +1,6 @@
 [
   {
-    "code": "af_NA",
+    "id": "af_NA",
     "country": "NA",
     "language": "af",
     "numbers": {
@@ -9,7 +9,7 @@
     }
   },
   {
-    "code": "ar_AE",
+    "id": "ar_AE",
     "country": "AE",
     "language": "ar",
     "numbers": {
@@ -18,7 +18,7 @@
     }
   },
   {
-    "code": "ar_BH",
+    "id": "ar_BH",
     "country": "BH",
     "language": "ar",
     "numbers": {
@@ -27,7 +27,7 @@
     }
   },
   {
-    "code": "ar_DJ",
+    "id": "ar_DJ",
     "country": "DJ",
     "language": "ar",
     "numbers": {
@@ -36,7 +36,7 @@
     }
   },
   {
-    "code": "ar_DZ",
+    "id": "ar_DZ",
     "country": "DZ",
     "language": "ar",
     "numbers": {
@@ -45,7 +45,7 @@
     }
   },
   {
-    "code": "ar_EG",
+    "id": "ar_EG",
     "country": "EG",
     "language": "ar",
     "numbers": {
@@ -54,7 +54,7 @@
     }
   },
   {
-    "code": "ar_EH",
+    "id": "ar_EH",
     "country": "EH",
     "language": "ar",
     "numbers": {
@@ -63,7 +63,7 @@
     }
   },
   {
-    "code": "ar_ER",
+    "id": "ar_ER",
     "country": "ER",
     "language": "ar",
     "numbers": {
@@ -72,7 +72,7 @@
     }
   },
   {
-    "code": "ar_IL",
+    "id": "ar_IL",
     "country": "IL",
     "language": "ar",
     "numbers": {
@@ -81,7 +81,7 @@
     }
   },
   {
-    "code": "ar_IQ",
+    "id": "ar_IQ",
     "country": "IQ",
     "language": "ar",
     "numbers": {
@@ -90,7 +90,7 @@
     }
   },
   {
-    "code": "ar_JO",
+    "id": "ar_JO",
     "country": "JO",
     "language": "ar",
     "numbers": {
@@ -99,7 +99,7 @@
     }
   },
   {
-    "code": "ar_KM",
+    "id": "ar_KM",
     "country": "KM",
     "language": "ar",
     "numbers": {
@@ -108,7 +108,7 @@
     }
   },
   {
-    "code": "ar_KW",
+    "id": "ar_KW",
     "country": "KW",
     "language": "ar",
     "numbers": {
@@ -117,7 +117,7 @@
     }
   },
   {
-    "code": "ar_LB",
+    "id": "ar_LB",
     "country": "LB",
     "language": "ar",
     "numbers": {
@@ -126,7 +126,7 @@
     }
   },
   {
-    "code": "ar_LY",
+    "id": "ar_LY",
     "country": "LY",
     "language": "ar",
     "numbers": {
@@ -135,7 +135,7 @@
     }
   },
   {
-    "code": "ar_MA",
+    "id": "ar_MA",
     "country": "MA",
     "language": "ar",
     "numbers": {
@@ -144,7 +144,7 @@
     }
   },
   {
-    "code": "ar_MR",
+    "id": "ar_MR",
     "country": "MR",
     "language": "ar",
     "numbers": {
@@ -153,7 +153,7 @@
     }
   },
   {
-    "code": "ar_OM",
+    "id": "ar_OM",
     "country": "OM",
     "language": "ar",
     "numbers": {
@@ -162,7 +162,7 @@
     }
   },
   {
-    "code": "ar_PS",
+    "id": "ar_PS",
     "country": "PS",
     "language": "ar",
     "numbers": {
@@ -171,7 +171,7 @@
     }
   },
   {
-    "code": "ar_QA",
+    "id": "ar_QA",
     "country": "QA",
     "language": "ar",
     "numbers": {
@@ -180,7 +180,7 @@
     }
   },
   {
-    "code": "ar_SA",
+    "id": "ar_SA",
     "country": "SA",
     "language": "ar",
     "numbers": {
@@ -189,7 +189,7 @@
     }
   },
   {
-    "code": "ar_SD",
+    "id": "ar_SD",
     "country": "SD",
     "language": "ar",
     "numbers": {
@@ -198,7 +198,7 @@
     }
   },
   {
-    "code": "ar_SO",
+    "id": "ar_SO",
     "country": "SO",
     "language": "ar",
     "numbers": {
@@ -207,7 +207,7 @@
     }
   },
   {
-    "code": "ar_SS",
+    "id": "ar_SS",
     "country": "SS",
     "language": "ar",
     "numbers": {
@@ -216,7 +216,7 @@
     }
   },
   {
-    "code": "ar_SY",
+    "id": "ar_SY",
     "country": "SY",
     "language": "ar",
     "numbers": {
@@ -225,7 +225,7 @@
     }
   },
   {
-    "code": "ar_TD",
+    "id": "ar_TD",
     "country": "TD",
     "language": "ar",
     "numbers": {
@@ -234,7 +234,7 @@
     }
   },
   {
-    "code": "ar_TN",
+    "id": "ar_TN",
     "country": "TN",
     "language": "ar",
     "numbers": {
@@ -243,7 +243,7 @@
     }
   },
   {
-    "code": "ar_YE",
+    "id": "ar_YE",
     "country": "YE",
     "language": "ar",
     "numbers": {
@@ -252,7 +252,7 @@
     }
   },
   {
-    "code": "bn_IN",
+    "id": "bn_IN",
     "country": "IN",
     "language": "bn",
     "numbers": {
@@ -261,7 +261,7 @@
     }
   },
   {
-    "code": "bo_IN",
+    "id": "bo_IN",
     "country": "IN",
     "language": "bo",
     "numbers": {
@@ -270,7 +270,7 @@
     }
   },
   {
-    "code": "ca_AD",
+    "id": "ca_AD",
     "country": "AD",
     "language": "ca",
     "numbers": {
@@ -279,7 +279,7 @@
     }
   },
   {
-    "code": "ca_ES",
+    "id": "ca_ES",
     "country": "ES",
     "language": "ca",
     "numbers": {
@@ -288,7 +288,7 @@
     }
   },
   {
-    "code": "ca_FR",
+    "id": "ca_FR",
     "country": "FR",
     "language": "ca",
     "numbers": {
@@ -297,7 +297,7 @@
     }
   },
   {
-    "code": "ca_IT",
+    "id": "ca_IT",
     "country": "IT",
     "language": "ca",
     "numbers": {
@@ -306,7 +306,7 @@
     }
   },
   {
-    "code": "ckb_IR",
+    "id": "ckb_IR",
     "country": "IR",
     "language": "ckb",
     "numbers": {
@@ -315,7 +315,7 @@
     }
   },
   {
-    "code": "da_GL",
+    "id": "da_GL",
     "country": "GL",
     "language": "da",
     "numbers": {
@@ -324,7 +324,7 @@
     }
   },
   {
-    "code": "de_AT",
+    "id": "de_AT",
     "country": "AT",
     "language": "de",
     "numbers": {
@@ -333,7 +333,7 @@
     }
   },
   {
-    "code": "de_BE",
+    "id": "de_BE",
     "country": "BE",
     "language": "de",
     "numbers": {
@@ -342,7 +342,7 @@
     }
   },
   {
-    "code": "de_CH",
+    "id": "de_CH",
     "country": "CH",
     "language": "de",
     "numbers": {
@@ -351,7 +351,7 @@
     }
   },
   {
-    "code": "de_IT",
+    "id": "de_IT",
     "country": "IT",
     "language": "de",
     "numbers": {
@@ -360,7 +360,7 @@
     }
   },
   {
-    "code": "de_LI",
+    "id": "de_LI",
     "country": "LI",
     "language": "de",
     "numbers": {
@@ -369,7 +369,7 @@
     }
   },
   {
-    "code": "de_LU",
+    "id": "de_LU",
     "country": "LU",
     "language": "de",
     "numbers": {
@@ -378,7 +378,7 @@
     }
   },
   {
-    "code": "ee_TG",
+    "id": "ee_TG",
     "country": "TG",
     "language": "ee",
     "numbers": {
@@ -387,7 +387,7 @@
     }
   },
   {
-    "code": "el_CY",
+    "id": "el_CY",
     "country": "CY",
     "language": "el",
     "numbers": {
@@ -396,7 +396,7 @@
     }
   },
   {
-    "code": "en_001",
+    "id": "en_001",
     "country": "001",
     "language": "en",
     "numbers": {
@@ -405,7 +405,7 @@
     }
   },
   {
-    "code": "en_150",
+    "id": "en_150",
     "country": "150",
     "language": "en",
     "numbers": {
@@ -414,7 +414,7 @@
     }
   },
   {
-    "code": "en_AG",
+    "id": "en_AG",
     "country": "AG",
     "language": "en",
     "numbers": {
@@ -423,7 +423,7 @@
     }
   },
   {
-    "code": "en_AI",
+    "id": "en_AI",
     "country": "AI",
     "language": "en",
     "numbers": {
@@ -432,7 +432,7 @@
     }
   },
   {
-    "code": "en_AS",
+    "id": "en_AS",
     "country": "AS",
     "language": "en",
     "numbers": {
@@ -441,7 +441,7 @@
     }
   },
   {
-    "code": "en_AT",
+    "id": "en_AT",
     "country": "AT",
     "language": "en",
     "numbers": {
@@ -450,7 +450,7 @@
     }
   },
   {
-    "code": "en_AU",
+    "id": "en_AU",
     "country": "AU",
     "language": "en",
     "numbers": {
@@ -459,7 +459,7 @@
     }
   },
   {
-    "code": "en_BB",
+    "id": "en_BB",
     "country": "BB",
     "language": "en",
     "numbers": {
@@ -468,7 +468,7 @@
     }
   },
   {
-    "code": "en_BE",
+    "id": "en_BE",
     "country": "BE",
     "language": "en",
     "numbers": {
@@ -477,7 +477,7 @@
     }
   },
   {
-    "code": "en_BI",
+    "id": "en_BI",
     "country": "BI",
     "language": "en",
     "numbers": {
@@ -486,7 +486,7 @@
     }
   },
   {
-    "code": "en_BM",
+    "id": "en_BM",
     "country": "BM",
     "language": "en",
     "numbers": {
@@ -495,7 +495,7 @@
     }
   },
   {
-    "code": "en_BS",
+    "id": "en_BS",
     "country": "BS",
     "language": "en",
     "numbers": {
@@ -504,7 +504,7 @@
     }
   },
   {
-    "code": "en_BW",
+    "id": "en_BW",
     "country": "BW",
     "language": "en",
     "numbers": {
@@ -513,7 +513,7 @@
     }
   },
   {
-    "code": "en_BZ",
+    "id": "en_BZ",
     "country": "BZ",
     "language": "en",
     "numbers": {
@@ -522,7 +522,7 @@
     }
   },
   {
-    "code": "en_CA",
+    "id": "en_CA",
     "country": "CA",
     "language": "en",
     "numbers": {
@@ -531,7 +531,7 @@
     }
   },
   {
-    "code": "en_CC",
+    "id": "en_CC",
     "country": "CC",
     "language": "en",
     "numbers": {
@@ -540,7 +540,7 @@
     }
   },
   {
-    "code": "en_CH",
+    "id": "en_CH",
     "country": "CH",
     "language": "en",
     "numbers": {
@@ -549,7 +549,7 @@
     }
   },
   {
-    "code": "en_CK",
+    "id": "en_CK",
     "country": "CK",
     "language": "en",
     "numbers": {
@@ -558,7 +558,7 @@
     }
   },
   {
-    "code": "en_CM",
+    "id": "en_CM",
     "country": "CM",
     "language": "en",
     "numbers": {
@@ -567,7 +567,7 @@
     }
   },
   {
-    "code": "en_CX",
+    "id": "en_CX",
     "country": "CX",
     "language": "en",
     "numbers": {
@@ -576,7 +576,7 @@
     }
   },
   {
-    "code": "en_CY",
+    "id": "en_CY",
     "country": "CY",
     "language": "en",
     "numbers": {
@@ -585,7 +585,7 @@
     }
   },
   {
-    "code": "en_DE",
+    "id": "en_DE",
     "country": "DE",
     "language": "en",
     "numbers": {
@@ -594,7 +594,7 @@
     }
   },
   {
-    "code": "en_DG",
+    "id": "en_DG",
     "country": "DG",
     "language": "en",
     "numbers": {
@@ -603,7 +603,7 @@
     }
   },
   {
-    "code": "en_DK",
+    "id": "en_DK",
     "country": "DK",
     "language": "en",
     "numbers": {
@@ -612,7 +612,7 @@
     }
   },
   {
-    "code": "en_DM",
+    "id": "en_DM",
     "country": "DM",
     "language": "en",
     "numbers": {
@@ -621,7 +621,7 @@
     }
   },
   {
-    "code": "en_ER",
+    "id": "en_ER",
     "country": "ER",
     "language": "en",
     "numbers": {
@@ -630,7 +630,7 @@
     }
   },
   {
-    "code": "en_FI",
+    "id": "en_FI",
     "country": "FI",
     "language": "en",
     "numbers": {
@@ -639,7 +639,7 @@
     }
   },
   {
-    "code": "en_FJ",
+    "id": "en_FJ",
     "country": "FJ",
     "language": "en",
     "numbers": {
@@ -648,7 +648,7 @@
     }
   },
   {
-    "code": "en_FK",
+    "id": "en_FK",
     "country": "FK",
     "language": "en",
     "numbers": {
@@ -657,7 +657,7 @@
     }
   },
   {
-    "code": "en_FM",
+    "id": "en_FM",
     "country": "FM",
     "language": "en",
     "numbers": {
@@ -666,7 +666,7 @@
     }
   },
   {
-    "code": "en_GB",
+    "id": "en_GB",
     "country": "GB",
     "language": "en",
     "numbers": {
@@ -675,7 +675,7 @@
     }
   },
   {
-    "code": "en_GD",
+    "id": "en_GD",
     "country": "GD",
     "language": "en",
     "numbers": {
@@ -684,7 +684,7 @@
     }
   },
   {
-    "code": "en_GG",
+    "id": "en_GG",
     "country": "GG",
     "language": "en",
     "numbers": {
@@ -693,7 +693,7 @@
     }
   },
   {
-    "code": "en_GH",
+    "id": "en_GH",
     "country": "GH",
     "language": "en",
     "numbers": {
@@ -702,7 +702,7 @@
     }
   },
   {
-    "code": "en_GI",
+    "id": "en_GI",
     "country": "GI",
     "language": "en",
     "numbers": {
@@ -711,7 +711,7 @@
     }
   },
   {
-    "code": "en_GM",
+    "id": "en_GM",
     "country": "GM",
     "language": "en",
     "numbers": {
@@ -720,7 +720,7 @@
     }
   },
   {
-    "code": "en_GU",
+    "id": "en_GU",
     "country": "GU",
     "language": "en",
     "numbers": {
@@ -729,7 +729,7 @@
     }
   },
   {
-    "code": "en_GY",
+    "id": "en_GY",
     "country": "GY",
     "language": "en",
     "numbers": {
@@ -738,7 +738,7 @@
     }
   },
   {
-    "code": "en_HK",
+    "id": "en_HK",
     "country": "HK",
     "language": "en",
     "numbers": {
@@ -747,7 +747,7 @@
     }
   },
   {
-    "code": "en_IE",
+    "id": "en_IE",
     "country": "IE",
     "language": "en",
     "numbers": {
@@ -756,7 +756,7 @@
     }
   },
   {
-    "code": "en_IL",
+    "id": "en_IL",
     "country": "IL",
     "language": "en",
     "numbers": {
@@ -765,7 +765,7 @@
     }
   },
   {
-    "code": "en_IM",
+    "id": "en_IM",
     "country": "IM",
     "language": "en",
     "numbers": {
@@ -774,7 +774,7 @@
     }
   },
   {
-    "code": "en_IN",
+    "id": "en_IN",
     "country": "IN",
     "language": "en",
     "numbers": {
@@ -783,7 +783,7 @@
     }
   },
   {
-    "code": "en_IO",
+    "id": "en_IO",
     "country": "IO",
     "language": "en",
     "numbers": {
@@ -792,7 +792,7 @@
     }
   },
   {
-    "code": "en_JE",
+    "id": "en_JE",
     "country": "JE",
     "language": "en",
     "numbers": {
@@ -801,7 +801,7 @@
     }
   },
   {
-    "code": "en_JM",
+    "id": "en_JM",
     "country": "JM",
     "language": "en",
     "numbers": {
@@ -810,7 +810,7 @@
     }
   },
   {
-    "code": "en_KE",
+    "id": "en_KE",
     "country": "KE",
     "language": "en",
     "numbers": {
@@ -819,7 +819,7 @@
     }
   },
   {
-    "code": "en_KI",
+    "id": "en_KI",
     "country": "KI",
     "language": "en",
     "numbers": {
@@ -828,7 +828,7 @@
     }
   },
   {
-    "code": "en_KN",
+    "id": "en_KN",
     "country": "KN",
     "language": "en",
     "numbers": {
@@ -837,7 +837,7 @@
     }
   },
   {
-    "code": "en_KY",
+    "id": "en_KY",
     "country": "KY",
     "language": "en",
     "numbers": {
@@ -846,7 +846,7 @@
     }
   },
   {
-    "code": "en_LC",
+    "id": "en_LC",
     "country": "LC",
     "language": "en",
     "numbers": {
@@ -855,7 +855,7 @@
     }
   },
   {
-    "code": "en_LR",
+    "id": "en_LR",
     "country": "LR",
     "language": "en",
     "numbers": {
@@ -864,7 +864,7 @@
     }
   },
   {
-    "code": "en_LS",
+    "id": "en_LS",
     "country": "LS",
     "language": "en",
     "numbers": {
@@ -873,7 +873,7 @@
     }
   },
   {
-    "code": "en_MG",
+    "id": "en_MG",
     "country": "MG",
     "language": "en",
     "numbers": {
@@ -882,7 +882,7 @@
     }
   },
   {
-    "code": "en_MH",
+    "id": "en_MH",
     "country": "MH",
     "language": "en",
     "numbers": {
@@ -891,7 +891,7 @@
     }
   },
   {
-    "code": "en_MO",
+    "id": "en_MO",
     "country": "MO",
     "language": "en",
     "numbers": {
@@ -900,7 +900,7 @@
     }
   },
   {
-    "code": "en_MP",
+    "id": "en_MP",
     "country": "MP",
     "language": "en",
     "numbers": {
@@ -909,7 +909,7 @@
     }
   },
   {
-    "code": "en_MS",
+    "id": "en_MS",
     "country": "MS",
     "language": "en",
     "numbers": {
@@ -918,7 +918,7 @@
     }
   },
   {
-    "code": "en_MT",
+    "id": "en_MT",
     "country": "MT",
     "language": "en",
     "numbers": {
@@ -927,7 +927,7 @@
     }
   },
   {
-    "code": "en_MU",
+    "id": "en_MU",
     "country": "MU",
     "language": "en",
     "numbers": {
@@ -936,7 +936,7 @@
     }
   },
   {
-    "code": "en_MW",
+    "id": "en_MW",
     "country": "MW",
     "language": "en",
     "numbers": {
@@ -945,7 +945,7 @@
     }
   },
   {
-    "code": "en_MY",
+    "id": "en_MY",
     "country": "MY",
     "language": "en",
     "numbers": {
@@ -954,7 +954,7 @@
     }
   },
   {
-    "code": "en_NA",
+    "id": "en_NA",
     "country": "NA",
     "language": "en",
     "numbers": {
@@ -963,7 +963,7 @@
     }
   },
   {
-    "code": "en_NF",
+    "id": "en_NF",
     "country": "NF",
     "language": "en",
     "numbers": {
@@ -972,7 +972,7 @@
     }
   },
   {
-    "code": "en_NG",
+    "id": "en_NG",
     "country": "NG",
     "language": "en",
     "numbers": {
@@ -981,7 +981,7 @@
     }
   },
   {
-    "code": "en_NL",
+    "id": "en_NL",
     "country": "NL",
     "language": "en",
     "numbers": {
@@ -990,7 +990,7 @@
     }
   },
   {
-    "code": "en_NR",
+    "id": "en_NR",
     "country": "NR",
     "language": "en",
     "numbers": {
@@ -999,7 +999,7 @@
     }
   },
   {
-    "code": "en_NU",
+    "id": "en_NU",
     "country": "NU",
     "language": "en",
     "numbers": {
@@ -1008,7 +1008,7 @@
     }
   },
   {
-    "code": "en_NZ",
+    "id": "en_NZ",
     "country": "NZ",
     "language": "en",
     "numbers": {
@@ -1017,7 +1017,7 @@
     }
   },
   {
-    "code": "en_PG",
+    "id": "en_PG",
     "country": "PG",
     "language": "en",
     "numbers": {
@@ -1026,7 +1026,7 @@
     }
   },
   {
-    "code": "en_PH",
+    "id": "en_PH",
     "country": "PH",
     "language": "en",
     "numbers": {
@@ -1035,7 +1035,7 @@
     }
   },
   {
-    "code": "en_PK",
+    "id": "en_PK",
     "country": "PK",
     "language": "en",
     "numbers": {
@@ -1044,7 +1044,7 @@
     }
   },
   {
-    "code": "en_PN",
+    "id": "en_PN",
     "country": "PN",
     "language": "en",
     "numbers": {
@@ -1053,7 +1053,7 @@
     }
   },
   {
-    "code": "en_PR",
+    "id": "en_PR",
     "country": "PR",
     "language": "en",
     "numbers": {
@@ -1062,7 +1062,7 @@
     }
   },
   {
-    "code": "en_PW",
+    "id": "en_PW",
     "country": "PW",
     "language": "en",
     "numbers": {
@@ -1071,7 +1071,7 @@
     }
   },
   {
-    "code": "en_RW",
+    "id": "en_RW",
     "country": "RW",
     "language": "en",
     "numbers": {
@@ -1080,7 +1080,7 @@
     }
   },
   {
-    "code": "en_SB",
+    "id": "en_SB",
     "country": "SB",
     "language": "en",
     "numbers": {
@@ -1089,7 +1089,7 @@
     }
   },
   {
-    "code": "en_SC",
+    "id": "en_SC",
     "country": "SC",
     "language": "en",
     "numbers": {
@@ -1098,7 +1098,7 @@
     }
   },
   {
-    "code": "en_SD",
+    "id": "en_SD",
     "country": "SD",
     "language": "en",
     "numbers": {
@@ -1107,7 +1107,7 @@
     }
   },
   {
-    "code": "en_SE",
+    "id": "en_SE",
     "country": "SE",
     "language": "en",
     "numbers": {
@@ -1116,7 +1116,7 @@
     }
   },
   {
-    "code": "en_SG",
+    "id": "en_SG",
     "country": "SG",
     "language": "en",
     "numbers": {
@@ -1125,7 +1125,7 @@
     }
   },
   {
-    "code": "en_SH",
+    "id": "en_SH",
     "country": "SH",
     "language": "en",
     "numbers": {
@@ -1134,7 +1134,7 @@
     }
   },
   {
-    "code": "en_SI",
+    "id": "en_SI",
     "country": "SI",
     "language": "en",
     "numbers": {
@@ -1143,7 +1143,7 @@
     }
   },
   {
-    "code": "en_SL",
+    "id": "en_SL",
     "country": "SL",
     "language": "en",
     "numbers": {
@@ -1152,7 +1152,7 @@
     }
   },
   {
-    "code": "en_SS",
+    "id": "en_SS",
     "country": "SS",
     "language": "en",
     "numbers": {
@@ -1161,7 +1161,7 @@
     }
   },
   {
-    "code": "en_SX",
+    "id": "en_SX",
     "country": "SX",
     "language": "en",
     "numbers": {
@@ -1170,7 +1170,7 @@
     }
   },
   {
-    "code": "en_SZ",
+    "id": "en_SZ",
     "country": "SZ",
     "language": "en",
     "numbers": {
@@ -1179,7 +1179,7 @@
     }
   },
   {
-    "code": "en_TC",
+    "id": "en_TC",
     "country": "TC",
     "language": "en",
     "numbers": {
@@ -1188,7 +1188,7 @@
     }
   },
   {
-    "code": "en_TK",
+    "id": "en_TK",
     "country": "TK",
     "language": "en",
     "numbers": {
@@ -1197,7 +1197,7 @@
     }
   },
   {
-    "code": "en_TO",
+    "id": "en_TO",
     "country": "TO",
     "language": "en",
     "numbers": {
@@ -1206,7 +1206,7 @@
     }
   },
   {
-    "code": "en_TT",
+    "id": "en_TT",
     "country": "TT",
     "language": "en",
     "numbers": {
@@ -1215,7 +1215,7 @@
     }
   },
   {
-    "code": "en_TV",
+    "id": "en_TV",
     "country": "TV",
     "language": "en",
     "numbers": {
@@ -1224,7 +1224,7 @@
     }
   },
   {
-    "code": "en_TZ",
+    "id": "en_TZ",
     "country": "TZ",
     "language": "en",
     "numbers": {
@@ -1233,7 +1233,7 @@
     }
   },
   {
-    "code": "en_UG",
+    "id": "en_UG",
     "country": "UG",
     "language": "en",
     "numbers": {
@@ -1242,7 +1242,7 @@
     }
   },
   {
-    "code": "en_UM",
+    "id": "en_UM",
     "country": "UM",
     "language": "en",
     "numbers": {
@@ -1251,7 +1251,7 @@
     }
   },
   {
-    "code": "en_US",
+    "id": "en_US",
     "country": "US",
     "language": "en",
     "numbers": {
@@ -1260,7 +1260,7 @@
     }
   },
   {
-    "code": "en_VC",
+    "id": "en_VC",
     "country": "VC",
     "language": "en",
     "numbers": {
@@ -1269,7 +1269,7 @@
     }
   },
   {
-    "code": "en_VG",
+    "id": "en_VG",
     "country": "VG",
     "language": "en",
     "numbers": {
@@ -1278,7 +1278,7 @@
     }
   },
   {
-    "code": "en_VI",
+    "id": "en_VI",
     "country": "VI",
     "language": "en",
     "numbers": {
@@ -1287,7 +1287,7 @@
     }
   },
   {
-    "code": "en_VU",
+    "id": "en_VU",
     "country": "VU",
     "language": "en",
     "numbers": {
@@ -1296,7 +1296,7 @@
     }
   },
   {
-    "code": "en_WS",
+    "id": "en_WS",
     "country": "WS",
     "language": "en",
     "numbers": {
@@ -1305,7 +1305,7 @@
     }
   },
   {
-    "code": "en_ZA",
+    "id": "en_ZA",
     "country": "ZA",
     "language": "en",
     "numbers": {
@@ -1314,7 +1314,7 @@
     }
   },
   {
-    "code": "en_ZM",
+    "id": "en_ZM",
     "country": "ZM",
     "language": "en",
     "numbers": {
@@ -1323,7 +1323,7 @@
     }
   },
   {
-    "code": "en_ZW",
+    "id": "en_ZW",
     "country": "ZW",
     "language": "en",
     "numbers": {
@@ -1332,7 +1332,7 @@
     }
   },
   {
-    "code": "es_419",
+    "id": "es_419",
     "country": "419",
     "language": "es",
     "numbers": {
@@ -1341,7 +1341,7 @@
     }
   },
   {
-    "code": "es_AR",
+    "id": "es_AR",
     "country": "AR",
     "language": "es",
     "numbers": {
@@ -1350,7 +1350,7 @@
     }
   },
   {
-    "code": "es_BO",
+    "id": "es_BO",
     "country": "BO",
     "language": "es",
     "numbers": {
@@ -1359,7 +1359,7 @@
     }
   },
   {
-    "code": "es_BR",
+    "id": "es_BR",
     "country": "BR",
     "language": "es",
     "numbers": {
@@ -1368,7 +1368,7 @@
     }
   },
   {
-    "code": "es_CL",
+    "id": "es_CL",
     "country": "CL",
     "language": "es",
     "numbers": {
@@ -1377,7 +1377,7 @@
     }
   },
   {
-    "code": "es_CO",
+    "id": "es_CO",
     "country": "CO",
     "language": "es",
     "numbers": {
@@ -1386,7 +1386,7 @@
     }
   },
   {
-    "code": "es_CR",
+    "id": "es_CR",
     "country": "CR",
     "language": "es",
     "numbers": {
@@ -1395,7 +1395,7 @@
     }
   },
   {
-    "code": "es_CU",
+    "id": "es_CU",
     "country": "CU",
     "language": "es",
     "numbers": {
@@ -1404,7 +1404,7 @@
     }
   },
   {
-    "code": "es_DO",
+    "id": "es_DO",
     "country": "DO",
     "language": "es",
     "numbers": {
@@ -1413,7 +1413,7 @@
     }
   },
   {
-    "code": "es_EA",
+    "id": "es_EA",
     "country": "EA",
     "language": "es",
     "numbers": {
@@ -1422,7 +1422,7 @@
     }
   },
   {
-    "code": "es_EC",
+    "id": "es_EC",
     "country": "EC",
     "language": "es",
     "numbers": {
@@ -1431,7 +1431,7 @@
     }
   },
   {
-    "code": "es_GQ",
+    "id": "es_GQ",
     "country": "GQ",
     "language": "es",
     "numbers": {
@@ -1440,7 +1440,7 @@
     }
   },
   {
-    "code": "es_GT",
+    "id": "es_GT",
     "country": "GT",
     "language": "es",
     "numbers": {
@@ -1449,7 +1449,7 @@
     }
   },
   {
-    "code": "es_HN",
+    "id": "es_HN",
     "country": "HN",
     "language": "es",
     "numbers": {
@@ -1458,7 +1458,7 @@
     }
   },
   {
-    "code": "es_IC",
+    "id": "es_IC",
     "country": "IC",
     "language": "es",
     "numbers": {
@@ -1467,7 +1467,7 @@
     }
   },
   {
-    "code": "es_MX",
+    "id": "es_MX",
     "country": "MX",
     "language": "es",
     "numbers": {
@@ -1476,7 +1476,7 @@
     }
   },
   {
-    "code": "es_NI",
+    "id": "es_NI",
     "country": "NI",
     "language": "es",
     "numbers": {
@@ -1485,7 +1485,7 @@
     }
   },
   {
-    "code": "es_PA",
+    "id": "es_PA",
     "country": "PA",
     "language": "es",
     "numbers": {
@@ -1494,7 +1494,7 @@
     }
   },
   {
-    "code": "es_PE",
+    "id": "es_PE",
     "country": "PE",
     "language": "es",
     "numbers": {
@@ -1503,7 +1503,7 @@
     }
   },
   {
-    "code": "es_PH",
+    "id": "es_PH",
     "country": "PH",
     "language": "es",
     "numbers": {
@@ -1512,7 +1512,7 @@
     }
   },
   {
-    "code": "es_PR",
+    "id": "es_PR",
     "country": "PR",
     "language": "es",
     "numbers": {
@@ -1521,7 +1521,7 @@
     }
   },
   {
-    "code": "es_PY",
+    "id": "es_PY",
     "country": "PY",
     "language": "es",
     "numbers": {
@@ -1530,7 +1530,7 @@
     }
   },
   {
-    "code": "es_SV",
+    "id": "es_SV",
     "country": "SV",
     "language": "es",
     "numbers": {
@@ -1539,7 +1539,7 @@
     }
   },
   {
-    "code": "es_US",
+    "id": "es_US",
     "country": "US",
     "language": "es",
     "numbers": {
@@ -1548,7 +1548,7 @@
     }
   },
   {
-    "code": "es_UY",
+    "id": "es_UY",
     "country": "UY",
     "language": "es",
     "numbers": {
@@ -1557,7 +1557,7 @@
     }
   },
   {
-    "code": "es_VE",
+    "id": "es_VE",
     "country": "VE",
     "language": "es",
     "numbers": {
@@ -1566,7 +1566,7 @@
     }
   },
   {
-    "code": "fa_AF",
+    "id": "fa_AF",
     "country": "AF",
     "language": "fa",
     "numbers": {
@@ -1575,7 +1575,7 @@
     }
   },
   {
-    "code": "ff_CM",
+    "id": "ff_CM",
     "country": "CM",
     "language": "ff",
     "numbers": {
@@ -1584,7 +1584,7 @@
     }
   },
   {
-    "code": "ff_GN",
+    "id": "ff_GN",
     "country": "GN",
     "language": "ff",
     "numbers": {
@@ -1593,7 +1593,7 @@
     }
   },
   {
-    "code": "ff_MR",
+    "id": "ff_MR",
     "country": "MR",
     "language": "ff",
     "numbers": {
@@ -1602,7 +1602,7 @@
     }
   },
   {
-    "code": "fo_DK",
+    "id": "fo_DK",
     "country": "DK",
     "language": "fo",
     "numbers": {
@@ -1611,7 +1611,7 @@
     }
   },
   {
-    "code": "fr_BE",
+    "id": "fr_BE",
     "country": "BE",
     "language": "fr",
     "numbers": {
@@ -1620,7 +1620,7 @@
     }
   },
   {
-    "code": "fr_BF",
+    "id": "fr_BF",
     "country": "BF",
     "language": "fr",
     "numbers": {
@@ -1629,7 +1629,7 @@
     }
   },
   {
-    "code": "fr_BI",
+    "id": "fr_BI",
     "country": "BI",
     "language": "fr",
     "numbers": {
@@ -1638,7 +1638,7 @@
     }
   },
   {
-    "code": "fr_BJ",
+    "id": "fr_BJ",
     "country": "BJ",
     "language": "fr",
     "numbers": {
@@ -1647,7 +1647,7 @@
     }
   },
   {
-    "code": "fr_BL",
+    "id": "fr_BL",
     "country": "BL",
     "language": "fr",
     "numbers": {
@@ -1656,7 +1656,7 @@
     }
   },
   {
-    "code": "fr_CA",
+    "id": "fr_CA",
     "country": "CA",
     "language": "fr",
     "numbers": {
@@ -1665,7 +1665,7 @@
     }
   },
   {
-    "code": "fr_CD",
+    "id": "fr_CD",
     "country": "CD",
     "language": "fr",
     "numbers": {
@@ -1674,7 +1674,7 @@
     }
   },
   {
-    "code": "fr_CF",
+    "id": "fr_CF",
     "country": "CF",
     "language": "fr",
     "numbers": {
@@ -1683,7 +1683,7 @@
     }
   },
   {
-    "code": "fr_CG",
+    "id": "fr_CG",
     "country": "CG",
     "language": "fr",
     "numbers": {
@@ -1692,7 +1692,7 @@
     }
   },
   {
-    "code": "fr_CH",
+    "id": "fr_CH",
     "country": "CH",
     "language": "fr",
     "numbers": {
@@ -1701,7 +1701,7 @@
     }
   },
   {
-    "code": "fr_CI",
+    "id": "fr_CI",
     "country": "CI",
     "language": "fr",
     "numbers": {
@@ -1710,7 +1710,7 @@
     }
   },
   {
-    "code": "fr_CM",
+    "id": "fr_CM",
     "country": "CM",
     "language": "fr",
     "numbers": {
@@ -1719,7 +1719,7 @@
     }
   },
   {
-    "code": "fr_DJ",
+    "id": "fr_DJ",
     "country": "DJ",
     "language": "fr",
     "numbers": {
@@ -1728,7 +1728,7 @@
     }
   },
   {
-    "code": "fr_DZ",
+    "id": "fr_DZ",
     "country": "DZ",
     "language": "fr",
     "numbers": {
@@ -1737,7 +1737,7 @@
     }
   },
   {
-    "code": "fr_GA",
+    "id": "fr_GA",
     "country": "GA",
     "language": "fr",
     "numbers": {
@@ -1746,7 +1746,7 @@
     }
   },
   {
-    "code": "fr_GF",
+    "id": "fr_GF",
     "country": "GF",
     "language": "fr",
     "numbers": {
@@ -1755,7 +1755,7 @@
     }
   },
   {
-    "code": "fr_GN",
+    "id": "fr_GN",
     "country": "GN",
     "language": "fr",
     "numbers": {
@@ -1764,7 +1764,7 @@
     }
   },
   {
-    "code": "fr_GP",
+    "id": "fr_GP",
     "country": "GP",
     "language": "fr",
     "numbers": {
@@ -1773,7 +1773,7 @@
     }
   },
   {
-    "code": "fr_GQ",
+    "id": "fr_GQ",
     "country": "GQ",
     "language": "fr",
     "numbers": {
@@ -1782,7 +1782,7 @@
     }
   },
   {
-    "code": "fr_HT",
+    "id": "fr_HT",
     "country": "HT",
     "language": "fr",
     "numbers": {
@@ -1791,7 +1791,7 @@
     }
   },
   {
-    "code": "fr_KM",
+    "id": "fr_KM",
     "country": "KM",
     "language": "fr",
     "numbers": {
@@ -1800,7 +1800,7 @@
     }
   },
   {
-    "code": "fr_LU",
+    "id": "fr_LU",
     "country": "LU",
     "language": "fr",
     "numbers": {
@@ -1809,7 +1809,7 @@
     }
   },
   {
-    "code": "fr_MA",
+    "id": "fr_MA",
     "country": "MA",
     "language": "fr",
     "numbers": {
@@ -1818,7 +1818,7 @@
     }
   },
   {
-    "code": "fr_MC",
+    "id": "fr_MC",
     "country": "MC",
     "language": "fr",
     "numbers": {
@@ -1827,7 +1827,7 @@
     }
   },
   {
-    "code": "fr_MF",
+    "id": "fr_MF",
     "country": "MF",
     "language": "fr",
     "numbers": {
@@ -1836,7 +1836,7 @@
     }
   },
   {
-    "code": "fr_MG",
+    "id": "fr_MG",
     "country": "MG",
     "language": "fr",
     "numbers": {
@@ -1845,7 +1845,7 @@
     }
   },
   {
-    "code": "fr_ML",
+    "id": "fr_ML",
     "country": "ML",
     "language": "fr",
     "numbers": {
@@ -1854,7 +1854,7 @@
     }
   },
   {
-    "code": "fr_MQ",
+    "id": "fr_MQ",
     "country": "MQ",
     "language": "fr",
     "numbers": {
@@ -1863,7 +1863,7 @@
     }
   },
   {
-    "code": "fr_MR",
+    "id": "fr_MR",
     "country": "MR",
     "language": "fr",
     "numbers": {
@@ -1872,7 +1872,7 @@
     }
   },
   {
-    "code": "fr_MU",
+    "id": "fr_MU",
     "country": "MU",
     "language": "fr",
     "numbers": {
@@ -1881,7 +1881,7 @@
     }
   },
   {
-    "code": "fr_NC",
+    "id": "fr_NC",
     "country": "NC",
     "language": "fr",
     "numbers": {
@@ -1890,7 +1890,7 @@
     }
   },
   {
-    "code": "fr_NE",
+    "id": "fr_NE",
     "country": "NE",
     "language": "fr",
     "numbers": {
@@ -1899,7 +1899,7 @@
     }
   },
   {
-    "code": "fr_PF",
+    "id": "fr_PF",
     "country": "PF",
     "language": "fr",
     "numbers": {
@@ -1908,7 +1908,7 @@
     }
   },
   {
-    "code": "fr_PM",
+    "id": "fr_PM",
     "country": "PM",
     "language": "fr",
     "numbers": {
@@ -1917,7 +1917,7 @@
     }
   },
   {
-    "code": "fr_RE",
+    "id": "fr_RE",
     "country": "RE",
     "language": "fr",
     "numbers": {
@@ -1926,7 +1926,7 @@
     }
   },
   {
-    "code": "fr_RW",
+    "id": "fr_RW",
     "country": "RW",
     "language": "fr",
     "numbers": {
@@ -1935,7 +1935,7 @@
     }
   },
   {
-    "code": "fr_SC",
+    "id": "fr_SC",
     "country": "SC",
     "language": "fr",
     "numbers": {
@@ -1944,7 +1944,7 @@
     }
   },
   {
-    "code": "fr_SN",
+    "id": "fr_SN",
     "country": "SN",
     "language": "fr",
     "numbers": {
@@ -1953,7 +1953,7 @@
     }
   },
   {
-    "code": "fr_SY",
+    "id": "fr_SY",
     "country": "SY",
     "language": "fr",
     "numbers": {
@@ -1962,7 +1962,7 @@
     }
   },
   {
-    "code": "fr_TD",
+    "id": "fr_TD",
     "country": "TD",
     "language": "fr",
     "numbers": {
@@ -1971,7 +1971,7 @@
     }
   },
   {
-    "code": "fr_TG",
+    "id": "fr_TG",
     "country": "TG",
     "language": "fr",
     "numbers": {
@@ -1980,7 +1980,7 @@
     }
   },
   {
-    "code": "fr_TN",
+    "id": "fr_TN",
     "country": "TN",
     "language": "fr",
     "numbers": {
@@ -1989,7 +1989,7 @@
     }
   },
   {
-    "code": "fr_VU",
+    "id": "fr_VU",
     "country": "VU",
     "language": "fr",
     "numbers": {
@@ -1998,7 +1998,7 @@
     }
   },
   {
-    "code": "fr_WF",
+    "id": "fr_WF",
     "country": "WF",
     "language": "fr",
     "numbers": {
@@ -2007,7 +2007,7 @@
     }
   },
   {
-    "code": "fr_YT",
+    "id": "fr_YT",
     "country": "YT",
     "language": "fr",
     "numbers": {
@@ -2016,7 +2016,7 @@
     }
   },
   {
-    "code": "gsw_FR",
+    "id": "gsw_FR",
     "country": "FR",
     "language": "gsw",
     "numbers": {
@@ -2025,7 +2025,7 @@
     }
   },
   {
-    "code": "gsw_LI",
+    "id": "gsw_LI",
     "country": "LI",
     "language": "gsw",
     "numbers": {
@@ -2034,7 +2034,7 @@
     }
   },
   {
-    "code": "ha_GH",
+    "id": "ha_GH",
     "country": "GH",
     "language": "ha",
     "numbers": {
@@ -2043,7 +2043,7 @@
     }
   },
   {
-    "code": "ha_NE",
+    "id": "ha_NE",
     "country": "NE",
     "language": "ha",
     "numbers": {
@@ -2052,7 +2052,7 @@
     }
   },
   {
-    "code": "hr_BA",
+    "id": "hr_BA",
     "country": "BA",
     "language": "hr",
     "numbers": {
@@ -2061,7 +2061,7 @@
     }
   },
   {
-    "code": "it_CH",
+    "id": "it_CH",
     "country": "CH",
     "language": "it",
     "numbers": {
@@ -2070,7 +2070,7 @@
     }
   },
   {
-    "code": "it_SM",
+    "id": "it_SM",
     "country": "SM",
     "language": "it",
     "numbers": {
@@ -2079,7 +2079,7 @@
     }
   },
   {
-    "code": "ko_KP",
+    "id": "ko_KP",
     "country": "KP",
     "language": "ko",
     "numbers": {
@@ -2088,7 +2088,7 @@
     }
   },
   {
-    "code": "ln_AO",
+    "id": "ln_AO",
     "country": "AO",
     "language": "ln",
     "numbers": {
@@ -2097,7 +2097,7 @@
     }
   },
   {
-    "code": "ln_CF",
+    "id": "ln_CF",
     "country": "CF",
     "language": "ln",
     "numbers": {
@@ -2106,7 +2106,7 @@
     }
   },
   {
-    "code": "ln_CG",
+    "id": "ln_CG",
     "country": "CG",
     "language": "ln",
     "numbers": {
@@ -2115,7 +2115,7 @@
     }
   },
   {
-    "code": "lrc_IQ",
+    "id": "lrc_IQ",
     "country": "IQ",
     "language": "lrc",
     "numbers": {
@@ -2124,7 +2124,7 @@
     }
   },
   {
-    "code": "mas_TZ",
+    "id": "mas_TZ",
     "country": "TZ",
     "language": "mas",
     "numbers": {
@@ -2133,7 +2133,7 @@
     }
   },
   {
-    "code": "ms_BN",
+    "id": "ms_BN",
     "country": "BN",
     "language": "ms",
     "numbers": {
@@ -2142,7 +2142,7 @@
     }
   },
   {
-    "code": "ms_SG",
+    "id": "ms_SG",
     "country": "SG",
     "language": "ms",
     "numbers": {
@@ -2151,7 +2151,7 @@
     }
   },
   {
-    "code": "nb_SJ",
+    "id": "nb_SJ",
     "country": "SJ",
     "language": "nb",
     "numbers": {
@@ -2160,7 +2160,7 @@
     }
   },
   {
-    "code": "nds_NL",
+    "id": "nds_NL",
     "country": "NL",
     "language": "nds",
     "numbers": {
@@ -2169,7 +2169,7 @@
     }
   },
   {
-    "code": "ne_IN",
+    "id": "ne_IN",
     "country": "IN",
     "language": "ne",
     "numbers": {
@@ -2178,7 +2178,7 @@
     }
   },
   {
-    "code": "nl_AW",
+    "id": "nl_AW",
     "country": "AW",
     "language": "nl",
     "numbers": {
@@ -2187,7 +2187,7 @@
     }
   },
   {
-    "code": "nl_BE",
+    "id": "nl_BE",
     "country": "BE",
     "language": "nl",
     "numbers": {
@@ -2196,7 +2196,7 @@
     }
   },
   {
-    "code": "nl_BQ",
+    "id": "nl_BQ",
     "country": "BQ",
     "language": "nl",
     "numbers": {
@@ -2205,7 +2205,7 @@
     }
   },
   {
-    "code": "nl_CW",
+    "id": "nl_CW",
     "country": "CW",
     "language": "nl",
     "numbers": {
@@ -2214,7 +2214,7 @@
     }
   },
   {
-    "code": "nl_SR",
+    "id": "nl_SR",
     "country": "SR",
     "language": "nl",
     "numbers": {
@@ -2223,7 +2223,7 @@
     }
   },
   {
-    "code": "nl_SX",
+    "id": "nl_SX",
     "country": "SX",
     "language": "nl",
     "numbers": {
@@ -2232,7 +2232,7 @@
     }
   },
   {
-    "code": "om_KE",
+    "id": "om_KE",
     "country": "KE",
     "language": "om",
     "numbers": {
@@ -2241,7 +2241,7 @@
     }
   },
   {
-    "code": "os_RU",
+    "id": "os_RU",
     "country": "RU",
     "language": "os",
     "numbers": {
@@ -2250,7 +2250,7 @@
     }
   },
   {
-    "code": "pt_AO",
+    "id": "pt_AO",
     "country": "AO",
     "language": "pt",
     "numbers": {
@@ -2259,7 +2259,7 @@
     }
   },
   {
-    "code": "pt_CH",
+    "id": "pt_CH",
     "country": "CH",
     "language": "pt",
     "numbers": {
@@ -2268,7 +2268,7 @@
     }
   },
   {
-    "code": "pt_CV",
+    "id": "pt_CV",
     "country": "CV",
     "language": "pt",
     "numbers": {
@@ -2277,7 +2277,7 @@
     }
   },
   {
-    "code": "pt_GQ",
+    "id": "pt_GQ",
     "country": "GQ",
     "language": "pt",
     "numbers": {
@@ -2286,7 +2286,7 @@
     }
   },
   {
-    "code": "pt_GW",
+    "id": "pt_GW",
     "country": "GW",
     "language": "pt",
     "numbers": {
@@ -2295,7 +2295,7 @@
     }
   },
   {
-    "code": "pt_LU",
+    "id": "pt_LU",
     "country": "LU",
     "language": "pt",
     "numbers": {
@@ -2304,7 +2304,7 @@
     }
   },
   {
-    "code": "pt_MO",
+    "id": "pt_MO",
     "country": "MO",
     "language": "pt",
     "numbers": {
@@ -2313,7 +2313,7 @@
     }
   },
   {
-    "code": "pt_MZ",
+    "id": "pt_MZ",
     "country": "MZ",
     "language": "pt",
     "numbers": {
@@ -2322,7 +2322,7 @@
     }
   },
   {
-    "code": "pt_PT",
+    "id": "pt_PT",
     "country": "PT",
     "language": "pt",
     "numbers": {
@@ -2331,7 +2331,7 @@
     }
   },
   {
-    "code": "pt_ST",
+    "id": "pt_ST",
     "country": "ST",
     "language": "pt",
     "numbers": {
@@ -2340,7 +2340,7 @@
     }
   },
   {
-    "code": "pt_TL",
+    "id": "pt_TL",
     "country": "TL",
     "language": "pt",
     "numbers": {
@@ -2349,7 +2349,7 @@
     }
   },
   {
-    "code": "qu_BO",
+    "id": "qu_BO",
     "country": "BO",
     "language": "qu",
     "numbers": {
@@ -2358,7 +2358,7 @@
     }
   },
   {
-    "code": "qu_EC",
+    "id": "qu_EC",
     "country": "EC",
     "language": "qu",
     "numbers": {
@@ -2367,7 +2367,7 @@
     }
   },
   {
-    "code": "ro_MD",
+    "id": "ro_MD",
     "country": "MD",
     "language": "ro",
     "numbers": {
@@ -2376,7 +2376,7 @@
     }
   },
   {
-    "code": "ru_BY",
+    "id": "ru_BY",
     "country": "BY",
     "language": "ru",
     "numbers": {
@@ -2385,7 +2385,7 @@
     }
   },
   {
-    "code": "ru_KG",
+    "id": "ru_KG",
     "country": "KG",
     "language": "ru",
     "numbers": {
@@ -2394,7 +2394,7 @@
     }
   },
   {
-    "code": "ru_KZ",
+    "id": "ru_KZ",
     "country": "KZ",
     "language": "ru",
     "numbers": {
@@ -2403,7 +2403,7 @@
     }
   },
   {
-    "code": "ru_MD",
+    "id": "ru_MD",
     "country": "MD",
     "language": "ru",
     "numbers": {
@@ -2412,7 +2412,7 @@
     }
   },
   {
-    "code": "ru_UA",
+    "id": "ru_UA",
     "country": "UA",
     "language": "ru",
     "numbers": {
@@ -2421,7 +2421,7 @@
     }
   },
   {
-    "code": "se_FI",
+    "id": "se_FI",
     "country": "FI",
     "language": "se",
     "numbers": {
@@ -2430,7 +2430,7 @@
     }
   },
   {
-    "code": "se_SE",
+    "id": "se_SE",
     "country": "SE",
     "language": "se",
     "numbers": {
@@ -2439,7 +2439,7 @@
     }
   },
   {
-    "code": "so_DJ",
+    "id": "so_DJ",
     "country": "DJ",
     "language": "so",
     "numbers": {
@@ -2448,7 +2448,7 @@
     }
   },
   {
-    "code": "so_ET",
+    "id": "so_ET",
     "country": "ET",
     "language": "so",
     "numbers": {
@@ -2457,7 +2457,7 @@
     }
   },
   {
-    "code": "so_KE",
+    "id": "so_KE",
     "country": "KE",
     "language": "so",
     "numbers": {
@@ -2466,7 +2466,7 @@
     }
   },
   {
-    "code": "sq_MK",
+    "id": "sq_MK",
     "country": "MK",
     "language": "sq",
     "numbers": {
@@ -2475,7 +2475,7 @@
     }
   },
   {
-    "code": "sq_XK",
+    "id": "sq_XK",
     "country": "XK",
     "language": "sq",
     "numbers": {
@@ -2484,7 +2484,7 @@
     }
   },
   {
-    "code": "sr_BA",
+    "id": "sr_BA",
     "country": "BA",
     "language": "sr",
     "numbers": {
@@ -2493,7 +2493,7 @@
     }
   },
   {
-    "code": "sr_ME",
+    "id": "sr_ME",
     "country": "ME",
     "language": "sr",
     "numbers": {
@@ -2502,7 +2502,7 @@
     }
   },
   {
-    "code": "sr_XK",
+    "id": "sr_XK",
     "country": "XK",
     "language": "sr",
     "numbers": {
@@ -2511,7 +2511,7 @@
     }
   },
   {
-    "code": "sv_AX",
+    "id": "sv_AX",
     "country": "AX",
     "language": "sv",
     "numbers": {
@@ -2520,7 +2520,7 @@
     }
   },
   {
-    "code": "sv_FI",
+    "id": "sv_FI",
     "country": "FI",
     "language": "sv",
     "numbers": {
@@ -2529,7 +2529,7 @@
     }
   },
   {
-    "code": "sw_CD",
+    "id": "sw_CD",
     "country": "CD",
     "language": "sw",
     "numbers": {
@@ -2538,7 +2538,7 @@
     }
   },
   {
-    "code": "sw_KE",
+    "id": "sw_KE",
     "country": "KE",
     "language": "sw",
     "numbers": {
@@ -2547,7 +2547,7 @@
     }
   },
   {
-    "code": "sw_UG",
+    "id": "sw_UG",
     "country": "UG",
     "language": "sw",
     "numbers": {
@@ -2556,7 +2556,7 @@
     }
   },
   {
-    "code": "ta_LK",
+    "id": "ta_LK",
     "country": "LK",
     "language": "ta",
     "numbers": {
@@ -2565,7 +2565,7 @@
     }
   },
   {
-    "code": "ta_MY",
+    "id": "ta_MY",
     "country": "MY",
     "language": "ta",
     "numbers": {
@@ -2574,7 +2574,7 @@
     }
   },
   {
-    "code": "ta_SG",
+    "id": "ta_SG",
     "country": "SG",
     "language": "ta",
     "numbers": {
@@ -2583,7 +2583,7 @@
     }
   },
   {
-    "code": "teo_KE",
+    "id": "teo_KE",
     "country": "KE",
     "language": "teo",
     "numbers": {
@@ -2592,7 +2592,7 @@
     }
   },
   {
-    "code": "ti_ER",
+    "id": "ti_ER",
     "country": "ER",
     "language": "ti",
     "numbers": {
@@ -2601,7 +2601,7 @@
     }
   },
   {
-    "code": "tr_CY",
+    "id": "tr_CY",
     "country": "CY",
     "language": "tr",
     "numbers": {
@@ -2610,7 +2610,7 @@
     }
   },
   {
-    "code": "ur_IN",
+    "id": "ur_IN",
     "country": "IN",
     "language": "ur",
     "numbers": {
@@ -2619,7 +2619,7 @@
     }
   },
   {
-    "code": "yo_BJ",
+    "id": "yo_BJ",
     "country": "BJ",
     "language": "yo",
     "numbers": {
@@ -2628,7 +2628,7 @@
     }
   },
   {
-    "code": "zh_HK",
+    "id": "zh_HK",
     "country": "HK",
     "language": "zh",
     "numbers": {
@@ -2637,7 +2637,7 @@
     }
   },
   {
-    "code": "zh_MO",
+    "id": "zh_MO",
     "country": "MO",
     "language": "zh",
     "numbers": {
@@ -2646,7 +2646,7 @@
     }
   },
   {
-    "code": "zh_SG",
+    "id": "zh_SG",
     "country": "SG",
     "language": "zh",
     "numbers": {
