@@ -1,12 +1,5 @@
 [
   {
-    "name": "Taiwan",
-    "continent": "AS",
-    "iso_3166_2": "TW",
-    "iso_3166_3": "TWN",
-    "currency": ""
-  },
-  {
     "name": "Albania",
     "continent": "EU",
     "iso_3166_2": "AL",
@@ -1321,6 +1314,13 @@
     "iso_3166_2": "CH",
     "iso_3166_3": "CHE",
     "currency": "CHF"
+  },
+  {
+    "name": "Taiwan",
+    "continent": "AS",
+    "iso_3166_2": "TW",
+    "iso_3166_3": "TWN",
+    "currency": ""
   },
   {
     "name": "Thailand",

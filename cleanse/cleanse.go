@@ -157,17 +157,8 @@ func Cleanse() {
 				return record["ISO3166-1-Alpha-2"] != "" && record["ISO3166-1-Alpha-3"] != "" && !common.ContainsIgnoreCase(unsupportedCountryCodes, record["ISO3166-1-Alpha-3"]) && !common.ContainsIgnoreCase(unsupportedCurrencyCodes, record["ISO4217-currency_alphabetic_code"])
 			},
 			func(record map[string]string) interface{} {
-				name := record["official_name_en"]
-				if name == "" {
-					name = record["name"]
-				}
-				if name == "" {
-					fmt.Printf("ERROR: Missing country name for record: %s\n", record)
-					os.Exit(1)
-				}
-				
 				return Country{
-					Name:       name,
+					Name:       countryName(record),
 					Iso_3166_2: record["ISO3166-1-Alpha-2"],
 					Iso_3166_3: record["ISO3166-1-Alpha-3"],
 					Currency:   record["ISO4217-currency_alphabetic_code"],
@@ -175,7 +166,7 @@ func Cleanse() {
 				}
 			},
 			func(record map[string]string) string {
-				return record["official_name_en"]
+				return countryName(record)
 			},
 		),
 	)
@@ -227,6 +218,19 @@ func Cleanse() {
 
 	writeJson("data/cleansed/languages.json", filterLanguages(readLanguages("data/source/languages.json")))
 }
+
+func countryName(record map[string]string) string {
+	name := record["official_name_en"]
+	if name == "" {
+		name = record["name"]
+	}
+	if name == "" {
+		fmt.Printf("ERROR: Missing country name for record: %s\n", record)
+		os.Exit(1)
+	}
+	return name
+}
+				
 
 func writeJson(target string, objects interface{}) {
 	fmt.Printf("Writing %s\n", target)
