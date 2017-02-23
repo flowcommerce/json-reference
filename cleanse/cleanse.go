@@ -12,6 +12,7 @@ import (
 	"io"
 	"os"
 	"path/filepath"
+	"regexp"
 	"sort"
 	"strings"
 )
@@ -45,6 +46,7 @@ type Language struct {
 	Name      string   `json:"name"`
 	Iso_639_2 string   `json:"iso_639_2"`
 	Countries []string `json:"countries"`
+	Locales   []string `json:"locales"`
 }
 
 type Timezone struct {
@@ -67,6 +69,12 @@ type IncomingLanguage struct {
 	Iso_639_2 string   `json:"iso639_1"`
 	Names     []string `json:"name"`
 	Countries []string `json:"countries"`
+	Locales   []IncomingLanguageLocale `json:"langCultureMs"`
+}
+
+type IncomingLanguageLocale struct {
+	Id      string `json:"langCultureName"`
+	Name    string `json:"displayName"`
 }
 
 type IncomingCurrency struct {
@@ -306,10 +314,16 @@ func readLanguages(file string) []Language {
 	for _, l := range lang.Languages {
 		name := l.Names[0]
 		if len(l.Iso_639_2) > 0 && name != "" {
+			locales := []string{}
+			for _, incomingLocale := range(l.Locales) {
+				locales = append(locales, formatLocaleId(incomingLocale.Id))	
+			}
+
 			languages = append(languages, Language{
 				Name:      name,
 				Iso_639_2: l.Iso_639_2,
 				Countries: l.Countries,
+				Locales: locales,
 			})
 		}
 	}
@@ -628,4 +642,8 @@ func sortLanguages(languages []Language) []Language {
 		return strings.ToLower(languages[i].Name) < strings.ToLower(languages[j].Name)
 	})
 	return languages
+}
+
+func formatLocaleId(value string) string {
+	return regexp.MustCompile("-").ReplaceAllString(value, "_")
 }

@@ -4,13 +4,17 @@
     "iso_639_2": "aa",
     "countries": [
       "DJI"
-    ]
+    ],
+    "locales": []
   },
   {
     "name": "Afrikaans",
     "iso_639_2": "af",
     "countries": [
       "ZAF"
+    ],
+    "locales": [
+      "af_ZA"
     ]
   },
   {
@@ -18,13 +22,17 @@
     "iso_639_2": "ak",
     "countries": [
       "GHA"
-    ]
+    ],
+    "locales": []
   },
   {
     "name": "Albanian",
     "iso_639_2": "sq",
     "countries": [
       "ALB"
+    ],
+    "locales": [
+      "sq_AL"
     ]
   },
   {
@@ -32,7 +40,8 @@
     "iso_639_2": "am",
     "countries": [
       "ETH"
-    ]
+    ],
+    "locales": []
   },
   {
     "name": "Arabic",
@@ -63,6 +72,24 @@
       "TUN",
       "ARE",
       "YEM"
+    ],
+    "locales": [
+      "ar_DZ",
+      "ar_BH",
+      "ar_EG",
+      "ar_IQ",
+      "ar_JO",
+      "ar_KW",
+      "ar_LB",
+      "ar_LY",
+      "ar_MA",
+      "ar_OM",
+      "ar_QA",
+      "ar_SA",
+      "ar_SY",
+      "ar_TN",
+      "ar_AE",
+      "ar_YE"
     ]
   },
   {
@@ -70,6 +97,9 @@
     "iso_639_2": "hy",
     "countries": [
       "ARM"
+    ],
+    "locales": [
+      "hy_AM"
     ]
   },
   {
@@ -78,13 +108,18 @@
     "countries": [
       "BOL",
       "PER"
-    ]
+    ],
+    "locales": []
   },
   {
     "name": "Azerbaijani",
     "iso_639_2": "az",
     "countries": [
       "AZE"
+    ],
+    "locales": [
+      "Cy_az_AZ",
+      "Lt_az_AZ"
     ]
   },
   {
@@ -92,13 +127,17 @@
     "iso_639_2": "bm",
     "countries": [
       "MLI"
-    ]
+    ],
+    "locales": []
   },
   {
     "name": "Belarusian",
     "iso_639_2": "be",
     "countries": [
       "BLR"
+    ],
+    "locales": [
+      "be_BY"
     ]
   },
   {
@@ -107,27 +146,33 @@
     "countries": [
       "BGD",
       "IND"
-    ]
+    ],
+    "locales": []
   },
   {
     "name": "Bislama",
     "iso_639_2": "bi",
     "countries": [
       "VUT"
-    ]
+    ],
+    "locales": []
   },
   {
     "name": "Bosnian",
     "iso_639_2": "bs",
     "countries": [
       "BIH"
-    ]
+    ],
+    "locales": []
   },
   {
     "name": "Bulgarian",
     "iso_639_2": "bg",
     "countries": [
       "BGR"
+    ],
+    "locales": [
+      "bg_BG"
     ]
   },
   {
@@ -135,13 +180,17 @@
     "iso_639_2": "my",
     "countries": [
       "MMR"
-    ]
+    ],
+    "locales": []
   },
   {
     "name": "Catalan",
     "iso_639_2": "ca",
     "countries": [
       "AND"
+    ],
+    "locales": [
+      "ca_ES"
     ]
   },
   {
@@ -149,7 +198,8 @@
     "iso_639_2": "ny",
     "countries": [
       "MWI"
-    ]
+    ],
+    "locales": []
   },
   {
     "name": "Chinese",
@@ -160,6 +210,15 @@
       "CHN",
       "TWN",
       "SGP"
+    ],
+    "locales": [
+      "zh_CN",
+      "zh_HK",
+      "zh_MO",
+      "zh_SG",
+      "zh_TW",
+      "zh_CHS",
+      "zh_CHT"
     ]
   },
   {
@@ -168,6 +227,9 @@
     "countries": [
       "HRV",
       "BIH"
+    ],
+    "locales": [
+      "hr_HR"
     ]
   },
   {
@@ -176,6 +238,9 @@
     "countries": [
       "CZE",
       "SVK"
+    ],
+    "locales": [
+      "cs_CZ"
     ]
   },
   {
@@ -184,6 +249,9 @@
     "countries": [
       "DNK",
       "FRO"
+    ],
+    "locales": [
+      "da_DK"
     ]
   },
   {
@@ -191,6 +259,9 @@
     "iso_639_2": "dv",
     "countries": [
       "MDV"
+    ],
+    "locales": [
+      "div_MV"
     ]
   },
   {
@@ -203,6 +274,10 @@
       "CUW",
       "SXM",
       "SUR"
+    ],
+    "locales": [
+      "nl_BE",
+      "nl_NL"
     ]
   },
   {
@@ -210,7 +285,8 @@
     "iso_639_2": "dz",
     "countries": [
       "BTN"
-    ]
+    ],
+    "locales": []
   },
   {
     "name": "English",
@@ -279,6 +355,21 @@
       "VUT",
       "ZMB",
       "ZWE"
+    ],
+    "locales": [
+      "en_AU",
+      "en_BZ",
+      "en_CA",
+      "en_CB",
+      "en_IE",
+      "en_JM",
+      "en_NZ",
+      "en_PH",
+      "en_ZA",
+      "en_TT",
+      "en_GB",
+      "en_US",
+      "en_ZW"
     ]
   },
   {
@@ -286,6 +377,9 @@
     "iso_639_2": "et",
     "countries": [
       "EST"
+    ],
+    "locales": [
+      "et_EE"
     ]
   },
   {
@@ -294,20 +388,25 @@
     "countries": [
       "GHA",
       "TGO"
-    ]
+    ],
+    "locales": []
   },
   {
     "name": "Fijian",
     "iso_639_2": "fj",
     "countries": [
       "FJI"
-    ]
+    ],
+    "locales": []
   },
   {
     "name": "Finnish",
     "iso_639_2": "fi",
     "countries": [
       "FIN"
+    ],
+    "locales": [
+      "fi_FI"
     ]
   },
   {
@@ -356,6 +455,14 @@
       "CHE",
       "TGO",
       "VUT"
+    ],
+    "locales": [
+      "fr_BE",
+      "fr_CA",
+      "fr_FR",
+      "fr_LU",
+      "fr_MC",
+      "fr_CH"
     ]
   },
   {
@@ -367,13 +474,17 @@
       "MLI",
       "NER",
       "SEN"
-    ]
+    ],
+    "locales": []
   },
   {
     "name": "Georgian",
     "iso_639_2": "ka",
     "countries": [
       "GEO"
+    ],
+    "locales": [
+      "ka_GE"
     ]
   },
   {
@@ -387,6 +498,13 @@
       "LUX",
       "ITA",
       "CHE"
+    ],
+    "locales": [
+      "de_AT",
+      "de_DE",
+      "de_LI",
+      "de_LU",
+      "de_CH"
     ]
   },
   {
@@ -395,6 +513,9 @@
     "countries": [
       "GRC",
       "CYP"
+    ],
+    "locales": [
+      "el_GR"
     ]
   },
   {
@@ -403,13 +524,17 @@
     "countries": [
       "PRY",
       "BOL"
-    ]
+    ],
+    "locales": []
   },
   {
     "name": "Gujarati",
     "iso_639_2": "gu",
     "countries": [
       "IND"
+    ],
+    "locales": [
+      "gu_IN"
     ]
   },
   {
@@ -417,7 +542,8 @@
     "iso_639_2": "ht",
     "countries": [
       "HTI"
-    ]
+    ],
+    "locales": []
   },
   {
     "name": "Hausa",
@@ -425,13 +551,17 @@
     "countries": [
       "NER",
       "NGA"
-    ]
+    ],
+    "locales": []
   },
   {
     "name": "Hebrew",
     "iso_639_2": "he",
     "countries": [
       "ISR"
+    ],
+    "locales": [
+      "he_IL"
     ]
   },
   {
@@ -440,6 +570,9 @@
     "countries": [
       "IND",
       "FJI"
+    ],
+    "locales": [
+      "hi_IN"
     ]
   },
   {
@@ -447,13 +580,17 @@
     "iso_639_2": "ho",
     "countries": [
       "PNG"
-    ]
+    ],
+    "locales": []
   },
   {
     "name": "Hungarian",
     "iso_639_2": "hu",
     "countries": [
       "HUN"
+    ],
+    "locales": [
+      "hu_HU"
     ]
   },
   {
@@ -461,6 +598,9 @@
     "iso_639_2": "is",
     "countries": [
       "ISL"
+    ],
+    "locales": [
+      "is_IS"
     ]
   },
   {
@@ -468,13 +608,17 @@
     "iso_639_2": "ig",
     "countries": [
       "NGA"
-    ]
+    ],
+    "locales": []
   },
   {
     "name": "Indonesian",
     "iso_639_2": "id",
     "countries": [
       "IDN"
+    ],
+    "locales": [
+      "id_ID"
     ]
   },
   {
@@ -482,7 +626,8 @@
     "iso_639_2": "ga",
     "countries": [
       "IRL"
-    ]
+    ],
+    "locales": []
   },
   {
     "name": "Italian",
@@ -494,6 +639,10 @@
       "SVN",
       "CHE",
       "VAT"
+    ],
+    "locales": [
+      "it_IT",
+      "it_CH"
     ]
   },
   {
@@ -501,6 +650,9 @@
     "iso_639_2": "ja",
     "countries": [
       "JPN"
+    ],
+    "locales": [
+      "ja_JP"
     ]
   },
   {
@@ -508,13 +660,17 @@
     "iso_639_2": "kr",
     "countries": [
       "NER"
-    ]
+    ],
+    "locales": []
   },
   {
     "name": "Kazakh",
     "iso_639_2": "kk",
     "countries": [
       "KAZ"
+    ],
+    "locales": [
+      "kk_KZ"
     ]
   },
   {
@@ -522,21 +678,24 @@
     "iso_639_2": "km",
     "countries": [
       "KHM"
-    ]
+    ],
+    "locales": []
   },
   {
     "name": "Kinyarwanda",
     "iso_639_2": "rw",
     "countries": [
       "RWA"
-    ]
+    ],
+    "locales": []
   },
   {
     "name": "Kirundi",
     "iso_639_2": "rn",
     "countries": [
       "BDI"
-    ]
+    ],
+    "locales": []
   },
   {
     "name": "Kongo",
@@ -545,7 +704,8 @@
       "AGO",
       "COD",
       "COG"
-    ]
+    ],
+    "locales": []
   },
   {
     "name": "Korean",
@@ -553,6 +713,9 @@
     "countries": [
       "PRK",
       "KOR"
+    ],
+    "locales": [
+      "ko_KR"
     ]
   },
   {
@@ -560,20 +723,25 @@
     "iso_639_2": "ku",
     "countries": [
       "IRQ"
-    ]
+    ],
+    "locales": []
   },
   {
     "name": "Kwanyama",
     "iso_639_2": "kj",
     "countries": [
       "AGO"
-    ]
+    ],
+    "locales": []
   },
   {
     "name": "Kyrgyz",
     "iso_639_2": "ky",
     "countries": [
       "KGZ"
+    ],
+    "locales": [
+      "ky_KZ"
     ]
   },
   {
@@ -581,20 +749,25 @@
     "iso_639_2": "lo",
     "countries": [
       "LAO"
-    ]
+    ],
+    "locales": []
   },
   {
     "name": "Latin",
     "iso_639_2": "la",
     "countries": [
       "VAT"
-    ]
+    ],
+    "locales": []
   },
   {
     "name": "Latvian",
     "iso_639_2": "lv",
     "countries": [
       "LVA"
+    ],
+    "locales": [
+      "lv_LV"
     ]
   },
   {
@@ -603,13 +776,17 @@
     "countries": [
       "COD",
       "COG"
-    ]
+    ],
+    "locales": []
   },
   {
     "name": "Lithuanian",
     "iso_639_2": "lt",
     "countries": [
       "LTU"
+    ],
+    "locales": [
+      "lt_LT"
     ]
   },
   {
@@ -617,20 +794,25 @@
     "iso_639_2": "lu",
     "countries": [
       "COD"
-    ]
+    ],
+    "locales": []
   },
   {
     "name": "Luxembourgish",
     "iso_639_2": "lb",
     "countries": [
       "LUX"
-    ]
+    ],
+    "locales": []
   },
   {
     "name": "Macedonian",
     "iso_639_2": "mk",
     "countries": [
       "MKD"
+    ],
+    "locales": [
+      "mk_MK"
     ]
   },
   {
@@ -638,7 +820,8 @@
     "iso_639_2": "mg",
     "countries": [
       "MDG"
-    ]
+    ],
+    "locales": []
   },
   {
     "name": "Malay",
@@ -648,6 +831,10 @@
       "BRN",
       "SGP",
       "IDN"
+    ],
+    "locales": [
+      "ms_BN",
+      "ms_MY"
     ]
   },
   {
@@ -655,20 +842,25 @@
     "iso_639_2": "mt",
     "countries": [
       "MLT"
-    ]
+    ],
+    "locales": []
   },
   {
     "name": "Marshallese",
     "iso_639_2": "mh",
     "countries": [
       "MHL"
-    ]
+    ],
+    "locales": []
   },
   {
     "name": "Mongolian",
     "iso_639_2": "mn",
     "countries": [
       "MNG"
+    ],
+    "locales": [
+      "mn_MN"
     ]
   },
   {
@@ -676,14 +868,16 @@
     "iso_639_2": "mi",
     "countries": [
       "NZL"
-    ]
+    ],
+    "locales": []
   },
   {
     "name": "Nepali",
     "iso_639_2": "ne",
     "countries": [
       "NPL"
-    ]
+    ],
+    "locales": []
   },
   {
     "name": "Northern Ndebele",
@@ -691,20 +885,25 @@
     "countries": [
       "ZAF",
       "ZWE"
-    ]
+    ],
+    "locales": []
   },
   {
     "name": "Norwegian",
     "iso_639_2": "no",
     "countries": [
       "NOR"
-    ]
+    ],
+    "locales": []
   },
   {
     "name": "Norwegian Bokmål",
     "iso_639_2": "nb",
     "countries": [
       "NOR"
+    ],
+    "locales": [
+      "nb_NO"
     ]
   },
   {
@@ -712,6 +911,9 @@
     "iso_639_2": "nn",
     "countries": [
       "NOR"
+    ],
+    "locales": [
+      "nn_NO"
     ]
   },
   {
@@ -719,6 +921,9 @@
     "iso_639_2": "pa",
     "countries": [
       "IND"
+    ],
+    "locales": [
+      "pa_IN"
     ]
   },
   {
@@ -726,7 +931,8 @@
     "iso_639_2": "ps",
     "countries": [
       "AFG"
-    ]
+    ],
+    "locales": []
   },
   {
     "name": "Persian",
@@ -735,6 +941,9 @@
       "IRN",
       "AFG",
       "TJK"
+    ],
+    "locales": [
+      "fa_IR"
     ]
   },
   {
@@ -742,6 +951,9 @@
     "iso_639_2": "pl",
     "countries": [
       "POL"
+    ],
+    "locales": [
+      "pl_PL"
     ]
   },
   {
@@ -758,6 +970,10 @@
       "MOZ",
       "PRT",
       "STP"
+    ],
+    "locales": [
+      "pt_BR",
+      "pt_PT"
     ]
   },
   {
@@ -766,7 +982,8 @@
     "countries": [
       "BOL",
       "PER"
-    ]
+    ],
+    "locales": []
   },
   {
     "name": "Romanian",
@@ -774,6 +991,9 @@
     "countries": [
       "ROU",
       "MDA"
+    ],
+    "locales": [
+      "ro_RO"
     ]
   },
   {
@@ -781,7 +1001,8 @@
     "iso_639_2": "rm",
     "countries": [
       "CHE"
-    ]
+    ],
+    "locales": []
   },
   {
     "name": "Russian",
@@ -792,6 +1013,9 @@
       "KAZ",
       "KGZ",
       "TJK"
+    ],
+    "locales": [
+      "ru_RU"
     ]
   },
   {
@@ -799,7 +1023,8 @@
     "iso_639_2": "sg",
     "countries": [
       "CAF"
-    ]
+    ],
+    "locales": []
   },
   {
     "name": "Serbian",
@@ -807,6 +1032,10 @@
     "countries": [
       "SRB",
       "BIH"
+    ],
+    "locales": [
+      "Cy_sr_SP",
+      "Lt_sr_SP"
     ]
   },
   {
@@ -814,14 +1043,16 @@
     "iso_639_2": "sn",
     "countries": [
       "ZWE"
-    ]
+    ],
+    "locales": []
   },
   {
     "name": "Sinhala",
     "iso_639_2": "si",
     "countries": [
       "LKA"
-    ]
+    ],
+    "locales": []
   },
   {
     "name": "Slovak",
@@ -829,6 +1060,9 @@
     "countries": [
       "SVK",
       "CZE"
+    ],
+    "locales": [
+      "sk_SK"
     ]
   },
   {
@@ -836,6 +1070,9 @@
     "iso_639_2": "sl",
     "countries": [
       "SVN"
+    ],
+    "locales": [
+      "sl_SI"
     ]
   },
   {
@@ -844,14 +1081,16 @@
     "countries": [
       "DJI",
       "SOM"
-    ]
+    ],
+    "locales": []
   },
   {
     "name": "Southern Ndebele",
     "iso_639_2": "nr",
     "countries": [
       "ZAF"
-    ]
+    ],
+    "locales": []
   },
   {
     "name": "Southern Sotho",
@@ -859,7 +1098,8 @@
     "countries": [
       "LSO",
       "ZAF"
-    ]
+    ],
+    "locales": []
   },
   {
     "name": "Spanish",
@@ -887,6 +1127,27 @@
       "URY",
       "VEN",
       "ESH"
+    ],
+    "locales": [
+      "es_AR",
+      "es_BO",
+      "es_CL",
+      "es_CO",
+      "es_CR",
+      "es_DO",
+      "es_EC",
+      "es_SV",
+      "es_GT",
+      "es_HN",
+      "es_MX",
+      "es_NI",
+      "es_PA",
+      "es_PY",
+      "es_PE",
+      "es_PR",
+      "es_ES",
+      "es_UY",
+      "es_VE"
     ]
   },
   {
@@ -897,6 +1158,9 @@
       "KEN",
       "TZA",
       "UGA"
+    ],
+    "locales": [
+      "sw_KE"
     ]
   },
   {
@@ -905,7 +1169,8 @@
     "countries": [
       "SWZ",
       "ZAF"
-    ]
+    ],
+    "locales": []
   },
   {
     "name": "Swedish",
@@ -914,6 +1179,10 @@
       "SWE",
       "FIN",
       "ALA"
+    ],
+    "locales": [
+      "sv_FI",
+      "sv_SE"
     ]
   },
   {
@@ -921,14 +1190,16 @@
     "iso_639_2": "tl",
     "countries": [
       "PHL"
-    ]
+    ],
+    "locales": []
   },
   {
     "name": "Tajik",
     "iso_639_2": "tg",
     "countries": [
       "TJK"
-    ]
+    ],
+    "locales": []
   },
   {
     "name": "Tamil",
@@ -939,6 +1210,9 @@
       "LKA",
       "MYS",
       "MUS"
+    ],
+    "locales": [
+      "ta_IN"
     ]
   },
   {
@@ -946,6 +1220,9 @@
     "iso_639_2": "te",
     "countries": [
       "IND"
+    ],
+    "locales": [
+      "te_IN"
     ]
   },
   {
@@ -953,6 +1230,9 @@
     "iso_639_2": "th",
     "countries": [
       "THA"
+    ],
+    "locales": [
+      "th_TH"
     ]
   },
   {
@@ -960,14 +1240,16 @@
     "iso_639_2": "ti",
     "countries": [
       "ERI"
-    ]
+    ],
+    "locales": []
   },
   {
     "name": "Tsonga",
     "iso_639_2": "ts",
     "countries": [
       "ZAF"
-    ]
+    ],
+    "locales": []
   },
   {
     "name": "Tswana",
@@ -975,7 +1257,8 @@
     "countries": [
       "BWA",
       "ZAF"
-    ]
+    ],
+    "locales": []
   },
   {
     "name": "Turkish",
@@ -983,6 +1266,9 @@
     "countries": [
       "TUR",
       "CYP"
+    ],
+    "locales": [
+      "tr_TR"
     ]
   },
   {
@@ -990,13 +1276,17 @@
     "iso_639_2": "tk",
     "countries": [
       "TKM"
-    ]
+    ],
+    "locales": []
   },
   {
     "name": "Ukrainian",
     "iso_639_2": "uk",
     "countries": [
       "UKR"
+    ],
+    "locales": [
+      "uk_UA"
     ]
   },
   {
@@ -1005,6 +1295,9 @@
     "countries": [
       "PAK",
       "FJI"
+    ],
+    "locales": [
+      "ur_PK"
     ]
   },
   {
@@ -1012,6 +1305,10 @@
     "iso_639_2": "uz",
     "countries": [
       "UZB"
+    ],
+    "locales": [
+      "Cy_uz_UZ",
+      "Lt_uz_UZ"
     ]
   },
   {
@@ -1019,13 +1316,17 @@
     "iso_639_2": "ve",
     "countries": [
       "ZAF"
-    ]
+    ],
+    "locales": []
   },
   {
     "name": "Vietnamese",
     "iso_639_2": "vi",
     "countries": [
       "VNM"
+    ],
+    "locales": [
+      "vi_VN"
     ]
   },
   {
@@ -1033,21 +1334,24 @@
     "iso_639_2": "cy",
     "countries": [
       "GBR"
-    ]
+    ],
+    "locales": []
   },
   {
     "name": "Wolof",
     "iso_639_2": "wo",
     "countries": [
       "SEN"
-    ]
+    ],
+    "locales": []
   },
   {
     "name": "Xhosa",
     "iso_639_2": "xh",
     "countries": [
       "ZAF"
-    ]
+    ],
+    "locales": []
   },
   {
     "name": "Yoruba",
@@ -1055,13 +1359,15 @@
     "countries": [
       "BEN",
       "NGA"
-    ]
+    ],
+    "locales": []
   },
   {
     "name": "Zulu",
     "iso_639_2": "zu",
     "countries": [
       "ZAF"
-    ]
+    ],
+    "locales": []
   }
 ]

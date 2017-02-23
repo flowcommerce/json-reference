@@ -89,11 +89,11 @@ func commonLocales(data CleansedDataSet) []common.Locale {
 		}
 		country := normalizeCountryCode(data.Countries, n.Country)
 		if country == "" {
-			fmt.Printf(" - skipping locale[%s] as country code[%s] is not known\n", id, n.Country)
+			// fmt.Printf(" - skipping locale[%s] as country code[%s] is not known\n", id, n.Country)
 		} else {
 			language := normalizeLanguageCode(data.Languages, n.Language)
 			if language == "" {
-				fmt.Printf(" - skipping locale[%s] as language code[%s] is not known\n", id, n.Language)
+				// fmt.Printf(" - skipping locale[%s] as language code[%s] is not known\n", id, n.Language)
 			} else {
 				all = append(all, common.Locale{
 					Id:       id,
@@ -125,10 +125,18 @@ func commonLanguages(data CleansedDataSet) []common.Language {
 		}
 		sort.Strings(theseCountries)
 
+		theseLocales := []string{}
+		for _, locale := range l.Locales {
+			// TODO: Validate locale is known
+			theseLocales = append(theseLocales, locale)
+		}
+		sort.Strings(theseLocales)
+		
 		all = append(all, common.Language{
 			Name:      l.Name,
 			Iso_639_2: l.Iso_639_2,
 			Countries: theseCountries,
+			Locales:   theseLocales,
 		})
 	}
 	return all

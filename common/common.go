@@ -44,6 +44,7 @@ type Language struct {
 	Name      string   `json:"name"`
 	Iso_639_2 string   `json:"iso_639_2"`
 	Countries []string `json:"countries"`
+	Locales   []string `json:"locales"`
 }
 
 type Region struct {
