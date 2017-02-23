@@ -316,6 +316,7 @@
       "SGP",
       "THA",
       "TUR",
+      "TWN",
       "UZB",
       "VNM",
       "YEM"
@@ -3913,6 +3914,21 @@
     "timezones": []
   },
   {
+    "id": "twn",
+    "name": "Taiwan",
+    "countries": [
+      "TWN"
+    ],
+    "currencies": [],
+    "languages": [
+      "zh"
+    ],
+    "measurement_systems": [
+      "metric"
+    ],
+    "timezones": []
+  },
+  {
     "id": "tha",
     "name": "Thailand",
     "countries": [
@@ -4527,6 +4543,7 @@
       "TUN",
       "TUR",
       "TUV",
+      "TWN",
       "TZA",
       "UGA",
       "UKR",

@@ -1,5 +1,15 @@
 [
   {
+    "name": "Taiwan",
+    "iso_3166_2": "TW",
+    "iso_3166_3": "TWN",
+    "measurement_system": "metric",
+    "languages": [
+      "zh"
+    ],
+    "timezones": []
+  },
+  {
     "name": "Albania",
     "iso_3166_2": "AL",
     "iso_3166_3": "ALB",

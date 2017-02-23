@@ -1,5 +1,12 @@
 [
   {
+    "name": "Taiwan",
+    "continent": "AS",
+    "iso_3166_2": "TW",
+    "iso_3166_3": "TWN",
+    "currency": ""
+  },
+  {
     "name": "Albania",
     "continent": "EU",
     "iso_3166_2": "AL",

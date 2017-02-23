@@ -154,11 +154,20 @@ func Cleanse() {
 	writeJson("data/cleansed/countries.json",
 		toObjects(countriesSource,
 			func(record map[string]string) bool {
-				return record["ISO3166-1-Alpha-2"] != "" && record["ISO3166-1-Alpha-3"] != "" && record["official_name_en"] != "" && !common.ContainsIgnoreCase(unsupportedCountryCodes, record["ISO3166-1-Alpha-3"]) && !common.ContainsIgnoreCase(unsupportedCurrencyCodes, record["ISO4217-currency_alphabetic_code"])
+				return record["ISO3166-1-Alpha-2"] != "" && record["ISO3166-1-Alpha-3"] != "" && !common.ContainsIgnoreCase(unsupportedCountryCodes, record["ISO3166-1-Alpha-3"]) && !common.ContainsIgnoreCase(unsupportedCurrencyCodes, record["ISO4217-currency_alphabetic_code"])
 			},
 			func(record map[string]string) interface{} {
+				name := record["official_name_en"]
+				if name == "" {
+					name = record["name"]
+				}
+				if name == "" {
+					fmt.Printf("ERROR: Missing country name for record: %s\n", record)
+					os.Exit(1)
+				}
+				
 				return Country{
-					Name:       record["official_name_en"],
+					Name:       name,
 					Iso_3166_2: record["ISO3166-1-Alpha-2"],
 					Iso_3166_3: record["ISO3166-1-Alpha-3"],
 					Currency:   record["ISO4217-currency_alphabetic_code"],
@@ -530,6 +539,7 @@ func unsupportedCountryCodes() []string {
 	return []string{
 		"AFG",
 		"AGO",
+		"ATA", // Antarctica
 		"ATF",
 		"BDI",
 		"BLR",
