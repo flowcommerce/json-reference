@@ -457,6 +457,20 @@
     ]
   },
   {
+    "name": "Icelandic",
+    "iso_639_2": "is",
+    "countries": [
+      "ISL"
+    ]
+  },
+  {
+    "name": "Igbo",
+    "iso_639_2": "ig",
+    "countries": [
+      "NGA"
+    ]
+  },
+  {
     "name": "Indonesian",
     "iso_639_2": "id",
     "countries": [
@@ -468,20 +482,6 @@
     "iso_639_2": "ga",
     "countries": [
       "IRL"
-    ]
-  },
-  {
-    "name": "Igbo",
-    "iso_639_2": "ig",
-    "countries": [
-      "NGA"
-    ]
-  },
-  {
-    "name": "Icelandic",
-    "iso_639_2": "is",
-    "countries": [
-      "ISL"
     ]
   },
   {
@@ -532,10 +532,10 @@
     ]
   },
   {
-    "name": "Kyrgyz",
-    "iso_639_2": "ky",
+    "name": "Kirundi",
+    "iso_639_2": "rn",
     "countries": [
-      "KGZ"
+      "BDI"
     ]
   },
   {
@@ -570,6 +570,20 @@
     ]
   },
   {
+    "name": "Kyrgyz",
+    "iso_639_2": "ky",
+    "countries": [
+      "KGZ"
+    ]
+  },
+  {
+    "name": "Lao",
+    "iso_639_2": "lo",
+    "countries": [
+      "LAO"
+    ]
+  },
+  {
     "name": "Latin",
     "iso_639_2": "la",
     "countries": [
@@ -577,10 +591,10 @@
     ]
   },
   {
-    "name": "Luxembourgish",
-    "iso_639_2": "lb",
+    "name": "Latvian",
+    "iso_639_2": "lv",
     "countries": [
-      "LUX"
+      "LVA"
     ]
   },
   {
@@ -589,13 +603,6 @@
     "countries": [
       "COD",
       "COG"
-    ]
-  },
-  {
-    "name": "Lao",
-    "iso_639_2": "lo",
-    "countries": [
-      "LAO"
     ]
   },
   {
@@ -613,10 +620,10 @@
     ]
   },
   {
-    "name": "Latvian",
-    "iso_639_2": "lv",
+    "name": "Luxembourgish",
+    "iso_639_2": "lb",
     "countries": [
-      "LVA"
+      "LUX"
     ]
   },
   {
@@ -651,13 +658,6 @@
     ]
   },
   {
-    "name": "Māori",
-    "iso_639_2": "mi",
-    "countries": [
-      "NZL"
-    ]
-  },
-  {
     "name": "Marshallese",
     "iso_639_2": "mh",
     "countries": [
@@ -672,10 +672,17 @@
     ]
   },
   {
-    "name": "Norwegian Bokmål",
-    "iso_639_2": "nb",
+    "name": "Māori",
+    "iso_639_2": "mi",
     "countries": [
-      "NOR"
+      "NZL"
+    ]
+  },
+  {
+    "name": "Nepali",
+    "iso_639_2": "ne",
+    "countries": [
+      "NPL"
     ]
   },
   {
@@ -687,10 +694,17 @@
     ]
   },
   {
-    "name": "Nepali",
-    "iso_639_2": "ne",
+    "name": "Norwegian",
+    "iso_639_2": "no",
     "countries": [
-      "NPL"
+      "NOR"
+    ]
+  },
+  {
+    "name": "Norwegian Bokmål",
+    "iso_639_2": "nb",
+    "countries": [
+      "NOR"
     ]
   },
   {
@@ -701,24 +715,17 @@
     ]
   },
   {
-    "name": "Norwegian",
-    "iso_639_2": "no",
-    "countries": [
-      "NOR"
-    ]
-  },
-  {
-    "name": "Southern Ndebele",
-    "iso_639_2": "nr",
-    "countries": [
-      "ZAF"
-    ]
-  },
-  {
     "name": "Panjabi",
     "iso_639_2": "pa",
     "countries": [
       "IND"
+    ]
+  },
+  {
+    "name": "Pashto",
+    "iso_639_2": "ps",
+    "countries": [
+      "AFG"
     ]
   },
   {
@@ -735,13 +742,6 @@
     "iso_639_2": "pl",
     "countries": [
       "POL"
-    ]
-  },
-  {
-    "name": "Pashto",
-    "iso_639_2": "ps",
-    "countries": [
-      "AFG"
     ]
   },
   {
@@ -769,25 +769,18 @@
     ]
   },
   {
-    "name": "Romansh",
-    "iso_639_2": "rm",
-    "countries": [
-      "CHE"
-    ]
-  },
-  {
-    "name": "Kirundi",
-    "iso_639_2": "rn",
-    "countries": [
-      "BDI"
-    ]
-  },
-  {
     "name": "Romanian",
     "iso_639_2": "ro",
     "countries": [
       "ROU",
       "MDA"
+    ]
+  },
+  {
+    "name": "Romansh",
+    "iso_639_2": "rm",
+    "countries": [
+      "CHE"
     ]
   },
   {
@@ -854,6 +847,13 @@
     ]
   },
   {
+    "name": "Southern Ndebele",
+    "iso_639_2": "nr",
+    "countries": [
+      "ZAF"
+    ]
+  },
+  {
     "name": "Southern Sotho",
     "iso_639_2": "st",
     "countries": [
@@ -917,6 +917,20 @@
     ]
   },
   {
+    "name": "Tagalog",
+    "iso_639_2": "tl",
+    "countries": [
+      "PHL"
+    ]
+  },
+  {
+    "name": "Tajik",
+    "iso_639_2": "tg",
+    "countries": [
+      "TJK"
+    ]
+  },
+  {
     "name": "Tamil",
     "iso_639_2": "ta",
     "countries": [
@@ -935,13 +949,6 @@
     ]
   },
   {
-    "name": "Tajik",
-    "iso_639_2": "tg",
-    "countries": [
-      "TJK"
-    ]
-  },
-  {
     "name": "Thai",
     "iso_639_2": "th",
     "countries": [
@@ -956,17 +963,10 @@
     ]
   },
   {
-    "name": "Turkmen",
-    "iso_639_2": "tk",
+    "name": "Tsonga",
+    "iso_639_2": "ts",
     "countries": [
-      "TKM"
-    ]
-  },
-  {
-    "name": "Tagalog",
-    "iso_639_2": "tl",
-    "countries": [
-      "PHL"
+      "ZAF"
     ]
   },
   {
@@ -986,10 +986,10 @@
     ]
   },
   {
-    "name": "Tsonga",
-    "iso_639_2": "ts",
+    "name": "Turkmen",
+    "iso_639_2": "tk",
     "countries": [
-      "ZAF"
+      "TKM"
     ]
   },
   {

@@ -313,6 +313,7 @@ func readLanguages(file string) []Language {
 			})
 		}
 	}
+	sortLanguages(languages)
 
 	return languages
 }
@@ -620,4 +621,11 @@ func sortCurrencies(currencies []Currency) []Currency {
 		return strings.ToLower(currencies[i].Name) < strings.ToLower(currencies[j].Name)
 	})
 	return currencies
+}
+
+func sortLanguages(languages []Language) []Language {
+	slice.Sort(languages[:], func(i, j int) bool {
+		return strings.ToLower(languages[i].Name) < strings.ToLower(languages[j].Name)
+	})
+	return languages
 }
