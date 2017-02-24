@@ -8,7 +8,7 @@ simple, canonical set of reference data that we use throughout Flow.
 ## JSON Data
 
 JSON data files can be found in the
-[data/final](/flowcommerce/json-reference/tree/master/data/final)
+[data/final](https://github.com/flowcommerce/json-reference/tree/master/data/final)
 directory.
 
   - [Continents](https://github.com/flowcommerce/json-reference/blob/master/data/final/continents.json)
