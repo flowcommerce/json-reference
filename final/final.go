@@ -555,7 +555,7 @@ func sortLocales(locales []common.Locale) []common.Locale {
 
 func sortTimezones(timezones []common.Timezone) []common.Timezone {
 	slice.Sort(timezones[:], func(i, j int) bool {
-		return strings.ToLower(timezones[i].Name) < strings.ToLower(timezones[j].Name)
+		return strings.ToLower(timezones[i].Description) < strings.ToLower(timezones[j].Description)
 	})
 	return timezones
 }
