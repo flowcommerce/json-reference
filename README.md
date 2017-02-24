@@ -57,4 +57,4 @@ View commands available:
 
 Run end to end process:
 
-  `go run script/reference.go`
+  `go run script/reference.go all`
