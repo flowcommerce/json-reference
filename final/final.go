@@ -304,8 +304,9 @@ func world(countries []common.Country) common.Region {
 }
 
 func findCountryByCode(countries []cleanse.Country, code string) cleanse.Country {
+	formatted := strings.ToUpper(code)
 	for _, c := range countries {
-		if c.Iso_3166_2 == code || c.Iso_3166_3 == code {
+		if c.Iso_3166_2 == formatted || c.Iso_3166_3 == formatted {
 			return c
 		}
 	}
@@ -315,8 +316,9 @@ func findCountryByCode(countries []cleanse.Country, code string) cleanse.Country
 }
 
 func normalizeCountryCode(countries []cleanse.Country, code string) string {
+	formatted := strings.ToUpper(code)
 	for _, c := range countries {
-		if c.Iso_3166_2 == code || c.Iso_3166_3 == code {
+		if c.Iso_3166_2 == formatted || c.Iso_3166_3 == formatted {
 			return c.Iso_3166_3
 		}
 	}
@@ -357,8 +359,9 @@ func findLanguageByCode(languages []cleanse.Language, code string) cleanse.Langu
 }
 
 func normalizeLanguageCode(languages []cleanse.Language, code string) string {
+	formatted := strings.ToLower(code)
 	for _, c := range languages {
-		if c.Iso_639_2 == code {
+		if c.Iso_639_2 == formatted {
 			return c.Iso_639_2
 		}
 	}

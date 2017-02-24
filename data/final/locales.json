@@ -10,6 +10,16 @@
     }
   },
   {
+    "id": "am_am",
+    "name": "Amharic - Armenia",
+    "country": "ARM",
+    "language": "am",
+    "numbers": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
     "id": "ar_DZ",
     "name": "Arabic - Algeria",
     "country": "DZA",
@@ -17,6 +27,16 @@
     "numbers": {
       "decimal": ",",
       "group": "."
+    }
+  },
+  {
+    "id": "ar_ar",
+    "name": "Arabic - Argentina",
+    "country": "ARG",
+    "language": "ar",
+    "numbers": {
+      "decimal": ".",
+      "group": ","
     }
   },
   {
@@ -220,6 +240,46 @@
     }
   },
   {
+    "id": "az_az",
+    "name": "Azerbaijani - Azerbaijan",
+    "country": "AZE",
+    "language": "az",
+    "numbers": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "id": "bm_bm",
+    "name": "Bambara - Bermuda",
+    "country": "BMU",
+    "language": "bm",
+    "numbers": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "id": "be_be",
+    "name": "Belarusian - Belgium",
+    "country": "BEL",
+    "language": "be",
+    "numbers": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "id": "bn_bn",
+    "name": "Bengali - Brunei Darussalam",
+    "country": "BRN",
+    "language": "bn",
+    "numbers": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
     "id": "bn_IN",
     "name": "Bengali - India",
     "country": "IND",
@@ -230,9 +290,49 @@
     }
   },
   {
+    "id": "bs_bs",
+    "name": "Bosnian - Bahamas",
+    "country": "BHS",
+    "language": "bs",
+    "numbers": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "id": "bg_bg",
+    "name": "Bulgarian - Bulgaria",
+    "country": "BGR",
+    "language": "bg",
+    "numbers": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "id": "my_my",
+    "name": "Burmese - Malaysia",
+    "country": "MYS",
+    "language": "my",
+    "numbers": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
     "id": "ca_AD",
     "name": "Catalan - Andorra",
     "country": "AND",
+    "language": "ca",
+    "numbers": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "id": "ca_ca",
+    "name": "Catalan - Canada",
+    "country": "CAN",
     "language": "ca",
     "numbers": {
       "decimal": ",",
@@ -310,6 +410,16 @@
     }
   },
   {
+    "id": "hr_hr",
+    "name": "Croatian - Croatia",
+    "country": "HRV",
+    "language": "hr",
+    "numbers": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
     "id": "da_GL",
     "name": "Danish - Greenland",
     "country": "GRL",
@@ -360,6 +470,16 @@
     }
   },
   {
+    "id": "nl_nl",
+    "name": "Dutch - Netherlands",
+    "country": "NLD",
+    "language": "nl",
+    "numbers": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
     "id": "nl_SX",
     "name": "Dutch - Sint Maarten",
     "country": "SXM",
@@ -367,6 +487,16 @@
     "numbers": {
       "decimal": ",",
       "group": "."
+    }
+  },
+  {
+    "id": "dz_dz",
+    "name": "Dzongkha - Algeria",
+    "country": "DZA",
+    "language": "dz",
+    "numbers": {
+      "decimal": ".",
+      "group": ","
     }
   },
   {
@@ -1270,6 +1400,26 @@
     }
   },
   {
+    "id": "et_et",
+    "name": "Estonian - Ethiopia",
+    "country": "ETH",
+    "language": "et",
+    "numbers": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "id": "ee_ee",
+    "name": "Ewe - Estonia",
+    "country": "EST",
+    "language": "ee",
+    "numbers": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
     "id": "ee_TG",
     "name": "Ewe - Togo",
     "country": "TGO",
@@ -1277,6 +1427,16 @@
     "numbers": {
       "decimal": ".",
       "group": ","
+    }
+  },
+  {
+    "id": "fi_fi",
+    "name": "Finnish - Finland",
+    "country": "FIN",
+    "language": "fi",
+    "numbers": {
+      "decimal": ",",
+      "group": " "
     }
   },
   {
@@ -1403,6 +1563,16 @@
     "id": "fr_GQ",
     "name": "French - Equatorial Guinea",
     "country": "GNQ",
+    "language": "fr",
+    "numbers": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "id": "fr_fr",
+    "name": "French - France",
+    "country": "FRA",
     "language": "fr",
     "numbers": {
       "decimal": ",",
@@ -1740,6 +1910,16 @@
     }
   },
   {
+    "id": "de_de",
+    "name": "German - Germany",
+    "country": "DEU",
+    "language": "de",
+    "numbers": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
     "id": "de_IT",
     "name": "German - Italy",
     "country": "ITA",
@@ -1790,6 +1970,16 @@
     }
   },
   {
+    "id": "gu_gu",
+    "name": "Gujarati - Guam",
+    "country": "GUM",
+    "language": "gu",
+    "numbers": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
     "id": "ha_GH",
     "name": "Hausa - Ghana",
     "country": "GHA",
@@ -1807,6 +1997,56 @@
     "numbers": {
       "decimal": ".",
       "group": ","
+    }
+  },
+  {
+    "id": "hu_hu",
+    "name": "Hungarian - Hungary",
+    "country": "HUN",
+    "language": "hu",
+    "numbers": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "id": "is_is",
+    "name": "Icelandic - Iceland",
+    "country": "ISL",
+    "language": "is",
+    "numbers": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "id": "id_id",
+    "name": "Indonesian - Indonesia",
+    "country": "IDN",
+    "language": "id",
+    "numbers": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "id": "ga_ga",
+    "name": "Irish - Gabon",
+    "country": "GAB",
+    "language": "ga",
+    "numbers": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "id": "it_it",
+    "name": "Italian - Italy",
+    "country": "ITA",
+    "language": "it",
+    "numbers": {
+      "decimal": ",",
+      "group": "."
     }
   },
   {
@@ -1830,6 +2070,46 @@
     }
   },
   {
+    "id": "km_km",
+    "name": "Khmer - Comoros",
+    "country": "COM",
+    "language": "km",
+    "numbers": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "id": "rw_rw",
+    "name": "Kinyarwanda - Rwanda",
+    "country": "RWA",
+    "language": "rw",
+    "numbers": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "id": "ky_ky",
+    "name": "Kyrgyz - Cayman Islands",
+    "country": "CYM",
+    "language": "ky",
+    "numbers": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "id": "lv_lv",
+    "name": "Latvian - Latvia",
+    "country": "LVA",
+    "language": "lv",
+    "numbers": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
     "id": "ln_CF",
     "name": "Lingala - Central African Republic",
     "country": "CAF",
@@ -1850,6 +2130,36 @@
     }
   },
   {
+    "id": "lt_lt",
+    "name": "Lithuanian - Lithuania",
+    "country": "LTU",
+    "language": "lt",
+    "numbers": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "id": "lu_lu",
+    "name": "Luba-Katanga - Luxembourg",
+    "country": "LUX",
+    "language": "lu",
+    "numbers": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "id": "lb_lb",
+    "name": "Luxembourgish - Lebanon",
+    "country": "LBN",
+    "language": "lb",
+    "numbers": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
     "id": "ms_BN",
     "name": "Malay - Brunei",
     "country": "BRN",
@@ -1860,10 +2170,40 @@
     }
   },
   {
+    "id": "ms_ms",
+    "name": "Malay - Montserrat",
+    "country": "MSR",
+    "language": "ms",
+    "numbers": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
     "id": "ms_SG",
     "name": "Malay - Singapore",
     "country": "SGP",
     "language": "ms",
+    "numbers": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "id": "mt_mt",
+    "name": "Maltese - Malta",
+    "country": "MLT",
+    "language": "mt",
+    "numbers": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "id": "mn_mn",
+    "name": "Mongolian - Mongolia",
+    "country": "MNG",
+    "language": "mn",
     "numbers": {
       "decimal": ".",
       "group": ","
@@ -1880,10 +2220,40 @@
     }
   },
   {
+    "id": "ne_ne",
+    "name": "Nepali - Niger",
+    "country": "NER",
+    "language": "ne",
+    "numbers": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
     "id": "nb_SJ",
     "name": "Norwegian Bokmål - Svalbard and Jan Mayen Islands",
     "country": "SJM",
     "language": "nb",
+    "numbers": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "id": "pa_pa",
+    "name": "Panjabi - Panama",
+    "country": "PAN",
+    "language": "pa",
+    "numbers": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "id": "pl_pl",
+    "name": "Polish - Poland",
+    "country": "POL",
+    "language": "pl",
     "numbers": {
       "decimal": ",",
       "group": " "
@@ -1950,6 +2320,16 @@
     }
   },
   {
+    "id": "pt_pt",
+    "name": "Portuguese - Portugal",
+    "country": "PRT",
+    "language": "pt",
+    "numbers": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
     "id": "pt_ST",
     "name": "Portuguese - Sao Tome and Principe",
     "country": "STP",
@@ -2010,6 +2390,16 @@
     }
   },
   {
+    "id": "ro_ro",
+    "name": "Romanian - Romania",
+    "country": "ROU",
+    "language": "ro",
+    "numbers": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
     "id": "ru_KZ",
     "name": "Russian - Kazakhstan",
     "country": "KAZ",
@@ -2040,6 +2430,16 @@
     }
   },
   {
+    "id": "ru_ru",
+    "name": "Russian - Russian Federation",
+    "country": "RUS",
+    "language": "ru",
+    "numbers": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
     "id": "ru_UA",
     "name": "Russian - Ukraine",
     "country": "UKR",
@@ -2047,6 +2447,16 @@
     "numbers": {
       "decimal": ",",
       "group": " "
+    }
+  },
+  {
+    "id": "sg_sg",
+    "name": "Sango - Singapore",
+    "country": "SGP",
+    "language": "sg",
+    "numbers": {
+      "decimal": ",",
+      "group": "."
     }
   },
   {
@@ -2064,6 +2474,46 @@
     "name": "Serbian - Montenegro",
     "country": "MNE",
     "language": "sr",
+    "numbers": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "id": "sn_sn",
+    "name": "Shona - Senegal",
+    "country": "SEN",
+    "language": "sn",
+    "numbers": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "id": "si_si",
+    "name": "Sinhala - Slovenia",
+    "country": "SVN",
+    "language": "si",
+    "numbers": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "id": "sk_sk",
+    "name": "Slovak - Slovakia",
+    "country": "SVK",
+    "language": "sk",
+    "numbers": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "id": "sl_sl",
+    "name": "Slovene - Sierra Leone",
+    "country": "SLE",
+    "language": "sl",
     "numbers": {
       "decimal": ",",
       "group": "."
@@ -2093,6 +2543,16 @@
     "id": "so_KE",
     "name": "Somali - Kenya",
     "country": "KEN",
+    "language": "so",
+    "numbers": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "id": "so_so",
+    "name": "Somali - Somalia",
+    "country": "SOM",
     "language": "so",
     "numbers": {
       "decimal": ".",
@@ -2290,6 +2750,16 @@
     }
   },
   {
+    "id": "es_es",
+    "name": "Spanish - Spain",
+    "country": "ESP",
+    "language": "es",
+    "numbers": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
     "id": "es_US",
     "name": "Spanish - United States of America",
     "country": "USA",
@@ -2337,6 +2807,16 @@
     "numbers": {
       "decimal": ".",
       "group": ","
+    }
+  },
+  {
+    "id": "sv_sv",
+    "name": "Swedish - El Salvador",
+    "country": "SLV",
+    "language": "sv",
+    "numbers": {
+      "decimal": ",",
+      "group": " "
     }
   },
   {
@@ -2390,6 +2870,16 @@
     }
   },
   {
+    "id": "th_th",
+    "name": "Thai - Thailand",
+    "country": "THA",
+    "language": "th",
+    "numbers": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
     "id": "tr_CY",
     "name": "Turkish - Cyprus",
     "country": "CYP",
@@ -2400,10 +2890,60 @@
     }
   },
   {
+    "id": "tr_tr",
+    "name": "Turkish - Turkey",
+    "country": "TUR",
+    "language": "tr",
+    "numbers": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "id": "tk_tk",
+    "name": "Turkmen - Tokelau",
+    "country": "TKL",
+    "language": "tk",
+    "numbers": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
     "id": "ur_IN",
     "name": "Urdu - India",
     "country": "IND",
     "language": "ur",
+    "numbers": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "id": "uz_uz",
+    "name": "Uzbek - Uzbekistan",
+    "country": "UZB",
+    "language": "uz",
+    "numbers": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "id": "vi_vi",
+    "name": "Vietnamese - United States Virgin Islands",
+    "country": "VIR",
+    "language": "vi",
+    "numbers": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "id": "cy_cy",
+    "name": "Welsh - Cyprus",
+    "country": "CYP",
+    "language": "cy",
     "numbers": {
       "decimal": ".",
       "group": ","
