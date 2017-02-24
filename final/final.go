@@ -171,6 +171,7 @@ func commonTimezones(data CleansedDataSet) []common.Timezone {
 			Offset:      t.Offset,
 		})
 	}
+	sortTimezones(all)
 	return all
 }
 
@@ -550,4 +551,11 @@ func sortLocales(locales []common.Locale) []common.Locale {
 		return strings.ToLower(locales[i].Name) < strings.ToLower(locales[j].Name)
 	})
 	return locales
+}
+
+func sortTimezones(timezones []common.Timezone) []common.Timezone {
+	slice.Sort(timezones[:], func(i, j int) bool {
+		return strings.ToLower(timezones[i].Name) < strings.ToLower(timezones[j].Name)
+	})
+	return timezones
 }

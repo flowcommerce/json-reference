@@ -1,5 +1,1 @@
-Locale:
-
-  - Rename code to 'id'
-
-Figure out where to add default locale (country? currency?)
+sort timzones

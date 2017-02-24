@@ -1745,14 +1745,14 @@
     "offset": 600
   },
   {
-    "name": "Australia/NSW",
-    "description": "Australian Eastern Standard Time (New South Wales)",
-    "offset": 600
-  },
-  {
     "name": "Australia/North",
     "description": "Australian Central Standard Time (Northern Territory)",
     "offset": 570
+  },
+  {
+    "name": "Australia/NSW",
+    "description": "Australian Eastern Standard Time (New South Wales)",
+    "offset": 600
   },
   {
     "name": "Australia/Perth",
@@ -1815,16 +1815,6 @@
     "offset": -240
   },
   {
-    "name": "CET",
-    "description": "Central European Summer Time",
-    "offset": 120
-  },
-  {
-    "name": "CST6CDT",
-    "description": "Central Daylight Time",
-    "offset": -300
-  },
-  {
     "name": "Canada/Atlantic",
     "description": "Atlantic Daylight Time",
     "offset": -180
@@ -1870,6 +1860,11 @@
     "offset": -420
   },
   {
+    "name": "CET",
+    "description": "Central European Summer Time",
+    "offset": 120
+  },
+  {
     "name": "Chile/Continental",
     "description": "Chile Time",
     "offset": -180
@@ -1877,6 +1872,11 @@
   {
     "name": "Chile/EasterIsland",
     "description": "Easter Is. Time",
+    "offset": -300
+  },
+  {
+    "name": "CST6CDT",
+    "description": "Central Daylight Time",
     "offset": -300
   },
   {
@@ -1890,16 +1890,6 @@
     "offset": 180
   },
   {
-    "name": "EST",
-    "description": "Eastern Standard Time",
-    "offset": -300
-  },
-  {
-    "name": "EST5EDT",
-    "description": "Eastern Daylight Time",
-    "offset": -240
-  },
-  {
     "name": "Egypt",
     "description": "Eastern European Time",
     "offset": 120
@@ -1908,6 +1898,16 @@
     "name": "Eire",
     "description": "Irish Summer Time",
     "offset": 60
+  },
+  {
+    "name": "EST",
+    "description": "Eastern Standard Time",
+    "offset": -300
+  },
+  {
+    "name": "EST5EDT",
+    "description": "Eastern Daylight Time",
+    "offset": -240
   },
   {
     "name": "Etc/GMT",
@@ -2070,12 +2070,12 @@
     "offset": 0
   },
   {
-    "name": "Etc/UTC",
+    "name": "Etc/Universal",
     "description": "Coordinated Universal Time",
     "offset": 0
   },
   {
-    "name": "Etc/Universal",
+    "name": "Etc/UTC",
     "description": "Coordinated Universal Time",
     "offset": 0
   },
@@ -2415,14 +2415,14 @@
     "offset": 0
   },
   {
-    "name": "HST",
-    "description": "Hawaii Standard Time",
-    "offset": -600
-  },
-  {
     "name": "Hongkong",
     "description": "Hong Kong Time",
     "offset": 480
+  },
+  {
+    "name": "HST",
+    "description": "Hawaii Standard Time",
+    "offset": -600
   },
   {
     "name": "Iceland",
@@ -2520,16 +2520,6 @@
     "offset": 120
   },
   {
-    "name": "MST",
-    "description": "Mountain Standard Time",
-    "offset": -420
-  },
-  {
-    "name": "MST7MDT",
-    "description": "Mountain Daylight Time",
-    "offset": -360
-  },
-  {
     "name": "Mexico/BajaNorte",
     "description": "Pacific Daylight Time",
     "offset": -420
@@ -2545,6 +2535,21 @@
     "offset": -300
   },
   {
+    "name": "MST",
+    "description": "Mountain Standard Time",
+    "offset": -420
+  },
+  {
+    "name": "MST7MDT",
+    "description": "Mountain Daylight Time",
+    "offset": -360
+  },
+  {
+    "name": "Navajo",
+    "description": "Mountain Daylight Time",
+    "offset": -360
+  },
+  {
     "name": "NZ",
     "description": "New Zealand Standard Time",
     "offset": 720
@@ -2553,21 +2558,6 @@
     "name": "NZ-CHAT",
     "description": "Chatham Standard Time",
     "offset": 765
-  },
-  {
-    "name": "Navajo",
-    "description": "Mountain Daylight Time",
-    "offset": -360
-  },
-  {
-    "name": "PRC",
-    "description": "China Standard Time",
-    "offset": 480
-  },
-  {
-    "name": "PST8PDT",
-    "description": "Pacific Daylight Time",
-    "offset": -420
   },
   {
     "name": "Pacific/Apia",
@@ -2795,6 +2785,16 @@
     "offset": 60
   },
   {
+    "name": "PRC",
+    "description": "China Standard Time",
+    "offset": 480
+  },
+  {
+    "name": "PST8PDT",
+    "description": "Pacific Daylight Time",
+    "offset": -420
+  },
+  {
     "name": "ROC",
     "description": "China Standard Time",
     "offset": 480
@@ -2816,6 +2816,11 @@
   },
   {
     "name": "UCT",
+    "description": "Coordinated Universal Time",
+    "offset": 0
+  },
+  {
+    "name": "Universal",
     "description": "Coordinated Universal Time",
     "offset": 0
   },
@@ -2886,11 +2891,6 @@
   },
   {
     "name": "UTC",
-    "description": "Coordinated Universal Time",
-    "offset": 0
-  },
-  {
-    "name": "Universal",
     "description": "Coordinated Universal Time",
     "offset": 0
   },
