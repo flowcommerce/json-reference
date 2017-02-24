@@ -421,9 +421,14 @@ func readNumbers(file string) []Number {
 
 	numbers := []Number{}
 	for _, main := range data.Main {
+		country := main.Identity.Territory
+		if country == "" {
+			// e.g. 'fr' where the code maps to both the country and language
+			country = main.Identity.Language
+		}
 		numbers = append(numbers, Number{
 			Language: main.Identity.Language,
-			Country:  main.Identity.Territory,
+			Country:  country,
 			Separators: Separators{
 				Decimal: main.Numbers.Symbols.Decimal,
 				Group:   main.Numbers.Symbols.Group,

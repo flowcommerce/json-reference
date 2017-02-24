@@ -1,10 +1,50 @@
 [
   {
+    "country": "af",
+    "language": "af",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
     "country": "NA",
     "language": "af",
     "separators": {
       "decimal": ",",
       "group": " "
+    }
+  },
+  {
+    "country": "agq",
+    "language": "agq",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "ak",
+    "language": "ak",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "am",
+    "language": "am",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "ar",
+    "language": "ar",
+    "separators": {
+      "decimal": ".",
+      "group": ","
     }
   },
   {
@@ -224,8 +264,120 @@
     }
   },
   {
+    "country": "as",
+    "language": "as",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "asa",
+    "language": "asa",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "ast",
+    "language": "ast",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "az",
+    "language": "az",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "az",
+    "language": "az",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "az",
+    "language": "az",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "bas",
+    "language": "bas",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "be",
+    "language": "be",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "bem",
+    "language": "bem",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "bez",
+    "language": "bez",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "bg",
+    "language": "bg",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "bm",
+    "language": "bm",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "bn",
+    "language": "bn",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
     "country": "IN",
     "language": "bn",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "bo",
+    "language": "bo",
     "separators": {
       "decimal": ".",
       "group": ","
@@ -237,6 +389,54 @@
     "separators": {
       "decimal": ".",
       "group": ","
+    }
+  },
+  {
+    "country": "br",
+    "language": "br",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "brx",
+    "language": "brx",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "bs",
+    "language": "bs",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "bs",
+    "language": "bs",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "bs",
+    "language": "bs",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "ca",
+    "language": "ca",
+    "separators": {
+      "decimal": ",",
+      "group": "."
     }
   },
   {
@@ -272,6 +472,38 @@
     }
   },
   {
+    "country": "ce",
+    "language": "ce",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "cgg",
+    "language": "cgg",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "chr",
+    "language": "chr",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "ckb",
+    "language": "ckb",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
     "country": "IR",
     "language": "ckb",
     "separators": {
@@ -280,8 +512,56 @@
     }
   },
   {
+    "country": "cs",
+    "language": "cs",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "cu",
+    "language": "cu",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "cy",
+    "language": "cy",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "da",
+    "language": "da",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
     "country": "GL",
     "language": "da",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "dav",
+    "language": "dav",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "de",
+    "language": "de",
     "separators": {
       "decimal": ",",
       "group": "."
@@ -336,6 +616,62 @@
     }
   },
   {
+    "country": "dje",
+    "language": "dje",
+    "separators": {
+      "decimal": ".",
+      "group": " "
+    }
+  },
+  {
+    "country": "dsb",
+    "language": "dsb",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "dua",
+    "language": "dua",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "dyo",
+    "language": "dyo",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "dz",
+    "language": "dz",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "ebu",
+    "language": "ebu",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "ee",
+    "language": "ee",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
     "country": "TG",
     "language": "ee",
     "separators": {
@@ -344,11 +680,27 @@
     }
   },
   {
+    "country": "el",
+    "language": "el",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
     "country": "CY",
     "language": "el",
     "separators": {
       "decimal": ",",
       "group": "."
+    }
+  },
+  {
+    "country": "en",
+    "language": "en",
+    "separators": {
+      "decimal": ".",
+      "group": ","
     }
   },
   {
@@ -1184,6 +1536,22 @@
     }
   },
   {
+    "country": "eo",
+    "language": "eo",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "es",
+    "language": "es",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
     "country": "419",
     "language": "es",
     "separators": {
@@ -1392,11 +1760,51 @@
     }
   },
   {
+    "country": "et",
+    "language": "et",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "eu",
+    "language": "eu",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "ewo",
+    "language": "ewo",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "fa",
+    "language": "fa",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
     "country": "AF",
     "language": "fa",
     "separators": {
       "decimal": ".",
       "group": ","
+    }
+  },
+  {
+    "country": "ff",
+    "language": "ff",
+    "separators": {
+      "decimal": ",",
+      "group": " "
     }
   },
   {
@@ -1424,11 +1832,43 @@
     }
   },
   {
+    "country": "fi",
+    "language": "fi",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "fil",
+    "language": "fil",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "fo",
+    "language": "fo",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
     "country": "DK",
     "language": "fo",
     "separators": {
       "decimal": ",",
       "group": "."
+    }
+  },
+  {
+    "country": "fr",
+    "language": "fr",
+    "separators": {
+      "decimal": ",",
+      "group": " "
     }
   },
   {
@@ -1792,6 +2232,54 @@
     }
   },
   {
+    "country": "fur",
+    "language": "fur",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "fy",
+    "language": "fy",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "ga",
+    "language": "ga",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "gd",
+    "language": "gd",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "gl",
+    "language": "gl",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "gsw",
+    "language": "gsw",
+    "separators": {
+      "decimal": ".",
+      "group": "’"
+    }
+  },
+  {
     "country": "FR",
     "language": "gsw",
     "separators": {
@@ -1805,6 +2293,38 @@
     "separators": {
       "decimal": ".",
       "group": "’"
+    }
+  },
+  {
+    "country": "gu",
+    "language": "gu",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "guz",
+    "language": "guz",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "gv",
+    "language": "gv",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "ha",
+    "language": "ha",
+    "separators": {
+      "decimal": ".",
+      "group": ","
     }
   },
   {
@@ -1824,8 +2344,104 @@
     }
   },
   {
+    "country": "haw",
+    "language": "haw",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "he",
+    "language": "he",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "hi",
+    "language": "hi",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "hr",
+    "language": "hr",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
     "country": "BA",
     "language": "hr",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "hsb",
+    "language": "hsb",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "hu",
+    "language": "hu",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "hy",
+    "language": "hy",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "id",
+    "language": "id",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "ig",
+    "language": "ig",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "ii",
+    "language": "ii",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "is",
+    "language": "is",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "it",
+    "language": "it",
     "separators": {
       "decimal": ",",
       "group": "."
@@ -1848,11 +2464,243 @@
     }
   },
   {
+    "country": "ja",
+    "language": "ja",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "jgo",
+    "language": "jgo",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "jmc",
+    "language": "jmc",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "ka",
+    "language": "ka",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "kab",
+    "language": "kab",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "kam",
+    "language": "kam",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "kde",
+    "language": "kde",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "kea",
+    "language": "kea",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "khq",
+    "language": "khq",
+    "separators": {
+      "decimal": ".",
+      "group": " "
+    }
+  },
+  {
+    "country": "ki",
+    "language": "ki",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "kk",
+    "language": "kk",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "kkj",
+    "language": "kkj",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "kl",
+    "language": "kl",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "kln",
+    "language": "kln",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "km",
+    "language": "km",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "kn",
+    "language": "kn",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "ko",
+    "language": "ko",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
     "country": "KP",
     "language": "ko",
     "separators": {
       "decimal": ".",
       "group": ","
+    }
+  },
+  {
+    "country": "kok",
+    "language": "kok",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "ks",
+    "language": "ks",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "ksb",
+    "language": "ksb",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "ksf",
+    "language": "ksf",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "ksh",
+    "language": "ksh",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "kw",
+    "language": "kw",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "ky",
+    "language": "ky",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "lag",
+    "language": "lag",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "lb",
+    "language": "lb",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "lg",
+    "language": "lg",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "lkt",
+    "language": "lkt",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "ln",
+    "language": "ln",
+    "separators": {
+      "decimal": ",",
+      "group": "."
     }
   },
   {
@@ -1880,6 +2728,22 @@
     }
   },
   {
+    "country": "lo",
+    "language": "lo",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "lrc",
+    "language": "lrc",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
     "country": "IQ",
     "language": "lrc",
     "separators": {
@@ -1888,8 +2752,136 @@
     }
   },
   {
+    "country": "lt",
+    "language": "lt",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "lu",
+    "language": "lu",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "luo",
+    "language": "luo",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "luy",
+    "language": "luy",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "lv",
+    "language": "lv",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "mas",
+    "language": "mas",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
     "country": "TZ",
     "language": "mas",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "mer",
+    "language": "mer",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "mfe",
+    "language": "mfe",
+    "separators": {
+      "decimal": ".",
+      "group": " "
+    }
+  },
+  {
+    "country": "mg",
+    "language": "mg",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "mgh",
+    "language": "mgh",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "mgo",
+    "language": "mgo",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "mk",
+    "language": "mk",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "ml",
+    "language": "ml",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "mn",
+    "language": "mn",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "mr",
+    "language": "mr",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "ms",
+    "language": "ms",
     "separators": {
       "decimal": ".",
       "group": ","
@@ -1912,11 +2904,75 @@
     }
   },
   {
+    "country": "mt",
+    "language": "mt",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "mua",
+    "language": "mua",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "my",
+    "language": "my",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "mzn",
+    "language": "mzn",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "naq",
+    "language": "naq",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "nb",
+    "language": "nb",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
     "country": "SJ",
     "language": "nb",
     "separators": {
       "decimal": ",",
       "group": " "
+    }
+  },
+  {
+    "country": "nd",
+    "language": "nd",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "nds",
+    "language": "nds",
+    "separators": {
+      "decimal": ".",
+      "group": ","
     }
   },
   {
@@ -1928,11 +2984,27 @@
     }
   },
   {
+    "country": "ne",
+    "language": "ne",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
     "country": "IN",
     "language": "ne",
     "separators": {
       "decimal": ".",
       "group": ","
+    }
+  },
+  {
+    "country": "nl",
+    "language": "nl",
+    "separators": {
+      "decimal": ",",
+      "group": "."
     }
   },
   {
@@ -1984,6 +3056,54 @@
     }
   },
   {
+    "country": "nmg",
+    "language": "nmg",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "nn",
+    "language": "nn",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "nnh",
+    "language": "nnh",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "nus",
+    "language": "nus",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "nyn",
+    "language": "nyn",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "om",
+    "language": "om",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
     "country": "KE",
     "language": "om",
     "separators": {
@@ -1992,11 +3112,83 @@
     }
   },
   {
+    "country": "or",
+    "language": "or",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "os",
+    "language": "os",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
     "country": "RU",
     "language": "os",
     "separators": {
       "decimal": ",",
       "group": " "
+    }
+  },
+  {
+    "country": "pa",
+    "language": "pa",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "pa",
+    "language": "pa",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "pa",
+    "language": "pa",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "pl",
+    "language": "pl",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "prg",
+    "language": "prg",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "ps",
+    "language": "ps",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "pt",
+    "language": "pt",
+    "separators": {
+      "decimal": ",",
+      "group": "."
     }
   },
   {
@@ -2088,6 +3280,14 @@
     }
   },
   {
+    "country": "qu",
+    "language": "qu",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
     "country": "BO",
     "language": "qu",
     "separators": {
@@ -2104,11 +3304,59 @@
     }
   },
   {
+    "country": "rm",
+    "language": "rm",
+    "separators": {
+      "decimal": ".",
+      "group": "’"
+    }
+  },
+  {
+    "country": "rn",
+    "language": "rn",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "ro",
+    "language": "ro",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
     "country": "MD",
     "language": "ro",
     "separators": {
       "decimal": ",",
       "group": "."
+    }
+  },
+  {
+    "country": "rof",
+    "language": "rof",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "root",
+    "language": "root",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "ru",
+    "language": "ru",
+    "separators": {
+      "decimal": ",",
+      "group": " "
     }
   },
   {
@@ -2152,6 +3400,54 @@
     }
   },
   {
+    "country": "rw",
+    "language": "rw",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "rwk",
+    "language": "rwk",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "sah",
+    "language": "sah",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "saq",
+    "language": "saq",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "sbp",
+    "language": "sbp",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "se",
+    "language": "se",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
     "country": "FI",
     "language": "se",
     "separators": {
@@ -2165,6 +3461,102 @@
     "separators": {
       "decimal": ",",
       "group": " "
+    }
+  },
+  {
+    "country": "seh",
+    "language": "seh",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "ses",
+    "language": "ses",
+    "separators": {
+      "decimal": ".",
+      "group": " "
+    }
+  },
+  {
+    "country": "sg",
+    "language": "sg",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "shi",
+    "language": "shi",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "shi",
+    "language": "shi",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "shi",
+    "language": "shi",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "si",
+    "language": "si",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "sk",
+    "language": "sk",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "sl",
+    "language": "sl",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "smn",
+    "language": "smn",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "sn",
+    "language": "sn",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "so",
+    "language": "so",
+    "separators": {
+      "decimal": ".",
+      "group": ","
     }
   },
   {
@@ -2192,6 +3584,14 @@
     }
   },
   {
+    "country": "sq",
+    "language": "sq",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
     "country": "MK",
     "language": "sq",
     "separators": {
@@ -2208,7 +3608,7 @@
     }
   },
   {
-    "country": "BA",
+    "country": "sr",
     "language": "sr",
     "separators": {
       "decimal": ",",
@@ -2216,15 +3616,7 @@
     }
   },
   {
-    "country": "ME",
-    "language": "sr",
-    "separators": {
-      "decimal": ",",
-      "group": "."
-    }
-  },
-  {
-    "country": "XK",
+    "country": "sr",
     "language": "sr",
     "separators": {
       "decimal": ",",
@@ -2253,6 +3645,46 @@
     "separators": {
       "decimal": ",",
       "group": "."
+    }
+  },
+  {
+    "country": "sr",
+    "language": "sr",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "BA",
+    "language": "sr",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "ME",
+    "language": "sr",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "XK",
+    "language": "sr",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "sv",
+    "language": "sv",
+    "separators": {
+      "decimal": ",",
+      "group": " "
     }
   },
   {
@@ -2269,6 +3701,14 @@
     "separators": {
       "decimal": ",",
       "group": " "
+    }
+  },
+  {
+    "country": "sw",
+    "language": "sw",
+    "separators": {
+      "decimal": ".",
+      "group": ","
     }
   },
   {
@@ -2290,6 +3730,14 @@
   {
     "country": "UG",
     "language": "sw",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "ta",
+    "language": "ta",
     "separators": {
       "decimal": ".",
       "group": ","
@@ -2320,8 +3768,40 @@
     }
   },
   {
+    "country": "te",
+    "language": "te",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "teo",
+    "language": "teo",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
     "country": "KE",
     "language": "teo",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "th",
+    "language": "th",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "ti",
+    "language": "ti",
     "separators": {
       "decimal": ".",
       "group": ","
@@ -2336,11 +3816,75 @@
     }
   },
   {
+    "country": "tk",
+    "language": "tk",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "to",
+    "language": "to",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "tr",
+    "language": "tr",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
     "country": "CY",
     "language": "tr",
     "separators": {
       "decimal": ",",
       "group": "."
+    }
+  },
+  {
+    "country": "twq",
+    "language": "twq",
+    "separators": {
+      "decimal": ".",
+      "group": " "
+    }
+  },
+  {
+    "country": "tzm",
+    "language": "tzm",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "ug",
+    "language": "ug",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "uk",
+    "language": "uk",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "ur",
+    "language": "ur",
+    "separators": {
+      "decimal": ".",
+      "group": ","
     }
   },
   {
@@ -2352,8 +3896,160 @@
     }
   },
   {
+    "country": "uz",
+    "language": "uz",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "uz",
+    "language": "uz",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "uz",
+    "language": "uz",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "uz",
+    "language": "uz",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "vai",
+    "language": "vai",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "vai",
+    "language": "vai",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "vai",
+    "language": "vai",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "vi",
+    "language": "vi",
+    "separators": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
+    "country": "vo",
+    "language": "vo",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "vun",
+    "language": "vun",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "wae",
+    "language": "wae",
+    "separators": {
+      "decimal": ",",
+      "group": "’"
+    }
+  },
+  {
+    "country": "xog",
+    "language": "xog",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "yav",
+    "language": "yav",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "yi",
+    "language": "yi",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "yo",
+    "language": "yo",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
     "country": "BJ",
     "language": "yo",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "yue",
+    "language": "yue",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "zgh",
+    "language": "zgh",
+    "separators": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "country": "zh",
+    "language": "zh",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "zh",
+    "language": "zh",
     "separators": {
       "decimal": ".",
       "group": ","
@@ -2384,6 +4080,14 @@
     }
   },
   {
+    "country": "zh",
+    "language": "zh",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
     "country": "HK",
     "language": "zh",
     "separators": {
@@ -2394,6 +4098,14 @@
   {
     "country": "MO",
     "language": "zh",
+    "separators": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "country": "zu",
+    "language": "zu",
     "separators": {
       "decimal": ".",
       "group": ","
