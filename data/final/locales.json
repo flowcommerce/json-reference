@@ -470,9 +470,9 @@
     }
   },
   {
-    "id": "nl_nl",
-    "name": "Dutch - Netherlands",
-    "country": "NLD",
+    "id": "nl_SX",
+    "name": "Dutch - Sint Maarten",
+    "country": "SXM",
     "language": "nl",
     "numbers": {
       "decimal": ",",
@@ -480,9 +480,9 @@
     }
   },
   {
-    "id": "nl_SX",
-    "name": "Dutch - Sint Maarten",
-    "country": "SXM",
+    "id": "nl_nl",
+    "name": "Dutch - The Netherlands",
+    "country": "NLD",
     "language": "nl",
     "numbers": {
       "decimal": ",",
@@ -2431,7 +2431,7 @@
   },
   {
     "id": "ru_ru",
-    "name": "Russian - Russian Federation",
+    "name": "Russian - Russia",
     "country": "RUS",
     "language": "ru",
     "numbers": {

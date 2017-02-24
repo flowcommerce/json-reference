@@ -114,8 +114,8 @@
       "AZE"
     ],
     "locales": [
-      "Cy-az-AZ",
-      "Lt-az-AZ"
+      "Cy-az",
+      "Lt-az"
     ]
   },
   {
@@ -166,7 +166,7 @@
       "BGR"
     ],
     "locales": [
-      "bg-BG"
+      "bg"
     ]
   },
   {
@@ -221,7 +221,7 @@
       "HRV"
     ],
     "locales": [
-      "hr-HR"
+      "hr"
     ]
   },
   {
@@ -266,8 +266,8 @@
       "SXM"
     ],
     "locales": [
-      "nl-BE",
-      "nl-NL"
+      "nl",
+      "nl-BE"
     ]
   },
   {
@@ -391,7 +391,7 @@
       "FIN"
     ],
     "locales": [
-      "fi-FI"
+      "fi"
     ]
   },
   {
@@ -439,10 +439,10 @@
       "WLF"
     ],
     "locales": [
+      "fr",
       "fr-BE",
       "fr-CA",
       "fr-CH",
-      "fr-FR",
       "fr-LU",
       "fr-MC"
     ]
@@ -482,9 +482,9 @@
       "LUX"
     ],
     "locales": [
+      "de",
       "de-AT",
       "de-CH",
-      "de-DE",
       "de-LI",
       "de-LU"
     ]
@@ -572,7 +572,7 @@
       "HUN"
     ],
     "locales": [
-      "hu-HU"
+      "hu"
     ]
   },
   {
@@ -582,7 +582,7 @@
       "ISL"
     ],
     "locales": [
-      "is-IS"
+      "is"
     ]
   },
   {
@@ -600,7 +600,7 @@
       "IDN"
     ],
     "locales": [
-      "id-ID"
+      "id"
     ]
   },
   {
@@ -623,8 +623,8 @@
       "VAT"
     ],
     "locales": [
-      "it-CH",
-      "it-IT"
+      "it",
+      "it-CH"
     ]
   },
   {
@@ -740,7 +740,7 @@
       "LVA"
     ],
     "locales": [
-      "lv-LV"
+      "lv"
     ]
   },
   {
@@ -758,7 +758,7 @@
       "LTU"
     ],
     "locales": [
-      "lt-LT"
+      "lt"
     ]
   },
   {
@@ -780,7 +780,7 @@
     "iso_639_2": "mk",
     "countries": [],
     "locales": [
-      "mk-MK"
+      "mk"
     ]
   },
   {
@@ -826,7 +826,7 @@
       "MNG"
     ],
     "locales": [
-      "mn-MN"
+      "mn"
     ]
   },
   {
@@ -912,7 +912,7 @@
       "POL"
     ],
     "locales": [
-      "pl-PL"
+      "pl"
     ]
   },
   {
@@ -929,8 +929,8 @@
       "TLS"
     ],
     "locales": [
-      "pt-BR",
-      "pt-PT"
+      "pt",
+      "pt-BR"
     ]
   },
   {
@@ -950,7 +950,7 @@
       "ROU"
     ],
     "locales": [
-      "ro-RO"
+      "ro"
     ]
   },
   {
@@ -970,7 +970,7 @@
       "RUS"
     ],
     "locales": [
-      "ru-RU"
+      "ru"
     ]
   },
   {
@@ -1015,7 +1015,7 @@
       "SVK"
     ],
     "locales": [
-      "sk-SK"
+      "sk"
     ]
   },
   {
@@ -1081,6 +1081,7 @@
       "VEN"
     ],
     "locales": [
+      "es",
       "es-AR",
       "es-BO",
       "es-CL",
@@ -1088,7 +1089,6 @@
       "es-CR",
       "es-DO",
       "es-EC",
-      "es-ES",
       "es-GT",
       "es-HN",
       "es-MX",
@@ -1181,7 +1181,7 @@
       "THA"
     ],
     "locales": [
-      "th-TH"
+      "th"
     ]
   },
   {
@@ -1215,7 +1215,7 @@
       "TUR"
     ],
     "locales": [
-      "tr-TR"
+      "tr"
     ]
   },
   {
@@ -1252,8 +1252,8 @@
       "UZB"
     ],
     "locales": [
-      "Cy-uz-UZ",
-      "Lt-uz-UZ"
+      "Cy-uz",
+      "Lt-uz"
     ]
   },
   {

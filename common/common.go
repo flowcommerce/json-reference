@@ -208,5 +208,13 @@ func WriteJson(target string, data interface{}) {
 }
 
 func FormatLocaleId(value string) string {
-	return regexp.MustCompile("_").ReplaceAllString(value, "-")
+	formatted := regexp.MustCompile("_").ReplaceAllString(value, "-")
+	distinct := []string{}
+	for _, v := range(strings.Split(formatted, "-")) {
+		if !ContainsIgnoreCase(distinct, v) {
+			distinct = append(distinct, v)
+		}
+	}
+
+	return strings.Join(distinct, "-")
 }

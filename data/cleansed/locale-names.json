@@ -76,11 +76,11 @@
     "name": "Armenian - Armenia"
   },
   {
-    "id": "Cy-az-AZ",
+    "id": "Cy-az",
     "name": "Azeri (Cyrillic) - Azerbaijan"
   },
   {
-    "id": "Lt-az-AZ",
+    "id": "Lt-az",
     "name": "Azeri (Latin) - Azerbaijan"
   },
   {
@@ -88,7 +88,7 @@
     "name": "Belarusian - Belarus"
   },
   {
-    "id": "bg-BG",
+    "id": "bg",
     "name": "Bulgarian - Bulgaria"
   },
   {
@@ -124,7 +124,7 @@
     "name": "Chinese - Taiwan"
   },
   {
-    "id": "hr-HR",
+    "id": "hr",
     "name": "Croatian - Croatia"
   },
   {
@@ -144,7 +144,7 @@
     "name": "Dutch - Belgium"
   },
   {
-    "id": "nl-NL",
+    "id": "nl",
     "name": "Dutch - The Netherlands"
   },
   {
@@ -208,7 +208,7 @@
     "name": "Farsi - Iran"
   },
   {
-    "id": "fi-FI",
+    "id": "fi",
     "name": "Finnish - Finland"
   },
   {
@@ -220,7 +220,7 @@
     "name": "French - Canada"
   },
   {
-    "id": "fr-FR",
+    "id": "fr",
     "name": "French - France"
   },
   {
@@ -244,7 +244,7 @@
     "name": "German - Austria"
   },
   {
-    "id": "de-DE",
+    "id": "de",
     "name": "German - Germany"
   },
   {
@@ -276,19 +276,19 @@
     "name": "Hindi - India"
   },
   {
-    "id": "hu-HU",
+    "id": "hu",
     "name": "Hungarian - Hungary"
   },
   {
-    "id": "is-IS",
+    "id": "is",
     "name": "Icelandic - Iceland"
   },
   {
-    "id": "id-ID",
+    "id": "id",
     "name": "Indonesian - Indonesia"
   },
   {
-    "id": "it-IT",
+    "id": "it",
     "name": "Italian - Italy"
   },
   {
@@ -312,15 +312,15 @@
     "name": "Kyrgyz - Kazakhstan"
   },
   {
-    "id": "lv-LV",
+    "id": "lv",
     "name": "Latvian - Latvia"
   },
   {
-    "id": "lt-LT",
+    "id": "lt",
     "name": "Lithuanian - Lithuania"
   },
   {
-    "id": "mk-MK",
+    "id": "mk",
     "name": "Macedonian (FYROM)"
   },
   {
@@ -332,7 +332,7 @@
     "name": "Malay - Malaysia"
   },
   {
-    "id": "mn-MN",
+    "id": "mn",
     "name": "Mongolian - Mongolia"
   },
   {
@@ -344,7 +344,7 @@
     "name": "Norwegian (Nynorsk) - Norway"
   },
   {
-    "id": "pl-PL",
+    "id": "pl",
     "name": "Polish - Poland"
   },
   {
@@ -352,7 +352,7 @@
     "name": "Portuguese - Brazil"
   },
   {
-    "id": "pt-PT",
+    "id": "pt",
     "name": "Portuguese - Portugal"
   },
   {
@@ -360,11 +360,11 @@
     "name": "Punjabi - India"
   },
   {
-    "id": "ro-RO",
+    "id": "ro",
     "name": "Romanian - Romania"
   },
   {
-    "id": "ru-RU",
+    "id": "ru",
     "name": "Russian - Russia"
   },
   {
@@ -376,7 +376,7 @@
     "name": "Serbian (Latin) - Serbia"
   },
   {
-    "id": "sk-SK",
+    "id": "sk",
     "name": "Slovak - Slovakia"
   },
   {
@@ -448,7 +448,7 @@
     "name": "Spanish - Puerto Rico"
   },
   {
-    "id": "es-ES",
+    "id": "es",
     "name": "Spanish - Spain"
   },
   {
@@ -480,11 +480,11 @@
     "name": "Telugu - India"
   },
   {
-    "id": "th-TH",
+    "id": "th",
     "name": "Thai - Thailand"
   },
   {
-    "id": "tr-TR",
+    "id": "tr",
     "name": "Turkish - Turkey"
   },
   {
@@ -496,11 +496,11 @@
     "name": "Urdu - Pakistan"
   },
   {
-    "id": "Cy-uz-UZ",
+    "id": "Cy-uz",
     "name": "Uzbek (Cyrillic) - Uzbekistan"
   },
   {
-    "id": "Lt-uz-UZ",
+    "id": "Lt-uz",
     "name": "Uzbek (Latin) - Uzbekistan"
   },
   {
