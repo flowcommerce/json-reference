@@ -1,6 +1,6 @@
 [
   {
-    "id": "af_NA",
+    "id": "af-NA",
     "name": "Afrikaans - Namibia",
     "country": "NAM",
     "language": "af",
@@ -10,7 +10,7 @@
     }
   },
   {
-    "id": "am_am",
+    "id": "am",
     "name": "Amharic - Armenia",
     "country": "ARM",
     "language": "am",
@@ -20,7 +20,7 @@
     }
   },
   {
-    "id": "ar_DZ",
+    "id": "ar-DZ",
     "name": "Arabic - Algeria",
     "country": "DZA",
     "language": "ar",
@@ -30,7 +30,7 @@
     }
   },
   {
-    "id": "ar_ar",
+    "id": "ar",
     "name": "Arabic - Argentina",
     "country": "ARG",
     "language": "ar",
@@ -40,7 +40,7 @@
     }
   },
   {
-    "id": "ar_BH",
+    "id": "ar-BH",
     "name": "Arabic - Bahrain",
     "country": "BHR",
     "language": "ar",
@@ -50,7 +50,7 @@
     }
   },
   {
-    "id": "ar_TD",
+    "id": "ar-TD",
     "name": "Arabic - Chad",
     "country": "TCD",
     "language": "ar",
@@ -60,7 +60,7 @@
     }
   },
   {
-    "id": "ar_KM",
+    "id": "ar-KM",
     "name": "Arabic - Comoros",
     "country": "COM",
     "language": "ar",
@@ -70,7 +70,7 @@
     }
   },
   {
-    "id": "ar_DJ",
+    "id": "ar-DJ",
     "name": "Arabic - Djibouti",
     "country": "DJI",
     "language": "ar",
@@ -80,7 +80,7 @@
     }
   },
   {
-    "id": "ar_EG",
+    "id": "ar-EG",
     "name": "Arabic - Egypt",
     "country": "EGY",
     "language": "ar",
@@ -90,7 +90,7 @@
     }
   },
   {
-    "id": "ar_IL",
+    "id": "ar-IL",
     "name": "Arabic - Israel",
     "country": "ISR",
     "language": "ar",
@@ -100,7 +100,7 @@
     }
   },
   {
-    "id": "ar_JO",
+    "id": "ar-JO",
     "name": "Arabic - Jordan",
     "country": "JOR",
     "language": "ar",
@@ -110,7 +110,7 @@
     }
   },
   {
-    "id": "ar_KW",
+    "id": "ar-KW",
     "name": "Arabic - Kuwait",
     "country": "KWT",
     "language": "ar",
@@ -120,7 +120,7 @@
     }
   },
   {
-    "id": "ar_LB",
+    "id": "ar-LB",
     "name": "Arabic - Lebanon",
     "country": "LBN",
     "language": "ar",
@@ -130,7 +130,7 @@
     }
   },
   {
-    "id": "ar_LY",
+    "id": "ar-LY",
     "name": "Arabic - Libya",
     "country": "LBY",
     "language": "ar",
@@ -140,7 +140,7 @@
     }
   },
   {
-    "id": "ar_MR",
+    "id": "ar-MR",
     "name": "Arabic - Mauritania",
     "country": "MRT",
     "language": "ar",
@@ -150,7 +150,7 @@
     }
   },
   {
-    "id": "ar_MA",
+    "id": "ar-MA",
     "name": "Arabic - Morocco",
     "country": "MAR",
     "language": "ar",
@@ -160,7 +160,7 @@
     }
   },
   {
-    "id": "ar_OM",
+    "id": "ar-OM",
     "name": "Arabic - Oman",
     "country": "OMN",
     "language": "ar",
@@ -170,7 +170,7 @@
     }
   },
   {
-    "id": "ar_QA",
+    "id": "ar-QA",
     "name": "Arabic - Qatar",
     "country": "QAT",
     "language": "ar",
@@ -180,7 +180,7 @@
     }
   },
   {
-    "id": "ar_SA",
+    "id": "ar-SA",
     "name": "Arabic - Saudi Arabia",
     "country": "SAU",
     "language": "ar",
@@ -190,7 +190,7 @@
     }
   },
   {
-    "id": "ar_SO",
+    "id": "ar-SO",
     "name": "Arabic - Somalia",
     "country": "SOM",
     "language": "ar",
@@ -200,7 +200,7 @@
     }
   },
   {
-    "id": "ar_TN",
+    "id": "ar-TN",
     "name": "Arabic - Tunisia",
     "country": "TUN",
     "language": "ar",
@@ -210,7 +210,7 @@
     }
   },
   {
-    "id": "ar_AE",
+    "id": "ar-AE",
     "name": "Arabic - United Arab Emirates",
     "country": "ARE",
     "language": "ar",
@@ -220,7 +220,7 @@
     }
   },
   {
-    "id": "ar_EH",
+    "id": "ar-EH",
     "name": "Arabic - Western Sahara",
     "country": "ESH",
     "language": "ar",
@@ -230,7 +230,7 @@
     }
   },
   {
-    "id": "ar_YE",
+    "id": "ar-YE",
     "name": "Arabic - Yemen",
     "country": "YEM",
     "language": "ar",
@@ -240,7 +240,7 @@
     }
   },
   {
-    "id": "az_az",
+    "id": "az",
     "name": "Azerbaijani - Azerbaijan",
     "country": "AZE",
     "language": "az",
@@ -250,7 +250,7 @@
     }
   },
   {
-    "id": "bm_bm",
+    "id": "bm",
     "name": "Bambara - Bermuda",
     "country": "BMU",
     "language": "bm",
@@ -260,7 +260,7 @@
     }
   },
   {
-    "id": "be_be",
+    "id": "be",
     "name": "Belarusian - Belgium",
     "country": "BEL",
     "language": "be",
@@ -270,7 +270,7 @@
     }
   },
   {
-    "id": "bn_bn",
+    "id": "bn",
     "name": "Bengali - Brunei Darussalam",
     "country": "BRN",
     "language": "bn",
@@ -280,7 +280,7 @@
     }
   },
   {
-    "id": "bn_IN",
+    "id": "bn-IN",
     "name": "Bengali - India",
     "country": "IND",
     "language": "bn",
@@ -290,7 +290,7 @@
     }
   },
   {
-    "id": "bs_bs",
+    "id": "bs",
     "name": "Bosnian - Bahamas",
     "country": "BHS",
     "language": "bs",
@@ -300,7 +300,7 @@
     }
   },
   {
-    "id": "bg_bg",
+    "id": "bg",
     "name": "Bulgarian - Bulgaria",
     "country": "BGR",
     "language": "bg",
@@ -310,7 +310,7 @@
     }
   },
   {
-    "id": "my_my",
+    "id": "my",
     "name": "Burmese - Malaysia",
     "country": "MYS",
     "language": "my",
@@ -320,7 +320,7 @@
     }
   },
   {
-    "id": "ca_AD",
+    "id": "ca-AD",
     "name": "Catalan - Andorra",
     "country": "AND",
     "language": "ca",
@@ -330,7 +330,7 @@
     }
   },
   {
-    "id": "ca_ca",
+    "id": "ca",
     "name": "Catalan - Canada",
     "country": "CAN",
     "language": "ca",
@@ -340,7 +340,7 @@
     }
   },
   {
-    "id": "ca_ES",
+    "id": "ca-ES",
     "name": "Catalan - Catalan",
     "country": "ESP",
     "language": "ca",
@@ -350,7 +350,7 @@
     }
   },
   {
-    "id": "ca_FR",
+    "id": "ca-FR",
     "name": "Catalan - France",
     "country": "FRA",
     "language": "ca",
@@ -360,7 +360,7 @@
     }
   },
   {
-    "id": "ca_IT",
+    "id": "ca-IT",
     "name": "Catalan - Italy",
     "country": "ITA",
     "language": "ca",
@@ -370,7 +370,7 @@
     }
   },
   {
-    "id": "zh_HK",
+    "id": "zh-HK",
     "name": "Chinese - Hong Kong SAR",
     "country": "HKG",
     "language": "zh",
@@ -380,7 +380,7 @@
     }
   },
   {
-    "id": "zh_MO",
+    "id": "zh-MO",
     "name": "Chinese - Macau SAR",
     "country": "MAC",
     "language": "zh",
@@ -390,7 +390,7 @@
     }
   },
   {
-    "id": "zh_SG",
+    "id": "zh-SG",
     "name": "Chinese - Singapore",
     "country": "SGP",
     "language": "zh",
@@ -400,7 +400,7 @@
     }
   },
   {
-    "id": "hr_BA",
+    "id": "hr-BA",
     "name": "Croatian - Bosnia and Herzegovina",
     "country": "BIH",
     "language": "hr",
@@ -410,7 +410,7 @@
     }
   },
   {
-    "id": "hr_hr",
+    "id": "hr",
     "name": "Croatian - Croatia",
     "country": "HRV",
     "language": "hr",
@@ -420,7 +420,7 @@
     }
   },
   {
-    "id": "da_GL",
+    "id": "da-GL",
     "name": "Danish - Greenland",
     "country": "GRL",
     "language": "da",
@@ -430,7 +430,7 @@
     }
   },
   {
-    "id": "nl_AW",
+    "id": "nl-AW",
     "name": "Dutch - Aruba",
     "country": "ABW",
     "language": "nl",
@@ -440,7 +440,7 @@
     }
   },
   {
-    "id": "nl_BE",
+    "id": "nl-BE",
     "name": "Dutch - Belgium",
     "country": "BEL",
     "language": "nl",
@@ -450,7 +450,7 @@
     }
   },
   {
-    "id": "nl_BQ",
+    "id": "nl-BQ",
     "name": "Dutch - Bonaire, Sint Eustatius and Saba",
     "country": "BES",
     "language": "nl",
@@ -460,7 +460,7 @@
     }
   },
   {
-    "id": "nl_CW",
+    "id": "nl-CW",
     "name": "Dutch - Curaçao",
     "country": "CUW",
     "language": "nl",
@@ -470,7 +470,7 @@
     }
   },
   {
-    "id": "nl_SX",
+    "id": "nl-SX",
     "name": "Dutch - Sint Maarten",
     "country": "SXM",
     "language": "nl",
@@ -480,7 +480,7 @@
     }
   },
   {
-    "id": "nl_nl",
+    "id": "nl",
     "name": "Dutch - The Netherlands",
     "country": "NLD",
     "language": "nl",
@@ -490,7 +490,7 @@
     }
   },
   {
-    "id": "dz_dz",
+    "id": "dz",
     "name": "Dzongkha - Algeria",
     "country": "DZA",
     "language": "dz",
@@ -500,7 +500,7 @@
     }
   },
   {
-    "id": "en_AS",
+    "id": "en-AS",
     "name": "English - American Samoa",
     "country": "ASM",
     "language": "en",
@@ -510,7 +510,7 @@
     }
   },
   {
-    "id": "en_AI",
+    "id": "en-AI",
     "name": "English - Anguilla",
     "country": "AIA",
     "language": "en",
@@ -520,7 +520,7 @@
     }
   },
   {
-    "id": "en_AG",
+    "id": "en-AG",
     "name": "English - Antigua and Barbuda",
     "country": "ATG",
     "language": "en",
@@ -530,7 +530,7 @@
     }
   },
   {
-    "id": "en_AU",
+    "id": "en-AU",
     "name": "English - Australia",
     "country": "AUS",
     "language": "en",
@@ -540,7 +540,7 @@
     }
   },
   {
-    "id": "en_AT",
+    "id": "en-AT",
     "name": "English - Austria",
     "country": "AUT",
     "language": "en",
@@ -550,7 +550,7 @@
     }
   },
   {
-    "id": "en_BS",
+    "id": "en-BS",
     "name": "English - Bahamas",
     "country": "BHS",
     "language": "en",
@@ -560,7 +560,7 @@
     }
   },
   {
-    "id": "en_BB",
+    "id": "en-BB",
     "name": "English - Barbados",
     "country": "BRB",
     "language": "en",
@@ -570,7 +570,7 @@
     }
   },
   {
-    "id": "en_BE",
+    "id": "en-BE",
     "name": "English - Belgium",
     "country": "BEL",
     "language": "en",
@@ -580,7 +580,7 @@
     }
   },
   {
-    "id": "en_BZ",
+    "id": "en-BZ",
     "name": "English - Belize",
     "country": "BLZ",
     "language": "en",
@@ -590,7 +590,7 @@
     }
   },
   {
-    "id": "en_BM",
+    "id": "en-BM",
     "name": "English - Bermuda",
     "country": "BMU",
     "language": "en",
@@ -600,7 +600,7 @@
     }
   },
   {
-    "id": "en_BW",
+    "id": "en-BW",
     "name": "English - Botswana",
     "country": "BWA",
     "language": "en",
@@ -610,7 +610,7 @@
     }
   },
   {
-    "id": "en_VG",
+    "id": "en-VG",
     "name": "English - British Virgin Islands",
     "country": "VGB",
     "language": "en",
@@ -620,7 +620,7 @@
     }
   },
   {
-    "id": "en_CM",
+    "id": "en-CM",
     "name": "English - Cameroon",
     "country": "CMR",
     "language": "en",
@@ -630,7 +630,7 @@
     }
   },
   {
-    "id": "en_CA",
+    "id": "en-CA",
     "name": "English - Canada",
     "country": "CAN",
     "language": "en",
@@ -640,7 +640,7 @@
     }
   },
   {
-    "id": "en_KY",
+    "id": "en-KY",
     "name": "English - Cayman Islands",
     "country": "CYM",
     "language": "en",
@@ -650,7 +650,7 @@
     }
   },
   {
-    "id": "en_HK",
+    "id": "en-HK",
     "name": "English - China, Hong Kong Special Administrative Region",
     "country": "HKG",
     "language": "en",
@@ -660,7 +660,7 @@
     }
   },
   {
-    "id": "en_MO",
+    "id": "en-MO",
     "name": "English - China, Macao Special Administrative Region",
     "country": "MAC",
     "language": "en",
@@ -670,7 +670,7 @@
     }
   },
   {
-    "id": "en_CK",
+    "id": "en-CK",
     "name": "English - Cook Islands",
     "country": "COK",
     "language": "en",
@@ -680,7 +680,7 @@
     }
   },
   {
-    "id": "en_CY",
+    "id": "en-CY",
     "name": "English - Cyprus",
     "country": "CYP",
     "language": "en",
@@ -690,7 +690,7 @@
     }
   },
   {
-    "id": "en_DK",
+    "id": "en-DK",
     "name": "English - Denmark",
     "country": "DNK",
     "language": "en",
@@ -700,7 +700,7 @@
     }
   },
   {
-    "id": "en_DM",
+    "id": "en-DM",
     "name": "English - Dominica",
     "country": "DMA",
     "language": "en",
@@ -710,7 +710,7 @@
     }
   },
   {
-    "id": "en_FK",
+    "id": "en-FK",
     "name": "English - Falkland Islans",
     "country": "FLK",
     "language": "en",
@@ -720,7 +720,7 @@
     }
   },
   {
-    "id": "en_FJ",
+    "id": "en-FJ",
     "name": "English - Fiji",
     "country": "FJI",
     "language": "en",
@@ -730,7 +730,7 @@
     }
   },
   {
-    "id": "en_FI",
+    "id": "en-FI",
     "name": "English - Finland",
     "country": "FIN",
     "language": "en",
@@ -740,7 +740,7 @@
     }
   },
   {
-    "id": "en_GM",
+    "id": "en-GM",
     "name": "English - Gambia",
     "country": "GMB",
     "language": "en",
@@ -750,7 +750,7 @@
     }
   },
   {
-    "id": "en_DE",
+    "id": "en-DE",
     "name": "English - Germany",
     "country": "DEU",
     "language": "en",
@@ -760,7 +760,7 @@
     }
   },
   {
-    "id": "en_GH",
+    "id": "en-GH",
     "name": "English - Ghana",
     "country": "GHA",
     "language": "en",
@@ -770,7 +770,7 @@
     }
   },
   {
-    "id": "en_GI",
+    "id": "en-GI",
     "name": "English - Gibraltar",
     "country": "GIB",
     "language": "en",
@@ -780,7 +780,7 @@
     }
   },
   {
-    "id": "en_GD",
+    "id": "en-GD",
     "name": "English - Grenada",
     "country": "GRD",
     "language": "en",
@@ -790,7 +790,7 @@
     }
   },
   {
-    "id": "en_GU",
+    "id": "en-GU",
     "name": "English - Guam",
     "country": "GUM",
     "language": "en",
@@ -800,7 +800,7 @@
     }
   },
   {
-    "id": "en_GG",
+    "id": "en-GG",
     "name": "English - Guernsey",
     "country": "GGY",
     "language": "en",
@@ -810,7 +810,7 @@
     }
   },
   {
-    "id": "en_GY",
+    "id": "en-GY",
     "name": "English - Guyana",
     "country": "GUY",
     "language": "en",
@@ -820,7 +820,7 @@
     }
   },
   {
-    "id": "en_IN",
+    "id": "en-IN",
     "name": "English - India",
     "country": "IND",
     "language": "en",
@@ -830,7 +830,7 @@
     }
   },
   {
-    "id": "en_IE",
+    "id": "en-IE",
     "name": "English - Ireland",
     "country": "IRL",
     "language": "en",
@@ -840,7 +840,7 @@
     }
   },
   {
-    "id": "en_IM",
+    "id": "en-IM",
     "name": "English - Isle of Man",
     "country": "IMN",
     "language": "en",
@@ -850,7 +850,7 @@
     }
   },
   {
-    "id": "en_IL",
+    "id": "en-IL",
     "name": "English - Israel",
     "country": "ISR",
     "language": "en",
@@ -860,7 +860,7 @@
     }
   },
   {
-    "id": "en_JM",
+    "id": "en-JM",
     "name": "English - Jamaica",
     "country": "JAM",
     "language": "en",
@@ -870,7 +870,7 @@
     }
   },
   {
-    "id": "en_JE",
+    "id": "en-JE",
     "name": "English - Jersey",
     "country": "JEY",
     "language": "en",
@@ -880,7 +880,7 @@
     }
   },
   {
-    "id": "en_KE",
+    "id": "en-KE",
     "name": "English - Kenya",
     "country": "KEN",
     "language": "en",
@@ -890,7 +890,7 @@
     }
   },
   {
-    "id": "en_KI",
+    "id": "en-KI",
     "name": "English - Kiribati",
     "country": "KIR",
     "language": "en",
@@ -900,7 +900,7 @@
     }
   },
   {
-    "id": "en_LS",
+    "id": "en-LS",
     "name": "English - Lesotho",
     "country": "LSO",
     "language": "en",
@@ -910,7 +910,7 @@
     }
   },
   {
-    "id": "en_MW",
+    "id": "en-MW",
     "name": "English - Malawi",
     "country": "MWI",
     "language": "en",
@@ -920,7 +920,7 @@
     }
   },
   {
-    "id": "en_MY",
+    "id": "en-MY",
     "name": "English - Malaysia",
     "country": "MYS",
     "language": "en",
@@ -930,7 +930,7 @@
     }
   },
   {
-    "id": "en_MT",
+    "id": "en-MT",
     "name": "English - Malta",
     "country": "MLT",
     "language": "en",
@@ -940,7 +940,7 @@
     }
   },
   {
-    "id": "en_MH",
+    "id": "en-MH",
     "name": "English - Marshall Islands",
     "country": "MHL",
     "language": "en",
@@ -950,7 +950,7 @@
     }
   },
   {
-    "id": "en_MU",
+    "id": "en-MU",
     "name": "English - Mauritius",
     "country": "MUS",
     "language": "en",
@@ -960,7 +960,7 @@
     }
   },
   {
-    "id": "en_FM",
+    "id": "en-FM",
     "name": "English - Micronesia",
     "country": "FSM",
     "language": "en",
@@ -970,7 +970,7 @@
     }
   },
   {
-    "id": "en_MS",
+    "id": "en-MS",
     "name": "English - Montserrat",
     "country": "MSR",
     "language": "en",
@@ -980,7 +980,7 @@
     }
   },
   {
-    "id": "en_NA",
+    "id": "en-NA",
     "name": "English - Namibia",
     "country": "NAM",
     "language": "en",
@@ -990,7 +990,7 @@
     }
   },
   {
-    "id": "en_NR",
+    "id": "en-NR",
     "name": "English - Nauru",
     "country": "NRU",
     "language": "en",
@@ -1000,7 +1000,7 @@
     }
   },
   {
-    "id": "en_NL",
+    "id": "en-NL",
     "name": "English - Netherlands",
     "country": "NLD",
     "language": "en",
@@ -1010,7 +1010,7 @@
     }
   },
   {
-    "id": "en_NZ",
+    "id": "en-NZ",
     "name": "English - New Zealand",
     "country": "NZL",
     "language": "en",
@@ -1020,7 +1020,7 @@
     }
   },
   {
-    "id": "en_NG",
+    "id": "en-NG",
     "name": "English - Nigeria",
     "country": "NGA",
     "language": "en",
@@ -1030,7 +1030,7 @@
     }
   },
   {
-    "id": "en_NU",
+    "id": "en-NU",
     "name": "English - Niue",
     "country": "NIU",
     "language": "en",
@@ -1040,7 +1040,7 @@
     }
   },
   {
-    "id": "en_NF",
+    "id": "en-NF",
     "name": "English - Norfolk Island",
     "country": "NFK",
     "language": "en",
@@ -1050,7 +1050,7 @@
     }
   },
   {
-    "id": "en_MP",
+    "id": "en-MP",
     "name": "English - Northern Mariana Islands",
     "country": "MNP",
     "language": "en",
@@ -1060,7 +1060,7 @@
     }
   },
   {
-    "id": "en_PK",
+    "id": "en-PK",
     "name": "English - Pakistan",
     "country": "PAK",
     "language": "en",
@@ -1070,7 +1070,7 @@
     }
   },
   {
-    "id": "en_PW",
+    "id": "en-PW",
     "name": "English - Palau",
     "country": "PLW",
     "language": "en",
@@ -1080,7 +1080,7 @@
     }
   },
   {
-    "id": "en_PG",
+    "id": "en-PG",
     "name": "English - Papua New Guinea",
     "country": "PNG",
     "language": "en",
@@ -1090,7 +1090,7 @@
     }
   },
   {
-    "id": "en_PH",
+    "id": "en-PH",
     "name": "English - Philippines",
     "country": "PHL",
     "language": "en",
@@ -1100,7 +1100,7 @@
     }
   },
   {
-    "id": "en_PN",
+    "id": "en-PN",
     "name": "English - Pitcairn",
     "country": "PCN",
     "language": "en",
@@ -1110,7 +1110,7 @@
     }
   },
   {
-    "id": "en_PR",
+    "id": "en-PR",
     "name": "English - Puerto Rico",
     "country": "PRI",
     "language": "en",
@@ -1120,7 +1120,7 @@
     }
   },
   {
-    "id": "en_RW",
+    "id": "en-RW",
     "name": "English - Rwanda",
     "country": "RWA",
     "language": "en",
@@ -1130,7 +1130,7 @@
     }
   },
   {
-    "id": "en_SH",
+    "id": "en-SH",
     "name": "English - Saint Helena",
     "country": "SHN",
     "language": "en",
@@ -1140,7 +1140,7 @@
     }
   },
   {
-    "id": "en_KN",
+    "id": "en-KN",
     "name": "English - Saint Kitts and Nevis",
     "country": "KNA",
     "language": "en",
@@ -1150,7 +1150,7 @@
     }
   },
   {
-    "id": "en_LC",
+    "id": "en-LC",
     "name": "English - Saint Lucia",
     "country": "LCA",
     "language": "en",
@@ -1160,7 +1160,7 @@
     }
   },
   {
-    "id": "en_VC",
+    "id": "en-VC",
     "name": "English - Saint Vincent and the Grenadines",
     "country": "VCT",
     "language": "en",
@@ -1170,7 +1170,7 @@
     }
   },
   {
-    "id": "en_WS",
+    "id": "en-WS",
     "name": "English - Samoa",
     "country": "WSM",
     "language": "en",
@@ -1180,7 +1180,7 @@
     }
   },
   {
-    "id": "en_SC",
+    "id": "en-SC",
     "name": "English - Seychelles",
     "country": "SYC",
     "language": "en",
@@ -1190,7 +1190,7 @@
     }
   },
   {
-    "id": "en_SL",
+    "id": "en-SL",
     "name": "English - Sierra Leone",
     "country": "SLE",
     "language": "en",
@@ -1200,7 +1200,7 @@
     }
   },
   {
-    "id": "en_SG",
+    "id": "en-SG",
     "name": "English - Singapore",
     "country": "SGP",
     "language": "en",
@@ -1210,7 +1210,7 @@
     }
   },
   {
-    "id": "en_SX",
+    "id": "en-SX",
     "name": "English - Sint Maarten",
     "country": "SXM",
     "language": "en",
@@ -1220,7 +1220,7 @@
     }
   },
   {
-    "id": "en_SI",
+    "id": "en-SI",
     "name": "English - Slovenia",
     "country": "SVN",
     "language": "en",
@@ -1230,7 +1230,7 @@
     }
   },
   {
-    "id": "en_SB",
+    "id": "en-SB",
     "name": "English - Solomon Islands",
     "country": "SLB",
     "language": "en",
@@ -1240,7 +1240,7 @@
     }
   },
   {
-    "id": "en_ZA",
+    "id": "en-ZA",
     "name": "English - South Africa",
     "country": "ZAF",
     "language": "en",
@@ -1250,7 +1250,7 @@
     }
   },
   {
-    "id": "en_SZ",
+    "id": "en-SZ",
     "name": "English - Swaziland",
     "country": "SWZ",
     "language": "en",
@@ -1260,7 +1260,7 @@
     }
   },
   {
-    "id": "en_SE",
+    "id": "en-SE",
     "name": "English - Sweden",
     "country": "SWE",
     "language": "en",
@@ -1270,7 +1270,7 @@
     }
   },
   {
-    "id": "en_CH",
+    "id": "en-CH",
     "name": "English - Switzerland",
     "country": "CHE",
     "language": "en",
@@ -1280,7 +1280,7 @@
     }
   },
   {
-    "id": "en_TK",
+    "id": "en-TK",
     "name": "English - Tokelau",
     "country": "TKL",
     "language": "en",
@@ -1290,7 +1290,7 @@
     }
   },
   {
-    "id": "en_TO",
+    "id": "en-TO",
     "name": "English - Tonga",
     "country": "TON",
     "language": "en",
@@ -1300,7 +1300,7 @@
     }
   },
   {
-    "id": "en_TT",
+    "id": "en-TT",
     "name": "English - Trinidad and Tobago",
     "country": "TTO",
     "language": "en",
@@ -1310,7 +1310,7 @@
     }
   },
   {
-    "id": "en_TC",
+    "id": "en-TC",
     "name": "English - Turks and Caicos Islands",
     "country": "TCA",
     "language": "en",
@@ -1320,7 +1320,7 @@
     }
   },
   {
-    "id": "en_TV",
+    "id": "en-TV",
     "name": "English - Tuvalu",
     "country": "TUV",
     "language": "en",
@@ -1330,7 +1330,7 @@
     }
   },
   {
-    "id": "en_UG",
+    "id": "en-UG",
     "name": "English - Uganda",
     "country": "UGA",
     "language": "en",
@@ -1340,7 +1340,7 @@
     }
   },
   {
-    "id": "en_GB",
+    "id": "en-GB",
     "name": "English - United Kingdom",
     "country": "GBR",
     "language": "en",
@@ -1350,7 +1350,7 @@
     }
   },
   {
-    "id": "en_TZ",
+    "id": "en-TZ",
     "name": "English - United Republic of Tanzania",
     "country": "TZA",
     "language": "en",
@@ -1360,7 +1360,7 @@
     }
   },
   {
-    "id": "en_US",
+    "id": "en-US",
     "name": "English - United States",
     "country": "USA",
     "language": "en",
@@ -1370,7 +1370,7 @@
     }
   },
   {
-    "id": "en_VI",
+    "id": "en-VI",
     "name": "English - United States Virgin Islands",
     "country": "VIR",
     "language": "en",
@@ -1380,7 +1380,7 @@
     }
   },
   {
-    "id": "en_VU",
+    "id": "en-VU",
     "name": "English - Vanuatu",
     "country": "VUT",
     "language": "en",
@@ -1390,7 +1390,7 @@
     }
   },
   {
-    "id": "en_ZM",
+    "id": "en-ZM",
     "name": "English - Zambia",
     "country": "ZMB",
     "language": "en",
@@ -1400,7 +1400,7 @@
     }
   },
   {
-    "id": "et_et",
+    "id": "et",
     "name": "Estonian - Ethiopia",
     "country": "ETH",
     "language": "et",
@@ -1410,7 +1410,7 @@
     }
   },
   {
-    "id": "ee_ee",
+    "id": "ee",
     "name": "Ewe - Estonia",
     "country": "EST",
     "language": "ee",
@@ -1420,7 +1420,7 @@
     }
   },
   {
-    "id": "ee_TG",
+    "id": "ee-TG",
     "name": "Ewe - Togo",
     "country": "TGO",
     "language": "ee",
@@ -1430,7 +1430,7 @@
     }
   },
   {
-    "id": "fi_fi",
+    "id": "fi",
     "name": "Finnish - Finland",
     "country": "FIN",
     "language": "fi",
@@ -1440,7 +1440,7 @@
     }
   },
   {
-    "id": "fr_DZ",
+    "id": "fr-DZ",
     "name": "French - Algeria",
     "country": "DZA",
     "language": "fr",
@@ -1450,7 +1450,7 @@
     }
   },
   {
-    "id": "fr_BE",
+    "id": "fr-BE",
     "name": "French - Belgium",
     "country": "BEL",
     "language": "fr",
@@ -1460,7 +1460,7 @@
     }
   },
   {
-    "id": "fr_BJ",
+    "id": "fr-BJ",
     "name": "French - Benin",
     "country": "BEN",
     "language": "fr",
@@ -1470,7 +1470,7 @@
     }
   },
   {
-    "id": "fr_BF",
+    "id": "fr-BF",
     "name": "French - Burkina Faso",
     "country": "BFA",
     "language": "fr",
@@ -1480,7 +1480,7 @@
     }
   },
   {
-    "id": "fr_CM",
+    "id": "fr-CM",
     "name": "French - Cameroon",
     "country": "CMR",
     "language": "fr",
@@ -1490,7 +1490,7 @@
     }
   },
   {
-    "id": "fr_CA",
+    "id": "fr-CA",
     "name": "French - Canada",
     "country": "CAN",
     "language": "fr",
@@ -1500,7 +1500,7 @@
     }
   },
   {
-    "id": "fr_CF",
+    "id": "fr-CF",
     "name": "French - Central African Republic",
     "country": "CAF",
     "language": "fr",
@@ -1510,7 +1510,7 @@
     }
   },
   {
-    "id": "fr_TD",
+    "id": "fr-TD",
     "name": "French - Chad",
     "country": "TCD",
     "language": "fr",
@@ -1520,7 +1520,7 @@
     }
   },
   {
-    "id": "fr_KM",
+    "id": "fr-KM",
     "name": "French - Comoros",
     "country": "COM",
     "language": "fr",
@@ -1530,7 +1530,7 @@
     }
   },
   {
-    "id": "fr_CG",
+    "id": "fr-CG",
     "name": "French - Congo",
     "country": "COG",
     "language": "fr",
@@ -1540,7 +1540,7 @@
     }
   },
   {
-    "id": "fr_CI",
+    "id": "fr-CI",
     "name": "French - Côte d'Ivoire",
     "country": "CIV",
     "language": "fr",
@@ -1550,7 +1550,7 @@
     }
   },
   {
-    "id": "fr_DJ",
+    "id": "fr-DJ",
     "name": "French - Djibouti",
     "country": "DJI",
     "language": "fr",
@@ -1560,7 +1560,7 @@
     }
   },
   {
-    "id": "fr_GQ",
+    "id": "fr-GQ",
     "name": "French - Equatorial Guinea",
     "country": "GNQ",
     "language": "fr",
@@ -1570,7 +1570,7 @@
     }
   },
   {
-    "id": "fr_fr",
+    "id": "fr",
     "name": "French - France",
     "country": "FRA",
     "language": "fr",
@@ -1580,7 +1580,7 @@
     }
   },
   {
-    "id": "fr_GF",
+    "id": "fr-GF",
     "name": "French - French Guiana",
     "country": "GUF",
     "language": "fr",
@@ -1590,7 +1590,7 @@
     }
   },
   {
-    "id": "fr_PF",
+    "id": "fr-PF",
     "name": "French - French Polynesia",
     "country": "PYF",
     "language": "fr",
@@ -1600,7 +1600,7 @@
     }
   },
   {
-    "id": "fr_GA",
+    "id": "fr-GA",
     "name": "French - Gabon",
     "country": "GAB",
     "language": "fr",
@@ -1610,7 +1610,7 @@
     }
   },
   {
-    "id": "fr_GP",
+    "id": "fr-GP",
     "name": "French - Guadeloupe",
     "country": "GLP",
     "language": "fr",
@@ -1620,7 +1620,7 @@
     }
   },
   {
-    "id": "fr_GN",
+    "id": "fr-GN",
     "name": "French - Guinea",
     "country": "GIN",
     "language": "fr",
@@ -1630,7 +1630,7 @@
     }
   },
   {
-    "id": "fr_HT",
+    "id": "fr-HT",
     "name": "French - Haiti",
     "country": "HTI",
     "language": "fr",
@@ -1640,7 +1640,7 @@
     }
   },
   {
-    "id": "fr_LU",
+    "id": "fr-LU",
     "name": "French - Luxembourg",
     "country": "LUX",
     "language": "fr",
@@ -1650,7 +1650,7 @@
     }
   },
   {
-    "id": "fr_ML",
+    "id": "fr-ML",
     "name": "French - Mali",
     "country": "MLI",
     "language": "fr",
@@ -1660,7 +1660,7 @@
     }
   },
   {
-    "id": "fr_MQ",
+    "id": "fr-MQ",
     "name": "French - Martinique",
     "country": "MTQ",
     "language": "fr",
@@ -1670,7 +1670,7 @@
     }
   },
   {
-    "id": "fr_MR",
+    "id": "fr-MR",
     "name": "French - Mauritania",
     "country": "MRT",
     "language": "fr",
@@ -1680,7 +1680,7 @@
     }
   },
   {
-    "id": "fr_MU",
+    "id": "fr-MU",
     "name": "French - Mauritius",
     "country": "MUS",
     "language": "fr",
@@ -1690,7 +1690,7 @@
     }
   },
   {
-    "id": "fr_YT",
+    "id": "fr-YT",
     "name": "French - Mayotte",
     "country": "MYT",
     "language": "fr",
@@ -1700,7 +1700,7 @@
     }
   },
   {
-    "id": "fr_MC",
+    "id": "fr-MC",
     "name": "French - Monaco",
     "country": "MCO",
     "language": "fr",
@@ -1710,7 +1710,7 @@
     }
   },
   {
-    "id": "fr_MA",
+    "id": "fr-MA",
     "name": "French - Morocco",
     "country": "MAR",
     "language": "fr",
@@ -1720,7 +1720,7 @@
     }
   },
   {
-    "id": "fr_NC",
+    "id": "fr-NC",
     "name": "French - New Caledonia",
     "country": "NCL",
     "language": "fr",
@@ -1730,7 +1730,7 @@
     }
   },
   {
-    "id": "fr_NE",
+    "id": "fr-NE",
     "name": "French - Niger",
     "country": "NER",
     "language": "fr",
@@ -1740,7 +1740,7 @@
     }
   },
   {
-    "id": "fr_RW",
+    "id": "fr-RW",
     "name": "French - Rwanda",
     "country": "RWA",
     "language": "fr",
@@ -1750,7 +1750,7 @@
     }
   },
   {
-    "id": "fr_RE",
+    "id": "fr-RE",
     "name": "French - Réunion",
     "country": "REU",
     "language": "fr",
@@ -1760,7 +1760,7 @@
     }
   },
   {
-    "id": "fr_BL",
+    "id": "fr-BL",
     "name": "French - Saint Barthélemy",
     "country": "BLM",
     "language": "fr",
@@ -1770,7 +1770,7 @@
     }
   },
   {
-    "id": "fr_MF",
+    "id": "fr-MF",
     "name": "French - Saint Martin",
     "country": "MAF",
     "language": "fr",
@@ -1780,7 +1780,7 @@
     }
   },
   {
-    "id": "fr_PM",
+    "id": "fr-PM",
     "name": "French - Saint Pierre and Miquelon",
     "country": "SPM",
     "language": "fr",
@@ -1790,7 +1790,7 @@
     }
   },
   {
-    "id": "fr_SN",
+    "id": "fr-SN",
     "name": "French - Senegal",
     "country": "SEN",
     "language": "fr",
@@ -1800,7 +1800,7 @@
     }
   },
   {
-    "id": "fr_SC",
+    "id": "fr-SC",
     "name": "French - Seychelles",
     "country": "SYC",
     "language": "fr",
@@ -1810,7 +1810,7 @@
     }
   },
   {
-    "id": "fr_CH",
+    "id": "fr-CH",
     "name": "French - Switzerland",
     "country": "CHE",
     "language": "fr",
@@ -1820,7 +1820,7 @@
     }
   },
   {
-    "id": "fr_TG",
+    "id": "fr-TG",
     "name": "French - Togo",
     "country": "TGO",
     "language": "fr",
@@ -1830,7 +1830,7 @@
     }
   },
   {
-    "id": "fr_TN",
+    "id": "fr-TN",
     "name": "French - Tunisia",
     "country": "TUN",
     "language": "fr",
@@ -1840,7 +1840,7 @@
     }
   },
   {
-    "id": "fr_VU",
+    "id": "fr-VU",
     "name": "French - Vanuatu",
     "country": "VUT",
     "language": "fr",
@@ -1850,7 +1850,7 @@
     }
   },
   {
-    "id": "fr_WF",
+    "id": "fr-WF",
     "name": "French - Wallis and Futuna Islands",
     "country": "WLF",
     "language": "fr",
@@ -1860,7 +1860,7 @@
     }
   },
   {
-    "id": "ff_CM",
+    "id": "ff-CM",
     "name": "Fula - Cameroon",
     "country": "CMR",
     "language": "ff",
@@ -1870,7 +1870,7 @@
     }
   },
   {
-    "id": "ff_GN",
+    "id": "ff-GN",
     "name": "Fula - Guinea",
     "country": "GIN",
     "language": "ff",
@@ -1880,7 +1880,7 @@
     }
   },
   {
-    "id": "ff_MR",
+    "id": "ff-MR",
     "name": "Fula - Mauritania",
     "country": "MRT",
     "language": "ff",
@@ -1890,7 +1890,7 @@
     }
   },
   {
-    "id": "de_AT",
+    "id": "de-AT",
     "name": "German - Austria",
     "country": "AUT",
     "language": "de",
@@ -1900,7 +1900,7 @@
     }
   },
   {
-    "id": "de_BE",
+    "id": "de-BE",
     "name": "German - Belgium",
     "country": "BEL",
     "language": "de",
@@ -1910,7 +1910,7 @@
     }
   },
   {
-    "id": "de_de",
+    "id": "de",
     "name": "German - Germany",
     "country": "DEU",
     "language": "de",
@@ -1920,7 +1920,7 @@
     }
   },
   {
-    "id": "de_IT",
+    "id": "de-IT",
     "name": "German - Italy",
     "country": "ITA",
     "language": "de",
@@ -1930,7 +1930,7 @@
     }
   },
   {
-    "id": "de_LI",
+    "id": "de-LI",
     "name": "German - Liechtenstein",
     "country": "LIE",
     "language": "de",
@@ -1940,7 +1940,7 @@
     }
   },
   {
-    "id": "de_LU",
+    "id": "de-LU",
     "name": "German - Luxembourg",
     "country": "LUX",
     "language": "de",
@@ -1950,7 +1950,7 @@
     }
   },
   {
-    "id": "de_CH",
+    "id": "de-CH",
     "name": "German - Switzerland",
     "country": "CHE",
     "language": "de",
@@ -1960,7 +1960,7 @@
     }
   },
   {
-    "id": "el_CY",
+    "id": "el-CY",
     "name": "Greek - Cyprus",
     "country": "CYP",
     "language": "el",
@@ -1970,7 +1970,7 @@
     }
   },
   {
-    "id": "gu_gu",
+    "id": "gu",
     "name": "Gujarati - Guam",
     "country": "GUM",
     "language": "gu",
@@ -1980,7 +1980,7 @@
     }
   },
   {
-    "id": "ha_GH",
+    "id": "ha-GH",
     "name": "Hausa - Ghana",
     "country": "GHA",
     "language": "ha",
@@ -1990,7 +1990,7 @@
     }
   },
   {
-    "id": "ha_NE",
+    "id": "ha-NE",
     "name": "Hausa - Niger",
     "country": "NER",
     "language": "ha",
@@ -2000,7 +2000,7 @@
     }
   },
   {
-    "id": "hu_hu",
+    "id": "hu",
     "name": "Hungarian - Hungary",
     "country": "HUN",
     "language": "hu",
@@ -2010,7 +2010,7 @@
     }
   },
   {
-    "id": "is_is",
+    "id": "is",
     "name": "Icelandic - Iceland",
     "country": "ISL",
     "language": "is",
@@ -2020,7 +2020,7 @@
     }
   },
   {
-    "id": "id_id",
+    "id": "id",
     "name": "Indonesian - Indonesia",
     "country": "IDN",
     "language": "id",
@@ -2030,7 +2030,7 @@
     }
   },
   {
-    "id": "ga_ga",
+    "id": "ga",
     "name": "Irish - Gabon",
     "country": "GAB",
     "language": "ga",
@@ -2040,7 +2040,7 @@
     }
   },
   {
-    "id": "it_it",
+    "id": "it",
     "name": "Italian - Italy",
     "country": "ITA",
     "language": "it",
@@ -2050,7 +2050,7 @@
     }
   },
   {
-    "id": "it_SM",
+    "id": "it-SM",
     "name": "Italian - San Marino",
     "country": "SMR",
     "language": "it",
@@ -2060,7 +2060,7 @@
     }
   },
   {
-    "id": "it_CH",
+    "id": "it-CH",
     "name": "Italian - Switzerland",
     "country": "CHE",
     "language": "it",
@@ -2070,7 +2070,7 @@
     }
   },
   {
-    "id": "km_km",
+    "id": "km",
     "name": "Khmer - Comoros",
     "country": "COM",
     "language": "km",
@@ -2080,7 +2080,7 @@
     }
   },
   {
-    "id": "rw_rw",
+    "id": "rw",
     "name": "Kinyarwanda - Rwanda",
     "country": "RWA",
     "language": "rw",
@@ -2090,7 +2090,7 @@
     }
   },
   {
-    "id": "ky_ky",
+    "id": "ky",
     "name": "Kyrgyz - Cayman Islands",
     "country": "CYM",
     "language": "ky",
@@ -2100,7 +2100,7 @@
     }
   },
   {
-    "id": "lv_lv",
+    "id": "lv",
     "name": "Latvian - Latvia",
     "country": "LVA",
     "language": "lv",
@@ -2110,7 +2110,7 @@
     }
   },
   {
-    "id": "ln_CF",
+    "id": "ln-CF",
     "name": "Lingala - Central African Republic",
     "country": "CAF",
     "language": "ln",
@@ -2120,7 +2120,7 @@
     }
   },
   {
-    "id": "ln_CG",
+    "id": "ln-CG",
     "name": "Lingala - Congo",
     "country": "COG",
     "language": "ln",
@@ -2130,7 +2130,7 @@
     }
   },
   {
-    "id": "lt_lt",
+    "id": "lt",
     "name": "Lithuanian - Lithuania",
     "country": "LTU",
     "language": "lt",
@@ -2140,7 +2140,7 @@
     }
   },
   {
-    "id": "lu_lu",
+    "id": "lu",
     "name": "Luba-Katanga - Luxembourg",
     "country": "LUX",
     "language": "lu",
@@ -2150,7 +2150,7 @@
     }
   },
   {
-    "id": "lb_lb",
+    "id": "lb",
     "name": "Luxembourgish - Lebanon",
     "country": "LBN",
     "language": "lb",
@@ -2160,7 +2160,7 @@
     }
   },
   {
-    "id": "ms_BN",
+    "id": "ms-BN",
     "name": "Malay - Brunei",
     "country": "BRN",
     "language": "ms",
@@ -2170,7 +2170,7 @@
     }
   },
   {
-    "id": "ms_ms",
+    "id": "ms",
     "name": "Malay - Montserrat",
     "country": "MSR",
     "language": "ms",
@@ -2180,7 +2180,7 @@
     }
   },
   {
-    "id": "ms_SG",
+    "id": "ms-SG",
     "name": "Malay - Singapore",
     "country": "SGP",
     "language": "ms",
@@ -2190,7 +2190,7 @@
     }
   },
   {
-    "id": "mt_mt",
+    "id": "mt",
     "name": "Maltese - Malta",
     "country": "MLT",
     "language": "mt",
@@ -2200,7 +2200,7 @@
     }
   },
   {
-    "id": "mn_mn",
+    "id": "mn",
     "name": "Mongolian - Mongolia",
     "country": "MNG",
     "language": "mn",
@@ -2210,7 +2210,7 @@
     }
   },
   {
-    "id": "ne_IN",
+    "id": "ne-IN",
     "name": "Nepali - India",
     "country": "IND",
     "language": "ne",
@@ -2220,7 +2220,7 @@
     }
   },
   {
-    "id": "ne_ne",
+    "id": "ne",
     "name": "Nepali - Niger",
     "country": "NER",
     "language": "ne",
@@ -2230,7 +2230,7 @@
     }
   },
   {
-    "id": "nb_SJ",
+    "id": "nb-SJ",
     "name": "Norwegian Bokmål - Svalbard and Jan Mayen Islands",
     "country": "SJM",
     "language": "nb",
@@ -2240,7 +2240,7 @@
     }
   },
   {
-    "id": "pa_pa",
+    "id": "pa",
     "name": "Panjabi - Panama",
     "country": "PAN",
     "language": "pa",
@@ -2250,7 +2250,7 @@
     }
   },
   {
-    "id": "pl_pl",
+    "id": "pl",
     "name": "Polish - Poland",
     "country": "POL",
     "language": "pl",
@@ -2260,7 +2260,7 @@
     }
   },
   {
-    "id": "pt_CV",
+    "id": "pt-CV",
     "name": "Portuguese - Cabo Verde",
     "country": "CPV",
     "language": "pt",
@@ -2270,7 +2270,7 @@
     }
   },
   {
-    "id": "pt_MO",
+    "id": "pt-MO",
     "name": "Portuguese - China, Macao Special Administrative Region",
     "country": "MAC",
     "language": "pt",
@@ -2280,7 +2280,7 @@
     }
   },
   {
-    "id": "pt_GQ",
+    "id": "pt-GQ",
     "name": "Portuguese - Equatorial Guinea",
     "country": "GNQ",
     "language": "pt",
@@ -2290,7 +2290,7 @@
     }
   },
   {
-    "id": "pt_GW",
+    "id": "pt-GW",
     "name": "Portuguese - Guinea-Bissau",
     "country": "GNB",
     "language": "pt",
@@ -2300,7 +2300,7 @@
     }
   },
   {
-    "id": "pt_LU",
+    "id": "pt-LU",
     "name": "Portuguese - Luxembourg",
     "country": "LUX",
     "language": "pt",
@@ -2310,17 +2310,7 @@
     }
   },
   {
-    "id": "pt_PT",
-    "name": "Portuguese - Portugal",
-    "country": "PRT",
-    "language": "pt",
-    "numbers": {
-      "decimal": ",",
-      "group": " "
-    }
-  },
-  {
-    "id": "pt_pt",
+    "id": "pt",
     "name": "Portuguese - Portugal",
     "country": "PRT",
     "language": "pt",
@@ -2330,7 +2320,7 @@
     }
   },
   {
-    "id": "pt_ST",
+    "id": "pt-ST",
     "name": "Portuguese - Sao Tome and Principe",
     "country": "STP",
     "language": "pt",
@@ -2340,7 +2330,7 @@
     }
   },
   {
-    "id": "pt_CH",
+    "id": "pt-CH",
     "name": "Portuguese - Switzerland",
     "country": "CHE",
     "language": "pt",
@@ -2350,7 +2340,7 @@
     }
   },
   {
-    "id": "pt_TL",
+    "id": "pt-TL",
     "name": "Portuguese - Timor-Leste",
     "country": "TLS",
     "language": "pt",
@@ -2360,7 +2350,7 @@
     }
   },
   {
-    "id": "qu_BO",
+    "id": "qu-BO",
     "name": "Quechua - Bolivia",
     "country": "BOL",
     "language": "qu",
@@ -2370,7 +2360,7 @@
     }
   },
   {
-    "id": "qu_EC",
+    "id": "qu-EC",
     "name": "Quechua - Ecuador",
     "country": "ECU",
     "language": "qu",
@@ -2380,7 +2370,7 @@
     }
   },
   {
-    "id": "ro_MD",
+    "id": "ro-MD",
     "name": "Romanian - Republic of Moldova",
     "country": "MDA",
     "language": "ro",
@@ -2390,7 +2380,7 @@
     }
   },
   {
-    "id": "ro_ro",
+    "id": "ro",
     "name": "Romanian - Romania",
     "country": "ROU",
     "language": "ro",
@@ -2400,7 +2390,7 @@
     }
   },
   {
-    "id": "ru_KZ",
+    "id": "ru-KZ",
     "name": "Russian - Kazakhstan",
     "country": "KAZ",
     "language": "ru",
@@ -2410,7 +2400,7 @@
     }
   },
   {
-    "id": "ru_KG",
+    "id": "ru-KG",
     "name": "Russian - Kyrgyzstan",
     "country": "KGZ",
     "language": "ru",
@@ -2420,7 +2410,7 @@
     }
   },
   {
-    "id": "ru_MD",
+    "id": "ru-MD",
     "name": "Russian - Republic of Moldova",
     "country": "MDA",
     "language": "ru",
@@ -2430,7 +2420,7 @@
     }
   },
   {
-    "id": "ru_ru",
+    "id": "ru",
     "name": "Russian - Russia",
     "country": "RUS",
     "language": "ru",
@@ -2440,7 +2430,7 @@
     }
   },
   {
-    "id": "ru_UA",
+    "id": "ru-UA",
     "name": "Russian - Ukraine",
     "country": "UKR",
     "language": "ru",
@@ -2450,7 +2440,7 @@
     }
   },
   {
-    "id": "sg_sg",
+    "id": "sg",
     "name": "Sango - Singapore",
     "country": "SGP",
     "language": "sg",
@@ -2460,7 +2450,7 @@
     }
   },
   {
-    "id": "sr_BA",
+    "id": "sr-BA",
     "name": "Serbian - Bosnia and Herzegovina",
     "country": "BIH",
     "language": "sr",
@@ -2470,7 +2460,7 @@
     }
   },
   {
-    "id": "sr_ME",
+    "id": "sr-ME",
     "name": "Serbian - Montenegro",
     "country": "MNE",
     "language": "sr",
@@ -2480,7 +2470,7 @@
     }
   },
   {
-    "id": "sn_sn",
+    "id": "sn",
     "name": "Shona - Senegal",
     "country": "SEN",
     "language": "sn",
@@ -2490,7 +2480,7 @@
     }
   },
   {
-    "id": "si_si",
+    "id": "si",
     "name": "Sinhala - Slovenia",
     "country": "SVN",
     "language": "si",
@@ -2500,7 +2490,7 @@
     }
   },
   {
-    "id": "sk_sk",
+    "id": "sk",
     "name": "Slovak - Slovakia",
     "country": "SVK",
     "language": "sk",
@@ -2510,7 +2500,7 @@
     }
   },
   {
-    "id": "sl_sl",
+    "id": "sl",
     "name": "Slovene - Sierra Leone",
     "country": "SLE",
     "language": "sl",
@@ -2520,7 +2510,7 @@
     }
   },
   {
-    "id": "so_DJ",
+    "id": "so-DJ",
     "name": "Somali - Djibouti",
     "country": "DJI",
     "language": "so",
@@ -2530,7 +2520,7 @@
     }
   },
   {
-    "id": "so_ET",
+    "id": "so-ET",
     "name": "Somali - Ethiopia",
     "country": "ETH",
     "language": "so",
@@ -2540,7 +2530,7 @@
     }
   },
   {
-    "id": "so_KE",
+    "id": "so-KE",
     "name": "Somali - Kenya",
     "country": "KEN",
     "language": "so",
@@ -2550,7 +2540,7 @@
     }
   },
   {
-    "id": "so_so",
+    "id": "so",
     "name": "Somali - Somalia",
     "country": "SOM",
     "language": "so",
@@ -2560,7 +2550,7 @@
     }
   },
   {
-    "id": "es_AR",
+    "id": "es-AR",
     "name": "Spanish - Argentina",
     "country": "ARG",
     "language": "es",
@@ -2570,7 +2560,7 @@
     }
   },
   {
-    "id": "es_BO",
+    "id": "es-BO",
     "name": "Spanish - Bolivia",
     "country": "BOL",
     "language": "es",
@@ -2580,7 +2570,7 @@
     }
   },
   {
-    "id": "es_BR",
+    "id": "es-BR",
     "name": "Spanish - Brazil",
     "country": "BRA",
     "language": "es",
@@ -2590,7 +2580,7 @@
     }
   },
   {
-    "id": "es_CL",
+    "id": "es-CL",
     "name": "Spanish - Chile",
     "country": "CHL",
     "language": "es",
@@ -2600,7 +2590,7 @@
     }
   },
   {
-    "id": "es_CO",
+    "id": "es-CO",
     "name": "Spanish - Colombia",
     "country": "COL",
     "language": "es",
@@ -2610,7 +2600,7 @@
     }
   },
   {
-    "id": "es_CR",
+    "id": "es-CR",
     "name": "Spanish - Costa Rica",
     "country": "CRI",
     "language": "es",
@@ -2620,7 +2610,7 @@
     }
   },
   {
-    "id": "es_DO",
+    "id": "es-DO",
     "name": "Spanish - Dominican Republic",
     "country": "DOM",
     "language": "es",
@@ -2630,7 +2620,7 @@
     }
   },
   {
-    "id": "es_EC",
+    "id": "es-EC",
     "name": "Spanish - Ecuador",
     "country": "ECU",
     "language": "es",
@@ -2640,7 +2630,7 @@
     }
   },
   {
-    "id": "es_SV",
+    "id": "es-SV",
     "name": "Spanish - El Salvador",
     "country": "SLV",
     "language": "es",
@@ -2650,7 +2640,7 @@
     }
   },
   {
-    "id": "es_GQ",
+    "id": "es-GQ",
     "name": "Spanish - Equatorial Guinea",
     "country": "GNQ",
     "language": "es",
@@ -2660,7 +2650,7 @@
     }
   },
   {
-    "id": "es_GT",
+    "id": "es-GT",
     "name": "Spanish - Guatemala",
     "country": "GTM",
     "language": "es",
@@ -2670,7 +2660,7 @@
     }
   },
   {
-    "id": "es_HN",
+    "id": "es-HN",
     "name": "Spanish - Honduras",
     "country": "HND",
     "language": "es",
@@ -2680,7 +2670,7 @@
     }
   },
   {
-    "id": "es_MX",
+    "id": "es-MX",
     "name": "Spanish - Mexico",
     "country": "MEX",
     "language": "es",
@@ -2690,7 +2680,7 @@
     }
   },
   {
-    "id": "es_NI",
+    "id": "es-NI",
     "name": "Spanish - Nicaragua",
     "country": "NIC",
     "language": "es",
@@ -2700,7 +2690,7 @@
     }
   },
   {
-    "id": "es_PA",
+    "id": "es-PA",
     "name": "Spanish - Panama",
     "country": "PAN",
     "language": "es",
@@ -2710,7 +2700,7 @@
     }
   },
   {
-    "id": "es_PY",
+    "id": "es-PY",
     "name": "Spanish - Paraguay",
     "country": "PRY",
     "language": "es",
@@ -2720,7 +2710,7 @@
     }
   },
   {
-    "id": "es_PE",
+    "id": "es-PE",
     "name": "Spanish - Peru",
     "country": "PER",
     "language": "es",
@@ -2730,7 +2720,7 @@
     }
   },
   {
-    "id": "es_PH",
+    "id": "es-PH",
     "name": "Spanish - Philippines",
     "country": "PHL",
     "language": "es",
@@ -2740,7 +2730,7 @@
     }
   },
   {
-    "id": "es_PR",
+    "id": "es-PR",
     "name": "Spanish - Puerto Rico",
     "country": "PRI",
     "language": "es",
@@ -2750,7 +2740,7 @@
     }
   },
   {
-    "id": "es_es",
+    "id": "es",
     "name": "Spanish - Spain",
     "country": "ESP",
     "language": "es",
@@ -2760,7 +2750,7 @@
     }
   },
   {
-    "id": "es_US",
+    "id": "es-US",
     "name": "Spanish - United States of America",
     "country": "USA",
     "language": "es",
@@ -2770,7 +2760,7 @@
     }
   },
   {
-    "id": "es_UY",
+    "id": "es-UY",
     "name": "Spanish - Uruguay",
     "country": "URY",
     "language": "es",
@@ -2780,7 +2770,7 @@
     }
   },
   {
-    "id": "es_VE",
+    "id": "es-VE",
     "name": "Spanish - Venezuela",
     "country": "VEN",
     "language": "es",
@@ -2790,7 +2780,7 @@
     }
   },
   {
-    "id": "sw_KE",
+    "id": "sw-KE",
     "name": "Swahili - Kenya",
     "country": "KEN",
     "language": "sw",
@@ -2800,7 +2790,7 @@
     }
   },
   {
-    "id": "sw_UG",
+    "id": "sw-UG",
     "name": "Swahili - Uganda",
     "country": "UGA",
     "language": "sw",
@@ -2810,7 +2800,7 @@
     }
   },
   {
-    "id": "sv_sv",
+    "id": "sv",
     "name": "Swedish - El Salvador",
     "country": "SLV",
     "language": "sv",
@@ -2820,7 +2810,7 @@
     }
   },
   {
-    "id": "sv_FI",
+    "id": "sv-FI",
     "name": "Swedish - Finland",
     "country": "FIN",
     "language": "sv",
@@ -2830,7 +2820,7 @@
     }
   },
   {
-    "id": "sv_AX",
+    "id": "sv-AX",
     "name": "Swedish - Åland Islands",
     "country": "ALA",
     "language": "sv",
@@ -2840,7 +2830,7 @@
     }
   },
   {
-    "id": "ta_MY",
+    "id": "ta-MY",
     "name": "Tamil - Malaysia",
     "country": "MYS",
     "language": "ta",
@@ -2850,7 +2840,7 @@
     }
   },
   {
-    "id": "ta_SG",
+    "id": "ta-SG",
     "name": "Tamil - Singapore",
     "country": "SGP",
     "language": "ta",
@@ -2860,7 +2850,7 @@
     }
   },
   {
-    "id": "ta_LK",
+    "id": "ta-LK",
     "name": "Tamil - Sri Lanka",
     "country": "LKA",
     "language": "ta",
@@ -2870,7 +2860,7 @@
     }
   },
   {
-    "id": "th_th",
+    "id": "th",
     "name": "Thai - Thailand",
     "country": "THA",
     "language": "th",
@@ -2880,7 +2870,7 @@
     }
   },
   {
-    "id": "tr_CY",
+    "id": "tr-CY",
     "name": "Turkish - Cyprus",
     "country": "CYP",
     "language": "tr",
@@ -2890,7 +2880,7 @@
     }
   },
   {
-    "id": "tr_tr",
+    "id": "tr",
     "name": "Turkish - Turkey",
     "country": "TUR",
     "language": "tr",
@@ -2900,7 +2890,7 @@
     }
   },
   {
-    "id": "tk_tk",
+    "id": "tk",
     "name": "Turkmen - Tokelau",
     "country": "TKL",
     "language": "tk",
@@ -2910,7 +2900,7 @@
     }
   },
   {
-    "id": "ur_IN",
+    "id": "ur-IN",
     "name": "Urdu - India",
     "country": "IND",
     "language": "ur",
@@ -2920,7 +2910,7 @@
     }
   },
   {
-    "id": "uz_uz",
+    "id": "uz",
     "name": "Uzbek - Uzbekistan",
     "country": "UZB",
     "language": "uz",
@@ -2930,7 +2920,7 @@
     }
   },
   {
-    "id": "vi_vi",
+    "id": "vi",
     "name": "Vietnamese - United States Virgin Islands",
     "country": "VIR",
     "language": "vi",
@@ -2940,7 +2930,7 @@
     }
   },
   {
-    "id": "cy_cy",
+    "id": "cy",
     "name": "Welsh - Cyprus",
     "country": "CYP",
     "language": "cy",
@@ -2950,7 +2940,7 @@
     }
   },
   {
-    "id": "yo_BJ",
+    "id": "yo-BJ",
     "name": "Yoruba - Benin",
     "country": "BEN",
     "language": "yo",

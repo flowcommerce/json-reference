@@ -83,19 +83,13 @@ func commonContinents(data CleansedDataSet) []common.Continent {
 func commonLocales(data CleansedDataSet) []common.Locale {
 	var all []common.Locale
 	for _, n := range data.Numbers {
-		id := ""
-		if n.Language == "" {
-			id = n.Country
+		countryCode := normalizeCountryCode(data.Countries, n.Country)
+		if countryCode == "" {
+			// fmt.Printf(" - skipping locale as country code[%s] is not known\n", n.Country)
 		} else {
-			id = fmt.Sprintf("%s_%s", n.Language, n.Country)
-		}
-		country := normalizeCountryCode(data.Countries, n.Country)
-		if country == "" {
-			// fmt.Printf(" - skipping locale[%s] as country code[%s] is not known\n", id, n.Country)
-		} else {
-			language := normalizeLanguageCode(data.Languages, n.Language)
-			if language == "" {
-				// fmt.Printf(" - skipping locale[%s] as language code[%s] is not known\n", id, n.Language)
+			languageCode := normalizeLanguageCode(data.Languages, n.Language)
+			if languageCode == "" {
+				// fmt.Printf(" - skipping locale as language code[%s] is not known\n",n.Language)
 			} else {
 				separator := ""
 				if (n.Separators.Group == ",") {
@@ -111,16 +105,20 @@ func commonLocales(data CleansedDataSet) []common.Locale {
 					fmt.Printf("Invalid group separator[%s]\n", n.Separators.Group)
 					os.Exit(1)
 				}
+
+				language := findLanguageByCode(data.Languages, languageCode)
+				country := findCountryByCode(data.Countries, countryCode)
+				id := common.FormatLocaleId(fmt.Sprintf("%s-%s", language.Iso_639_2, country.Iso_3166_2))
 				name := findLocaleNameById(data.LocaleNames, id)
 				if name == "" {
-					name = fmt.Sprintf("%s - %s", findLanguageByCode(data.Languages, n.Language).Name, findCountryByCode(data.Countries, n.Country).Name)
+					name = fmt.Sprintf("%s - %s", language.Name, country.Name)
 				}
 
 				all = append(all, common.Locale{
 					Id:       id,
 					Name:     name,
-					Country:  country,
-					Language: language,
+					Country:  country.Iso_3166_3,
+					Language: language.Iso_639_2,
 					Numbers: common.LocaleNumbers{
 						Decimal: n.Separators.Decimal,
 						Group:   separator,
