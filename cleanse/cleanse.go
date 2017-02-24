@@ -12,7 +12,6 @@ import (
 	"io"
 	"os"
 	"path/filepath"
-	"regexp"
 	"sort"
 	"strings"
 )
@@ -47,6 +46,11 @@ type Language struct {
 	Iso_639_2 string   `json:"iso_639_2"`
 	Countries []string `json:"countries"`
 	Locales   []string `json:"locales"`
+}
+
+type LocaleName struct {
+	Id      string `json:"id"`
+	Name    string `json:"name"`
 }
 
 type Timezone struct {
@@ -153,7 +157,9 @@ type acceptsFunction func(records map[string]string) bool
 type idFunction func(records map[string]string) string
 
 func Cleanse() {
-	writeJson("data/cleansed/languages.json", readLanguages("data/source/languages.json"))
+	languages, localeNames := readLanguages("data/source/languages.json")
+	writeJson("data/cleansed/languages.json", languages)
+	writeJson("data/cleansed/locale-names.json", localeNames)
 
 	unsupportedCurrencyCodes := unsupportedCurrencyCodes()
 	unsupportedCountryCodes := unsupportedCountryCodes()
@@ -223,11 +229,18 @@ func Cleanse() {
 			},
 		),
 	)
-
-	writeJson("data/cleansed/languages.json", filterLanguages(readLanguages("data/source/languages.json")))
 }
 
 func countryName(record map[string]string) string {
+	overrides := map[string]string{
+		"Bolivia (Plurinational State of)": "Bolivia",
+		"Micronesia (Federated States of)": "Micronesia",
+		"Saint Martin (French part)": "Saint Martin",
+		"Sint Maarten (Dutch part)": "Sint Maarten",
+		"Venezuela (Bolivarian Republic of)": "Venezuela",
+		"Falkland Islands (Malvinas)": "Falkland Islans",
+	}
+
 	name := record["official_name_en"]
 	if name == "" {
 		name = record["name"]
@@ -236,7 +249,11 @@ func countryName(record map[string]string) string {
 		fmt.Printf("ERROR: Missing country name for record: %s\n", record)
 		os.Exit(1)
 	}
-	return name
+	if overrides[name] == "" {
+		return name
+	} else {
+		return overrides[name]
+	}
 }
 				
 
@@ -304,19 +321,26 @@ func toMap(headers []string, record []string) map[string]string {
 	return row
 }
 
-func readLanguages(file string) []Language {
+func readLanguages(file string) ([]Language, []LocaleName) {
 	lang := IncomingLanguages{}
 	err := json.Unmarshal(common.ReadFile(file), &lang)
 	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshall languages: %s", err))
 
 	languages := []Language{}
 
+	localeNameMap := map[string]LocaleName{}
+	
 	for _, l := range lang.Languages {
 		name := l.Names[0]
-		if len(l.Iso_639_2) > 0 && name != "" {
+		if len(l.Iso_639_2) > 0 && name != "" && len(l.Countries) > 0 {
 			locales := []string{}
 			for _, incomingLocale := range(l.Locales) {
-				locales = append(locales, formatLocaleId(incomingLocale.Id))	
+				localeId := common.FormatLocaleId(incomingLocale.Id)
+				localeNameMap[incomingLocale.Id] = LocaleName{
+					Id: localeId,
+					Name: incomingLocale.Name,
+				}
+				locales = append(locales, localeId)
 			}
 
 			languages = append(languages, Language{
@@ -329,7 +353,13 @@ func readLanguages(file string) []Language {
 	}
 	sortLanguages(languages)
 
-	return languages
+	names :=[]LocaleName{}
+	for _, v := range(localeNameMap) {
+		names = append(names, v)
+	}
+	sortLocaleNames(names)
+	
+	return languages, names
 }
 
 func readCurrencySymbols(file string) map[string]CurrencySymbols {
@@ -402,21 +432,6 @@ func readNumbers(file string) []Number {
 	}
 
 	return numbers
-}
-
-/**
- * filterLanguages takes only the languages that have at least one country assigned to them
- */
-func filterLanguages(languages []Language) []Language {
-	final := []Language{}
-
-	for _, l := range languages {
-		if l.Countries != nil && len(l.Countries) > 0 {
-			final = append(final, l)
-		}
-	}
-
-	return final
 }
 
 func toObjects(records []map[string]string, accepts acceptsFunction, f convertFunction, id idFunction) []interface{} {
@@ -506,6 +521,13 @@ func LoadLanguages() []Language {
 	err := json.Unmarshal(common.ReadFile("data/cleansed/languages.json"), &languages)
 	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshal languages: %s", err))
 	return languages
+}
+
+func LoadLocaleNames() []LocaleName {
+	names := []LocaleName{}
+	err := json.Unmarshal(common.ReadFile("data/cleansed/locale-names.json"), &names)
+	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshal locale names: %s", err))
+	return names
 }
 
 func LoadNumbers() []Number {
@@ -644,6 +666,9 @@ func sortLanguages(languages []Language) []Language {
 	return languages
 }
 
-func formatLocaleId(value string) string {
-	return regexp.MustCompile("-").ReplaceAllString(value, "_")
+func sortLocaleNames(names []LocaleName) []LocaleName {
+	slice.Sort(names[:], func(i, j int) bool {
+		return strings.ToLower(names[i].Name) < strings.ToLower(names[j].Name)
+	})
+	return names
 }

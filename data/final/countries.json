@@ -231,7 +231,7 @@
     "timezones": []
   },
   {
-    "name": "Bolivia (Plurinational State of)",
+    "name": "Bolivia",
     "iso_3166_2": "BO",
     "iso_3166_3": "BOL",
     "measurement_system": "metric",
@@ -690,7 +690,7 @@
     "timezones": []
   },
   {
-    "name": "Falkland Islands (Malvinas)",
+    "name": "Falkland Islans",
     "iso_3166_2": "FK",
     "iso_3166_3": "FLK",
     "measurement_system": "metric",
@@ -1389,7 +1389,7 @@
     ]
   },
   {
-    "name": "Micronesia (Federated States of)",
+    "name": "Micronesia",
     "iso_3166_2": "FM",
     "iso_3166_3": "FSM",
     "measurement_system": "metric",
@@ -1855,7 +1855,7 @@
     "timezones": []
   },
   {
-    "name": "Saint Martin (French part)",
+    "name": "Saint Martin",
     "iso_3166_2": "MF",
     "iso_3166_3": "MAF",
     "measurement_system": "metric",
@@ -1991,7 +1991,7 @@
     "timezones": []
   },
   {
-    "name": "Sint Maarten (Dutch part)",
+    "name": "Sint Maarten",
     "iso_3166_2": "SX",
     "iso_3166_3": "SXM",
     "measurement_system": "metric",
@@ -2377,7 +2377,7 @@
     "timezones": []
   },
   {
-    "name": "Venezuela (Bolivarian Republic of)",
+    "name": "Venezuela",
     "iso_3166_2": "VE",
     "iso_3166_3": "VEN",
     "measurement_system": "metric",

@@ -147,7 +147,7 @@
     "currency": "INR"
   },
   {
-    "name": "Bolivia (Plurinational State of)",
+    "name": "Bolivia",
     "continent": "SA",
     "iso_3166_2": "BO",
     "iso_3166_3": "BOL",
@@ -427,7 +427,7 @@
     "currency": "ETB"
   },
   {
-    "name": "Falkland Islands (Malvinas)",
+    "name": "Falkland Islans",
     "continent": "SA",
     "iso_3166_2": "FK",
     "iso_3166_3": "FLK",
@@ -854,7 +854,7 @@
     "currency": "MXN"
   },
   {
-    "name": "Micronesia (Federated States of)",
+    "name": "Micronesia",
     "continent": "OC",
     "iso_3166_2": "FM",
     "iso_3166_3": "FSM",
@@ -1148,7 +1148,7 @@
     "currency": "XCD"
   },
   {
-    "name": "Saint Martin (French part)",
+    "name": "Saint Martin",
     "continent": "NA",
     "iso_3166_2": "MF",
     "iso_3166_3": "MAF",
@@ -1232,7 +1232,7 @@
     "currency": "SGD"
   },
   {
-    "name": "Sint Maarten (Dutch part)",
+    "name": "Sint Maarten",
     "continent": "NA",
     "iso_3166_2": "SX",
     "iso_3166_3": "SXM",
@@ -1463,7 +1463,7 @@
     "currency": "VUV"
   },
   {
-    "name": "Venezuela (Bolivarian Republic of)",
+    "name": "Venezuela",
     "continent": "SA",
     "iso_3166_2": "VE",
     "iso_3166_3": "VEN",

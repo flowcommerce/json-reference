@@ -613,7 +613,7 @@
   },
   {
     "id": "bol",
-    "name": "Bolivia (Plurinational State of)",
+    "name": "Bolivia",
     "countries": [
       "BOL"
     ],
@@ -1507,7 +1507,7 @@
   },
   {
     "id": "flk",
-    "name": "Falkland Islands (Malvinas)",
+    "name": "Falkland Islans",
     "countries": [
       "FLK"
     ],
@@ -2572,7 +2572,7 @@
   },
   {
     "id": "fsm",
-    "name": "Micronesia (Federated States of)",
+    "name": "Micronesia",
     "countries": [
       "FSM"
     ],
@@ -3438,7 +3438,7 @@
   },
   {
     "id": "maf",
-    "name": "Saint Martin (French part)",
+    "name": "Saint Martin",
     "countries": [
       "MAF"
     ],
@@ -3646,7 +3646,7 @@
   },
   {
     "id": "sxm",
-    "name": "Sint Maarten (Dutch part)",
+    "name": "Sint Maarten",
     "countries": [
       "SXM"
     ],
@@ -4276,7 +4276,7 @@
   },
   {
     "id": "ven",
-    "name": "Venezuela (Bolivarian Republic of)",
+    "name": "Venezuela",
     "countries": [
       "VEN"
     ],
