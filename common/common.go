@@ -8,6 +8,7 @@ import (
 	"io/ioutil"
 	"net/http"
 	"os"
+	"regexp"
 	"strings"
 )
 
@@ -65,6 +66,7 @@ type Timezone struct {
 
 type Locale struct {
 	Id       string        `json:"id"`
+	Name     string        `json:"name"`
 	Country  string        `json:"country"`
 	Language string        `json:"language,omitempty"`
 	Numbers  LocaleNumbers `json:"numbers"`
@@ -203,4 +205,8 @@ func WriteJson(target string, data interface{}) {
 
 	err = os.Rename(tmp.Name(), target)
 	util.ExitIfError(err, "Error renaming tmp file")
+}
+
+func FormatLocaleId(value string) string {
+	return regexp.MustCompile("_").ReplaceAllString(value, "-")
 }

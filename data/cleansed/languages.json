@@ -14,7 +14,7 @@
       "ZAF"
     ],
     "locales": [
-      "af_ZA"
+      "af-ZA"
     ]
   },
   {
@@ -32,7 +32,7 @@
       "ALB"
     ],
     "locales": [
-      "sq_AL"
+      "sq-AL"
     ]
   },
   {
@@ -74,22 +74,22 @@
       "YEM"
     ],
     "locales": [
-      "ar_DZ",
-      "ar_BH",
-      "ar_EG",
-      "ar_IQ",
-      "ar_JO",
-      "ar_KW",
-      "ar_LB",
-      "ar_LY",
-      "ar_MA",
-      "ar_OM",
-      "ar_QA",
-      "ar_SA",
-      "ar_SY",
-      "ar_TN",
-      "ar_AE",
-      "ar_YE"
+      "ar-DZ",
+      "ar-BH",
+      "ar-EG",
+      "ar-IQ",
+      "ar-JO",
+      "ar-KW",
+      "ar-LB",
+      "ar-LY",
+      "ar-MA",
+      "ar-OM",
+      "ar-QA",
+      "ar-SA",
+      "ar-SY",
+      "ar-TN",
+      "ar-AE",
+      "ar-YE"
     ]
   },
   {
@@ -99,7 +99,7 @@
       "ARM"
     ],
     "locales": [
-      "hy_AM"
+      "hy-AM"
     ]
   },
   {
@@ -118,8 +118,8 @@
       "AZE"
     ],
     "locales": [
-      "Cy_az_AZ",
-      "Lt_az_AZ"
+      "Cy-az-AZ",
+      "Lt-az-AZ"
     ]
   },
   {
@@ -137,7 +137,7 @@
       "BLR"
     ],
     "locales": [
-      "be_BY"
+      "be-BY"
     ]
   },
   {
@@ -172,7 +172,7 @@
       "BGR"
     ],
     "locales": [
-      "bg_BG"
+      "bg-BG"
     ]
   },
   {
@@ -190,7 +190,7 @@
       "AND"
     ],
     "locales": [
-      "ca_ES"
+      "ca-ES"
     ]
   },
   {
@@ -212,13 +212,13 @@
       "SGP"
     ],
     "locales": [
-      "zh_CN",
-      "zh_HK",
-      "zh_MO",
-      "zh_SG",
-      "zh_TW",
-      "zh_CHS",
-      "zh_CHT"
+      "zh-CN",
+      "zh-HK",
+      "zh-MO",
+      "zh-SG",
+      "zh-TW",
+      "zh-CHS",
+      "zh-CHT"
     ]
   },
   {
@@ -229,7 +229,7 @@
       "BIH"
     ],
     "locales": [
-      "hr_HR"
+      "hr-HR"
     ]
   },
   {
@@ -240,7 +240,7 @@
       "SVK"
     ],
     "locales": [
-      "cs_CZ"
+      "cs-CZ"
     ]
   },
   {
@@ -251,7 +251,7 @@
       "FRO"
     ],
     "locales": [
-      "da_DK"
+      "da-DK"
     ]
   },
   {
@@ -261,7 +261,7 @@
       "MDV"
     ],
     "locales": [
-      "div_MV"
+      "div-MV"
     ]
   },
   {
@@ -276,8 +276,8 @@
       "SUR"
     ],
     "locales": [
-      "nl_BE",
-      "nl_NL"
+      "nl-BE",
+      "nl-NL"
     ]
   },
   {
@@ -357,19 +357,19 @@
       "ZWE"
     ],
     "locales": [
-      "en_AU",
-      "en_BZ",
-      "en_CA",
-      "en_CB",
-      "en_IE",
-      "en_JM",
-      "en_NZ",
-      "en_PH",
-      "en_ZA",
-      "en_TT",
-      "en_GB",
-      "en_US",
-      "en_ZW"
+      "en-AU",
+      "en-BZ",
+      "en-CA",
+      "en-CB",
+      "en-IE",
+      "en-JM",
+      "en-NZ",
+      "en-PH",
+      "en-ZA",
+      "en-TT",
+      "en-GB",
+      "en-US",
+      "en-ZW"
     ]
   },
   {
@@ -379,7 +379,7 @@
       "EST"
     ],
     "locales": [
-      "et_EE"
+      "et-EE"
     ]
   },
   {
@@ -406,7 +406,7 @@
       "FIN"
     ],
     "locales": [
-      "fi_FI"
+      "fi-FI"
     ]
   },
   {
@@ -457,12 +457,12 @@
       "VUT"
     ],
     "locales": [
-      "fr_BE",
-      "fr_CA",
-      "fr_FR",
-      "fr_LU",
-      "fr_MC",
-      "fr_CH"
+      "fr-BE",
+      "fr-CA",
+      "fr-FR",
+      "fr-LU",
+      "fr-MC",
+      "fr-CH"
     ]
   },
   {
@@ -484,7 +484,7 @@
       "GEO"
     ],
     "locales": [
-      "ka_GE"
+      "ka-GE"
     ]
   },
   {
@@ -500,11 +500,11 @@
       "CHE"
     ],
     "locales": [
-      "de_AT",
-      "de_DE",
-      "de_LI",
-      "de_LU",
-      "de_CH"
+      "de-AT",
+      "de-DE",
+      "de-LI",
+      "de-LU",
+      "de-CH"
     ]
   },
   {
@@ -515,7 +515,7 @@
       "CYP"
     ],
     "locales": [
-      "el_GR"
+      "el-GR"
     ]
   },
   {
@@ -534,7 +534,7 @@
       "IND"
     ],
     "locales": [
-      "gu_IN"
+      "gu-IN"
     ]
   },
   {
@@ -561,7 +561,7 @@
       "ISR"
     ],
     "locales": [
-      "he_IL"
+      "he-IL"
     ]
   },
   {
@@ -572,7 +572,7 @@
       "FJI"
     ],
     "locales": [
-      "hi_IN"
+      "hi-IN"
     ]
   },
   {
@@ -590,7 +590,7 @@
       "HUN"
     ],
     "locales": [
-      "hu_HU"
+      "hu-HU"
     ]
   },
   {
@@ -600,7 +600,7 @@
       "ISL"
     ],
     "locales": [
-      "is_IS"
+      "is-IS"
     ]
   },
   {
@@ -618,7 +618,7 @@
       "IDN"
     ],
     "locales": [
-      "id_ID"
+      "id-ID"
     ]
   },
   {
@@ -641,8 +641,8 @@
       "VAT"
     ],
     "locales": [
-      "it_IT",
-      "it_CH"
+      "it-IT",
+      "it-CH"
     ]
   },
   {
@@ -652,7 +652,7 @@
       "JPN"
     ],
     "locales": [
-      "ja_JP"
+      "ja-JP"
     ]
   },
   {
@@ -670,7 +670,7 @@
       "KAZ"
     ],
     "locales": [
-      "kk_KZ"
+      "kk-KZ"
     ]
   },
   {
@@ -715,7 +715,7 @@
       "KOR"
     ],
     "locales": [
-      "ko_KR"
+      "ko-KR"
     ]
   },
   {
@@ -741,7 +741,7 @@
       "KGZ"
     ],
     "locales": [
-      "ky_KZ"
+      "ky-KZ"
     ]
   },
   {
@@ -767,7 +767,7 @@
       "LVA"
     ],
     "locales": [
-      "lv_LV"
+      "lv-LV"
     ]
   },
   {
@@ -786,7 +786,7 @@
       "LTU"
     ],
     "locales": [
-      "lt_LT"
+      "lt-LT"
     ]
   },
   {
@@ -812,7 +812,7 @@
       "MKD"
     ],
     "locales": [
-      "mk_MK"
+      "mk-MK"
     ]
   },
   {
@@ -833,8 +833,8 @@
       "IDN"
     ],
     "locales": [
-      "ms_BN",
-      "ms_MY"
+      "ms-BN",
+      "ms-MY"
     ]
   },
   {
@@ -860,7 +860,7 @@
       "MNG"
     ],
     "locales": [
-      "mn_MN"
+      "mn-MN"
     ]
   },
   {
@@ -903,7 +903,7 @@
       "NOR"
     ],
     "locales": [
-      "nb_NO"
+      "nb-NO"
     ]
   },
   {
@@ -913,7 +913,7 @@
       "NOR"
     ],
     "locales": [
-      "nn_NO"
+      "nn-NO"
     ]
   },
   {
@@ -923,7 +923,7 @@
       "IND"
     ],
     "locales": [
-      "pa_IN"
+      "pa-IN"
     ]
   },
   {
@@ -943,7 +943,7 @@
       "TJK"
     ],
     "locales": [
-      "fa_IR"
+      "fa-IR"
     ]
   },
   {
@@ -953,7 +953,7 @@
       "POL"
     ],
     "locales": [
-      "pl_PL"
+      "pl-PL"
     ]
   },
   {
@@ -972,8 +972,8 @@
       "STP"
     ],
     "locales": [
-      "pt_BR",
-      "pt_PT"
+      "pt-BR",
+      "pt-PT"
     ]
   },
   {
@@ -993,7 +993,7 @@
       "MDA"
     ],
     "locales": [
-      "ro_RO"
+      "ro-RO"
     ]
   },
   {
@@ -1015,7 +1015,7 @@
       "TJK"
     ],
     "locales": [
-      "ru_RU"
+      "ru-RU"
     ]
   },
   {
@@ -1034,8 +1034,8 @@
       "BIH"
     ],
     "locales": [
-      "Cy_sr_SP",
-      "Lt_sr_SP"
+      "Cy-sr-SP",
+      "Lt-sr-SP"
     ]
   },
   {
@@ -1062,7 +1062,7 @@
       "CZE"
     ],
     "locales": [
-      "sk_SK"
+      "sk-SK"
     ]
   },
   {
@@ -1072,7 +1072,7 @@
       "SVN"
     ],
     "locales": [
-      "sl_SI"
+      "sl-SI"
     ]
   },
   {
@@ -1129,25 +1129,25 @@
       "ESH"
     ],
     "locales": [
-      "es_AR",
-      "es_BO",
-      "es_CL",
-      "es_CO",
-      "es_CR",
-      "es_DO",
-      "es_EC",
-      "es_SV",
-      "es_GT",
-      "es_HN",
-      "es_MX",
-      "es_NI",
-      "es_PA",
-      "es_PY",
-      "es_PE",
-      "es_PR",
-      "es_ES",
-      "es_UY",
-      "es_VE"
+      "es-AR",
+      "es-BO",
+      "es-CL",
+      "es-CO",
+      "es-CR",
+      "es-DO",
+      "es-EC",
+      "es-SV",
+      "es-GT",
+      "es-HN",
+      "es-MX",
+      "es-NI",
+      "es-PA",
+      "es-PY",
+      "es-PE",
+      "es-PR",
+      "es-ES",
+      "es-UY",
+      "es-VE"
     ]
   },
   {
@@ -1160,7 +1160,7 @@
       "UGA"
     ],
     "locales": [
-      "sw_KE"
+      "sw-KE"
     ]
   },
   {
@@ -1181,8 +1181,8 @@
       "ALA"
     ],
     "locales": [
-      "sv_FI",
-      "sv_SE"
+      "sv-FI",
+      "sv-SE"
     ]
   },
   {
@@ -1212,7 +1212,7 @@
       "MUS"
     ],
     "locales": [
-      "ta_IN"
+      "ta-IN"
     ]
   },
   {
@@ -1222,7 +1222,7 @@
       "IND"
     ],
     "locales": [
-      "te_IN"
+      "te-IN"
     ]
   },
   {
@@ -1232,7 +1232,7 @@
       "THA"
     ],
     "locales": [
-      "th_TH"
+      "th-TH"
     ]
   },
   {
@@ -1268,7 +1268,7 @@
       "CYP"
     ],
     "locales": [
-      "tr_TR"
+      "tr-TR"
     ]
   },
   {
@@ -1286,7 +1286,7 @@
       "UKR"
     ],
     "locales": [
-      "uk_UA"
+      "uk-UA"
     ]
   },
   {
@@ -1297,7 +1297,7 @@
       "FJI"
     ],
     "locales": [
-      "ur_PK"
+      "ur-PK"
     ]
   },
   {
@@ -1307,8 +1307,8 @@
       "UZB"
     ],
     "locales": [
-      "Cy_uz_UZ",
-      "Lt_uz_UZ"
+      "Cy-uz-UZ",
+      "Lt-uz-UZ"
     ]
   },
   {
@@ -1326,7 +1326,7 @@
       "VNM"
     ],
     "locales": [
-      "vi_VN"
+      "vi-VN"
     ]
   },
   {

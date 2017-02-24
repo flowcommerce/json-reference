@@ -21,6 +21,7 @@ type CleansedDataSet struct {
 	CurrencySymbols   map[string]cleanse.CurrencySymbols
 	Numbers           []cleanse.Number
 	Languages         []cleanse.Language
+	LocaleNames       []cleanse.LocaleName
 	Timezones         []cleanse.Timezone
 	CountryTimezones  []cleanse.CountryTimezone
 }
@@ -33,6 +34,7 @@ func Generate() {
 		Currencies:        cleanse.LoadCurrencies(),
 		CurrencySymbols:   cleanse.LoadCurrencySymbols(),
 		Languages:         cleanse.LoadLanguages(),
+		LocaleNames:       cleanse.LoadLocaleNames(),
 		Numbers:           cleanse.LoadNumbers(),
 		Timezones:         cleanse.LoadTimezones(),
 		CountryTimezones:  cleanse.LoadCountryTimezones(),
@@ -109,9 +111,14 @@ func commonLocales(data CleansedDataSet) []common.Locale {
 					fmt.Printf("Invalid group separator[%s]\n", n.Separators.Group)
 					os.Exit(1)
 				}
-				
+				name := findLocaleNameById(data.LocaleNames, id)
+				if name == "" {
+					name = fmt.Sprintf("%s - %s", findLanguageByCode(data.Languages, n.Language).Name, findCountryByCode(data.Countries, n.Country).Name)
+				}
+
 				all = append(all, common.Locale{
 					Id:       id,
+					Name:     name,
 					Country:  country,
 					Language: language,
 					Numbers: common.LocaleNumbers{
@@ -369,6 +376,16 @@ func findTimezone(timezones []cleanse.Timezone, name string) cleanse.Timezone {
 	return cleanse.Timezone{}
 }
 
+func findLocaleNameById(names []cleanse.LocaleName, id string) string {
+	localeId := common.FormatLocaleId(id)
+	for _, n := range names {
+		if n.Id == localeId {
+			return n.Name
+		}
+	}
+	return ""
+}
+
 func getMeasurementSystem(iso_3166_3 string) string {
 	if iso_3166_3 == "USA" || iso_3166_3 == "LBR" || iso_3166_3 == "MMR" {
 		return "imperial"
@@ -529,7 +546,7 @@ func sortRegions(regions []common.Region) []common.Region {
 
 func sortLocales(locales []common.Locale) []common.Locale {
 	slice.Sort(locales[:], func(i, j int) bool {
-		return strings.ToLower(locales[i].Id) < strings.ToLower(locales[j].Id)
+		return strings.ToLower(locales[i].Name) < strings.ToLower(locales[j].Name)
 	})
 	return locales
 }

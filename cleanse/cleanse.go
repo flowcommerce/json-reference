@@ -12,7 +12,6 @@ import (
 	"io"
 	"os"
 	"path/filepath"
-	"regexp"
 	"sort"
 	"strings"
 )
@@ -233,6 +232,15 @@ func Cleanse() {
 }
 
 func countryName(record map[string]string) string {
+	overrides := map[string]string{
+		"Bolivia (Plurinational State of)": "Bolivia",
+		"Micronesia (Federated States of)": "Micronesia",
+		"Saint Martin (French part)": "Saint Martin",
+		"Sint Maarten (Dutch part)": "Sint Maarten",
+		"Venezuela (Bolivarian Republic of)": "Venezuela",
+		"Falkland Islands (Malvinas)": "Falkland Islans",
+	}
+
 	name := record["official_name_en"]
 	if name == "" {
 		name = record["name"]
@@ -241,7 +249,11 @@ func countryName(record map[string]string) string {
 		fmt.Printf("ERROR: Missing country name for record: %s\n", record)
 		os.Exit(1)
 	}
-	return name
+	if overrides[name] == "" {
+		return name
+	} else {
+		return overrides[name]
+	}
 }
 				
 
@@ -323,11 +335,12 @@ func readLanguages(file string) ([]Language, []LocaleName) {
 		if len(l.Iso_639_2) > 0 && name != "" && len(l.Countries) > 0 {
 			locales := []string{}
 			for _, incomingLocale := range(l.Locales) {
+				localeId := common.FormatLocaleId(incomingLocale.Id)
 				localeNameMap[incomingLocale.Id] = LocaleName{
-					Id: incomingLocale.Id,
+					Id: localeId,
 					Name: incomingLocale.Name,
 				}
-				locales = append(locales, formatLocaleId(incomingLocale.Id))
+				locales = append(locales, localeId)
 			}
 
 			languages = append(languages, Language{
@@ -510,6 +523,13 @@ func LoadLanguages() []Language {
 	return languages
 }
 
+func LoadLocaleNames() []LocaleName {
+	names := []LocaleName{}
+	err := json.Unmarshal(common.ReadFile("data/cleansed/locale-names.json"), &names)
+	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshal locale names: %s", err))
+	return names
+}
+
 func LoadNumbers() []Number {
 	numbers := []Number{}
 	err := json.Unmarshal(common.ReadFile("data/cleansed/numbers.json"), &numbers)
@@ -651,8 +671,4 @@ func sortLocaleNames(names []LocaleName) []LocaleName {
 		return strings.ToLower(names[i].Name) < strings.ToLower(names[j].Name)
 	})
 	return names
-}
-
-func formatLocaleId(value string) string {
-	return regexp.MustCompile("-").ReplaceAllString(value, "_")
 }
