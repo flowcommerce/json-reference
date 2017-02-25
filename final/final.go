@@ -179,14 +179,23 @@ func commonCurrencies(data CleansedDataSet) []common.Currency {
 	var all []common.Currency
 	for _, c := range data.Currencies {
 		symbols := data.CurrencySymbols[c.Iso_4217_3]
+
+		commonSymbols := &common.CurrencySymbols{}
+
+		if symbols.Primary == "" {
+			commonSymbols = nil
+		} else {
+			commonSymbols = &common.CurrencySymbols{
+				Primary: symbols.Primary,
+				Narrow:  symbols.Narrow,
+			}
+		}
+		
 		all = append(all, common.Currency{
 			Name:           c.Name,
 			Iso_4217_3:     c.Iso_4217_3,
 			NumberDecimals: c.NumberDecimals,
-			Symbols: common.CurrencySymbols{
-				Primary: symbols.Primary,
-				Narrow:  symbols.Narrow,
-			},
+			Symbols:        commonSymbols,
 		})
 	}
 	return all

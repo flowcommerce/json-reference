@@ -29,15 +29,15 @@ type Country struct {
 }
 
 type Currency struct {
-	Name           string          `json:"name"`
-	Iso_4217_3     string          `json:"iso_4217_3"`
-	NumberDecimals int             `json:"number_decimals"`
-	Symbols        CurrencySymbols `json:"symbols"`
-	DefaultLocale  string          `json:"locale,omitempty"`
+	Name           string           `json:"name"`
+	Iso_4217_3     string           `json:"iso_4217_3"`
+	NumberDecimals int              `json:"number_decimals"`
+	Symbols        *CurrencySymbols `json:"symbols,omitempty"`
+	DefaultLocale  string           `json:"locale,omitempty"`
 }
 
 type CurrencySymbols struct {
-	Primary string `json:"primary,omitempty"`
+	Primary string `json:"primary"`
 	Narrow  string `json:"narrow,omitempty"`
 }
 
@@ -69,7 +69,7 @@ type Locale struct {
 	Name     string        `json:"name"`
 	Country  string        `json:"country"`
 	Language string        `json:"language,omitempty"`
-	Numbers  LocaleNumbers `json:"numbers"`
+	Numbers LocaleNumbers `json:"numbers"`
 }
 
 type LocaleNumbers struct {
