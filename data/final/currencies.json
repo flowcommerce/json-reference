@@ -262,7 +262,7 @@
     "symbols": {
       "primary": "€"
     },
-    "default_locale": "ca-AD"
+    "default_locale": "en-DE"
   },
   {
     "name": "Falkland Islands Pound",
@@ -632,7 +632,7 @@
     "symbols": {
       "primary": "£"
     },
-    "default_locale": "en-GG"
+    "default_locale": "en-GB"
   },
   {
     "name": "Qatari Rial",
@@ -808,7 +808,7 @@
     "symbols": {
       "primary": "$"
     },
-    "default_locale": "en-AS"
+    "default_locale": "en-US"
   },
   {
     "name": "Uzbekistani Som",

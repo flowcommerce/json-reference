@@ -1,0 +1,14 @@
+[
+  {
+    "currency": "EUR",
+    "locale": "en-DE"
+  },
+  {
+    "currency": "GBP",
+    "locale": "en-GB"
+  },
+  {
+    "currency": "USD",
+    "locale": "en-US"
+  }
+]

@@ -260,6 +260,8 @@ func commonTimezones(data CleansedDataSet) []common.Timezone {
 }
 
 func commonCurrencies(data CleansedDataSet, locales []common.Locale) []common.Currency {
+	currencyLocales := cleanse.LoadCurrencyLocales()
+
 	var all []common.Currency
 	for _, c := range data.Currencies {
 		symbols := data.CurrencySymbols[c.Iso_4217_3]
@@ -274,13 +276,18 @@ func commonCurrencies(data CleansedDataSet, locales []common.Locale) []common.Cu
 				Narrow:  symbols.Narrow,
 			}
 		}
+
+		defaultLocale := currencyLocales[c.Iso_4217_3]
+		if defaultLocale == "" {
+			defaultLocale = defaultLocaleIdForCurrency(data, locales, c)
+		}
 		
 		all = append(all, common.Currency{
 			Name:           c.Name,
 			Iso_4217_3:     c.Iso_4217_3,
 			NumberDecimals: c.NumberDecimals,
 			Symbols:        commonSymbols,
-			DefaultLocale:  defaultLocaleIdForCurrency(data, locales, c),
+			DefaultLocale:  defaultLocale,
 		})
 	}
 	return all

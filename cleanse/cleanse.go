@@ -41,6 +41,11 @@ type Currency struct {
 	NumberDecimals int    `json:"number_decimals"`
 }
 
+type CurrencyLocale struct {
+	CurrencyCode string `json:"currency"`
+	LocaleId     string `json:"locale"`
+}
+
 type Language struct {
 	Name      string   `json:"name"`
 	Iso_639_2 string   `json:"iso_639_2"`
@@ -226,6 +231,23 @@ func Cleanse() {
 			},
 			func(record map[string]string) string {
 				return record["timezone"] + record["country"]
+			},
+		),
+	)
+
+	writeJson("data/cleansed/currency-locales.json",
+		toObjects(readCsv("data/original/currency-locales.csv"),
+			func(record map[string]string) bool {
+				return record["currency"] != "" && record["locale"] != ""
+			},
+			func(record map[string]string) interface{} {
+				return CurrencyLocale{
+					CurrencyCode: record["currency"],
+					LocaleId:   record["locale"],
+				}
+			},
+			func(record map[string]string) string {
+				return record["currency"] + record["locale"]
 			},
 		),
 	)
@@ -458,6 +480,18 @@ func LoadCountryContinents() []CountryContinent {
 	err := json.Unmarshal(common.ReadFile("data/cleansed/country-continents.json"), &countryContinents)
 	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshal country continents: %s", err))
 	return countryContinents
+}
+
+func LoadCurrencyLocales() map[string]string {
+	currencyLocales := []CurrencyLocale{}
+	err := json.Unmarshal(common.ReadFile("data/cleansed/currency-locales.json"), &currencyLocales)
+	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshal country continents: %s", err))
+
+	table := map[string]string{}
+	for _, cl := range(currencyLocales) {
+		table[cl.CurrencyCode] = cl.LocaleId
+	}
+	return table
 }
 
 func LoadContinents() []Continent {
