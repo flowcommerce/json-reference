@@ -33,7 +33,7 @@ type Currency struct {
 	Iso_4217_3     string           `json:"iso_4217_3"`
 	NumberDecimals int              `json:"number_decimals"`
 	Symbols        *CurrencySymbols `json:"symbols,omitempty"`
-	DefaultLocale  string           `json:"locale,omitempty"`
+	DefaultLocale  string           `json:"default_locale,omitempty"`
 }
 
 type CurrencySymbols struct {

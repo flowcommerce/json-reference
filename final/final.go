@@ -42,11 +42,12 @@ func Generate() {
 
 	continents := commonContinents(data)
 	countries := commonCountries(data)
+	locales := commonLocales(data)
 
 	writeJson("data/final/continents.json", continents)
 	writeJson("data/final/languages.json", commonLanguages(data))
-	writeJson("data/final/locales.json", commonLocales(data))
-	writeJson("data/final/currencies.json", commonCurrencies(data))
+	writeJson("data/final/locales.json", locales)
+	writeJson("data/final/currencies.json", commonCurrencies(data, locales))
 	writeJson("data/final/timezones.json", commonTimezones(data))
 	writeJson("data/final/countries.json", countries)
 	writeJson("data/final/regions.json", createRegions(countries, continents))
@@ -258,7 +259,7 @@ func commonTimezones(data CleansedDataSet) []common.Timezone {
 	return all
 }
 
-func commonCurrencies(data CleansedDataSet) []common.Currency {
+func commonCurrencies(data CleansedDataSet, locales []common.Locale) []common.Currency {
 	var all []common.Currency
 	for _, c := range data.Currencies {
 		symbols := data.CurrencySymbols[c.Iso_4217_3]
@@ -279,6 +280,7 @@ func commonCurrencies(data CleansedDataSet) []common.Currency {
 			Iso_4217_3:     c.Iso_4217_3,
 			NumberDecimals: c.NumberDecimals,
 			Symbols:        commonSymbols,
+			DefaultLocale:  defaultLocaleIdForCurrency(data, locales, c),
 		})
 	}
 	return all
@@ -597,6 +599,32 @@ func measurementSystemsForCountries(countries []common.Country) []string {
 
 	sort.Strings(codes)
 	return codes
+}
+
+func defaultLocaleIdForCurrency(data CleansedDataSet, locales []common.Locale, currency cleanse.Currency) string {
+	countries := []string{}
+	languages := []string{}
+
+	for _, c := range(data.Countries) {
+		if c.Currency == currency.Iso_4217_3 {
+			countries = append(countries, c.Iso_3166_3)
+
+			for _, l := range(data.Languages) {
+				if common.Contains(l.Countries, c.Iso_3166_3) {
+					languages = append(languages, l.Iso_639_2)
+				}
+			}
+		}
+	}
+
+	// Return first matching locale
+	for _, l := range(locales) {
+		if common.Contains(countries, l.Country) && common.Contains(languages, l.Language) {
+			return l.Id
+		}
+	}
+
+	return ""
 }
 
 func assertUniqueRegionIds(regions []common.Region) {
