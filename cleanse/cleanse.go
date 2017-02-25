@@ -161,8 +161,8 @@ func Cleanse() {
 	writeJson("data/cleansed/languages.json", languages)
 	writeJson("data/cleansed/locale-names.json", localeNames)
 
-	unsupportedCurrencyCodes := unsupportedCurrencyCodes()
-	unsupportedCountryCodes := unsupportedCountryCodes()
+	unsupportedCurrencyCodes := common.UnsupportedCurrencyCodes()
+	unsupportedCountryCodes := common.UnsupportedCountryCodes()
 
 	countriesSource := readCsv("data/source/countries.csv")
 	writeJson("data/cleansed/countries.json",
@@ -367,7 +367,7 @@ func readCurrencySymbols(file string) map[string]CurrencySymbols {
 	err := json.Unmarshal(common.ReadFile(file), &data)
 	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshall cldr currencies: %s", err))
 
-	unsupportedCurrencyCodes := unsupportedCurrencyCodes()
+	unsupportedCurrencyCodes := common.UnsupportedCurrencyCodes()
 	currencySymbols := map[string]CurrencySymbols{}
 
 	for _, main := range data.Main {
@@ -397,7 +397,7 @@ func readCurrencies(file string) []Currency {
 	err := json.Unmarshal(common.ReadFile(file), &data)
 	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshall currencies: %s", err))
 
-	unsupportedCurrencyCodes := unsupportedCurrencyCodes()
+	unsupportedCurrencyCodes := common.UnsupportedCurrencyCodes()
 	currencies := []Currency{}
 
 	for _, c := range data {
@@ -579,68 +579,6 @@ func loadCldrNumbers(dir string) []Number {
 func fileExists(path string) bool {
 	_, err := os.Stat(path)
 	return !os.IsNotExist(err)
-}
-
-func unsupportedCountryCodes() []string {
-	return []string{
-		"AFG",
-		"AGO",
-		"ATA", // Antarctica
-		"ATF",
-		"BDI",
-		"BLR",
-		"BVT",
-		"CCK",
-		"COD",
-		"CUB",
-		"CXR",
-		"ERI",
-		"FRO",
-		"HMD",
-		"IOT",
-		"IRN",
-		"IRQ",
-		"LBR",
-		"MDG",
-		"MKD",
-		"MMR",
-		"MOZ",
-		"PSE",
-		"SDN",
-		"SGS",
-		"SUR",
-		"SYR",
-		"TJK",
-		"TKM",
-		"UMI",
-		"ZWE",
-	}
-}
-
-func unsupportedCurrencyCodes() []string {
-	return []string{
-		"AFN",
-		"AOA",
-		"BIF",
-		"BYR",
-		"CUP",
-		"ERN",
-		"IQD",
-		"IRR",
-		"KPW",
-		"LRD",
-		"MGA",
-		"MKD",
-		"MMK",
-		"MZN",
-		"SDG",
-		"SRD",
-		"SSP",
-		"SYP",
-		"TJS",
-		"TMT",
-		"ZWL",
-	}
 }
 
 func sortObjects(data map[string]interface{}) []interface{} {

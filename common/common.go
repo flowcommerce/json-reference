@@ -218,3 +218,75 @@ func FormatLocaleId(value string) string {
 
 	return strings.Join(distinct, "-")
 }
+
+func UnsupportedCountryCodes() []string {
+	return []string{
+		"AF",
+		"AFG",
+		"AGQ",
+		"AGO",
+		"ATA", // Antarctica
+		"ATF",
+		"BDI",
+		"BLR",
+		"BVT",
+		"CCK",
+		"COD",
+		"CUB",
+		"CXR",
+		"ER",
+		"ERI",
+		"FRO",
+		"HMD",
+		"IOT",
+		"IRN",
+		"IQ",
+		"IRQ",
+		"LBR",
+		"MDG",
+		"MKD",
+		"MMR",
+		"MOZ",
+		"PS",
+		"PSE",
+		"SD",
+		"SDN",
+		"SS",
+		"SGS",
+		"SR",
+		"SUR",
+		"SY",
+		"SYR",
+		"TJ",
+		"TJK",
+		"TKM",
+		"UMI",
+		"ZWE",
+	}
+}
+
+func UnsupportedCurrencyCodes() []string {
+	return []string{
+		"AFN",
+		"AOA",
+		"BIF",
+		"BYR",
+		"CUP",
+		"ERN",
+		"IQD",
+		"IRR",
+		"KPW",
+		"LRD",
+		"MGA",
+		"MKD",
+		"MMK",
+		"MZN",
+		"SDG",
+		"SRD",
+		"SSP",
+		"SYP",
+		"TJS",
+		"TMT",
+		"ZWL",
+	}
+}

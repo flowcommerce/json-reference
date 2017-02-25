@@ -82,49 +82,132 @@ func commonContinents(data CleansedDataSet) []common.Continent {
 
 func commonLocales(data CleansedDataSet) []common.Locale {
 	var all []common.Locale
+
+	englishCountries := []string{
+		"ASM",
+		"BOL",
+		"IND",
+		"KEN",
+		"TON",
+		"UGA",
+		"GRD",
+		"GRL",
+		"KIR",
+		"KNA",
+	}
+
+	countryMap := map[string]string{
+		"zh": "cn",
+	}
+
+	unsupportedLanguages := []string {
+		"mas",
+	}
+
+	languageMap := map[string]string{
+		"br": "pt",
+		"fo": "da",
+		"kw": "ar",
+		"ml": "fr",
+		"mr": "ar",
+		"nds": "nl",
+		"om": "ar",
+		"os": "ru",
+		"se": "sw",
+	}
+	
+	unsupportedCountryCodes := common.UnsupportedCountryCodes()
+
 	for _, n := range data.Numbers {
-		countryCode := normalizeCountryCode(data.Countries, n.Country)
-		if countryCode == "" {
-			// fmt.Printf(" - skipping locale as country code[%s] is not known\n", n.Country)
+		if common.ContainsIgnoreCase(unsupportedCountryCodes, n.Country) {
+			continue
+		}
+
+		var originalCountry string
+		if countryMap[n.Country] == "" {
+			originalCountry = n.Country
 		} else {
-			languageCode := normalizeLanguageCode(data.Languages, n.Language)
-			if languageCode == "" {
-				// fmt.Printf(" - skipping locale as language code[%s] is not known\n",n.Language)
-			} else {
-				separator := ""
-				if (n.Separators.Group == ",") {
-					separator = ","
-				} else if (n.Separators.Group == " ") {
-					// Weird encoding from cldr-json
-					separator = " "
-				} else if (n.Separators.Group == ".") {
-					separator = "."
-				} else if (n.Separators.Group == "'") {
-					separator = "'"
-				} else {
-					fmt.Printf("Invalid group separator[%s]\n", n.Separators.Group)
-					os.Exit(1)
-				}
+			originalCountry = countryMap[n.Country]
+		}
 
+		var originalLanguage string
+		if languageMap[n.Language] == "" {
+			originalLanguage = n.Language
+		} else {
+			originalLanguage = languageMap[n.Language]
+		}
+
+		countryCode := normalizeCountryCode(data.Countries, originalCountry)
+		languageCode := normalizeLanguageCode(data.Languages, originalLanguage)
+		if countryCode == "" && languageCode == "" {
+			// fmt.Printf(" - skipping locale as neither country code[%s] nor language code[%s] is known\n", originalCountry, originalLanguage)
+		} else {
+			if countryCode == "" {
 				language := findLanguageByCode(data.Languages, languageCode)
-				country := findCountryByCode(data.Countries, countryCode)
-				id := common.FormatLocaleId(fmt.Sprintf("%s-%s", language.Iso_639_2, country.Iso_3166_2))
-				name := findLocaleNameById(data.LocaleNames, id)
-				if name == "" {
-					name = fmt.Sprintf("%s - %s", language.Name, country.Name)
+				if len(language.Countries) == 1 {
+					// Language mapped to exactly 1 country
+					countryCode = normalizeCountryCode(data.Countries, language.Countries[0])
+				}
+				if countryCode == "" {
+					// fmt.Printf(" - unknown country[%s] for language[%s] - skipping\n", originalCountry, languageCode)
+					continue
+				}
+			}
+
+			if languageCode == "" {
+				if common.Contains(englishCountries, countryCode) {
+					languageCode = normalizeLanguageCode(data.Languages, "en")
 				}
 
-				all = append(all, common.Locale{
-					Id:       id,
-					Name:     name,
-					Country:  country.Iso_3166_3,
-					Language: language.Iso_639_2,
-					Numbers: common.LocaleNumbers{
-						Decimal: n.Separators.Decimal,
-						Group:   separator,
-					},
-				})
+				if languageCode == "" {
+					if originalLanguage == "gsw" {
+						// Missing locale for swiss german
+						continue
+					} else if common.ContainsIgnoreCase(unsupportedLanguages, originalLanguage) {
+						// don't report error
+						continue
+					} else {
+						fmt.Printf("ERROR: Unknown language[%s] w/ country[%s]\n", originalLanguage, countryCode)
+						continue
+					}
+				}
 			}
+
+			separator := ""
+			if (n.Separators.Group == ",") {
+				separator = ","
+			} else if (n.Separators.Group == " ") {
+				// Weird encoding from cldr-json
+				separator = " "
+			} else if (n.Separators.Group == ".") {
+				separator = "."
+			} else if (n.Separators.Group == "'") {
+				separator = "'"
+			} else if (n.Separators.Group == "’") {
+				separator = "’"
+			} else {
+				fmt.Printf("Invalid group separator[%s]\n", n.Separators.Group)
+				os.Exit(1)
+			}
+
+			language := findLanguageByCode(data.Languages, languageCode)
+			country := findCountryByCode(data.Countries, countryCode)
+			id := common.FormatLocaleId(fmt.Sprintf("%s-%s", language.Iso_639_2, country.Iso_3166_2))
+			name := findLocaleNameById(data.LocaleNames, id)
+			if name == "" {
+				name = fmt.Sprintf("%s - %s", language.Name, country.Name)
+			}
+
+			all = append(all, common.Locale{
+				Id:       id,
+				Name:     name,
+				Country:  country.Iso_3166_3,
+				Language: language.Iso_639_2,
+				Numbers: common.LocaleNumbers{
+					Decimal: n.Separators.Decimal,
+					Group:   separator,
+				},
+			})
 		}
 	}
 
