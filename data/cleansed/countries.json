@@ -277,7 +277,7 @@
     "continent": "AS",
     "iso_3166_2": "HK",
     "iso_3166_3": "HKG",
-    "currency": ""
+    "currency": "HKD"
   },
   {
     "name": "China, Macao Special Administrative Region",
@@ -347,7 +347,7 @@
     "continent": "EU",
     "iso_3166_2": "CZ",
     "iso_3166_3": "CZE",
-    "currency": ""
+    "currency": "CZK"
   },
   {
     "name": "Côte d'Ivoire",
@@ -1320,7 +1320,7 @@
     "continent": "AS",
     "iso_3166_2": "TW",
     "iso_3166_3": "TWN",
-    "currency": ""
+    "currency": "TWD"
   },
   {
     "name": "Thailand",

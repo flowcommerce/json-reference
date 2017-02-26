@@ -176,11 +176,26 @@ func Cleanse() {
 				return record["ISO3166-1-Alpha-2"] != "" && record["ISO3166-1-Alpha-3"] != "" && !common.ContainsIgnoreCase(unsupportedCountryCodes, record["ISO3166-1-Alpha-3"]) && !common.ContainsIgnoreCase(unsupportedCurrencyCodes, record["ISO4217-currency_alphabetic_code"])
 			},
 			func(record map[string]string) interface{} {
+				iso3 := record["ISO3166-1-Alpha-3"]
+				currency := record["ISO4217-currency_alphabetic_code"]
+				if currency == "" {
+					if iso3 == "CZE" {
+						currency = "CZK"
+					} else if iso3 == "HKG" {
+						currency = "HKD"
+					} else if iso3 == "TWN" {
+						currency = "TWD"
+					} else {
+						fmt.Printf("Country %s does not have a currency\n", iso3)
+						os.Exit(1)
+					}
+				}
+
 				return Country{
 					Name:       countryName(record),
 					Iso_3166_2: record["ISO3166-1-Alpha-2"],
-					Iso_3166_3: record["ISO3166-1-Alpha-3"],
-					Currency:   record["ISO4217-currency_alphabetic_code"],
+					Iso_3166_3: iso3,
+					Currency:   currency,
 					Continent:  record["Continent"],
 				}
 			},

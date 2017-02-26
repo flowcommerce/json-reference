@@ -442,6 +442,7 @@
     "iso_3166_2": "HK",
     "iso_3166_3": "HKG",
     "measurement_system": "metric",
+    "default_currency": "HKD",
     "languages": [
       "en",
       "zh"
@@ -557,6 +558,7 @@
     "iso_3166_2": "CZ",
     "iso_3166_3": "CZE",
     "measurement_system": "metric",
+    "default_currency": "CZK",
     "languages": [
       "cs",
       "sk"
@@ -2145,6 +2147,7 @@
     "iso_3166_2": "TW",
     "iso_3166_3": "TWN",
     "measurement_system": "metric",
+    "default_currency": "TWD",
     "languages": [
       "zh"
     ],

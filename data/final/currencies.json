@@ -334,7 +334,8 @@
     "symbols": {
       "primary": "HK$",
       "narrow": "$"
-    }
+    },
+    "default_locale": "zh-HK"
   },
   {
     "name": "Hungarian Forint",

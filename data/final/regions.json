@@ -330,6 +330,7 @@
       "BND",
       "CNY",
       "GEL",
+      "HKD",
       "IDR",
       "ILS",
       "INR",
@@ -356,6 +357,7 @@
       "SGD",
       "THB",
       "TRY",
+      "TWD",
       "UZS",
       "VND",
       "YER"
@@ -932,7 +934,9 @@
     "countries": [
       "HKG"
     ],
-    "currencies": [],
+    "currencies": [
+      "HKD"
+    ],
     "languages": [
       "en",
       "zh"
@@ -1106,7 +1110,9 @@
     "countries": [
       "CZE"
     ],
-    "currencies": [],
+    "currencies": [
+      "CZK"
+    ],
     "languages": [
       "cs",
       "sk"
@@ -1367,6 +1373,7 @@
       "BAM",
       "BGN",
       "CHF",
+      "CZK",
       "DKK",
       "EUR",
       "GBP",
@@ -3919,7 +3926,9 @@
     "countries": [
       "TWN"
     ],
-    "currencies": [],
+    "currencies": [
+      "TWD"
+    ],
     "languages": [
       "zh"
     ],
@@ -4591,6 +4600,7 @@
       "COP",
       "CRC",
       "CVE",
+      "CZK",
       "DJF",
       "DKK",
       "DOP",
@@ -4608,6 +4618,7 @@
       "GNF",
       "GTQ",
       "GYD",
+      "HKD",
       "HNL",
       "HRK",
       "HUF",
@@ -4672,6 +4683,7 @@
       "TOP",
       "TRY",
       "TTD",
+      "TWD",
       "TZS",
       "UAH",
       "UGX",
