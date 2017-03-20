@@ -14,6 +14,7 @@ import (
 	"path/filepath"
 	"sort"
 	"strings"
+	"strconv"
 )
 
 type Continent struct {
@@ -119,6 +120,19 @@ type Number struct {
 	Country    string     `json:"country"`
 	Language   string     `json:"language"`
 	Separators Separators `json:"separators"`
+}
+
+type PaymentMethod struct {
+	Id                string   `json:"id"`
+	Type              string   `json:"type"`
+	Name              string   `json:"name"`
+	SmallWidth        int      `json:"small_width"`
+	SmallHeight       int      `json:"small_height"`
+	MediumWidth       int      `json:"medium_width"`
+	MediumHeight      int      `json:"medium_height"`
+	LargeWidth        int      `json:"large_width"`
+	LargeHeight       int      `json:"large_height"`
+	Regions           []string `json:"regions"`
 }
 
 type Separators struct {
@@ -231,6 +245,31 @@ func Cleanse() {
 		),
 	)
 
+	writeJson("data/cleansed/payment-methods.json",
+		toObjects(readCsv("data/original/payment-methods.csv"),
+			func(record map[string]string) bool {
+				return record["id"] != ""
+			},
+			func(record map[string]string) interface{} {
+				return PaymentMethod{
+					Id: record["id"],
+					Type: record["type"],
+					Name: record["name"],
+					SmallWidth: toInt32(record["small_width"]),
+					SmallHeight: toInt32(record["small_height"]),
+					MediumWidth: toInt32(record["medium_width"]),
+					MediumHeight: toInt32(record["medium_height"]),
+					LargeWidth: toInt32(record["large_width"]),
+					LargeHeight: toInt32(record["large_height"]),
+					Regions: strings.Split(record["regions"], ","),
+				}
+			},
+			func(record map[string]string) string {
+				return record["id"]
+			},
+		),
+	)
+
 	writeJson("data/cleansed/timezones.json", loadTimezonesFromPath("data/original/timezones.json"))
 
 	writeJson("data/cleansed/country-timezones.json",
@@ -312,7 +351,7 @@ func readCsvWithHeaders(file string, headers []string) []map[string]string {
 		if err == io.EOF {
 			break
 		}
-		util.ExitIfError(err, fmt.Sprintf("Error processing csv file %s", file))
+		util.ExitIfError(err, fmt.Sprintf("Error processing csv file %s: %s", file, err))
 		all = append(all, toMap(headers, record))
 	}
 
@@ -334,7 +373,7 @@ func readCsv(file string) []map[string]string {
 		if err == io.EOF {
 			break
 		}
-		util.ExitIfError(err, fmt.Sprintf("Error processing csv file %s", file))
+		util.ExitIfError(err, fmt.Sprintf("Error processing csv file %s: %s", file, err))
 		if first {
 			headers = record
 			first = false
@@ -495,6 +534,13 @@ func LoadCountryContinents() []CountryContinent {
 	err := json.Unmarshal(common.ReadFile("data/cleansed/country-continents.json"), &countryContinents)
 	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshal country continents: %s", err))
 	return countryContinents
+}
+
+func LoadPaymentMethods() []PaymentMethod {
+	paymentMethods := []PaymentMethod{}
+	err := json.Unmarshal(common.ReadFile("data/cleansed/payment-methods.json"), &paymentMethods)
+	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshal payment methods: %s", err))
+	return paymentMethods
 }
 
 func LoadCurrencyLocales() map[string]string {
@@ -663,4 +709,10 @@ func sortLocaleNames(names []LocaleName) []LocaleName {
 		return strings.ToLower(names[i].Name) < strings.ToLower(names[j].Name)
 	})
 	return names
+}
+
+func toInt32(value string) int {
+	v, err := strconv.Atoi(value)
+	util.ExitIfError(err, fmt.Sprintf("Failed to convert value[%s] to int32: %s", value, err))
+	return v
 }
