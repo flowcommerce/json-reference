@@ -139,6 +139,13 @@ func Timezones() []Timezone {
 	return timezones
 }
 
+func PaymentMethods() []PaymentMethod {
+	paymentMethods := []PaymentMethod{}
+	err := json.Unmarshal(readDataFileFromUrl("payment-methods.json"), &paymentMethods)
+	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshal payment methods: %s", err))
+	return paymentMethods
+}
+
 func Regions() []Region {
 	regions := []Region{}
 	err := json.Unmarshal(readDataFileFromUrl("regions.json"), &regions)
