@@ -22,6 +22,7 @@ type CleansedDataSet struct {
 	Numbers           []cleanse.Number
 	Languages         []cleanse.Language
 	LocaleNames       []cleanse.LocaleName
+	PaymentMethods    []cleanse.PaymentMethod
 	Timezones         []cleanse.Timezone
 	CountryTimezones  []cleanse.CountryTimezone
 }
@@ -35,6 +36,7 @@ func Generate() {
 		CurrencySymbols:   cleanse.LoadCurrencySymbols(),
 		Languages:         cleanse.LoadLanguages(),
 		LocaleNames:       cleanse.LoadLocaleNames(),
+		PaymentMethods     cleanse.loadPaymentMethods(),
 		Numbers:           cleanse.LoadNumbers(),
 		Timezones:         cleanse.LoadTimezones(),
 		CountryTimezones:  cleanse.LoadCountryTimezones(),
