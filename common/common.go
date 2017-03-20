@@ -48,6 +48,26 @@ type Language struct {
 	Locales   []string `json:"locales"`
 }
 
+type PaymentMethod struct {
+	Id                string   `json:"id"`
+	Type              string   `json:"type"`
+	Name              string   `json:"name"`
+	Images            PaymentMethodImages   `json:"images"`
+	Regions           []string `json:"regions"`
+}
+
+type PaymentMethodImages struct {
+	Small             PaymentMethodImage   `json:"small"`
+	Medium            PaymentMethodImage   `json:"medium"`
+	Large             PaymentMethodImage   `json:"large"`
+}
+
+type PaymentMethodImage struct {
+	Url               string   `json:"url"`
+	Width             int      `json:"width"`
+	Height            int      `json:"height"`
+}
+
 type Region struct {
 	Id                 string   `json:"id"`
 	Name               string   `json:"name"`

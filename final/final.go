@@ -11,6 +11,7 @@ import (
 	"regexp"
 	"sort"
 	"strings"
+	"strconv"
 )
 
 type CleansedDataSet struct {
@@ -22,6 +23,7 @@ type CleansedDataSet struct {
 	Numbers           []cleanse.Number
 	Languages         []cleanse.Language
 	LocaleNames       []cleanse.LocaleName
+	PaymentMethods    []cleanse.PaymentMethod
 	Timezones         []cleanse.Timezone
 	CountryTimezones  []cleanse.CountryTimezone
 }
@@ -35,6 +37,7 @@ func Generate() {
 		CurrencySymbols:   cleanse.LoadCurrencySymbols(),
 		Languages:         cleanse.LoadLanguages(),
 		LocaleNames:       cleanse.LoadLocaleNames(),
+		PaymentMethods:    cleanse.LoadPaymentMethods(),
 		Numbers:           cleanse.LoadNumbers(),
 		Timezones:         cleanse.LoadTimezones(),
 		CountryTimezones:  cleanse.LoadCountryTimezones(),
@@ -43,14 +46,16 @@ func Generate() {
 	continents := commonContinents(data)
 	countries := commonCountries(data)
 	locales := commonLocales(data)
+	regions := createRegions(countries, continents)
 
 	writeJson("data/final/continents.json", continents)
+	writeJson("data/final/payment-methods.json", commonPaymentMethods(data, regions))
 	writeJson("data/final/languages.json", commonLanguages(data))
 	writeJson("data/final/locales.json", locales)
 	writeJson("data/final/currencies.json", commonCurrencies(data, locales))
 	writeJson("data/final/timezones.json", commonTimezones(data))
 	writeJson("data/final/countries.json", countries)
-	writeJson("data/final/regions.json", createRegions(countries, continents))
+	writeJson("data/final/regions.json", regions)
 }
 
 func writeJson(target string, objects interface{}) {
@@ -241,6 +246,41 @@ func commonLanguages(data CleansedDataSet) []common.Language {
 			Iso_639_2: l.Iso_639_2,
 			Countries: theseCountries,
 			Locales:   theseLocales,
+		})
+	}
+	return all
+}
+
+func commonPaymentMethods(data CleansedDataSet, regions []common.Region) []common.PaymentMethod {
+	var all []common.PaymentMethod
+	for _, pm := range data.PaymentMethods {
+		theseRegions := []string{}
+
+		hasWorld := false
+		for _, regionId := range pm.Regions {
+			r := findRegion(regions, regionId)
+			if r.Id == "world" {
+				hasWorld = true
+			} else {
+				theseRegions = append(theseRegions, r.Id)
+			}
+		}
+		sort.Strings(theseRegions)
+		if hasWorld {
+			// Make sure world is last
+			theseRegions = append(theseRegions, "world")
+		}
+		
+		all = append(all, common.PaymentMethod{
+			Id:        pm.Id,
+			Type:      pm.Type,
+			Name:      pm.Name,
+			Images:    common.PaymentMethodImages{
+				Small: toPaymentMethodImage(pm.Id, pm.SmallWidth, pm.SmallHeight),
+				Medium: toPaymentMethodImage(pm.Id, pm.MediumWidth, pm.MediumHeight),
+				Large: toPaymentMethodImage(pm.Id, pm.LargeWidth, pm.LargeHeight),
+			},
+			Regions:   theseRegions,
 		})
 	}
 	return all
@@ -479,6 +519,17 @@ func findTimezone(timezones []cleanse.Timezone, name string) cleanse.Timezone {
 	return cleanse.Timezone{}
 }
 
+func findRegion(regions []common.Region, id string) common.Region {
+	for _, c := range regions {
+		if strings.ToUpper(c.Id) == strings.ToUpper(id) {
+			return c
+		}
+	}
+	fmt.Printf("Invalid region id: %s\n", id)
+	os.Exit(1)
+	return common.Region{}
+}
+
 func findLocaleNameById(names []cleanse.LocaleName, id string) string {
 	localeId := common.FormatLocaleId(id)
 	for _, n := range names {
@@ -685,4 +736,13 @@ func sortTimezones(timezones []common.Timezone) []common.Timezone {
 		return strings.ToLower(timezones[i].Description) < strings.ToLower(timezones[j].Description)
 	})
 	return timezones
+}
+
+func toPaymentMethodImage(id string, width int, height int) common.PaymentMethodImage {
+	url := fmt.Sprintf("https://flowcdn.io/util/icons/payment-methods/%s/%sx%s.png", id, strconv.Itoa(width), strconv.Itoa(height))
+	return common.PaymentMethodImage{
+		Url: url,
+		Width: width,
+		Height: height,
+	}
 }

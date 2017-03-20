@@ -1,0 +1,159 @@
+[
+  {
+    "id": "american_express",
+    "type": "card",
+    "name": "American Express",
+    "small_width": 64,
+    "small_height": 64,
+    "medium_width": 128,
+    "medium_height": 128,
+    "large_width": 256,
+    "large_height": 256,
+    "regions": [
+      "world"
+    ]
+  },
+  {
+    "id": "cartes_bancaires",
+    "type": "card",
+    "name": "Cartes Bancaires",
+    "small_width": 64,
+    "small_height": 64,
+    "medium_width": 128,
+    "medium_height": 128,
+    "large_width": 256,
+    "large_height": 256,
+    "regions": [
+      "fra"
+    ]
+  },
+  {
+    "id": "china_union_pay",
+    "type": "card",
+    "name": "China Union Pay",
+    "small_width": 64,
+    "small_height": 64,
+    "medium_width": 128,
+    "medium_height": 128,
+    "large_width": 256,
+    "large_height": 256,
+    "regions": [
+      "chn"
+    ]
+  },
+  {
+    "id": "dankort",
+    "type": "card",
+    "name": "Dankort",
+    "small_width": 64,
+    "small_height": 64,
+    "medium_width": 128,
+    "medium_height": 128,
+    "large_width": 256,
+    "large_height": 256,
+    "regions": [
+      "europe"
+    ]
+  },
+  {
+    "id": "diners_club",
+    "type": "card",
+    "name": "Diners Club",
+    "small_width": 64,
+    "small_height": 64,
+    "medium_width": 128,
+    "medium_height": 128,
+    "large_width": 256,
+    "large_height": 256,
+    "regions": [
+      "north-america",
+      "europe"
+    ]
+  },
+  {
+    "id": "discover",
+    "type": "card",
+    "name": "Discover",
+    "small_width": 64,
+    "small_height": 64,
+    "medium_width": 128,
+    "medium_height": 128,
+    "large_width": 256,
+    "large_height": 256,
+    "regions": [
+      "north-america",
+      "europe"
+    ]
+  },
+  {
+    "id": "jcb",
+    "type": "card",
+    "name": "Jcb",
+    "small_width": 64,
+    "small_height": 64,
+    "medium_width": 128,
+    "medium_height": 128,
+    "large_width": 256,
+    "large_height": 256,
+    "regions": [
+      "jpn"
+    ]
+  },
+  {
+    "id": "maestro",
+    "type": "card",
+    "name": "Maestro",
+    "small_width": 64,
+    "small_height": 64,
+    "medium_width": 128,
+    "medium_height": 128,
+    "large_width": 256,
+    "large_height": 256,
+    "regions": [
+      "north-america",
+      "europe"
+    ]
+  },
+  {
+    "id": "mastercard",
+    "type": "card",
+    "name": "Mastercard",
+    "small_width": 64,
+    "small_height": 64,
+    "medium_width": 128,
+    "medium_height": 128,
+    "large_width": 256,
+    "large_height": 256,
+    "regions": [
+      "world"
+    ]
+  },
+  {
+    "id": "paypal",
+    "type": "online",
+    "name": "Paypal",
+    "small_width": 76,
+    "small_height": 48,
+    "medium_width": 150,
+    "medium_height": 94,
+    "large_width": 266,
+    "large_height": 142,
+    "regions": [
+      "world"
+    ]
+  },
+  {
+    "id": "visa",
+    "type": "card",
+    "name": "VISA",
+    "small_width": 64,
+    "small_height": 64,
+    "medium_width": 128,
+    "medium_height": 128,
+    "large_width": 256,
+    "large_height": 256,
+    "regions": [
+      "world"
+    ]
+  }
+]
