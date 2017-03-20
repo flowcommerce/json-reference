@@ -64,8 +64,8 @@ type PaymentMethodImages struct {
 
 type PaymentMethodImage struct {
 	Url               string   `json:"url"`
-	Width             int32    `json:"width"`
-	Height            int32    `json:"height"`
+	Width             int      `json:"width"`
+	Height            int      `json:"height"`
 }
 
 type Region struct {

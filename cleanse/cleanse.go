@@ -261,7 +261,7 @@ func Cleanse() {
 					MediumHeight: toInt32(record["medium_height"]),
 					LargeWidth: toInt32(record["large_width"]),
 					LargeHeight: toInt32(record["large_height"]),
-					Regions: strings.Split(record["regions"], ","),
+					Regions: strings.Split(record["regions"], " "),
 				}
 			},
 			func(record map[string]string) string {

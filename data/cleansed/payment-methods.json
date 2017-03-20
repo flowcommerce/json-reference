@@ -66,7 +66,8 @@
     "large_width": 256,
     "large_height": 256,
     "regions": [
-      "north-america europe"
+      "north-america",
+      "europe"
     ]
   },
   {
@@ -80,7 +81,8 @@
     "large_width": 256,
     "large_height": 256,
     "regions": [
-      "north-america europe"
+      "north-america",
+      "europe"
     ]
   },
   {
@@ -94,7 +96,7 @@
     "large_width": 256,
     "large_height": 256,
     "regions": [
-      "jap"
+      "jpn"
     ]
   },
   {
@@ -108,7 +110,8 @@
     "large_width": 256,
     "large_height": 256,
     "regions": [
-      "north-america europe"
+      "north-america",
+      "europe"
     ]
   },
   {
