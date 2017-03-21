@@ -70,14 +70,13 @@ type PaymentMethodImage struct {
 }
 
 type Region struct {
-	Id                   string   `json:"id"`
-	Name                 string   `json:"name"`
-	Countries            []string `json:"countries"`
-	Currencies           []string `json:"currencies"`
-	Languages            []string `json:"languages"`
-	MeasurementSystems   []string `json:"measurement_systems"`
-	Timezones            []string `json:"timezones"`
-	DefaultDeliveredDuty string   `json:"default_delivered_duty,omitempty"`
+	Id                 string   `json:"id"`
+	Name               string   `json:"name"`
+	Countries          []string `json:"countries"`
+	Currencies         []string `json:"currencies"`
+	Languages          []string `json:"languages"`
+	MeasurementSystems []string `json:"measurement_systems"`
+	Timezones          []string `json:"timezones"`
 }
 
 type Timezone struct {

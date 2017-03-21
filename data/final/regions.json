@@ -125,8 +125,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "alb",
@@ -143,8 +142,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "dza",
@@ -161,8 +159,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "asm",
@@ -177,8 +174,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "and",
@@ -195,8 +191,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "aia",
@@ -211,8 +206,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "atg",
@@ -229,8 +223,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "arg",
@@ -247,8 +240,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "arm",
@@ -265,8 +257,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "abw",
@@ -283,8 +274,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "asia",
@@ -413,8 +403,7 @@
     ],
     "timezones": [
       "Asia/Chongqing"
-    ],
-    "default_delivered_duty": "paid"
+    ]
   },
   {
     "id": "aus",
@@ -433,8 +422,7 @@
     ],
     "timezones": [
       "Australia/ACT"
-    ],
-    "default_delivered_duty": "paid"
+    ]
   },
   {
     "id": "aut",
@@ -451,8 +439,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "aze",
@@ -469,8 +456,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "bhs",
@@ -487,8 +473,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "bhr",
@@ -505,8 +490,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "bgd",
@@ -523,8 +507,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "brb",
@@ -541,8 +524,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "bel",
@@ -561,8 +543,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "blz",
@@ -579,8 +560,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "ben",
@@ -599,8 +579,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "bmu",
@@ -615,8 +594,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "btn",
@@ -633,8 +611,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "bol",
@@ -654,8 +631,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "bes",
@@ -670,8 +646,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "bih",
@@ -690,8 +665,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "bwa",
@@ -709,8 +683,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "bra",
@@ -727,8 +700,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "vgb",
@@ -743,8 +715,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "brn",
@@ -761,8 +732,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "bgr",
@@ -779,8 +749,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "bfa",
@@ -798,8 +767,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "cpv",
@@ -816,8 +784,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "khm",
@@ -834,8 +801,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "cmr",
@@ -853,8 +819,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "can",
@@ -874,8 +839,7 @@
     ],
     "timezones": [
       "Canada/Eastern"
-    ],
-    "default_delivered_duty": "paid"
+    ]
   },
   {
     "id": "cym",
@@ -890,8 +854,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "caf",
@@ -909,8 +872,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "tcd",
@@ -928,8 +890,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "chl",
@@ -946,8 +907,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "chn",
@@ -966,8 +926,7 @@
     ],
     "timezones": [
       "Asia/Chongqing"
-    ],
-    "default_delivered_duty": "paid"
+    ]
   },
   {
     "id": "hkg",
@@ -985,8 +944,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "mac",
@@ -1004,8 +962,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "col",
@@ -1022,8 +979,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "com",
@@ -1041,8 +997,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "cog",
@@ -1061,8 +1016,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "cok",
@@ -1077,8 +1031,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "cri",
@@ -1095,8 +1048,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "hrv",
@@ -1114,8 +1066,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "cuw",
@@ -1133,8 +1084,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "cyp",
@@ -1152,8 +1102,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "cze",
@@ -1171,8 +1120,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "civ",
@@ -1189,8 +1137,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "dnk",
@@ -1207,8 +1154,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "dji",
@@ -1228,8 +1174,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "dma",
@@ -1246,8 +1191,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "dom",
@@ -1264,8 +1208,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "ecu",
@@ -1282,8 +1225,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "egy",
@@ -1300,8 +1242,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "slv",
@@ -1318,8 +1259,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "gnq",
@@ -1338,8 +1278,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "est",
@@ -1356,8 +1295,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "eth",
@@ -1374,8 +1312,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "europe",
@@ -1500,8 +1437,7 @@
     "timezones": [
       "Africa/Algiers",
       "GMT"
-    ],
-    "default_delivered_duty": "paid"
+    ]
   },
   {
     "id": "eurozone",
@@ -1574,8 +1510,7 @@
     "timezones": [
       "Africa/Algiers",
       "GMT"
-    ],
-    "default_delivered_duty": "paid"
+    ]
   },
   {
     "id": "flk",
@@ -1590,8 +1525,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "fji",
@@ -1611,8 +1545,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "fin",
@@ -1630,8 +1563,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "fra",
@@ -1650,8 +1582,7 @@
     ],
     "timezones": [
       "Africa/Algiers"
-    ],
-    "default_delivered_duty": "paid"
+    ]
   },
   {
     "id": "guf",
@@ -1668,8 +1599,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "pyf",
@@ -1686,8 +1616,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "gab",
@@ -1704,8 +1633,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "gmb",
@@ -1722,8 +1650,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "geo",
@@ -1740,8 +1667,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "deu",
@@ -1758,8 +1684,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "gha",
@@ -1778,8 +1703,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "gib",
@@ -1794,8 +1718,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "grc",
@@ -1812,8 +1735,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "grl",
@@ -1828,8 +1750,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "grd",
@@ -1846,8 +1767,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "glp",
@@ -1864,8 +1784,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "gum",
@@ -1880,8 +1799,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "gtm",
@@ -1898,8 +1816,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "ggy",
@@ -1914,8 +1831,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "gin",
@@ -1932,8 +1848,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "gnb",
@@ -1950,8 +1865,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "guy",
@@ -1968,8 +1882,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "hti",
@@ -1987,8 +1900,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "vat",
@@ -2006,8 +1918,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "hnd",
@@ -2024,8 +1935,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "hun",
@@ -2042,8 +1952,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "isl",
@@ -2060,8 +1969,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "ind",
@@ -2084,8 +1992,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "idn",
@@ -2103,8 +2010,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "irl",
@@ -2124,8 +2030,7 @@
     ],
     "timezones": [
       "GMT"
-    ],
-    "default_delivered_duty": "paid"
+    ]
   },
   {
     "id": "imn",
@@ -2140,8 +2045,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "isr",
@@ -2159,8 +2063,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "ita",
@@ -2179,8 +2082,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "jam",
@@ -2197,8 +2099,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "jpn",
@@ -2215,8 +2116,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "jey",
@@ -2233,8 +2133,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "jor",
@@ -2251,8 +2150,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "kaz",
@@ -2270,8 +2168,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "ken",
@@ -2289,8 +2186,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "kir",
@@ -2307,8 +2203,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "kwt",
@@ -2325,8 +2220,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "kgz",
@@ -2344,8 +2238,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "lao",
@@ -2362,8 +2255,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "lva",
@@ -2380,8 +2272,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "lbn",
@@ -2398,8 +2289,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "lso",
@@ -2417,8 +2307,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "lby",
@@ -2435,8 +2324,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "lie",
@@ -2453,8 +2341,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "ltu",
@@ -2471,8 +2358,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "lux",
@@ -2491,8 +2377,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "mwi",
@@ -2510,8 +2395,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "mys",
@@ -2530,8 +2414,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "mdv",
@@ -2548,8 +2431,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "mli",
@@ -2568,8 +2450,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "mlt",
@@ -2587,8 +2468,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "mhl",
@@ -2606,8 +2486,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "mtq",
@@ -2624,8 +2503,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "mrt",
@@ -2642,8 +2520,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "mus",
@@ -2662,8 +2539,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "myt",
@@ -2680,8 +2556,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "mex",
@@ -2700,8 +2575,7 @@
     ],
     "timezones": [
       "Mexico/General"
-    ],
-    "default_delivered_duty": "paid"
+    ]
   },
   {
     "id": "fsm",
@@ -2718,8 +2592,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "mco",
@@ -2736,8 +2609,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "mng",
@@ -2754,8 +2626,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "mne",
@@ -2770,8 +2641,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "msr",
@@ -2786,8 +2656,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "mar",
@@ -2804,8 +2673,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "nam",
@@ -2822,8 +2690,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "nru",
@@ -2840,8 +2707,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "npl",
@@ -2858,8 +2724,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "nld",
@@ -2876,8 +2741,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "ncl",
@@ -2894,8 +2758,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "nzl",
@@ -2913,8 +2776,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "nic",
@@ -2931,8 +2793,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "ner",
@@ -2953,8 +2814,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "nga",
@@ -2974,8 +2834,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "niu",
@@ -2990,8 +2849,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "nfk",
@@ -3006,8 +2864,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "north-america",
@@ -3093,8 +2950,7 @@
       "America/New_York",
       "Canada/Eastern",
       "Mexico/General"
-    ],
-    "default_delivered_duty": "paid"
+    ]
   },
   {
     "id": "mnp",
@@ -3109,8 +2965,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "nor",
@@ -3129,8 +2984,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "oceania",
@@ -3192,8 +3046,7 @@
     ],
     "timezones": [
       "Australia/ACT"
-    ],
-    "default_delivered_duty": "paid"
+    ]
   },
   {
     "id": "omn",
@@ -3210,8 +3063,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "pak",
@@ -3229,8 +3081,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "plw",
@@ -3247,8 +3098,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "pan",
@@ -3265,8 +3115,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "png",
@@ -3284,8 +3133,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "pry",
@@ -3303,8 +3151,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "per",
@@ -3323,8 +3170,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "phl",
@@ -3342,8 +3188,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "pcn",
@@ -3358,8 +3203,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "pol",
@@ -3376,8 +3220,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "prt",
@@ -3394,8 +3237,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "pri",
@@ -3412,8 +3254,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "qat",
@@ -3430,8 +3271,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "kor",
@@ -3448,8 +3288,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "mda",
@@ -3466,8 +3305,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "rou",
@@ -3484,8 +3322,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "rus",
@@ -3502,8 +3339,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "rwa",
@@ -3522,8 +3358,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "reu",
@@ -3540,8 +3375,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "blm",
@@ -3558,8 +3392,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "shn",
@@ -3574,8 +3407,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "kna",
@@ -3592,8 +3424,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "lca",
@@ -3610,8 +3441,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "maf",
@@ -3626,8 +3456,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "spm",
@@ -3644,8 +3473,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "vct",
@@ -3662,8 +3490,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "wsm",
@@ -3680,8 +3507,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "smr",
@@ -3698,8 +3524,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "stp",
@@ -3716,8 +3541,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "sau",
@@ -3734,8 +3558,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "sen",
@@ -3754,8 +3577,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "srb",
@@ -3772,8 +3594,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "syc",
@@ -3791,8 +3612,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "sle",
@@ -3809,8 +3629,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "sgp",
@@ -3830,8 +3649,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "sxm",
@@ -3849,8 +3667,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "svk",
@@ -3868,8 +3685,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "svn",
@@ -3887,8 +3703,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "slb",
@@ -3905,8 +3720,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "som",
@@ -3924,8 +3738,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "zaf",
@@ -3952,8 +3765,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "south-america",
@@ -4000,8 +3812,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "esp",
@@ -4018,8 +3829,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "lka",
@@ -4038,8 +3848,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "sjm",
@@ -4054,8 +3863,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "swz",
@@ -4073,8 +3881,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "swe",
@@ -4091,8 +3898,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "che",
@@ -4112,8 +3918,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "twn",
@@ -4130,8 +3935,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "tha",
@@ -4148,8 +3952,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "tls",
@@ -4166,8 +3969,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "tgo",
@@ -4185,8 +3987,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "tkl",
@@ -4201,8 +4002,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "ton",
@@ -4219,8 +4019,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "tto",
@@ -4237,8 +4036,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "tun",
@@ -4255,8 +4053,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "tur",
@@ -4273,8 +4070,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "tca",
@@ -4289,8 +4085,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "tuv",
@@ -4307,8 +4102,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "uga",
@@ -4326,8 +4120,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "ukr",
@@ -4344,8 +4137,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "are",
@@ -4362,8 +4154,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "gbr",
@@ -4383,8 +4174,7 @@
     ],
     "timezones": [
       "GMT"
-    ],
-    "default_delivered_duty": "paid"
+    ]
   },
   {
     "id": "tza",
@@ -4402,8 +4192,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "usa",
@@ -4424,8 +4213,7 @@
       "America/Chicago",
       "America/Los_Angeles",
       "America/New_York"
-    ],
-    "default_delivered_duty": "paid"
+    ]
   },
   {
     "id": "vir",
@@ -4440,8 +4228,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "ury",
@@ -4458,8 +4245,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "uzb",
@@ -4476,8 +4262,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "vut",
@@ -4496,8 +4281,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "ven",
@@ -4514,8 +4298,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "vnm",
@@ -4532,8 +4315,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "wlf",
@@ -4550,8 +4332,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "esh",
@@ -4568,8 +4349,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "world",
@@ -5044,8 +4824,7 @@
       "Canada/Eastern",
       "GMT",
       "Mexico/General"
-    ],
-    "default_delivered_duty": "paid"
+    ]
   },
   {
     "id": "yem",
@@ -5062,8 +4841,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "zmb",
@@ -5080,8 +4858,7 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   },
   {
     "id": "ala",
@@ -5098,7 +4875,6 @@
     "measurement_systems": [
       "metric"
     ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
+    "timezones": []
   }
 ]

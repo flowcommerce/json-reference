@@ -388,14 +388,13 @@ func createRegions(countries []common.Country, continents []common.Continent) []
 		id := generateId(c.Iso_3166_3)
 
 		regions = append(regions, common.Region{
-			Id:                   id,
-			Name:                 c.Name,
-			Countries:            []string{c.Iso_3166_3},
-			Currencies:           currenciesForCountries([]common.Country{c}),
-			Languages:            languagesForCountries([]common.Country{c}),
-			MeasurementSystems:   measurementSystemsForCountries([]common.Country{c}),
-			Timezones:            timezonesForCountries([]common.Country{c}),
-			DefaultDeliveredDuty: c.DefaultDeliveredDuty,
+			Id:                 id,
+			Name:               c.Name,
+			Countries:          []string{c.Iso_3166_3},
+			Currencies:         currenciesForCountries([]common.Country{c}),
+			Languages:          languagesForCountries([]common.Country{c}),
+			MeasurementSystems: measurementSystemsForCountries([]common.Country{c}),
+			Timezones:          timezonesForCountries([]common.Country{c}),
 		})
 	}
 
@@ -405,14 +404,13 @@ func createRegions(countries []common.Country, continents []common.Continent) []
 
 			theseCountries := findCountries(countries, c.Countries)
 			regions = append(regions, common.Region{
-				Id:                   id,
-				Name:                 c.Name,
-				Countries:            toCountryCodes(theseCountries),
-				Currencies:           currenciesForCountries(theseCountries),
-				Languages:            languagesForCountries(theseCountries),
-				MeasurementSystems:   measurementSystemsForCountries(theseCountries),
-				Timezones:            timezonesForCountries(theseCountries),
-				DefaultDeliveredDuty: theseCountries[0].DefaultDeliveredDuty,
+				Id:                 id,
+				Name:               c.Name,
+				Countries:          toCountryCodes(theseCountries),
+				Currencies:         currenciesForCountries(theseCountries),
+				Languages:          languagesForCountries(theseCountries),
+				MeasurementSystems: measurementSystemsForCountries(theseCountries),
+				Timezones:          timezonesForCountries(theseCountries),
 			})
 		}
 	}
@@ -427,14 +425,13 @@ func eurozone(countries []common.Country) common.Region {
 	countryCodes := findCountriesByCurrency(countries, "EUR")
 	theseCountries := findCountries(countries, countryCodes)
 	return common.Region{
-		Id:                   "eurozone",
-		Name:                 "Eurozone",
-		Countries:            countryCodes,
-		Currencies:           currenciesForCountries(theseCountries),
-		Languages:            languagesForCountries(theseCountries),
-		MeasurementSystems:   measurementSystemsForCountries(theseCountries),
-		Timezones:            timezonesForCountries(theseCountries),
-		DefaultDeliveredDuty: theseCountries[0].DefaultDeliveredDuty,
+		Id:                 "eurozone",
+		Name:               "Eurozone",
+		Countries:          countryCodes,
+		Currencies:         currenciesForCountries(theseCountries),
+		Languages:          languagesForCountries(theseCountries),
+		MeasurementSystems: measurementSystemsForCountries(theseCountries),
+		Timezones:          timezonesForCountries(theseCountries),
 	}
 }
 
@@ -446,14 +443,13 @@ func world(countries []common.Country) common.Region {
 	sort.Strings(codes)
 
 	return common.Region{
-		Id:                   "world",
-		Name:                 "World",
-		Countries:            codes,
-		Currencies:           currenciesForCountries(countries),
-		Languages:            languagesForCountries(countries),
-		MeasurementSystems:   []string{"metric", "imperial"},
-		Timezones:            timezonesForCountries(countries),
-		DefaultDeliveredDuty: countries[0].DefaultDeliveredDuty,
+		Id:                 "world",
+		Name:               "World",
+		Countries:          codes,
+		Currencies:         currenciesForCountries(countries),
+		Languages:          languagesForCountries(countries),
+		MeasurementSystems: []string{"metric", "imperial"},
+		Timezones:          timezonesForCountries(countries),
 	}
 }
 
