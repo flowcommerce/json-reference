@@ -1,0 +1,866 @@
+[
+  {
+    "country": "abw",
+    "duty": "paid"
+  },
+  {
+    "country": "aia",
+    "duty": "paid"
+  },
+  {
+    "country": "ala",
+    "duty": "paid"
+  },
+  {
+    "country": "alb",
+    "duty": "paid"
+  },
+  {
+    "country": "and",
+    "duty": "paid"
+  },
+  {
+    "country": "are",
+    "duty": "paid"
+  },
+  {
+    "country": "arg",
+    "duty": "paid"
+  },
+  {
+    "country": "arm",
+    "duty": "paid"
+  },
+  {
+    "country": "asm",
+    "duty": "paid"
+  },
+  {
+    "country": "atg",
+    "duty": "paid"
+  },
+  {
+    "country": "aus",
+    "duty": "paid"
+  },
+  {
+    "country": "aut",
+    "duty": "paid"
+  },
+  {
+    "country": "aze",
+    "duty": "paid"
+  },
+  {
+    "country": "bel",
+    "duty": "paid"
+  },
+  {
+    "country": "ben",
+    "duty": "paid"
+  },
+  {
+    "country": "bes",
+    "duty": "paid"
+  },
+  {
+    "country": "bfa",
+    "duty": "paid"
+  },
+  {
+    "country": "bgd",
+    "duty": "paid"
+  },
+  {
+    "country": "bgr",
+    "duty": "paid"
+  },
+  {
+    "country": "bhr",
+    "duty": "paid"
+  },
+  {
+    "country": "bhs",
+    "duty": "paid"
+  },
+  {
+    "country": "bih",
+    "duty": "paid"
+  },
+  {
+    "country": "blm",
+    "duty": "paid"
+  },
+  {
+    "country": "blz",
+    "duty": "paid"
+  },
+  {
+    "country": "bmu",
+    "duty": "paid"
+  },
+  {
+    "country": "bol",
+    "duty": "paid"
+  },
+  {
+    "country": "bra",
+    "duty": "paid"
+  },
+  {
+    "country": "brb",
+    "duty": "paid"
+  },
+  {
+    "country": "brn",
+    "duty": "paid"
+  },
+  {
+    "country": "btn",
+    "duty": "paid"
+  },
+  {
+    "country": "bwa",
+    "duty": "paid"
+  },
+  {
+    "country": "caf",
+    "duty": "paid"
+  },
+  {
+    "country": "can",
+    "duty": "paid"
+  },
+  {
+    "country": "che",
+    "duty": "paid"
+  },
+  {
+    "country": "chl",
+    "duty": "paid"
+  },
+  {
+    "country": "chn",
+    "duty": "paid"
+  },
+  {
+    "country": "civ",
+    "duty": "paid"
+  },
+  {
+    "country": "cmr",
+    "duty": "paid"
+  },
+  {
+    "country": "cog",
+    "duty": "paid"
+  },
+  {
+    "country": "cok",
+    "duty": "paid"
+  },
+  {
+    "country": "col",
+    "duty": "paid"
+  },
+  {
+    "country": "com",
+    "duty": "paid"
+  },
+  {
+    "country": "cpv",
+    "duty": "paid"
+  },
+  {
+    "country": "cri",
+    "duty": "paid"
+  },
+  {
+    "country": "cuw",
+    "duty": "paid"
+  },
+  {
+    "country": "cym",
+    "duty": "paid"
+  },
+  {
+    "country": "cyp",
+    "duty": "paid"
+  },
+  {
+    "country": "cze",
+    "duty": "paid"
+  },
+  {
+    "country": "deu",
+    "duty": "paid"
+  },
+  {
+    "country": "dji",
+    "duty": "paid"
+  },
+  {
+    "country": "dma",
+    "duty": "paid"
+  },
+  {
+    "country": "dnk",
+    "duty": "paid"
+  },
+  {
+    "country": "dom",
+    "duty": "paid"
+  },
+  {
+    "country": "dza",
+    "duty": "paid"
+  },
+  {
+    "country": "ecu",
+    "duty": "paid"
+  },
+  {
+    "country": "egy",
+    "duty": "paid"
+  },
+  {
+    "country": "esh",
+    "duty": "paid"
+  },
+  {
+    "country": "esp",
+    "duty": "paid"
+  },
+  {
+    "country": "est",
+    "duty": "paid"
+  },
+  {
+    "country": "eth",
+    "duty": "paid"
+  },
+  {
+    "country": "fin",
+    "duty": "paid"
+  },
+  {
+    "country": "fji",
+    "duty": "paid"
+  },
+  {
+    "country": "flk",
+    "duty": "paid"
+  },
+  {
+    "country": "fra",
+    "duty": "paid"
+  },
+  {
+    "country": "fsm",
+    "duty": "paid"
+  },
+  {
+    "country": "gab",
+    "duty": "paid"
+  },
+  {
+    "country": "gbr",
+    "duty": "paid"
+  },
+  {
+    "country": "geo",
+    "duty": "paid"
+  },
+  {
+    "country": "ggy",
+    "duty": "paid"
+  },
+  {
+    "country": "gha",
+    "duty": "paid"
+  },
+  {
+    "country": "gib",
+    "duty": "paid"
+  },
+  {
+    "country": "gin",
+    "duty": "paid"
+  },
+  {
+    "country": "glp",
+    "duty": "paid"
+  },
+  {
+    "country": "gmb",
+    "duty": "paid"
+  },
+  {
+    "country": "gnb",
+    "duty": "paid"
+  },
+  {
+    "country": "gnq",
+    "duty": "paid"
+  },
+  {
+    "country": "grc",
+    "duty": "paid"
+  },
+  {
+    "country": "grd",
+    "duty": "paid"
+  },
+  {
+    "country": "grl",
+    "duty": "paid"
+  },
+  {
+    "country": "gtm",
+    "duty": "paid"
+  },
+  {
+    "country": "guf",
+    "duty": "paid"
+  },
+  {
+    "country": "gum",
+    "duty": "paid"
+  },
+  {
+    "country": "guy",
+    "duty": "paid"
+  },
+  {
+    "country": "hkg",
+    "duty": "paid"
+  },
+  {
+    "country": "hnd",
+    "duty": "paid"
+  },
+  {
+    "country": "hrv",
+    "duty": "paid"
+  },
+  {
+    "country": "hti",
+    "duty": "paid"
+  },
+  {
+    "country": "hun",
+    "duty": "paid"
+  },
+  {
+    "country": "idn",
+    "duty": "paid"
+  },
+  {
+    "country": "imn",
+    "duty": "paid"
+  },
+  {
+    "country": "ind",
+    "duty": "paid"
+  },
+  {
+    "country": "irl",
+    "duty": "paid"
+  },
+  {
+    "country": "isl",
+    "duty": "paid"
+  },
+  {
+    "country": "isr",
+    "duty": "paid"
+  },
+  {
+    "country": "ita",
+    "duty": "paid"
+  },
+  {
+    "country": "jam",
+    "duty": "paid"
+  },
+  {
+    "country": "jey",
+    "duty": "paid"
+  },
+  {
+    "country": "jor",
+    "duty": "paid"
+  },
+  {
+    "country": "jpn",
+    "duty": "paid"
+  },
+  {
+    "country": "kaz",
+    "duty": "paid"
+  },
+  {
+    "country": "ken",
+    "duty": "paid"
+  },
+  {
+    "country": "kgz",
+    "duty": "paid"
+  },
+  {
+    "country": "khm",
+    "duty": "paid"
+  },
+  {
+    "country": "kir",
+    "duty": "paid"
+  },
+  {
+    "country": "kna",
+    "duty": "paid"
+  },
+  {
+    "country": "kor",
+    "duty": "paid"
+  },
+  {
+    "country": "kwt",
+    "duty": "paid"
+  },
+  {
+    "country": "lao",
+    "duty": "paid"
+  },
+  {
+    "country": "lbn",
+    "duty": "paid"
+  },
+  {
+    "country": "lby",
+    "duty": "paid"
+  },
+  {
+    "country": "lca",
+    "duty": "paid"
+  },
+  {
+    "country": "lie",
+    "duty": "paid"
+  },
+  {
+    "country": "lka",
+    "duty": "paid"
+  },
+  {
+    "country": "lso",
+    "duty": "paid"
+  },
+  {
+    "country": "ltu",
+    "duty": "paid"
+  },
+  {
+    "country": "lux",
+    "duty": "paid"
+  },
+  {
+    "country": "lva",
+    "duty": "paid"
+  },
+  {
+    "country": "mac",
+    "duty": "paid"
+  },
+  {
+    "country": "maf",
+    "duty": "paid"
+  },
+  {
+    "country": "mar",
+    "duty": "paid"
+  },
+  {
+    "country": "mco",
+    "duty": "paid"
+  },
+  {
+    "country": "mda",
+    "duty": "paid"
+  },
+  {
+    "country": "mdv",
+    "duty": "paid"
+  },
+  {
+    "country": "mex",
+    "duty": "paid"
+  },
+  {
+    "country": "mhl",
+    "duty": "paid"
+  },
+  {
+    "country": "mli",
+    "duty": "paid"
+  },
+  {
+    "country": "mlt",
+    "duty": "paid"
+  },
+  {
+    "country": "mne",
+    "duty": "paid"
+  },
+  {
+    "country": "mng",
+    "duty": "paid"
+  },
+  {
+    "country": "mnp",
+    "duty": "paid"
+  },
+  {
+    "country": "mrt",
+    "duty": "paid"
+  },
+  {
+    "country": "msr",
+    "duty": "paid"
+  },
+  {
+    "country": "mtq",
+    "duty": "paid"
+  },
+  {
+    "country": "mus",
+    "duty": "paid"
+  },
+  {
+    "country": "mwi",
+    "duty": "paid"
+  },
+  {
+    "country": "mys",
+    "duty": "paid"
+  },
+  {
+    "country": "myt",
+    "duty": "paid"
+  },
+  {
+    "country": "nam",
+    "duty": "paid"
+  },
+  {
+    "country": "ncl",
+    "duty": "paid"
+  },
+  {
+    "country": "ner",
+    "duty": "paid"
+  },
+  {
+    "country": "nfk",
+    "duty": "paid"
+  },
+  {
+    "country": "nga",
+    "duty": "paid"
+  },
+  {
+    "country": "nic",
+    "duty": "paid"
+  },
+  {
+    "country": "niu",
+    "duty": "paid"
+  },
+  {
+    "country": "nld",
+    "duty": "paid"
+  },
+  {
+    "country": "nor",
+    "duty": "paid"
+  },
+  {
+    "country": "npl",
+    "duty": "paid"
+  },
+  {
+    "country": "nru",
+    "duty": "paid"
+  },
+  {
+    "country": "nzl",
+    "duty": "paid"
+  },
+  {
+    "country": "omn",
+    "duty": "paid"
+  },
+  {
+    "country": "pak",
+    "duty": "paid"
+  },
+  {
+    "country": "pan",
+    "duty": "paid"
+  },
+  {
+    "country": "pcn",
+    "duty": "paid"
+  },
+  {
+    "country": "per",
+    "duty": "paid"
+  },
+  {
+    "country": "phl",
+    "duty": "paid"
+  },
+  {
+    "country": "plw",
+    "duty": "paid"
+  },
+  {
+    "country": "png",
+    "duty": "paid"
+  },
+  {
+    "country": "pol",
+    "duty": "paid"
+  },
+  {
+    "country": "pri",
+    "duty": "paid"
+  },
+  {
+    "country": "prt",
+    "duty": "paid"
+  },
+  {
+    "country": "pry",
+    "duty": "paid"
+  },
+  {
+    "country": "pyf",
+    "duty": "paid"
+  },
+  {
+    "country": "qat",
+    "duty": "paid"
+  },
+  {
+    "country": "reu",
+    "duty": "paid"
+  },
+  {
+    "country": "rou",
+    "duty": "paid"
+  },
+  {
+    "country": "rus",
+    "duty": "paid"
+  },
+  {
+    "country": "rwa",
+    "duty": "paid"
+  },
+  {
+    "country": "sau",
+    "duty": "paid"
+  },
+  {
+    "country": "sen",
+    "duty": "paid"
+  },
+  {
+    "country": "sgp",
+    "duty": "paid"
+  },
+  {
+    "country": "shn",
+    "duty": "paid"
+  },
+  {
+    "country": "sjm",
+    "duty": "paid"
+  },
+  {
+    "country": "slb",
+    "duty": "paid"
+  },
+  {
+    "country": "sle",
+    "duty": "paid"
+  },
+  {
+    "country": "slv",
+    "duty": "paid"
+  },
+  {
+    "country": "smr",
+    "duty": "paid"
+  },
+  {
+    "country": "som",
+    "duty": "paid"
+  },
+  {
+    "country": "spm",
+    "duty": "paid"
+  },
+  {
+    "country": "srb",
+    "duty": "paid"
+  },
+  {
+    "country": "stp",
+    "duty": "paid"
+  },
+  {
+    "country": "svk",
+    "duty": "paid"
+  },
+  {
+    "country": "svn",
+    "duty": "paid"
+  },
+  {
+    "country": "swe",
+    "duty": "paid"
+  },
+  {
+    "country": "swz",
+    "duty": "paid"
+  },
+  {
+    "country": "sxm",
+    "duty": "paid"
+  },
+  {
+    "country": "syc",
+    "duty": "paid"
+  },
+  {
+    "country": "tca",
+    "duty": "paid"
+  },
+  {
+    "country": "tcd",
+    "duty": "paid"
+  },
+  {
+    "country": "tgo",
+    "duty": "paid"
+  },
+  {
+    "country": "tha",
+    "duty": "paid"
+  },
+  {
+    "country": "tkl",
+    "duty": "paid"
+  },
+  {
+    "country": "tls",
+    "duty": "paid"
+  },
+  {
+    "country": "ton",
+    "duty": "paid"
+  },
+  {
+    "country": "tto",
+    "duty": "paid"
+  },
+  {
+    "country": "tun",
+    "duty": "paid"
+  },
+  {
+    "country": "tur",
+    "duty": "paid"
+  },
+  {
+    "country": "tuv",
+    "duty": "paid"
+  },
+  {
+    "country": "twn",
+    "duty": "paid"
+  },
+  {
+    "country": "tza",
+    "duty": "paid"
+  },
+  {
+    "country": "uga",
+    "duty": "paid"
+  },
+  {
+    "country": "ukr",
+    "duty": "paid"
+  },
+  {
+    "country": "ury",
+    "duty": "paid"
+  },
+  {
+    "country": "usa",
+    "duty": "paid"
+  },
+  {
+    "country": "uzb",
+    "duty": "paid"
+  },
+  {
+    "country": "vat",
+    "duty": "paid"
+  },
+  {
+    "country": "vct",
+    "duty": "paid"
+  },
+  {
+    "country": "ven",
+    "duty": "paid"
+  },
+  {
+    "country": "vgb",
+    "duty": "paid"
+  },
+  {
+    "country": "vir",
+    "duty": "paid"
+  },
+  {
+    "country": "vnm",
+    "duty": "paid"
+  },
+  {
+    "country": "vut",
+    "duty": "paid"
+  },
+  {
+    "country": "wlf",
+    "duty": "paid"
+  },
+  {
+    "country": "wsm",
+    "duty": "paid"
+  },
+  {
+    "country": "yem",
+    "duty": "paid"
+  },
+  {
+    "country": "zaf",
+    "duty": "paid"
+  },
+  {
+    "country": "zmb",
+    "duty": "paid"
+  }
+]
