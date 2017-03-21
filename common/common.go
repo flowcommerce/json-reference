@@ -26,6 +26,7 @@ type Country struct {
 	DefaultCurrency   string   `json:"default_currency,omitempty"`
 	Languages         []string `json:"languages"`
 	Timezones         []string `json:"timezones"`
+	DefaultDeliveredDuty   string   `json:"default_delivered_duty,omitempty"`
 }
 
 type Currency struct {
@@ -76,6 +77,7 @@ type Region struct {
 	Languages          []string `json:"languages"`
 	MeasurementSystems []string `json:"measurement_systems"`
 	Timezones          []string `json:"timezones"`
+	DefaultDeliveredDuty   string   `json:"default_delivered_duty,omitempty"`
 }
 
 type Timezone struct {

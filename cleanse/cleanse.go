@@ -30,7 +30,7 @@ type CountryContinent struct {
 
 type CountryDuty struct {
 	CountryCode   string `json:"country"`
-	DutyCode      string `json:"duty"`
+	DeliveredDuty string `json:"duty"`
 }
 
 type Country struct {
@@ -241,7 +241,7 @@ func Cleanse() {
 			func(record map[string]string) interface{} {
 				return CountryDuty{
 					CountryCode:   record["country"],
-					DutyCode:      record["duty"],
+					DeliveredDuty: record["duty"],
 				}
 			},
 			func(record map[string]string) string {

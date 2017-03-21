@@ -18,6 +18,7 @@ type CleansedDataSet struct {
 	Continents        []cleanse.Continent
 	Countries         []cleanse.Country
 	CountryContinents []cleanse.CountryContinent
+	CountryDuties     []cleanse.CountryDuty
 	Currencies        []cleanse.Currency
 	CurrencySymbols   map[string]cleanse.CurrencySymbols
 	Numbers           []cleanse.Number
@@ -33,6 +34,7 @@ func Generate() {
 		Continents:        cleanse.LoadContinents(),
 		Countries:         cleanse.LoadCountries(),
 		CountryContinents: cleanse.LoadCountryContinents(),
+		CountryDuties:     cleanse.LoadCountryDuties(),
 		Currencies:        cleanse.LoadCurrencies(),
 		CurrencySymbols:   cleanse.LoadCurrencySymbols(),
 		Languages:         cleanse.LoadLanguages(),
@@ -121,7 +123,7 @@ func commonLocales(data CleansedDataSet) []common.Locale {
 		"os": "ru",
 		"se": "sw",
 	}
-	
+
 	unsupportedCountryCodes := common.UnsupportedCountryCodes()
 
 	for _, n := range data.Numbers {
@@ -240,7 +242,7 @@ func commonLanguages(data CleansedDataSet) []common.Language {
 			theseLocales = append(theseLocales, locale)
 		}
 		sort.Strings(theseLocales)
-		
+
 		all = append(all, common.Language{
 			Name:      l.Name,
 			Iso_639_2: l.Iso_639_2,
@@ -270,7 +272,7 @@ func commonPaymentMethods(data CleansedDataSet, regions []common.Region) []commo
 			// Make sure world is last
 			theseRegions = append(theseRegions, "world")
 		}
-		
+
 		all = append(all, common.PaymentMethod{
 			Id:        pm.Id,
 			Type:      pm.Type,
@@ -321,7 +323,7 @@ func commonCurrencies(data CleansedDataSet, locales []common.Locale) []common.Cu
 		if defaultLocale == "" {
 			defaultLocale = defaultLocaleIdForCurrency(data, locales, c)
 		}
-		
+
 		all = append(all, common.Currency{
 			Name:           c.Name,
 			Iso_4217_3:     c.Iso_4217_3,
@@ -356,6 +358,13 @@ func commonCountries(data CleansedDataSet) []common.Country {
 			defaultCurrency = findCurrencyByCode(data.Currencies, c.Currency).Iso_4217_3
 		}
 
+		var defaultDeliveredDuty string
+		for _, d := range data.CountryDuties {
+			if strings.ToUpper(d.CountryCode) == strings.ToUpper(c.Iso_3166_3) {
+				defaultDeliveredDuty = d.DeliveredDuty
+			}
+		}
+
 		sort.Strings(languages)
 		sort.Strings(timezones)
 		all = append(all, common.Country{
@@ -366,6 +375,7 @@ func commonCountries(data CleansedDataSet) []common.Country {
 			DefaultCurrency:   defaultCurrency,
 			Languages:         languages,
 			Timezones:         timezones,
+			DefaultDeliveredDuty: defaultDeliveredDuty,
 		})
 	}
 	return all
@@ -385,6 +395,7 @@ func createRegions(countries []common.Country, continents []common.Continent) []
 			Languages:          languagesForCountries([]common.Country{c}),
 			MeasurementSystems: measurementSystemsForCountries([]common.Country{c}),
 			Timezones:          timezonesForCountries([]common.Country{c}),
+			DefaultDeliveredDuty: c.DefaultDeliveredDuty,
 		})
 	}
 
@@ -401,6 +412,7 @@ func createRegions(countries []common.Country, continents []common.Continent) []
 				Languages:          languagesForCountries(theseCountries),
 				MeasurementSystems: measurementSystemsForCountries(theseCountries),
 				Timezones:          timezonesForCountries(theseCountries),
+				DefaultDeliveredDuty: theseCountries[0].DefaultDeliveredDuty,
 			})
 		}
 	}
@@ -422,6 +434,7 @@ func eurozone(countries []common.Country) common.Region {
 		Languages:          languagesForCountries(theseCountries),
 		MeasurementSystems: measurementSystemsForCountries(theseCountries),
 		Timezones:          timezonesForCountries(theseCountries),
+		DefaultDeliveredDuty: theseCountries[0].DefaultDeliveredDuty,
 	}
 }
 
@@ -440,6 +453,7 @@ func world(countries []common.Country) common.Region {
 		Languages:          languagesForCountries(countries),
 		MeasurementSystems: []string{"metric", "imperial"},
 		Timezones:          timezonesForCountries(countries),
+		DefaultDeliveredDuty: countries[0].DefaultDeliveredDuty,
 	}
 }
 
