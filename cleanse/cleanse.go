@@ -236,7 +236,7 @@ func Cleanse() {
 	writeJson("data/cleansed/country-duties.json",
 		toObjects(readCsv("data/original/country-duties.csv"),
 			func(record map[string]string) bool {
-				return record["duty"] != "" && record["duty"] != "--"
+				return record["duty"] != ""
 			},
 			func(record map[string]string) interface{} {
 				return CountryDuty{
@@ -245,7 +245,7 @@ func Cleanse() {
 				}
 			},
 			func(record map[string]string) string {
-				return record["duty"] + record["country"]
+				return record["country"] + record["duty"]
 			},
 		),
 	)
