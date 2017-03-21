@@ -13,8 +13,8 @@ import (
 	"os"
 	"path/filepath"
 	"sort"
-	"strings"
 	"strconv"
+	"strings"
 )
 
 type Continent struct {
@@ -60,8 +60,8 @@ type Language struct {
 }
 
 type LocaleName struct {
-	Id      string `json:"id"`
-	Name    string `json:"name"`
+	Id   string `json:"id"`
+	Name string `json:"name"`
 }
 
 type Timezone struct {
@@ -81,15 +81,15 @@ type IncomingLanguages struct {
 }
 
 type IncomingLanguage struct {
-	Iso_639_2 string   `json:"iso639_1"`
-	Names     []string `json:"name"`
-	Countries []string `json:"countries"`
+	Iso_639_2 string                   `json:"iso639_1"`
+	Names     []string                 `json:"name"`
+	Countries []string                 `json:"countries"`
 	Locales   []IncomingLanguageLocale `json:"langCultureMs"`
 }
 
 type IncomingLanguageLocale struct {
-	Id      string `json:"langCultureName"`
-	Name    string `json:"displayName"`
+	Id   string `json:"langCultureName"`
+	Name string `json:"displayName"`
 }
 
 type IncomingCurrency struct {
@@ -128,16 +128,16 @@ type Number struct {
 }
 
 type PaymentMethod struct {
-	Id                string   `json:"id"`
-	Type              string   `json:"type"`
-	Name              string   `json:"name"`
-	SmallWidth        int      `json:"small_width"`
-	SmallHeight       int      `json:"small_height"`
-	MediumWidth       int      `json:"medium_width"`
-	MediumHeight      int      `json:"medium_height"`
-	LargeWidth        int      `json:"large_width"`
-	LargeHeight       int      `json:"large_height"`
-	Regions           []string `json:"regions"`
+	Id           string   `json:"id"`
+	Type         string   `json:"type"`
+	Name         string   `json:"name"`
+	SmallWidth   int      `json:"small_width"`
+	SmallHeight  int      `json:"small_height"`
+	MediumWidth  int      `json:"medium_width"`
+	MediumHeight int      `json:"medium_height"`
+	LargeWidth   int      `json:"large_width"`
+	LargeHeight  int      `json:"large_height"`
+	Regions      []string `json:"regions"`
 }
 
 type Separators struct {
@@ -274,16 +274,16 @@ func Cleanse() {
 			},
 			func(record map[string]string) interface{} {
 				return PaymentMethod{
-					Id: record["id"],
-					Type: record["type"],
-					Name: record["name"],
-					SmallWidth: toInt32(record["small_width"]),
-					SmallHeight: toInt32(record["small_height"]),
-					MediumWidth: toInt32(record["medium_width"]),
+					Id:           record["id"],
+					Type:         record["type"],
+					Name:         record["name"],
+					SmallWidth:   toInt32(record["small_width"]),
+					SmallHeight:  toInt32(record["small_height"]),
+					MediumWidth:  toInt32(record["medium_width"]),
 					MediumHeight: toInt32(record["medium_height"]),
-					LargeWidth: toInt32(record["large_width"]),
-					LargeHeight: toInt32(record["large_height"]),
-					Regions: strings.Split(record["regions"], " "),
+					LargeWidth:   toInt32(record["large_width"]),
+					LargeHeight:  toInt32(record["large_height"]),
+					Regions:      strings.Split(record["regions"], " "),
 				}
 			},
 			func(record map[string]string) string {
@@ -319,7 +319,7 @@ func Cleanse() {
 			func(record map[string]string) interface{} {
 				return CurrencyLocale{
 					CurrencyCode: record["currency"],
-					LocaleId:   record["locale"],
+					LocaleId:     record["locale"],
 				}
 			},
 			func(record map[string]string) string {
@@ -331,12 +331,12 @@ func Cleanse() {
 
 func countryName(record map[string]string) string {
 	overrides := map[string]string{
-		"Bolivia (Plurinational State of)": "Bolivia",
-		"Micronesia (Federated States of)": "Micronesia",
-		"Saint Martin (French part)": "Saint Martin",
-		"Sint Maarten (Dutch part)": "Sint Maarten",
+		"Bolivia (Plurinational State of)":   "Bolivia",
+		"Micronesia (Federated States of)":   "Micronesia",
+		"Saint Martin (French part)":         "Saint Martin",
+		"Sint Maarten (Dutch part)":          "Sint Maarten",
 		"Venezuela (Bolivarian Republic of)": "Venezuela",
-		"Falkland Islands (Malvinas)": "Falkland Islans",
+		"Falkland Islands (Malvinas)":        "Falkland Islans",
 	}
 
 	name := record["official_name_en"]
@@ -353,7 +353,6 @@ func countryName(record map[string]string) string {
 		return overrides[name]
 	}
 }
-
 
 func writeJson(target string, objects interface{}) {
 	fmt.Printf("Writing %s\n", target)
@@ -432,10 +431,10 @@ func readLanguages(file string) ([]Language, []LocaleName) {
 		name := l.Names[0]
 		if len(l.Iso_639_2) > 0 && name != "" && len(l.Countries) > 0 {
 			locales := []string{}
-			for _, incomingLocale := range(l.Locales) {
+			for _, incomingLocale := range l.Locales {
 				localeId := common.FormatLocaleId(incomingLocale.Id)
 				localeNameMap[incomingLocale.Id] = LocaleName{
-					Id: localeId,
+					Id:   localeId,
 					Name: incomingLocale.Name,
 				}
 				locales = append(locales, localeId)
@@ -445,14 +444,14 @@ func readLanguages(file string) ([]Language, []LocaleName) {
 				Name:      name,
 				Iso_639_2: l.Iso_639_2,
 				Countries: l.Countries,
-				Locales: locales,
+				Locales:   locales,
 			})
 		}
 	}
 	sortLanguages(languages)
 
-	names :=[]LocaleName{}
-	for _, v := range(localeNameMap) {
+	names := []LocaleName{}
+	for _, v := range localeNameMap {
 		names = append(names, v)
 	}
 	sortLocaleNames(names)
@@ -578,7 +577,7 @@ func LoadCurrencyLocales() map[string]string {
 	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshal country continents: %s", err))
 
 	table := map[string]string{}
-	for _, cl := range(currencyLocales) {
+	for _, cl := range currencyLocales {
 		table[cl.CurrencyCode] = cl.LocaleId
 	}
 	return table

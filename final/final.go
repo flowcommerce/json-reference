@@ -10,8 +10,8 @@ import (
 	"os"
 	"regexp"
 	"sort"
-	"strings"
 	"strconv"
+	"strings"
 )
 
 type CleansedDataSet struct {
@@ -108,20 +108,20 @@ func commonLocales(data CleansedDataSet) []common.Locale {
 		"zh": "cn",
 	}
 
-	unsupportedLanguages := []string {
+	unsupportedLanguages := []string{
 		"mas",
 	}
 
 	languageMap := map[string]string{
-		"br": "pt",
-		"fo": "da",
-		"kw": "ar",
-		"ml": "fr",
-		"mr": "ar",
+		"br":  "pt",
+		"fo":  "da",
+		"kw":  "ar",
+		"ml":  "fr",
+		"mr":  "ar",
 		"nds": "nl",
-		"om": "ar",
-		"os": "ru",
-		"se": "sw",
+		"om":  "ar",
+		"os":  "ru",
+		"se":  "sw",
 	}
 
 	unsupportedCountryCodes := common.UnsupportedCountryCodes()
@@ -182,16 +182,16 @@ func commonLocales(data CleansedDataSet) []common.Locale {
 			}
 
 			separator := ""
-			if (n.Separators.Group == ",") {
+			if n.Separators.Group == "," {
 				separator = ","
-			} else if (n.Separators.Group == " ") {
+			} else if n.Separators.Group == " " {
 				// Weird encoding from cldr-json
 				separator = " "
-			} else if (n.Separators.Group == ".") {
+			} else if n.Separators.Group == "." {
 				separator = "."
-			} else if (n.Separators.Group == "'") {
+			} else if n.Separators.Group == "'" {
 				separator = "'"
-			} else if (n.Separators.Group == "’") {
+			} else if n.Separators.Group == "’" {
 				separator = "’"
 			} else {
 				fmt.Printf("Invalid group separator[%s]\n", n.Separators.Group)
@@ -274,15 +274,15 @@ func commonPaymentMethods(data CleansedDataSet, regions []common.Region) []commo
 		}
 
 		all = append(all, common.PaymentMethod{
-			Id:        pm.Id,
-			Type:      pm.Type,
-			Name:      pm.Name,
-			Images:    common.PaymentMethodImages{
-				Small: toPaymentMethodImage(pm.Id, pm.SmallWidth, pm.SmallHeight),
+			Id:   pm.Id,
+			Type: pm.Type,
+			Name: pm.Name,
+			Images: common.PaymentMethodImages{
+				Small:  toPaymentMethodImage(pm.Id, pm.SmallWidth, pm.SmallHeight),
 				Medium: toPaymentMethodImage(pm.Id, pm.MediumWidth, pm.MediumHeight),
-				Large: toPaymentMethodImage(pm.Id, pm.LargeWidth, pm.LargeHeight),
+				Large:  toPaymentMethodImage(pm.Id, pm.LargeWidth, pm.LargeHeight),
 			},
-			Regions:   theseRegions,
+			Regions: theseRegions,
 		})
 	}
 	return all
@@ -368,13 +368,13 @@ func commonCountries(data CleansedDataSet) []common.Country {
 		sort.Strings(languages)
 		sort.Strings(timezones)
 		all = append(all, common.Country{
-			Name:              formatCountryName(c.Iso_3166_3, c.Name),
-			Iso_3166_2:        c.Iso_3166_2,
-			Iso_3166_3:        c.Iso_3166_3,
-			MeasurementSystem: getMeasurementSystem(c.Iso_3166_3),
-			DefaultCurrency:   defaultCurrency,
-			Languages:         languages,
-			Timezones:         timezones,
+			Name:                 formatCountryName(c.Iso_3166_3, c.Name),
+			Iso_3166_2:           c.Iso_3166_2,
+			Iso_3166_3:           c.Iso_3166_3,
+			MeasurementSystem:    getMeasurementSystem(c.Iso_3166_3),
+			DefaultCurrency:      defaultCurrency,
+			Languages:            languages,
+			Timezones:            timezones,
 			DefaultDeliveredDuty: defaultDeliveredDuty,
 		})
 	}
@@ -388,13 +388,13 @@ func createRegions(countries []common.Country, continents []common.Continent) []
 		id := generateId(c.Iso_3166_3)
 
 		regions = append(regions, common.Region{
-			Id:                 id,
-			Name:               c.Name,
-			Countries:          []string{c.Iso_3166_3},
-			Currencies:         currenciesForCountries([]common.Country{c}),
-			Languages:          languagesForCountries([]common.Country{c}),
-			MeasurementSystems: measurementSystemsForCountries([]common.Country{c}),
-			Timezones:          timezonesForCountries([]common.Country{c}),
+			Id:                   id,
+			Name:                 c.Name,
+			Countries:            []string{c.Iso_3166_3},
+			Currencies:           currenciesForCountries([]common.Country{c}),
+			Languages:            languagesForCountries([]common.Country{c}),
+			MeasurementSystems:   measurementSystemsForCountries([]common.Country{c}),
+			Timezones:            timezonesForCountries([]common.Country{c}),
 			DefaultDeliveredDuty: c.DefaultDeliveredDuty,
 		})
 	}
@@ -405,13 +405,13 @@ func createRegions(countries []common.Country, continents []common.Continent) []
 
 			theseCountries := findCountries(countries, c.Countries)
 			regions = append(regions, common.Region{
-				Id:                 id,
-				Name:               c.Name,
-				Countries:          toCountryCodes(theseCountries),
-				Currencies:         currenciesForCountries(theseCountries),
-				Languages:          languagesForCountries(theseCountries),
-				MeasurementSystems: measurementSystemsForCountries(theseCountries),
-				Timezones:          timezonesForCountries(theseCountries),
+				Id:                   id,
+				Name:                 c.Name,
+				Countries:            toCountryCodes(theseCountries),
+				Currencies:           currenciesForCountries(theseCountries),
+				Languages:            languagesForCountries(theseCountries),
+				MeasurementSystems:   measurementSystemsForCountries(theseCountries),
+				Timezones:            timezonesForCountries(theseCountries),
 				DefaultDeliveredDuty: theseCountries[0].DefaultDeliveredDuty,
 			})
 		}
@@ -427,13 +427,13 @@ func eurozone(countries []common.Country) common.Region {
 	countryCodes := findCountriesByCurrency(countries, "EUR")
 	theseCountries := findCountries(countries, countryCodes)
 	return common.Region{
-		Id:                 "eurozone",
-		Name:               "Eurozone",
-		Countries:          countryCodes,
-		Currencies:         currenciesForCountries(theseCountries),
-		Languages:          languagesForCountries(theseCountries),
-		MeasurementSystems: measurementSystemsForCountries(theseCountries),
-		Timezones:          timezonesForCountries(theseCountries),
+		Id:                   "eurozone",
+		Name:                 "Eurozone",
+		Countries:            countryCodes,
+		Currencies:           currenciesForCountries(theseCountries),
+		Languages:            languagesForCountries(theseCountries),
+		MeasurementSystems:   measurementSystemsForCountries(theseCountries),
+		Timezones:            timezonesForCountries(theseCountries),
 		DefaultDeliveredDuty: theseCountries[0].DefaultDeliveredDuty,
 	}
 }
@@ -446,13 +446,13 @@ func world(countries []common.Country) common.Region {
 	sort.Strings(codes)
 
 	return common.Region{
-		Id:                 "world",
-		Name:               "World",
-		Countries:          codes,
-		Currencies:         currenciesForCountries(countries),
-		Languages:          languagesForCountries(countries),
-		MeasurementSystems: []string{"metric", "imperial"},
-		Timezones:          timezonesForCountries(countries),
+		Id:                   "world",
+		Name:                 "World",
+		Countries:            codes,
+		Currencies:           currenciesForCountries(countries),
+		Languages:            languagesForCountries(countries),
+		MeasurementSystems:   []string{"metric", "imperial"},
+		Timezones:            timezonesForCountries(countries),
 		DefaultDeliveredDuty: countries[0].DefaultDeliveredDuty,
 	}
 }
@@ -677,11 +677,11 @@ func defaultLocaleIdForCurrency(data CleansedDataSet, locales []common.Locale, c
 	countries := []string{}
 	languages := []string{}
 
-	for _, c := range(data.Countries) {
+	for _, c := range data.Countries {
 		if c.Currency == currency.Iso_4217_3 {
 			countries = append(countries, c.Iso_3166_3)
 
-			for _, l := range(data.Languages) {
+			for _, l := range data.Languages {
 				if common.Contains(l.Countries, c.Iso_3166_3) {
 					languages = append(languages, l.Iso_639_2)
 				}
@@ -690,7 +690,7 @@ func defaultLocaleIdForCurrency(data CleansedDataSet, locales []common.Locale, c
 	}
 
 	// Return first matching locale
-	for _, l := range(locales) {
+	for _, l := range locales {
 		if common.Contains(countries, l.Country) && common.Contains(languages, l.Language) {
 			return l.Id
 		}
@@ -755,8 +755,8 @@ func sortTimezones(timezones []common.Timezone) []common.Timezone {
 func toPaymentMethodImage(id string, width int, height int) common.PaymentMethodImage {
 	url := fmt.Sprintf("https://flowcdn.io/util/icons/payment-methods/%s/%sx%s.png", id, strconv.Itoa(width), strconv.Itoa(height))
 	return common.PaymentMethodImage{
-		Url: url,
-		Width: width,
+		Url:    url,
+		Width:  width,
 		Height: height,
 	}
 }

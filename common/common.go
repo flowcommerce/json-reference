@@ -19,14 +19,14 @@ type Continent struct {
 }
 
 type Country struct {
-	Name              string   `json:"name"`
-	Iso_3166_2        string   `json:"iso_3166_2"`
-	Iso_3166_3        string   `json:"iso_3166_3"`
-	MeasurementSystem string   `json:"measurement_system"`
-	DefaultCurrency   string   `json:"default_currency,omitempty"`
-	Languages         []string `json:"languages"`
-	Timezones         []string `json:"timezones"`
-	DefaultDeliveredDuty   string   `json:"default_delivered_duty,omitempty"`
+	Name                 string   `json:"name"`
+	Iso_3166_2           string   `json:"iso_3166_2"`
+	Iso_3166_3           string   `json:"iso_3166_3"`
+	MeasurementSystem    string   `json:"measurement_system"`
+	DefaultCurrency      string   `json:"default_currency,omitempty"`
+	Languages            []string `json:"languages"`
+	Timezones            []string `json:"timezones"`
+	DefaultDeliveredDuty string   `json:"default_delivered_duty,omitempty"`
 }
 
 type Currency struct {
@@ -50,34 +50,34 @@ type Language struct {
 }
 
 type PaymentMethod struct {
-	Id                string   `json:"id"`
-	Type              string   `json:"type"`
-	Name              string   `json:"name"`
-	Images            PaymentMethodImages   `json:"images"`
-	Regions           []string `json:"regions"`
+	Id      string              `json:"id"`
+	Type    string              `json:"type"`
+	Name    string              `json:"name"`
+	Images  PaymentMethodImages `json:"images"`
+	Regions []string            `json:"regions"`
 }
 
 type PaymentMethodImages struct {
-	Small             PaymentMethodImage   `json:"small"`
-	Medium            PaymentMethodImage   `json:"medium"`
-	Large             PaymentMethodImage   `json:"large"`
+	Small  PaymentMethodImage `json:"small"`
+	Medium PaymentMethodImage `json:"medium"`
+	Large  PaymentMethodImage `json:"large"`
 }
 
 type PaymentMethodImage struct {
-	Url               string   `json:"url"`
-	Width             int      `json:"width"`
-	Height            int      `json:"height"`
+	Url    string `json:"url"`
+	Width  int    `json:"width"`
+	Height int    `json:"height"`
 }
 
 type Region struct {
-	Id                 string   `json:"id"`
-	Name               string   `json:"name"`
-	Countries          []string `json:"countries"`
-	Currencies         []string `json:"currencies"`
-	Languages          []string `json:"languages"`
-	MeasurementSystems []string `json:"measurement_systems"`
-	Timezones          []string `json:"timezones"`
-	DefaultDeliveredDuty   string   `json:"default_delivered_duty,omitempty"`
+	Id                   string   `json:"id"`
+	Name                 string   `json:"name"`
+	Countries            []string `json:"countries"`
+	Currencies           []string `json:"currencies"`
+	Languages            []string `json:"languages"`
+	MeasurementSystems   []string `json:"measurement_systems"`
+	Timezones            []string `json:"timezones"`
+	DefaultDeliveredDuty string   `json:"default_delivered_duty,omitempty"`
 }
 
 type Timezone struct {
@@ -91,7 +91,7 @@ type Locale struct {
 	Name     string        `json:"name"`
 	Country  string        `json:"country"`
 	Language string        `json:"language,omitempty"`
-	Numbers LocaleNumbers `json:"numbers"`
+	Numbers  LocaleNumbers `json:"numbers"`
 }
 
 type LocaleNumbers struct {
@@ -239,7 +239,7 @@ func WriteJson(target string, data interface{}) {
 func FormatLocaleId(value string) string {
 	formatted := regexp.MustCompile("_").ReplaceAllString(value, "-")
 	distinct := []string{}
-	for _, v := range(strings.Split(formatted, "-")) {
+	for _, v := range strings.Split(formatted, "-") {
 		if !ContainsIgnoreCase(distinct, v) {
 			distinct = append(distinct, v)
 		}
