@@ -28,6 +28,11 @@ type CountryContinent struct {
 	CountryCode   string `json:"country"`
 }
 
+type CountryDuty struct {
+	CountryCode   string `json:"country"`
+	DutyCode      string `json:"duty"`
+}
+
 type Country struct {
 	Name       string `json:"name"`
 	Continent  string `json:"continent"`
@@ -228,6 +233,23 @@ func Cleanse() {
 	currencies := readCurrencies("data/original/currencies.json")
 	writeJson("data/cleansed/currencies.json", currencies)
 
+	writeJson("data/cleansed/country-duties.json",
+		toObjects(readCsv("data/original/country-duties.csv"),
+			func(record map[string]string) bool {
+				return record["duty"] != "" && record["duty"] != "--"
+			},
+			func(record map[string]string) interface{} {
+				return CountryDuty{
+					CountryCode:   record["country"],
+					DutyCode:      record["duty"],
+				}
+			},
+			func(record map[string]string) string {
+				return record["duty"] + record["country"]
+			},
+		),
+	)
+
 	writeJson("data/cleansed/country-continents.json",
 		toObjects(readCsv("data/source/country-continents.csv"),
 			func(record map[string]string) bool {
@@ -331,7 +353,7 @@ func countryName(record map[string]string) string {
 		return overrides[name]
 	}
 }
-				
+
 
 func writeJson(target string, objects interface{}) {
 	fmt.Printf("Writing %s\n", target)
@@ -405,7 +427,7 @@ func readLanguages(file string) ([]Language, []LocaleName) {
 	languages := []Language{}
 
 	localeNameMap := map[string]LocaleName{}
-	
+
 	for _, l := range lang.Languages {
 		name := l.Names[0]
 		if len(l.Iso_639_2) > 0 && name != "" && len(l.Countries) > 0 {
@@ -434,7 +456,7 @@ func readLanguages(file string) ([]Language, []LocaleName) {
 		names = append(names, v)
 	}
 	sortLocaleNames(names)
-	
+
 	return languages, names
 }
 
@@ -527,6 +549,13 @@ func toObjects(records []map[string]string, accepts acceptsFunction, f convertFu
 	}
 
 	return sortObjects(added)
+}
+
+func LoadCountryDuties() []CountryDuty {
+	countryDuties := []CountryDuty{}
+	err := json.Unmarshal(common.ReadFile("data/cleansed/country-duties.json"), &countryDuties)
+	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshal country duties: %s", err))
+	return countryDuties
 }
 
 func LoadCountryContinents() []CountryContinent {
