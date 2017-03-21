@@ -8,7 +8,8 @@
     "languages": [
       "sq"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Algeria",
@@ -19,7 +20,8 @@
     "languages": [
       "ar"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "American Samoa",
@@ -28,7 +30,8 @@
     "measurement_system": "metric",
     "default_currency": "USD",
     "languages": [],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Andorra",
@@ -39,7 +42,8 @@
     "languages": [
       "ca"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Anguilla",
@@ -48,7 +52,8 @@
     "measurement_system": "metric",
     "default_currency": "XCD",
     "languages": [],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Antigua and Barbuda",
@@ -59,7 +64,8 @@
     "languages": [
       "en"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Argentina",
@@ -70,7 +76,8 @@
     "languages": [
       "es"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Armenia",
@@ -81,7 +88,8 @@
     "languages": [
       "hy"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Aruba",
@@ -92,7 +100,8 @@
     "languages": [
       "nl"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Australia",
@@ -105,7 +114,8 @@
     ],
     "timezones": [
       "Australia/ACT"
-    ]
+    ],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Austria",
@@ -116,7 +126,8 @@
     "languages": [
       "de"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Azerbaijan",
@@ -127,7 +138,8 @@
     "languages": [
       "az"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Bahamas",
@@ -138,7 +150,8 @@
     "languages": [
       "en"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Bahrain",
@@ -149,7 +162,8 @@
     "languages": [
       "ar"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Bangladesh",
@@ -160,7 +174,8 @@
     "languages": [
       "bn"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Barbados",
@@ -171,7 +186,8 @@
     "languages": [
       "en"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Belgium",
@@ -184,7 +200,8 @@
       "fr",
       "nl"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Belize",
@@ -195,7 +212,8 @@
     "languages": [
       "en"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Benin",
@@ -208,7 +226,8 @@
       "fr",
       "yo"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Bermuda",
@@ -217,7 +236,8 @@
     "measurement_system": "metric",
     "default_currency": "BMD",
     "languages": [],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Bhutan",
@@ -228,7 +248,8 @@
     "languages": [
       "dz"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Bolivia",
@@ -242,7 +263,8 @@
       "gn",
       "qu"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Bonaire, Sint Eustatius and Saba",
@@ -251,7 +273,8 @@
     "measurement_system": "metric",
     "default_currency": "USD",
     "languages": [],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Bosnia and Herzegovina",
@@ -264,7 +287,8 @@
       "hr",
       "sr"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Botswana",
@@ -276,7 +300,8 @@
       "en",
       "tn"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Brazil",
@@ -287,7 +312,8 @@
     "languages": [
       "pt"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "British Virgin Islands",
@@ -296,7 +322,8 @@
     "measurement_system": "metric",
     "default_currency": "USD",
     "languages": [],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Brunei Darussalam",
@@ -307,7 +334,8 @@
     "languages": [
       "ms"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Bulgaria",
@@ -318,7 +346,8 @@
     "languages": [
       "bg"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Burkina Faso",
@@ -330,7 +359,8 @@
       "ff",
       "fr"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Cabo Verde",
@@ -341,7 +371,8 @@
     "languages": [
       "pt"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Cambodia",
@@ -352,7 +383,8 @@
     "languages": [
       "km"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Cameroon",
@@ -364,7 +396,8 @@
       "en",
       "fr"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Canada",
@@ -378,7 +411,8 @@
     ],
     "timezones": [
       "Canada/Eastern"
-    ]
+    ],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Cayman Islands",
@@ -387,7 +421,8 @@
     "measurement_system": "metric",
     "default_currency": "KYD",
     "languages": [],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Central African Republic",
@@ -399,7 +434,8 @@
       "fr",
       "sg"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Chad",
@@ -411,7 +447,8 @@
       "ar",
       "fr"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Chile",
@@ -422,7 +459,8 @@
     "languages": [
       "es"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "China",
@@ -435,7 +473,8 @@
     ],
     "timezones": [
       "Asia/Chongqing"
-    ]
+    ],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "China, Hong Kong Special Administrative Region",
@@ -447,7 +486,8 @@
       "en",
       "zh"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "China, Macao Special Administrative Region",
@@ -459,7 +499,8 @@
       "pt",
       "zh"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Colombia",
@@ -470,7 +511,8 @@
     "languages": [
       "es"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Comoros",
@@ -482,7 +524,8 @@
       "ar",
       "fr"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Congo",
@@ -495,7 +538,8 @@
       "kg",
       "ln"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Cook Islands",
@@ -504,7 +548,8 @@
     "measurement_system": "metric",
     "default_currency": "NZD",
     "languages": [],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Costa Rica",
@@ -515,7 +560,8 @@
     "languages": [
       "es"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Croatia",
@@ -527,7 +573,8 @@
       "hr",
       "it"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Curaçao",
@@ -539,7 +586,8 @@
       "en",
       "nl"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Cyprus",
@@ -551,7 +599,8 @@
       "el",
       "tr"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Czechia",
@@ -563,7 +612,8 @@
       "cs",
       "sk"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Côte d'Ivoire",
@@ -574,7 +624,8 @@
     "languages": [
       "fr"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Denmark",
@@ -585,7 +636,8 @@
     "languages": [
       "da"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Djibouti",
@@ -599,7 +651,8 @@
       "fr",
       "so"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Dominica",
@@ -610,7 +663,8 @@
     "languages": [
       "en"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Dominican Republic",
@@ -621,7 +675,8 @@
     "languages": [
       "es"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Ecuador",
@@ -632,7 +687,8 @@
     "languages": [
       "es"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Egypt",
@@ -643,7 +699,8 @@
     "languages": [
       "ar"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "El Salvador",
@@ -654,7 +711,8 @@
     "languages": [
       "es"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Equatorial Guinea",
@@ -667,7 +725,8 @@
       "fr",
       "pt"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Estonia",
@@ -678,7 +737,8 @@
     "languages": [
       "et"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Ethiopia",
@@ -689,7 +749,8 @@
     "languages": [
       "am"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Falkland Islans",
@@ -698,7 +759,8 @@
     "measurement_system": "metric",
     "default_currency": "FKP",
     "languages": [],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Fiji",
@@ -712,7 +774,8 @@
       "hi",
       "ur"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Finland",
@@ -724,7 +787,8 @@
       "fi",
       "sv"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "France",
@@ -737,7 +801,8 @@
     ],
     "timezones": [
       "Africa/Algiers"
-    ]
+    ],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "French Guiana",
@@ -748,7 +813,8 @@
     "languages": [
       "fr"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "French Polynesia",
@@ -759,7 +825,8 @@
     "languages": [
       "fr"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Gabon",
@@ -770,7 +837,8 @@
     "languages": [
       "fr"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Gambia",
@@ -781,7 +849,8 @@
     "languages": [
       "en"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Georgia",
@@ -792,7 +861,8 @@
     "languages": [
       "ka"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Germany",
@@ -803,7 +873,8 @@
     "languages": [
       "de"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Ghana",
@@ -816,7 +887,8 @@
       "ee",
       "en"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Gibraltar",
@@ -825,7 +897,8 @@
     "measurement_system": "metric",
     "default_currency": "GIP",
     "languages": [],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Greece",
@@ -836,7 +909,8 @@
     "languages": [
       "el"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Greenland",
@@ -845,7 +919,8 @@
     "measurement_system": "metric",
     "default_currency": "DKK",
     "languages": [],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Grenada",
@@ -856,7 +931,8 @@
     "languages": [
       "en"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Guadeloupe",
@@ -867,7 +943,8 @@
     "languages": [
       "fr"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Guam",
@@ -876,7 +953,8 @@
     "measurement_system": "metric",
     "default_currency": "USD",
     "languages": [],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Guatemala",
@@ -887,7 +965,8 @@
     "languages": [
       "es"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Guernsey",
@@ -896,7 +975,8 @@
     "measurement_system": "metric",
     "default_currency": "GBP",
     "languages": [],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Guinea",
@@ -907,7 +987,8 @@
     "languages": [
       "fr"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Guinea-Bissau",
@@ -918,7 +999,8 @@
     "languages": [
       "pt"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Guyana",
@@ -929,7 +1011,8 @@
     "languages": [
       "en"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Haiti",
@@ -941,7 +1024,8 @@
       "fr",
       "ht"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Holy See",
@@ -953,7 +1037,8 @@
       "it",
       "la"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Honduras",
@@ -964,7 +1049,8 @@
     "languages": [
       "es"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Hungary",
@@ -975,7 +1061,8 @@
     "languages": [
       "hu"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Iceland",
@@ -986,7 +1073,8 @@
     "languages": [
       "is"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "India",
@@ -1003,7 +1091,8 @@
       "ta",
       "te"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Indonesia",
@@ -1015,7 +1104,8 @@
       "id",
       "ms"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Ireland",
@@ -1029,7 +1119,8 @@
     ],
     "timezones": [
       "GMT"
-    ]
+    ],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Isle of Man",
@@ -1038,7 +1129,8 @@
     "measurement_system": "metric",
     "default_currency": "GBP",
     "languages": [],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Israel",
@@ -1050,7 +1142,8 @@
       "ar",
       "he"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Italy",
@@ -1063,7 +1156,8 @@
       "fr",
       "it"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Jamaica",
@@ -1074,7 +1168,8 @@
     "languages": [
       "en"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Japan",
@@ -1085,7 +1180,8 @@
     "languages": [
       "ja"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Jersey",
@@ -1096,7 +1192,8 @@
     "languages": [
       "fr"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Jordan",
@@ -1107,7 +1204,8 @@
     "languages": [
       "ar"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Kazakhstan",
@@ -1119,7 +1217,8 @@
       "kk",
       "ru"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Kenya",
@@ -1131,7 +1230,8 @@
       "en",
       "sw"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Kiribati",
@@ -1142,7 +1242,8 @@
     "languages": [
       "en"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Kuwait",
@@ -1153,7 +1254,8 @@
     "languages": [
       "ar"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Kyrgyzstan",
@@ -1165,7 +1267,8 @@
       "ky",
       "ru"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Lao People's Democratic Republic",
@@ -1176,7 +1279,8 @@
     "languages": [
       "lo"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Latvia",
@@ -1187,7 +1291,8 @@
     "languages": [
       "lv"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Lebanon",
@@ -1198,7 +1303,8 @@
     "languages": [
       "ar"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Lesotho",
@@ -1210,7 +1316,8 @@
       "en",
       "st"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Libya",
@@ -1221,7 +1328,8 @@
     "languages": [
       "ar"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Liechtenstein",
@@ -1232,7 +1340,8 @@
     "languages": [
       "de"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Lithuania",
@@ -1243,7 +1352,8 @@
     "languages": [
       "lt"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Luxembourg",
@@ -1256,7 +1366,8 @@
       "fr",
       "lb"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Malawi",
@@ -1268,7 +1379,8 @@
       "en",
       "ny"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Malaysia",
@@ -1281,7 +1393,8 @@
       "ms",
       "ta"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Maldives",
@@ -1292,7 +1405,8 @@
     "languages": [
       "dv"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Mali",
@@ -1305,7 +1419,8 @@
       "ff",
       "fr"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Malta",
@@ -1317,7 +1432,8 @@
       "en",
       "mt"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Marshall Islands",
@@ -1329,7 +1445,8 @@
       "en",
       "mh"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Martinique",
@@ -1340,7 +1457,8 @@
     "languages": [
       "fr"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Mauritania",
@@ -1351,7 +1469,8 @@
     "languages": [
       "ar"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Mauritius",
@@ -1364,7 +1483,8 @@
       "fr",
       "ta"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Mayotte",
@@ -1375,7 +1495,8 @@
     "languages": [
       "fr"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Mexico",
@@ -1388,7 +1509,8 @@
     ],
     "timezones": [
       "Mexico/General"
-    ]
+    ],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Micronesia",
@@ -1399,7 +1521,8 @@
     "languages": [
       "en"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Monaco",
@@ -1410,7 +1533,8 @@
     "languages": [
       "fr"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Mongolia",
@@ -1421,7 +1545,8 @@
     "languages": [
       "mn"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Montenegro",
@@ -1430,7 +1555,8 @@
     "measurement_system": "metric",
     "default_currency": "EUR",
     "languages": [],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Montserrat",
@@ -1439,7 +1565,8 @@
     "measurement_system": "metric",
     "default_currency": "XCD",
     "languages": [],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Morocco",
@@ -1450,7 +1577,8 @@
     "languages": [
       "ar"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Namibia",
@@ -1461,7 +1589,8 @@
     "languages": [
       "en"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Nauru",
@@ -1472,7 +1601,8 @@
     "languages": [
       "en"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Nepal",
@@ -1483,7 +1613,8 @@
     "languages": [
       "ne"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Netherlands",
@@ -1494,7 +1625,8 @@
     "languages": [
       "nl"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "New Caledonia",
@@ -1505,7 +1637,8 @@
     "languages": [
       "fr"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "New Zealand",
@@ -1517,7 +1650,8 @@
       "en",
       "mi"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Nicaragua",
@@ -1528,7 +1662,8 @@
     "languages": [
       "es"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Niger",
@@ -1543,7 +1678,8 @@
       "ha",
       "kr"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Nigeria",
@@ -1557,7 +1693,8 @@
       "ig",
       "yo"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Niue",
@@ -1566,7 +1703,8 @@
     "measurement_system": "metric",
     "default_currency": "NZD",
     "languages": [],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Norfolk Island",
@@ -1575,7 +1713,8 @@
     "measurement_system": "metric",
     "default_currency": "AUD",
     "languages": [],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Northern Mariana Islands",
@@ -1584,7 +1723,8 @@
     "measurement_system": "metric",
     "default_currency": "USD",
     "languages": [],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Norway",
@@ -1597,7 +1737,8 @@
       "nn",
       "no"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Oman",
@@ -1608,7 +1749,8 @@
     "languages": [
       "ar"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Pakistan",
@@ -1620,7 +1762,8 @@
       "en",
       "ur"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Palau",
@@ -1631,7 +1774,8 @@
     "languages": [
       "en"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Panama",
@@ -1642,7 +1786,8 @@
     "languages": [
       "es"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Papua New Guinea",
@@ -1654,7 +1799,8 @@
       "en",
       "ho"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Paraguay",
@@ -1666,7 +1812,8 @@
       "es",
       "gn"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Peru",
@@ -1679,7 +1826,8 @@
       "es",
       "qu"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Philippines",
@@ -1691,7 +1839,8 @@
       "en",
       "tl"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Pitcairn",
@@ -1700,7 +1849,8 @@
     "measurement_system": "metric",
     "default_currency": "NZD",
     "languages": [],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Poland",
@@ -1711,7 +1861,8 @@
     "languages": [
       "pl"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Portugal",
@@ -1722,7 +1873,8 @@
     "languages": [
       "pt"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Puerto Rico",
@@ -1733,7 +1885,8 @@
     "languages": [
       "es"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Qatar",
@@ -1744,7 +1897,8 @@
     "languages": [
       "ar"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Republic of Korea",
@@ -1755,7 +1909,8 @@
     "languages": [
       "ko"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Republic of Moldova",
@@ -1766,7 +1921,8 @@
     "languages": [
       "ro"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Romania",
@@ -1777,7 +1933,8 @@
     "languages": [
       "ro"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Russian Federation",
@@ -1788,7 +1945,8 @@
     "languages": [
       "ru"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Rwanda",
@@ -1801,7 +1959,8 @@
       "fr",
       "rw"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Réunion",
@@ -1812,7 +1971,8 @@
     "languages": [
       "fr"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Saint Barthélemy",
@@ -1823,7 +1983,8 @@
     "languages": [
       "fr"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Saint Helena",
@@ -1832,7 +1993,8 @@
     "measurement_system": "metric",
     "default_currency": "SHP",
     "languages": [],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Saint Kitts and Nevis",
@@ -1843,7 +2005,8 @@
     "languages": [
       "en"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Saint Lucia",
@@ -1854,7 +2017,8 @@
     "languages": [
       "en"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Saint Martin",
@@ -1863,7 +2027,8 @@
     "measurement_system": "metric",
     "default_currency": "EUR",
     "languages": [],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Saint Pierre and Miquelon",
@@ -1874,7 +2039,8 @@
     "languages": [
       "fr"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Saint Vincent and the Grenadines",
@@ -1885,7 +2051,8 @@
     "languages": [
       "en"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Samoa",
@@ -1896,7 +2063,8 @@
     "languages": [
       "en"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "San Marino",
@@ -1907,7 +2075,8 @@
     "languages": [
       "it"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Sao Tome and Principe",
@@ -1918,7 +2087,8 @@
     "languages": [
       "pt"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Saudi Arabia",
@@ -1929,7 +2099,8 @@
     "languages": [
       "ar"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Senegal",
@@ -1942,7 +2113,8 @@
       "fr",
       "wo"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Serbia",
@@ -1953,7 +2125,8 @@
     "languages": [
       "sr"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Seychelles",
@@ -1965,7 +2138,8 @@
       "en",
       "fr"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Sierra Leone",
@@ -1976,7 +2150,8 @@
     "languages": [
       "en"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Singapore",
@@ -1990,7 +2165,8 @@
       "ta",
       "zh"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Sint Maarten",
@@ -2002,7 +2178,8 @@
       "en",
       "nl"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Slovakia",
@@ -2014,7 +2191,8 @@
       "cs",
       "sk"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Slovenia",
@@ -2026,7 +2204,8 @@
       "it",
       "sl"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Solomon Islands",
@@ -2037,7 +2216,8 @@
     "languages": [
       "en"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Somalia",
@@ -2049,7 +2229,8 @@
       "ar",
       "so"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "South Africa",
@@ -2070,7 +2251,8 @@
       "xh",
       "zu"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Spain",
@@ -2081,7 +2263,8 @@
     "languages": [
       "es"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Sri Lanka",
@@ -2094,7 +2277,8 @@
       "si",
       "ta"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Svalbard and Jan Mayen Islands",
@@ -2103,7 +2287,8 @@
     "measurement_system": "metric",
     "default_currency": "NOK",
     "languages": [],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Swaziland",
@@ -2115,7 +2300,8 @@
       "en",
       "ss"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Sweden",
@@ -2126,7 +2312,8 @@
     "languages": [
       "sv"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Switzerland",
@@ -2140,7 +2327,8 @@
       "it",
       "rm"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Taiwan",
@@ -2151,7 +2339,8 @@
     "languages": [
       "zh"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Thailand",
@@ -2162,7 +2351,8 @@
     "languages": [
       "th"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Timor-Leste",
@@ -2173,7 +2363,8 @@
     "languages": [
       "pt"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Togo",
@@ -2185,7 +2376,8 @@
       "ee",
       "fr"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Tokelau",
@@ -2194,7 +2386,8 @@
     "measurement_system": "metric",
     "default_currency": "NZD",
     "languages": [],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Tonga",
@@ -2205,7 +2398,8 @@
     "languages": [
       "en"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Trinidad and Tobago",
@@ -2216,7 +2410,8 @@
     "languages": [
       "en"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Tunisia",
@@ -2227,7 +2422,8 @@
     "languages": [
       "ar"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Turkey",
@@ -2238,7 +2434,8 @@
     "languages": [
       "tr"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Turks and Caicos Islands",
@@ -2247,7 +2444,8 @@
     "measurement_system": "metric",
     "default_currency": "USD",
     "languages": [],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Tuvalu",
@@ -2258,7 +2456,8 @@
     "languages": [
       "en"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Uganda",
@@ -2270,7 +2469,8 @@
       "en",
       "sw"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Ukraine",
@@ -2281,7 +2481,8 @@
     "languages": [
       "uk"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "United Arab Emirates",
@@ -2292,7 +2493,8 @@
     "languages": [
       "ar"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "United Kingdom",
@@ -2306,7 +2508,8 @@
     ],
     "timezones": [
       "GMT"
-    ]
+    ],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "United Republic of Tanzania",
@@ -2318,7 +2521,8 @@
       "en",
       "sw"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "United States of America",
@@ -2333,7 +2537,8 @@
       "America/Chicago",
       "America/Los_Angeles",
       "America/New_York"
-    ]
+    ],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "United States Virgin Islands",
@@ -2342,7 +2547,8 @@
     "measurement_system": "metric",
     "default_currency": "USD",
     "languages": [],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Uruguay",
@@ -2353,7 +2559,8 @@
     "languages": [
       "es"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Uzbekistan",
@@ -2364,7 +2571,8 @@
     "languages": [
       "uz"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Vanuatu",
@@ -2377,7 +2585,8 @@
       "en",
       "fr"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Venezuela",
@@ -2388,7 +2597,8 @@
     "languages": [
       "es"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Viet Nam",
@@ -2399,7 +2609,8 @@
     "languages": [
       "vi"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Wallis and Futuna Islands",
@@ -2410,7 +2621,8 @@
     "languages": [
       "fr"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Western Sahara",
@@ -2421,7 +2633,8 @@
     "languages": [
       "es"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Yemen",
@@ -2432,7 +2645,8 @@
     "languages": [
       "ar"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Zambia",
@@ -2443,7 +2657,8 @@
     "languages": [
       "en"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Åland Islands",
@@ -2454,6 +2669,7 @@
     "languages": [
       "sv"
     ],
-    "timezones": []
+    "timezones": [],
+    "default_delivered_duty": "paid"
   }
 ]

@@ -53,8 +53,8 @@ git submodule update
 
 View commands available:
 
-  `go run script/reference.go`
+  `go run reference.go`
 
 Run end to end process:
 
-  `go run script/reference.go all`
+  `go run reference.go all`
