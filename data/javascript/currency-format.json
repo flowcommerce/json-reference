@@ -1,0 +1,17 @@
+{
+  "locales": {
+    "en-CA": {
+      "symbol": "CA$",
+      "decimal": ",",
+      "group": " ",
+      "precision": 2,
+      "format": "%s%v"
+    }
+  },
+
+  "countries": {
+    "CAN": {
+      "locale": "en-CA"
+    }
+  }
+}
