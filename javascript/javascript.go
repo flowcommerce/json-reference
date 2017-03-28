@@ -5,12 +5,10 @@ import (
 	"errors"
 	"fmt"
 	"os"
-	"strconv"
 )
 
 type CurrencyFormat struct {
 	Formats      map[string]JavascriptFormat `json:"formats"`
-	Locales      map[string]LocaleDictionary  `json:"locales"`
 }
 
 type JavascriptFormat struct {
@@ -18,10 +16,6 @@ type JavascriptFormat struct {
 	Decimal    string `json:"decimal"`
 	Group      string `json:"group"`
 	Precision  int    `json:"precision"`
-	Format     string `json:"format"`
-}
-
-type LocaleDictionary struct {
 	Format     string `json:"format"`
 }
 
@@ -39,40 +33,27 @@ func Generate() {
 	}
 
 	format := CurrencyFormat{
-		Formats: generateFormats(data),
-		Locales: generateLocaleDictionary(data),
+		Formats: generateFormatsByLocale(data),
 	}
 	common.WriteJson("data/javascript/currency-format.json", format)
 }
 
-func generateFormats(data CommonData) map[string]JavascriptFormat {
+func generateFormatsByLocale(data CommonData) map[string]JavascriptFormat {
 	all := map[string]JavascriptFormat{}
 
-	index := 1
 	for _, l := range data.Locales {
 		currency, err := findCurrencyByLocale(data, l)
 		if err == nil && currency.Symbols != nil {
-			all[strconv.Itoa(index)] = JavascriptFormat{
+			all[l.Id] = JavascriptFormat{
 				Symbol: currency.Symbols.Primary,
 				Decimal: l.Numbers.Decimal,
 				Group: l.Numbers.Group,
 				Precision: currency.NumberDecimals,
 				Format: "%s%v",
 			}
-			index += 1
 		}
 	}
 
-	return all;
-}
-
-func generateLocaleDictionary(data CommonData) map[string]LocaleDictionary {
-	all := map[string]LocaleDictionary{}
-	for _, l := range data.Locales {
-		all[l.Id] = LocaleDictionary{
-			Format: "1",
-		}
-	}
 	return all
 }
 
