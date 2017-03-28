@@ -9,6 +9,7 @@ import (
 	"./cleanse"
 	"./download"
 	"./final"
+	"./javascript"
 	"fmt"
 	"github.com/codegangsta/cli"
 	"os"
@@ -35,6 +36,10 @@ func main() {
 				fmt.Println("\nGenerating final models...")
 				fmt.Println("------------------------------")
 				final.Generate()
+
+				fmt.Println("\nGenerating javascript models...")
+				fmt.Println("------------------------------")
+				javascript.Generate()
 
 				fmt.Println("\nDone\n")
 				return nil
@@ -64,6 +69,15 @@ func main() {
 			Usage: "Pulls together all the cleanse data into the final final reference data. Writes to 'data/final' directory",
 			Action: func(c *cli.Context) error {
 				final.Generate()
+				return nil
+			},
+		},
+
+		{
+			Name:  "javascript",
+			Usage: "Generates data used by our javascript libraries. Writes to 'data/javascript' directory",
+			Action: func(c *cli.Context) error {
+				javascript.Generate()
 				return nil
 			},
 		},
