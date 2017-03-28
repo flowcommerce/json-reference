@@ -49,7 +49,7 @@ func generateFormats(data CommonData) map[string]JavascriptFormat {
 
 	for _, l := range data.Locales {
 		currency, err := findCurrencyByLocale(data, l)
-		if err != nil {
+		if err == nil && currency.Symbols != nil {
 			all[l.Id] = JavascriptFormat{
 				Symbol: currency.Symbols.Primary,
 				Decimal: l.Numbers.Decimal,
@@ -78,7 +78,8 @@ func findCurrencyByLocale(data CommonData, locale common.Locale) (common.Currenc
 	if country.DefaultCurrency == "" {
 		return common.Currency{}, errors.New("Country has no default currency")
 	} else {
-		return findCurrencyByIso42173(data, country.DefaultCurrency), nil
+		c := findCurrencyByIso42173(data, country.DefaultCurrency)
+		return c, nil
 	}
 }
 
