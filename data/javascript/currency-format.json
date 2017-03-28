@@ -1,1367 +1,1047 @@
 {
   "formats": {
-    "1": {
-      "symbol": "FCFA",
-      "decimal": ".",
-      "group": ",",
-      "precision": 0,
-      "format": "%s%v"
-    },
-    "10": {
-      "symbol": "CN¥",
-      "decimal": ".",
-      "group": ",",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "100": {
-      "symbol": "€",
-      "decimal": ",",
-      "group": ".",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "101": {
-      "symbol": "€",
-      "decimal": ",",
-      "group": ".",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "102": {
-      "symbol": "$",
-      "decimal": ".",
-      "group": ",",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "103": {
-      "symbol": "CFA",
-      "decimal": ".",
-      "group": ",",
-      "precision": 0,
-      "format": "%s%v"
-    },
-    "104": {
+    "ar-IL": {
       "symbol": "₪",
       "decimal": ".",
       "group": ",",
       "precision": 2,
       "format": "%s%v"
     },
-    "105": {
+    "ar-TD": {
       "symbol": "FCFA",
       "decimal": ".",
       "group": ",",
       "precision": 0,
       "format": "%s%v"
     },
-    "106": {
-      "symbol": "€",
-      "decimal": ",",
-      "group": ".",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "107": {
-      "symbol": "€",
-      "decimal": ",",
-      "group": ".",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "108": {
-      "symbol": "¥",
-      "decimal": ".",
-      "group": ",",
-      "precision": 0,
-      "format": "%s%v"
-    },
-    "109": {
+    "be": {
       "symbol": "€",
       "decimal": ",",
       "group": " ",
       "precision": 2,
       "format": "%s%v"
     },
-    "11": {
-      "symbol": "HK$",
-      "decimal": ".",
-      "group": ",",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "110": {
-      "symbol": "FCFA",
-      "decimal": ",",
-      "group": ".",
-      "precision": 0,
-      "format": "%s%v"
-    },
-    "111": {
-      "symbol": "FCFA",
-      "decimal": ",",
-      "group": ".",
-      "precision": 0,
-      "format": "%s%v"
-    },
-    "112": {
-      "symbol": "€",
-      "decimal": ",",
-      "group": " ",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "113": {
-      "symbol": "€",
-      "decimal": ",",
-      "group": ".",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "114": {
-      "symbol": "EC$",
-      "decimal": ".",
-      "group": ",",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "115": {
-      "symbol": "€",
-      "decimal": ".",
-      "group": ",",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "116": {
+    "bn-IN": {
       "symbol": "₹",
       "decimal": ".",
       "group": ",",
       "precision": 2,
       "format": "%s%v"
     },
-    "117": {
-      "symbol": "CFA",
-      "decimal": ".",
-      "group": ",",
-      "precision": 0,
-      "format": "%s%v"
-    },
-    "118": {
-      "symbol": "$",
-      "decimal": ".",
-      "group": ",",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "119": {
-      "symbol": "R$",
+    "ca": {
+      "symbol": "CA$",
       "decimal": ",",
-      "group": " ",
+      "group": ".",
       "precision": 2,
       "format": "%s%v"
     },
-    "12": {
+    "ca-AD": {
       "symbol": "€",
       "decimal": ",",
       "group": ".",
       "precision": 2,
       "format": "%s%v"
     },
-    "120": {
+    "ca-ES": {
+      "symbol": "€",
+      "decimal": ",",
+      "group": ".",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "ca-FR": {
+      "symbol": "€",
+      "decimal": ",",
+      "group": ".",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "ca-IT": {
+      "symbol": "€",
+      "decimal": ",",
+      "group": ".",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "cy": {
+      "symbol": "€",
+      "decimal": ".",
+      "group": ",",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "de": {
+      "symbol": "€",
+      "decimal": ",",
+      "group": ".",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "de-AT": {
+      "symbol": "€",
+      "decimal": ",",
+      "group": " ",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "de-BE": {
+      "symbol": "€",
+      "decimal": ",",
+      "group": ".",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "de-IT": {
+      "symbol": "€",
+      "decimal": ",",
+      "group": ".",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "de-LU": {
+      "symbol": "€",
+      "decimal": ",",
+      "group": ".",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "ee": {
+      "symbol": "€",
+      "decimal": ".",
+      "group": ",",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "ee-TG": {
+      "symbol": "CFA",
+      "decimal": ".",
+      "group": ",",
+      "precision": 0,
+      "format": "%s%v"
+    },
+    "el-CY": {
+      "symbol": "€",
+      "decimal": ",",
+      "group": ".",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "en-AG": {
+      "symbol": "EC$",
+      "decimal": ".",
+      "group": ",",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "en-AI": {
+      "symbol": "EC$",
+      "decimal": ".",
+      "group": ",",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "en-AS": {
+      "symbol": "$",
+      "decimal": ".",
+      "group": ",",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "en-AT": {
+      "symbol": "€",
+      "decimal": ",",
+      "group": ".",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "en-AU": {
+      "symbol": "A$",
+      "decimal": ".",
+      "group": ",",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "en-BE": {
+      "symbol": "€",
+      "decimal": ",",
+      "group": ".",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "en-CA": {
+      "symbol": "CA$",
+      "decimal": ".",
+      "group": ",",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "en-CK": {
+      "symbol": "NZ$",
+      "decimal": ".",
+      "group": ",",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "en-CM": {
+      "symbol": "FCFA",
+      "decimal": ".",
+      "group": ",",
+      "precision": 0,
+      "format": "%s%v"
+    },
+    "en-CY": {
+      "symbol": "€",
+      "decimal": ".",
+      "group": ",",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "en-DE": {
+      "symbol": "€",
+      "decimal": ",",
+      "group": ".",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "en-DM": {
+      "symbol": "EC$",
+      "decimal": ".",
+      "group": ",",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "en-FI": {
+      "symbol": "€",
+      "decimal": ",",
+      "group": " ",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "en-FM": {
+      "symbol": "$",
+      "decimal": ".",
+      "group": ",",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "en-GB": {
+      "symbol": "£",
+      "decimal": ".",
+      "group": ",",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "en-GD": {
+      "symbol": "EC$",
+      "decimal": ".",
+      "group": ",",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "en-GG": {
+      "symbol": "£",
+      "decimal": ".",
+      "group": ",",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "en-GU": {
+      "symbol": "$",
+      "decimal": ".",
+      "group": ",",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "en-HK": {
+      "symbol": "HK$",
+      "decimal": ".",
+      "group": ",",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "en-IE": {
+      "symbol": "€",
+      "decimal": ".",
+      "group": ",",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "en-IL": {
+      "symbol": "₪",
+      "decimal": ".",
+      "group": ",",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "en-IM": {
+      "symbol": "£",
+      "decimal": ".",
+      "group": ",",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "en-IN": {
+      "symbol": "₹",
+      "decimal": ".",
+      "group": ",",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "en-JE": {
+      "symbol": "£",
+      "decimal": ".",
+      "group": ",",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "en-KI": {
+      "symbol": "A$",
+      "decimal": ".",
+      "group": ",",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "en-KN": {
+      "symbol": "EC$",
+      "decimal": ".",
+      "group": ",",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "en-LC": {
+      "symbol": "EC$",
+      "decimal": ".",
+      "group": ",",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "en-MH": {
+      "symbol": "$",
+      "decimal": ".",
+      "group": ",",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "en-MP": {
+      "symbol": "$",
+      "decimal": ".",
+      "group": ",",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "en-MS": {
+      "symbol": "EC$",
+      "decimal": ".",
+      "group": ",",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "en-MT": {
+      "symbol": "€",
+      "decimal": ".",
+      "group": ",",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "en-NF": {
+      "symbol": "A$",
+      "decimal": ".",
+      "group": ",",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "en-NL": {
+      "symbol": "€",
+      "decimal": ",",
+      "group": ".",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "en-NR": {
+      "symbol": "A$",
+      "decimal": ".",
+      "group": ",",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "en-NU": {
+      "symbol": "NZ$",
+      "decimal": ".",
+      "group": ",",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "en-NZ": {
+      "symbol": "NZ$",
+      "decimal": ".",
+      "group": ",",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "en-PN": {
+      "symbol": "NZ$",
+      "decimal": ".",
+      "group": ",",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "en-PR": {
+      "symbol": "$",
+      "decimal": ".",
+      "group": ",",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "en-PW": {
+      "symbol": "$",
+      "decimal": ".",
+      "group": ",",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "en-SI": {
+      "symbol": "€",
+      "decimal": ",",
+      "group": ".",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "en-TC": {
+      "symbol": "$",
+      "decimal": ".",
+      "group": ",",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "en-TK": {
+      "symbol": "NZ$",
+      "decimal": ".",
+      "group": ",",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "en-TV": {
+      "symbol": "A$",
+      "decimal": ".",
+      "group": ",",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "en-US": {
+      "symbol": "$",
+      "decimal": ".",
+      "group": ",",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "en-VC": {
+      "symbol": "EC$",
+      "decimal": ".",
+      "group": ",",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "en-VG": {
+      "symbol": "$",
+      "decimal": ".",
+      "group": ",",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "en-VI": {
+      "symbol": "$",
+      "decimal": ".",
+      "group": ",",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "es": {
+      "symbol": "€",
+      "decimal": ",",
+      "group": ".",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "es-BR": {
+      "symbol": "R$",
+      "decimal": ".",
+      "group": ",",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "es-EC": {
+      "symbol": "$",
+      "decimal": ",",
+      "group": ".",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "es-GQ": {
       "symbol": "FCFA",
       "decimal": ",",
-      "group": " ",
-      "precision": 0,
-      "format": "%s%v"
-    },
-    "121": {
-      "symbol": "CFA",
-      "decimal": ",",
-      "group": " ",
-      "precision": 0,
-      "format": "%s%v"
-    },
-    "122": {
-      "symbol": "€",
-      "decimal": ",",
-      "group": " ",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "123": {
-      "symbol": "€",
-      "decimal": ",",
-      "group": ".",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "124": {
-      "symbol": "$",
-      "decimal": ",",
-      "group": " ",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "125": {
-      "symbol": "$",
-      "decimal": ".",
-      "group": ",",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "126": {
-      "symbol": "€",
-      "decimal": ",",
-      "group": ".",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "127": {
-      "symbol": "CFA",
-      "decimal": ".",
-      "group": ",",
-      "precision": 0,
-      "format": "%s%v"
-    },
-    "128": {
-      "symbol": "€",
-      "decimal": ".",
-      "group": ",",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "129": {
-      "symbol": "€",
-      "decimal": ",",
-      "group": " ",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "13": {
-      "symbol": "$",
-      "decimal": ",",
-      "group": ".",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "130": {
-      "symbol": "R$",
-      "decimal": ".",
-      "group": ",",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "131": {
-      "symbol": "$",
-      "decimal": ",",
-      "group": ".",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "132": {
-      "symbol": "$",
-      "decimal": ".",
-      "group": ",",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "133": {
-      "symbol": "FCFA",
-      "decimal": ",",
       "group": ".",
       "precision": 0,
       "format": "%s%v"
     },
-    "134": {
+    "es-MX": {
       "symbol": "MX$",
       "decimal": ".",
       "group": ",",
       "precision": 2,
       "format": "%s%v"
     },
-    "135": {
+    "es-PA": {
       "symbol": "$",
       "decimal": ".",
       "group": ",",
       "precision": 2,
       "format": "%s%v"
     },
-    "136": {
+    "es-PR": {
       "symbol": "$",
       "decimal": ".",
       "group": ",",
       "precision": 2,
       "format": "%s%v"
     },
-    "137": {
-      "symbol": "€",
-      "decimal": ",",
-      "group": ".",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "138": {
+    "es-SV": {
       "symbol": "$",
       "decimal": ".",
       "group": ",",
       "precision": 2,
       "format": "%s%v"
     },
-    "139": {
-      "symbol": "€",
-      "decimal": ",",
-      "group": " ",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "14": {
-      "symbol": "€",
-      "decimal": ".",
-      "group": ",",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "140": {
+    "es-US": {
       "symbol": "$",
-      "decimal": ",",
-      "group": " ",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "141": {
-      "symbol": "€",
-      "decimal": ",",
-      "group": " ",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "142": {
-      "symbol": "€",
-      "decimal": ",",
-      "group": " ",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "143": {
-      "symbol": "₹",
       "decimal": ".",
       "group": ",",
       "precision": 2,
       "format": "%s%v"
     },
-    "144": {
-      "symbol": "€",
-      "decimal": ",",
-      "group": ".",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "145": {
-      "symbol": "NZ$",
+    "ff-CM": {
+      "symbol": "FCFA",
       "decimal": ",",
       "group": " ",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "146": {
-      "symbol": "₹",
-      "decimal": ".",
-      "group": ",",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "147": {
-      "symbol": "$",
-      "decimal": ",",
-      "group": ".",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "148": {
-      "symbol": "€",
-      "decimal": ".",
-      "group": ",",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "149": {
-      "symbol": "CFA",
-      "decimal": ".",
-      "group": ",",
       "precision": 0,
       "format": "%s%v"
     },
-    "15": {
+    "fi": {
+      "symbol": "€",
+      "decimal": ",",
+      "group": " ",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "fr": {
+      "symbol": "€",
+      "decimal": ",",
+      "group": " ",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "fr-BE": {
+      "symbol": "€",
+      "decimal": ",",
+      "group": " ",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "fr-BF": {
+      "symbol": "CFA",
+      "decimal": ",",
+      "group": " ",
+      "precision": 0,
+      "format": "%s%v"
+    },
+    "fr-BJ": {
+      "symbol": "CFA",
+      "decimal": ",",
+      "group": " ",
+      "precision": 0,
+      "format": "%s%v"
+    },
+    "fr-BL": {
+      "symbol": "€",
+      "decimal": ",",
+      "group": " ",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "fr-CA": {
+      "symbol": "CA$",
+      "decimal": ",",
+      "group": " ",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "fr-CF": {
+      "symbol": "FCFA",
+      "decimal": ",",
+      "group": " ",
+      "precision": 0,
+      "format": "%s%v"
+    },
+    "fr-CG": {
+      "symbol": "FCFA",
+      "decimal": ",",
+      "group": " ",
+      "precision": 0,
+      "format": "%s%v"
+    },
+    "fr-CI": {
+      "symbol": "CFA",
+      "decimal": ",",
+      "group": " ",
+      "precision": 0,
+      "format": "%s%v"
+    },
+    "fr-CM": {
+      "symbol": "FCFA",
+      "decimal": ",",
+      "group": " ",
+      "precision": 0,
+      "format": "%s%v"
+    },
+    "fr-GA": {
+      "symbol": "FCFA",
+      "decimal": ",",
+      "group": " ",
+      "precision": 0,
+      "format": "%s%v"
+    },
+    "fr-GF": {
+      "symbol": "€",
+      "decimal": ",",
+      "group": " ",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "fr-GP": {
+      "symbol": "€",
+      "decimal": ",",
+      "group": " ",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "fr-GQ": {
+      "symbol": "FCFA",
+      "decimal": ",",
+      "group": " ",
+      "precision": 0,
+      "format": "%s%v"
+    },
+    "fr-HT": {
       "symbol": "$",
-      "decimal": ".",
-      "group": ",",
+      "decimal": ",",
+      "group": " ",
       "precision": 2,
       "format": "%s%v"
     },
-    "16": {
-      "symbol": "EC$",
-      "decimal": ".",
-      "group": ",",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "17": {
-      "symbol": "EC$",
-      "decimal": ".",
-      "group": ",",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "18": {
-      "symbol": "A$",
-      "decimal": ".",
-      "group": ",",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "19": {
+    "fr-LU": {
       "symbol": "€",
       "decimal": ",",
       "group": ".",
       "precision": 2,
       "format": "%s%v"
     },
-    "2": {
-      "symbol": "₪",
-      "decimal": ".",
-      "group": ",",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "20": {
+    "fr-MC": {
       "symbol": "€",
       "decimal": ",",
-      "group": ".",
+      "group": " ",
       "precision": 2,
       "format": "%s%v"
     },
-    "21": {
-      "symbol": "$",
-      "decimal": ".",
-      "group": ",",
+    "fr-MF": {
+      "symbol": "€",
+      "decimal": ",",
+      "group": " ",
       "precision": 2,
       "format": "%s%v"
     },
-    "22": {
+    "fr-ML": {
+      "symbol": "CFA",
+      "decimal": ",",
+      "group": " ",
+      "precision": 0,
+      "format": "%s%v"
+    },
+    "fr-MQ": {
+      "symbol": "€",
+      "decimal": ",",
+      "group": " ",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "fr-NC": {
+      "symbol": "CFPF",
+      "decimal": ",",
+      "group": " ",
+      "precision": 0,
+      "format": "%s%v"
+    },
+    "fr-NE": {
+      "symbol": "CFA",
+      "decimal": ",",
+      "group": " ",
+      "precision": 0,
+      "format": "%s%v"
+    },
+    "fr-PF": {
+      "symbol": "CFPF",
+      "decimal": ",",
+      "group": " ",
+      "precision": 0,
+      "format": "%s%v"
+    },
+    "fr-PM": {
+      "symbol": "€",
+      "decimal": ",",
+      "group": " ",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "fr-RE": {
+      "symbol": "€",
+      "decimal": ",",
+      "group": " ",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "fr-SN": {
+      "symbol": "CFA",
+      "decimal": ",",
+      "group": " ",
+      "precision": 0,
+      "format": "%s%v"
+    },
+    "fr-TD": {
+      "symbol": "FCFA",
+      "decimal": ",",
+      "group": " ",
+      "precision": 0,
+      "format": "%s%v"
+    },
+    "fr-TG": {
+      "symbol": "CFA",
+      "decimal": ",",
+      "group": " ",
+      "precision": 0,
+      "format": "%s%v"
+    },
+    "fr-WF": {
+      "symbol": "CFPF",
+      "decimal": ",",
+      "group": " ",
+      "precision": 0,
+      "format": "%s%v"
+    },
+    "fr-YT": {
+      "symbol": "€",
+      "decimal": ",",
+      "group": " ",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "ga": {
       "symbol": "FCFA",
       "decimal": ".",
       "group": ",",
       "precision": 0,
       "format": "%s%v"
     },
-    "23": {
-      "symbol": "CA$",
+    "gu": {
+      "symbol": "$",
       "decimal": ".",
       "group": ",",
       "precision": 2,
       "format": "%s%v"
     },
-    "24": {
+    "ha-NE": {
+      "symbol": "CFA",
+      "decimal": ".",
+      "group": ",",
+      "precision": 0,
+      "format": "%s%v"
+    },
+    "he-IL": {
+      "symbol": "₪",
+      "decimal": ".",
+      "group": ",",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "it": {
+      "symbol": "€",
+      "decimal": ",",
+      "group": ".",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "it-SM": {
+      "symbol": "€",
+      "decimal": ",",
+      "group": ".",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "ja-JP": {
+      "symbol": "¥",
+      "decimal": ".",
+      "group": ",",
+      "precision": 0,
+      "format": "%s%v"
+    },
+    "ln-CF": {
+      "symbol": "FCFA",
+      "decimal": ",",
+      "group": ".",
+      "precision": 0,
+      "format": "%s%v"
+    },
+    "ln-CG": {
+      "symbol": "FCFA",
+      "decimal": ",",
+      "group": ".",
+      "precision": 0,
+      "format": "%s%v"
+    },
+    "lt": {
+      "symbol": "€",
+      "decimal": ",",
+      "group": " ",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "lu": {
+      "symbol": "€",
+      "decimal": ",",
+      "group": ".",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "lv": {
+      "symbol": "€",
+      "decimal": ",",
+      "group": " ",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "ms": {
+      "symbol": "EC$",
+      "decimal": ".",
+      "group": ",",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "mt": {
+      "symbol": "€",
+      "decimal": ".",
+      "group": ",",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "ne": {
+      "symbol": "CFA",
+      "decimal": ".",
+      "group": ",",
+      "precision": 0,
+      "format": "%s%v"
+    },
+    "ne-IN": {
+      "symbol": "₹",
+      "decimal": ".",
+      "group": ",",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "nl": {
+      "symbol": "€",
+      "decimal": ".",
+      "group": ",",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "nl-BE": {
+      "symbol": "€",
+      "decimal": ",",
+      "group": ".",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "nl-BQ": {
+      "symbol": "$",
+      "decimal": ",",
+      "group": ".",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "pa": {
+      "symbol": "$",
+      "decimal": ".",
+      "group": ",",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "pt": {
+      "symbol": "€",
+      "decimal": ",",
+      "group": ".",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "pt-BR": {
+      "symbol": "R$",
+      "decimal": ",",
+      "group": " ",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "pt-GQ": {
+      "symbol": "FCFA",
+      "decimal": ",",
+      "group": " ",
+      "precision": 0,
+      "format": "%s%v"
+    },
+    "pt-GW": {
+      "symbol": "CFA",
+      "decimal": ",",
+      "group": " ",
+      "precision": 0,
+      "format": "%s%v"
+    },
+    "pt-LU": {
+      "symbol": "€",
+      "decimal": ",",
+      "group": " ",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "pt-TL": {
+      "symbol": "$",
+      "decimal": ",",
+      "group": " ",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "qu-EC": {
+      "symbol": "$",
+      "decimal": ".",
+      "group": ",",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "si": {
+      "symbol": "€",
+      "decimal": ".",
+      "group": ",",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "sk": {
+      "symbol": "€",
+      "decimal": ",",
+      "group": " ",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "sn": {
+      "symbol": "CFA",
+      "decimal": ".",
+      "group": ",",
+      "precision": 0,
+      "format": "%s%v"
+    },
+    "sr-ME": {
+      "symbol": "€",
+      "decimal": ",",
+      "group": ".",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "sv": {
+      "symbol": "$",
+      "decimal": ",",
+      "group": " ",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "sv-AX": {
+      "symbol": "€",
+      "decimal": ",",
+      "group": " ",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "sv-FI": {
+      "symbol": "€",
+      "decimal": ",",
+      "group": " ",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "sw-FI": {
+      "symbol": "€",
+      "decimal": ",",
+      "group": " ",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "te-IN": {
+      "symbol": "₹",
+      "decimal": ".",
+      "group": ",",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "tk": {
+      "symbol": "NZ$",
+      "decimal": ",",
+      "group": " ",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "tr-CY": {
+      "symbol": "€",
+      "decimal": ",",
+      "group": ".",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "ur-IN": {
+      "symbol": "₹",
+      "decimal": ".",
+      "group": ",",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "vi": {
+      "symbol": "$",
+      "decimal": ",",
+      "group": ".",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "yo-BJ": {
+      "symbol": "CFA",
+      "decimal": ".",
+      "group": ",",
+      "precision": 0,
+      "format": "%s%v"
+    },
+    "zh-CN": {
+      "symbol": "CN¥",
+      "decimal": ".",
+      "group": ",",
+      "precision": 2,
+      "format": "%s%v"
+    },
+    "zh-HK": {
       "symbol": "HK$",
       "decimal": ".",
       "group": ",",
       "precision": 2,
       "format": "%s%v"
-    },
-    "25": {
-      "symbol": "NZ$",
-      "decimal": ".",
-      "group": ",",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "26": {
-      "symbol": "€",
-      "decimal": ".",
-      "group": ",",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "27": {
-      "symbol": "EC$",
-      "decimal": ".",
-      "group": ",",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "28": {
-      "symbol": "€",
-      "decimal": ",",
-      "group": " ",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "29": {
-      "symbol": "€",
-      "decimal": ",",
-      "group": ".",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "3": {
-      "symbol": "€",
-      "decimal": ",",
-      "group": " ",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "30": {
-      "symbol": "EC$",
-      "decimal": ".",
-      "group": ",",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "31": {
-      "symbol": "$",
-      "decimal": ".",
-      "group": ",",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "32": {
-      "symbol": "£",
-      "decimal": ".",
-      "group": ",",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "33": {
-      "symbol": "₹",
-      "decimal": ".",
-      "group": ",",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "34": {
-      "symbol": "€",
-      "decimal": ".",
-      "group": ",",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "35": {
-      "symbol": "£",
-      "decimal": ".",
-      "group": ",",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "36": {
-      "symbol": "₪",
-      "decimal": ".",
-      "group": ",",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "37": {
-      "symbol": "£",
-      "decimal": ".",
-      "group": ",",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "38": {
-      "symbol": "A$",
-      "decimal": ".",
-      "group": ",",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "39": {
-      "symbol": "€",
-      "decimal": ".",
-      "group": ",",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "4": {
-      "symbol": "₹",
-      "decimal": ".",
-      "group": ",",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "40": {
-      "symbol": "$",
-      "decimal": ".",
-      "group": ",",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "41": {
-      "symbol": "$",
-      "decimal": ".",
-      "group": ",",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "42": {
-      "symbol": "EC$",
-      "decimal": ".",
-      "group": ",",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "43": {
-      "symbol": "A$",
-      "decimal": ".",
-      "group": ",",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "44": {
-      "symbol": "€",
-      "decimal": ",",
-      "group": ".",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "45": {
-      "symbol": "NZ$",
-      "decimal": ".",
-      "group": ",",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "46": {
-      "symbol": "NZ$",
-      "decimal": ".",
-      "group": ",",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "47": {
-      "symbol": "A$",
-      "decimal": ".",
-      "group": ",",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "48": {
-      "symbol": "$",
-      "decimal": ".",
-      "group": ",",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "49": {
-      "symbol": "$",
-      "decimal": ".",
-      "group": ",",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "5": {
-      "symbol": "€",
-      "decimal": ",",
-      "group": ".",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "50": {
-      "symbol": "NZ$",
-      "decimal": ".",
-      "group": ",",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "51": {
-      "symbol": "$",
-      "decimal": ".",
-      "group": ",",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "52": {
-      "symbol": "EC$",
-      "decimal": ".",
-      "group": ",",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "53": {
-      "symbol": "EC$",
-      "decimal": ".",
-      "group": ",",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "54": {
-      "symbol": "EC$",
-      "decimal": ".",
-      "group": ",",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "55": {
-      "symbol": "€",
-      "decimal": ",",
-      "group": ".",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "56": {
-      "symbol": "NZ$",
-      "decimal": ".",
-      "group": ",",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "57": {
-      "symbol": "$",
-      "decimal": ".",
-      "group": ",",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "58": {
-      "symbol": "A$",
-      "decimal": ".",
-      "group": ",",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "59": {
-      "symbol": "£",
-      "decimal": ".",
-      "group": ",",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "6": {
-      "symbol": "CA$",
-      "decimal": ",",
-      "group": ".",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "60": {
-      "symbol": "$",
-      "decimal": ".",
-      "group": ",",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "61": {
-      "symbol": "$",
-      "decimal": ".",
-      "group": ",",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "62": {
-      "symbol": "€",
-      "decimal": ".",
-      "group": ",",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "63": {
-      "symbol": "CFA",
-      "decimal": ".",
-      "group": ",",
-      "precision": 0,
-      "format": "%s%v"
-    },
-    "64": {
-      "symbol": "€",
-      "decimal": ",",
-      "group": " ",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "65": {
-      "symbol": "€",
-      "decimal": ",",
-      "group": " ",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "66": {
-      "symbol": "CFA",
-      "decimal": ",",
-      "group": " ",
-      "precision": 0,
-      "format": "%s%v"
-    },
-    "67": {
-      "symbol": "CFA",
-      "decimal": ",",
-      "group": " ",
-      "precision": 0,
-      "format": "%s%v"
-    },
-    "68": {
-      "symbol": "FCFA",
-      "decimal": ",",
-      "group": " ",
-      "precision": 0,
-      "format": "%s%v"
-    },
-    "69": {
-      "symbol": "CA$",
-      "decimal": ",",
-      "group": " ",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "7": {
-      "symbol": "€",
-      "decimal": ",",
-      "group": ".",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "70": {
-      "symbol": "FCFA",
-      "decimal": ",",
-      "group": " ",
-      "precision": 0,
-      "format": "%s%v"
-    },
-    "71": {
-      "symbol": "FCFA",
-      "decimal": ",",
-      "group": " ",
-      "precision": 0,
-      "format": "%s%v"
-    },
-    "72": {
-      "symbol": "FCFA",
-      "decimal": ",",
-      "group": " ",
-      "precision": 0,
-      "format": "%s%v"
-    },
-    "73": {
-      "symbol": "CFA",
-      "decimal": ",",
-      "group": " ",
-      "precision": 0,
-      "format": "%s%v"
-    },
-    "74": {
-      "symbol": "FCFA",
-      "decimal": ",",
-      "group": " ",
-      "precision": 0,
-      "format": "%s%v"
-    },
-    "75": {
-      "symbol": "€",
-      "decimal": ",",
-      "group": " ",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "76": {
-      "symbol": "€",
-      "decimal": ",",
-      "group": " ",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "77": {
-      "symbol": "CFPF",
-      "decimal": ",",
-      "group": " ",
-      "precision": 0,
-      "format": "%s%v"
-    },
-    "78": {
-      "symbol": "FCFA",
-      "decimal": ",",
-      "group": " ",
-      "precision": 0,
-      "format": "%s%v"
-    },
-    "79": {
-      "symbol": "€",
-      "decimal": ",",
-      "group": " ",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "8": {
-      "symbol": "€",
-      "decimal": ",",
-      "group": ".",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "80": {
-      "symbol": "$",
-      "decimal": ",",
-      "group": " ",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "81": {
-      "symbol": "€",
-      "decimal": ",",
-      "group": ".",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "82": {
-      "symbol": "CFA",
-      "decimal": ",",
-      "group": " ",
-      "precision": 0,
-      "format": "%s%v"
-    },
-    "83": {
-      "symbol": "€",
-      "decimal": ",",
-      "group": " ",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "84": {
-      "symbol": "€",
-      "decimal": ",",
-      "group": " ",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "85": {
-      "symbol": "€",
-      "decimal": ",",
-      "group": " ",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "86": {
-      "symbol": "CFPF",
-      "decimal": ",",
-      "group": " ",
-      "precision": 0,
-      "format": "%s%v"
-    },
-    "87": {
-      "symbol": "CFA",
-      "decimal": ",",
-      "group": " ",
-      "precision": 0,
-      "format": "%s%v"
-    },
-    "88": {
-      "symbol": "€",
-      "decimal": ",",
-      "group": " ",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "89": {
-      "symbol": "€",
-      "decimal": ",",
-      "group": " ",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "9": {
-      "symbol": "€",
-      "decimal": ",",
-      "group": ".",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "90": {
-      "symbol": "€",
-      "decimal": ",",
-      "group": " ",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "91": {
-      "symbol": "€",
-      "decimal": ",",
-      "group": " ",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "92": {
-      "symbol": "CFA",
-      "decimal": ",",
-      "group": " ",
-      "precision": 0,
-      "format": "%s%v"
-    },
-    "93": {
-      "symbol": "CFA",
-      "decimal": ",",
-      "group": " ",
-      "precision": 0,
-      "format": "%s%v"
-    },
-    "94": {
-      "symbol": "CFPF",
-      "decimal": ",",
-      "group": " ",
-      "precision": 0,
-      "format": "%s%v"
-    },
-    "95": {
-      "symbol": "FCFA",
-      "decimal": ",",
-      "group": " ",
-      "precision": 0,
-      "format": "%s%v"
-    },
-    "96": {
-      "symbol": "€",
-      "decimal": ",",
-      "group": " ",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "97": {
-      "symbol": "€",
-      "decimal": ",",
-      "group": ".",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "98": {
-      "symbol": "€",
-      "decimal": ",",
-      "group": ".",
-      "precision": 2,
-      "format": "%s%v"
-    },
-    "99": {
-      "symbol": "€",
-      "decimal": ",",
-      "group": ".",
-      "precision": 2,
-      "format": "%s%v"
     }
-  },
-  "locales": {
-    "af-NA": "1",
-    "ak-GH": "1",
-    "am": "1",
-    "ar": "1",
-    "ar-AE": "1",
-    "ar-BH": "1",
-    "ar-DJ": "1",
-    "ar-DZ": "1",
-    "ar-EG": "1",
-    "ar-EH": "1",
-    "ar-IL": "1",
-    "ar-JO": "1",
-    "ar-KE": "1",
-    "ar-KM": "1",
-    "ar-KW": "1",
-    "ar-LB": "1",
-    "ar-LY": "1",
-    "ar-MA": "1",
-    "ar-MR": "1",
-    "ar-OM": "1",
-    "ar-QA": "1",
-    "ar-SA": "1",
-    "ar-SO": "1",
-    "ar-TD": "1",
-    "ar-TN": "1",
-    "ar-YE": "1",
-    "az": "1",
-    "be": "1",
-    "bg": "1",
-    "bm": "1",
-    "bn": "1",
-    "bn-IN": "1",
-    "bs": "1",
-    "ca": "1",
-    "ca-AD": "1",
-    "ca-ES": "1",
-    "ca-FR": "1",
-    "ca-IT": "1",
-    "cy": "1",
-    "da-DK": "1",
-    "da-GL": "1",
-    "de": "1",
-    "de-AT": "1",
-    "de-BE": "1",
-    "de-CH": "1",
-    "de-IT": "1",
-    "de-LI": "1",
-    "de-LU": "1",
-    "dz": "1",
-    "ee": "1",
-    "ee-TG": "1",
-    "el-CY": "1",
-    "en-AG": "1",
-    "en-AI": "1",
-    "en-AS": "1",
-    "en-AT": "1",
-    "en-AU": "1",
-    "en-BB": "1",
-    "en-BE": "1",
-    "en-BM": "1",
-    "en-BO": "1",
-    "en-BS": "1",
-    "en-BW": "1",
-    "en-BZ": "1",
-    "en-CA": "1",
-    "en-CH": "1",
-    "en-CK": "1",
-    "en-CM": "1",
-    "en-CY": "1",
-    "en-DE": "1",
-    "en-DK": "1",
-    "en-DM": "1",
-    "en-FI": "1",
-    "en-FJ": "1",
-    "en-FK": "1",
-    "en-FM": "1",
-    "en-GB": "1",
-    "en-GD": "1",
-    "en-GG": "1",
-    "en-GH": "1",
-    "en-GI": "1",
-    "en-GL": "1",
-    "en-GM": "1",
-    "en-GU": "1",
-    "en-GY": "1",
-    "en-HK": "1",
-    "en-IE": "1",
-    "en-IL": "1",
-    "en-IM": "1",
-    "en-IN": "1",
-    "en-JE": "1",
-    "en-JM": "1",
-    "en-KE": "1",
-    "en-KI": "1",
-    "en-KN": "1",
-    "en-KY": "1",
-    "en-LC": "1",
-    "en-LS": "1",
-    "en-MH": "1",
-    "en-MO": "1",
-    "en-MP": "1",
-    "en-MS": "1",
-    "en-MT": "1",
-    "en-MU": "1",
-    "en-MW": "1",
-    "en-MY": "1",
-    "en-NA": "1",
-    "en-NF": "1",
-    "en-NG": "1",
-    "en-NL": "1",
-    "en-NR": "1",
-    "en-NU": "1",
-    "en-NZ": "1",
-    "en-PG": "1",
-    "en-PH": "1",
-    "en-PK": "1",
-    "en-PN": "1",
-    "en-PR": "1",
-    "en-PW": "1",
-    "en-RW": "1",
-    "en-SB": "1",
-    "en-SC": "1",
-    "en-SE": "1",
-    "en-SG": "1",
-    "en-SH": "1",
-    "en-SI": "1",
-    "en-SL": "1",
-    "en-SX": "1",
-    "en-SZ": "1",
-    "en-TC": "1",
-    "en-TK": "1",
-    "en-TO": "1",
-    "en-TT": "1",
-    "en-TV": "1",
-    "en-TZ": "1",
-    "en-UG": "1",
-    "en-US": "1",
-    "en-VC": "1",
-    "en-VG": "1",
-    "en-VI": "1",
-    "en-VU": "1",
-    "en-WS": "1",
-    "en-ZA": "1",
-    "en-ZM": "1",
-    "es": "1",
-    "es-AR": "1",
-    "es-BO": "1",
-    "es-BR": "1",
-    "es-CL": "1",
-    "es-CO": "1",
-    "es-CR": "1",
-    "es-DO": "1",
-    "es-EC": "1",
-    "es-GQ": "1",
-    "es-GT": "1",
-    "es-HN": "1",
-    "es-MX": "1",
-    "es-NI": "1",
-    "es-PA": "1",
-    "es-PE": "1",
-    "es-PH": "1",
-    "es-PR": "1",
-    "es-PY": "1",
-    "es-SV": "1",
-    "es-US": "1",
-    "es-UY": "1",
-    "es-VE": "1",
-    "et": "1",
-    "ff-CM": "1",
-    "ff-GN": "1",
-    "ff-MR": "1",
-    "fi": "1",
-    "fr": "1",
-    "fr-BE": "1",
-    "fr-BF": "1",
-    "fr-BJ": "1",
-    "fr-BL": "1",
-    "fr-CA": "1",
-    "fr-CF": "1",
-    "fr-CG": "1",
-    "fr-CH": "1",
-    "fr-CI": "1",
-    "fr-CM": "1",
-    "fr-DJ": "1",
-    "fr-DZ": "1",
-    "fr-GA": "1",
-    "fr-GF": "1",
-    "fr-GN": "1",
-    "fr-GP": "1",
-    "fr-GQ": "1",
-    "fr-HT": "1",
-    "fr-KM": "1",
-    "fr-LU": "1",
-    "fr-MA": "1",
-    "fr-MC": "1",
-    "fr-MF": "1",
-    "fr-ML": "1",
-    "fr-MQ": "1",
-    "fr-MR": "1",
-    "fr-MU": "1",
-    "fr-NC": "1",
-    "fr-NE": "1",
-    "fr-PF": "1",
-    "fr-PM": "1",
-    "fr-RE": "1",
-    "fr-RW": "1",
-    "fr-SC": "1",
-    "fr-SN": "1",
-    "fr-TD": "1",
-    "fr-TG": "1",
-    "fr-TN": "1",
-    "fr-VU": "1",
-    "fr-WF": "1",
-    "fr-YT": "1",
-    "ga": "1",
-    "gu": "1",
-    "ha-GH": "1",
-    "ha-NE": "1",
-    "he-IL": "1",
-    "hr": "1",
-    "hr-BA": "1",
-    "hu": "1",
-    "hy-AM": "1",
-    "id": "1",
-    "ig-NG": "1",
-    "is": "1",
-    "it": "1",
-    "it-CH": "1",
-    "it-SM": "1",
-    "ja-JP": "1",
-    "ka-GE": "1",
-    "kk-KZ": "1",
-    "km": "1",
-    "ky": "1",
-    "lb": "1",
-    "ln-CF": "1",
-    "ln-CG": "1",
-    "lo-LA": "1",
-    "lt": "1",
-    "lu": "1",
-    "lv": "1",
-    "mn": "1",
-    "ms": "1",
-    "ms-BN": "1",
-    "ms-SG": "1",
-    "mt": "1",
-    "my": "1",
-    "nb-NO": "1",
-    "nb-SJ": "1",
-    "ne": "1",
-    "ne-IN": "1",
-    "nl": "1",
-    "nl-AW": "1",
-    "nl-BE": "1",
-    "nl-BQ": "1",
-    "nl-CW": "1",
-    "nl-SX": "1",
-    "nn-NO": "1",
-    "pa": "1",
-    "pl": "1",
-    "pt": "1",
-    "pt-BR": "1",
-    "pt-CH": "1",
-    "pt-CV": "1",
-    "pt-GQ": "1",
-    "pt-GW": "1",
-    "pt-LU": "1",
-    "pt-MO": "1",
-    "pt-ST": "1",
-    "pt-TL": "1",
-    "qu-BO": "1",
-    "qu-EC": "1",
-    "rm-CH": "1",
-    "ro": "1",
-    "ro-MD": "1",
-    "ru": "1",
-    "ru-KG": "1",
-    "ru-KZ": "1",
-    "ru-MD": "1",
-    "ru-UA": "1",
-    "rw": "1",
-    "sg": "1",
-    "si": "1",
-    "sk": "1",
-    "sl": "1",
-    "sn": "1",
-    "so": "1",
-    "so-DJ": "1",
-    "so-ET": "1",
-    "so-KE": "1",
-    "sq-AL": "1",
-    "sr-BA": "1",
-    "sr-ME": "1",
-    "sv": "1",
-    "sv-AX": "1",
-    "sv-FI": "1",
-    "sw-FI": "1",
-    "sw-KE": "1",
-    "sw-SE": "1",
-    "sw-UG": "1",
-    "ta-LK": "1",
-    "ta-MY": "1",
-    "ta-SG": "1",
-    "te-IN": "1",
-    "th": "1",
-    "tk": "1",
-    "tr": "1",
-    "tr-CY": "1",
-    "uk-UA": "1",
-    "ur-IN": "1",
-    "uz": "1",
-    "vi": "1",
-    "yo-BJ": "1",
-    "zh-CN": "1",
-    "zh-HK": "1",
-    "zh-MO": "1",
-    "zh-SG": "1",
-    "zu-ZA": "1"
   }
 }
