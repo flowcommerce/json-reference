@@ -10,7 +10,7 @@ import (
 
 type CurrencyFormat struct {
 	Formats      map[string]JavascriptFormat `json:"formats"`
-	Locales      map[string]LocaleDictionary  `json:"locales"`
+	Locales      map[string]string  `json:"locales"`
 }
 
 type JavascriptFormat struct {
@@ -18,10 +18,6 @@ type JavascriptFormat struct {
 	Decimal    string `json:"decimal"`
 	Group      string `json:"group"`
 	Precision  int    `json:"precision"`
-	Format     string `json:"format"`
-}
-
-type LocaleDictionary struct {
 	Format     string `json:"format"`
 }
 
@@ -66,12 +62,10 @@ func generateFormats(data CommonData) map[string]JavascriptFormat {
 	return all;
 }
 
-func generateLocaleDictionary(data CommonData) map[string]LocaleDictionary {
-	all := map[string]LocaleDictionary{}
+func generateLocaleDictionary(data CommonData) map[string]string {
+	all := map[string]string{}
 	for _, l := range data.Locales {
-		all[l.Id] = LocaleDictionary{
-			Format: "1",
-		}
+		all[l.Id] = "1"
 	}
 	return all
 }
