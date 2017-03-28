@@ -35,6 +35,7 @@ func Generate() {
 		Currencies: common.Currencies(),
 		Locales: common.Locales(),
 	}
+
 	format := CurrencyFormat{
 		Formats: generateFormats(data),
 		Locales: generateLocaleDictionary(data),
@@ -61,26 +62,8 @@ func generateFormats(data CommonData) map[string]JavascriptFormat {
 func generateLocaleDictionary(data CommonData) map[string]LocaleDicionary {
 	all := map[string]LocaleDicionary{}
 	for _, l := range data.Locales {
-		if c.DefaultCurrency != "" {
-			currency := findCurrencyByIso42173(data, c.DefaultCurrency)
-			if currency.DefaultLocale != "" {
-				all[c.Iso_3166_3] = JavascriptCountry{
-					Locale: currency.DefaultLocale,
-				}
-			}
-		}
+		all[l.Id] = "1"
 	}
 	return all
 }
 
-func findCurrencyByIso42173(data CommonData, currency string) common.Currency {
-	for _, c := range data.Currencies {
-		if c.Iso_4217_3 == currency {
-			return c
-		}
-	}
-
-	fmt.Printf("ERROR: Currency[%s] not found\n", currency)
-	os.Exit(1)
-	return common.Currency{}
-}
