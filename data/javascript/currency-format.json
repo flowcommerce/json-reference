@@ -1,605 +1,959 @@
 {
-  "locales": {},
-  "countries": {
-    "ABW": {
-      "locale": "nl-AW"
+  "formats": {},
+  "locales": {
+    "af-NA": {
+      "format": "1"
     },
-    "AIA": {
-      "locale": "en-AI"
+    "ak-GH": {
+      "format": "1"
     },
-    "ALA": {
-      "locale": "de"
+    "am": {
+      "format": "1"
     },
-    "ALB": {
-      "locale": "sq-AL"
+    "ar": {
+      "format": "1"
     },
-    "AND": {
-      "locale": "de"
+    "ar-AE": {
+      "format": "1"
     },
-    "ARE": {
-      "locale": "ar-AE"
+    "ar-BH": {
+      "format": "1"
     },
-    "ARG": {
-      "locale": "es-AR"
+    "ar-DJ": {
+      "format": "1"
     },
-    "ARM": {
-      "locale": "hy-AM"
+    "ar-DZ": {
+      "format": "1"
     },
-    "ASM": {
-      "locale": "en-US"
+    "ar-EG": {
+      "format": "1"
     },
-    "ATG": {
-      "locale": "en-AI"
+    "ar-EH": {
+      "format": "1"
     },
-    "AUS": {
-      "locale": "en-AU"
+    "ar-IL": {
+      "format": "1"
     },
-    "AUT": {
-      "locale": "de"
+    "ar-JO": {
+      "format": "1"
     },
-    "AZE": {
-      "locale": "az"
+    "ar-KE": {
+      "format": "1"
     },
-    "BEL": {
-      "locale": "de"
+    "ar-KM": {
+      "format": "1"
     },
-    "BEN": {
-      "locale": "ee-TG"
+    "ar-KW": {
+      "format": "1"
     },
-    "BES": {
-      "locale": "en-US"
+    "ar-LB": {
+      "format": "1"
     },
-    "BFA": {
-      "locale": "ee-TG"
+    "ar-LY": {
+      "format": "1"
     },
-    "BGR": {
-      "locale": "bg"
+    "ar-MA": {
+      "format": "1"
     },
-    "BHR": {
-      "locale": "ar-BH"
+    "ar-MR": {
+      "format": "1"
     },
-    "BHS": {
-      "locale": "en-BS"
+    "ar-OM": {
+      "format": "1"
     },
-    "BIH": {
-      "locale": "hr-BA"
+    "ar-QA": {
+      "format": "1"
     },
-    "BLM": {
-      "locale": "de"
+    "ar-SA": {
+      "format": "1"
     },
-    "BLZ": {
-      "locale": "en-BZ"
+    "ar-SO": {
+      "format": "1"
     },
-    "BOL": {
-      "locale": "qu-BO"
+    "ar-TD": {
+      "format": "1"
     },
-    "BRA": {
-      "locale": "pt-BR"
+    "ar-TN": {
+      "format": "1"
     },
-    "BRB": {
-      "locale": "en-BB"
+    "ar-YE": {
+      "format": "1"
     },
-    "BRN": {
-      "locale": "ms-BN"
+    "az": {
+      "format": "1"
     },
-    "BTN": {
-      "locale": "bn-IN"
+    "be": {
+      "format": "1"
     },
-    "BWA": {
-      "locale": "en-BW"
+    "bg": {
+      "format": "1"
     },
-    "CAF": {
-      "locale": "ar-TD"
+    "bm": {
+      "format": "1"
     },
-    "CAN": {
-      "locale": "en-CA"
+    "bn": {
+      "format": "1"
     },
-    "CHE": {
-      "locale": "fr-CH"
+    "bn-IN": {
+      "format": "1"
     },
-    "CHL": {
-      "locale": "es-CL"
+    "bs": {
+      "format": "1"
     },
-    "CHN": {
-      "locale": "zh-CN"
+    "ca": {
+      "format": "1"
     },
-    "CIV": {
-      "locale": "ee-TG"
+    "ca-AD": {
+      "format": "1"
     },
-    "CMR": {
-      "locale": "ar-TD"
+    "ca-ES": {
+      "format": "1"
     },
-    "COG": {
-      "locale": "ar-TD"
+    "ca-FR": {
+      "format": "1"
     },
-    "COK": {
-      "locale": "en-CK"
+    "ca-IT": {
+      "format": "1"
     },
-    "COL": {
-      "locale": "es-CO"
+    "cy": {
+      "format": "1"
     },
-    "COM": {
-      "locale": "ar-KM"
+    "da-DK": {
+      "format": "1"
     },
-    "CPV": {
-      "locale": "pt-CV"
+    "da-GL": {
+      "format": "1"
     },
-    "CRI": {
-      "locale": "es-CR"
+    "de": {
+      "format": "1"
     },
-    "CUW": {
-      "locale": "nl-CW"
+    "de-AT": {
+      "format": "1"
     },
-    "CYP": {
-      "locale": "de"
+    "de-BE": {
+      "format": "1"
     },
-    "DEU": {
-      "locale": "de"
+    "de-CH": {
+      "format": "1"
     },
-    "DJI": {
-      "locale": "ar-DJ"
+    "de-IT": {
+      "format": "1"
     },
-    "DMA": {
-      "locale": "en-AI"
+    "de-LI": {
+      "format": "1"
     },
-    "DNK": {
-      "locale": "da-DK"
+    "de-LU": {
+      "format": "1"
     },
-    "DOM": {
-      "locale": "es-DO"
+    "dz": {
+      "format": "1"
     },
-    "DZA": {
-      "locale": "ar-DZ"
+    "ee": {
+      "format": "1"
     },
-    "ECU": {
-      "locale": "en-US"
+    "ee-TG": {
+      "format": "1"
     },
-    "EGY": {
-      "locale": "ar-EG"
+    "el-CY": {
+      "format": "1"
     },
-    "ESH": {
-      "locale": "ar-MA"
+    "en-AG": {
+      "format": "1"
     },
-    "ESP": {
-      "locale": "de"
+    "en-AI": {
+      "format": "1"
     },
-    "EST": {
-      "locale": "de"
+    "en-AS": {
+      "format": "1"
     },
-    "FIN": {
-      "locale": "de"
+    "en-AT": {
+      "format": "1"
     },
-    "FJI": {
-      "locale": "en-FJ"
+    "en-AU": {
+      "format": "1"
     },
-    "FRA": {
-      "locale": "de"
+    "en-BB": {
+      "format": "1"
     },
-    "FSM": {
-      "locale": "en-US"
+    "en-BE": {
+      "format": "1"
     },
-    "GAB": {
-      "locale": "ar-TD"
+    "en-BM": {
+      "format": "1"
     },
-    "GBR": {
-      "locale": "en-GB"
+    "en-BO": {
+      "format": "1"
     },
-    "GEO": {
-      "locale": "ka-GE"
+    "en-BS": {
+      "format": "1"
     },
-    "GGY": {
-      "locale": "en-GB"
+    "en-BW": {
+      "format": "1"
     },
-    "GHA": {
-      "locale": "ak-GH"
+    "en-BZ": {
+      "format": "1"
     },
-    "GIN": {
-      "locale": "fr-GN"
+    "en-CA": {
+      "format": "1"
     },
-    "GLP": {
-      "locale": "de"
+    "en-CH": {
+      "format": "1"
     },
-    "GMB": {
-      "locale": "en-GM"
+    "en-CK": {
+      "format": "1"
     },
-    "GNB": {
-      "locale": "ee-TG"
+    "en-CM": {
+      "format": "1"
     },
-    "GNQ": {
-      "locale": "ar-TD"
+    "en-CY": {
+      "format": "1"
     },
-    "GRC": {
-      "locale": "de"
+    "en-DE": {
+      "format": "1"
     },
-    "GRD": {
-      "locale": "en-AI"
+    "en-DK": {
+      "format": "1"
     },
-    "GRL": {
-      "locale": "da-DK"
+    "en-DM": {
+      "format": "1"
     },
-    "GTM": {
-      "locale": "es-GT"
+    "en-FI": {
+      "format": "1"
     },
-    "GUF": {
-      "locale": "de"
+    "en-FJ": {
+      "format": "1"
     },
-    "GUM": {
-      "locale": "en-US"
+    "en-FK": {
+      "format": "1"
     },
-    "GUY": {
-      "locale": "en-GY"
+    "en-FM": {
+      "format": "1"
     },
-    "HKG": {
-      "locale": "zh-HK"
+    "en-GB": {
+      "format": "1"
     },
-    "HND": {
-      "locale": "es-HN"
+    "en-GD": {
+      "format": "1"
     },
-    "HRV": {
-      "locale": "hr"
+    "en-GG": {
+      "format": "1"
     },
-    "HTI": {
-      "locale": "en-US"
+    "en-GH": {
+      "format": "1"
     },
-    "HUN": {
-      "locale": "hu"
+    "en-GI": {
+      "format": "1"
     },
-    "IDN": {
-      "locale": "id"
+    "en-GL": {
+      "format": "1"
     },
-    "IMN": {
-      "locale": "en-GB"
+    "en-GM": {
+      "format": "1"
     },
-    "IND": {
-      "locale": "bn-IN"
+    "en-GU": {
+      "format": "1"
     },
-    "IRL": {
-      "locale": "de"
+    "en-GY": {
+      "format": "1"
     },
-    "ISL": {
-      "locale": "is"
+    "en-HK": {
+      "format": "1"
     },
-    "ISR": {
-      "locale": "ar-IL"
+    "en-IE": {
+      "format": "1"
     },
-    "ITA": {
-      "locale": "de"
+    "en-IL": {
+      "format": "1"
     },
-    "JAM": {
-      "locale": "en-JM"
+    "en-IM": {
+      "format": "1"
     },
-    "JEY": {
-      "locale": "en-GB"
+    "en-IN": {
+      "format": "1"
     },
-    "JOR": {
-      "locale": "ar-JO"
+    "en-JE": {
+      "format": "1"
     },
-    "JPN": {
-      "locale": "ja-JP"
+    "en-JM": {
+      "format": "1"
     },
-    "KAZ": {
-      "locale": "kk-KZ"
+    "en-KE": {
+      "format": "1"
     },
-    "KEN": {
-      "locale": "en-KE"
+    "en-KI": {
+      "format": "1"
     },
-    "KGZ": {
-      "locale": "ru-KG"
+    "en-KN": {
+      "format": "1"
     },
-    "KIR": {
-      "locale": "en-AU"
+    "en-KY": {
+      "format": "1"
     },
-    "KNA": {
-      "locale": "en-AI"
+    "en-LC": {
+      "format": "1"
     },
-    "KWT": {
-      "locale": "ar-KW"
+    "en-LS": {
+      "format": "1"
     },
-    "LAO": {
-      "locale": "lo-LA"
+    "en-MH": {
+      "format": "1"
     },
-    "LBN": {
-      "locale": "ar-LB"
+    "en-MO": {
+      "format": "1"
     },
-    "LBY": {
-      "locale": "ar-LY"
+    "en-MP": {
+      "format": "1"
     },
-    "LCA": {
-      "locale": "en-AI"
+    "en-MS": {
+      "format": "1"
     },
-    "LIE": {
-      "locale": "fr-CH"
+    "en-MT": {
+      "format": "1"
     },
-    "LKA": {
-      "locale": "ta-LK"
+    "en-MU": {
+      "format": "1"
     },
-    "LSO": {
-      "locale": "af-NA"
+    "en-MW": {
+      "format": "1"
     },
-    "LTU": {
-      "locale": "de"
+    "en-MY": {
+      "format": "1"
     },
-    "LUX": {
-      "locale": "de"
+    "en-NA": {
+      "format": "1"
     },
-    "LVA": {
-      "locale": "de"
+    "en-NF": {
+      "format": "1"
     },
-    "MAC": {
-      "locale": "zh-MO"
+    "en-NG": {
+      "format": "1"
     },
-    "MAF": {
-      "locale": "de"
+    "en-NL": {
+      "format": "1"
     },
-    "MAR": {
-      "locale": "ar-MA"
+    "en-NR": {
+      "format": "1"
     },
-    "MCO": {
-      "locale": "de"
+    "en-NU": {
+      "format": "1"
     },
-    "MDA": {
-      "locale": "ro-MD"
+    "en-NZ": {
+      "format": "1"
     },
-    "MEX": {
-      "locale": "es-MX"
+    "en-PG": {
+      "format": "1"
     },
-    "MHL": {
-      "locale": "en-US"
+    "en-PH": {
+      "format": "1"
     },
-    "MLI": {
-      "locale": "ee-TG"
+    "en-PK": {
+      "format": "1"
     },
-    "MLT": {
-      "locale": "de"
+    "en-PN": {
+      "format": "1"
     },
-    "MNE": {
-      "locale": "de"
+    "en-PR": {
+      "format": "1"
     },
-    "MNG": {
-      "locale": "mn"
+    "en-PW": {
+      "format": "1"
     },
-    "MNP": {
-      "locale": "en-US"
+    "en-RW": {
+      "format": "1"
     },
-    "MRT": {
-      "locale": "ar-MR"
+    "en-SB": {
+      "format": "1"
     },
-    "MSR": {
-      "locale": "en-AI"
+    "en-SC": {
+      "format": "1"
     },
-    "MTQ": {
-      "locale": "de"
+    "en-SE": {
+      "format": "1"
     },
-    "MUS": {
-      "locale": "en-MU"
+    "en-SG": {
+      "format": "1"
     },
-    "MWI": {
-      "locale": "en-MW"
+    "en-SH": {
+      "format": "1"
     },
-    "MYS": {
-      "locale": "en-MY"
+    "en-SI": {
+      "format": "1"
     },
-    "MYT": {
-      "locale": "de"
+    "en-SL": {
+      "format": "1"
     },
-    "NAM": {
-      "locale": "af-NA"
+    "en-SX": {
+      "format": "1"
     },
-    "NCL": {
-      "locale": "fr-PF"
+    "en-SZ": {
+      "format": "1"
     },
-    "NER": {
-      "locale": "ee-TG"
+    "en-TC": {
+      "format": "1"
     },
-    "NFK": {
-      "locale": "en-AU"
+    "en-TK": {
+      "format": "1"
     },
-    "NGA": {
-      "locale": "en-NG"
+    "en-TO": {
+      "format": "1"
     },
-    "NIC": {
-      "locale": "es-NI"
+    "en-TT": {
+      "format": "1"
     },
-    "NIU": {
-      "locale": "en-CK"
+    "en-TV": {
+      "format": "1"
     },
-    "NLD": {
-      "locale": "de"
+    "en-TZ": {
+      "format": "1"
     },
-    "NOR": {
-      "locale": "nb-NO"
+    "en-UG": {
+      "format": "1"
     },
-    "NRU": {
-      "locale": "en-AU"
+    "en-US": {
+      "format": "1"
     },
-    "NZL": {
-      "locale": "en-CK"
+    "en-VC": {
+      "format": "1"
     },
-    "OMN": {
-      "locale": "ar-OM"
+    "en-VG": {
+      "format": "1"
     },
-    "PAK": {
-      "locale": "en-PK"
+    "en-VI": {
+      "format": "1"
     },
-    "PAN": {
-      "locale": "en-US"
+    "en-VU": {
+      "format": "1"
     },
-    "PCN": {
-      "locale": "en-CK"
+    "en-WS": {
+      "format": "1"
     },
-    "PER": {
-      "locale": "es-PE"
+    "en-ZA": {
+      "format": "1"
     },
-    "PHL": {
-      "locale": "en-PH"
+    "en-ZM": {
+      "format": "1"
     },
-    "PLW": {
-      "locale": "en-US"
+    "es": {
+      "format": "1"
     },
-    "PNG": {
-      "locale": "en-PG"
+    "es-AR": {
+      "format": "1"
     },
-    "POL": {
-      "locale": "pl"
+    "es-BO": {
+      "format": "1"
     },
-    "PRI": {
-      "locale": "en-US"
+    "es-BR": {
+      "format": "1"
     },
-    "PRT": {
-      "locale": "de"
+    "es-CL": {
+      "format": "1"
     },
-    "PRY": {
-      "locale": "es-PY"
+    "es-CO": {
+      "format": "1"
     },
-    "PYF": {
-      "locale": "fr-PF"
+    "es-CR": {
+      "format": "1"
     },
-    "QAT": {
-      "locale": "ar-QA"
+    "es-DO": {
+      "format": "1"
     },
-    "REU": {
-      "locale": "de"
+    "es-EC": {
+      "format": "1"
     },
-    "ROU": {
-      "locale": "ro"
+    "es-GQ": {
+      "format": "1"
     },
-    "RUS": {
-      "locale": "ru"
+    "es-GT": {
+      "format": "1"
     },
-    "RWA": {
-      "locale": "en-RW"
+    "es-HN": {
+      "format": "1"
     },
-    "SAU": {
-      "locale": "ar-SA"
+    "es-MX": {
+      "format": "1"
     },
-    "SEN": {
-      "locale": "ee-TG"
+    "es-NI": {
+      "format": "1"
     },
-    "SGP": {
-      "locale": "zh-SG"
+    "es-PA": {
+      "format": "1"
     },
-    "SJM": {
-      "locale": "nb-NO"
+    "es-PE": {
+      "format": "1"
     },
-    "SLB": {
-      "locale": "en-SB"
+    "es-PH": {
+      "format": "1"
     },
-    "SLE": {
-      "locale": "en-SL"
+    "es-PR": {
+      "format": "1"
     },
-    "SLV": {
-      "locale": "en-US"
+    "es-PY": {
+      "format": "1"
     },
-    "SMR": {
-      "locale": "de"
+    "es-SV": {
+      "format": "1"
     },
-    "SOM": {
-      "locale": "ar-SO"
+    "es-US": {
+      "format": "1"
     },
-    "SPM": {
-      "locale": "de"
+    "es-UY": {
+      "format": "1"
     },
-    "STP": {
-      "locale": "pt-ST"
+    "es-VE": {
+      "format": "1"
     },
-    "SVK": {
-      "locale": "de"
+    "et": {
+      "format": "1"
     },
-    "SVN": {
-      "locale": "de"
+    "ff-CM": {
+      "format": "1"
     },
-    "SWZ": {
-      "locale": "en-SZ"
+    "ff-GN": {
+      "format": "1"
     },
-    "SXM": {
-      "locale": "nl-CW"
+    "ff-MR": {
+      "format": "1"
     },
-    "SYC": {
-      "locale": "en-SC"
+    "fi": {
+      "format": "1"
     },
-    "TCA": {
-      "locale": "en-US"
+    "fr": {
+      "format": "1"
     },
-    "TCD": {
-      "locale": "ar-TD"
+    "fr-BE": {
+      "format": "1"
     },
-    "TGO": {
-      "locale": "ee-TG"
+    "fr-BF": {
+      "format": "1"
     },
-    "THA": {
-      "locale": "th"
+    "fr-BJ": {
+      "format": "1"
     },
-    "TKL": {
-      "locale": "en-CK"
+    "fr-BL": {
+      "format": "1"
     },
-    "TLS": {
-      "locale": "en-US"
+    "fr-CA": {
+      "format": "1"
     },
-    "TON": {
-      "locale": "en-TO"
+    "fr-CF": {
+      "format": "1"
     },
-    "TTO": {
-      "locale": "en-TT"
+    "fr-CG": {
+      "format": "1"
     },
-    "TUN": {
-      "locale": "ar-TN"
+    "fr-CH": {
+      "format": "1"
     },
-    "TUR": {
-      "locale": "tr"
+    "fr-CI": {
+      "format": "1"
     },
-    "TUV": {
-      "locale": "en-AU"
+    "fr-CM": {
+      "format": "1"
     },
-    "TZA": {
-      "locale": "en-TZ"
+    "fr-DJ": {
+      "format": "1"
     },
-    "UGA": {
-      "locale": "en-UG"
+    "fr-DZ": {
+      "format": "1"
     },
-    "UKR": {
-      "locale": "uk-UA"
+    "fr-GA": {
+      "format": "1"
     },
-    "URY": {
-      "locale": "es-UY"
+    "fr-GF": {
+      "format": "1"
     },
-    "USA": {
-      "locale": "en-US"
+    "fr-GN": {
+      "format": "1"
     },
-    "UZB": {
-      "locale": "uz"
+    "fr-GP": {
+      "format": "1"
     },
-    "VAT": {
-      "locale": "de"
+    "fr-GQ": {
+      "format": "1"
     },
-    "VCT": {
-      "locale": "en-AI"
+    "fr-HT": {
+      "format": "1"
     },
-    "VEN": {
-      "locale": "es-VE"
+    "fr-KM": {
+      "format": "1"
     },
-    "VGB": {
-      "locale": "en-US"
+    "fr-LU": {
+      "format": "1"
     },
-    "VIR": {
-      "locale": "en-US"
+    "fr-MA": {
+      "format": "1"
     },
-    "VUT": {
-      "locale": "en-VU"
+    "fr-MC": {
+      "format": "1"
     },
-    "WLF": {
-      "locale": "fr-PF"
+    "fr-MF": {
+      "format": "1"
     },
-    "WSM": {
-      "locale": "en-WS"
+    "fr-ML": {
+      "format": "1"
     },
-    "YEM": {
-      "locale": "ar-YE"
+    "fr-MQ": {
+      "format": "1"
     },
-    "ZAF": {
-      "locale": "af-NA"
+    "fr-MR": {
+      "format": "1"
     },
-    "ZMB": {
-      "locale": "en-ZM"
+    "fr-MU": {
+      "format": "1"
+    },
+    "fr-NC": {
+      "format": "1"
+    },
+    "fr-NE": {
+      "format": "1"
+    },
+    "fr-PF": {
+      "format": "1"
+    },
+    "fr-PM": {
+      "format": "1"
+    },
+    "fr-RE": {
+      "format": "1"
+    },
+    "fr-RW": {
+      "format": "1"
+    },
+    "fr-SC": {
+      "format": "1"
+    },
+    "fr-SN": {
+      "format": "1"
+    },
+    "fr-TD": {
+      "format": "1"
+    },
+    "fr-TG": {
+      "format": "1"
+    },
+    "fr-TN": {
+      "format": "1"
+    },
+    "fr-VU": {
+      "format": "1"
+    },
+    "fr-WF": {
+      "format": "1"
+    },
+    "fr-YT": {
+      "format": "1"
+    },
+    "ga": {
+      "format": "1"
+    },
+    "gu": {
+      "format": "1"
+    },
+    "ha-GH": {
+      "format": "1"
+    },
+    "ha-NE": {
+      "format": "1"
+    },
+    "he-IL": {
+      "format": "1"
+    },
+    "hr": {
+      "format": "1"
+    },
+    "hr-BA": {
+      "format": "1"
+    },
+    "hu": {
+      "format": "1"
+    },
+    "hy-AM": {
+      "format": "1"
+    },
+    "id": {
+      "format": "1"
+    },
+    "ig-NG": {
+      "format": "1"
+    },
+    "is": {
+      "format": "1"
+    },
+    "it": {
+      "format": "1"
+    },
+    "it-CH": {
+      "format": "1"
+    },
+    "it-SM": {
+      "format": "1"
+    },
+    "ja-JP": {
+      "format": "1"
+    },
+    "ka-GE": {
+      "format": "1"
+    },
+    "kk-KZ": {
+      "format": "1"
+    },
+    "km": {
+      "format": "1"
+    },
+    "ky": {
+      "format": "1"
+    },
+    "lb": {
+      "format": "1"
+    },
+    "ln-CF": {
+      "format": "1"
+    },
+    "ln-CG": {
+      "format": "1"
+    },
+    "lo-LA": {
+      "format": "1"
+    },
+    "lt": {
+      "format": "1"
+    },
+    "lu": {
+      "format": "1"
+    },
+    "lv": {
+      "format": "1"
+    },
+    "mn": {
+      "format": "1"
+    },
+    "ms": {
+      "format": "1"
+    },
+    "ms-BN": {
+      "format": "1"
+    },
+    "ms-SG": {
+      "format": "1"
+    },
+    "mt": {
+      "format": "1"
+    },
+    "my": {
+      "format": "1"
+    },
+    "nb-NO": {
+      "format": "1"
+    },
+    "nb-SJ": {
+      "format": "1"
+    },
+    "ne": {
+      "format": "1"
+    },
+    "ne-IN": {
+      "format": "1"
+    },
+    "nl": {
+      "format": "1"
+    },
+    "nl-AW": {
+      "format": "1"
+    },
+    "nl-BE": {
+      "format": "1"
+    },
+    "nl-BQ": {
+      "format": "1"
+    },
+    "nl-CW": {
+      "format": "1"
+    },
+    "nl-SX": {
+      "format": "1"
+    },
+    "nn-NO": {
+      "format": "1"
+    },
+    "pa": {
+      "format": "1"
+    },
+    "pl": {
+      "format": "1"
+    },
+    "pt": {
+      "format": "1"
+    },
+    "pt-BR": {
+      "format": "1"
+    },
+    "pt-CH": {
+      "format": "1"
+    },
+    "pt-CV": {
+      "format": "1"
+    },
+    "pt-GQ": {
+      "format": "1"
+    },
+    "pt-GW": {
+      "format": "1"
+    },
+    "pt-LU": {
+      "format": "1"
+    },
+    "pt-MO": {
+      "format": "1"
+    },
+    "pt-ST": {
+      "format": "1"
+    },
+    "pt-TL": {
+      "format": "1"
+    },
+    "qu-BO": {
+      "format": "1"
+    },
+    "qu-EC": {
+      "format": "1"
+    },
+    "rm-CH": {
+      "format": "1"
+    },
+    "ro": {
+      "format": "1"
+    },
+    "ro-MD": {
+      "format": "1"
+    },
+    "ru": {
+      "format": "1"
+    },
+    "ru-KG": {
+      "format": "1"
+    },
+    "ru-KZ": {
+      "format": "1"
+    },
+    "ru-MD": {
+      "format": "1"
+    },
+    "ru-UA": {
+      "format": "1"
+    },
+    "rw": {
+      "format": "1"
+    },
+    "sg": {
+      "format": "1"
+    },
+    "si": {
+      "format": "1"
+    },
+    "sk": {
+      "format": "1"
+    },
+    "sl": {
+      "format": "1"
+    },
+    "sn": {
+      "format": "1"
+    },
+    "so": {
+      "format": "1"
+    },
+    "so-DJ": {
+      "format": "1"
+    },
+    "so-ET": {
+      "format": "1"
+    },
+    "so-KE": {
+      "format": "1"
+    },
+    "sq-AL": {
+      "format": "1"
+    },
+    "sr-BA": {
+      "format": "1"
+    },
+    "sr-ME": {
+      "format": "1"
+    },
+    "sv": {
+      "format": "1"
+    },
+    "sv-AX": {
+      "format": "1"
+    },
+    "sv-FI": {
+      "format": "1"
+    },
+    "sw-FI": {
+      "format": "1"
+    },
+    "sw-KE": {
+      "format": "1"
+    },
+    "sw-SE": {
+      "format": "1"
+    },
+    "sw-UG": {
+      "format": "1"
+    },
+    "ta-LK": {
+      "format": "1"
+    },
+    "ta-MY": {
+      "format": "1"
+    },
+    "ta-SG": {
+      "format": "1"
+    },
+    "te-IN": {
+      "format": "1"
+    },
+    "th": {
+      "format": "1"
+    },
+    "tk": {
+      "format": "1"
+    },
+    "tr": {
+      "format": "1"
+    },
+    "tr-CY": {
+      "format": "1"
+    },
+    "uk-UA": {
+      "format": "1"
+    },
+    "ur-IN": {
+      "format": "1"
+    },
+    "uz": {
+      "format": "1"
+    },
+    "vi": {
+      "format": "1"
+    },
+    "yo-BJ": {
+      "format": "1"
+    },
+    "zh-CN": {
+      "format": "1"
+    },
+    "zh-HK": {
+      "format": "1"
+    },
+    "zh-MO": {
+      "format": "1"
+    },
+    "zh-SG": {
+      "format": "1"
+    },
+    "zu-ZA": {
+      "format": "1"
     }
   }
 }
