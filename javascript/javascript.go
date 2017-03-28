@@ -7,10 +7,6 @@ import (
 	"os"
 )
 
-type CurrencyFormat struct {
-	Formats      map[string]JavascriptFormat `json:"formats"`
-}
-
 type JavascriptFormat struct {
 	Symbol     string `json:"symbol"`
 	Decimal    string `json:"decimal"`
@@ -32,10 +28,7 @@ func Generate() {
 		Locales: common.Locales(),
 	}
 
-	format := CurrencyFormat{
-		Formats: generateFormatsByLocale(data),
-	}
-	common.WriteJson("data/javascript/currency-format.json", format)
+	common.WriteJson("data/javascript/currency-format.json", generateFormatsByLocale(data))
 }
 
 func generateFormatsByLocale(data CommonData) map[string]JavascriptFormat {
