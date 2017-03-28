@@ -5,6 +5,7 @@ import (
 	"errors"
 	"fmt"
 	"os"
+	"strconv"
 )
 
 type CurrencyFormat struct {
@@ -47,16 +48,18 @@ func Generate() {
 func generateFormats(data CommonData) map[string]JavascriptFormat {
 	all := map[string]JavascriptFormat{}
 
+	index := 1
 	for _, l := range data.Locales {
 		currency, err := findCurrencyByLocale(data, l)
 		if err == nil && currency.Symbols != nil {
-			all[l.Id] = JavascriptFormat{
+			all[strconv.Itoa(index)] = JavascriptFormat{
 				Symbol: currency.Symbols.Primary,
 				Decimal: l.Numbers.Decimal,
 				Group: l.Numbers.Group,
 				Precision: currency.NumberDecimals,
 				Format: "%s%v",
 			}
+			index += 1
 		}
 	}
 
