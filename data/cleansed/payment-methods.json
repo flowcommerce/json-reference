@@ -131,7 +131,7 @@
   {
     "id": "paypal",
     "type": "online",
-    "name": "Paypal",
+    "name": "PayPal",
     "small_width": 76,
     "small_height": 48,
     "medium_width": 150,

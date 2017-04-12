@@ -230,7 +230,7 @@
   {
     "id": "paypal",
     "type": "online",
-    "name": "Paypal",
+    "name": "PayPal",
     "images": {
       "small": {
         "url": "https://flowcdn.io/util/icons/payment-methods/paypal/76x48.png",
