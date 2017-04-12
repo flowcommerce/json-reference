@@ -9,4 +9,4 @@ card,jcb,Jcb,64,64,128,128,256,256,jpn
 card,maestro,Maestro,64,64,128,128,256,256,north-america europe
 card,mastercard,Mastercard,64,64,128,128,256,256,world
 card,visa,VISA,64,64,128,128,256,256,world
-online,paypal,Paypal,76,48,150,94,266,142,world
+online,paypal,PayPal,76,48,150,94,266,142,world
