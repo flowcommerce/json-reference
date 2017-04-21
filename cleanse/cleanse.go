@@ -64,6 +64,13 @@ type LocaleName struct {
 	Name string `json:"name"`
 }
 
+type Province struct {
+	Iso_3166_2   string `json:"iso_3166_2"`
+	Name         string `json:"name"`
+	CountryCode  string `json:"country"`
+	ProvinceType string `json:"province_type"`
+}
+
 type Timezone struct {
 	Name        string `json:"name"`
 	Description string `json:"description"`
@@ -250,6 +257,25 @@ func Cleanse() {
 		),
 	)
 
+	writeJson("data/cleansed/provinces.json",
+		toObjects(readCsv("data/original/provinces.csv"),
+			func(record map[string]string) bool {
+				return record["province"] != ""
+			},
+			func(record map[string]string) interface{} {
+				return Province{
+					Iso_3166_2:   record["province"],
+					Name:         strings.SplitN(record["name"], " (", 2)[0],
+					CountryCode:  record["country"],
+					ProvinceType: provinceType(record["type"]),
+				}
+			},
+			func(record map[string]string) string {
+				return record["country"] + record["province"]
+			},
+		),
+	)
+
 	writeJson("data/cleansed/country-continents.json",
 		toObjects(readCsv("data/source/country-continents.csv"),
 			func(record map[string]string) bool {
@@ -327,6 +353,30 @@ func Cleanse() {
 			},
 		),
 	)
+}
+
+func provinceType(value string) string {
+	finalValue := common.FormatUnderscore(strings.ToLower(value))
+
+	validValues := []string{
+		"city",
+		"dependency",
+		"district",
+		"emirate",
+		"entity",
+		"municipality",
+		"outlying_area",
+		"parish",
+		"province",
+		"state",
+		"territory",
+	}
+
+	if common.ContainsIgnoreCase(validValues, finalValue) {
+		return finalValue
+	} else {
+		return "other"
+	}
 }
 
 func countryName(record map[string]string) string {
@@ -548,6 +598,13 @@ func toObjects(records []map[string]string, accepts acceptsFunction, f convertFu
 	}
 
 	return sortObjects(added)
+}
+
+func LoadProvinces() []Province {
+	provinces := []Province{}
+	err := json.Unmarshal(common.ReadFile("data/cleansed/provinces.json"), &provinces)
+	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshal provinces: %s", err))
+	return provinces
 }
 
 func LoadCountryDuties() []CountryDuty {

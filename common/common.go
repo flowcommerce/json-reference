@@ -69,6 +69,14 @@ type PaymentMethodImage struct {
 	Height int    `json:"height"`
 }
 
+type Province struct {
+	Id           string `json:"id"`
+	Iso_3166_2   string `json:"iso_3166_2"`
+	Name         string `json:"name"`
+	Country      string `json:"country"`
+	ProvinceType string `json:"province_type"`
+}
+
 type Region struct {
 	Id                 string   `json:"id"`
 	Name               string   `json:"name"`
@@ -245,6 +253,17 @@ func FormatLocaleId(value string) string {
 	}
 
 	return strings.Join(distinct, "-")
+}
+
+func FormatUnderscore(value string) string {
+	distinct := []string{}
+	for _, v := range strings.Split(value, " ") {
+		if !ContainsIgnoreCase(distinct, v) {
+			distinct = append(distinct, v)
+		}
+	}
+
+	return strings.Join(distinct, "_")
 }
 
 func UnsupportedCountryCodes() []string {
