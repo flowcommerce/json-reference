@@ -64,6 +64,13 @@ type LocaleName struct {
 	Name string `json:"name"`
 }
 
+type Province struct {
+	Iso_3166_2   string `json:"iso_3166_2"`
+	Name         string `json:"name"`
+	CountryCode  string `json:"country"`
+	ProvinceType string `json:"province_type"`
+}
+
 type Timezone struct {
 	Name        string `json:"name"`
 	Description string `json:"description"`
@@ -246,6 +253,25 @@ func Cleanse() {
 			},
 			func(record map[string]string) string {
 				return record["country"] + record["duty"]
+			},
+		),
+	)
+
+	writeJson("data/cleansed/provinces.json",
+		toObjects(readCsv("data/original/provinces.csv"),
+			func(record map[string]string) bool {
+				return record["province"] != ""
+			},
+			func(record map[string]string) interface{} {
+				return Province{
+					Iso_3166_2:   record["province"],
+					Name:         record["name"],
+					CountryCode:  record["country"],
+					ProvinceType: record["type"],
+				}
+			},
+			func(record map[string]string) string {
+				return record["country"] + record["province"]
 			},
 		),
 	)
