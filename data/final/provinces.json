@@ -2235,7 +2235,7 @@
   {
     "id": "BGR-22",
     "iso_3166_2": "22",
-    "name": "Sofia (stolitsa)",
+    "name": "Sofia",
     "country": "BGR",
     "province_type": "other"
   },
@@ -3502,182 +3502,182 @@
   {
     "id": "CHE-AG",
     "iso_3166_2": "AG",
-    "name": "Aargau (de)",
+    "name": "Aargau",
     "country": "CHE",
     "province_type": "other"
   },
   {
     "id": "CHE-AI",
     "iso_3166_2": "AI",
-    "name": "Appenzell Innerrhoden (de)",
+    "name": "Appenzell Innerrhoden",
     "country": "CHE",
     "province_type": "other"
   },
   {
     "id": "CHE-AR",
     "iso_3166_2": "AR",
-    "name": "Appenzell Ausserrhoden (de)",
+    "name": "Appenzell Ausserrhoden",
     "country": "CHE",
     "province_type": "other"
   },
   {
     "id": "CHE-BE",
     "iso_3166_2": "BE",
-    "name": "Bern (de)",
+    "name": "Bern",
     "country": "CHE",
     "province_type": "other"
   },
   {
     "id": "CHE-BL",
     "iso_3166_2": "BL",
-    "name": "Basel-Landschaft (de)",
+    "name": "Basel-Landschaft",
     "country": "CHE",
     "province_type": "other"
   },
   {
     "id": "CHE-BS",
     "iso_3166_2": "BS",
-    "name": "Basel-Stadt (de)",
+    "name": "Basel-Stadt",
     "country": "CHE",
     "province_type": "other"
   },
   {
     "id": "CHE-FR",
     "iso_3166_2": "FR",
-    "name": "Fribourg (fr)",
+    "name": "Fribourg",
     "country": "CHE",
     "province_type": "other"
   },
   {
     "id": "CHE-GE",
     "iso_3166_2": "GE",
-    "name": "Gen�ve (fr)",
+    "name": "Gen�ve",
     "country": "CHE",
     "province_type": "other"
   },
   {
     "id": "CHE-GL",
     "iso_3166_2": "GL",
-    "name": "Glarus (de)",
+    "name": "Glarus",
     "country": "CHE",
     "province_type": "other"
   },
   {
     "id": "CHE-GR",
     "iso_3166_2": "GR",
-    "name": "Graub�nden (de)",
+    "name": "Graub�nden",
     "country": "CHE",
     "province_type": "other"
   },
   {
     "id": "CHE-JU",
     "iso_3166_2": "JU",
-    "name": "Jura (fr)",
+    "name": "Jura",
     "country": "CHE",
     "province_type": "other"
   },
   {
     "id": "CHE-LU",
     "iso_3166_2": "LU",
-    "name": "Luzern (de)",
+    "name": "Luzern",
     "country": "CHE",
     "province_type": "other"
   },
   {
     "id": "CHE-NE",
     "iso_3166_2": "NE",
-    "name": "Neuch�tel (fr)",
+    "name": "Neuch�tel",
     "country": "CHE",
     "province_type": "other"
   },
   {
     "id": "CHE-NW",
     "iso_3166_2": "NW",
-    "name": "Nidwalden (de)",
+    "name": "Nidwalden",
     "country": "CHE",
     "province_type": "other"
   },
   {
     "id": "CHE-OW",
     "iso_3166_2": "OW",
-    "name": "Obwalden (de)",
+    "name": "Obwalden",
     "country": "CHE",
     "province_type": "other"
   },
   {
     "id": "CHE-SG",
     "iso_3166_2": "SG",
-    "name": "Sankt Gallen (de)",
+    "name": "Sankt Gallen",
     "country": "CHE",
     "province_type": "other"
   },
   {
     "id": "CHE-SH",
     "iso_3166_2": "SH",
-    "name": "Schaffhausen (de)",
+    "name": "Schaffhausen",
     "country": "CHE",
     "province_type": "other"
   },
   {
     "id": "CHE-SO",
     "iso_3166_2": "SO",
-    "name": "Solothurn (de)",
+    "name": "Solothurn",
     "country": "CHE",
     "province_type": "other"
   },
   {
     "id": "CHE-SZ",
     "iso_3166_2": "SZ",
-    "name": "Schwyz (de)",
+    "name": "Schwyz",
     "country": "CHE",
     "province_type": "other"
   },
   {
     "id": "CHE-TG",
     "iso_3166_2": "TG",
-    "name": "Thurgau (de)",
+    "name": "Thurgau",
     "country": "CHE",
     "province_type": "other"
   },
   {
     "id": "CHE-TI",
     "iso_3166_2": "TI",
-    "name": "Ticino (it)",
+    "name": "Ticino",
     "country": "CHE",
     "province_type": "other"
   },
   {
     "id": "CHE-UR",
     "iso_3166_2": "UR",
-    "name": "Uri (de)",
+    "name": "Uri",
     "country": "CHE",
     "province_type": "other"
   },
   {
     "id": "CHE-VD",
     "iso_3166_2": "VD",
-    "name": "Vaud (fr)",
+    "name": "Vaud",
     "country": "CHE",
     "province_type": "other"
   },
   {
     "id": "CHE-VS",
     "iso_3166_2": "VS",
-    "name": "Valais (fr)",
+    "name": "Valais",
     "country": "CHE",
     "province_type": "other"
   },
   {
     "id": "CHE-ZG",
     "iso_3166_2": "ZG",
-    "name": "Zug (de)",
+    "name": "Zug",
     "country": "CHE",
     "province_type": "other"
   },
   {
     "id": "CHE-ZH",
     "iso_3166_2": "ZH",
-    "name": "Z�rich (de)",
+    "name": "Z�rich",
     "country": "CHE",
     "province_type": "other"
   },
@@ -3985,7 +3985,7 @@
   {
     "id": "CHN-15",
     "iso_3166_2": "15",
-    "name": "Nei Mongol (mn)",
+    "name": "Nei Mongol",
     "country": "CHN",
     "province_type": "other"
   },
@@ -5028,7 +5028,7 @@
   {
     "id": "DOM-01",
     "iso_3166_2": "01",
-    "name": "Distrito Nacional (Santo Domingo)",
+    "name": "Distrito Nacional",
     "country": "DOM",
     "province_type": "district"
   },
@@ -11755,7 +11755,7 @@
   {
     "id": "ITA-AO",
     "iso_3166_2": "AO",
-    "name": "Aosta / Aoste (fr)",
+    "name": "Aosta / Aoste",
     "country": "ITA",
     "province_type": "province"
   },
@@ -11860,7 +11860,7 @@
   {
     "id": "ITA-BZ",
     "iso_3166_2": "BZ",
-    "name": "Bolzano / Bozen (de)",
+    "name": "Bolzano / Bozen",
     "country": "ITA",
     "province_type": "province"
   },
@@ -15206,259 +15206,259 @@
   {
     "id": "LVA-001",
     "iso_3166_2": "001",
-    "name": "Aglonas novads (Aglona)",
+    "name": "Aglonas novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-002",
     "iso_3166_2": "002",
-    "name": "Aizkraukles novads (Aizkraukle)",
+    "name": "Aizkraukles novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-003",
     "iso_3166_2": "003",
-    "name": "Aizputes novads (Aizpute)",
+    "name": "Aizputes novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-004",
     "iso_3166_2": "004",
-    "name": "Aknistes novads (Akniste)",
+    "name": "Aknistes novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-005",
     "iso_3166_2": "005",
-    "name": "Alojas novads (Aloja)",
+    "name": "Alojas novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-006",
     "iso_3166_2": "006",
-    "name": "Alsungas novads (Alsunga)",
+    "name": "Alsungas novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-007",
     "iso_3166_2": "007",
-    "name": "Aluksnes novads (Aluksne)",
+    "name": "Aluksnes novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-008",
     "iso_3166_2": "008",
-    "name": "Amatas novads (Amata)",
+    "name": "Amatas novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-009",
     "iso_3166_2": "009",
-    "name": "Apes novads (Ape)",
+    "name": "Apes novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-010",
     "iso_3166_2": "010",
-    "name": "Auces novads (Auce)",
+    "name": "Auces novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-011",
     "iso_3166_2": "011",
-    "name": "Ada�u novads (Ada�i)",
+    "name": "Ada�u novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-012",
     "iso_3166_2": "012",
-    "name": "Babites novads (Babite)",
+    "name": "Babites novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-013",
     "iso_3166_2": "013",
-    "name": "Baldones novads (Baldone)",
+    "name": "Baldones novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-014",
     "iso_3166_2": "014",
-    "name": "Baltinavas novads (Baltinava)",
+    "name": "Baltinavas novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-015",
     "iso_3166_2": "015",
-    "name": "Balvu novads (Balvi)",
+    "name": "Balvu novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-016",
     "iso_3166_2": "016",
-    "name": "Bauskas novads (Bauska)",
+    "name": "Bauskas novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-017",
     "iso_3166_2": "017",
-    "name": "Beverinas novads (Beverina)",
+    "name": "Beverinas novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-018",
     "iso_3166_2": "018",
-    "name": "Brocenu novads (Broceni)",
+    "name": "Brocenu novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-019",
     "iso_3166_2": "019",
-    "name": "Burtnieku novads (Burtnieki)",
+    "name": "Burtnieku novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-020",
     "iso_3166_2": "020",
-    "name": "Carnikavas novads (Carnikava)",
+    "name": "Carnikavas novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-021",
     "iso_3166_2": "021",
-    "name": "Cesvaines novads (Cesvaine)",
+    "name": "Cesvaines novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-022",
     "iso_3166_2": "022",
-    "name": "Cesu novads (Cesis)",
+    "name": "Cesu novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-023",
     "iso_3166_2": "023",
-    "name": "Ciblas novads (Cibla)",
+    "name": "Ciblas novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-024",
     "iso_3166_2": "024",
-    "name": "Dagdas novads (Dagda)",
+    "name": "Dagdas novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-025",
     "iso_3166_2": "025",
-    "name": "Daugavpils novads (Daugavpils)",
+    "name": "Daugavpils novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-026",
     "iso_3166_2": "026",
-    "name": "Dobeles novads (Dobele)",
+    "name": "Dobeles novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-027",
     "iso_3166_2": "027",
-    "name": "Dundagas novads (Dundaga)",
+    "name": "Dundagas novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-028",
     "iso_3166_2": "028",
-    "name": "Durbes novads (Durbe)",
+    "name": "Durbes novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-029",
     "iso_3166_2": "029",
-    "name": "Engures novads (Engure)",
+    "name": "Engures novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-030",
     "iso_3166_2": "030",
-    "name": "Erglu novads (Ergli)",
+    "name": "Erglu novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-031",
     "iso_3166_2": "031",
-    "name": "Garkalnes novads (Garkalne)",
+    "name": "Garkalnes novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-032",
     "iso_3166_2": "032",
-    "name": "Grobinas novads (Grobina)",
+    "name": "Grobinas novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-033",
     "iso_3166_2": "033",
-    "name": "Gulbenes novads (Gulbene)",
+    "name": "Gulbenes novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-034",
     "iso_3166_2": "034",
-    "name": "Iecavas novads (Iecava)",
+    "name": "Iecavas novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-035",
     "iso_3166_2": "035",
-    "name": "Ik�kiles novads (Ik�kile)",
+    "name": "Ik�kiles novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-036",
     "iso_3166_2": "036",
-    "name": "Ilukstes novads (Ilukste)",
+    "name": "Ilukstes novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-037",
     "iso_3166_2": "037",
-    "name": "Incukalna novads (Incukalns)",
+    "name": "Incukalna novads",
     "country": "LVA",
     "province_type": "municipality"
   },
@@ -15479,448 +15479,448 @@
   {
     "id": "LVA-040",
     "iso_3166_2": "040",
-    "name": "Jaunpils novads (Jaunpils)",
+    "name": "Jaunpils novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-041",
     "iso_3166_2": "041",
-    "name": "Jelgavas novads (Jelgava)",
+    "name": "Jelgavas novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-042",
     "iso_3166_2": "042",
-    "name": "Jekabpils novads (Jekabpils)",
+    "name": "Jekabpils novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-043",
     "iso_3166_2": "043",
-    "name": "Kandavas novads (Kandava)",
+    "name": "Kandavas novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-044",
     "iso_3166_2": "044",
-    "name": "Karsavas novads (Karsava)",
+    "name": "Karsavas novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-045",
     "iso_3166_2": "045",
-    "name": "Kocenu novads (Koceni)",
+    "name": "Kocenu novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-046",
     "iso_3166_2": "046",
-    "name": "Kokneses novads (Koknese)",
+    "name": "Kokneses novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-047",
     "iso_3166_2": "047",
-    "name": "Kraslavas novads (Kraslava)",
+    "name": "Kraslavas novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-048",
     "iso_3166_2": "048",
-    "name": "Krimuldas novads (Krimulda)",
+    "name": "Krimuldas novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-049",
     "iso_3166_2": "049",
-    "name": "Krustpils novads (Krustpils)",
+    "name": "Krustpils novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-050",
     "iso_3166_2": "050",
-    "name": "Kuldigas novads (Kuldiga)",
+    "name": "Kuldigas novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-051",
     "iso_3166_2": "051",
-    "name": "Keguma novads (Kegums)",
+    "name": "Keguma novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-052",
     "iso_3166_2": "052",
-    "name": "Kekavas novads (Kekava)",
+    "name": "Kekavas novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-053",
     "iso_3166_2": "053",
-    "name": "Lielvardes novads (Lielvarde)",
+    "name": "Lielvardes novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-054",
     "iso_3166_2": "054",
-    "name": "Limba�u novads (Limba�i)",
+    "name": "Limba�u novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-055",
     "iso_3166_2": "055",
-    "name": "Ligatnes novads (Ligatne)",
+    "name": "Ligatnes novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-056",
     "iso_3166_2": "056",
-    "name": "Livanu novads (Livani)",
+    "name": "Livanu novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-057",
     "iso_3166_2": "057",
-    "name": "Lubanas novads (Lubana)",
+    "name": "Lubanas novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-058",
     "iso_3166_2": "058",
-    "name": "Ludzas novads (Ludza)",
+    "name": "Ludzas novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-059",
     "iso_3166_2": "059",
-    "name": "Madonas novads (Madona)",
+    "name": "Madonas novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-060",
     "iso_3166_2": "060",
-    "name": "Mazsalacas novads (Mazsalaca)",
+    "name": "Mazsalacas novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-061",
     "iso_3166_2": "061",
-    "name": "Malpils novads (Malpils)",
+    "name": "Malpils novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-062",
     "iso_3166_2": "062",
-    "name": "Marupes novads (Marupe)",
+    "name": "Marupes novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-063",
     "iso_3166_2": "063",
-    "name": "Mersraga novads (Mersrags)",
+    "name": "Mersraga novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-064",
     "iso_3166_2": "064",
-    "name": "Nauk�enu novads (Nauk�eni)",
+    "name": "Nauk�enu novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-065",
     "iso_3166_2": "065",
-    "name": "Neretas novads (Nereta)",
+    "name": "Neretas novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-066",
     "iso_3166_2": "066",
-    "name": "Nicas novads (Nica)",
+    "name": "Nicas novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-067",
     "iso_3166_2": "067",
-    "name": "Ogres novads (Ogre)",
+    "name": "Ogres novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-068",
     "iso_3166_2": "068",
-    "name": "Olaines novads (Olaine)",
+    "name": "Olaines novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-069",
     "iso_3166_2": "069",
-    "name": "Ozolnieku novads (Ozolnieki)",
+    "name": "Ozolnieku novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-070",
     "iso_3166_2": "070",
-    "name": "Pargaujas novads (Pargauja)",
+    "name": "Pargaujas novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-071",
     "iso_3166_2": "071",
-    "name": "Pavilostas novads (Pavilosta)",
+    "name": "Pavilostas novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-072",
     "iso_3166_2": "072",
-    "name": "Plavinu novads (Plavinas)",
+    "name": "Plavinu novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-073",
     "iso_3166_2": "073",
-    "name": "Preilu novads (Preili)",
+    "name": "Preilu novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-074",
     "iso_3166_2": "074",
-    "name": "Priekules novads (Priekule)",
+    "name": "Priekules novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-075",
     "iso_3166_2": "075",
-    "name": "Priekulu novads (Priekuli)",
+    "name": "Priekulu novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-076",
     "iso_3166_2": "076",
-    "name": "Raunas novads (Rauna)",
+    "name": "Raunas novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-077",
     "iso_3166_2": "077",
-    "name": "Rezeknes novads (Rezekne)",
+    "name": "Rezeknes novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-078",
     "iso_3166_2": "078",
-    "name": "Riebinu novads (Riebini)",
+    "name": "Riebinu novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-079",
     "iso_3166_2": "079",
-    "name": "Rojas novads (Roja)",
+    "name": "Rojas novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-080",
     "iso_3166_2": "080",
-    "name": "Ropa�u novads (Ropa�i)",
+    "name": "Ropa�u novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-081",
     "iso_3166_2": "081",
-    "name": "Rucavas novads (Rucava)",
+    "name": "Rucavas novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-082",
     "iso_3166_2": "082",
-    "name": "Rugaju novads (Rugaji)",
+    "name": "Rugaju novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-083",
     "iso_3166_2": "083",
-    "name": "Rundales novads (Rundale)",
+    "name": "Rundales novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-084",
     "iso_3166_2": "084",
-    "name": "Rujienas novads (Rujiena)",
+    "name": "Rujienas novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-085",
     "iso_3166_2": "085",
-    "name": "Salas novads (Sala)",
+    "name": "Salas novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-086",
     "iso_3166_2": "086",
-    "name": "Salacgrivas novads (Salacgriva)",
+    "name": "Salacgrivas novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-087",
     "iso_3166_2": "087",
-    "name": "Salaspils novads (Salaspils)",
+    "name": "Salaspils novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-088",
     "iso_3166_2": "088",
-    "name": "Saldus novads (Saldus)",
+    "name": "Saldus novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-089",
     "iso_3166_2": "089",
-    "name": "Saulkrastu novads (Saulkrasti)",
+    "name": "Saulkrastu novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-090",
     "iso_3166_2": "090",
-    "name": "Sejas novads (Seja)",
+    "name": "Sejas novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-091",
     "iso_3166_2": "091",
-    "name": "Siguldas novads (Sigulda)",
+    "name": "Siguldas novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-092",
     "iso_3166_2": "092",
-    "name": "Skriveru novads (Skriveri)",
+    "name": "Skriveru novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-093",
     "iso_3166_2": "093",
-    "name": "Skrundas novads (Skrunda)",
+    "name": "Skrundas novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-094",
     "iso_3166_2": "094",
-    "name": "Smiltenes novads (Smiltene)",
+    "name": "Smiltenes novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-095",
     "iso_3166_2": "095",
-    "name": "Stopinu novads (Stopini)",
+    "name": "Stopinu novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-096",
     "iso_3166_2": "096",
-    "name": "Strencu novads (Strenci)",
+    "name": "Strencu novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-097",
     "iso_3166_2": "097",
-    "name": "Talsu novads (Talsi)",
+    "name": "Talsu novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-098",
     "iso_3166_2": "098",
-    "name": "Tervetes novads (Tervete)",
+    "name": "Tervetes novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-099",
     "iso_3166_2": "099",
-    "name": "Tukuma novads (Tukums)",
+    "name": "Tukuma novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-100",
     "iso_3166_2": "100",
-    "name": "Vainodes novads (Vainode)",
+    "name": "Vainodes novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-101",
     "iso_3166_2": "101",
-    "name": "Valkas novads (Valka)",
+    "name": "Valkas novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-102",
     "iso_3166_2": "102",
-    "name": "Varaklanu novads (Varaklani)",
+    "name": "Varaklanu novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-103",
     "iso_3166_2": "103",
-    "name": "Varkavas novads (Varkava)",
+    "name": "Varkavas novads",
     "country": "LVA",
     "province_type": "municipality"
   },
@@ -15934,42 +15934,42 @@
   {
     "id": "LVA-105",
     "iso_3166_2": "105",
-    "name": "Vecumnieku novads (Vecumnieki)",
+    "name": "Vecumnieku novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-106",
     "iso_3166_2": "106",
-    "name": "Ventspils novads (Ventspils)",
+    "name": "Ventspils novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-107",
     "iso_3166_2": "107",
-    "name": "Viesites novads (Viesite)",
+    "name": "Viesites novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-108",
     "iso_3166_2": "108",
-    "name": "Vilakas novads (Vilaka)",
+    "name": "Vilakas novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-109",
     "iso_3166_2": "109",
-    "name": "Vilanu novads (Vilani)",
+    "name": "Vilanu novads",
     "country": "LVA",
     "province_type": "municipality"
   },
   {
     "id": "LVA-110",
     "iso_3166_2": "110",
-    "name": "Zilupes novads (Zilupe)",
+    "name": "Zilupes novads",
     "country": "LVA",
     "province_type": "municipality"
   },
@@ -16354,7 +16354,7 @@
   {
     "id": "MAR-BOD",
     "iso_3166_2": "BOD",
-    "name": "Boujdour (EH)",
+    "name": "Boujdour",
     "country": "MAR",
     "province_type": "province"
   },
@@ -16410,7 +16410,7 @@
   {
     "id": "MAR-ESM",
     "iso_3166_2": "ESM",
-    "name": "Es Smara (EH)",
+    "name": "Es Smara",
     "country": "MAR",
     "province_type": "province"
   },
@@ -16606,7 +16606,7 @@
   {
     "id": "MAR-OUD",
     "iso_3166_2": "OUD",
-    "name": "Oued ed Dahab (EH)",
+    "name": "Oued ed Dahab",
     "country": "MAR",
     "province_type": "province"
   },
@@ -16991,7 +16991,7 @@
   {
     "id": "MDA-GA",
     "iso_3166_2": "GA",
-    "name": "Gagauzia, Unitatea teritoriala autonoma (UTAG)",
+    "name": "Gagauzia, Unitatea teritoriala autonoma",
     "country": "MDA",
     "province_type": "other"
   },
@@ -19882,14 +19882,14 @@
   {
     "id": "NOR-21",
     "iso_3166_2": "21",
-    "name": "Svalbard (Arctic Region) (See also country code SJ)",
+    "name": "Svalbard",
     "country": "NOR",
     "province_type": "other"
   },
   {
     "id": "NOR-22",
     "iso_3166_2": "22",
-    "name": "Jan Mayen (Arctic Region) (See also country code SJ)",
+    "name": "Jan Mayen",
     "country": "NOR",
     "province_type": "other"
   },
@@ -20652,7 +20652,7 @@
   {
     "id": "PNG-NCD",
     "iso_3166_2": "NCD",
-    "name": "National Capital District (Port Moresby)",
+    "name": "National Capital District",
     "country": "PNG",
     "province_type": "district"
   },
@@ -20715,7 +20715,7 @@
   {
     "id": "PHL-00",
     "iso_3166_2": "00",
-    "name": "National Capital R�gion (Manila)",
+    "name": "National Capital R�gion",
     "country": "PHL",
     "province_type": "other"
   },
@@ -23123,7 +23123,7 @@
   {
     "id": "SLB-CT",
     "iso_3166_2": "CT",
-    "name": "Capital Territory (Honiara)",
+    "name": "Capital Territory",
     "country": "SLB",
     "province_type": "other"
   },
@@ -25111,7 +25111,7 @@
   {
     "id": "SLE-W",
     "iso_3166_2": "W",
-    "name": "Western Area (Freetown)",
+    "name": "Western Area",
     "country": "SLE",
     "province_type": "other"
   },
@@ -25692,7 +25692,7 @@
   {
     "id": "TGO-M",
     "iso_3166_2": "M",
-    "name": "Maritime (R�gion)",
+    "name": "Maritime",
     "country": "TGO",
     "province_type": "other"
   },
@@ -28569,7 +28569,7 @@
   {
     "id": "USA-AS",
     "iso_3166_2": "AS",
-    "name": "American Samoa (see also separate entry under AS)",
+    "name": "American Samoa",
     "country": "USA",
     "province_type": "outlying_area"
   },
@@ -28632,7 +28632,7 @@
   {
     "id": "USA-GU",
     "iso_3166_2": "GU",
-    "name": "Guam (see also separate entry under GU)",
+    "name": "Guam",
     "country": "USA",
     "province_type": "outlying_area"
   },
@@ -28737,7 +28737,7 @@
   {
     "id": "USA-MP",
     "iso_3166_2": "MP",
-    "name": "Northern Mariana Islands (see also separate entry MP)",
+    "name": "Northern Mariana Islands",
     "country": "USA",
     "province_type": "outlying_area"
   },
@@ -28842,7 +28842,7 @@
   {
     "id": "USA-PR",
     "iso_3166_2": "PR",
-    "name": "Puerto Rico (see also separate entry under PR)",
+    "name": "Puerto Rico",
     "country": "USA",
     "province_type": "outlying_area"
   },
@@ -28884,7 +28884,7 @@
   {
     "id": "USA-UM",
     "iso_3166_2": "UM",
-    "name": "U.S. Minor Outlying Islands (cf. separate entry UM)",
+    "name": "U.S. Minor Outlying Islands",
     "country": "USA",
     "province_type": "outlying_area"
   },
@@ -28905,7 +28905,7 @@
   {
     "id": "USA-VI",
     "iso_3166_2": "VI",
-    "name": "Virgin Islands of the U.S. (see also separate entry VI)",
+    "name": "Virgin Islands of the U.S.",
     "country": "USA",
     "province_type": "outlying_area"
   },

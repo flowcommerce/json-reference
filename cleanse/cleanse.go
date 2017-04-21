@@ -265,7 +265,7 @@ func Cleanse() {
 			func(record map[string]string) interface{} {
 				return Province{
 					Iso_3166_2:   record["province"],
-					Name:         record["name"],
+					Name:         strings.SplitN(record["name"], " (", 2)[0],
 					CountryCode:  record["country"],
 					ProvinceType: provinceType(record["type"]),
 				}
