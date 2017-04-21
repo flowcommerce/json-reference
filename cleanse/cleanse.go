@@ -267,7 +267,7 @@ func Cleanse() {
 					Iso_3166_2:   record["province"],
 					Name:         record["name"],
 					CountryCode:  record["country"],
-					ProvinceType: record["type"],
+					ProvinceType: provinceType(record["type"]),
 				}
 			},
 			func(record map[string]string) string {
@@ -353,6 +353,30 @@ func Cleanse() {
 			},
 		),
 	)
+}
+
+func provinceType(value string) string {
+	finalValue := common.FormatUnderscore(strings.ToLower(value))
+
+	validValues := []string{
+		"city",
+		"dependency",
+		"district",
+		"emirate",
+		"entity",
+		"municipality",
+		"outlying_area",
+		"parish",
+		"province",
+		"state",
+		"territory",
+	}
+
+	if common.ContainsIgnoreCase(validValues, finalValue) {
+		return finalValue
+	} else {
+		return "other"
+	}
 }
 
 func countryName(record map[string]string) string {

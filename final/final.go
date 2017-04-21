@@ -25,6 +25,7 @@ type CleansedDataSet struct {
 	Languages         []cleanse.Language
 	LocaleNames       []cleanse.LocaleName
 	PaymentMethods    []cleanse.PaymentMethod
+	Provinces         []cleanse.Province
 	Timezones         []cleanse.Timezone
 	CountryTimezones  []cleanse.CountryTimezone
 }
@@ -40,6 +41,7 @@ func Generate() {
 		Languages:         cleanse.LoadLanguages(),
 		LocaleNames:       cleanse.LoadLocaleNames(),
 		PaymentMethods:    cleanse.LoadPaymentMethods(),
+		Provinces:         cleanse.LoadProvinces(),
 		Numbers:           cleanse.LoadNumbers(),
 		Timezones:         cleanse.LoadTimezones(),
 		CountryTimezones:  cleanse.LoadCountryTimezones(),
@@ -49,6 +51,7 @@ func Generate() {
 	countries := commonCountries(data)
 	locales := commonLocales(data)
 	regions := createRegions(countries, continents)
+	provinces := createProvinces(data)
 
 	writeJson("data/final/continents.json", continents)
 	writeJson("data/final/payment-methods.json", commonPaymentMethods(data, regions))
@@ -58,6 +61,7 @@ func Generate() {
 	writeJson("data/final/timezones.json", commonTimezones(data))
 	writeJson("data/final/countries.json", countries)
 	writeJson("data/final/regions.json", regions)
+	writeJson("data/final/provinces.json", provinces)
 }
 
 func writeJson(target string, objects interface{}) {
@@ -419,6 +423,23 @@ func createRegions(countries []common.Country, continents []common.Continent) []
 	assertUniqueRegionIds(regions)
 	sortRegions(regions)
 	return regions
+}
+
+func createProvinces(data CleansedDataSet) []common.Province {
+	provinces := []common.Province{}
+
+	for _, p := range data.Provinces {
+		country := findCountryByCode(data.Countries, p.CountryCode)
+		provinces = append(provinces, common.Province{
+			Id:           country.Iso_3166_3 + "-" + p.Iso_3166_2,
+			Iso_3166_2:   p.Iso_3166_2,
+			Name:         p.Name,
+			Country:      country.Iso_3166_3,
+			ProvinceType: p.ProvinceType,
+		})
+	}
+
+	return provinces
 }
 
 func eurozone(countries []common.Country) common.Region {
