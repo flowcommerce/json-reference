@@ -576,6 +576,13 @@ func toObjects(records []map[string]string, accepts acceptsFunction, f convertFu
 	return sortObjects(added)
 }
 
+func LoadProvinces() []Province {
+	provinces := []Province{}
+	err := json.Unmarshal(common.ReadFile("data/cleansed/provinces.json"), &provinces)
+	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshal provinces: %s", err))
+	return provinces
+}
+
 func LoadCountryDuties() []CountryDuty {
 	countryDuties := []CountryDuty{}
 	err := json.Unmarshal(common.ReadFile("data/cleansed/country-duties.json"), &countryDuties)
