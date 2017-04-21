@@ -155,6 +155,13 @@ func PaymentMethods() []PaymentMethod {
 	return paymentMethods
 }
 
+func Provinces() []Province {
+	provinces := []Province{}
+	err := json.Unmarshal(readDataFileFromUrl("provinces.json"), &provinces)
+	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshal provinces: %s", err))
+	return provinces
+}
+
 func Regions() []Region {
 	regions := []Region{}
 	err := json.Unmarshal(readDataFileFromUrl("regions.json"), &regions)
