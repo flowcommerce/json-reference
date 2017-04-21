@@ -428,15 +428,28 @@ func createRegions(countries []common.Country, continents []common.Continent) []
 func createProvinces(data CleansedDataSet) []common.Province {
 	provinces := []common.Province{}
 
+	// There are too many provinces - only do these countries for now
+	validCountries := []string{
+		"AUS",
+		"GBR",
+		"CAN",
+		"USA",
+		"CHL",
+		"IRL",
+		"CHN",
+	}
+
 	for _, p := range data.Provinces {
 		country := findCountryByCode(data.Countries, p.CountryCode)
-		provinces = append(provinces, common.Province{
-			Id:           country.Iso_3166_3 + "-" + p.Iso_3166_2,
-			Iso_3166_2:   p.Iso_3166_2,
-			Name:         p.Name,
-			Country:      country.Iso_3166_3,
-			ProvinceType: p.ProvinceType,
-		})
+		if common.ContainsIgnoreCase(validCountries, country.Iso_3166_3) {
+			provinces = append(provinces, common.Province{
+				Id:           country.Iso_3166_3 + "-" + p.Iso_3166_2,
+				Iso_3166_2:   p.Iso_3166_2,
+				Name:         p.Name,
+				Country:      country.Iso_3166_3,
+				ProvinceType: p.ProvinceType,
+			})
+		}
 	}
 
 	return provinces
