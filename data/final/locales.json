@@ -720,26 +720,6 @@
     }
   },
   {
-    "id": "en-HK",
-    "name": "English - China, Hong Kong Special Administrative Region",
-    "country": "HKG",
-    "language": "en",
-    "numbers": {
-      "decimal": ".",
-      "group": ","
-    }
-  },
-  {
-    "id": "en-MO",
-    "name": "English - China, Macao Special Administrative Region",
-    "country": "MAC",
-    "language": "en",
-    "numbers": {
-      "decimal": ".",
-      "group": ","
-    }
-  },
-  {
     "id": "en-CK",
     "name": "English - Cook Islands",
     "country": "COK",
@@ -781,7 +761,7 @@
   },
   {
     "id": "en-FK",
-    "name": "English - Falkland Islans",
+    "name": "English - Falkland Islands",
     "country": "FLK",
     "language": "en",
     "numbers": {
@@ -900,6 +880,16 @@
     }
   },
   {
+    "id": "en-HK",
+    "name": "English - Hong Kong",
+    "country": "HKG",
+    "language": "en",
+    "numbers": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
     "id": "en-IN",
     "name": "English - India",
     "country": "IND",
@@ -983,6 +973,16 @@
     "id": "en-LS",
     "name": "English - Lesotho",
     "country": "LSO",
+    "language": "en",
+    "numbers": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
+    "id": "en-MO",
+    "name": "English - Macau",
+    "country": "MAC",
     "language": "en",
     "numbers": {
       "decimal": ".",
@@ -2440,16 +2440,6 @@
     }
   },
   {
-    "id": "pt-MO",
-    "name": "Portuguese - China, Macao Special Administrative Region",
-    "country": "MAC",
-    "language": "pt",
-    "numbers": {
-      "decimal": ",",
-      "group": " "
-    }
-  },
-  {
     "id": "pt-GQ",
     "name": "Portuguese - Equatorial Guinea",
     "country": "GNQ",
@@ -2473,6 +2463,16 @@
     "id": "pt-LU",
     "name": "Portuguese - Luxembourg",
     "country": "LUX",
+    "language": "pt",
+    "numbers": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "id": "pt-MO",
+    "name": "Portuguese - Macau",
+    "country": "MAC",
     "language": "pt",
     "numbers": {
       "decimal": ",",

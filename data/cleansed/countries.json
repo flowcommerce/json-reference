@@ -273,20 +273,6 @@
     "currency": "CNY"
   },
   {
-    "name": "China, Hong Kong Special Administrative Region",
-    "continent": "AS",
-    "iso_3166_2": "HK",
-    "iso_3166_3": "HKG",
-    "currency": "HKD"
-  },
-  {
-    "name": "China, Macao Special Administrative Region",
-    "continent": "AS",
-    "iso_3166_2": "MO",
-    "iso_3166_3": "MAC",
-    "currency": "MOP"
-  },
-  {
     "name": "Colombia",
     "continent": "SA",
     "iso_3166_2": "CO",
@@ -427,7 +413,7 @@
     "currency": "ETB"
   },
   {
-    "name": "Falkland Islans",
+    "name": "Falkland Islands",
     "continent": "SA",
     "iso_3166_2": "FK",
     "iso_3166_3": "FLK",
@@ -600,6 +586,13 @@
     "iso_3166_2": "HN",
     "iso_3166_3": "HND",
     "currency": "HNL"
+  },
+  {
+    "name": "Hong Kong",
+    "continent": "AS",
+    "iso_3166_2": "HK",
+    "iso_3166_3": "HKG",
+    "currency": "HKD"
   },
   {
     "name": "Hungary",
@@ -775,6 +768,13 @@
     "iso_3166_2": "LU",
     "iso_3166_3": "LUX",
     "currency": "EUR"
+  },
+  {
+    "name": "Macau",
+    "continent": "AS",
+    "iso_3166_2": "MO",
+    "iso_3166_3": "MAC",
+    "currency": "MOP"
   },
   {
     "name": "Malawi",

@@ -929,42 +929,6 @@
     ]
   },
   {
-    "id": "hkg",
-    "name": "China, Hong Kong Special Administrative Region",
-    "countries": [
-      "HKG"
-    ],
-    "currencies": [
-      "HKD"
-    ],
-    "languages": [
-      "en",
-      "zh"
-    ],
-    "measurement_systems": [
-      "metric"
-    ],
-    "timezones": []
-  },
-  {
-    "id": "mac",
-    "name": "China, Macao Special Administrative Region",
-    "countries": [
-      "MAC"
-    ],
-    "currencies": [
-      "MOP"
-    ],
-    "languages": [
-      "pt",
-      "zh"
-    ],
-    "measurement_systems": [
-      "metric"
-    ],
-    "timezones": []
-  },
-  {
     "id": "col",
     "name": "Colombia",
     "countries": [
@@ -1514,7 +1478,7 @@
   },
   {
     "id": "flk",
-    "name": "Falkland Islans",
+    "name": "Falkland Islands",
     "countries": [
       "FLK"
     ],
@@ -1931,6 +1895,24 @@
     ],
     "languages": [
       "es"
+    ],
+    "measurement_systems": [
+      "metric"
+    ],
+    "timezones": []
+  },
+  {
+    "id": "hkg",
+    "name": "Hong Kong",
+    "countries": [
+      "HKG"
+    ],
+    "currencies": [
+      "HKD"
+    ],
+    "languages": [
+      "en",
+      "zh"
     ],
     "measurement_systems": [
       "metric"
@@ -2373,6 +2355,24 @@
       "de",
       "fr",
       "lb"
+    ],
+    "measurement_systems": [
+      "metric"
+    ],
+    "timezones": []
+  },
+  {
+    "id": "mac",
+    "name": "Macau",
+    "countries": [
+      "MAC"
+    ],
+    "currencies": [
+      "MOP"
+    ],
+    "languages": [
+      "pt",
+      "zh"
     ],
     "measurement_systems": [
       "metric"
