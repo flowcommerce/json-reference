@@ -477,32 +477,6 @@
     "default_delivered_duty": "paid"
   },
   {
-    "name": "China, Hong Kong Special Administrative Region",
-    "iso_3166_2": "HK",
-    "iso_3166_3": "HKG",
-    "measurement_system": "metric",
-    "default_currency": "HKD",
-    "languages": [
-      "en",
-      "zh"
-    ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
-  },
-  {
-    "name": "China, Macao Special Administrative Region",
-    "iso_3166_2": "MO",
-    "iso_3166_3": "MAC",
-    "measurement_system": "metric",
-    "default_currency": "MOP",
-    "languages": [
-      "pt",
-      "zh"
-    ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
-  },
-  {
     "name": "Colombia",
     "iso_3166_2": "CO",
     "iso_3166_3": "COL",
@@ -753,7 +727,7 @@
     "default_delivered_duty": "paid"
   },
   {
-    "name": "Falkland Islans",
+    "name": "Falkland Islands",
     "iso_3166_2": "FK",
     "iso_3166_3": "FLK",
     "measurement_system": "metric",
@@ -1048,6 +1022,19 @@
     "default_currency": "HNL",
     "languages": [
       "es"
+    ],
+    "timezones": [],
+    "default_delivered_duty": "paid"
+  },
+  {
+    "name": "Hong Kong",
+    "iso_3166_2": "HK",
+    "iso_3166_3": "HKG",
+    "measurement_system": "metric",
+    "default_currency": "HKD",
+    "languages": [
+      "en",
+      "zh"
     ],
     "timezones": [],
     "default_delivered_duty": "paid"
@@ -1365,6 +1352,19 @@
       "de",
       "fr",
       "lb"
+    ],
+    "timezones": [],
+    "default_delivered_duty": "paid"
+  },
+  {
+    "name": "Macau",
+    "iso_3166_2": "MO",
+    "iso_3166_3": "MAC",
+    "measurement_system": "metric",
+    "default_currency": "MOP",
+    "languages": [
+      "pt",
+      "zh"
     ],
     "timezones": [],
     "default_delivered_duty": "paid"
