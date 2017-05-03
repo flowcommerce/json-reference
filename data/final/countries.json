@@ -12,6 +12,18 @@
     "default_delivered_duty": "paid"
   },
   {
+    "name": "Algeria",
+    "iso_3166_2": "DZ",
+    "iso_3166_3": "DZA",
+    "measurement_system": "metric",
+    "default_currency": "DZD",
+    "languages": [
+      "ar"
+    ],
+    "timezones": [],
+    "default_delivered_duty": "paid"
+  },
+  {
     "name": "American Samoa",
     "iso_3166_2": "AS",
     "iso_3166_3": "ASM",
@@ -287,6 +299,18 @@
     "languages": [
       "en",
       "tn"
+    ],
+    "timezones": [],
+    "default_delivered_duty": "paid"
+  },
+  {
+    "name": "Brazil",
+    "iso_3166_2": "BR",
+    "iso_3166_3": "BRA",
+    "measurement_system": "metric",
+    "default_currency": "BRL",
+    "languages": [
+      "pt"
     ],
     "timezones": [],
     "default_delivered_duty": "paid"
@@ -978,6 +1002,19 @@
     "default_delivered_duty": "paid"
   },
   {
+    "name": "Holy See",
+    "iso_3166_2": "VA",
+    "iso_3166_3": "VAT",
+    "measurement_system": "metric",
+    "default_currency": "EUR",
+    "languages": [
+      "it",
+      "la"
+    ],
+    "timezones": [],
+    "default_delivered_duty": "paid"
+  },
+  {
     "name": "Honduras",
     "iso_3166_2": "HN",
     "iso_3166_3": "HND",
@@ -1070,6 +1107,16 @@
     "timezones": [
       "GMT"
     ],
+    "default_delivered_duty": "paid"
+  },
+  {
+    "name": "Isle of Man",
+    "iso_3166_2": "IM",
+    "iso_3166_3": "IMN",
+    "measurement_system": "metric",
+    "default_currency": "GBP",
+    "languages": [],
+    "timezones": [],
     "default_delivered_duty": "paid"
   },
   {
@@ -1522,6 +1569,18 @@
     "default_delivered_duty": "paid"
   },
   {
+    "name": "Morocco",
+    "iso_3166_2": "MA",
+    "iso_3166_3": "MAR",
+    "measurement_system": "metric",
+    "default_currency": "MAD",
+    "languages": [
+      "ar"
+    ],
+    "timezones": [],
+    "default_delivered_duty": "paid"
+  },
+  {
     "name": "Namibia",
     "iso_3166_2": "NA",
     "iso_3166_3": "NAM",
@@ -1643,6 +1702,16 @@
     "iso_3166_3": "NIU",
     "measurement_system": "metric",
     "default_currency": "NZD",
+    "languages": [],
+    "timezones": [],
+    "default_delivered_duty": "paid"
+  },
+  {
+    "name": "Norfolk Island",
+    "iso_3166_2": "NF",
+    "iso_3166_3": "NFK",
+    "measurement_system": "metric",
+    "default_currency": "AUD",
     "languages": [],
     "timezones": [],
     "default_delivered_duty": "paid"
@@ -1774,6 +1843,16 @@
     "default_delivered_duty": "paid"
   },
   {
+    "name": "Pitcairn",
+    "iso_3166_2": "PN",
+    "iso_3166_3": "PCN",
+    "measurement_system": "metric",
+    "default_currency": "NZD",
+    "languages": [],
+    "timezones": [],
+    "default_delivered_duty": "paid"
+  },
+  {
     "name": "Poland",
     "iso_3166_2": "PL",
     "iso_3166_3": "POL",
@@ -1793,6 +1872,18 @@
     "default_currency": "EUR",
     "languages": [
       "pt"
+    ],
+    "timezones": [],
+    "default_delivered_duty": "paid"
+  },
+  {
+    "name": "Puerto Rico",
+    "iso_3166_2": "PR",
+    "iso_3166_3": "PRI",
+    "measurement_system": "metric",
+    "default_currency": "USD",
+    "languages": [
+      "es"
     ],
     "timezones": [],
     "default_delivered_duty": "paid"
@@ -1940,6 +2031,18 @@
     "default_delivered_duty": "paid"
   },
   {
+    "name": "Saint Pierre and Miquelon",
+    "iso_3166_2": "PM",
+    "iso_3166_3": "SPM",
+    "measurement_system": "metric",
+    "default_currency": "EUR",
+    "languages": [
+      "fr"
+    ],
+    "timezones": [],
+    "default_delivered_duty": "paid"
+  },
+  {
     "name": "Saint Vincent and the Grenadines",
     "iso_3166_2": "VC",
     "iso_3166_3": "VCT",
@@ -2066,6 +2169,19 @@
     "default_delivered_duty": "paid"
   },
   {
+    "name": "Sint Maarten",
+    "iso_3166_2": "SX",
+    "iso_3166_3": "SXM",
+    "measurement_system": "metric",
+    "default_currency": "ANG",
+    "languages": [
+      "en",
+      "nl"
+    ],
+    "timezones": [],
+    "default_delivered_duty": "paid"
+  },
+  {
     "name": "Slovakia",
     "iso_3166_2": "SK",
     "iso_3166_3": "SVK",
@@ -2165,6 +2281,16 @@
     "default_delivered_duty": "paid"
   },
   {
+    "name": "Svalbard and Jan Mayen Islands",
+    "iso_3166_2": "SJ",
+    "iso_3166_3": "SJM",
+    "measurement_system": "metric",
+    "default_currency": "NOK",
+    "languages": [],
+    "timezones": [],
+    "default_delivered_duty": "paid"
+  },
+  {
     "name": "Swaziland",
     "iso_3166_2": "SZ",
     "iso_3166_3": "SWZ",
@@ -2254,6 +2380,16 @@
     "default_delivered_duty": "paid"
   },
   {
+    "name": "Tokelau",
+    "iso_3166_2": "TK",
+    "iso_3166_3": "TKL",
+    "measurement_system": "metric",
+    "default_currency": "NZD",
+    "languages": [],
+    "timezones": [],
+    "default_delivered_duty": "paid"
+  },
+  {
     "name": "Tonga",
     "iso_3166_2": "TO",
     "iso_3166_3": "TON",
@@ -2273,6 +2409,18 @@
     "default_currency": "TTD",
     "languages": [
       "en"
+    ],
+    "timezones": [],
+    "default_delivered_duty": "paid"
+  },
+  {
+    "name": "Tunisia",
+    "iso_3166_2": "TN",
+    "iso_3166_3": "TUN",
+    "measurement_system": "metric",
+    "default_currency": "TND",
+    "languages": [
+      "ar"
     ],
     "timezones": [],
     "default_delivered_duty": "paid"
@@ -2377,6 +2525,32 @@
     "default_delivered_duty": "paid"
   },
   {
+    "name": "United States of America",
+    "iso_3166_2": "US",
+    "iso_3166_3": "USA",
+    "measurement_system": "imperial",
+    "default_currency": "USD",
+    "languages": [
+      "en"
+    ],
+    "timezones": [
+      "America/Chicago",
+      "America/Los_Angeles",
+      "America/New_York"
+    ],
+    "default_delivered_duty": "paid"
+  },
+  {
+    "name": "United States Virgin Islands",
+    "iso_3166_2": "VI",
+    "iso_3166_3": "VIR",
+    "measurement_system": "metric",
+    "default_currency": "USD",
+    "languages": [],
+    "timezones": [],
+    "default_delivered_duty": "paid"
+  },
+  {
     "name": "Uruguay",
     "iso_3166_2": "UY",
     "iso_3166_3": "URY",
@@ -2439,6 +2613,30 @@
     "default_delivered_duty": "paid"
   },
   {
+    "name": "Wallis and Futuna Islands",
+    "iso_3166_2": "WF",
+    "iso_3166_3": "WLF",
+    "measurement_system": "metric",
+    "default_currency": "XPF",
+    "languages": [
+      "fr"
+    ],
+    "timezones": [],
+    "default_delivered_duty": "paid"
+  },
+  {
+    "name": "Western Sahara",
+    "iso_3166_2": "EH",
+    "iso_3166_3": "ESH",
+    "measurement_system": "metric",
+    "default_currency": "MAD",
+    "languages": [
+      "es"
+    ],
+    "timezones": [],
+    "default_delivered_duty": "paid"
+  },
+  {
     "name": "Yemen",
     "iso_3166_2": "YE",
     "iso_3166_3": "YEM",
@@ -2458,6 +2656,18 @@
     "default_currency": "ZMW",
     "languages": [
       "en"
+    ],
+    "timezones": [],
+    "default_delivered_duty": "paid"
+  },
+  {
+    "name": "Åland Islands",
+    "iso_3166_2": "AX",
+    "iso_3166_3": "ALA",
+    "measurement_system": "metric",
+    "default_currency": "EUR",
+    "languages": [
+      "sv"
     ],
     "timezones": [],
     "default_delivered_duty": "paid"

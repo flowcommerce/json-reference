@@ -13,7 +13,9 @@
       "COM",
       "CPV",
       "DJI",
+      "DZA",
       "EGY",
+      "ESH",
       "ETH",
       "GAB",
       "GHA",
@@ -24,6 +26,7 @@
       "KEN",
       "LBY",
       "LSO",
+      "MAR",
       "MLI",
       "MRT",
       "MUS",
@@ -43,6 +46,7 @@
       "SYC",
       "TCD",
       "TGO",
+      "TUN",
       "TZA",
       "UGA",
       "ZAF",
@@ -104,6 +108,7 @@
     "name": "Europe",
     "code": "EUR",
     "countries": [
+      "ALA",
       "ALB",
       "AND",
       "AUT",
@@ -125,6 +130,7 @@
       "GRC",
       "HRV",
       "HUN",
+      "IMN",
       "IRL",
       "ISL",
       "ITA",
@@ -143,12 +149,14 @@
       "PRT",
       "ROU",
       "RUS",
+      "SJM",
       "SMR",
       "SRB",
       "SVK",
       "SVN",
       "SWE",
-      "UKR"
+      "UKR",
+      "VAT"
     ]
   },
   {
@@ -185,11 +193,16 @@
       "MTQ",
       "NIC",
       "PAN",
+      "PRI",
       "SLV",
+      "SPM",
+      "SXM",
       "TCA",
       "TTO",
+      "USA",
       "VCT",
-      "VGB"
+      "VGB",
+      "VIR"
     ]
   },
   {
@@ -206,17 +219,21 @@
       "MHL",
       "MNP",
       "NCL",
+      "NFK",
       "NIU",
       "NRU",
       "NZL",
+      "PCN",
       "PLW",
       "PNG",
       "PYF",
       "SLB",
+      "TKL",
       "TLS",
       "TON",
       "TUV",
       "VUT",
+      "WLF",
       "WSM"
     ]
   },
@@ -226,6 +243,7 @@
     "countries": [
       "ARG",
       "BOL",
+      "BRA",
       "CHL",
       "COL",
       "ECU",

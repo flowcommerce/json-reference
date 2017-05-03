@@ -128,11 +128,10 @@ func commonLocales(data CleansedDataSet) []common.Locale {
 		"se":  "sw",
 	}
 
-	supportedCountryCodes := common.SupportedCountryCodes()
+	unsupportedCountryCodes := common.UnsupportedCountryCodes()
 
 	for _, n := range data.Numbers {
-		// if country isn't in the supportedCountryCodes, ignore it
-		if !common.ContainsIgnoreCase(supportedCountryCodes, n.Country) {
+		if common.ContainsIgnoreCase(unsupportedCountryCodes, n.Country) {
 			continue
 		}
 
