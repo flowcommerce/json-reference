@@ -316,6 +316,23 @@ func UnsupportedCountryCodes() []string {
 		"TKM",
 		"UMI",
 		"ZWE",
+		"DZA",
+		"BRA",
+		"VAT",
+		"IMN",
+		"MAR",
+		"NFK",
+		"PCN",
+		"PRI",
+		"SPM",
+		"SXM",
+		"SJM",
+		"TKL",
+		"TUN",
+		"VIR",
+		"WLF",
+		"ESH",
+		"ALA",
 	}
 }
 
