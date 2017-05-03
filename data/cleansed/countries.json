@@ -7,13 +7,6 @@
     "currency": "ALL"
   },
   {
-    "name": "Algeria",
-    "continent": "AF",
-    "iso_3166_2": "DZ",
-    "iso_3166_3": "DZA",
-    "currency": "DZD"
-  },
-  {
     "name": "American Samoa",
     "continent": "OC",
     "iso_3166_2": "AS",
@@ -173,13 +166,6 @@
     "iso_3166_2": "BW",
     "iso_3166_3": "BWA",
     "currency": "BWP"
-  },
-  {
-    "name": "Brazil",
-    "continent": "SA",
-    "iso_3166_2": "BR",
-    "iso_3166_3": "BRA",
-    "currency": "BRL"
   },
   {
     "name": "British Virgin Islands",
@@ -574,13 +560,6 @@
     "currency": "USD"
   },
   {
-    "name": "Holy See",
-    "continent": "EU",
-    "iso_3166_2": "VA",
-    "iso_3166_3": "VAT",
-    "currency": "EUR"
-  },
-  {
     "name": "Honduras",
     "continent": "NA",
     "iso_3166_2": "HN",
@@ -628,13 +607,6 @@
     "iso_3166_2": "IE",
     "iso_3166_3": "IRL",
     "currency": "EUR"
-  },
-  {
-    "name": "Isle of Man",
-    "continent": "EU",
-    "iso_3166_2": "IM",
-    "iso_3166_3": "IMN",
-    "currency": "GBP"
   },
   {
     "name": "Israel",
@@ -889,13 +861,6 @@
     "currency": "XCD"
   },
   {
-    "name": "Morocco",
-    "continent": "AF",
-    "iso_3166_2": "MA",
-    "iso_3166_3": "MAR",
-    "currency": "MAD"
-  },
-  {
     "name": "Namibia",
     "continent": "AF",
     "iso_3166_2": "NA",
@@ -964,13 +929,6 @@
     "iso_3166_2": "NU",
     "iso_3166_3": "NIU",
     "currency": "NZD"
-  },
-  {
-    "name": "Norfolk Island",
-    "continent": "OC",
-    "iso_3166_2": "NF",
-    "iso_3166_3": "NFK",
-    "currency": "AUD"
   },
   {
     "name": "Northern Mariana Islands",
@@ -1043,13 +1001,6 @@
     "currency": "PHP"
   },
   {
-    "name": "Pitcairn",
-    "continent": "OC",
-    "iso_3166_2": "PN",
-    "iso_3166_3": "PCN",
-    "currency": "NZD"
-  },
-  {
     "name": "Poland",
     "continent": "EU",
     "iso_3166_2": "PL",
@@ -1062,13 +1013,6 @@
     "iso_3166_2": "PT",
     "iso_3166_3": "PRT",
     "currency": "EUR"
-  },
-  {
-    "name": "Puerto Rico",
-    "continent": "NA",
-    "iso_3166_2": "PR",
-    "iso_3166_3": "PRI",
-    "currency": "USD"
   },
   {
     "name": "Qatar",
@@ -1155,13 +1099,6 @@
     "currency": "EUR"
   },
   {
-    "name": "Saint Pierre and Miquelon",
-    "continent": "NA",
-    "iso_3166_2": "PM",
-    "iso_3166_3": "SPM",
-    "currency": "EUR"
-  },
-  {
     "name": "Saint Vincent and the Grenadines",
     "continent": "NA",
     "iso_3166_2": "VC",
@@ -1232,13 +1169,6 @@
     "currency": "SGD"
   },
   {
-    "name": "Sint Maarten",
-    "continent": "NA",
-    "iso_3166_2": "SX",
-    "iso_3166_3": "SXM",
-    "currency": "ANG"
-  },
-  {
     "name": "Slovakia",
     "continent": "EU",
     "iso_3166_2": "SK",
@@ -1286,13 +1216,6 @@
     "iso_3166_2": "LK",
     "iso_3166_3": "LKA",
     "currency": "LKR"
-  },
-  {
-    "name": "Svalbard and Jan Mayen Islands",
-    "continent": "EU",
-    "iso_3166_2": "SJ",
-    "iso_3166_3": "SJM",
-    "currency": "NOK"
   },
   {
     "name": "Swaziland",
@@ -1344,13 +1267,6 @@
     "currency": "XOF"
   },
   {
-    "name": "Tokelau",
-    "continent": "OC",
-    "iso_3166_2": "TK",
-    "iso_3166_3": "TKL",
-    "currency": "NZD"
-  },
-  {
     "name": "Tonga",
     "continent": "OC",
     "iso_3166_2": "TO",
@@ -1363,13 +1279,6 @@
     "iso_3166_2": "TT",
     "iso_3166_3": "TTO",
     "currency": "TTD"
-  },
-  {
-    "name": "Tunisia",
-    "continent": "AF",
-    "iso_3166_2": "TN",
-    "iso_3166_3": "TUN",
-    "currency": "TND"
   },
   {
     "name": "Turkey",
@@ -1428,20 +1337,6 @@
     "currency": "TZS"
   },
   {
-    "name": "United States of America",
-    "continent": "NA",
-    "iso_3166_2": "US",
-    "iso_3166_3": "USA",
-    "currency": "USD"
-  },
-  {
-    "name": "United States Virgin Islands",
-    "continent": "NA",
-    "iso_3166_2": "VI",
-    "iso_3166_3": "VIR",
-    "currency": "USD"
-  },
-  {
     "name": "Uruguay",
     "continent": "SA",
     "iso_3166_2": "UY",
@@ -1477,20 +1372,6 @@
     "currency": "VND"
   },
   {
-    "name": "Wallis and Futuna Islands",
-    "continent": "OC",
-    "iso_3166_2": "WF",
-    "iso_3166_3": "WLF",
-    "currency": "XPF"
-  },
-  {
-    "name": "Western Sahara",
-    "continent": "AF",
-    "iso_3166_2": "EH",
-    "iso_3166_3": "ESH",
-    "currency": "MAD"
-  },
-  {
     "name": "Yemen",
     "continent": "AS",
     "iso_3166_2": "YE",
@@ -1503,12 +1384,5 @@
     "iso_3166_2": "ZM",
     "iso_3166_3": "ZMB",
     "currency": "ZMW"
-  },
-  {
-    "name": "Åland Islands",
-    "continent": "EU",
-    "iso_3166_2": "AX",
-    "iso_3166_3": "ALA",
-    "currency": "EUR"
   }
 ]
