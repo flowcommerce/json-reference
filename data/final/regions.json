@@ -662,6 +662,23 @@
     "timezones": []
   },
   {
+    "id": "bra",
+    "name": "Brazil",
+    "countries": [
+      "BRA"
+    ],
+    "currencies": [
+      "BRL"
+    ],
+    "languages": [
+      "pt"
+    ],
+    "measurement_systems": [
+      "metric"
+    ],
+    "timezones": []
+  },
+  {
     "id": "vgb",
     "name": "British Virgin Islands",
     "countries": [
@@ -3583,6 +3600,7 @@
     "countries": [
       "ARG",
       "BOL",
+      "BRA",
       "CHL",
       "COL",
       "ECU",
@@ -3597,6 +3615,7 @@
     "currencies": [
       "ARS",
       "BOB",
+      "BRL",
       "CLP",
       "COP",
       "EUR",
@@ -3614,6 +3633,7 @@
       "es",
       "fr",
       "gn",
+      "pt",
       "qu"
     ],
     "measurement_systems": [
@@ -4091,6 +4111,7 @@
       "BLZ",
       "BMU",
       "BOL",
+      "BRA",
       "BRB",
       "BRN",
       "BTN",
@@ -4283,6 +4304,7 @@
       "BMD",
       "BND",
       "BOB",
+      "BRL",
       "BSD",
       "BWP",
       "BZD",

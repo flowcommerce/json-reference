@@ -108,7 +108,8 @@
     "number_decimals": 2,
     "symbols": {
       "primary": "R$"
-    }
+    },
+    "default_locale": "pt-BR"
   },
   {
     "name": "Brunei Dollar",

@@ -2240,6 +2240,16 @@
     }
   },
   {
+    "id": "pt-BR",
+    "name": "Portuguese - Brazil",
+    "country": "BRA",
+    "language": "pt",
+    "numbers": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
     "id": "pt-CV",
     "name": "Portuguese - Cabo Verde",
     "country": "CPV",
@@ -2557,6 +2567,16 @@
     "numbers": {
       "decimal": ",",
       "group": "."
+    }
+  },
+  {
+    "id": "es-BR",
+    "name": "Spanish - Brazil",
+    "country": "BRA",
+    "language": "es",
+    "numbers": {
+      "decimal": ".",
+      "group": ","
     }
   },
   {

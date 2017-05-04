@@ -168,6 +168,13 @@
     "currency": "BWP"
   },
   {
+    "name": "Brazil",
+    "continent": "SA",
+    "iso_3166_2": "BR",
+    "iso_3166_3": "BRA",
+    "currency": "BRL"
+  },
+  {
     "name": "British Virgin Islands",
     "continent": "NA",
     "iso_3166_2": "VG",

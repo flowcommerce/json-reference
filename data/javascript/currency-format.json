@@ -104,6 +104,13 @@
     "precision": 2,
     "format": "%s%v"
   },
+  "dz-BT": {
+    "symbol": "₹",
+    "decimal": ".",
+    "group": ",",
+    "precision": 2,
+    "format": "%s%v"
+  },
   "ee": {
     "symbol": "€",
     "decimal": ".",
@@ -272,13 +279,6 @@
     "precision": 2,
     "format": "%s%v"
   },
-  "en-IM": {
-    "symbol": "£",
-    "decimal": ".",
-    "group": ",",
-    "precision": 2,
-    "format": "%s%v"
-  },
   "en-IN": {
     "symbol": "₹",
     "decimal": ".",
@@ -342,13 +342,6 @@
     "precision": 2,
     "format": "%s%v"
   },
-  "en-NF": {
-    "symbol": "A$",
-    "decimal": ".",
-    "group": ",",
-    "precision": 2,
-    "format": "%s%v"
-  },
   "en-NL": {
     "symbol": "€",
     "decimal": ",",
@@ -377,20 +370,6 @@
     "precision": 2,
     "format": "%s%v"
   },
-  "en-PN": {
-    "symbol": "NZ$",
-    "decimal": ".",
-    "group": ",",
-    "precision": 2,
-    "format": "%s%v"
-  },
-  "en-PR": {
-    "symbol": "$",
-    "decimal": ".",
-    "group": ",",
-    "precision": 2,
-    "format": "%s%v"
-  },
   "en-PW": {
     "symbol": "$",
     "decimal": ".",
@@ -407,13 +386,6 @@
   },
   "en-TC": {
     "symbol": "$",
-    "decimal": ".",
-    "group": ",",
-    "precision": 2,
-    "format": "%s%v"
-  },
-  "en-TK": {
-    "symbol": "NZ$",
     "decimal": ".",
     "group": ",",
     "precision": 2,
@@ -447,24 +419,10 @@
     "precision": 2,
     "format": "%s%v"
   },
-  "en-VI": {
-    "symbol": "$",
-    "decimal": ".",
-    "group": ",",
-    "precision": 2,
-    "format": "%s%v"
-  },
   "es": {
     "symbol": "€",
     "decimal": ",",
     "group": ".",
-    "precision": 2,
-    "format": "%s%v"
-  },
-  "es-BR": {
-    "symbol": "R$",
-    "decimal": ".",
-    "group": ",",
     "precision": 2,
     "format": "%s%v"
   },
@@ -490,13 +448,6 @@
     "format": "%s%v"
   },
   "es-PA": {
-    "symbol": "$",
-    "decimal": ".",
-    "group": ",",
-    "precision": 2,
-    "format": "%s%v"
-  },
-  "es-PR": {
     "symbol": "$",
     "decimal": ".",
     "group": ",",
@@ -692,13 +643,6 @@
     "precision": 0,
     "format": "%s%v"
   },
-  "fr-PM": {
-    "symbol": "€",
-    "decimal": ",",
-    "group": " ",
-    "precision": 2,
-    "format": "%s%v"
-  },
   "fr-RE": {
     "symbol": "€",
     "decimal": ",",
@@ -722,13 +666,6 @@
   },
   "fr-TG": {
     "symbol": "CFA",
-    "decimal": ",",
-    "group": " ",
-    "precision": 0,
-    "format": "%s%v"
-  },
-  "fr-WF": {
-    "symbol": "CFPF",
     "decimal": ",",
     "group": " ",
     "precision": 0,
@@ -888,13 +825,6 @@
     "precision": 2,
     "format": "%s%v"
   },
-  "pt-BR": {
-    "symbol": "R$",
-    "decimal": ",",
-    "group": " ",
-    "precision": 2,
-    "format": "%s%v"
-  },
   "pt-GQ": {
     "symbol": "FCFA",
     "decimal": ",",
@@ -965,13 +895,6 @@
     "precision": 2,
     "format": "%s%v"
   },
-  "sv-AX": {
-    "symbol": "€",
-    "decimal": ",",
-    "group": " ",
-    "precision": 2,
-    "format": "%s%v"
-  },
   "sv-FI": {
     "symbol": "€",
     "decimal": ",",
@@ -993,13 +916,6 @@
     "precision": 2,
     "format": "%s%v"
   },
-  "tk": {
-    "symbol": "NZ$",
-    "decimal": ",",
-    "group": " ",
-    "precision": 2,
-    "format": "%s%v"
-  },
   "tr-CY": {
     "symbol": "€",
     "decimal": ",",
@@ -1014,11 +930,11 @@
     "precision": 2,
     "format": "%s%v"
   },
-  "vi": {
-    "symbol": "$",
+  "vi-VN": {
+    "symbol": "₫",
     "decimal": ",",
     "group": ".",
-    "precision": 2,
+    "precision": 0,
     "format": "%s%v"
   },
   "yo-BJ": {

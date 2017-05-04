@@ -292,6 +292,18 @@
     "default_delivered_duty": "paid"
   },
   {
+    "name": "Brazil",
+    "iso_3166_2": "BR",
+    "iso_3166_3": "BRA",
+    "measurement_system": "metric",
+    "default_currency": "BRL",
+    "languages": [
+      "pt"
+    ],
+    "timezones": [],
+    "default_delivered_duty": "paid"
+  },
+  {
     "name": "British Virgin Islands",
     "iso_3166_2": "VG",
     "iso_3166_3": "VGB",

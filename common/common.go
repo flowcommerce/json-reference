@@ -317,7 +317,6 @@ func UnsupportedCountryCodes() []string {
 		"UMI",
 		"ZWE",
 		"DZA",
-		"BRA",
 		"VAT",
 		"IMN",
 		"MAR",
