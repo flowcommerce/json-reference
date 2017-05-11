@@ -3,15 +3,16 @@ package final
 // Reads all cleansed data, transforming into the final format we desire
 
 import (
-	"../cleanse"
-	"../common"
 	"fmt"
-	"github.com/bradfitz/slice"
 	"os"
 	"regexp"
 	"sort"
 	"strconv"
 	"strings"
+
+	"../cleanse"
+	"../common"
+	"github.com/bradfitz/slice"
 )
 
 type CleansedDataSet struct {
@@ -782,11 +783,14 @@ func sortTimezones(timezones []common.Timezone) []common.Timezone {
 	return timezones
 }
 
-func toPaymentMethodImage(id string, width int, height int) common.PaymentMethodImage {
+func toPaymentMethodImage(id string, width int, height int) *common.PaymentMethodImage {
 	url := fmt.Sprintf("https://flowcdn.io/util/icons/payment-methods/%s/%sx%s.png", id, strconv.Itoa(width), strconv.Itoa(height))
-	return common.PaymentMethodImage{
-		Url:    url,
-		Width:  width,
-		Height: height,
+	if width > 0 && height > 0 {
+		return &common.PaymentMethodImage{
+			Url:    url,
+			Width:  width,
+			Height: height,
+		}
 	}
+	return nil
 }

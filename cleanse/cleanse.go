@@ -3,18 +3,19 @@ package cleanse
 // Reads source files, cleansing and writing all as json to data/1-cleansed
 
 import (
-	"../common"
 	"encoding/csv"
 	"encoding/json"
 	"fmt"
-	"github.com/bradfitz/slice"
-	"github.com/flowcommerce/tools/util"
 	"io"
 	"os"
 	"path/filepath"
 	"sort"
 	"strconv"
 	"strings"
+
+	"../common"
+	"github.com/bradfitz/slice"
+	"github.com/flowcommerce/tools/util"
 )
 
 type Continent struct {
@@ -745,11 +746,13 @@ func LoadCountryTimezones() []CountryTimezone {
 func loadCldrNumbers(dir string) []Number {
 	numbers := []Number{}
 	filepath.Walk(dir, func(path string, dirInfo os.FileInfo, err error) error {
-		numbersPath := fmt.Sprintf("%s/%s/numbers.json", dir, dirInfo.Name())
-		if fileExists(numbersPath) {
-			for _, n := range readNumbers(numbersPath) {
-				if n.Country != "" {
-					numbers = append(numbers, n)
+		if dirInfo != nil {
+			numbersPath := fmt.Sprintf("%s/%s/numbers.json", dir, dirInfo.Name())
+			if fileExists(numbersPath) {
+				for _, n := range readNumbers(numbersPath) {
+					if n.Country != "" {
+						numbers = append(numbers, n)
+					}
 				}
 			}
 		}

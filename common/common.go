@@ -4,12 +4,13 @@ import (
 	"bufio"
 	"encoding/json"
 	"fmt"
-	"github.com/flowcommerce/tools/util"
 	"io/ioutil"
 	"net/http"
 	"os"
 	"regexp"
 	"strings"
+
+	"github.com/flowcommerce/tools/util"
 )
 
 type Continent struct {
@@ -58,9 +59,9 @@ type PaymentMethod struct {
 }
 
 type PaymentMethodImages struct {
-	Small  PaymentMethodImage `json:"small"`
-	Medium PaymentMethodImage `json:"medium"`
-	Large  PaymentMethodImage `json:"large"`
+	Small  *PaymentMethodImage `json:"small"`
+	Medium *PaymentMethodImage `json:"medium"`
+	Large  *PaymentMethodImage `json:"large"`
 }
 
 type PaymentMethodImage struct {

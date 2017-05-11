@@ -1,12 +1,12 @@
 type,id,name,small_width,small_height,medium_width,medium_height,large_width,large_height,regions
-card,american_express,American Express,64,64,128,128,256,256,world
-card,cartes_bancaires,Cartes Bancaires,64,64,128,128,256,256,fra
-card,china_union_pay,China Union Pay,64,64,128,128,256,256,chn
-card,dankort,Dankort,64,64,128,128,256,256,europe
-card,diners_club,Diners Club,64,64,128,128,256,256,north-america europe
-card,discover,Discover,64,64,128,128,256,256,north-america europe
-card,jcb,Jcb,64,64,128,128,256,256,jpn
-card,maestro,Maestro,64,64,128,128,256,256,north-america europe
-card,mastercard,Mastercard,64,64,128,128,256,256,world
-card,visa,VISA,64,64,128,128,256,256,world
-online,paypal,PayPal,76,48,150,94,266,142,world
+card,american_express,American Express,65,41,128,128,256,256,world
+card,cartes_bancaires,Cartes Bancaires,65,41,128,128,256,256,fra
+card,china_union_pay,China Union Pay,65,41,128,128,256,256,chn
+card,dankort,Dankort,65,41,128,128,256,256,europe
+card,diners_club,Diners Club,65,41,128,128,256,256,north-america europe
+card,discover,Discover,65,41,128,128,256,256,north-america europe
+card,jcb,Jcb,65,41,128,128,256,256,jpn
+card,maestro,Maestro,65,41,128,128,256,256,north-america europe
+card,mastercard,Mastercard,65,41,128,128,256,256,world
+card,visa,VISA,65,41,128,128,256,256,world
+online,paypal,PayPal,65,41,150,94,266,142,world

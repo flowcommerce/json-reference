@@ -27,6 +27,9 @@ directory.
   - [Locales](https://github.com/flowcommerce/json-reference/blob/master/data/final/locales.json)
     A list of locales and specific number formats
 
+  - [Payment Methods](https://github.com/flowcommerce/json-reference/blob/master/data/final/payment-methods.json)
+    A list of all the payment methods supported by Flow
+
   - [Regions](https://github.com/flowcommerce/json-reference/blob/master/data/final/regions.json)
     A region represents a geographic area of the world. Regions can be countries, continents or other political areas (like the Eurozone)
 
