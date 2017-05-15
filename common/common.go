@@ -59,9 +59,9 @@ type PaymentMethod struct {
 }
 
 type PaymentMethodImages struct {
-	Small  *PaymentMethodImage `json:"small"`
-	Medium *PaymentMethodImage `json:"medium"`
-	Large  *PaymentMethodImage `json:"large"`
+	Small  PaymentMethodImage `json:"small"`
+	Medium PaymentMethodImage `json:"medium"`
+	Large  PaymentMethodImage `json:"large"`
 }
 
 type PaymentMethodImage struct {
