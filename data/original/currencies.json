@@ -592,7 +592,7 @@
   {
     "iso_4217_3": "TWD",
     "name": "New Taiwan Dollar",
-    "number_decimals": 2
+    "number_decimals": 0
   },
   {
     "iso_4217_3": "TZS",
