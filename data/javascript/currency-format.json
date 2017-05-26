@@ -426,6 +426,13 @@
     "precision": 2,
     "format": "%s%v"
   },
+  "es-BR": {
+    "symbol": "R$",
+    "decimal": ".",
+    "group": ",",
+    "precision": 2,
+    "format": "%s%v"
+  },
   "es-EC": {
     "symbol": "$",
     "decimal": ",",
@@ -822,6 +829,13 @@
     "symbol": "€",
     "decimal": ",",
     "group": ".",
+    "precision": 2,
+    "format": "%s%v"
+  },
+  "pt-BR": {
+    "symbol": "R$",
+    "decimal": ",",
+    "group": " ",
     "precision": 2,
     "format": "%s%v"
   },
