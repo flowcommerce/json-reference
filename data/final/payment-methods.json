@@ -253,6 +253,31 @@
     ]
   },
   {
+    "id": "unionpay",
+    "type": "online",
+    "name": "UnionPay",
+    "images": {
+      "small": {
+        "url": "https://flowcdn.io/util/icons/payment-methods/unionpay/65x41.png",
+        "width": 65,
+        "height": 41
+      },
+      "medium": {
+        "url": "https://flowcdn.io/util/icons/payment-methods/unionpay/100x60.png",
+        "width": 100,
+        "height": 60
+      },
+      "large": {
+        "url": "https://flowcdn.io/util/icons/payment-methods/unionpay/256x256.png",
+        "width": 256,
+        "height": 256
+      }
+    },
+    "regions": [
+      "world"
+    ]
+  },
+  {
     "id": "visa",
     "type": "card",
     "name": "VISA",
