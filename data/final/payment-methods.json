@@ -1,5 +1,30 @@
 [
   {
+    "id": "alipay",
+    "type": "online",
+    "name": "Alipay",
+    "images": {
+      "small": {
+        "url": "https://flowcdn.io/util/icons/payment-methods/alipay/65x41.png",
+        "width": 65,
+        "height": 41
+      },
+      "medium": {
+        "url": "https://flowcdn.io/util/icons/payment-methods/alipay/100x60.png",
+        "width": 100,
+        "height": 60
+      },
+      "large": {
+        "url": "https://flowcdn.io/util/icons/payment-methods/alipay/256x256.png",
+        "width": 256,
+        "height": 256
+      }
+    },
+    "regions": [
+      "world"
+    ]
+  },
+  {
     "id": "american_express",
     "type": "card",
     "name": "American Express",
