@@ -11,3 +11,4 @@ card,mastercard,Mastercard,65,41,100,60,256,256,world
 card,visa,VISA,65,41,100,60,256,256,world
 online,paypal,PayPal,65,41,100,60,180,60,world
 online,unionpay,UnionPay,65,41,100,60,256,256,world
+online,alipay,Alipay,65,41,100,60,256,256,world
