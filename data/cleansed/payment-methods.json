@@ -85,6 +85,20 @@
     ]
   },
   {
+    "id": "directEbanking",
+    "type": "online",
+    "name": "Sofortüberweisung",
+    "small_width": 65,
+    "small_height": 41,
+    "medium_width": 100,
+    "medium_height": 60,
+    "large_width": 256,
+    "large_height": 256,
+    "regions": [
+      "world"
+    ]
+  },
+  {
     "id": "discover",
     "type": "card",
     "name": "Discover",
@@ -97,6 +111,34 @@
     "regions": [
       "north-america",
       "europe"
+    ]
+  },
+  {
+    "id": "giropay",
+    "type": "online",
+    "name": "GiroPay",
+    "small_width": 65,
+    "small_height": 41,
+    "medium_width": 100,
+    "medium_height": 60,
+    "large_width": 256,
+    "large_height": 256,
+    "regions": [
+      "world"
+    ]
+  },
+  {
+    "id": "ideal",
+    "type": "online",
+    "name": "iDEAL",
+    "small_width": 65,
+    "small_height": 41,
+    "medium_width": 100,
+    "medium_height": 60,
+    "large_width": 256,
+    "large_height": 256,
+    "regions": [
+      "world"
     ]
   },
   {
@@ -157,6 +199,34 @@
     ]
   },
   {
+    "id": "qiwiwallet",
+    "type": "online",
+    "name": "Qiwi Wallet",
+    "small_width": 65,
+    "small_height": 41,
+    "medium_width": 100,
+    "medium_height": 60,
+    "large_width": 256,
+    "large_height": 256,
+    "regions": [
+      "world"
+    ]
+  },
+  {
+    "id": "sepadirectdebit",
+    "type": "online",
+    "name": "SEPA Direct Debit",
+    "small_width": 65,
+    "small_height": 41,
+    "medium_width": 100,
+    "medium_height": 60,
+    "large_width": 256,
+    "large_height": 256,
+    "regions": [
+      "world"
+    ]
+  },
+  {
     "id": "unionpay",
     "type": "online",
     "name": "UnionPay",
@@ -174,6 +244,20 @@
     "id": "visa",
     "type": "card",
     "name": "VISA",
+    "small_width": 65,
+    "small_height": 41,
+    "medium_width": 100,
+    "medium_height": 60,
+    "large_width": 256,
+    "large_height": 256,
+    "regions": [
+      "world"
+    ]
+  },
+  {
+    "id": "wechatpay",
+    "type": "online",
+    "name": "WeChat Pay",
     "small_width": 65,
     "small_height": 41,
     "medium_width": 100,

@@ -12,3 +12,9 @@ card,visa,VISA,65,41,100,60,256,256,world
 online,paypal,PayPal,65,41,100,60,180,60,world
 online,unionpay,UnionPay,65,41,100,60,256,256,world
 online,alipay,Alipay,65,41,100,60,256,256,world
+online,directEbanking,Sofortüberweisung,65,41,100,60,256,256,world
+online,giropay,GiroPay,65,41,100,60,256,256,world
+online,wechatpay,WeChat Pay,65,41,100,60,256,256,world
+online,qiwiwallet,Qiwi Wallet,65,41,100,60,256,256,world
+online,sepadirectdebit,SEPA Direct Debit,65,41,100,60,256,256,world
+online,ideal,iDEAL,65,41,100,60,256,256,world
