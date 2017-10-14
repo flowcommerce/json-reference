@@ -37,7 +37,8 @@
   {
     "iso_4217_3": "AZN",
     "name": "Azerbaijani manat",
-    "number_decimals": 2
+    "number_decimals": 2,
+    "former_iso_4217_3": ["AZM"]
   },
   {
     "iso_4217_3": "BAM",

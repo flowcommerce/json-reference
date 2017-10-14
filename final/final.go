@@ -330,11 +330,12 @@ func commonCurrencies(data CleansedDataSet, locales []common.Locale) []common.Cu
 		}
 
 		all = append(all, common.Currency{
-			Name:           c.Name,
-			Iso_4217_3:     c.Iso_4217_3,
-			NumberDecimals: c.NumberDecimals,
-			Symbols:        commonSymbols,
-			DefaultLocale:  defaultLocale,
+			Name:              c.Name,
+			Iso_4217_3:        c.Iso_4217_3,
+			NumberDecimals:    c.NumberDecimals,
+			Symbols:           commonSymbols,
+			DefaultLocale:     defaultLocale,
+			Former_Iso_4217_3: c.Former_Iso_4217_3,
 		})
 	}
 	return all
