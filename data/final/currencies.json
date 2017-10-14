@@ -48,7 +48,10 @@
     "name": "Azerbaijani manat",
     "iso_4217_3": "AZN",
     "number_decimals": 2,
-    "default_locale": "az"
+    "default_locale": "az",
+    "former_iso_4217_3": [
+      "AZM"
+    ]
   },
   {
     "name": "Bahamian Dollar",

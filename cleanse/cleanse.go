@@ -43,9 +43,10 @@ type Country struct {
 }
 
 type Currency struct {
-	Name           string `json:"name"`
-	Iso_4217_3     string `json:"iso_4217_3"`
-	NumberDecimals int    `json:"number_decimals"`
+	Name              string `json:"name"`
+	Iso_4217_3        string `json:"iso_4217_3"`
+	Former_Iso_4217_3 []string `json:"former_iso_4217_3,omitempty"`
+	NumberDecimals    int    `json:"number_decimals"`
 }
 
 type CurrencyLocale struct {
@@ -101,9 +102,10 @@ type IncomingLanguageLocale struct {
 }
 
 type IncomingCurrency struct {
-	Name           string `json:"name"`
-	Iso_4217_3     string `json:"iso_4217_3"`
-	NumberDecimals int    `json:"number_decimals"`
+	Name              string `json:"name"`
+	Iso_4217_3        string `json:"iso_4217_3"`
+	NumberDecimals    int    `json:"number_decimals"`
+	Former_Iso_4217_3 []string `json:"former_iso_4217_3,omitempty"`
 }
 
 type IncomingNumbers struct {
@@ -555,6 +557,7 @@ func readCurrencies(file string) []Currency {
 			currencies = append(currencies, Currency{
 				Name:           c.Name,
 				Iso_4217_3:     c.Iso_4217_3,
+				Former_Iso_4217_3: c.Former_Iso_4217_3,
 				NumberDecimals: c.NumberDecimals,
 			})
 		}

@@ -37,6 +37,9 @@
   {
     "name": "Azerbaijani manat",
     "iso_4217_3": "AZN",
+    "former_iso_4217_3": [
+      "AZM"
+    ],
     "number_decimals": 2
   },
   {
