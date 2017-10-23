@@ -7,7 +7,6 @@ import (
 	"os"
 	"regexp"
 	"sort"
-	"strconv"
 	"strings"
 
 	"../cleanse"
@@ -283,9 +282,9 @@ func commonPaymentMethods(data CleansedDataSet, regions []common.Region) []commo
 			Type: pm.Type,
 			Name: pm.Name,
 			Images: common.PaymentMethodImages{
-				Small:  toPaymentMethodImage(pm.Id, pm.SmallWidth, pm.SmallHeight),
-				Medium: toPaymentMethodImage(pm.Id, pm.MediumWidth, pm.MediumHeight),
-				Large:  toPaymentMethodImage(pm.Id, pm.LargeWidth, pm.LargeHeight),
+				Small:  toPaymentMethodImage(pm.Id, pm.SmallWidth, pm.SmallHeight, "30"),
+				Medium: toPaymentMethodImage(pm.Id, pm.MediumWidth, pm.MediumHeight, "60"),
+				Large:  toPaymentMethodImage(pm.Id, pm.LargeWidth, pm.LargeHeight, "120"),
 			},
 			Regions: theseRegions,
 		})
@@ -783,8 +782,8 @@ func sortTimezones(timezones []common.Timezone) []common.Timezone {
 	return timezones
 }
 
-func toPaymentMethodImage(id string, width int, height int) common.PaymentMethodImage {
-	url := fmt.Sprintf("https://flowcdn.io/util/icons/payment-methods/%s/%sx%s.png", id, strconv.Itoa(width), strconv.Itoa(height))
+func toPaymentMethodImage(id string, width int, height int, size string) common.PaymentMethodImage {
+	url := fmt.Sprintf("https://flowcdn.io/util/logos/payment-methods/%s/%s/original.png", id, size)
 
 	return common.PaymentMethodImage{
 		Url:    url,
