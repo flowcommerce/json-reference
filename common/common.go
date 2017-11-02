@@ -5,6 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
+	"math/rand"
 	"net/http"
 	"os"
 	"regexp"
@@ -171,8 +172,9 @@ func Regions() []Region {
 }
 
 func readDataFileFromUrl(name string) []byte {
-	baseDataUrl := "https://raw.githubusercontent.com/flowcommerce/json-reference/master/data/final/"
-	return ReadUrl(baseDataUrl + name)
+	// Add a random query parameter to flush cache in github
+	url := fmt.Sprintf("https://raw.githubusercontent.com/flowcommerce/json-reference/master/data/final/%s?r=%i", name, rand.Float64())
+	return ReadUrl(url)
 }
 
 func ReadUrl(url string) []byte {
