@@ -1597,7 +1597,7 @@
             "displayName": "US Dollar",
             "displayName-count-one": "US dollar",
             "displayName-count-other": "US dollars",
-            "symbol": "US$",
+            "symbol": "$",
             "symbol-alt-narrow": "$"
           },
           "USN": {
