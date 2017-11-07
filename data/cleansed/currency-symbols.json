@@ -49,8 +49,7 @@
     "narrow": "$"
   },
   "USD": {
-    "primary": "US$",
-    "narrow": "$"
+    "primary": "$"
   },
   "VND": {
     "primary": "₫"
