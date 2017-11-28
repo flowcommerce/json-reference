@@ -10,6 +10,7 @@ import (
 	"./download"
 	"./final"
 	"./javascript"
+	"./javascript_v2"
 	"fmt"
 	"github.com/codegangsta/cli"
 	"os"
@@ -40,6 +41,10 @@ func main() {
 				fmt.Println("\nGenerating javascript models...")
 				fmt.Println("------------------------------")
 				javascript.Generate()
+
+				fmt.Println("\nGenerating javascript v2 models...")
+				fmt.Println("------------------------------")
+				javascript_v2.Generate()
 
 				fmt.Println("\nDone\n")
 				return nil
@@ -78,6 +83,15 @@ func main() {
 			Usage: "Generates data used by our javascript libraries. Writes to 'data/javascript' directory",
 			Action: func(c *cli.Context) error {
 				javascript.Generate()
+				return nil
+			},
+		},
+
+		{
+			Name:  "javascript_v2",
+			Usage: "Generates data used by our javascript libraries in v2 format. Writes to 'data/javascript' directory",
+			Action: func(c *cli.Context) error {
+				javascript_v2.Generate()
 				return nil
 			},
 		},
