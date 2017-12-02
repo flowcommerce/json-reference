@@ -1,70 +1,907 @@
 {
+  "ADP": {
+    "primary": "ADP"
+  },
+  "AED": {
+    "primary": "AED"
+  },
+  "AFA": {
+    "primary": "AFA"
+  },
+  "ALL": {
+    "primary": "ALL"
+  },
+  "AMD": {
+    "primary": "AMD"
+  },
+  "ANG": {
+    "primary": "ANG"
+  },
+  "AOK": {
+    "primary": "AOK"
+  },
+  "AON": {
+    "primary": "AON"
+  },
+  "AOR": {
+    "primary": "AOR"
+  },
+  "ARA": {
+    "primary": "ARA"
+  },
+  "ARL": {
+    "primary": "ARL"
+  },
+  "ARM": {
+    "primary": "ARM"
+  },
+  "ARP": {
+    "primary": "ARP"
+  },
+  "ARS": {
+    "primary": "ARS",
+    "narrow": "$"
+  },
+  "ATS": {
+    "primary": "ATS"
+  },
   "AUD": {
     "primary": "A$",
     "narrow": "$"
   },
+  "AWG": {
+    "primary": "AWG"
+  },
+  "AZM": {
+    "primary": "AZM"
+  },
+  "AZN": {
+    "primary": "AZN"
+  },
+  "BAD": {
+    "primary": "BAD"
+  },
+  "BAM": {
+    "primary": "BAM",
+    "narrow": "KM"
+  },
+  "BAN": {
+    "primary": "BAN"
+  },
+  "BBD": {
+    "primary": "BBD",
+    "narrow": "$"
+  },
+  "BDT": {
+    "primary": "BDT",
+    "narrow": "৳"
+  },
+  "BEC": {
+    "primary": "BEC"
+  },
+  "BEF": {
+    "primary": "BEF"
+  },
+  "BEL": {
+    "primary": "BEL"
+  },
+  "BGL": {
+    "primary": "BGL"
+  },
+  "BGM": {
+    "primary": "BGM"
+  },
+  "BGN": {
+    "primary": "BGN"
+  },
+  "BGO": {
+    "primary": "BGO"
+  },
+  "BHD": {
+    "primary": "BHD"
+  },
+  "BMD": {
+    "primary": "BMD",
+    "narrow": "$"
+  },
+  "BND": {
+    "primary": "BND",
+    "narrow": "$"
+  },
+  "BOB": {
+    "primary": "BOB",
+    "narrow": "Bs"
+  },
+  "BOL": {
+    "primary": "BOL"
+  },
+  "BOP": {
+    "primary": "BOP"
+  },
+  "BOV": {
+    "primary": "BOV"
+  },
+  "BRB": {
+    "primary": "BRB"
+  },
+  "BRC": {
+    "primary": "BRC"
+  },
+  "BRE": {
+    "primary": "BRE"
+  },
   "BRL": {
-    "primary": "R$"
+    "primary": "R$",
+    "narrow": "R$"
+  },
+  "BRN": {
+    "primary": "BRN"
+  },
+  "BRR": {
+    "primary": "BRR"
+  },
+  "BRZ": {
+    "primary": "BRZ"
+  },
+  "BSD": {
+    "primary": "BSD",
+    "narrow": "$"
+  },
+  "BTN": {
+    "primary": "BTN"
+  },
+  "BUK": {
+    "primary": "BUK"
+  },
+  "BWP": {
+    "primary": "BWP",
+    "narrow": "P"
+  },
+  "BYB": {
+    "primary": "BYB"
+  },
+  "BYN": {
+    "primary": "BYN",
+    "narrow": "р."
+  },
+  "BZD": {
+    "primary": "BZD",
+    "narrow": "$"
   },
   "CAD": {
     "primary": "CA$",
+    "narrow": "$"
+  },
+  "CDF": {
+    "primary": "CDF"
+  },
+  "CHE": {
+    "primary": "CHE"
+  },
+  "CHF": {
+    "primary": "CHF"
+  },
+  "CHW": {
+    "primary": "CHW"
+  },
+  "CLE": {
+    "primary": "CLE"
+  },
+  "CLF": {
+    "primary": "CLF"
+  },
+  "CLP": {
+    "primary": "CLP",
     "narrow": "$"
   },
   "CNY": {
     "primary": "CN¥",
     "narrow": "¥"
   },
+  "COP": {
+    "primary": "COP",
+    "narrow": "$"
+  },
+  "COU": {
+    "primary": "COU"
+  },
+  "CRC": {
+    "primary": "CRC",
+    "narrow": "₡"
+  },
+  "CSD": {
+    "primary": "CSD"
+  },
+  "CSK": {
+    "primary": "CSK"
+  },
+  "CUC": {
+    "primary": "CUC",
+    "narrow": "$"
+  },
+  "CVE": {
+    "primary": "CVE"
+  },
+  "CYP": {
+    "primary": "CYP"
+  },
+  "CZK": {
+    "primary": "CZK",
+    "narrow": "Kč"
+  },
+  "DDM": {
+    "primary": "DDM"
+  },
+  "DEM": {
+    "primary": "DEM"
+  },
+  "DJF": {
+    "primary": "DJF"
+  },
+  "DKK": {
+    "primary": "DKK",
+    "narrow": "kr"
+  },
+  "DOP": {
+    "primary": "DOP",
+    "narrow": "$"
+  },
+  "DZD": {
+    "primary": "DZD"
+  },
+  "ECS": {
+    "primary": "ECS"
+  },
+  "ECV": {
+    "primary": "ECV"
+  },
+  "EEK": {
+    "primary": "EEK"
+  },
+  "EGP": {
+    "primary": "EGP",
+    "narrow": "E£"
+  },
+  "ESA": {
+    "primary": "ESA"
+  },
+  "ESB": {
+    "primary": "ESB"
+  },
+  "ESP": {
+    "primary": "ESP",
+    "narrow": "₧"
+  },
+  "ETB": {
+    "primary": "ETB"
+  },
   "EUR": {
-    "primary": "€"
+    "primary": "€",
+    "narrow": "€"
+  },
+  "FIM": {
+    "primary": "FIM"
+  },
+  "FJD": {
+    "primary": "FJD",
+    "narrow": "$"
+  },
+  "FKP": {
+    "primary": "FKP",
+    "narrow": "£"
+  },
+  "FRF": {
+    "primary": "FRF"
   },
   "GBP": {
-    "primary": "£"
+    "primary": "£",
+    "narrow": "£"
+  },
+  "GEK": {
+    "primary": "GEK"
+  },
+  "GEL": {
+    "primary": "GEL",
+    "narrow": "₾"
+  },
+  "GHC": {
+    "primary": "GHC"
+  },
+  "GHS": {
+    "primary": "GHS"
+  },
+  "GIP": {
+    "primary": "GIP",
+    "narrow": "£"
+  },
+  "GMD": {
+    "primary": "GMD"
+  },
+  "GNF": {
+    "primary": "GNF",
+    "narrow": "FG"
+  },
+  "GNS": {
+    "primary": "GNS"
+  },
+  "GQE": {
+    "primary": "GQE"
+  },
+  "GRD": {
+    "primary": "GRD"
+  },
+  "GTQ": {
+    "primary": "GTQ",
+    "narrow": "Q"
+  },
+  "GWE": {
+    "primary": "GWE"
+  },
+  "GWP": {
+    "primary": "GWP"
+  },
+  "GYD": {
+    "primary": "GYD",
+    "narrow": "$"
   },
   "HKD": {
     "primary": "HK$",
     "narrow": "$"
   },
+  "HNL": {
+    "primary": "HNL",
+    "narrow": "L"
+  },
+  "HRD": {
+    "primary": "HRD"
+  },
+  "HRK": {
+    "primary": "HRK",
+    "narrow": "kn"
+  },
+  "HTG": {
+    "primary": "HTG"
+  },
+  "HUF": {
+    "primary": "HUF",
+    "narrow": "Ft"
+  },
+  "IDR": {
+    "primary": "IDR",
+    "narrow": "Rp"
+  },
+  "IEP": {
+    "primary": "IEP"
+  },
+  "ILP": {
+    "primary": "ILP"
+  },
   "ILS": {
-    "primary": "₪"
+    "primary": "₪",
+    "narrow": "₪"
   },
   "INR": {
-    "primary": "₹"
+    "primary": "₹",
+    "narrow": "₹"
+  },
+  "ISK": {
+    "primary": "ISK",
+    "narrow": "kr"
+  },
+  "ITL": {
+    "primary": "ITL"
+  },
+  "JMD": {
+    "primary": "JMD",
+    "narrow": "$"
+  },
+  "JOD": {
+    "primary": "JOD"
   },
   "JPY": {
-    "primary": "¥"
+    "primary": "¥",
+    "narrow": "¥"
+  },
+  "KES": {
+    "primary": "KES"
+  },
+  "KGS": {
+    "primary": "KGS"
+  },
+  "KHR": {
+    "primary": "KHR",
+    "narrow": "៛"
+  },
+  "KMF": {
+    "primary": "KMF",
+    "narrow": "CF"
+  },
+  "KRH": {
+    "primary": "KRH"
+  },
+  "KRO": {
+    "primary": "KRO"
   },
   "KRW": {
-    "primary": "₩"
+    "primary": "₩",
+    "narrow": "₩"
+  },
+  "KWD": {
+    "primary": "KWD"
+  },
+  "KYD": {
+    "primary": "KYD",
+    "narrow": "$"
+  },
+  "KZT": {
+    "primary": "KZT",
+    "narrow": "₸"
+  },
+  "LAK": {
+    "primary": "LAK",
+    "narrow": "₭"
+  },
+  "LBP": {
+    "primary": "LBP",
+    "narrow": "L£"
+  },
+  "LKR": {
+    "primary": "LKR",
+    "narrow": "Rs"
+  },
+  "LSL": {
+    "primary": "LSL"
+  },
+  "LTL": {
+    "primary": "LTL",
+    "narrow": "Lt"
+  },
+  "LTT": {
+    "primary": "LTT"
+  },
+  "LUC": {
+    "primary": "LUC"
+  },
+  "LUF": {
+    "primary": "LUF"
+  },
+  "LUL": {
+    "primary": "LUL"
+  },
+  "LVL": {
+    "primary": "LVL",
+    "narrow": "Ls"
+  },
+  "LVR": {
+    "primary": "LVR"
+  },
+  "LYD": {
+    "primary": "LYD"
+  },
+  "MAD": {
+    "primary": "MAD"
+  },
+  "MAF": {
+    "primary": "MAF"
+  },
+  "MCF": {
+    "primary": "MCF"
+  },
+  "MDC": {
+    "primary": "MDC"
+  },
+  "MDL": {
+    "primary": "MDL"
+  },
+  "MGF": {
+    "primary": "MGF"
+  },
+  "MKN": {
+    "primary": "MKN"
+  },
+  "MLF": {
+    "primary": "MLF"
+  },
+  "MNT": {
+    "primary": "MNT",
+    "narrow": "₮"
+  },
+  "MOP": {
+    "primary": "MOP"
+  },
+  "MRO": {
+    "primary": "MRO"
+  },
+  "MTL": {
+    "primary": "MTL"
+  },
+  "MTP": {
+    "primary": "MTP"
+  },
+  "MUR": {
+    "primary": "MUR",
+    "narrow": "Rs"
+  },
+  "MVR": {
+    "primary": "MVR"
+  },
+  "MWK": {
+    "primary": "MWK"
   },
   "MXN": {
     "primary": "MX$",
     "narrow": "$"
   },
+  "MXP": {
+    "primary": "MXP"
+  },
+  "MXV": {
+    "primary": "MXV"
+  },
+  "MYR": {
+    "primary": "MYR",
+    "narrow": "RM"
+  },
+  "MZE": {
+    "primary": "MZE"
+  },
+  "MZM": {
+    "primary": "MZM"
+  },
+  "NAD": {
+    "primary": "NAD",
+    "narrow": "$"
+  },
+  "NGN": {
+    "primary": "NGN",
+    "narrow": "₦"
+  },
+  "NIC": {
+    "primary": "NIC"
+  },
+  "NIO": {
+    "primary": "NIO",
+    "narrow": "C$"
+  },
+  "NLG": {
+    "primary": "NLG"
+  },
+  "NOK": {
+    "primary": "NOK",
+    "narrow": "kr"
+  },
+  "NPR": {
+    "primary": "NPR",
+    "narrow": "Rs"
+  },
   "NZD": {
     "primary": "NZ$",
+    "narrow": "$"
+  },
+  "OMR": {
+    "primary": "OMR"
+  },
+  "PAB": {
+    "primary": "PAB"
+  },
+  "PEI": {
+    "primary": "PEI"
+  },
+  "PEN": {
+    "primary": "PEN"
+  },
+  "PES": {
+    "primary": "PES"
+  },
+  "PGK": {
+    "primary": "PGK"
+  },
+  "PHP": {
+    "primary": "PHP",
+    "narrow": "₱"
+  },
+  "PKR": {
+    "primary": "PKR",
+    "narrow": "Rs"
+  },
+  "PLN": {
+    "primary": "PLN",
+    "narrow": "zł"
+  },
+  "PLZ": {
+    "primary": "PLZ"
+  },
+  "PTE": {
+    "primary": "PTE"
+  },
+  "PYG": {
+    "primary": "PYG",
+    "narrow": "₲"
+  },
+  "QAR": {
+    "primary": "QAR"
+  },
+  "RHD": {
+    "primary": "RHD"
+  },
+  "ROL": {
+    "primary": "ROL"
+  },
+  "RON": {
+    "primary": "RON",
+    "narrow": "lei"
+  },
+  "RSD": {
+    "primary": "RSD"
+  },
+  "RUB": {
+    "primary": "RUB",
+    "narrow": "₽"
+  },
+  "RUR": {
+    "primary": "RUR",
+    "narrow": "р."
+  },
+  "RWF": {
+    "primary": "RWF",
+    "narrow": "RF"
+  },
+  "SAR": {
+    "primary": "SAR"
+  },
+  "SBD": {
+    "primary": "SBD",
+    "narrow": "$"
+  },
+  "SCR": {
+    "primary": "SCR"
+  },
+  "SDD": {
+    "primary": "SDD"
+  },
+  "SDP": {
+    "primary": "SDP"
+  },
+  "SEK": {
+    "primary": "SEK",
+    "narrow": "kr"
+  },
+  "SGD": {
+    "primary": "SGD",
+    "narrow": "$"
+  },
+  "SHP": {
+    "primary": "SHP",
+    "narrow": "£"
+  },
+  "SIT": {
+    "primary": "SIT"
+  },
+  "SKK": {
+    "primary": "SKK"
+  },
+  "SLL": {
+    "primary": "SLL"
+  },
+  "SOS": {
+    "primary": "SOS"
+  },
+  "SRG": {
+    "primary": "SRG"
+  },
+  "STD": {
+    "primary": "STD",
+    "narrow": "Db"
+  },
+  "SUR": {
+    "primary": "SUR"
+  },
+  "SVC": {
+    "primary": "SVC"
+  },
+  "SZL": {
+    "primary": "SZL"
+  },
+  "THB": {
+    "primary": "THB",
+    "narrow": "฿"
+  },
+  "TJR": {
+    "primary": "TJR"
+  },
+  "TMM": {
+    "primary": "TMM"
+  },
+  "TND": {
+    "primary": "TND"
+  },
+  "TOP": {
+    "primary": "TOP",
+    "narrow": "T$"
+  },
+  "TPE": {
+    "primary": "TPE"
+  },
+  "TRL": {
+    "primary": "TRL"
+  },
+  "TRY": {
+    "primary": "TRY",
+    "narrow": "₺"
+  },
+  "TTD": {
+    "primary": "TTD",
     "narrow": "$"
   },
   "TWD": {
     "primary": "NT$",
     "narrow": "$"
   },
+  "TZS": {
+    "primary": "TZS"
+  },
+  "UAH": {
+    "primary": "UAH",
+    "narrow": "₴"
+  },
+  "UAK": {
+    "primary": "UAK"
+  },
+  "UGS": {
+    "primary": "UGS"
+  },
+  "UGX": {
+    "primary": "UGX"
+  },
   "USD": {
-    "primary": "$"
+    "primary": "$",
+    "narrow": "$"
+  },
+  "USN": {
+    "primary": "USN"
+  },
+  "USS": {
+    "primary": "USS"
+  },
+  "UYI": {
+    "primary": "UYI"
+  },
+  "UYP": {
+    "primary": "UYP"
+  },
+  "UYU": {
+    "primary": "UYU",
+    "narrow": "$"
+  },
+  "UZS": {
+    "primary": "UZS"
+  },
+  "VEB": {
+    "primary": "VEB"
+  },
+  "VEF": {
+    "primary": "VEF",
+    "narrow": "Bs"
   },
   "VND": {
-    "primary": "₫"
+    "primary": "₫",
+    "narrow": "₫"
+  },
+  "VNN": {
+    "primary": "VNN"
+  },
+  "VUV": {
+    "primary": "VUV"
+  },
+  "WST": {
+    "primary": "WST"
   },
   "XAF": {
     "primary": "FCFA"
+  },
+  "XAG": {
+    "primary": "XAG"
+  },
+  "XAU": {
+    "primary": "XAU"
+  },
+  "XBA": {
+    "primary": "XBA"
+  },
+  "XBB": {
+    "primary": "XBB"
+  },
+  "XBC": {
+    "primary": "XBC"
+  },
+  "XBD": {
+    "primary": "XBD"
   },
   "XCD": {
     "primary": "EC$",
     "narrow": "$"
   },
+  "XDR": {
+    "primary": "XDR"
+  },
+  "XEU": {
+    "primary": "XEU"
+  },
+  "XFO": {
+    "primary": "XFO"
+  },
+  "XFU": {
+    "primary": "XFU"
+  },
   "XOF": {
     "primary": "CFA"
   },
+  "XPD": {
+    "primary": "XPD"
+  },
   "XPF": {
     "primary": "CFPF"
+  },
+  "XPT": {
+    "primary": "XPT"
+  },
+  "XRE": {
+    "primary": "XRE"
+  },
+  "XSU": {
+    "primary": "XSU"
+  },
+  "XTS": {
+    "primary": "XTS"
+  },
+  "XUA": {
+    "primary": "XUA"
+  },
+  "XXX": {
+    "primary": "XXX"
+  },
+  "YDD": {
+    "primary": "YDD"
+  },
+  "YER": {
+    "primary": "YER"
+  },
+  "YUD": {
+    "primary": "YUD"
+  },
+  "YUM": {
+    "primary": "YUM"
+  },
+  "YUN": {
+    "primary": "YUN"
+  },
+  "YUR": {
+    "primary": "YUR"
+  },
+  "ZAL": {
+    "primary": "ZAL"
+  },
+  "ZAR": {
+    "primary": "ZAR",
+    "narrow": "R"
+  },
+  "ZMK": {
+    "primary": "ZMK"
+  },
+  "ZMW": {
+    "primary": "ZMW",
+    "narrow": "ZK"
+  },
+  "ZRN": {
+    "primary": "ZRN"
+  },
+  "ZRZ": {
+    "primary": "ZRZ"
+  },
+  "ZWD": {
+    "primary": "ZWD"
+  },
+  "ZWR": {
+    "primary": "ZWR"
   }
 }

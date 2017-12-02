@@ -523,10 +523,10 @@ func readCurrencySymbols(file string) map[string]CurrencySymbols {
 	for _, main := range data.Main {
 		for code, c := range main.Numbers.Currencies {
 			if !common.ContainsIgnoreCase(unsupportedCurrencyCodes, code) {
-				if c.Symbol != "" && c.Symbol != code {
+				if c.Symbol != "" {
 					var narrow string
 					if c.Symbol == c.SymbolAltNarrow {
-						narrow = ""
+						narrow = c.Symbol
 					} else {
 						narrow = c.SymbolAltNarrow
 					}
