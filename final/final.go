@@ -15,6 +15,8 @@ import (
 )
 
 type CleansedDataSet struct {
+	Carriers          []cleanse.Carrier
+	CarrierServices   []cleanse.CarrierService
 	Continents        []cleanse.Continent
 	Countries         []cleanse.Country
 	CountryContinents []cleanse.CountryContinent
@@ -32,6 +34,8 @@ type CleansedDataSet struct {
 
 func Generate() {
 	data := CleansedDataSet{
+		Carriers:          cleanse.LoadCarriers(),
+		CarrierServices:   cleanse.LoadCarrierServices(),
 		Continents:        cleanse.LoadContinents(),
 		Countries:         cleanse.LoadCountries(),
 		CountryContinents: cleanse.LoadCountryContinents(),
@@ -53,6 +57,8 @@ func Generate() {
 	regions := createRegions(countries, continents)
 	provinces := createProvinces(data)
 
+	writeJson("data/final/carriers.json", commonCarriers(data))
+	writeJson("data/final/carrier-services.json", commonCarrierServices(data))
 	writeJson("data/final/continents.json", continents)
 	writeJson("data/final/payment-methods.json", commonPaymentMethods(data, regions))
 	writeJson("data/final/languages.json", commonLanguages(data))
@@ -89,6 +95,48 @@ func commonContinents(data CleansedDataSet) []common.Continent {
 			Countries: theseCountries,
 		})
 	}
+	return all
+}
+
+func commonCarriers(data CleansedDataSet) []common.Carrier {
+	var all []common.Carrier
+
+	for _, carrier := range data.Carriers {
+		all = append(all, common.Carrier{
+			Id:          carrier.Id,
+			Name:        carrier.Name,
+			TrackingUrl: carrier.TrackingUrl,
+		})
+	}
+
+	return all
+}
+
+func commonCarrierServices(data CleansedDataSet) []common.CarrierService {
+	var all []common.CarrierService
+
+	for _, carrierService := range data.CarrierServices {
+		// find the correct carrier for this service
+		var carrier cleanse.Carrier
+
+		for _, c := range data.Carriers {
+			if strings.ToUpper(carrierService.CarrierId) == strings.ToUpper(c.Id) {
+				carrier = c
+			}
+		}
+
+		// append the service with the carrier
+		all = append(all, common.CarrierService{
+			Id:   carrierService.Id,
+			Name: carrierService.Name,
+			Carrier: common.Carrier{
+				Id:          carrier.Id,
+				Name:        carrier.Name,
+				TrackingUrl: carrier.TrackingUrl,
+			},
+		})
+	}
+
 	return all
 }
 
