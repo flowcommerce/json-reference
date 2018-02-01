@@ -1,12 +1,12 @@
-id,name,carrier_id,carrier_name,carrier_tracking_url
-asendia-express,Express,asendia,Asendia,https://track.aftership.com/asendia/
-asendia-standard,Standard,asendia,Asendia,https://track.aftership.com/asendia/
-dhl-ecommerce-standard,Standard,dhl-ecommerce,DHL Ecommerce,https://webtrack.dhlglobalmail.com/?trackingnumber=
-dhl-express-worldwide,Express Worldwide,dhl,DHL Express,http://www.dhl.com/en/express/tracking.html?AWB=
-dhl-global-mail-packet-plus,Packet Plus,dhl-global-mail,DHL Global Mail,https://webtrack.dhlglobalmail.com/?trackingnumber=
-dhl-parcel-international-direct,International Direct,dhl-parcel,DHL Parcel,https://webtrack.dhlglobalmail.com/?trackingnumber=
-dhl-parcel-international-standard,International Standard,dhl-parcel,DHL Parcel,https://webtrack.dhlglobalmail.com/?trackingnumber=
-landmark-global,Global,landmark,Landmark,https://mercury.landmarkglobal.com/tracking/track.php?trck=
-sf-express-economy-express-parcel,Economy Express Parcel,sf-express,SF Express,http://www.sf-express.com/us/en/dynamic_function/waybill/#search/bill-number/
-ups-ground,Ground,ups,UPS,https://track.aftership.com/ups/
-usps-priority-mail-international,Priority Mail International,usps,USPS,https://track.aftership.com/usps/
+id,name,carrier_id
+asendia-express,Express,asendia
+asendia-standard,Standard,asendia
+dhl-ecommerce-standard,Standard,dhl-ecommerce
+dhl-express-worldwide,Express Worldwide,dhl
+dhl-global-mail-packet-plus,Packet Plus,dhl-global-mail
+dhl-parcel-international-direct,International Direct,dhl-parcel
+dhl-parcel-international-standard,International Standard,dhl-parcel
+landmark-global,Global,landmark
+sf-express-economy-express-parcel,Economy Express Parcel,sf-express
+ups-ground,Ground,ups
+usps-priority-mail-international,Priority Mail International,usps
