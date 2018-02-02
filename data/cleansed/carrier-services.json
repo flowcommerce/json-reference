@@ -1,0 +1,57 @@
+[
+  {
+    "id": "asendia-express",
+    "name": "Express",
+    "carrier_id": "asendia"
+  },
+  {
+    "id": "asendia-standard",
+    "name": "Standard",
+    "carrier_id": "asendia"
+  },
+  {
+    "id": "dhl-ecommerce-standard",
+    "name": "Standard",
+    "carrier_id": "dhl-ecommerce"
+  },
+  {
+    "id": "dhl-express-worldwide",
+    "name": "Express Worldwide",
+    "carrier_id": "dhl"
+  },
+  {
+    "id": "dhl-global-mail-packet-plus",
+    "name": "Packet Plus",
+    "carrier_id": "dhl-global-mail"
+  },
+  {
+    "id": "dhl-parcel-international-direct",
+    "name": "International Direct",
+    "carrier_id": "dhl-parcel"
+  },
+  {
+    "id": "dhl-parcel-international-standard",
+    "name": "International Standard",
+    "carrier_id": "dhl-parcel"
+  },
+  {
+    "id": "landmark-global",
+    "name": "Global",
+    "carrier_id": "landmark"
+  },
+  {
+    "id": "sf-express-economy-express-parcel",
+    "name": "Economy Express Parcel",
+    "carrier_id": "sf-express"
+  },
+  {
+    "id": "ups-ground",
+    "name": "Ground",
+    "carrier_id": "ups"
+  },
+  {
+    "id": "usps-priority-mail-international",
+    "name": "Priority Mail International",
+    "carrier_id": "usps"
+  }
+]

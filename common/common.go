@@ -14,6 +14,18 @@ import (
 	"github.com/flowcommerce/tools/util"
 )
 
+type Carrier struct {
+	Id          string `json:"id"`
+	Name        string `json:"name"`
+	TrackingUrl string `json:"tracking_url"`
+}
+
+type CarrierService struct {
+	Id      string  `json:"id"`
+	Name    string  `json:"name"`
+	Carrier Carrier `json:"carrier"`
+}
+
 type Continent struct {
 	Name      string   `json:"name"`
 	Code      string   `json:"code"`

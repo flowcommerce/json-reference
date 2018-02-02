@@ -1,0 +1,101 @@
+[
+  {
+    "id": "asendia-express",
+    "name": "Express",
+    "carrier": {
+      "id": "asendia",
+      "name": "Asendia",
+      "tracking_url": "https://track.aftership.com/asendia/"
+    }
+  },
+  {
+    "id": "asendia-standard",
+    "name": "Standard",
+    "carrier": {
+      "id": "asendia",
+      "name": "Asendia",
+      "tracking_url": "https://track.aftership.com/asendia/"
+    }
+  },
+  {
+    "id": "dhl-ecommerce-standard",
+    "name": "Standard",
+    "carrier": {
+      "id": "dhl-ecommerce",
+      "name": "DHL Ecommerce",
+      "tracking_url": "https://webtrack.dhlglobalmail.com/?trackingnumber="
+    }
+  },
+  {
+    "id": "dhl-express-worldwide",
+    "name": "Express Worldwide",
+    "carrier": {
+      "id": "dhl",
+      "name": "DHL Express",
+      "tracking_url": "http://www.dhl.com/en/express/tracking.html?AWB="
+    }
+  },
+  {
+    "id": "dhl-global-mail-packet-plus",
+    "name": "Packet Plus",
+    "carrier": {
+      "id": "dhl-global-mail",
+      "name": "DHL Global Mail",
+      "tracking_url": "https://webtrack.dhlglobalmail.com/?trackingnumber="
+    }
+  },
+  {
+    "id": "dhl-parcel-international-direct",
+    "name": "International Direct",
+    "carrier": {
+      "id": "dhl-parcel",
+      "name": "DHL Parcel",
+      "tracking_url": "https://webtrack.dhlglobalmail.com/?trackingnumber="
+    }
+  },
+  {
+    "id": "dhl-parcel-international-standard",
+    "name": "International Standard",
+    "carrier": {
+      "id": "dhl-parcel",
+      "name": "DHL Parcel",
+      "tracking_url": "https://webtrack.dhlglobalmail.com/?trackingnumber="
+    }
+  },
+  {
+    "id": "landmark-global",
+    "name": "Global",
+    "carrier": {
+      "id": "landmark",
+      "name": "Landmark",
+      "tracking_url": "https://mercury.landmarkglobal.com/tracking/track.php?trck="
+    }
+  },
+  {
+    "id": "sf-express-economy-express-parcel",
+    "name": "Economy Express Parcel",
+    "carrier": {
+      "id": "sf-express",
+      "name": "SF Express",
+      "tracking_url": "http://www.sf-express.com/us/en/dynamic_function/waybill/#search/bill-number/"
+    }
+  },
+  {
+    "id": "ups-ground",
+    "name": "Ground",
+    "carrier": {
+      "id": "ups",
+      "name": "UPS",
+      "tracking_url": "https://track.aftership.com/ups/"
+    }
+  },
+  {
+    "id": "usps-priority-mail-international",
+    "name": "Priority Mail International",
+    "carrier": {
+      "id": "usps",
+      "name": "USPS",
+      "tracking_url": "https://track.aftership.com/usps/"
+    }
+  }
+]

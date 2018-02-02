@@ -18,6 +18,18 @@ import (
 	"github.com/flowcommerce/tools/util"
 )
 
+type Carrier struct {
+	Id          string `json:"id"`
+	Name        string `json:"name"`
+	TrackingUrl string `json:"tracking_url"`
+}
+
+type CarrierService struct {
+	Id        string `json:"id"`
+	Name      string `json:"name"`
+	CarrierId string `json:"carrier_id"`
+}
+
 type Continent struct {
 	Code2 string `json:"code2"`
 	Code3 string `json:"code3"`
@@ -254,6 +266,42 @@ func Cleanse() {
 			},
 			func(record map[string]string) string {
 				return record["country"] + record["duty"]
+			},
+		),
+	)
+
+	writeJson("data/cleansed/carriers.json",
+		toObjects(readCsv("data/original/carriers.csv"),
+			func(record map[string]string) bool {
+				return record["id"] != ""
+			},
+			func(record map[string]string) interface{} {
+				return Carrier{
+					Id:          record["id"],
+					Name:        record["name"],
+					TrackingUrl: record["tracking_url"],
+				}
+			},
+			func(record map[string]string) string {
+				return record["id"]
+			},
+		),
+	)
+
+	writeJson("data/cleansed/carrier-services.json",
+		toObjects(readCsv("data/original/carrier-services.csv"),
+			func(record map[string]string) bool {
+				return record["id"] != ""
+			},
+			func(record map[string]string) interface{} {
+				return CarrierService{
+					Id:        record["id"],
+					Name:      record["name"],
+					CarrierId: record["carrier_id"],
+				}
+			},
+			func(record map[string]string) string {
+				return record["id"]
 			},
 		),
 	)
@@ -601,6 +649,20 @@ func toObjects(records []map[string]string, accepts acceptsFunction, f convertFu
 	}
 
 	return sortObjects(added)
+}
+
+func LoadCarriers() []Carrier {
+	carriers := []Carrier{}
+	err := json.Unmarshal(common.ReadFile("data/cleansed/carriers.json"), &carriers)
+	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshal carriers: %s", err))
+	return carriers
+}
+
+func LoadCarrierServices() []CarrierService {
+	carrierServices := []CarrierService{}
+	err := json.Unmarshal(common.ReadFile("data/cleansed/carrier-services.json"), &carrierServices)
+	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshal carrier services: %s", err))
+	return carrierServices
 }
 
 func LoadProvinces() []Province {

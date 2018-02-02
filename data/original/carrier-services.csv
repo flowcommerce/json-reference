@@ -1,0 +1,12 @@
+id,name,carrier_id
+asendia-express,Express,asendia
+asendia-standard,Standard,asendia
+dhl-ecommerce-standard,Standard,dhl-ecommerce
+dhl-express-worldwide,Express Worldwide,dhl
+dhl-global-mail-packet-plus,Packet Plus,dhl-global-mail
+dhl-parcel-international-direct,International Direct,dhl-parcel
+dhl-parcel-international-standard,International Standard,dhl-parcel
+landmark-global,Global,landmark
+sf-express-economy-express-parcel,Economy Express Parcel,sf-express
+ups-ground,Ground,ups
+usps-priority-mail-international,Priority Mail International,usps
