@@ -120,6 +120,20 @@ type LocaleNumbers struct {
 	Group   string `json:"group"`
 }
 
+func Carriers() []Carrier {
+	carriers := []Carrier{}
+	err := json.Unmarshal(readDataFileFromUrl("carriers.json"), &carriers)
+	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshal carriers: %s", err))
+	return carriers
+}
+
+func CarrierServices() []CarrierService {
+	carrierServices := []CarrierService{}
+	err := json.Unmarshal(readDataFileFromUrl("carrier-services.json"), &carrierServices)
+	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshal carrier services: %s", err))
+	return carrierServices
+}
+
 func Continents() []Continent {
 	continents := []Continent{}
 	err := json.Unmarshal(readDataFileFromUrl("continents.json"), &continents)
