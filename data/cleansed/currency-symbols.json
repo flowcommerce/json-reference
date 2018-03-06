@@ -754,7 +754,7 @@
     "primary": "UGX"
   },
   "USD": {
-    "primary": "$",
+    "primary": "US$",
     "narrow": "$"
   },
   "USN": {
