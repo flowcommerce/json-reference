@@ -3414,24 +3414,6 @@
     "province_type": "other"
   },
   {
-    "iso_3166_2": "71",
-    "name": "Taiwan",
-    "country": "CN",
-    "province_type": "province"
-  },
-  {
-    "iso_3166_2": "91",
-    "name": "Xianggang",
-    "country": "CN",
-    "province_type": "other"
-  },
-  {
-    "iso_3166_2": "92",
-    "name": "Aomen",
-    "country": "CN",
-    "province_type": "other"
-  },
-  {
     "iso_3166_2": "AMA",
     "name": "Amazonas",
     "country": "CO",

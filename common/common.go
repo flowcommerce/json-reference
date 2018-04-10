@@ -84,11 +84,17 @@ type PaymentMethodImage struct {
 }
 
 type Province struct {
-	Id           string `json:"id"`
-	Iso_3166_2   string `json:"iso_3166_2"`
-	Name         string `json:"name"`
-	Country      string `json:"country"`
-	ProvinceType string `json:"province_type"`
+	Id           string                 `json:"id"`
+	Iso_3166_2   string                 `json:"iso_3166_2"`
+	Name         string                 `json:"name"`
+	Country      string                 `json:"country"`
+	ProvinceType string                 `json:"province_type"`
+	Translations []LocalizedTranslation `json:"translations,omitempty"`
+}
+
+type LocalizedTranslation struct {
+	Locale Locale `json:"locale"`
+	Name   string `json:"name"`
 }
 
 type Region struct {
@@ -219,6 +225,13 @@ func ReadFile(path string) []byte {
 
 	fileStr := string(file)
 	return []byte(fileStr)
+}
+
+func EqualsIgnoreCase(text1 string, text2 string) bool {
+	if strings.ToUpper(text1) == strings.ToUpper(text2) {
+		return true
+	}
+	return false
 }
 
 func Contains(list []string, value string) bool {

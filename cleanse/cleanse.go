@@ -84,6 +84,12 @@ type Province struct {
 	ProvinceType string `json:"province_type"`
 }
 
+type ProvinceTranslation struct {
+	LocaleId    string `json:"locale_id"`
+	ProvinceId  string `json:"province_id"`
+	Translation string `json:"translation"`
+}
+
 type Timezone struct {
 	Name        string `json:"name"`
 	Description string `json:"description"`
@@ -321,6 +327,24 @@ func Cleanse() {
 			},
 			func(record map[string]string) string {
 				return record["country"] + record["province"]
+			},
+		),
+	)
+
+	writeJson("data/cleansed/province-translations.json",
+		toObjects(readCsv("data/original/province-translations.csv"),
+			func(record map[string]string) bool {
+				return record["province_id"] != ""
+			},
+			func(record map[string]string) interface{} {
+				return ProvinceTranslation{
+					ProvinceId:  record["province_id"],
+					LocaleId:    record["locale_id"],
+					Translation: record["translation"],
+				}
+			},
+			func(record map[string]string) string {
+				return record["province_id"] + record["locale_id"]
 			},
 		),
 	)
@@ -670,6 +694,13 @@ func LoadProvinces() []Province {
 	err := json.Unmarshal(common.ReadFile("data/cleansed/provinces.json"), &provinces)
 	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshal provinces: %s", err))
 	return provinces
+}
+
+func LoadProvinceTranslations() []ProvinceTranslation {
+	provinceTranslations := []ProvinceTranslation{}
+	err := json.Unmarshal(common.ReadFile("data/cleansed/province-translations.json"), &provinceTranslations)
+	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshal province translations: %s", err))
+	return provinceTranslations
 }
 
 func LoadCountryDuties() []CountryDuty {

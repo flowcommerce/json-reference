@@ -1,0 +1,148 @@
+province_id,locale_id,translation
+AUS-ACT,en-US,Australian Capital Territory
+AUS-NSW,en-US,New South Wales
+AUS-NT,en-US,Northern Territory
+AUS-QLD,en-US,Queensland
+AUS-SA,en-US,South Australia
+AUS-TAS,en-US,Tasmania
+AUS-VIC,en-US,Victoria
+AUS-WA,en-US,Western Australia
+CAN-AB,en-US,Alberta
+CAN-AB,fr-CA,Alberta
+CAN-BC,en-US,British Columbia
+CAN-BC,fr-CA,Colombie-Britannique
+CAN-MB,en-US,Manitoba
+CAN-MB,fr-CA,Manitoba
+CAN-NB,en-US,New Brunswick
+CAN-NB,fr-CA,Nouveau-Brunswick
+CAN-NL,en-US,Newfoundland and Labrador
+CAN-NL,fr-CA,Terre-Neuve-et-Labrador
+CAN-NS,en-US,Nova Scotia
+CAN-NS,fr-CA,Nouvelle-Écosse
+CAN-NT,en-US,Northwest Territories
+CAN-NT,fr-CA,Territoires du Nord-Ouest
+CAN-NU,en-US,Nunavut
+CAN-NU,fr-CA,Nunavut
+CAN-ON,en-US,Ontario
+CAN-ON,fr-CA,Ontario
+CAN-PE,en-US,Prince Edward Island
+CAN-PE,fr-CA,Île-du-Prince-Édouard
+CAN-QC,en-US,Quebec
+CAN-QC,fr-CA,Québec
+CAN-SK,en-US,Saskatchewan
+CAN-SK,fr-CA,Saskatchewan
+CAN-YT,en-US,Yukon
+CAN-YT,fr-CA,Yukon
+CHN-11,en-US,Beijing
+CHN-11,zh-CN,北京市
+CHN-12,en-US,Tianjin
+CHN-12,zh-CN,天津市
+CHN-13,en-US,Hebei
+CHN-13,zh-CN,河北省
+CHN-14,en-US,Shanxi
+CHN-14,zh-CN,山西省
+CHN-15,en-US,Inner Mongolia
+CHN-15,zh-CN,内蒙古自治区
+CHN-21,en-US,Liaoning
+CHN-21,zh-CN,辽宁省
+CHN-22,en-US,Jilin
+CHN-22,zh-CN,吉林省
+CHN-23,en-US,Heilongjiang
+CHN-23,zh-CN,黑龙江省
+CHN-31,en-US,Shanghai
+CHN-31,zh-CN,上海市
+CHN-32,en-US,Jiangsu
+CHN-32,zh-CN,江苏省
+CHN-33,en-US,Zhejiang
+CHN-33,zh-CN,浙江省
+CHN-34,en-US,Anhui
+CHN-34,zh-CN,安徽省
+CHN-35,en-US,Fujian
+CHN-35,zh-CN,福建省
+CHN-36,en-US,Jiangxi
+CHN-36,zh-CN,江西省
+CHN-37,en-US,Shandong
+CHN-37,zh-CN,山东省
+CHN-41,en-US,Henan
+CHN-41,zh-CN,河南省
+CHN-42,en-US,Hubei
+CHN-42,zh-CN,湖北省
+CHN-43,en-US,Hunan
+CHN-43,zh-CN,湖南省
+CHN-44,en-US,Guangdong
+CHN-44,zh-CN,广东省
+CHN-45,en-US,Guangxi
+CHN-45,zh-CN,广西壮族自治区
+CHN-46,en-US,Hainan
+CHN-46,zh-CN,海南省
+CHN-50,en-US,Chongqing
+CHN-50,zh-CN,重庆市
+CHN-51,en-US,Sichuan
+CHN-51,zh-CN,四川省
+CHN-52,en-US,Guizhou
+CHN-52,zh-CN,贵州省
+CHN-53,en-US,Yunnan
+CHN-53,zh-CN,贵州省
+CHN-54,en-US,Tibet
+CHN-54,zh-CN,西藏
+CHN-61,en-US,Shaanxi
+CHN-61,zh-CN,陕西省
+CHN-62,en-US,Gansu
+CHN-62,zh-CN,甘肃省
+CHN-63,en-US,Qinghai
+CHN-63,zh-CN,青海省
+CHN-64,en-US,Ningxia
+CHN-64,zh-CN,宁夏回族自治区
+CHN-65,en-US,Xinjiang
+CHN-65,zh-CN,新疆维吾尔自治区
+USA-AK,en-US,Alaska
+USA-AL,en-US,Alabama
+USA-AR,en-US,Arkansas
+USA-AZ,en-US,Arizona
+USA-CA,en-US,California
+USA-CO,en-US,Colorado
+USA-CT,en-US,Connecticut
+USA-DC,en-US,Washington DC
+USA-DE,en-US,Delaware
+USA-FL,en-US,Florida
+USA-GA,en-US,Georgia
+USA-HI,en-US,Hawaii
+USA-IA,en-US,Iowa
+USA-ID,en-US,Idaho
+USA-IL,en-US,Illinois
+USA-IN,en-US,Indiana
+USA-KS,en-US,Kansas
+USA-KY,en-US,Kentucky
+USA-LA,en-US,Louisiana
+USA-MA,en-US,Massachusetts
+USA-MD,en-US,Maryland
+USA-ME,en-US,Maine
+USA-MI,en-US,Michigan
+USA-MN,en-US,Minnesota
+USA-MO,en-US,Missouri
+USA-MS,en-US,Mississippi
+USA-MT,en-US,Montana
+USA-NC,en-US,North Carolina
+USA-ND,en-US,North Dakota
+USA-NE,en-US,Nebraska
+USA-NH,en-US,New Hampshire
+USA-NJ,en-US,New Jersey
+USA-NM,en-US,New Mexico
+USA-NV,en-US,Nevada
+USA-NY,en-US,New York
+USA-OH,en-US,Ohio
+USA-OK,en-US,Oklahoma
+USA-OR,en-US,Oregon
+USA-PA,en-US,Pennsylvania
+USA-RI,en-US,Rhode Island
+USA-SC,en-US,South Carolina
+USA-SD,en-US,South Dakota
+USA-TN,en-US,Tennessee
+USA-TX,en-US,Texas
+USA-UT,en-US,Utah
+USA-VA,en-US,Virginia
+USA-VT,en-US,Vermont
+USA-WA,en-US,Washington
+USA-WI,en-US,Wisconsin
+USA-WV,en-US,West Virginia
+USA-WY,en-US,Wyoming

@@ -1,0 +1,737 @@
+[
+  {
+    "locale_id": "en-US",
+    "province_id": "AUS-ACT",
+    "translation": "Australian Capital Territory"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "AUS-NSW",
+    "translation": "New South Wales"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "AUS-NT",
+    "translation": "Northern Territory"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "AUS-QLD",
+    "translation": "Queensland"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "AUS-SA",
+    "translation": "South Australia"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "AUS-TAS",
+    "translation": "Tasmania"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "AUS-VIC",
+    "translation": "Victoria"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "AUS-WA",
+    "translation": "Western Australia"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "CAN-AB",
+    "translation": "Alberta"
+  },
+  {
+    "locale_id": "fr-CA",
+    "province_id": "CAN-AB",
+    "translation": "Alberta"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "CAN-BC",
+    "translation": "British Columbia"
+  },
+  {
+    "locale_id": "fr-CA",
+    "province_id": "CAN-BC",
+    "translation": "Colombie-Britannique"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "CAN-MB",
+    "translation": "Manitoba"
+  },
+  {
+    "locale_id": "fr-CA",
+    "province_id": "CAN-MB",
+    "translation": "Manitoba"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "CAN-NB",
+    "translation": "New Brunswick"
+  },
+  {
+    "locale_id": "fr-CA",
+    "province_id": "CAN-NB",
+    "translation": "Nouveau-Brunswick"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "CAN-NL",
+    "translation": "Newfoundland and Labrador"
+  },
+  {
+    "locale_id": "fr-CA",
+    "province_id": "CAN-NL",
+    "translation": "Terre-Neuve-et-Labrador"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "CAN-NS",
+    "translation": "Nova Scotia"
+  },
+  {
+    "locale_id": "fr-CA",
+    "province_id": "CAN-NS",
+    "translation": "Nouvelle-Écosse"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "CAN-NT",
+    "translation": "Northwest Territories"
+  },
+  {
+    "locale_id": "fr-CA",
+    "province_id": "CAN-NT",
+    "translation": "Territoires du Nord-Ouest"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "CAN-NU",
+    "translation": "Nunavut"
+  },
+  {
+    "locale_id": "fr-CA",
+    "province_id": "CAN-NU",
+    "translation": "Nunavut"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "CAN-ON",
+    "translation": "Ontario"
+  },
+  {
+    "locale_id": "fr-CA",
+    "province_id": "CAN-ON",
+    "translation": "Ontario"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "CAN-PE",
+    "translation": "Prince Edward Island"
+  },
+  {
+    "locale_id": "fr-CA",
+    "province_id": "CAN-PE",
+    "translation": "Île-du-Prince-Édouard"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "CAN-QC",
+    "translation": "Quebec"
+  },
+  {
+    "locale_id": "fr-CA",
+    "province_id": "CAN-QC",
+    "translation": "Québec"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "CAN-SK",
+    "translation": "Saskatchewan"
+  },
+  {
+    "locale_id": "fr-CA",
+    "province_id": "CAN-SK",
+    "translation": "Saskatchewan"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "CAN-YT",
+    "translation": "Yukon"
+  },
+  {
+    "locale_id": "fr-CA",
+    "province_id": "CAN-YT",
+    "translation": "Yukon"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "CHN-11",
+    "translation": "Beijing"
+  },
+  {
+    "locale_id": "zh-CN",
+    "province_id": "CHN-11",
+    "translation": "北京市"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "CHN-12",
+    "translation": "Tianjin"
+  },
+  {
+    "locale_id": "zh-CN",
+    "province_id": "CHN-12",
+    "translation": "天津市"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "CHN-13",
+    "translation": "Hebei"
+  },
+  {
+    "locale_id": "zh-CN",
+    "province_id": "CHN-13",
+    "translation": "河北省"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "CHN-14",
+    "translation": "Shanxi"
+  },
+  {
+    "locale_id": "zh-CN",
+    "province_id": "CHN-14",
+    "translation": "山西省"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "CHN-15",
+    "translation": "Inner Mongolia"
+  },
+  {
+    "locale_id": "zh-CN",
+    "province_id": "CHN-15",
+    "translation": "内蒙古自治区"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "CHN-21",
+    "translation": "Liaoning"
+  },
+  {
+    "locale_id": "zh-CN",
+    "province_id": "CHN-21",
+    "translation": "辽宁省"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "CHN-22",
+    "translation": "Jilin"
+  },
+  {
+    "locale_id": "zh-CN",
+    "province_id": "CHN-22",
+    "translation": "吉林省"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "CHN-23",
+    "translation": "Heilongjiang"
+  },
+  {
+    "locale_id": "zh-CN",
+    "province_id": "CHN-23",
+    "translation": "黑龙江省"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "CHN-31",
+    "translation": "Shanghai"
+  },
+  {
+    "locale_id": "zh-CN",
+    "province_id": "CHN-31",
+    "translation": "上海市"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "CHN-32",
+    "translation": "Jiangsu"
+  },
+  {
+    "locale_id": "zh-CN",
+    "province_id": "CHN-32",
+    "translation": "江苏省"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "CHN-33",
+    "translation": "Zhejiang"
+  },
+  {
+    "locale_id": "zh-CN",
+    "province_id": "CHN-33",
+    "translation": "浙江省"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "CHN-34",
+    "translation": "Anhui"
+  },
+  {
+    "locale_id": "zh-CN",
+    "province_id": "CHN-34",
+    "translation": "安徽省"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "CHN-35",
+    "translation": "Fujian"
+  },
+  {
+    "locale_id": "zh-CN",
+    "province_id": "CHN-35",
+    "translation": "福建省"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "CHN-36",
+    "translation": "Jiangxi"
+  },
+  {
+    "locale_id": "zh-CN",
+    "province_id": "CHN-36",
+    "translation": "江西省"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "CHN-37",
+    "translation": "Shandong"
+  },
+  {
+    "locale_id": "zh-CN",
+    "province_id": "CHN-37",
+    "translation": "山东省"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "CHN-41",
+    "translation": "Henan"
+  },
+  {
+    "locale_id": "zh-CN",
+    "province_id": "CHN-41",
+    "translation": "河南省"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "CHN-42",
+    "translation": "Hubei"
+  },
+  {
+    "locale_id": "zh-CN",
+    "province_id": "CHN-42",
+    "translation": "湖北省"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "CHN-43",
+    "translation": "Hunan"
+  },
+  {
+    "locale_id": "zh-CN",
+    "province_id": "CHN-43",
+    "translation": "湖南省"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "CHN-44",
+    "translation": "Guangdong"
+  },
+  {
+    "locale_id": "zh-CN",
+    "province_id": "CHN-44",
+    "translation": "广东省"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "CHN-45",
+    "translation": "Guangxi"
+  },
+  {
+    "locale_id": "zh-CN",
+    "province_id": "CHN-45",
+    "translation": "广西壮族自治区"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "CHN-46",
+    "translation": "Hainan"
+  },
+  {
+    "locale_id": "zh-CN",
+    "province_id": "CHN-46",
+    "translation": "海南省"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "CHN-50",
+    "translation": "Chongqing"
+  },
+  {
+    "locale_id": "zh-CN",
+    "province_id": "CHN-50",
+    "translation": "重庆市"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "CHN-51",
+    "translation": "Sichuan"
+  },
+  {
+    "locale_id": "zh-CN",
+    "province_id": "CHN-51",
+    "translation": "四川省"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "CHN-52",
+    "translation": "Guizhou"
+  },
+  {
+    "locale_id": "zh-CN",
+    "province_id": "CHN-52",
+    "translation": "贵州省"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "CHN-53",
+    "translation": "Yunnan"
+  },
+  {
+    "locale_id": "zh-CN",
+    "province_id": "CHN-53",
+    "translation": "贵州省"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "CHN-54",
+    "translation": "Tibet"
+  },
+  {
+    "locale_id": "zh-CN",
+    "province_id": "CHN-54",
+    "translation": "西藏"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "CHN-61",
+    "translation": "Shaanxi"
+  },
+  {
+    "locale_id": "zh-CN",
+    "province_id": "CHN-61",
+    "translation": "陕西省"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "CHN-62",
+    "translation": "Gansu"
+  },
+  {
+    "locale_id": "zh-CN",
+    "province_id": "CHN-62",
+    "translation": "甘肃省"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "CHN-63",
+    "translation": "Qinghai"
+  },
+  {
+    "locale_id": "zh-CN",
+    "province_id": "CHN-63",
+    "translation": "青海省"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "CHN-64",
+    "translation": "Ningxia"
+  },
+  {
+    "locale_id": "zh-CN",
+    "province_id": "CHN-64",
+    "translation": "宁夏回族自治区"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "CHN-65",
+    "translation": "Xinjiang"
+  },
+  {
+    "locale_id": "zh-CN",
+    "province_id": "CHN-65",
+    "translation": "新疆维吾尔自治区"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "USA-AK",
+    "translation": "Alaska"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "USA-AL",
+    "translation": "Alabama"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "USA-AR",
+    "translation": "Arkansas"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "USA-AZ",
+    "translation": "Arizona"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "USA-CA",
+    "translation": "California"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "USA-CO",
+    "translation": "Colorado"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "USA-CT",
+    "translation": "Connecticut"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "USA-DC",
+    "translation": "Washington DC"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "USA-DE",
+    "translation": "Delaware"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "USA-FL",
+    "translation": "Florida"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "USA-GA",
+    "translation": "Georgia"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "USA-HI",
+    "translation": "Hawaii"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "USA-IA",
+    "translation": "Iowa"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "USA-ID",
+    "translation": "Idaho"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "USA-IL",
+    "translation": "Illinois"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "USA-IN",
+    "translation": "Indiana"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "USA-KS",
+    "translation": "Kansas"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "USA-KY",
+    "translation": "Kentucky"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "USA-LA",
+    "translation": "Louisiana"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "USA-MA",
+    "translation": "Massachusetts"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "USA-MD",
+    "translation": "Maryland"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "USA-ME",
+    "translation": "Maine"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "USA-MI",
+    "translation": "Michigan"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "USA-MN",
+    "translation": "Minnesota"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "USA-MO",
+    "translation": "Missouri"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "USA-MS",
+    "translation": "Mississippi"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "USA-MT",
+    "translation": "Montana"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "USA-NC",
+    "translation": "North Carolina"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "USA-ND",
+    "translation": "North Dakota"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "USA-NE",
+    "translation": "Nebraska"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "USA-NH",
+    "translation": "New Hampshire"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "USA-NJ",
+    "translation": "New Jersey"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "USA-NM",
+    "translation": "New Mexico"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "USA-NV",
+    "translation": "Nevada"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "USA-NY",
+    "translation": "New York"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "USA-OH",
+    "translation": "Ohio"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "USA-OK",
+    "translation": "Oklahoma"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "USA-OR",
+    "translation": "Oregon"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "USA-PA",
+    "translation": "Pennsylvania"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "USA-RI",
+    "translation": "Rhode Island"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "USA-SC",
+    "translation": "South Carolina"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "USA-SD",
+    "translation": "South Dakota"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "USA-TN",
+    "translation": "Tennessee"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "USA-TX",
+    "translation": "Texas"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "USA-UT",
+    "translation": "Utah"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "USA-VA",
+    "translation": "Virginia"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "USA-VT",
+    "translation": "Vermont"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "USA-WA",
+    "translation": "Washington"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "USA-WI",
+    "translation": "Wisconsin"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "USA-WV",
+    "translation": "West Virginia"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "USA-WY",
+    "translation": "Wyoming"
+  }
+]
