@@ -95,13 +95,9 @@ CHN-64,en-US,Ningxia
 CHN-64,zh-CN,宁夏回族自治区
 CHN-65,en-US,Xinjiang
 CHN-65,zh-CN,新疆维吾尔自治区
-USA-AA,en-US,Armed Forces Americas
-USA-AE,en-US,Armed Forces Europe
 USA-AK,en-US,Alaska
 USA-AL,en-US,Alabama
-USA-AP,en-US,Armed Forces Pacific
 USA-AR,en-US,Arkansas
-USA-AS,en-US,American Samoa
 USA-AZ,en-US,Arizona
 USA-CA,en-US,California
 USA-CO,en-US,Colorado
@@ -110,7 +106,6 @@ USA-DC,en-US,Washington DC
 USA-DE,en-US,Delaware
 USA-FL,en-US,Florida
 USA-GA,en-US,Georgia
-USA-GU,en-US,Guam
 USA-HI,en-US,Hawaii
 USA-IA,en-US,Iowa
 USA-ID,en-US,Idaho
@@ -125,7 +120,6 @@ USA-ME,en-US,Maine
 USA-MI,en-US,Michigan
 USA-MN,en-US,Minnesota
 USA-MO,en-US,Missouri
-USA-MP,en-US,Northern Mariana Islands
 USA-MS,en-US,Mississippi
 USA-MT,en-US,Montana
 USA-NC,en-US,North Carolina
@@ -140,16 +134,13 @@ USA-OH,en-US,Ohio
 USA-OK,en-US,Oklahoma
 USA-OR,en-US,Oregon
 USA-PA,en-US,Pennsylvania
-USA-PR,en-US,Puerto Rico
 USA-RI,en-US,Rhode Island
 USA-SC,en-US,South Carolina
 USA-SD,en-US,South Dakota
 USA-TN,en-US,Tennessee
 USA-TX,en-US,Texas
-USA-UM,en-US,U.S. Outlying Islands
 USA-UT,en-US,Utah
 USA-VA,en-US,Virginia
-USA-VI,en-US,U.S. Virgin Islands
 USA-VT,en-US,Vermont
 USA-WA,en-US,Washington
 USA-WI,en-US,Wisconsin

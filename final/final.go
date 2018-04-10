@@ -15,47 +15,49 @@ import (
 )
 
 type CleansedDataSet struct {
-	Carriers          []cleanse.Carrier
-	CarrierServices   []cleanse.CarrierService
-	Continents        []cleanse.Continent
-	Countries         []cleanse.Country
-	CountryContinents []cleanse.CountryContinent
-	CountryDuties     []cleanse.CountryDuty
-	Currencies        []cleanse.Currency
-	CurrencySymbols   map[string]cleanse.CurrencySymbols
-	Numbers           []cleanse.Number
-	Languages         []cleanse.Language
-	LocaleNames       []cleanse.LocaleName
-	PaymentMethods    []cleanse.PaymentMethod
-	Provinces         []cleanse.Province
-	Timezones         []cleanse.Timezone
-	CountryTimezones  []cleanse.CountryTimezone
+	Carriers             []cleanse.Carrier
+	CarrierServices      []cleanse.CarrierService
+	Continents           []cleanse.Continent
+	Countries            []cleanse.Country
+	CountryContinents    []cleanse.CountryContinent
+	CountryDuties        []cleanse.CountryDuty
+	Currencies           []cleanse.Currency
+	CurrencySymbols      map[string]cleanse.CurrencySymbols
+	Numbers              []cleanse.Number
+	Languages            []cleanse.Language
+	LocaleNames          []cleanse.LocaleName
+	PaymentMethods       []cleanse.PaymentMethod
+	Provinces            []cleanse.Province
+	ProvinceTranslations []cleanse.ProvinceTranslation
+	Timezones            []cleanse.Timezone
+	CountryTimezones     []cleanse.CountryTimezone
 }
 
 func Generate() {
 	data := CleansedDataSet{
-		Carriers:          cleanse.LoadCarriers(),
-		CarrierServices:   cleanse.LoadCarrierServices(),
-		Continents:        cleanse.LoadContinents(),
-		Countries:         cleanse.LoadCountries(),
-		CountryContinents: cleanse.LoadCountryContinents(),
-		CountryDuties:     cleanse.LoadCountryDuties(),
-		Currencies:        cleanse.LoadCurrencies(),
-		CurrencySymbols:   cleanse.LoadCurrencySymbols(),
-		Languages:         cleanse.LoadLanguages(),
-		LocaleNames:       cleanse.LoadLocaleNames(),
-		PaymentMethods:    cleanse.LoadPaymentMethods(),
-		Provinces:         cleanse.LoadProvinces(),
-		Numbers:           cleanse.LoadNumbers(),
-		Timezones:         cleanse.LoadTimezones(),
-		CountryTimezones:  cleanse.LoadCountryTimezones(),
+		Carriers:             cleanse.LoadCarriers(),
+		CarrierServices:      cleanse.LoadCarrierServices(),
+		Continents:           cleanse.LoadContinents(),
+		Countries:            cleanse.LoadCountries(),
+		CountryContinents:    cleanse.LoadCountryContinents(),
+		CountryDuties:        cleanse.LoadCountryDuties(),
+		Currencies:           cleanse.LoadCurrencies(),
+		CurrencySymbols:      cleanse.LoadCurrencySymbols(),
+		Languages:            cleanse.LoadLanguages(),
+		LocaleNames:          cleanse.LoadLocaleNames(),
+		PaymentMethods:       cleanse.LoadPaymentMethods(),
+		Provinces:            cleanse.LoadProvinces(),
+		ProvinceTranslations: cleanse.LoadProvinceTranslations(),
+		Numbers:              cleanse.LoadNumbers(),
+		Timezones:            cleanse.LoadTimezones(),
+		CountryTimezones:     cleanse.LoadCountryTimezones(),
 	}
 
 	continents := commonContinents(data)
 	countries := commonCountries(data)
 	locales := commonLocales(data)
 	regions := createRegions(countries, continents)
-	provinces := createProvinces(data)
+	provinces := createProvinces(data, locales)
 
 	writeJson("data/final/carriers.json", commonCarriers(data))
 	writeJson("data/final/carrier-services.json", commonCarrierServices(data))
@@ -473,29 +475,48 @@ func createRegions(countries []common.Country, continents []common.Continent) []
 	return regions
 }
 
-func createProvinces(data CleansedDataSet) []common.Province {
+func createProvinces(data CleansedDataSet, locales []common.Locale) []common.Province {
 	provinces := []common.Province{}
 
 	// There are too many provinces - only do these countries for now
 	validCountries := []string{
 		"AUS",
-		"GBR",
 		"CAN",
 		"USA",
-		"CHL",
-		"IRL",
 		"CHN",
 	}
 
 	for _, p := range data.Provinces {
+		// find the country of this province
 		country := findCountryByCode(data.Countries, p.CountryCode)
+
+		// construct the province id which we need to lookup the locale translations
+		provinceId := country.Iso_3166_3 + "-" + p.Iso_3166_2
+
+		// look for all items in data.ProvinceTranslations where provinceId match and append
+		translations := []common.LocalizedTranslation{}
+		for _, pt := range data.ProvinceTranslations {
+			if common.EqualsIgnoreCase(pt.ProvinceId, provinceId) {
+				// find the locale of this translation
+				locale := findLocaleById(locales, pt.LocaleId)
+
+				// we have all data now, append the localized translation
+				translations = append(translations, common.LocalizedTranslation{
+					Locale: locale,
+					Name:   pt.Translation,
+				})
+			}
+		}
+
+		// now create
 		if common.ContainsIgnoreCase(validCountries, country.Iso_3166_3) {
 			provinces = append(provinces, common.Province{
-				Id:           country.Iso_3166_3 + "-" + p.Iso_3166_2,
+				Id:           provinceId,
 				Iso_3166_2:   p.Iso_3166_2,
 				Name:         p.Name,
 				Country:      country.Iso_3166_3,
 				ProvinceType: p.ProvinceType,
+				Translations: translations,
 			})
 		}
 	}
@@ -533,6 +554,15 @@ func world(countries []common.Country) common.Region {
 		MeasurementSystems: []string{"metric", "imperial"},
 		Timezones:          timezonesForCountries(countries),
 	}
+}
+
+func findLocaleById(locales []common.Locale, localeId string) common.Locale {
+	for _, l := range locales {
+		if l.Id == localeId {
+			return l
+		}
+	}
+	return common.Locale{}
 }
 
 func findCountryByCode(countries []cleanse.Country, code string) cleanse.Country {
