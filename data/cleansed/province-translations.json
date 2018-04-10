@@ -481,16 +481,6 @@
   },
   {
     "locale_id": "en-US",
-    "province_id": "USA-AA",
-    "translation": "Armed Forces Americas"
-  },
-  {
-    "locale_id": "en-US",
-    "province_id": "USA-AE",
-    "translation": "Armed Forces Europe"
-  },
-  {
-    "locale_id": "en-US",
     "province_id": "USA-AK",
     "translation": "Alaska"
   },
@@ -501,18 +491,8 @@
   },
   {
     "locale_id": "en-US",
-    "province_id": "USA-AP",
-    "translation": "Armed Forces Pacific"
-  },
-  {
-    "locale_id": "en-US",
     "province_id": "USA-AR",
     "translation": "Arkansas"
-  },
-  {
-    "locale_id": "en-US",
-    "province_id": "USA-AS",
-    "translation": "American Samoa"
   },
   {
     "locale_id": "en-US",
@@ -553,11 +533,6 @@
     "locale_id": "en-US",
     "province_id": "USA-GA",
     "translation": "Georgia"
-  },
-  {
-    "locale_id": "en-US",
-    "province_id": "USA-GU",
-    "translation": "Guam"
   },
   {
     "locale_id": "en-US",
@@ -631,11 +606,6 @@
   },
   {
     "locale_id": "en-US",
-    "province_id": "USA-MP",
-    "translation": "Northern Mariana Islands"
-  },
-  {
-    "locale_id": "en-US",
     "province_id": "USA-MS",
     "translation": "Mississippi"
   },
@@ -706,11 +676,6 @@
   },
   {
     "locale_id": "en-US",
-    "province_id": "USA-PR",
-    "translation": "Puerto Rico"
-  },
-  {
-    "locale_id": "en-US",
     "province_id": "USA-RI",
     "translation": "Rhode Island"
   },
@@ -736,11 +701,6 @@
   },
   {
     "locale_id": "en-US",
-    "province_id": "USA-UM",
-    "translation": "U.S. Outlying Islands"
-  },
-  {
-    "locale_id": "en-US",
     "province_id": "USA-UT",
     "translation": "Utah"
   },
@@ -748,11 +708,6 @@
     "locale_id": "en-US",
     "province_id": "USA-VA",
     "translation": "Virginia"
-  },
-  {
-    "locale_id": "en-US",
-    "province_id": "USA-VI",
-    "translation": "U.S. Virgin Islands"
   },
   {
     "locale_id": "en-US",

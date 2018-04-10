@@ -1786,22 +1786,7 @@
     "iso_3166_2": "AS",
     "name": "American Samoa",
     "country": "USA",
-    "province_type": "outlying_area",
-    "translations": [
-      {
-        "locale": {
-          "id": "en-US",
-          "name": "English - United States",
-          "country": "USA",
-          "language": "en",
-          "numbers": {
-            "decimal": ".",
-            "group": ","
-          }
-        },
-        "name": "American Samoa"
-      }
-    ]
+    "province_type": "outlying_area"
   },
   {
     "id": "USA-AZ",
@@ -1984,22 +1969,7 @@
     "iso_3166_2": "GU",
     "name": "Guam",
     "country": "USA",
-    "province_type": "outlying_area",
-    "translations": [
-      {
-        "locale": {
-          "id": "en-US",
-          "name": "English - United States",
-          "country": "USA",
-          "language": "en",
-          "numbers": {
-            "decimal": ".",
-            "group": ","
-          }
-        },
-        "name": "Guam"
-      }
-    ]
+    "province_type": "outlying_area"
   },
   {
     "id": "USA-HI",
@@ -2314,22 +2284,7 @@
     "iso_3166_2": "MP",
     "name": "Northern Mariana Islands",
     "country": "USA",
-    "province_type": "outlying_area",
-    "translations": [
-      {
-        "locale": {
-          "id": "en-US",
-          "name": "English - United States",
-          "country": "USA",
-          "language": "en",
-          "numbers": {
-            "decimal": ".",
-            "group": ","
-          }
-        },
-        "name": "Northern Mariana Islands"
-      }
-    ]
+    "province_type": "outlying_area"
   },
   {
     "id": "USA-MS",
@@ -2644,22 +2599,7 @@
     "iso_3166_2": "PR",
     "name": "Puerto Rico",
     "country": "USA",
-    "province_type": "outlying_area",
-    "translations": [
-      {
-        "locale": {
-          "id": "en-US",
-          "name": "English - United States",
-          "country": "USA",
-          "language": "en",
-          "numbers": {
-            "decimal": ".",
-            "group": ","
-          }
-        },
-        "name": "Puerto Rico"
-      }
-    ]
+    "province_type": "outlying_area"
   },
   {
     "id": "USA-RI",
@@ -2776,22 +2716,7 @@
     "iso_3166_2": "UM",
     "name": "U.S. Minor Outlying Islands",
     "country": "USA",
-    "province_type": "outlying_area",
-    "translations": [
-      {
-        "locale": {
-          "id": "en-US",
-          "name": "English - United States",
-          "country": "USA",
-          "language": "en",
-          "numbers": {
-            "decimal": ".",
-            "group": ","
-          }
-        },
-        "name": "U.S. Outlying Islands"
-      }
-    ]
+    "province_type": "outlying_area"
   },
   {
     "id": "USA-UT",
@@ -2842,22 +2767,7 @@
     "iso_3166_2": "VI",
     "name": "Virgin Islands of the U.S.",
     "country": "USA",
-    "province_type": "outlying_area",
-    "translations": [
-      {
-        "locale": {
-          "id": "en-US",
-          "name": "English - United States",
-          "country": "USA",
-          "language": "en",
-          "numbers": {
-            "decimal": ".",
-            "group": ","
-          }
-        },
-        "name": "U.S. Virgin Islands"
-      }
-    ]
+    "province_type": "outlying_area"
   },
   {
     "id": "USA-VT",
