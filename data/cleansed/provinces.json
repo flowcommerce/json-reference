@@ -23400,12 +23400,6 @@
     "province_type": "state"
   },
   {
-    "iso_3166_2": "AS",
-    "name": "American Samoa",
-    "country": "US",
-    "province_type": "outlying_area"
-  },
-  {
     "iso_3166_2": "AZ",
     "name": "Arizona",
     "country": "US",
@@ -23452,12 +23446,6 @@
     "name": "Georgia",
     "country": "US",
     "province_type": "state"
-  },
-  {
-    "iso_3166_2": "GU",
-    "name": "Guam",
-    "country": "US",
-    "province_type": "outlying_area"
   },
   {
     "iso_3166_2": "HI",
@@ -23544,12 +23532,6 @@
     "province_type": "state"
   },
   {
-    "iso_3166_2": "MP",
-    "name": "Northern Mariana Islands",
-    "country": "US",
-    "province_type": "outlying_area"
-  },
-  {
     "iso_3166_2": "MS",
     "name": "Mississippi",
     "country": "US",
@@ -23634,12 +23616,6 @@
     "province_type": "state"
   },
   {
-    "iso_3166_2": "PR",
-    "name": "Puerto Rico",
-    "country": "US",
-    "province_type": "outlying_area"
-  },
-  {
     "iso_3166_2": "RI",
     "name": "Rhode Island",
     "country": "US",
@@ -23670,12 +23646,6 @@
     "province_type": "state"
   },
   {
-    "iso_3166_2": "UM",
-    "name": "U.S. Minor Outlying Islands",
-    "country": "US",
-    "province_type": "outlying_area"
-  },
-  {
     "iso_3166_2": "UT",
     "name": "Utah",
     "country": "US",
@@ -23686,12 +23656,6 @@
     "name": "Virginia",
     "country": "US",
     "province_type": "state"
-  },
-  {
-    "iso_3166_2": "VI",
-    "name": "Virgin Islands of the U.S.",
-    "country": "US",
-    "province_type": "outlying_area"
   },
   {
     "iso_3166_2": "VT",
