@@ -8,9 +8,6 @@
   "AFA": {
     "primary": "AFA"
   },
-  "ALK": {
-    "primary": "ALK"
-  },
   "ALL": {
     "primary": "ALL"
   },
@@ -197,12 +194,6 @@
     "primary": "CLP",
     "narrow": "$"
   },
-  "CNH": {
-    "primary": "CNH"
-  },
-  "CNX": {
-    "primary": "CNX"
-  },
   "CNY": {
     "primary": "CN¥",
     "narrow": "¥"
@@ -385,9 +376,6 @@
   "ILP": {
     "primary": "ILP"
   },
-  "ILR": {
-    "primary": "ILR"
-  },
   "ILS": {
     "primary": "₪",
     "narrow": "₪"
@@ -395,9 +383,6 @@
   "INR": {
     "primary": "₹",
     "narrow": "₹"
-  },
-  "ISJ": {
-    "primary": "ISJ"
   },
   "ISK": {
     "primary": "ISK",
@@ -527,9 +512,6 @@
   "MRO": {
     "primary": "MRO"
   },
-  "MRU": {
-    "primary": "MRU"
-  },
   "MTL": {
     "primary": "MTL"
   },
@@ -539,9 +521,6 @@
   "MUR": {
     "primary": "MUR",
     "narrow": "Rs"
-  },
-  "MVP": {
-    "primary": "MVP"
   },
   "MVR": {
     "primary": "MVR"
@@ -712,10 +691,6 @@
   },
   "STD": {
     "primary": "STD"
-  },
-  "STN": {
-    "primary": "STN",
-    "narrow": "Db"
   },
   "SUR": {
     "primary": "SUR"
