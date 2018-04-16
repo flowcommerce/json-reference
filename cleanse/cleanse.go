@@ -223,13 +223,21 @@ func Cleanse() {
 			func(record map[string]string) interface{} {
 				iso3 := record["ISO3166-1-Alpha-3"]
 				currency := record["ISO4217-currency_alphabetic_code"]
-				if currency == "" {
+				if currency == "INR,BTN" {
+					currency = "INR"
+				} else if currency == "SVC,USD" || currency == "HTG,USD" || currency == "PAB,USD" {
+					currency = "USD"
+				} else if currency == "LSL,ZAR" || currency == "NAD,ZAR" {
+					currency = "ZAR"
+				}	else if currency == "" {
 					if iso3 == "CZE" {
 						currency = "CZK"
 					} else if iso3 == "HKG" {
 						currency = "HKD"
 					} else if iso3 == "TWN" {
 						currency = "TWD"
+					} else if iso3 == "FLK" {
+						currency = "FKP"
 					} else {
 						fmt.Printf("Country %s does not have a currency\n", iso3)
 						os.Exit(1)
@@ -467,6 +475,9 @@ func countryName(record map[string]string) string {
 	name := record["official_name_en"]
 	if name == "" {
 		name = record["name"]
+	}
+	if name == "" {
+		name = record["CLDR display name"] // for some reason, underlying data is incomplete for Taiwan
 	}
 	if name == "" {
 		fmt.Printf("ERROR: Missing country name for record: %s\n", record)
