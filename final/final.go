@@ -853,10 +853,26 @@ func sortLocales(locales []common.Locale) []common.Locale {
 	return locales
 }
 
+// https://stackoverflow.com/a/36122804/2297665
+type byDescriptionAndName []common.Timezone
+
+func (tz byDescriptionAndName) Len() int      { return len(tz) }
+func (tz byDescriptionAndName) Swap(i, j int) { tz[i], tz[j] = tz[j], tz[i] }
+
+// Sort by description first, then name (description is not unique)
+func (tz byDescriptionAndName) Less(i, j int) bool {
+	if strings.ToLower(tz[i].Description) < strings.ToLower(tz[j].Description) {
+		return true
+	}
+	if strings.ToLower(tz[i].Description) > strings.ToLower(tz[j].Description) {
+		return false
+	}
+
+	return strings.ToLower(tz[i].Name) < strings.ToLower(tz[j].Name)
+}
+
 func sortTimezones(timezones []common.Timezone) []common.Timezone {
-	slice.Sort(timezones[:], func(i, j int) bool {
-		return strings.ToLower(timezones[i].Description) < strings.ToLower(timezones[j].Description)
-	})
+	sort.Sort(byDescriptionAndName(timezones))
 	return timezones
 }
 
