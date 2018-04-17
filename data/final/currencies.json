@@ -997,8 +997,7 @@
     "iso_4217_3": "STD",
     "number_decimals": 2,
     "symbols": {
-      "primary": "STD",
-      "narrow": "Db"
+      "primary": "STD"
     },
     "default_locale": "pt-ST"
   },

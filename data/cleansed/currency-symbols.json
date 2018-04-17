@@ -690,8 +690,7 @@
     "primary": "SRG"
   },
   "STD": {
-    "primary": "STD",
-    "narrow": "Db"
+    "primary": "STD"
   },
   "SUR": {
     "primary": "SUR"
