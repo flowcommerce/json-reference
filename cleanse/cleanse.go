@@ -614,8 +614,15 @@ func readCurrencySymbols(file string) map[string]CurrencySymbols {
 						narrow = c.SymbolAltNarrow
 					}
 
+					var primary string
+					if code == "USD" {
+						primary = "US$"
+					} else {
+						primary = c.Symbol
+					}
+
 					currencySymbols[code] = CurrencySymbols{
-						Primary: c.Symbol,
+						Primary: primary,
 						Narrow:  narrow,
 					}
 				}
