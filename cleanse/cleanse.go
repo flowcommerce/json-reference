@@ -464,7 +464,7 @@ func countryName(record map[string]string) string {
 	overrides := map[string]string{
 		"Bolivia (Plurinational State of)":               "Bolivia",
 		"Micronesia (Federated States of)":               "Micronesia",
-		"Saint Martin (French part)":                     "Saint Martin",
+		"Saint Martin (French Part)":                     "Saint Martin",
 		"Sint Maarten (Dutch part)":                      "Sint Maarten",
 		"Venezuela (Bolivarian Republic of)":             "Venezuela",
 		"Falkland Islands (Malvinas)":                    "Falkland Islands",
