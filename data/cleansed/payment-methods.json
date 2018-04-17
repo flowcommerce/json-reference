@@ -28,6 +28,20 @@
     ]
   },
   {
+    "id": "bitcoin",
+    "type": "online",
+    "name": "Bitcoin",
+    "small_width": 65,
+    "small_height": 41,
+    "medium_width": 100,
+    "medium_height": 60,
+    "large_width": 256,
+    "large_height": 256,
+    "regions": [
+      "world"
+    ]
+  },
+  {
     "id": "cartes_bancaires",
     "type": "card",
     "name": "Cartes Bancaires",
