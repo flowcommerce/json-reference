@@ -2489,5 +2489,17 @@
     ],
     "timezones": [],
     "default_delivered_duty": "paid"
+  },
+  {
+    "name": "Myanmar",
+    "iso_3166_2": "MM",
+    "iso_3166_3": "MMR",
+    "measurement_system": "metric",
+    "default_currency": "MMK",
+    "languages": [
+      "en"
+    ],
+    "timezones": [],
+    "default_delivered_duty": "paid"
   }
 ]

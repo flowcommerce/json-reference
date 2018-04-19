@@ -868,6 +868,13 @@
     "currency": "XCD"
   },
   {
+    "name": "Myanmar",
+    "continent": "AS",
+    "iso_3166_2": "MM",
+    "iso_3166_3": "MMR",
+    "currency": "MMK"
+  },
+  {
     "name": "Namibia",
     "continent": "AF",
     "iso_3166_2": "NA",
