@@ -469,7 +469,7 @@ func createRegions(countries []common.Country, continents []common.Continent) []
 		}
 	}
 
-	regions = append(regions, eurozone(countries), world(countries))
+	regions = append(regions, eurozone(countries), world(countries), europeanUnion(countries), europeanEconomicArea(countries))
 	assertUniqueRegionIds(regions)
 	sortRegions(regions)
 	return regions
@@ -530,6 +530,42 @@ func eurozone(countries []common.Country) common.Region {
 	return common.Region{
 		Id:                 "eurozone",
 		Name:               "Eurozone",
+		Countries:          countryCodes,
+		Currencies:         currenciesForCountries(theseCountries),
+		Languages:          languagesForCountries(theseCountries),
+		MeasurementSystems: measurementSystemsForCountries(theseCountries),
+		Timezones:          timezonesForCountries(theseCountries),
+	}
+}
+
+func europeanUnionCountryCodes() []string {
+	return []string{"AUS", "BEL", "BGR", "HRV", "CYP", "CZE", "DNK", "EST", "FIN", "FRA", "DEU", "GRC", "HUN", "IRL", "ITA", "LVA", "LTU", "LUX", "MLT", "NLD", "POL", "PRT", "ROU", "SVK", "SVN", "ESP", "SWE", "GBR"}
+}
+
+func europeanEconomicAreaCountryCodes() []string {
+	return append(europeanUnionCountryCodes(), []string{"ISL", "LIE", "NOR"}...)
+}
+
+func europeanUnion(countries []common.Country) common.Region {
+	countryCodes := europeanUnionCountryCodes()
+	theseCountries := findCountries(countries, countryCodes)
+	return common.Region{
+		Id:                 "europeanunion",
+		Name:               "European Union",
+		Countries:          countryCodes,
+		Currencies:         currenciesForCountries(theseCountries),
+		Languages:          languagesForCountries(theseCountries),
+		MeasurementSystems: measurementSystemsForCountries(theseCountries),
+		Timezones:          timezonesForCountries(theseCountries),
+	}
+}
+
+func europeanEconomicArea(countries []common.Country) common.Region {
+	countryCodes := europeanEconomicAreaCountryCodes()
+	theseCountries := findCountries(countries, countryCodes)
+	return common.Region{
+		Id:                 "europeaneconomicarea",
+		Name:               "European Economic Area",
 		Countries:          countryCodes,
 		Currencies:         currenciesForCountries(theseCountries),
 		Languages:          languagesForCountries(theseCountries),
