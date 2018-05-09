@@ -1378,7 +1378,7 @@
     "id": "europeaneconomicarea",
     "name": "European Economic Area",
     "countries": [
-      "AUS",
+      "AUT",
       "BEL",
       "BGR",
       "HRV",
@@ -1411,7 +1411,6 @@
       "NOR"
     ],
     "currencies": [
-      "AUD",
       "BGN",
       "CHF",
       "CZK",
@@ -1464,7 +1463,6 @@
     ],
     "timezones": [
       "Africa/Algiers",
-      "Australia/ACT",
       "GMT"
     ]
   },
@@ -1472,7 +1470,7 @@
     "id": "europeanunion",
     "name": "European Union",
     "countries": [
-      "AUS",
+      "AUT",
       "BEL",
       "BGR",
       "HRV",
@@ -1502,7 +1500,6 @@
       "GBR"
     ],
     "currencies": [
-      "AUD",
       "BGN",
       "CZK",
       "DKK",
@@ -1548,7 +1545,6 @@
     ],
     "timezones": [
       "Africa/Algiers",
-      "Australia/ACT",
       "GMT"
     ]
   },
