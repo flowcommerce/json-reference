@@ -227,9 +227,11 @@ func Cleanse() {
 					currency = "INR"
 				} else if currency == "SVC,USD" || currency == "HTG,USD" || currency == "PAB,USD" {
 					currency = "USD"
-				} else if currency == "LSL,ZAR" || currency == "NAD,ZAR" {
+				} else if currency == "LSL,ZAR" {
 					currency = "ZAR"
-				}	else if currency == "" {
+				} else if currency == "NAD,ZAR" {
+					currency = "NAD"
+				} else if currency == "" {
 					if iso3 == "CZE" {
 						currency = "CZK"
 					} else if iso3 == "HKG" {
