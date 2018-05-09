@@ -64,6 +64,7 @@
       "MRO",
       "MUR",
       "MWK",
+      "NAD",
       "NGN",
       "RWF",
       "SCR",
@@ -2773,7 +2774,7 @@
       "NAM"
     ],
     "currencies": [
-      "ZAR"
+      "NAD"
     ],
     "languages": [
       "en"
@@ -4538,6 +4539,7 @@
       "MWK",
       "MXN",
       "MYR",
+      "NAD",
       "NGN",
       "NIO",
       "NOK",

@@ -751,7 +751,8 @@
     "symbols": {
       "primary": "NAD",
       "narrow": "$"
-    }
+    },
+    "default_locale": "en-NA"
   },
   {
     "name": "Nepalese Rupee",
@@ -1073,7 +1074,7 @@
       "primary": "ZAR",
       "narrow": "R"
     },
-    "default_locale": "af-NA"
+    "default_locale": "en-LS"
   },
   {
     "name": "South-Korean Won",
