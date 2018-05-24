@@ -472,6 +472,7 @@ func countryName(record map[string]string) string {
 		"Falkland Islands (Malvinas)":                    "Falkland Islands",
 		"China, Hong Kong Special Administrative Region": "Hong Kong",
 		"China, Macao Special Administrative Region":     "Macau",
+		"Viet Nam":                                       "Vietnam",
 	}
 
 	name := record["official_name_en"]
