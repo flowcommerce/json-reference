@@ -18,6 +18,33 @@
     }
   },
   {
+    "id": "canada-post-priority",
+    "name": "Priority",
+    "carrier": {
+      "id": "canada-post",
+      "name": "Canada Post",
+      "tracking_url": "https://track.aftership.com/canada-post/"
+    }
+  },
+  {
+    "id": "canada-post-regular-parcel",
+    "name": "Regular Parcel",
+    "carrier": {
+      "id": "canada-post",
+      "name": "Canada Post",
+      "tracking_url": "https://track.aftership.com/canada-post/"
+    }
+  },
+  {
+    "id": "canada-xpresspost",
+    "name": "Xpresspost",
+    "carrier": {
+      "id": "canada-post",
+      "name": "Canada Post",
+      "tracking_url": "https://track.aftership.com/canada-post/"
+    }
+  },
+  {
     "id": "dhl-ecommerce-standard",
     "name": "Standard",
     "carrier": {

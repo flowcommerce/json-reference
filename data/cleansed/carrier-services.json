@@ -10,6 +10,21 @@
     "carrier_id": "asendia"
   },
   {
+    "id": "canada-post-priority",
+    "name": "Priority",
+    "carrier_id": "canada-post"
+  },
+  {
+    "id": "canada-post-regular-parcel",
+    "name": "Regular Parcel",
+    "carrier_id": "canada-post"
+  },
+  {
+    "id": "canada-xpresspost",
+    "name": "Xpresspost",
+    "carrier_id": "canada-post"
+  },
+  {
     "id": "dhl-ecommerce-standard",
     "name": "Standard",
     "carrier_id": "dhl-ecommerce"
