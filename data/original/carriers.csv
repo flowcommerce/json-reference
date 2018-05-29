@@ -1,5 +1,6 @@
 id,name,tracking_url
 asendia,Asendia,https://track.aftership.com/asendia/
+canada-post,Canada Post,https://track.aftership.com/canada-post/
 dhl,DHL Express,http://www.dhl.com/en/express/tracking.html?AWB=
 dhl-ecommerce,DHL Ecommerce,https://webtrack.dhlglobalmail.com/?trackingnumber=
 dhl-global-mail,DHL Global Mail,https://webtrack.dhlglobalmail.com/?trackingnumber=

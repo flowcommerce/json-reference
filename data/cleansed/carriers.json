@@ -5,6 +5,11 @@
     "tracking_url": "https://track.aftership.com/asendia/"
   },
   {
+    "id": "canada-post",
+    "name": "Canada Post",
+    "tracking_url": "https://track.aftership.com/canada-post/"
+  },
+  {
     "id": "dhl",
     "name": "DHL Express",
     "tracking_url": "http://www.dhl.com/en/express/tracking.html?AWB="

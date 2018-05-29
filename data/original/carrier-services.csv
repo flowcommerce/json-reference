@@ -1,6 +1,9 @@
 id,name,carrier_id
 asendia-express,Express,asendia
 asendia-standard,Standard,asendia
+canada-post-priority,Priority,canada-post
+canada-post-regular-parcel,Regular Parcel,canada-post
+canada-post-xpresspost,Xpresspost,canada-post
 dhl-ecommerce-standard,Standard,dhl-ecommerce
 dhl-express-worldwide,Express Worldwide,dhl
 dhl-global-mail-packet-plus,Packet Plus,dhl-global-mail
