@@ -20,7 +20,7 @@
     "carrier_id": "canada-post"
   },
   {
-    "id": "canada-xpresspost",
+    "id": "canada-post-xpresspost",
     "name": "Xpresspost",
     "carrier_id": "canada-post"
   },
