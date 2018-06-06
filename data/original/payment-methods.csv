@@ -9,6 +9,7 @@ card,jcb,Jcb,65,41,100,60,256,256,jpn
 card,maestro,Maestro,65,41,100,60,256,256,north-america europe
 card,mastercard,Mastercard,65,41,100,60,256,256,world
 card,visa,VISA,65,41,100,60,256,256,world
+online,ach,ACH,65,41,100,60,256,256,world
 online,alipay,Alipay,65,41,100,60,256,256,world
 online,bitcoin,Bitcoin,65,41,100,60,256,256,world
 online,directEbanking,Sofortüberweisung,65,41,100,60,256,256,world
