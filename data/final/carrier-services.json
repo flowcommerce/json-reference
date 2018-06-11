@@ -90,6 +90,15 @@
     }
   },
   {
+    "id": "la-poste-colissimo",
+    "name": "Colissimo",
+    "carrier": {
+      "id": "la-poste",
+      "name": "La Poste",
+      "tracking_url": "https://www.laposte.fr/particulier/outils/en/track-a-parcel?code="
+    }
+  },
+  {
     "id": "landmark-global",
     "name": "Global",
     "carrier": {
@@ -108,6 +117,15 @@
     }
   },
   {
+    "id": "ups-express-saver",
+    "name": "Express Saver",
+    "carrier": {
+      "id": "ups",
+      "name": "UPS",
+      "tracking_url": "https://track.aftership.com/ups/"
+    }
+  },
+  {
     "id": "ups-ground",
     "name": "Ground",
     "carrier": {
@@ -123,6 +141,15 @@
       "id": "usps",
       "name": "USPS",
       "tracking_url": "https://track.aftership.com/usps/"
+    }
+  },
+  {
+    "id": "wn-direct-standard",
+    "name": "Standard",
+    "carrier": {
+      "id": "wn-direct",
+      "name": "WN Direct",
+      "tracking_url": "http://wndirect.com/tracking.php?type=TR\u0026ref="
     }
   }
 ]
