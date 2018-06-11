@@ -30,6 +30,11 @@
     "tracking_url": "https://webtrack.dhlglobalmail.com/?trackingnumber="
   },
   {
+    "id": "la-poste",
+    "name": "La Poste",
+    "tracking_url": "https://www.laposte.fr/particulier/outils/en/track-a-parcel?code="
+  },
+  {
     "id": "landmark",
     "name": "Landmark",
     "tracking_url": "https://mercury.landmarkglobal.com/tracking/track.php?trck="
@@ -48,5 +53,10 @@
     "id": "usps",
     "name": "USPS",
     "tracking_url": "https://track.aftership.com/usps/"
+  },
+  {
+    "id": "wn-direct",
+    "name": "WN Direct",
+    "tracking_url": "http://wndirect.com/tracking.php?type=TR\u0026ref="
   }
 ]
