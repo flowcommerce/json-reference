@@ -90,6 +90,24 @@
     }
   },
   {
+    "id": "fedex-international-priority",
+    "name": "International Priority",
+    "carrier": {
+      "id": "fedex",
+      "name": "FedEx",
+      "tracking_url": "https://www.fedex.com/apps/fedextrack/?tracknumbers="
+    }
+  },
+  {
+    "id": "fedex-international-standard",
+    "name": "International Standard",
+    "carrier": {
+      "id": "fedex",
+      "name": "FedEx",
+      "tracking_url": "https://www.fedex.com/apps/fedextrack/?tracknumbers="
+    }
+  },
+  {
     "id": "la-poste-colissimo",
     "name": "Colissimo",
     "carrier": {

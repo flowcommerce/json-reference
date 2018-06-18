@@ -5,6 +5,7 @@ dhl,DHL Express,http://www.dhl.com/en/express/tracking.html?AWB=
 dhl-ecommerce,DHL Ecommerce,https://webtrack.dhlglobalmail.com/?trackingnumber=
 dhl-global-mail,DHL Global Mail,https://webtrack.dhlglobalmail.com/?trackingnumber=
 dhl-parcel,DHL Parcel,https://webtrack.dhlglobalmail.com/?trackingnumber=
+fedex,FedEx,https://www.fedex.com/apps/fedextrack/?tracknumbers=
 landmark,Landmark,https://mercury.landmarkglobal.com/tracking/track.php?trck=
 la-poste,La Poste,https://www.laposte.fr/particulier/outils/en/track-a-parcel?code=
 sf-express,SF Express,http://www.sf-express.com/us/en/dynamic_function/waybill/#search/bill-number/

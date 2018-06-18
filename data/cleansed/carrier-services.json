@@ -50,6 +50,16 @@
     "carrier_id": "dhl-parcel"
   },
   {
+    "id": "fedex-international-priority",
+    "name": "International Priority",
+    "carrier_id": "fedex"
+  },
+  {
+    "id": "fedex-international-standard",
+    "name": "International Standard",
+    "carrier_id": "fedex"
+  },
+  {
     "id": "la-poste-colissimo",
     "name": "Colissimo",
     "carrier_id": "la-poste"

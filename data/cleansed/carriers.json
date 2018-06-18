@@ -30,6 +30,11 @@
     "tracking_url": "https://webtrack.dhlglobalmail.com/?trackingnumber="
   },
   {
+    "id": "fedex",
+    "name": "FedEx",
+    "tracking_url": "https://www.fedex.com/apps/fedextrack/?tracknumbers="
+  },
+  {
     "id": "la-poste",
     "name": "La Poste",
     "tracking_url": "https://www.laposte.fr/particulier/outils/en/track-a-parcel?code="
