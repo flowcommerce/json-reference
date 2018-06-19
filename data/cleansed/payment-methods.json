@@ -42,6 +42,20 @@
     ]
   },
   {
+    "id": "bankTransfer_IBAN",
+    "type": "online",
+    "name": "International Bank Transfer (IBAN)",
+    "small_width": 65,
+    "small_height": 41,
+    "medium_width": 100,
+    "medium_height": 60,
+    "large_width": 256,
+    "large_height": 256,
+    "regions": [
+      "world"
+    ]
+  },
+  {
     "id": "bitcoin",
     "type": "online",
     "name": "Bitcoin",
@@ -142,6 +156,76 @@
     ]
   },
   {
+    "id": "dotpay",
+    "type": "online",
+    "name": "Dotpay",
+    "small_width": 65,
+    "small_height": 41,
+    "medium_width": 100,
+    "medium_height": 60,
+    "large_width": 256,
+    "large_height": 256,
+    "regions": [
+      "world"
+    ]
+  },
+  {
+    "id": "dragonpay_ebanking",
+    "type": "online",
+    "name": "Dragonpay eBanking",
+    "small_width": 65,
+    "small_height": 41,
+    "medium_width": 100,
+    "medium_height": 60,
+    "large_width": 256,
+    "large_height": 256,
+    "regions": [
+      "world"
+    ]
+  },
+  {
+    "id": "dragonpay_gcash",
+    "type": "online",
+    "name": "GCash via Dragonpay",
+    "small_width": 65,
+    "small_height": 41,
+    "medium_width": 100,
+    "medium_height": 60,
+    "large_width": 256,
+    "large_height": 256,
+    "regions": [
+      "world"
+    ]
+  },
+  {
+    "id": "dragonpay_otc_banking",
+    "type": "online",
+    "name": "Dragonpay OTC",
+    "small_width": 65,
+    "small_height": 41,
+    "medium_width": 100,
+    "medium_height": 60,
+    "large_width": 256,
+    "large_height": 256,
+    "regions": [
+      "world"
+    ]
+  },
+  {
+    "id": "ebanking_FI",
+    "type": "online",
+    "name": "Finnish E-Banking",
+    "small_width": 65,
+    "small_height": 41,
+    "medium_width": 100,
+    "medium_height": 60,
+    "large_width": 256,
+    "large_height": 256,
+    "regions": [
+      "world"
+    ]
+  },
+  {
     "id": "giropay",
     "type": "online",
     "name": "GiroPay",
@@ -170,6 +254,20 @@
     ]
   },
   {
+    "id": "interac",
+    "type": "online",
+    "name": "Interac Online",
+    "small_width": 65,
+    "small_height": 41,
+    "medium_width": 100,
+    "medium_height": 60,
+    "large_width": 256,
+    "large_height": 256,
+    "regions": [
+      "world"
+    ]
+  },
+  {
     "id": "jcb",
     "type": "card",
     "name": "Jcb",
@@ -181,6 +279,48 @@
     "large_height": 256,
     "regions": [
       "jpn"
+    ]
+  },
+  {
+    "id": "kcp_banktransfer",
+    "type": "online",
+    "name": "Bank Transfer via KCP",
+    "small_width": 65,
+    "small_height": 41,
+    "medium_width": 100,
+    "medium_height": 60,
+    "large_width": 256,
+    "large_height": 256,
+    "regions": [
+      "world"
+    ]
+  },
+  {
+    "id": "kcp_creditcard",
+    "type": "online",
+    "name": "Credit Card via KCP",
+    "small_width": 65,
+    "small_height": 41,
+    "medium_width": 100,
+    "medium_height": 60,
+    "large_width": 256,
+    "large_height": 256,
+    "regions": [
+      "world"
+    ]
+  },
+  {
+    "id": "kcp_payco",
+    "type": "online",
+    "name": "PayCo",
+    "small_width": 65,
+    "small_height": 41,
+    "medium_width": 100,
+    "medium_height": 60,
+    "large_width": 256,
+    "large_height": 256,
+    "regions": [
+      "world"
     ]
   },
   {
@@ -227,6 +367,34 @@
     ]
   },
   {
+    "id": "molpay_points",
+    "type": "online",
+    "name": "MOLPoints via MOLPay",
+    "small_width": 65,
+    "small_height": 41,
+    "medium_width": 100,
+    "medium_height": 60,
+    "large_width": 256,
+    "large_height": 256,
+    "regions": [
+      "world"
+    ]
+  },
+  {
+    "id": "multibanco",
+    "type": "online",
+    "name": "Multibanco",
+    "small_width": 65,
+    "small_height": 41,
+    "medium_width": 100,
+    "medium_height": 60,
+    "large_width": 256,
+    "large_height": 256,
+    "regions": [
+      "world"
+    ]
+  },
+  {
     "id": "paypal",
     "type": "online",
     "name": "PayPal",
@@ -258,6 +426,34 @@
     "id": "sepadirectdebit",
     "type": "online",
     "name": "SEPA Direct Debit",
+    "small_width": 65,
+    "small_height": 41,
+    "medium_width": 100,
+    "medium_height": 60,
+    "large_width": 256,
+    "large_height": 256,
+    "regions": [
+      "world"
+    ]
+  },
+  {
+    "id": "trustly",
+    "type": "online",
+    "name": "Trustly",
+    "small_width": 65,
+    "small_height": 41,
+    "medium_width": 100,
+    "medium_height": 60,
+    "large_width": 256,
+    "large_height": 256,
+    "regions": [
+      "world"
+    ]
+  },
+  {
+    "id": "trustpay",
+    "type": "online",
+    "name": "TrustPay",
     "small_width": 65,
     "small_height": 41,
     "medium_width": 100,
