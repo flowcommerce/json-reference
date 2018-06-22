@@ -50,6 +50,11 @@
     "carrier_id": "dhl-parcel"
   },
   {
+    "id": "fedex-international-economy",
+    "name": "International Economy",
+    "carrier_id": "fedex"
+  },
+  {
     "id": "fedex-international-priority",
     "name": "International Priority",
     "carrier_id": "fedex"
