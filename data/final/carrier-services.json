@@ -90,6 +90,15 @@
     }
   },
   {
+    "id": "fedex-international-economy",
+    "name": "International Economy",
+    "carrier": {
+      "id": "fedex",
+      "name": "FedEx",
+      "tracking_url": "https://www.fedex.com/apps/fedextrack/?tracknumbers="
+    }
+  },
+  {
     "id": "fedex-international-priority",
     "name": "International Priority",
     "carrier": {
