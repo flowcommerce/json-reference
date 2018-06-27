@@ -7,6 +7,13 @@
     "currency": "ALL"
   },
   {
+    "name": "Algeria",
+    "continent": "AF",
+    "iso_3166_2": "DZ",
+    "iso_3166_3": "DZA",
+    "currency": "DZD"
+  },
+  {
     "name": "American Samoa",
     "continent": "OC",
     "iso_3166_2": "AS",
@@ -411,6 +418,13 @@
     "iso_3166_2": "FK",
     "iso_3166_3": "FLK",
     "currency": "FKP"
+  },
+  {
+    "name": "Faroe Islands",
+    "continent": "EU",
+    "iso_3166_2": "FO",
+    "iso_3166_3": "FRO",
+    "currency": "DKK"
   },
   {
     "name": "Fiji",
@@ -868,6 +882,13 @@
     "currency": "XCD"
   },
   {
+    "name": "Morocco",
+    "continent": "AF",
+    "iso_3166_2": "MA",
+    "iso_3166_3": "MAR",
+    "currency": "MAD"
+  },
+  {
     "name": "Namibia",
     "continent": "AF",
     "iso_3166_2": "NA",
@@ -1106,6 +1127,13 @@
     "currency": "EUR"
   },
   {
+    "name": "Saint Pierre and Miquelon",
+    "continent": "NA",
+    "iso_3166_2": "PM",
+    "iso_3166_3": "SPM",
+    "currency": "EUR"
+  },
+  {
     "name": "Saint Vincent and the Grenadines",
     "continent": "NA",
     "iso_3166_2": "VC",
@@ -1174,6 +1202,13 @@
     "iso_3166_2": "SG",
     "iso_3166_3": "SGP",
     "currency": "SGD"
+  },
+  {
+    "name": "Sint Maarten",
+    "continent": "NA",
+    "iso_3166_2": "SX",
+    "iso_3166_3": "SXM",
+    "currency": "ANG"
   },
   {
     "name": "Slovakia",
@@ -1384,6 +1419,13 @@
     "iso_3166_2": "VN",
     "iso_3166_3": "VNM",
     "currency": "VND"
+  },
+  {
+    "name": "Wallis and Futuna Islands",
+    "continent": "OC",
+    "iso_3166_2": "WF",
+    "iso_3166_3": "WLF",
+    "currency": "XPF"
   },
   {
     "name": "Yemen",
