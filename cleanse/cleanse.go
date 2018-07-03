@@ -648,8 +648,8 @@ func readCurrencies(file string) []Currency {
 	currencies := []Currency{}
 
 	for _, c := range data {
+    	// If remapped, no need to include as it will be duplicated
         remapped := common.RemapCurrencyCodeToSupported(c.Iso_4217_3)
-        fmt.Printf("- %s => %s\n", c.Iso_4217_3, remapped)
         if (remapped == c.Iso_4217_3) {
 			currencies = append(currencies, Currency{
 				Name:           c.Name,
