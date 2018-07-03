@@ -17,6 +17,10 @@
   "ANG": {
     "primary": "ANG"
   },
+  "AOA": {
+    "primary": "AOA",
+    "narrow": "Kz"
+  },
   "AOK": {
     "primary": "AOK"
   },
@@ -493,6 +497,10 @@
   "MDL": {
     "primary": "MDL"
   },
+  "MGA": {
+    "primary": "MGA",
+    "narrow": "Ar"
+  },
   "MGF": {
     "primary": "MGF"
   },
@@ -547,6 +555,9 @@
   },
   "MZM": {
     "primary": "MZM"
+  },
+  "MZN": {
+    "primary": "MZN"
   },
   "NAD": {
     "primary": "NAD",
@@ -685,6 +696,10 @@
   },
   "SOS": {
     "primary": "SOS"
+  },
+  "SRD": {
+    "primary": "SRD",
+    "narrow": "$"
   },
   "SRG": {
     "primary": "SRG"

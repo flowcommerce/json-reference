@@ -970,6 +970,16 @@
     }
   },
   {
+    "id": "en-MG",
+    "name": "English - Madagascar",
+    "country": "MDG",
+    "language": "en",
+    "numbers": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
     "id": "en-MW",
     "name": "English - Malawi",
     "country": "MWI",
@@ -1660,6 +1670,16 @@
     }
   },
   {
+    "id": "fr-MG",
+    "name": "French - Madagascar",
+    "country": "MDG",
+    "language": "fr",
+    "numbers": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
     "id": "fr-ML",
     "name": "French - Mali",
     "country": "MLI",
@@ -2180,6 +2200,16 @@
     }
   },
   {
+    "id": "ln-AO",
+    "name": "Lingala - Angola",
+    "country": "AGO",
+    "language": "ln",
+    "numbers": {
+      "decimal": ",",
+      "group": "."
+    }
+  },
+  {
     "id": "ln-CF",
     "name": "Lingala - Central African Republic",
     "country": "CAF",
@@ -2227,6 +2257,16 @@
     "numbers": {
       "decimal": ",",
       "group": "."
+    }
+  },
+  {
+    "id": "mg",
+    "name": "Malagasy - Madagascar",
+    "country": "MDG",
+    "language": "mg",
+    "numbers": {
+      "decimal": ".",
+      "group": ","
     }
   },
   {
@@ -2340,6 +2380,16 @@
     }
   },
   {
+    "id": "pt-AO",
+    "name": "Portuguese - Angola",
+    "country": "AGO",
+    "language": "pt",
+    "numbers": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
     "id": "pt-BR",
     "name": "Portuguese - Brazil",
     "country": "BRA",
@@ -2393,6 +2443,16 @@
     "id": "pt-MO",
     "name": "Portuguese - Macau",
     "country": "MAC",
+    "language": "pt",
+    "numbers": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
+    "id": "pt-MZ",
+    "name": "Portuguese - Mozambique",
+    "country": "MOZ",
     "language": "pt",
     "numbers": {
       "decimal": ",",

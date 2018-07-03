@@ -315,6 +315,11 @@
     "number_decimals": 3
   },
   {
+    "name": "Kwanza",
+    "iso_4217_3": "AOA",
+    "number_decimals": 2
+  },
+  {
     "name": "Kyrgyzstan Som",
     "iso_4217_3": "KGS",
     "number_decimals": 2
@@ -347,6 +352,11 @@
   {
     "name": "Macau Pataca",
     "iso_4217_3": "MOP",
+    "number_decimals": 2
+  },
+  {
+    "name": "Malagasy Ariary",
+    "iso_4217_3": "MGA",
     "number_decimals": 2
   },
   {
@@ -392,6 +402,11 @@
   {
     "name": "Moroccan Dirham",
     "iso_4217_3": "MAD",
+    "number_decimals": 2
+  },
+  {
+    "name": "Mozambique Metical",
+    "iso_4217_3": "MZN",
     "number_decimals": 2
   },
   {
@@ -582,6 +597,11 @@
   {
     "name": "St. Helena Pound",
     "iso_4217_3": "SHP",
+    "number_decimals": 2
+  },
+  {
+    "name": "Surinam Dollar",
+    "iso_4217_3": "SRD",
     "number_decimals": 2
   },
   {

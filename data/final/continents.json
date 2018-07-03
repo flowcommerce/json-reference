@@ -3,6 +3,7 @@
     "name": "Africa",
     "code": "AFR",
     "countries": [
+      "AGO",
       "BEN",
       "BFA",
       "BWA",
@@ -26,7 +27,9 @@
       "LBY",
       "LSO",
       "MAR",
+      "MDG",
       "MLI",
+      "MOZ",
       "MRT",
       "MUS",
       "MWI",
@@ -242,6 +245,7 @@
       "GUY",
       "PER",
       "PRY",
+      "SUR",
       "URY",
       "VEN"
     ]

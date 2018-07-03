@@ -263,6 +263,7 @@
       "BEL",
       "CUW",
       "NLD",
+      "SUR",
       "SXM"
     ],
     "locales": [
@@ -421,6 +422,7 @@
       "JEY",
       "LUX",
       "MCO",
+      "MDG",
       "MLI",
       "MTQ",
       "MUS",
@@ -680,6 +682,7 @@
     "name": "Kongo",
     "iso_639_2": "kg",
     "countries": [
+      "AGO",
       "COG"
     ],
     "locales": []
@@ -703,7 +706,9 @@
   {
     "name": "Kwanyama",
     "iso_639_2": "kj",
-    "countries": [],
+    "countries": [
+      "AGO"
+    ],
     "locales": []
   },
   {
@@ -783,7 +788,9 @@
   {
     "name": "Malagasy",
     "iso_639_2": "mg",
-    "countries": [],
+    "countries": [
+      "MDG"
+    ],
     "locales": []
   },
   {
@@ -916,11 +923,13 @@
     "name": "Portuguese",
     "iso_639_2": "pt",
     "countries": [
+      "AGO",
       "BRA",
       "CPV",
       "GNB",
       "GNQ",
       "MAC",
+      "MOZ",
       "PRT",
       "STP",
       "TLS"

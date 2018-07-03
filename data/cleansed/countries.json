@@ -28,6 +28,13 @@
     "currency": "EUR"
   },
   {
+    "name": "Angola",
+    "continent": "AF",
+    "iso_3166_2": "AO",
+    "iso_3166_3": "AGO",
+    "currency": "AOA"
+  },
+  {
     "name": "Anguilla",
     "continent": "NA",
     "iso_3166_2": "AI",
@@ -770,6 +777,13 @@
     "currency": "MOP"
   },
   {
+    "name": "Madagascar",
+    "continent": "AF",
+    "iso_3166_2": "MG",
+    "iso_3166_3": "MDG",
+    "currency": "MGA"
+  },
+  {
     "name": "Malawi",
     "continent": "AF",
     "iso_3166_2": "MW",
@@ -887,6 +901,13 @@
     "iso_3166_2": "MA",
     "iso_3166_3": "MAR",
     "currency": "MAD"
+  },
+  {
+    "name": "Mozambique",
+    "continent": "AF",
+    "iso_3166_2": "MZ",
+    "iso_3166_3": "MOZ",
+    "currency": "MZN"
   },
   {
     "name": "Namibia",
@@ -1258,6 +1279,13 @@
     "iso_3166_2": "LK",
     "iso_3166_3": "LKA",
     "currency": "LKR"
+  },
+  {
+    "name": "Suriname",
+    "continent": "SA",
+    "iso_3166_2": "SR",
+    "iso_3166_3": "SUR",
+    "currency": "SRD"
   },
   {
     "name": "Swaziland",

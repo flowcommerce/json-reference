@@ -3,6 +3,7 @@
     "id": "africa",
     "name": "Africa",
     "countries": [
+      "AGO",
       "BEN",
       "BFA",
       "BWA",
@@ -26,7 +27,9 @@
       "LBY",
       "LSO",
       "MAR",
+      "MDG",
       "MLI",
+      "MOZ",
       "MRT",
       "MUS",
       "MWI",
@@ -51,6 +54,7 @@
       "ZMB"
     ],
     "currencies": [
+      "AOA",
       "BWP",
       "CVE",
       "DJF",
@@ -65,9 +69,11 @@
       "KMF",
       "LYD",
       "MAD",
+      "MGA",
       "MRO",
       "MUR",
       "MWK",
+      "MZN",
       "NAD",
       "NGN",
       "RWF",
@@ -99,8 +105,10 @@
       "ha",
       "ig",
       "kg",
+      "kj",
       "kr",
       "ln",
+      "mg",
       "nd",
       "nr",
       "ny",
@@ -185,6 +193,25 @@
     ],
     "languages": [
       "ca"
+    ],
+    "measurement_systems": [
+      "metric"
+    ],
+    "timezones": []
+  },
+  {
+    "id": "ago",
+    "name": "Angola",
+    "countries": [
+      "AGO"
+    ],
+    "currencies": [
+      "AOA"
+    ],
+    "languages": [
+      "kg",
+      "kj",
+      "pt"
     ],
     "measurement_systems": [
       "metric"
@@ -2529,6 +2556,24 @@
     "timezones": []
   },
   {
+    "id": "mdg",
+    "name": "Madagascar",
+    "countries": [
+      "MDG"
+    ],
+    "currencies": [
+      "MGA"
+    ],
+    "languages": [
+      "fr",
+      "mg"
+    ],
+    "measurement_systems": [
+      "metric"
+    ],
+    "timezones": []
+  },
+  {
     "id": "mwi",
     "name": "Malawi",
     "countries": [
@@ -2818,6 +2863,23 @@
     ],
     "languages": [
       "ar"
+    ],
+    "measurement_systems": [
+      "metric"
+    ],
+    "timezones": []
+  },
+  {
+    "id": "moz",
+    "name": "Mozambique",
+    "countries": [
+      "MOZ"
+    ],
+    "currencies": [
+      "MZN"
+    ],
+    "languages": [
+      "pt"
     ],
     "measurement_systems": [
       "metric"
@@ -3879,6 +3941,7 @@
       "GUY",
       "PER",
       "PRY",
+      "SUR",
       "URY",
       "VEN"
     ],
@@ -3893,6 +3956,7 @@
       "GYD",
       "PEN",
       "PYG",
+      "SRD",
       "USD",
       "UYU",
       "VEF"
@@ -3903,6 +3967,7 @@
       "es",
       "fr",
       "gn",
+      "nl",
       "pt",
       "qu"
     ],
@@ -3941,6 +4006,23 @@
       "en",
       "si",
       "ta"
+    ],
+    "measurement_systems": [
+      "metric"
+    ],
+    "timezones": []
+  },
+  {
+    "id": "sur",
+    "name": "Suriname",
+    "countries": [
+      "SUR"
+    ],
+    "currencies": [
+      "SRD"
+    ],
+    "languages": [
+      "nl"
     ],
     "measurement_systems": [
       "metric"
@@ -4374,6 +4456,7 @@
     "name": "World",
     "countries": [
       "ABW",
+      "AGO",
       "AIA",
       "ALB",
       "AND",
@@ -4493,6 +4576,7 @@
       "MAR",
       "MCO",
       "MDA",
+      "MDG",
       "MDV",
       "MEX",
       "MHL",
@@ -4501,6 +4585,7 @@
       "MNE",
       "MNG",
       "MNP",
+      "MOZ",
       "MRT",
       "MSR",
       "MTQ",
@@ -4547,6 +4632,7 @@
       "SPM",
       "SRB",
       "STP",
+      "SUR",
       "SVK",
       "SVN",
       "SWE",
@@ -4585,6 +4671,7 @@
       "ALL",
       "AMD",
       "ANG",
+      "AOA",
       "ARS",
       "AUD",
       "AWG",
@@ -4651,6 +4738,7 @@
       "LYD",
       "MAD",
       "MDL",
+      "MGA",
       "MNT",
       "MOP",
       "MRO",
@@ -4659,6 +4747,7 @@
       "MWK",
       "MXN",
       "MYR",
+      "MZN",
       "NAD",
       "NGN",
       "NIO",
@@ -4685,6 +4774,7 @@
       "SHP",
       "SLL",
       "SOS",
+      "SRD",
       "STD",
       "SZL",
       "THB",
@@ -4757,6 +4847,7 @@
       "ja",
       "ka",
       "kg",
+      "kj",
       "kk",
       "km",
       "ko",
@@ -4767,6 +4858,7 @@
       "lo",
       "lt",
       "lv",
+      "mg",
       "mh",
       "mi",
       "mn",

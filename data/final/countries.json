@@ -46,6 +46,19 @@
     "default_delivered_duty": "paid"
   },
   {
+    "name": "Angola",
+    "iso_3166_2": "AO",
+    "iso_3166_3": "AGO",
+    "measurement_system": "metric",
+    "default_currency": "AOA",
+    "languages": [
+      "kg",
+      "kj",
+      "pt"
+    ],
+    "timezones": []
+  },
+  {
     "name": "Anguilla",
     "iso_3166_2": "AI",
     "iso_3166_3": "AIA",
@@ -1358,6 +1371,18 @@
     "default_delivered_duty": "paid"
   },
   {
+    "name": "Madagascar",
+    "iso_3166_2": "MG",
+    "iso_3166_3": "MDG",
+    "measurement_system": "metric",
+    "default_currency": "MGA",
+    "languages": [
+      "fr",
+      "mg"
+    ],
+    "timezones": []
+  },
+  {
     "name": "Malawi",
     "iso_3166_2": "MW",
     "iso_3166_3": "MWI",
@@ -1567,6 +1592,17 @@
     ],
     "timezones": [],
     "default_delivered_duty": "paid"
+  },
+  {
+    "name": "Mozambique",
+    "iso_3166_2": "MZ",
+    "iso_3166_3": "MOZ",
+    "measurement_system": "metric",
+    "default_currency": "MZN",
+    "languages": [
+      "pt"
+    ],
+    "timezones": []
   },
   {
     "name": "Namibia",
@@ -2235,6 +2271,17 @@
     ],
     "timezones": [],
     "default_delivered_duty": "paid"
+  },
+  {
+    "name": "Suriname",
+    "iso_3166_2": "SR",
+    "iso_3166_3": "SUR",
+    "measurement_system": "metric",
+    "default_currency": "SRD",
+    "languages": [
+      "nl"
+    ],
+    "timezones": []
   },
   {
     "name": "Swaziland",
