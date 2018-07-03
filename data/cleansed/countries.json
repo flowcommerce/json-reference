@@ -350,6 +350,13 @@
     "currency": "XOF"
   },
   {
+    "name": "Democratic People's Republic of Korea",
+    "continent": "AS",
+    "iso_3166_2": "KP",
+    "iso_3166_3": "PRK",
+    "currency": "KPW"
+  },
+  {
     "name": "Denmark",
     "continent": "EU",
     "iso_3166_2": "DK",
@@ -1265,6 +1272,13 @@
     "iso_3166_2": "ZA",
     "iso_3166_3": "ZAF",
     "currency": "ZAR"
+  },
+  {
+    "name": "South Sudan",
+    "continent": "AF",
+    "iso_3166_2": "SS",
+    "iso_3166_3": "SSD",
+    "currency": "SSP"
   },
   {
     "name": "Spain",

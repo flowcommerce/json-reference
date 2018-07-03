@@ -211,14 +211,13 @@ func Cleanse() {
 	writeJson("data/cleansed/languages.json", languages)
 	writeJson("data/cleansed/locale-names.json", localeNames)
 
-	unsupportedCurrencyCodes := common.UnsupportedCurrencyCodes()
 	unsupportedCountryCodes := common.UnsupportedCountryCodes()
 
 	countriesSource := readCsv("data/source/countries.csv")
 	writeJson("data/cleansed/countries.json",
 		toObjects(countriesSource,
 			func(record map[string]string) bool {
-				return record["ISO3166-1-Alpha-2"] != "" && record["ISO3166-1-Alpha-3"] != "" && !common.ContainsIgnoreCase(unsupportedCountryCodes, record["ISO3166-1-Alpha-3"]) && !common.ContainsIgnoreCase(unsupportedCurrencyCodes, record["ISO4217-currency_alphabetic_code"])
+				return record["ISO3166-1-Alpha-2"] != "" && record["ISO3166-1-Alpha-3"] != "" && !common.ContainsIgnoreCase(unsupportedCountryCodes, record["ISO3166-1-Alpha-3"])
 			},
 			func(record map[string]string) interface{} {
 				iso3 := record["ISO3166-1-Alpha-3"]
@@ -603,33 +602,30 @@ func readCurrencySymbols(file string) map[string]CurrencySymbols {
 	err := json.Unmarshal(common.ReadFile(file), &data)
 	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshall cldr currencies: %s", err))
 
-	unsupportedCurrencyCodes := common.UnsupportedCurrencyCodes()
 	currencySymbols := map[string]CurrencySymbols{}
 
 	for _, main := range data.Main {
 		for code, c := range main.Numbers.Currencies {
-			if !common.ContainsIgnoreCase(unsupportedCurrencyCodes, code) {
-				if c.Symbol != "" {
-					var narrow string
-					if c.Symbol == c.SymbolAltNarrow {
-						narrow = c.Symbol
-					} else {
-						narrow = c.SymbolAltNarrow
-					}
+            if c.Symbol != "" {
+                var narrow string
+                if c.Symbol == c.SymbolAltNarrow {
+                    narrow = c.Symbol
+                } else {
+                    narrow = c.SymbolAltNarrow
+                }
 
-					var primary string
-					if code == "USD" {
-						primary = "US$"
-					} else {
-						primary = c.Symbol
-					}
+                var primary string
+                if code == "USD" {
+                    primary = "US$"
+                } else {
+                    primary = c.Symbol
+                }
 
-					currencySymbols[code] = CurrencySymbols{
-						Primary: primary,
-						Narrow:  narrow,
-					}
-				}
-			}
+                currencySymbols[code] = CurrencySymbols{
+                    Primary: primary,
+                    Narrow:  narrow,
+                }
+            }
 		}
 	}
 	return currencySymbols
@@ -640,11 +636,11 @@ func readCurrencies(file string) []Currency {
 	err := json.Unmarshal(common.ReadFile(file), &data)
 	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshall currencies: %s", err))
 
-	unsupportedCurrencyCodes := common.UnsupportedCurrencyCodes()
 	currencies := []Currency{}
 
 	for _, c := range data {
-		if !common.ContainsIgnoreCase(unsupportedCurrencyCodes, c.Iso_4217_3) {
+        remapped := common.RemapCurrencyCodeToSupported(c.Iso_4217_3)
+        if (remapped != c.Iso_4217_3) {
 			currencies = append(currencies, Currency{
 				Name:           c.Name,
 				Iso_4217_3:     c.Iso_4217_3,
@@ -920,3 +916,4 @@ func toInt32(value string) int {
 	util.ExitIfError(err, fmt.Sprintf("Failed to convert value[%s] to int32: %s", value, err))
 	return v
 }
+
