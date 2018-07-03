@@ -245,11 +245,17 @@ func Cleanse() {
 					}
 				}
 
+                finalCurrency := common.RemapCurrencyCodeToSupported(currency);
+                if (finalCurrency == "") {
+                    fmt.Printf("Currency %s could not be remapped\n", currency)
+                    os.Exit(1)
+                }
+
 				return Country{
 					Name:       countryName(record),
 					Iso_3166_2: record["ISO3166-1-Alpha-2"],
 					Iso_3166_3: iso3,
-					Currency:   currency,
+					Currency:   finalCurrency,
 					Continent:  record["Continent"],
 				}
 			},
