@@ -365,30 +365,46 @@ func UnsupportedCountryCodes() []string {
 	}
 }
 
-func UnsupportedCurrencyCodes() []string {
-	return []string{
-		"AFN",
-		"ALK",
-		"BIF",
-		"BYR",
-		"CNH",
-		"CNX",
-		"CUP",
-		"ERN",
-		"ILR",
-		"IQD",
-		"IRR",
-		"ISJ",
-		"KPW",
-		"LRD",
-		"MKD",
-		"MMK",
-		"MRU",
-		"MVP",
-		"SDG",
-		"SSP",
-		"STN",
-		"SYP",
-		"ZWL",
-	}
+func RemapCurrencyCodeToSupported(code string) string {
+    // Need to map some currency codes into the ones supported  by
+    // most payment processors
+    remappedCurrencyCodes := map[string]string{
+        "AFN": "EUR",
+        "ALK": "EUR",
+        "AOA": "EUR",
+        "BIF": "EUR",
+        "BYR": "EUR",
+        "CNH": "EUR",
+        "CNX": "EUR",
+        "CUP": "EUR",
+        "ERN": "EUR",
+        "ILR": "EUR",
+        "IQD": "EUR",
+        "IRR": "EUR",
+        "ISJ": "EUR",
+        "KPW": "EUR",
+        "LRD": "EUR",
+        "MGA": "EUR",
+        "MKD": "EUR",
+        "MMK": "EUR",
+        "MRU": "EUR",
+        "MVP": "EUR",
+        "MZN": "EUR",
+        "SDG": "EUR",
+        "SRD": "EUR",
+        "SSP": "EUR",
+        "STN": "EUR",
+        "SYP": "EUR",
+        "TJS": "EUR",
+        "TMT": "EUR",
+        "ZWL": "EUR",
 }
+
+    newCurrency, _ := remappedCurrencyCodes[code]
+    if newCurrency == "" {
+        return code;
+    } else {
+        return newCurrency;
+    }
+}
+
