@@ -1,10 +1,5 @@
 [
   {
-    "name": "Kwanza",
-    "iso_4217_3": "AOA",
-    "number_decimals": 2
-  },
-  {
     "name": "Malagasy Ariary",
     "iso_4217_3": "MGA",
     "number_decimals": 2
