@@ -355,6 +355,11 @@
     "number_decimals": 2
   },
   {
+    "name": "Malagasy Ariary",
+    "iso_4217_3": "MGA",
+    "number_decimals": 2
+  },
+  {
     "name": "Malawi Kwacha",
     "iso_4217_3": "MWK",
     "number_decimals": 2
@@ -397,6 +402,11 @@
   {
     "name": "Moroccan Dirham",
     "iso_4217_3": "MAD",
+    "number_decimals": 2
+  },
+  {
+    "name": "Mozambique Metical",
+    "iso_4217_3": "MZN",
     "number_decimals": 2
   },
   {
@@ -570,6 +580,11 @@
     "number_decimals": 2
   },
   {
+    "name": "Somoni",
+    "iso_4217_3": "TJS",
+    "number_decimals": 2
+  },
+  {
     "name": "South African Rand",
     "iso_4217_3": "ZAR",
     "number_decimals": 2
@@ -587,6 +602,11 @@
   {
     "name": "St. Helena Pound",
     "iso_4217_3": "SHP",
+    "number_decimals": 2
+  },
+  {
+    "name": "Surinam Dollar",
+    "iso_4217_3": "SRD",
     "number_decimals": 2
   },
   {
@@ -628,6 +648,11 @@
     "name": "Tunisian Dinar",
     "iso_4217_3": "TND",
     "number_decimals": 3
+  },
+  {
+    "name": "Turkmenistan New Manat",
+    "iso_4217_3": "TMT",
+    "number_decimals": 2
   },
   {
     "name": "UAE Dirham",

@@ -648,15 +648,11 @@ func readCurrencies(file string) []Currency {
 	currencies := []Currency{}
 
 	for _, c := range data {
-    	// If remapped, no need to include as it will be duplicated
-        remapped := common.RemapCurrencyCodeToSupported(c.Iso_4217_3)
-        if (remapped == c.Iso_4217_3) {
-			currencies = append(currencies, Currency{
-				Name:           c.Name,
-				Iso_4217_3:     c.Iso_4217_3,
-				NumberDecimals: c.NumberDecimals,
-			})
-		}
+        currencies = append(currencies, Currency{
+            Name:           c.Name,
+            Iso_4217_3:     c.Iso_4217_3,
+            NumberDecimals: c.NumberDecimals,
+        })
 	}
 	sortCurrencies(currencies)
 
