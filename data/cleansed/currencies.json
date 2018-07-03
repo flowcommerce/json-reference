@@ -580,6 +580,11 @@
     "number_decimals": 2
   },
   {
+    "name": "Somoni",
+    "iso_4217_3": "TJS",
+    "number_decimals": 2
+  },
+  {
     "name": "South African Rand",
     "iso_4217_3": "ZAR",
     "number_decimals": 2
@@ -643,6 +648,11 @@
     "name": "Tunisian Dinar",
     "iso_4217_3": "TND",
     "number_decimals": 3
+  },
+  {
+    "name": "Turkmenistan New Manat",
+    "iso_4217_3": "TMT",
+    "number_decimals": 2
   },
   {
     "name": "UAE Dirham",

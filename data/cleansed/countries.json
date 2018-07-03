@@ -1316,6 +1316,13 @@
     "currency": "TWD"
   },
   {
+    "name": "Tajikistan",
+    "continent": "AS",
+    "iso_3166_2": "TJ",
+    "iso_3166_3": "TJK",
+    "currency": "TJS"
+  },
+  {
     "name": "Thailand",
     "continent": "AS",
     "iso_3166_2": "TH",
@@ -1356,6 +1363,13 @@
     "iso_3166_2": "TR",
     "iso_3166_3": "TUR",
     "currency": "TRY"
+  },
+  {
+    "name": "Turkmenistan",
+    "continent": "AS",
+    "iso_3166_2": "TM",
+    "iso_3166_3": "TKM",
+    "currency": "TMT"
   },
   {
     "name": "Turks and Caicos Islands",

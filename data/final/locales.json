@@ -3060,6 +3060,16 @@
     }
   },
   {
+    "id": "tk-TM",
+    "name": "Turkmen - Turkmenistan",
+    "country": "TKM",
+    "language": "tk",
+    "numbers": {
+      "decimal": ",",
+      "group": " "
+    }
+  },
+  {
     "id": "uk-UA",
     "name": "Ukrainian - Ukraine",
     "country": "UKR",

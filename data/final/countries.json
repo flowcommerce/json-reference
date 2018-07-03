@@ -2336,6 +2336,19 @@
     "default_delivered_duty": "paid"
   },
   {
+    "name": "Tajikistan",
+    "iso_3166_2": "TJ",
+    "iso_3166_3": "TJK",
+    "measurement_system": "metric",
+    "default_currency": "TJS",
+    "languages": [
+      "fa",
+      "ru",
+      "tg"
+    ],
+    "timezones": []
+  },
+  {
     "name": "Thailand",
     "iso_3166_2": "TH",
     "iso_3166_3": "THA",
@@ -2407,6 +2420,17 @@
     ],
     "timezones": [],
     "default_delivered_duty": "paid"
+  },
+  {
+    "name": "Turkmenistan",
+    "iso_3166_2": "TM",
+    "iso_3166_3": "TKM",
+    "measurement_system": "metric",
+    "default_currency": "TMT",
+    "languages": [
+      "tk"
+    ],
+    "timezones": []
   },
   {
     "name": "Turks and Caicos Islands",

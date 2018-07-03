@@ -340,6 +340,8 @@
       "SAU",
       "SGP",
       "THA",
+      "TJK",
+      "TKM",
       "TUR",
       "TWN",
       "UZB",
@@ -381,6 +383,8 @@
       "SAR",
       "SGD",
       "THB",
+      "TJS",
+      "TMT",
       "TRY",
       "TWD",
       "UZS",
@@ -394,6 +398,7 @@
       "dv",
       "dz",
       "en",
+      "fa",
       "gu",
       "he",
       "hi",
@@ -415,7 +420,9 @@
       "si",
       "ta",
       "te",
+      "tg",
       "th",
+      "tk",
       "tl",
       "tr",
       "ur",
@@ -4102,6 +4109,25 @@
     "timezones": []
   },
   {
+    "id": "tjk",
+    "name": "Tajikistan",
+    "countries": [
+      "TJK"
+    ],
+    "currencies": [
+      "TJS"
+    ],
+    "languages": [
+      "fa",
+      "ru",
+      "tg"
+    ],
+    "measurement_systems": [
+      "metric"
+    ],
+    "timezones": []
+  },
+  {
     "id": "tha",
     "name": "Thailand",
     "countries": [
@@ -4198,6 +4224,23 @@
     ],
     "languages": [
       "tr"
+    ],
+    "measurement_systems": [
+      "metric"
+    ],
+    "timezones": []
+  },
+  {
+    "id": "tkm",
+    "name": "Turkmenistan",
+    "countries": [
+      "TKM"
+    ],
+    "currencies": [
+      "TMT"
+    ],
+    "languages": [
+      "tk"
     ],
     "measurement_systems": [
       "metric"
@@ -4643,6 +4686,8 @@
       "TCD",
       "TGO",
       "THA",
+      "TJK",
+      "TKM",
       "TLS",
       "TON",
       "TTO",
@@ -4778,6 +4823,8 @@
       "STD",
       "SZL",
       "THB",
+      "TJS",
+      "TMT",
       "TOP",
       "TRY",
       "TTD",
@@ -4825,6 +4872,7 @@
       "en",
       "es",
       "et",
+      "fa",
       "ff",
       "fi",
       "fj",
@@ -4893,7 +4941,9 @@
       "sw",
       "ta",
       "te",
+      "tg",
       "th",
+      "tk",
       "tl",
       "tn",
       "tr",

@@ -1098,6 +1098,14 @@
     "default_locale": "ar-SO"
   },
   {
+    "name": "Somoni",
+    "iso_4217_3": "TJS",
+    "number_decimals": 2,
+    "symbols": {
+      "primary": "TJS"
+    }
+  },
+  {
     "name": "South African Rand",
     "iso_4217_3": "ZAR",
     "number_decimals": 2,
@@ -1217,6 +1225,15 @@
     "symbols": {
       "primary": "TND"
     }
+  },
+  {
+    "name": "Turkmenistan New Manat",
+    "iso_4217_3": "TMT",
+    "number_decimals": 2,
+    "symbols": {
+      "primary": "TMT"
+    },
+    "default_locale": "tk-TM"
   },
   {
     "name": "UAE Dirham",

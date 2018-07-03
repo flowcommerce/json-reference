@@ -389,8 +389,6 @@ func UnsupportedCurrencyCodes() []string {
 		"SSP",
 		"STN",
 		"SYP",
-		"TJS",
-		"TMT",
 		"ZWL",
 	}
 }

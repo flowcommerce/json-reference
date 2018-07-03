@@ -904,7 +904,9 @@
   {
     "name": "Persian",
     "iso_639_2": "fa",
-    "countries": [],
+    "countries": [
+      "TJK"
+    ],
     "locales": [
       "fa-IR"
     ]
@@ -973,7 +975,8 @@
     "countries": [
       "KAZ",
       "KGZ",
-      "RUS"
+      "RUS",
+      "TJK"
     ],
     "locales": [
       "ru"
@@ -1150,7 +1153,9 @@
   {
     "name": "Tajik",
     "iso_639_2": "tg",
-    "countries": [],
+    "countries": [
+      "TJK"
+    ],
     "locales": []
   },
   {
@@ -1224,7 +1229,9 @@
   {
     "name": "Turkmen",
     "iso_639_2": "tk",
-    "countries": [],
+    "countries": [
+      "TKM"
+    ],
     "locales": []
   },
   {
