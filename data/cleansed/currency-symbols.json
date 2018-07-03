@@ -8,6 +8,12 @@
   "AFA": {
     "primary": "AFA"
   },
+  "AFN": {
+    "primary": "AFN"
+  },
+  "ALK": {
+    "primary": "ALK"
+  },
   "ALL": {
     "primary": "ALL"
   },
@@ -16,6 +22,10 @@
   },
   "ANG": {
     "primary": "ANG"
+  },
+  "AOA": {
+    "primary": "AOA",
+    "narrow": "Kz"
   },
   "AOK": {
     "primary": "AOK"
@@ -100,6 +110,9 @@
   "BHD": {
     "primary": "BHD"
   },
+  "BIF": {
+    "primary": "BIF"
+  },
   "BMD": {
     "primary": "BMD",
     "narrow": "$"
@@ -164,6 +177,9 @@
     "primary": "BYN",
     "narrow": "р."
   },
+  "BYR": {
+    "primary": "BYR"
+  },
   "BZD": {
     "primary": "BZD",
     "narrow": "$"
@@ -194,6 +210,12 @@
     "primary": "CLP",
     "narrow": "$"
   },
+  "CNH": {
+    "primary": "CNH"
+  },
+  "CNX": {
+    "primary": "CNX"
+  },
   "CNY": {
     "primary": "CN¥",
     "narrow": "¥"
@@ -217,6 +239,10 @@
   },
   "CUC": {
     "primary": "CUC",
+    "narrow": "$"
+  },
+  "CUP": {
+    "primary": "CUP",
     "narrow": "$"
   },
   "CVE": {
@@ -261,6 +287,9 @@
   "EGP": {
     "primary": "EGP",
     "narrow": "E£"
+  },
+  "ERN": {
+    "primary": "ERN"
   },
   "ESA": {
     "primary": "ESA"
@@ -376,6 +405,9 @@
   "ILP": {
     "primary": "ILP"
   },
+  "ILR": {
+    "primary": "ILR"
+  },
   "ILS": {
     "primary": "₪",
     "narrow": "₪"
@@ -383,6 +415,15 @@
   "INR": {
     "primary": "₹",
     "narrow": "₹"
+  },
+  "IQD": {
+    "primary": "IQD"
+  },
+  "IRR": {
+    "primary": "IRR"
+  },
+  "ISJ": {
+    "primary": "ISJ"
   },
   "ISK": {
     "primary": "ISK",
@@ -416,6 +457,10 @@
     "primary": "KMF",
     "narrow": "CF"
   },
+  "KPW": {
+    "primary": "KPW",
+    "narrow": "₩"
+  },
   "KRH": {
     "primary": "KRH"
   },
@@ -448,6 +493,10 @@
   "LKR": {
     "primary": "LKR",
     "narrow": "Rs"
+  },
+  "LRD": {
+    "primary": "LRD",
+    "narrow": "$"
   },
   "LSL": {
     "primary": "LSL"
@@ -493,14 +542,25 @@
   "MDL": {
     "primary": "MDL"
   },
+  "MGA": {
+    "primary": "MGA",
+    "narrow": "Ar"
+  },
   "MGF": {
     "primary": "MGF"
+  },
+  "MKD": {
+    "primary": "MKD"
   },
   "MKN": {
     "primary": "MKN"
   },
   "MLF": {
     "primary": "MLF"
+  },
+  "MMK": {
+    "primary": "MMK",
+    "narrow": "K"
   },
   "MNT": {
     "primary": "MNT",
@@ -512,6 +572,9 @@
   "MRO": {
     "primary": "MRO"
   },
+  "MRU": {
+    "primary": "MRU"
+  },
   "MTL": {
     "primary": "MTL"
   },
@@ -521,6 +584,9 @@
   "MUR": {
     "primary": "MUR",
     "narrow": "Rs"
+  },
+  "MVP": {
+    "primary": "MVP"
   },
   "MVR": {
     "primary": "MVR"
@@ -547,6 +613,9 @@
   },
   "MZM": {
     "primary": "MZM"
+  },
+  "MZN": {
+    "primary": "MZN"
   },
   "NAD": {
     "primary": "NAD",
@@ -659,6 +728,9 @@
   "SDD": {
     "primary": "SDD"
   },
+  "SDG": {
+    "primary": "SDG"
+  },
   "SDP": {
     "primary": "SDP"
   },
@@ -686,17 +758,33 @@
   "SOS": {
     "primary": "SOS"
   },
+  "SRD": {
+    "primary": "SRD",
+    "narrow": "$"
+  },
   "SRG": {
     "primary": "SRG"
   },
+  "SSP": {
+    "primary": "SSP",
+    "narrow": "£"
+  },
   "STD": {
     "primary": "STD"
+  },
+  "STN": {
+    "primary": "STN",
+    "narrow": "Db"
   },
   "SUR": {
     "primary": "SUR"
   },
   "SVC": {
     "primary": "SVC"
+  },
+  "SYP": {
+    "primary": "SYP",
+    "narrow": "£"
   },
   "SZL": {
     "primary": "SZL"
@@ -708,8 +796,14 @@
   "TJR": {
     "primary": "TJR"
   },
+  "TJS": {
+    "primary": "TJS"
+  },
   "TMM": {
     "primary": "TMM"
+  },
+  "TMT": {
+    "primary": "TMT"
   },
   "TND": {
     "primary": "TND"
@@ -899,6 +993,9 @@
   },
   "ZWD": {
     "primary": "ZWD"
+  },
+  "ZWL": {
+    "primary": "ZWL"
   },
   "ZWR": {
     "primary": "ZWR"

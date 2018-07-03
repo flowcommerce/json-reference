@@ -28,6 +28,13 @@
     "currency": "EUR"
   },
   {
+    "name": "Angola",
+    "continent": "AF",
+    "iso_3166_2": "AO",
+    "iso_3166_3": "AGO",
+    "currency": "AOA"
+  },
+  {
     "name": "Anguilla",
     "continent": "NA",
     "iso_3166_2": "AI",
@@ -341,6 +348,13 @@
     "iso_3166_2": "CI",
     "iso_3166_3": "CIV",
     "currency": "XOF"
+  },
+  {
+    "name": "Democratic People's Republic of Korea",
+    "continent": "AS",
+    "iso_3166_2": "KP",
+    "iso_3166_3": "PRK",
+    "currency": "EUR"
   },
   {
     "name": "Denmark",
@@ -770,6 +784,13 @@
     "currency": "MOP"
   },
   {
+    "name": "Madagascar",
+    "continent": "AF",
+    "iso_3166_2": "MG",
+    "iso_3166_3": "MDG",
+    "currency": "EUR"
+  },
+  {
     "name": "Malawi",
     "continent": "AF",
     "iso_3166_2": "MW",
@@ -887,6 +908,13 @@
     "iso_3166_2": "MA",
     "iso_3166_3": "MAR",
     "currency": "MAD"
+  },
+  {
+    "name": "Mozambique",
+    "continent": "AF",
+    "iso_3166_2": "MZ",
+    "iso_3166_3": "MOZ",
+    "currency": "EUR"
   },
   {
     "name": "Namibia",
@@ -1246,6 +1274,13 @@
     "currency": "ZAR"
   },
   {
+    "name": "South Sudan",
+    "continent": "AF",
+    "iso_3166_2": "SS",
+    "iso_3166_3": "SSD",
+    "currency": "EUR"
+  },
+  {
     "name": "Spain",
     "continent": "EU",
     "iso_3166_2": "ES",
@@ -1258,6 +1293,13 @@
     "iso_3166_2": "LK",
     "iso_3166_3": "LKA",
     "currency": "LKR"
+  },
+  {
+    "name": "Suriname",
+    "continent": "SA",
+    "iso_3166_2": "SR",
+    "iso_3166_3": "SUR",
+    "currency": "EUR"
   },
   {
     "name": "Swaziland",
@@ -1286,6 +1328,13 @@
     "iso_3166_2": "TW",
     "iso_3166_3": "TWN",
     "currency": "TWD"
+  },
+  {
+    "name": "Tajikistan",
+    "continent": "AS",
+    "iso_3166_2": "TJ",
+    "iso_3166_3": "TJK",
+    "currency": "EUR"
   },
   {
     "name": "Thailand",
@@ -1328,6 +1377,13 @@
     "iso_3166_2": "TR",
     "iso_3166_3": "TUR",
     "currency": "TRY"
+  },
+  {
+    "name": "Turkmenistan",
+    "continent": "AS",
+    "iso_3166_2": "TM",
+    "iso_3166_3": "TKM",
+    "currency": "EUR"
   },
   {
     "name": "Turks and Caicos Islands",

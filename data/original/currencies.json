@@ -20,6 +20,11 @@
     "number_decimals": 2
   },
   {
+    "iso_4217_3": "AOA",
+    "name": "Kwanza",
+    "number_decimals": 2
+  },
+  {
     "iso_4217_3": "ARS",
     "name": "Argentine Peso",
     "number_decimals": 2
@@ -500,6 +505,16 @@
     "number_decimals": 2
   },
   {
+    "iso_4217_3": "MGA",
+    "name": "Malagasy Ariary",
+    "number_decimals": 2
+  },
+  {
+    "iso_4217_3": "MZN",
+    "name": "Mozambique Metical",
+    "number_decimals": 2
+  },
+  {
     "iso_4217_3": "KZT",
     "name": "Kazakhstani Tenge",
     "number_decimals": 2
@@ -550,6 +565,11 @@
     "number_decimals": 2
   },
   {
+    "iso_4217_3": "SRD",
+    "name": "Surinam Dollar",
+    "number_decimals": 2
+  },
+  {
     "iso_4217_3": "STD",
     "name": "Sao Tome & Principe Dobra",
     "number_decimals": 2
@@ -567,6 +587,16 @@
   {
     "iso_4217_3": "THB",
     "name": "Thai Baht",
+    "number_decimals": 2
+  },
+  {
+    "iso_4217_3": "TJS",
+    "name": "Somoni",
+    "number_decimals": 2
+  },
+  {
+    "iso_4217_3": "TMT",
+    "name": "Turkmenistan New Manat",
     "number_decimals": 2
   },
   {

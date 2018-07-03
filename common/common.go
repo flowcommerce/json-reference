@@ -320,6 +320,7 @@ func UnsupportedCountryCodes() []string {
 		"AF",
 		"AFG",
 		"AGQ",
+        "ALA",
 		"ATA", // Antarctica
 		"ATF",
 		"BDI",
@@ -331,7 +332,9 @@ func UnsupportedCountryCodes() []string {
 		"CXR",
 		"ER",
 		"ERI",
+        "ESH",
 		"HMD",
+        "IMN",
 		"IOT",
 		"IRN",
 		"IQ",
@@ -348,53 +351,59 @@ func UnsupportedCountryCodes() []string {
 		"SR",
 		"SY",
 		"SYR",
-		"TJ",
-		"UMI",
-		"ZWE",
-		"VAT",
-		"IMN",
 		"NFK",
 		"PCN",
 		"PRI",
 		"SJM",
+		"TJ",
 		"TKL",
 		"TUN",
+		"UMI",
+		"VAT",
 		"VIR",
-		"ESH",
-		"ALA",
+		"ZWE",
 	}
 }
 
-func UnsupportedCurrencyCodes() []string {
-	return []string{
-		"AFN",
-		"ALK",
-		"AOA",
-		"BIF",
-		"BYR",
-		"CNH",
-		"CNX",
-		"CUP",
-		"ERN",
-		"ILR",
-		"IQD",
-		"IRR",
-		"ISJ",
-		"KPW",
-		"LRD",
-		"MGA",
-		"MKD",
-		"MMK",
-		"MRU",
-		"MVP",
-		"MZN",
-		"SDG",
-		"SRD",
-		"SSP",
-		"STN",
-		"SYP",
-		"TJS",
-		"TMT",
-		"ZWL",
-	}
+// Need to map some currency codes into the ones supported  by
+// most payment processors
+var remappedCurrencyCodes = map[string]string{
+    "AFN": "EUR",
+    "ALK": "EUR",
+    "BIF": "EUR",
+    "BYR": "EUR",
+    "CNH": "EUR",
+    "CNX": "EUR",
+    "CUP": "EUR",
+    "ERN": "EUR",
+    "ILR": "EUR",
+    "IQD": "EUR",
+    "IRR": "EUR",
+    "ISJ": "EUR",
+    "KPW": "EUR",
+    "LRD": "EUR",
+    "MGA": "EUR",
+    "MKD": "EUR",
+    "MMK": "EUR",
+    "MRU": "EUR",
+    "MVP": "EUR",
+    "MZN": "EUR",
+    "SDG": "EUR",
+    "SRD": "EUR",
+    "SSP": "EUR",
+    "STN": "EUR",
+    "SYP": "EUR",
+    "TJS": "EUR",
+    "TMT": "EUR",
+    "ZWL": "EUR",
 }
+
+func RemapCurrencyCodeToSupported(code string) string {
+    newCurrency, _ := remappedCurrencyCodes[code]
+    if newCurrency == "" {
+        return code;
+    } else {
+        return newCurrency;
+    }
+}
+
