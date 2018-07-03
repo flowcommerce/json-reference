@@ -370,6 +370,7 @@ func UnsupportedCountryCodes() []string {
 var remappedCurrencyCodes = map[string]string{
     "AFN": "EUR",
     "ALK": "EUR",
+    "AOA": "EUR",
     "BIF": "EUR",
     "BYR": "EUR",
     "CNH": "EUR",
