@@ -367,7 +367,7 @@ func UnsupportedCountryCodes() []string {
 
 // Need to map some currency codes into the ones supported  by
 // most payment processors
-remappedCurrencyCodes := map[string]string{
+var remappedCurrencyCodes = map[string]string{
     "AFN": "EUR",
     "ALK": "EUR",
     "AOA": "EUR",
