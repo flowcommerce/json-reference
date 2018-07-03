@@ -365,41 +365,41 @@ func UnsupportedCountryCodes() []string {
 	}
 }
 
-func RemapCurrencyCodeToSupported(code string) string {
-    // Need to map some currency codes into the ones supported  by
-    // most payment processors
-    remappedCurrencyCodes := map[string]string{
-        "AFN": "EUR",
-        "ALK": "EUR",
-        "AOA": "EUR",
-        "BIF": "EUR",
-        "BYR": "EUR",
-        "CNH": "EUR",
-        "CNX": "EUR",
-        "CUP": "EUR",
-        "ERN": "EUR",
-        "ILR": "EUR",
-        "IQD": "EUR",
-        "IRR": "EUR",
-        "ISJ": "EUR",
-        "KPW": "EUR",
-        "LRD": "EUR",
-        "MGA": "EUR",
-        "MKD": "EUR",
-        "MMK": "EUR",
-        "MRU": "EUR",
-        "MVP": "EUR",
-        "MZN": "EUR",
-        "SDG": "EUR",
-        "SRD": "EUR",
-        "SSP": "EUR",
-        "STN": "EUR",
-        "SYP": "EUR",
-        "TJS": "EUR",
-        "TMT": "EUR",
-        "ZWL": "EUR",
+// Need to map some currency codes into the ones supported  by
+// most payment processors
+remappedCurrencyCodes := map[string]string{
+    "AFN": "EUR",
+    "ALK": "EUR",
+    "AOA": "EUR",
+    "BIF": "EUR",
+    "BYR": "EUR",
+    "CNH": "EUR",
+    "CNX": "EUR",
+    "CUP": "EUR",
+    "ERN": "EUR",
+    "ILR": "EUR",
+    "IQD": "EUR",
+    "IRR": "EUR",
+    "ISJ": "EUR",
+    "KPW": "EUR",
+    "LRD": "EUR",
+    "MGA": "EUR",
+    "MKD": "EUR",
+    "MMK": "EUR",
+    "MRU": "EUR",
+    "MVP": "EUR",
+    "MZN": "EUR",
+    "SDG": "EUR",
+    "SRD": "EUR",
+    "SSP": "EUR",
+    "STN": "EUR",
+    "SYP": "EUR",
+    "TJS": "EUR",
+    "TMT": "EUR",
+    "ZWL": "EUR",
 }
 
+func RemapCurrencyCodeToSupported(code string) string {
     newCurrency, _ := remappedCurrencyCodes[code]
     if newCurrency == "" {
         return code;
