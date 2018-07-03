@@ -327,6 +327,7 @@
       "SGP",
       "SLB",
       "SLE",
+      "SSD",
       "SWZ",
       "SXM",
       "SYC",
@@ -691,7 +692,8 @@
     "name": "Korean",
     "iso_639_2": "ko",
     "countries": [
-      "KOR"
+      "KOR",
+      "PRK"
     ],
     "locales": [
       "ko-KR"

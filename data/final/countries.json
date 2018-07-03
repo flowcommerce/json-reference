@@ -615,6 +615,17 @@
     "default_delivered_duty": "paid"
   },
   {
+    "name": "Democratic People's Republic of Korea",
+    "iso_3166_2": "KP",
+    "iso_3166_3": "PRK",
+    "measurement_system": "metric",
+    "default_currency": "EUR",
+    "languages": [
+      "ko"
+    ],
+    "timezones": []
+  },
+  {
     "name": "Denmark",
     "iso_3166_2": "DK",
     "iso_3166_3": "DNK",
@@ -1375,7 +1386,7 @@
     "iso_3166_2": "MG",
     "iso_3166_3": "MDG",
     "measurement_system": "metric",
-    "default_currency": "MGA",
+    "default_currency": "EUR",
     "languages": [
       "fr",
       "mg"
@@ -1598,7 +1609,7 @@
     "iso_3166_2": "MZ",
     "iso_3166_3": "MOZ",
     "measurement_system": "metric",
-    "default_currency": "MZN",
+    "default_currency": "EUR",
     "languages": [
       "pt"
     ],
@@ -2247,6 +2258,17 @@
     "default_delivered_duty": "paid"
   },
   {
+    "name": "South Sudan",
+    "iso_3166_2": "SS",
+    "iso_3166_3": "SSD",
+    "measurement_system": "metric",
+    "default_currency": "EUR",
+    "languages": [
+      "en"
+    ],
+    "timezones": []
+  },
+  {
     "name": "Spain",
     "iso_3166_2": "ES",
     "iso_3166_3": "ESP",
@@ -2277,7 +2299,7 @@
     "iso_3166_2": "SR",
     "iso_3166_3": "SUR",
     "measurement_system": "metric",
-    "default_currency": "SRD",
+    "default_currency": "EUR",
     "languages": [
       "nl"
     ],
@@ -2340,7 +2362,7 @@
     "iso_3166_2": "TJ",
     "iso_3166_3": "TJK",
     "measurement_system": "metric",
-    "default_currency": "TJS",
+    "default_currency": "EUR",
     "languages": [
       "fa",
       "ru",
@@ -2426,7 +2448,7 @@
     "iso_3166_2": "TM",
     "iso_3166_3": "TKM",
     "measurement_system": "metric",
-    "default_currency": "TMT",
+    "default_currency": "EUR",
     "languages": [
       "tk"
     ],

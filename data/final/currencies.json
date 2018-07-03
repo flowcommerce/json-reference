@@ -679,8 +679,7 @@
     "symbols": {
       "primary": "MGA",
       "narrow": "Ar"
-    },
-    "default_locale": "fr-MG"
+    }
   },
   {
     "name": "Malawi Kwacha",
@@ -772,8 +771,7 @@
     "number_decimals": 2,
     "symbols": {
       "primary": "MZN"
-    },
-    "default_locale": "pt-MZ"
+    }
   },
   {
     "name": "Namibian Dollar",
@@ -1232,8 +1230,7 @@
     "number_decimals": 2,
     "symbols": {
       "primary": "TMT"
-    },
-    "default_locale": "tk-TM"
+    }
   },
   {
     "name": "UAE Dirham",

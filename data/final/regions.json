@@ -43,6 +43,7 @@
       "SHN",
       "SLE",
       "SOM",
+      "SSD",
       "STP",
       "SWZ",
       "SYC",
@@ -69,11 +70,9 @@
       "KMF",
       "LYD",
       "MAD",
-      "MGA",
       "MRO",
       "MUR",
       "MWK",
-      "MZN",
       "NAD",
       "NGN",
       "RWF",
@@ -336,6 +335,7 @@
       "OMN",
       "PAK",
       "PHL",
+      "PRK",
       "QAT",
       "SAU",
       "SGP",
@@ -356,6 +356,7 @@
       "BHD",
       "BND",
       "CNY",
+      "EUR",
       "GEL",
       "HKD",
       "IDR",
@@ -383,8 +384,6 @@
       "SAR",
       "SGD",
       "THB",
-      "TJS",
-      "TMT",
       "TRY",
       "TWD",
       "UZS",
@@ -1136,6 +1135,23 @@
     "timezones": []
   },
   {
+    "id": "prk",
+    "name": "Democratic People's Republic of Korea",
+    "countries": [
+      "PRK"
+    ],
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "ko"
+    ],
+    "measurement_systems": [
+      "metric"
+    ],
+    "timezones": []
+  },
+  {
     "id": "dnk",
     "name": "Denmark",
     "countries": [
@@ -1629,17 +1645,24 @@
       "LVA",
       "MAF",
       "MCO",
+      "MDG",
       "MLT",
       "MNE",
+      "MOZ",
       "MTQ",
       "MYT",
       "NLD",
+      "PRK",
       "PRT",
       "REU",
       "SMR",
       "SPM",
+      "SSD",
+      "SUR",
       "SVK",
-      "SVN"
+      "SVN",
+      "TJK",
+      "TKM"
     ],
     "currencies": [
       "EUR"
@@ -1652,19 +1675,25 @@
       "en",
       "es",
       "et",
+      "fa",
       "fi",
       "fr",
       "ga",
       "it",
+      "ko",
       "lb",
       "lt",
       "lv",
+      "mg",
       "mt",
       "nl",
       "pt",
+      "ru",
       "sk",
       "sl",
       "sv",
+      "tg",
+      "tk",
       "tr"
     ],
     "measurement_systems": [
@@ -2569,7 +2598,7 @@
       "MDG"
     ],
     "currencies": [
-      "MGA"
+      "EUR"
     ],
     "languages": [
       "fr",
@@ -2883,7 +2912,7 @@
       "MOZ"
     ],
     "currencies": [
-      "MZN"
+      "EUR"
     ],
     "languages": [
       "pt"
@@ -3963,7 +3992,6 @@
       "GYD",
       "PEN",
       "PYG",
-      "SRD",
       "USD",
       "UYU",
       "VEF"
@@ -3977,6 +4005,23 @@
       "nl",
       "pt",
       "qu"
+    ],
+    "measurement_systems": [
+      "metric"
+    ],
+    "timezones": []
+  },
+  {
+    "id": "ssd",
+    "name": "South Sudan",
+    "countries": [
+      "SSD"
+    ],
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "en"
     ],
     "measurement_systems": [
       "metric"
@@ -4026,7 +4071,7 @@
       "SUR"
     ],
     "currencies": [
-      "SRD"
+      "EUR"
     ],
     "languages": [
       "nl"
@@ -4115,7 +4160,7 @@
       "TJK"
     ],
     "currencies": [
-      "TJS"
+      "EUR"
     ],
     "languages": [
       "fa",
@@ -4237,7 +4282,7 @@
       "TKM"
     ],
     "currencies": [
-      "TMT"
+      "EUR"
     ],
     "languages": [
       "tk"
@@ -4655,6 +4700,7 @@
       "PLW",
       "PNG",
       "POL",
+      "PRK",
       "PRT",
       "PRY",
       "PYF",
@@ -4674,6 +4720,7 @@
       "SOM",
       "SPM",
       "SRB",
+      "SSD",
       "STP",
       "SUR",
       "SVK",
@@ -4783,7 +4830,6 @@
       "LYD",
       "MAD",
       "MDL",
-      "MGA",
       "MNT",
       "MOP",
       "MRO",
@@ -4792,7 +4838,6 @@
       "MWK",
       "MXN",
       "MYR",
-      "MZN",
       "NAD",
       "NGN",
       "NIO",
@@ -4819,12 +4864,9 @@
       "SHP",
       "SLL",
       "SOS",
-      "SRD",
       "STD",
       "SZL",
       "THB",
-      "TJS",
-      "TMT",
       "TOP",
       "TRY",
       "TTD",

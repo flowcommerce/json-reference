@@ -2170,6 +2170,16 @@
     }
   },
   {
+    "id": "ko-KP",
+    "name": "Korean - Democratic People's Republic of Korea",
+    "country": "PRK",
+    "language": "ko",
+    "numbers": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
     "id": "ky",
     "name": "Kyrgyz - Cayman Islands",
     "country": "CYM",
