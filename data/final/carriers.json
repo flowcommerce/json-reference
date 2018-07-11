@@ -42,7 +42,7 @@
   {
     "id": "landmark",
     "name": "Landmark",
-    "tracking_url": "https://mercury.landmarkglobal.com/tracking/track.php?trck="
+    "tracking_url": "https://track.landmarkglobal.com/?trck="
   },
   {
     "id": "sf-express",
