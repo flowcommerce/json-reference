@@ -359,7 +359,6 @@ func UnsupportedCountryCodes() []string {
 		"TKL",
 		"TUN",
 		"UMI",
-		"VAT",
 		"VIR",
 		"ZWE",
 	}
@@ -406,4 +405,3 @@ func RemapCurrencyCodeToSupported(code string) string {
         return newCurrency;
     }
 }
-
