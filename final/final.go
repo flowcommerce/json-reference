@@ -483,6 +483,7 @@ func createProvinces(data CleansedDataSet, locales []common.Locale) []common.Pro
 	validCountries := []string{
 		"AUS",
 		"CAN",
+		"JPN",
 		"USA",
 		"CHN",
 	}

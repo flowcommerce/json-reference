@@ -1716,6 +1716,335 @@
     ]
   },
   {
+    "id": "JPN-01",
+    "iso_3166_2": "01",
+    "name": "Hokkaid� [Hokkaido]",
+    "country": "JPN",
+    "province_type": "other"
+  },
+  {
+    "id": "JPN-02",
+    "iso_3166_2": "02",
+    "name": "Aomori",
+    "country": "JPN",
+    "province_type": "other"
+  },
+  {
+    "id": "JPN-03",
+    "iso_3166_2": "03",
+    "name": "Iwate",
+    "country": "JPN",
+    "province_type": "other"
+  },
+  {
+    "id": "JPN-04",
+    "iso_3166_2": "04",
+    "name": "Miyagi",
+    "country": "JPN",
+    "province_type": "other"
+  },
+  {
+    "id": "JPN-05",
+    "iso_3166_2": "05",
+    "name": "Akita",
+    "country": "JPN",
+    "province_type": "other"
+  },
+  {
+    "id": "JPN-06",
+    "iso_3166_2": "06",
+    "name": "Yamagata",
+    "country": "JPN",
+    "province_type": "other"
+  },
+  {
+    "id": "JPN-07",
+    "iso_3166_2": "07",
+    "name": "Hukusima [Fukushima]",
+    "country": "JPN",
+    "province_type": "other"
+  },
+  {
+    "id": "JPN-08",
+    "iso_3166_2": "08",
+    "name": "Ibaraki",
+    "country": "JPN",
+    "province_type": "other"
+  },
+  {
+    "id": "JPN-09",
+    "iso_3166_2": "09",
+    "name": "Totigi [Tochigi]",
+    "country": "JPN",
+    "province_type": "other"
+  },
+  {
+    "id": "JPN-10",
+    "iso_3166_2": "10",
+    "name": "Gunma",
+    "country": "JPN",
+    "province_type": "other"
+  },
+  {
+    "id": "JPN-11",
+    "iso_3166_2": "11",
+    "name": "Saitama",
+    "country": "JPN",
+    "province_type": "other"
+  },
+  {
+    "id": "JPN-12",
+    "iso_3166_2": "12",
+    "name": "Tiba [Chiba]",
+    "country": "JPN",
+    "province_type": "other"
+  },
+  {
+    "id": "JPN-13",
+    "iso_3166_2": "13",
+    "name": "T�ky� [Tokyo]",
+    "country": "JPN",
+    "province_type": "other"
+  },
+  {
+    "id": "JPN-14",
+    "iso_3166_2": "14",
+    "name": "Kanagawa",
+    "country": "JPN",
+    "province_type": "other"
+  },
+  {
+    "id": "JPN-15",
+    "iso_3166_2": "15",
+    "name": "Niigata",
+    "country": "JPN",
+    "province_type": "other"
+  },
+  {
+    "id": "JPN-16",
+    "iso_3166_2": "16",
+    "name": "Toyama",
+    "country": "JPN",
+    "province_type": "other"
+  },
+  {
+    "id": "JPN-17",
+    "iso_3166_2": "17",
+    "name": "Isikawa [Ishikawa]",
+    "country": "JPN",
+    "province_type": "other"
+  },
+  {
+    "id": "JPN-18",
+    "iso_3166_2": "18",
+    "name": "Hukui [Fukui]",
+    "country": "JPN",
+    "province_type": "other"
+  },
+  {
+    "id": "JPN-19",
+    "iso_3166_2": "19",
+    "name": "Yamanasi [Yamanashi]",
+    "country": "JPN",
+    "province_type": "other"
+  },
+  {
+    "id": "JPN-20",
+    "iso_3166_2": "20",
+    "name": "Nagano",
+    "country": "JPN",
+    "province_type": "other"
+  },
+  {
+    "id": "JPN-21",
+    "iso_3166_2": "21",
+    "name": "Gihu [Gifu]",
+    "country": "JPN",
+    "province_type": "other"
+  },
+  {
+    "id": "JPN-22",
+    "iso_3166_2": "22",
+    "name": "Sizuoka [Shizuoka]",
+    "country": "JPN",
+    "province_type": "other"
+  },
+  {
+    "id": "JPN-23",
+    "iso_3166_2": "23",
+    "name": "Aiti [Aichi]",
+    "country": "JPN",
+    "province_type": "other"
+  },
+  {
+    "id": "JPN-24",
+    "iso_3166_2": "24",
+    "name": "Mie",
+    "country": "JPN",
+    "province_type": "other"
+  },
+  {
+    "id": "JPN-25",
+    "iso_3166_2": "25",
+    "name": "Siga [Shiga]",
+    "country": "JPN",
+    "province_type": "other"
+  },
+  {
+    "id": "JPN-26",
+    "iso_3166_2": "26",
+    "name": "Hy�go [Kyoto]",
+    "country": "JPN",
+    "province_type": "other"
+  },
+  {
+    "id": "JPN-27",
+    "iso_3166_2": "27",
+    "name": "�saka [Osaka]",
+    "country": "JPN",
+    "province_type": "other"
+  },
+  {
+    "id": "JPN-28",
+    "iso_3166_2": "28",
+    "name": "Hy�go[Hyogo]",
+    "country": "JPN",
+    "province_type": "other"
+  },
+  {
+    "id": "JPN-29",
+    "iso_3166_2": "29",
+    "name": "Nara",
+    "country": "JPN",
+    "province_type": "other"
+  },
+  {
+    "id": "JPN-30",
+    "iso_3166_2": "30",
+    "name": "Wakayama",
+    "country": "JPN",
+    "province_type": "other"
+  },
+  {
+    "id": "JPN-31",
+    "iso_3166_2": "31",
+    "name": "Tottori",
+    "country": "JPN",
+    "province_type": "other"
+  },
+  {
+    "id": "JPN-32",
+    "iso_3166_2": "32",
+    "name": "Simane [Shimane]",
+    "country": "JPN",
+    "province_type": "other"
+  },
+  {
+    "id": "JPN-33",
+    "iso_3166_2": "33",
+    "name": "Okayama",
+    "country": "JPN",
+    "province_type": "other"
+  },
+  {
+    "id": "JPN-34",
+    "iso_3166_2": "34",
+    "name": "Hirosima [Hiroshima]",
+    "country": "JPN",
+    "province_type": "other"
+  },
+  {
+    "id": "JPN-35",
+    "iso_3166_2": "35",
+    "name": "Yamaguti [Yamaguchi]",
+    "country": "JPN",
+    "province_type": "other"
+  },
+  {
+    "id": "JPN-36",
+    "iso_3166_2": "36",
+    "name": "Tokusima [Tokushima]",
+    "country": "JPN",
+    "province_type": "other"
+  },
+  {
+    "id": "JPN-37",
+    "iso_3166_2": "37",
+    "name": "Kagawa",
+    "country": "JPN",
+    "province_type": "other"
+  },
+  {
+    "id": "JPN-38",
+    "iso_3166_2": "38",
+    "name": "Ehime",
+    "country": "JPN",
+    "province_type": "other"
+  },
+  {
+    "id": "JPN-39",
+    "iso_3166_2": "39",
+    "name": "K�ti [Kochi]",
+    "country": "JPN",
+    "province_type": "other"
+  },
+  {
+    "id": "JPN-40",
+    "iso_3166_2": "40",
+    "name": "Hukuoka [Fukuoka]",
+    "country": "JPN",
+    "province_type": "other"
+  },
+  {
+    "id": "JPN-41",
+    "iso_3166_2": "41",
+    "name": "Saga",
+    "country": "JPN",
+    "province_type": "other"
+  },
+  {
+    "id": "JPN-42",
+    "iso_3166_2": "42",
+    "name": "Nagasaki",
+    "country": "JPN",
+    "province_type": "other"
+  },
+  {
+    "id": "JPN-43",
+    "iso_3166_2": "43",
+    "name": "Kumamoto",
+    "country": "JPN",
+    "province_type": "other"
+  },
+  {
+    "id": "JPN-44",
+    "iso_3166_2": "44",
+    "name": "�ita [Oita]",
+    "country": "JPN",
+    "province_type": "other"
+  },
+  {
+    "id": "JPN-45",
+    "iso_3166_2": "45",
+    "name": "Miyazaki",
+    "country": "JPN",
+    "province_type": "other"
+  },
+  {
+    "id": "JPN-46",
+    "iso_3166_2": "46",
+    "name": "Kagosima [Kagoshima]",
+    "country": "JPN",
+    "province_type": "other"
+  },
+  {
+    "id": "JPN-47",
+    "iso_3166_2": "47",
+    "name": "Okinawa",
+    "country": "JPN",
+    "province_type": "other"
+  },
+  {
     "id": "USA-AK",
     "iso_3166_2": "AK",
     "name": "Alaska",
