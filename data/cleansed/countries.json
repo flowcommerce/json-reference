@@ -595,6 +595,13 @@
     "currency": "USD"
   },
   {
+    "name": "Holy See",
+    "continent": "EU",
+    "iso_3166_2": "VA",
+    "iso_3166_3": "VAT",
+    "currency": "EUR"
+  },
+  {
     "name": "Honduras",
     "continent": "NA",
     "iso_3166_2": "HN",
