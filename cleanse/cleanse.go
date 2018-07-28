@@ -335,7 +335,7 @@ func Cleanse() {
 			func(record map[string]string) interface{} {
 				return Province{
 					Iso_3166_2:   record["province"],
-					Name:         strings.SplitN(record["name"], " (", 2)[0],
+					Name:         parseProvinceName(record["name"]),
 					CountryCode:  record["country"],
 					ProvinceType: provinceType(record["type"]),
 				}
@@ -921,5 +921,17 @@ func toInt32(value string) int {
 	v, err := strconv.Atoi(value)
 	util.ExitIfError(err, fmt.Sprintf("Failed to convert value[%s] to int32: %s", value, err))
 	return v
+}
+
+func parseProvinceName(value string) string {
+	parens := strings.SplitN(value, " (", 2)[0]
+
+	// "Ash Shariqah [Sharjah]" => "Sharjah"
+	brackets := parens
+	parts := strings.SplitN(parens, " [", 2)
+	if len(parts) > 1 {
+		brackets = strings.SplitN(parts[1], "]", 2)[0]
+	}
+	return brackets
 }
 

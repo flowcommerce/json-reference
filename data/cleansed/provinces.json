@@ -49,13 +49,13 @@
   },
   {
     "iso_3166_2": "AZ",
-    "name": "Abu Z�aby [Abu Dhabi]",
+    "name": "Abu Dhabi",
     "country": "AE",
     "province_type": "emirate"
   },
   {
     "iso_3166_2": "DU",
-    "name": "Dubayy [Dubai]",
+    "name": "Dubai",
     "country": "AE",
     "province_type": "emirate"
   },
@@ -73,7 +73,7 @@
   },
   {
     "iso_3166_2": "SH",
-    "name": "Ash Shariqah [Sharjah]",
+    "name": "Sharjah",
     "country": "AE",
     "province_type": "emirate"
   },
@@ -4165,7 +4165,7 @@
   },
   {
     "iso_3166_2": "07",
-    "name": "La Estrelleta [El�as Pi�a]",
+    "name": "El�as Pi�a",
     "country": "DO",
     "province_type": "province"
   },
@@ -4801,7 +4801,7 @@
   },
   {
     "iso_3166_2": "B",
-    "name": "Barcelona  [Barcelona]",
+    "name": "Barcelona",
     "country": "ES",
     "province_type": "province"
   },
@@ -4825,7 +4825,7 @@
   },
   {
     "iso_3166_2": "C",
-    "name": "A Coru�a  [La Coru�a]",
+    "name": "La Coru�a",
     "country": "ES",
     "province_type": "province"
   },
@@ -4879,7 +4879,7 @@
   },
   {
     "iso_3166_2": "GI",
-    "name": "Girona  [Gerona]",
+    "name": "Gerona",
     "country": "ES",
     "province_type": "province"
   },
@@ -4915,7 +4915,7 @@
   },
   {
     "iso_3166_2": "L",
-    "name": "Lleida  [L�rida]",
+    "name": "L�rida",
     "country": "ES",
     "province_type": "province"
   },
@@ -4933,7 +4933,7 @@
   },
   {
     "iso_3166_2": "LU",
-    "name": "Lugo  [Lugo]",
+    "name": "Lugo",
     "country": "ES",
     "province_type": "province"
   },
@@ -4975,7 +4975,7 @@
   },
   {
     "iso_3166_2": "OR",
-    "name": "Ourense  [Orense]",
+    "name": "Orense",
     "country": "ES",
     "province_type": "province"
   },
@@ -4987,13 +4987,13 @@
   },
   {
     "iso_3166_2": "PM",
-    "name": "Balears  [Baleares]",
+    "name": "Baleares",
     "country": "ES",
     "province_type": "province"
   },
   {
     "iso_3166_2": "PO",
-    "name": "Pontevedra  [Pontevedra]",
+    "name": "Pontevedra",
     "country": "ES",
     "province_type": "province"
   },
@@ -5035,7 +5035,7 @@
   },
   {
     "iso_3166_2": "T",
-    "name": "Tarragona  [Tarragona]",
+    "name": "Tarragona",
     "country": "ES",
     "province_type": "province"
   },
@@ -6061,7 +6061,7 @@
   },
   {
     "iso_3166_2": "AGY",
-    "name": "Isle of Anglesey [Sir Ynys M�n GB-YNM]",
+    "name": "Sir Ynys M�n GB-YNM",
     "country": "GB",
     "province_type": "other"
   },
@@ -6133,7 +6133,7 @@
   },
   {
     "iso_3166_2": "BGE",
-    "name": "Bridgend [Pen-y-bont ar Ogwr GB-POG]",
+    "name": "Pen-y-bont ar Ogwr GB-POG",
     "country": "GB",
     "province_type": "other"
   },
@@ -6229,7 +6229,7 @@
   },
   {
     "iso_3166_2": "CAY",
-    "name": "Caerphilly [Caerffili GB-CAF]",
+    "name": "Caerffili GB-CAF",
     "country": "GB",
     "province_type": "other"
   },
@@ -6247,7 +6247,7 @@
   },
   {
     "iso_3166_2": "CGN",
-    "name": "Ceredigion [Sir Ceredigion]",
+    "name": "Sir Ceredigion",
     "country": "GB",
     "province_type": "other"
   },
@@ -6289,7 +6289,7 @@
   },
   {
     "iso_3166_2": "CMN",
-    "name": "Carmarthenshire [Sir Gaerfyrddin GB-GFY]",
+    "name": "Sir Gaerfyrddin GB-GFY",
     "country": "GB",
     "province_type": "other"
   },
@@ -6307,7 +6307,7 @@
   },
   {
     "iso_3166_2": "CRF",
-    "name": "Cardiff [Caerdydd GB-CRD]",
+    "name": "Caerdydd GB-CRD",
     "country": "GB",
     "province_type": "other"
   },
@@ -6337,7 +6337,7 @@
   },
   {
     "iso_3166_2": "DEN",
-    "name": "Denbighshire [Sir Ddinbych GB-DDB]",
+    "name": "Sir Ddinbych GB-DDB",
     "country": "GB",
     "province_type": "other"
   },
@@ -6475,7 +6475,7 @@
   },
   {
     "iso_3166_2": "FLN",
-    "name": "Flintshire [Sir y Fflint GB-FFL]",
+    "name": "Sir y Fflint GB-FFL",
     "country": "GB",
     "province_type": "other"
   },
@@ -6757,7 +6757,7 @@
   },
   {
     "iso_3166_2": "MON",
-    "name": "Monmouthshire [Sir Fynwy GB-FYN]",
+    "name": "Sir Fynwy GB-FYN",
     "country": "GB",
     "province_type": "other"
   },
@@ -6775,7 +6775,7 @@
   },
   {
     "iso_3166_2": "MTY",
-    "name": "Merthyr Tydfil [Merthyr Tudful GB-MTU]",
+    "name": "Merthyr Tudful GB-MTU",
     "country": "GB",
     "province_type": "other"
   },
@@ -6853,7 +6853,7 @@
   },
   {
     "iso_3166_2": "NTL",
-    "name": "Neath Port Talbot [Castell-nedd Port Talbot GB-CTL]",
+    "name": "Castell-nedd Port Talbot GB-CTL",
     "country": "GB",
     "province_type": "other"
   },
@@ -6877,7 +6877,7 @@
   },
   {
     "iso_3166_2": "NWP",
-    "name": "Newport [Casnewydd GB-CNW]",
+    "name": "Casnewydd GB-CNW",
     "country": "GB",
     "province_type": "other"
   },
@@ -6907,7 +6907,7 @@
   },
   {
     "iso_3166_2": "PEM",
-    "name": "Pembrokeshire [Sir Benfro GB-BNF]",
+    "name": "Sir Benfro GB-BNF",
     "country": "GB",
     "province_type": "other"
   },
@@ -6961,7 +6961,7 @@
   },
   {
     "iso_3166_2": "RCT",
-    "name": "Rhondda, Cynon, Taff [Rhondda, Cynon,Taf]",
+    "name": "Rhondda, Cynon,Taf",
     "country": "GB",
     "province_type": "other"
   },
@@ -7153,7 +7153,7 @@
   },
   {
     "iso_3166_2": "SWA",
-    "name": "Swansea [Abertawe GB-ATA]",
+    "name": "Abertawe GB-ATA",
     "country": "GB",
     "province_type": "other"
   },
@@ -7195,7 +7195,7 @@
   },
   {
     "iso_3166_2": "TOF",
-    "name": "Torfaen [Tor-faen]",
+    "name": "Tor-faen",
     "country": "GB",
     "province_type": "other"
   },
@@ -7213,7 +7213,7 @@
   },
   {
     "iso_3166_2": "VGL",
-    "name": "Vale of Glamorgan, The [Bro Morgannwg GB-BMG]",
+    "name": "Bro Morgannwg GB-BMG",
     "country": "GB",
     "province_type": "other"
   },
@@ -7315,7 +7315,7 @@
   },
   {
     "iso_3166_2": "WRX",
-    "name": "Wrexham [Wrecsam GB-WRC]",
+    "name": "Wrecsam GB-WRC",
     "country": "GB",
     "province_type": "other"
   },
@@ -10405,7 +10405,7 @@
   },
   {
     "iso_3166_2": "01",
-    "name": "Hokkaid� [Hokkaido]",
+    "name": "Hokkaido",
     "country": "JP",
     "province_type": "other"
   },
@@ -10441,7 +10441,7 @@
   },
   {
     "iso_3166_2": "07",
-    "name": "Hukusima [Fukushima]",
+    "name": "Fukushima",
     "country": "JP",
     "province_type": "other"
   },
@@ -10453,7 +10453,7 @@
   },
   {
     "iso_3166_2": "09",
-    "name": "Totigi [Tochigi]",
+    "name": "Tochigi",
     "country": "JP",
     "province_type": "other"
   },
@@ -10471,13 +10471,13 @@
   },
   {
     "iso_3166_2": "12",
-    "name": "Tiba [Chiba]",
+    "name": "Chiba",
     "country": "JP",
     "province_type": "other"
   },
   {
     "iso_3166_2": "13",
-    "name": "T�ky� [Tokyo]",
+    "name": "Tokyo",
     "country": "JP",
     "province_type": "other"
   },
@@ -10501,19 +10501,19 @@
   },
   {
     "iso_3166_2": "17",
-    "name": "Isikawa [Ishikawa]",
+    "name": "Ishikawa",
     "country": "JP",
     "province_type": "other"
   },
   {
     "iso_3166_2": "18",
-    "name": "Hukui [Fukui]",
+    "name": "Fukui",
     "country": "JP",
     "province_type": "other"
   },
   {
     "iso_3166_2": "19",
-    "name": "Yamanasi [Yamanashi]",
+    "name": "Yamanashi",
     "country": "JP",
     "province_type": "other"
   },
@@ -10525,19 +10525,19 @@
   },
   {
     "iso_3166_2": "21",
-    "name": "Gihu [Gifu]",
+    "name": "Gifu",
     "country": "JP",
     "province_type": "other"
   },
   {
     "iso_3166_2": "22",
-    "name": "Sizuoka [Shizuoka]",
+    "name": "Shizuoka",
     "country": "JP",
     "province_type": "other"
   },
   {
     "iso_3166_2": "23",
-    "name": "Aiti [Aichi]",
+    "name": "Aichi",
     "country": "JP",
     "province_type": "other"
   },
@@ -10549,19 +10549,19 @@
   },
   {
     "iso_3166_2": "25",
-    "name": "Siga [Shiga]",
+    "name": "Shiga",
     "country": "JP",
     "province_type": "other"
   },
   {
     "iso_3166_2": "26",
-    "name": "Hy�go [Kyoto]",
+    "name": "Kyoto",
     "country": "JP",
     "province_type": "other"
   },
   {
     "iso_3166_2": "27",
-    "name": "�saka [Osaka]",
+    "name": "Osaka",
     "country": "JP",
     "province_type": "other"
   },
@@ -10591,7 +10591,7 @@
   },
   {
     "iso_3166_2": "32",
-    "name": "Simane [Shimane]",
+    "name": "Shimane",
     "country": "JP",
     "province_type": "other"
   },
@@ -10603,19 +10603,19 @@
   },
   {
     "iso_3166_2": "34",
-    "name": "Hirosima [Hiroshima]",
+    "name": "Hiroshima",
     "country": "JP",
     "province_type": "other"
   },
   {
     "iso_3166_2": "35",
-    "name": "Yamaguti [Yamaguchi]",
+    "name": "Yamaguchi",
     "country": "JP",
     "province_type": "other"
   },
   {
     "iso_3166_2": "36",
-    "name": "Tokusima [Tokushima]",
+    "name": "Tokushima",
     "country": "JP",
     "province_type": "other"
   },
@@ -10633,13 +10633,13 @@
   },
   {
     "iso_3166_2": "39",
-    "name": "K�ti [Kochi]",
+    "name": "Kochi",
     "country": "JP",
     "province_type": "other"
   },
   {
     "iso_3166_2": "40",
-    "name": "Hukuoka [Fukuoka]",
+    "name": "Fukuoka",
     "country": "JP",
     "province_type": "other"
   },
@@ -10663,7 +10663,7 @@
   },
   {
     "iso_3166_2": "44",
-    "name": "�ita [Oita]",
+    "name": "Oita",
     "country": "JP",
     "province_type": "other"
   },
@@ -10675,7 +10675,7 @@
   },
   {
     "iso_3166_2": "46",
-    "name": "Kagosima [Kagoshima]",
+    "name": "Kagoshima",
     "country": "JP",
     "province_type": "other"
   },
@@ -11023,103 +11023,103 @@
   },
   {
     "iso_3166_2": "1",
-    "name": "Banteay Mean Chey [B�nt�ay M�anchey]",
+    "name": "B�nt�ay M�anchey",
     "country": "KH",
     "province_type": "province"
   },
   {
     "iso_3166_2": "10",
-    "name": "Kracheh [Kr�ch�h]",
+    "name": "Kr�ch�h",
     "country": "KH",
     "province_type": "province"
   },
   {
     "iso_3166_2": "11",
-    "name": "Mondol Kiri [M�nd�l Kiri]",
+    "name": "M�nd�l Kiri",
     "country": "KH",
     "province_type": "province"
   },
   {
     "iso_3166_2": "12",
-    "name": "Phnom Penh [Phnum P�nh]",
+    "name": "Phnum P�nh",
     "country": "KH",
     "province_type": "other"
   },
   {
     "iso_3166_2": "13",
-    "name": "Preah Vihear [Preah Vih�ar]",
+    "name": "Preah Vih�ar",
     "country": "KH",
     "province_type": "province"
   },
   {
     "iso_3166_2": "14",
-    "name": "Prey Veaeng [Prey V�ng]",
+    "name": "Prey V�ng",
     "country": "KH",
     "province_type": "province"
   },
   {
     "iso_3166_2": "15",
-    "name": "Pousaat [Pouthisat]",
+    "name": "Pouthisat",
     "country": "KH",
     "province_type": "province"
   },
   {
     "iso_3166_2": "16",
-    "name": "Rotanak Kiri [R�t�n�kiri]",
+    "name": "R�t�n�kiri",
     "country": "KH",
     "province_type": "province"
   },
   {
     "iso_3166_2": "17",
-    "name": "Siem Reab [Siemr�ab]",
+    "name": "Siemr�ab",
     "country": "KH",
     "province_type": "province"
   },
   {
     "iso_3166_2": "18",
-    "name": "Krong Preah Sihanouk [Krong Preah Sihanouk]",
+    "name": "Krong Preah Sihanouk",
     "country": "KH",
     "province_type": "province"
   },
   {
     "iso_3166_2": "19",
-    "name": "Stueng Traeng [Stoeng Tr�ng]",
+    "name": "Stoeng Tr�ng",
     "country": "KH",
     "province_type": "province"
   },
   {
     "iso_3166_2": "2",
-    "name": "Baat Dambang [Batd�mb�ng]",
+    "name": "Batd�mb�ng",
     "country": "KH",
     "province_type": "province"
   },
   {
     "iso_3166_2": "20",
-    "name": "Svaay Rieng [Svay Rieng]",
+    "name": "Svay Rieng",
     "country": "KH",
     "province_type": "province"
   },
   {
     "iso_3166_2": "21",
-    "name": "Taakaev [Tak�v]",
+    "name": "Tak�v",
     "country": "KH",
     "province_type": "province"
   },
   {
     "iso_3166_2": "22",
-    "name": "Otdar Mean Chey [Otd�r M�anchey]",
+    "name": "Otd�r M�anchey",
     "country": "KH",
     "province_type": "province"
   },
   {
     "iso_3166_2": "23",
-    "name": "Krong Kaeb [Krong K�b]",
+    "name": "Krong K�b",
     "country": "KH",
     "province_type": "province"
   },
   {
     "iso_3166_2": "24",
-    "name": "Krong Pailin [Krong Pailin]",
+    "name": "Krong Pailin",
     "country": "KH",
     "province_type": "province"
   },
@@ -11131,43 +11131,43 @@
   },
   {
     "iso_3166_2": "3",
-    "name": "Kampong Chaam [K�mp�ng Cham]",
+    "name": "K�mp�ng Cham",
     "country": "KH",
     "province_type": "province"
   },
   {
     "iso_3166_2": "4",
-    "name": "Kampong Chhnang [K�mp�ng Chhnang]",
+    "name": "K�mp�ng Chhnang",
     "country": "KH",
     "province_type": "province"
   },
   {
     "iso_3166_2": "5",
-    "name": "Kampong Spueu [K�mp�ng Sp�]",
+    "name": "K�mp�ng Sp�",
     "country": "KH",
     "province_type": "province"
   },
   {
     "iso_3166_2": "6",
-    "name": "Kampong Thum [K�mp�ng Thum]",
+    "name": "K�mp�ng Thum",
     "country": "KH",
     "province_type": "province"
   },
   {
     "iso_3166_2": "7",
-    "name": "Kampot [K�mp�t]",
+    "name": "K�mp�t",
     "country": "KH",
     "province_type": "province"
   },
   {
     "iso_3166_2": "8",
-    "name": "Kandaal [K�ndal]",
+    "name": "K�ndal",
     "country": "KH",
     "province_type": "province"
   },
   {
     "iso_3166_2": "9",
-    "name": "Kaoh Kong [Ka�h Kong]",
+    "name": "Ka�h Kong",
     "country": "KH",
     "province_type": "province"
   },
@@ -11293,97 +11293,97 @@
   },
   {
     "iso_3166_2": "11",
-    "name": "Seoul-teukbyeolsi [Seoul]",
+    "name": "Seoul",
     "country": "KR",
     "province_type": "other"
   },
   {
     "iso_3166_2": "26",
-    "name": "Busan Gwang'yeogsi [Pusan-Kwangyokshi]",
+    "name": "Pusan-Kwangyokshi",
     "country": "KR",
     "province_type": "other"
   },
   {
     "iso_3166_2": "27",
-    "name": "Daegu Gwang'yeogsi [Taegu-Kwangyokshi]",
+    "name": "Taegu-Kwangyokshi",
     "country": "KR",
     "province_type": "other"
   },
   {
     "iso_3166_2": "28",
-    "name": "Incheon Gwang'yeogsi [Incheon]",
+    "name": "Incheon",
     "country": "KR",
     "province_type": "other"
   },
   {
     "iso_3166_2": "29",
-    "name": "Gwangju Gwang'yeogsi [Kwangju-Kwangyokshi]",
+    "name": "Kwangju-Kwangyokshi",
     "country": "KR",
     "province_type": "other"
   },
   {
     "iso_3166_2": "30",
-    "name": "Daejeon Gwang'yeogsi [Taejon-Kwangyokshi]",
+    "name": "Taejon-Kwangyokshi",
     "country": "KR",
     "province_type": "other"
   },
   {
     "iso_3166_2": "31",
-    "name": "Ulsan Gwang'yeogsi [Ulsan-Kwangyokshi]",
+    "name": "Ulsan-Kwangyokshi",
     "country": "KR",
     "province_type": "other"
   },
   {
     "iso_3166_2": "41",
-    "name": "Gyeonggido [Kyonggi-do]",
+    "name": "Kyonggi-do",
     "country": "KR",
     "province_type": "province"
   },
   {
     "iso_3166_2": "42",
-    "name": "Gang'weondo [Kang-won-do]",
+    "name": "Kang-won-do",
     "country": "KR",
     "province_type": "province"
   },
   {
     "iso_3166_2": "43",
-    "name": "Chungcheongbugdo [Ch'ungch'ongbuk-do]",
+    "name": "Ch'ungch'ongbuk-do",
     "country": "KR",
     "province_type": "province"
   },
   {
     "iso_3166_2": "44",
-    "name": "Chungcheongnamdo [Ch'ungch'ongnam-do]",
+    "name": "Ch'ungch'ongnam-do",
     "country": "KR",
     "province_type": "province"
   },
   {
     "iso_3166_2": "45",
-    "name": "Jeonrabugdo [Chollabuk-do]",
+    "name": "Chollabuk-do",
     "country": "KR",
     "province_type": "province"
   },
   {
     "iso_3166_2": "46",
-    "name": "Jeonranamdo [Chollanam-do]",
+    "name": "Chollanam-do",
     "country": "KR",
     "province_type": "province"
   },
   {
     "iso_3166_2": "47",
-    "name": "Gyeongsangbugdo [Kyongsangbuk-do]",
+    "name": "Kyongsangbuk-do",
     "country": "KR",
     "province_type": "province"
   },
   {
     "iso_3166_2": "48",
-    "name": "Gyeongsangnamdo [Kyongsangnam-do]",
+    "name": "Kyongsangnam-do",
     "country": "KR",
     "province_type": "province"
   },
   {
     "iso_3166_2": "49",
-    "name": "Jeju-teukbyeoljachido [Jeju]",
+    "name": "Jeju",
     "country": "KR",
     "province_type": "other"
   },
@@ -11527,7 +11527,7 @@
   },
   {
     "iso_3166_2": "AT",
-    "name": "Attapu [Attopeu]",
+    "name": "Attopeu",
     "country": "LA",
     "province_type": "province"
   },
@@ -11539,13 +11539,13 @@
   },
   {
     "iso_3166_2": "BL",
-    "name": "Bolikhamxai [Borikhane]",
+    "name": "Borikhane",
     "country": "LA",
     "province_type": "province"
   },
   {
     "iso_3166_2": "CH",
-    "name": "Champasak [Champassak]",
+    "name": "Champassak",
     "country": "LA",
     "province_type": "province"
   },
@@ -11569,25 +11569,25 @@
   },
   {
     "iso_3166_2": "LP",
-    "name": "Louangphabang [Louang Prabang)",
+    "name": "Louang Prabang)",
     "country": "LA",
     "province_type": "province"
   },
   {
     "iso_3166_2": "OU",
-    "name": "Oud�mxai [Oudomsai]",
+    "name": "Oudomsai",
     "country": "LA",
     "province_type": "province"
   },
   {
     "iso_3166_2": "PH",
-    "name": "Ph�ngsali [Phong Saly]",
+    "name": "Phong Saly",
     "country": "LA",
     "province_type": "province"
   },
   {
     "iso_3166_2": "SL",
-    "name": "Salavan [Saravane]",
+    "name": "Saravane",
     "country": "LA",
     "province_type": "province"
   },
@@ -11611,19 +11611,19 @@
   },
   {
     "iso_3166_2": "XA",
-    "name": "Xaignabouli [Sayaboury]",
+    "name": "Sayaboury",
     "country": "LA",
     "province_type": "province"
   },
   {
     "iso_3166_2": "XE",
-    "name": "X�kong [S�kong]",
+    "name": "S�kong",
     "country": "LA",
     "province_type": "province"
   },
   {
     "iso_3166_2": "XI",
-    "name": "Xiangkhouang [Xieng Khouang]",
+    "name": "Xieng Khouang",
     "country": "LA",
     "province_type": "province"
   },
@@ -13525,7 +13525,7 @@
   },
   {
     "iso_3166_2": "BD",
-    "name": "Bender [Tighina]",
+    "name": "Tighina",
     "country": "MD",
     "province_type": "city"
   },
@@ -14731,7 +14731,7 @@
   },
   {
     "iso_3166_2": "CC",
-    "name": "Cargados Carajos Shoals [Saint Brandon Islands]",
+    "name": "Saint Brandon Islands",
     "country": "MU",
     "province_type": "dependency"
   },
@@ -16147,7 +16147,7 @@
   },
   {
     "iso_3166_2": "KO",
-    "name": "Kosi [Koshi]",
+    "name": "Koshi",
     "country": "NP",
     "province_type": "other"
   },
@@ -16567,7 +16567,7 @@
   },
   {
     "iso_3166_2": "CUS",
-    "name": "Cuzco [Cusco]",
+    "name": "Cusco",
     "country": "PE",
     "province_type": "other"
   },
@@ -17299,7 +17299,7 @@
   },
   {
     "iso_3166_2": "ZSI",
-    "name": "Zamboanga Sibuguey [Zamboanga Sibugay]",
+    "name": "Zamboanga Sibugay",
     "country": "PH",
     "province_type": "province"
   },
@@ -18349,7 +18349,7 @@
   },
   {
     "iso_3166_2": "IN",
-    "name": "Ingushskaya Respublika [Respublika Ingushetiya]",
+    "name": "Respublika Ingushetiya",
     "country": "RU",
     "province_type": "other"
   },
@@ -18601,7 +18601,7 @@
   },
   {
     "iso_3166_2": "SA",
-    "name": "Sakha, Respublika [Yakutiya]",
+    "name": "Yakutiya",
     "country": "RU",
     "province_type": "other"
   },
@@ -18625,7 +18625,7 @@
   },
   {
     "iso_3166_2": "SE",
-    "name": "Severnaya Osetiya, Respublika Alaniya] [Respublika Severnaya Osetiya-Alaniya]",
+    "name": "Respublika Severnaya Osetiya-Alaniya",
     "country": "RU",
     "province_type": "other"
   },
@@ -18685,7 +18685,7 @@
   },
   {
     "iso_3166_2": "TY",
-    "name": "Tyva, Respublika [Tuva]",
+    "name": "Tuva",
     "country": "RU",
     "province_type": "other"
   },
@@ -21097,7 +21097,7 @@
   },
   {
     "iso_3166_2": "10",
-    "name": "Krung Thep Maha Nakhon [Bangkok]",
+    "name": "Bangkok",
     "country": "TH",
     "province_type": "other"
   },
@@ -24655,7 +24655,7 @@
   },
   {
     "iso_3166_2": "SA",
-    "name": "Amanat al �Asimah [city]",
+    "name": "city",
     "country": "YE",
     "province_type": "municipality"
   },
