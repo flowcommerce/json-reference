@@ -1718,9 +1718,24 @@
   {
     "id": "JPN-01",
     "iso_3166_2": "01",
-    "name": "Hokkaid� [Hokkaido]",
+    "name": "Hokkaido",
     "country": "JPN",
-    "province_type": "other"
+    "province_type": "other",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Hokkaido"
+      }
+    ]
   },
   {
     "id": "JPN-02",
@@ -1760,9 +1775,24 @@
   {
     "id": "JPN-07",
     "iso_3166_2": "07",
-    "name": "Hukusima [Fukushima]",
+    "name": "Fukushima",
     "country": "JPN",
-    "province_type": "other"
+    "province_type": "other",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Fukushima"
+      }
+    ]
   },
   {
     "id": "JPN-08",
@@ -1774,9 +1804,24 @@
   {
     "id": "JPN-09",
     "iso_3166_2": "09",
-    "name": "Totigi [Tochigi]",
+    "name": "Tochigi",
     "country": "JPN",
-    "province_type": "other"
+    "province_type": "other",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Tochigi"
+      }
+    ]
   },
   {
     "id": "JPN-10",
@@ -1795,16 +1840,46 @@
   {
     "id": "JPN-12",
     "iso_3166_2": "12",
-    "name": "Tiba [Chiba]",
+    "name": "Chiba",
     "country": "JPN",
-    "province_type": "other"
+    "province_type": "other",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Chiba"
+      }
+    ]
   },
   {
     "id": "JPN-13",
     "iso_3166_2": "13",
-    "name": "T�ky� [Tokyo]",
+    "name": "Tokyo",
     "country": "JPN",
-    "province_type": "other"
+    "province_type": "other",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Tokyo"
+      }
+    ]
   },
   {
     "id": "JPN-14",
@@ -1830,23 +1905,68 @@
   {
     "id": "JPN-17",
     "iso_3166_2": "17",
-    "name": "Isikawa [Ishikawa]",
+    "name": "Ishikawa",
     "country": "JPN",
-    "province_type": "other"
+    "province_type": "other",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Ishikawa"
+      }
+    ]
   },
   {
     "id": "JPN-18",
     "iso_3166_2": "18",
-    "name": "Hukui [Fukui]",
+    "name": "Fukui",
     "country": "JPN",
-    "province_type": "other"
+    "province_type": "other",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Fukui"
+      }
+    ]
   },
   {
     "id": "JPN-19",
     "iso_3166_2": "19",
-    "name": "Yamanasi [Yamanashi]",
+    "name": "Yamanashi",
     "country": "JPN",
-    "province_type": "other"
+    "province_type": "other",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Yamanashi"
+      }
+    ]
   },
   {
     "id": "JPN-20",
@@ -1858,23 +1978,68 @@
   {
     "id": "JPN-21",
     "iso_3166_2": "21",
-    "name": "Gihu [Gifu]",
+    "name": "Gifu",
     "country": "JPN",
-    "province_type": "other"
+    "province_type": "other",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Gifu"
+      }
+    ]
   },
   {
     "id": "JPN-22",
     "iso_3166_2": "22",
-    "name": "Sizuoka [Shizuoka]",
+    "name": "Shizuoka",
     "country": "JPN",
-    "province_type": "other"
+    "province_type": "other",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Shizuoka"
+      }
+    ]
   },
   {
     "id": "JPN-23",
     "iso_3166_2": "23",
-    "name": "Aiti [Aichi]",
+    "name": "Aichi",
     "country": "JPN",
-    "province_type": "other"
+    "province_type": "other",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Aichi"
+      }
+    ]
   },
   {
     "id": "JPN-24",
@@ -1886,30 +2051,90 @@
   {
     "id": "JPN-25",
     "iso_3166_2": "25",
-    "name": "Siga [Shiga]",
+    "name": "Shiga",
     "country": "JPN",
-    "province_type": "other"
+    "province_type": "other",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Shiga"
+      }
+    ]
   },
   {
     "id": "JPN-26",
     "iso_3166_2": "26",
-    "name": "Hy�go [Kyoto]",
+    "name": "Kyoto",
     "country": "JPN",
-    "province_type": "other"
+    "province_type": "other",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Kyoto"
+      }
+    ]
   },
   {
     "id": "JPN-27",
     "iso_3166_2": "27",
-    "name": "�saka [Osaka]",
+    "name": "Osaka",
     "country": "JPN",
-    "province_type": "other"
+    "province_type": "other",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Osaka"
+      }
+    ]
   },
   {
     "id": "JPN-28",
     "iso_3166_2": "28",
     "name": "Hy�go[Hyogo]",
     "country": "JPN",
-    "province_type": "other"
+    "province_type": "other",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Hyogo"
+      }
+    ]
   },
   {
     "id": "JPN-29",
@@ -1935,9 +2160,24 @@
   {
     "id": "JPN-32",
     "iso_3166_2": "32",
-    "name": "Simane [Shimane]",
+    "name": "Shimane",
     "country": "JPN",
-    "province_type": "other"
+    "province_type": "other",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Shimane"
+      }
+    ]
   },
   {
     "id": "JPN-33",
@@ -1949,23 +2189,68 @@
   {
     "id": "JPN-34",
     "iso_3166_2": "34",
-    "name": "Hirosima [Hiroshima]",
+    "name": "Hiroshima",
     "country": "JPN",
-    "province_type": "other"
+    "province_type": "other",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Hiroshima"
+      }
+    ]
   },
   {
     "id": "JPN-35",
     "iso_3166_2": "35",
-    "name": "Yamaguti [Yamaguchi]",
+    "name": "Yamaguchi",
     "country": "JPN",
-    "province_type": "other"
+    "province_type": "other",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Yamaguchi"
+      }
+    ]
   },
   {
     "id": "JPN-36",
     "iso_3166_2": "36",
-    "name": "Tokusima [Tokushima]",
+    "name": "Tokushima",
     "country": "JPN",
-    "province_type": "other"
+    "province_type": "other",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Tokushima"
+      }
+    ]
   },
   {
     "id": "JPN-37",
@@ -1984,16 +2269,46 @@
   {
     "id": "JPN-39",
     "iso_3166_2": "39",
-    "name": "K�ti [Kochi]",
+    "name": "Kochi",
     "country": "JPN",
-    "province_type": "other"
+    "province_type": "other",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Kochi"
+      }
+    ]
   },
   {
     "id": "JPN-40",
     "iso_3166_2": "40",
-    "name": "Hukuoka [Fukuoka]",
+    "name": "Fukuoka",
     "country": "JPN",
-    "province_type": "other"
+    "province_type": "other",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Fukuoka"
+      }
+    ]
   },
   {
     "id": "JPN-41",
@@ -2019,9 +2334,24 @@
   {
     "id": "JPN-44",
     "iso_3166_2": "44",
-    "name": "�ita [Oita]",
+    "name": "Oita",
     "country": "JPN",
-    "province_type": "other"
+    "province_type": "other",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Oita"
+      }
+    ]
   },
   {
     "id": "JPN-45",
@@ -2033,9 +2363,24 @@
   {
     "id": "JPN-46",
     "iso_3166_2": "46",
-    "name": "Kagosima [Kagoshima]",
+    "name": "Kagoshima",
     "country": "JPN",
-    "province_type": "other"
+    "province_type": "other",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Kagoshima"
+      }
+    ]
   },
   {
     "id": "JPN-47",
