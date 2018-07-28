@@ -481,6 +481,121 @@
   },
   {
     "locale_id": "en-US",
+    "province_id": "JPN-01",
+    "translation": "Hokkaido"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "JPN-07",
+    "translation": "Fukushima"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "JPN-09",
+    "translation": "Tochigi"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "JPN-12",
+    "translation": "Chiba"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "JPN-13",
+    "translation": "Tokyo"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "JPN-17",
+    "translation": "Ishikawa"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "JPN-18",
+    "translation": "Fukui"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "JPN-19",
+    "translation": "Yamanashi"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "JPN-21",
+    "translation": "Gifu"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "JPN-22",
+    "translation": "Shizuoka"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "JPN-23",
+    "translation": "Aichi"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "JPN-25",
+    "translation": "Shiga"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "JPN-26",
+    "translation": "Kyoto"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "JPN-27",
+    "translation": "Osaka"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "JPN-28",
+    "translation": "Hyogo"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "JPN-32",
+    "translation": "Shimane"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "JPN-34",
+    "translation": "Hiroshima"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "JPN-35",
+    "translation": "Yamaguchi"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "JPN-36",
+    "translation": "Tokushima"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "JPN-39",
+    "translation": "Kochi"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "JPN-40",
+    "translation": "Fukuoka"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "JPN-44",
+    "translation": "Oita"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "JPN-46",
+    "translation": "Kagoshima"
+  },
+  {
+    "locale_id": "en-US",
     "province_id": "USA-AK",
     "translation": "Alaska"
   },
