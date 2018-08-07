@@ -70,7 +70,6 @@
       "KMF",
       "LYD",
       "MAD",
-      "MRO",
       "MUR",
       "MWK",
       "NAD",
@@ -80,7 +79,6 @@
       "SHP",
       "SLL",
       "SOS",
-      "STD",
       "SZL",
       "TZS",
       "UGX",
@@ -1310,6 +1308,24 @@
     "timezones": []
   },
   {
+    "id": "swz",
+    "name": "Eswatini",
+    "countries": [
+      "SWZ"
+    ],
+    "currencies": [
+      "SZL"
+    ],
+    "languages": [
+      "en",
+      "ss"
+    ],
+    "measurement_systems": [
+      "metric"
+    ],
+    "timezones": []
+  },
+  {
     "id": "eth",
     "name": "Ethiopia",
     "countries": [
@@ -1647,24 +1663,17 @@
       "LVA",
       "MAF",
       "MCO",
-      "MDG",
       "MLT",
       "MNE",
-      "MOZ",
       "MTQ",
       "MYT",
       "NLD",
-      "PRK",
       "PRT",
       "REU",
       "SMR",
       "SPM",
-      "SSD",
-      "SUR",
       "SVK",
       "SVN",
-      "TJK",
-      "TKM",
       "VAT"
     ],
     "currencies": [
@@ -1678,26 +1687,20 @@
       "en",
       "es",
       "et",
-      "fa",
       "fi",
       "fr",
       "ga",
       "it",
-      "ko",
       "la",
       "lb",
       "lt",
       "lv",
-      "mg",
       "mt",
       "nl",
       "pt",
-      "ru",
       "sk",
       "sl",
       "sv",
-      "tg",
-      "tk",
       "tr"
     ],
     "measurement_systems": [
@@ -2764,7 +2767,7 @@
       "MRT"
     ],
     "currencies": [
-      "MRO"
+      "EUR"
     ],
     "languages": [
       "ar"
@@ -3750,7 +3753,7 @@
       "STP"
     ],
     "currencies": [
-      "STD"
+      "EUR"
     ],
     "languages": [
       "pt"
@@ -4097,24 +4100,6 @@
     ],
     "languages": [
       "nl"
-    ],
-    "measurement_systems": [
-      "metric"
-    ],
-    "timezones": []
-  },
-  {
-    "id": "swz",
-    "name": "Swaziland",
-    "countries": [
-      "SWZ"
-    ],
-    "currencies": [
-      "SZL"
-    ],
-    "languages": [
-      "en",
-      "ss"
     ],
     "measurement_systems": [
       "metric"
@@ -4855,7 +4840,6 @@
       "MDL",
       "MNT",
       "MOP",
-      "MRO",
       "MUR",
       "MVR",
       "MWK",
@@ -4887,7 +4871,6 @@
       "SHP",
       "SLL",
       "SOS",
-      "STD",
       "SZL",
       "THB",
       "TOP",
