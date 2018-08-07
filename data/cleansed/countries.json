@@ -420,6 +420,13 @@
     "currency": "EUR"
   },
   {
+    "name": "Eswatini",
+    "continent": "AF",
+    "iso_3166_2": "SZ",
+    "iso_3166_3": "SWZ",
+    "currency": "SZL"
+  },
+  {
     "name": "Ethiopia",
     "continent": "AF",
     "iso_3166_2": "ET",
@@ -851,7 +858,7 @@
     "continent": "AF",
     "iso_3166_2": "MR",
     "iso_3166_3": "MRT",
-    "currency": "MRO"
+    "currency": "EUR"
   },
   {
     "name": "Mauritius",
@@ -1194,7 +1201,7 @@
     "continent": "AF",
     "iso_3166_2": "ST",
     "iso_3166_3": "STP",
-    "currency": "STD"
+    "currency": "EUR"
   },
   {
     "name": "Saudi Arabia",
@@ -1307,13 +1314,6 @@
     "iso_3166_2": "SR",
     "iso_3166_3": "SUR",
     "currency": "EUR"
-  },
-  {
-    "name": "Swaziland",
-    "continent": "AF",
-    "iso_3166_2": "SZ",
-    "iso_3166_3": "SWZ",
-    "currency": "SZL"
   },
   {
     "name": "Sweden",

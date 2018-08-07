@@ -739,6 +739,19 @@
     "default_delivered_duty": "paid"
   },
   {
+    "name": "Eswatini",
+    "iso_3166_2": "SZ",
+    "iso_3166_3": "SWZ",
+    "measurement_system": "metric",
+    "default_currency": "SZL",
+    "languages": [
+      "en",
+      "ss"
+    ],
+    "timezones": [],
+    "default_delivered_duty": "paid"
+  },
+  {
     "name": "Ethiopia",
     "iso_3166_2": "ET",
     "iso_3166_3": "ETH",
@@ -1502,7 +1515,7 @@
     "iso_3166_2": "MR",
     "iso_3166_3": "MRT",
     "measurement_system": "metric",
-    "default_currency": "MRO",
+    "default_currency": "EUR",
     "languages": [
       "ar"
     ],
@@ -2099,7 +2112,7 @@
     "iso_3166_2": "ST",
     "iso_3166_3": "STP",
     "measurement_system": "metric",
-    "default_currency": "STD",
+    "default_currency": "EUR",
     "languages": [
       "pt"
     ],
@@ -2317,19 +2330,6 @@
       "nl"
     ],
     "timezones": []
-  },
-  {
-    "name": "Swaziland",
-    "iso_3166_2": "SZ",
-    "iso_3166_3": "SWZ",
-    "measurement_system": "metric",
-    "default_currency": "SZL",
-    "languages": [
-      "en",
-      "ss"
-    ],
-    "timezones": [],
-    "default_delivered_duty": "paid"
   },
   {
     "name": "Sweden",
