@@ -473,6 +473,7 @@ func createRegions(countries []common.Country, continents []common.Continent) []
 	regions = append(regions, eurozone(countries), world(countries), europeanUnion(countries), europeanEconomicArea(countries))
 	assertUniqueRegionIds(regions)
 	sortRegions(regions)
+
 	return regions
 }
 
@@ -539,7 +540,7 @@ func eurozone(countries []common.Country) common.Region {
 		"TKM",
 	}
 
-	countryCodes := findCountriesByCurrency(countries, "EUR")
+	countryCodes := filterCodes(findCountriesByCurrency(countries, "EUR"), excludeCountries)
 	theseCountries := filterCountries(findCountries(countries, countryCodes), excludeCountries)
 
 	return common.Region{
@@ -766,6 +767,18 @@ func filterCountries(countries []common.Country, filter []string) []common.Count
 	for _, country := range countries {
 		if !common.ContainsIgnoreCase(filter, country.Iso_3166_3) {
 			filtered = append(filtered, country)
+		}
+	}
+
+	return filtered
+}
+
+func filterCodes(codes []string, filter []string) []string {
+	filtered := []string{}
+
+	for _, code := range codes {
+		if !common.ContainsIgnoreCase(filter, code) {
+			filtered = append(filtered, code)
 		}
 	}
 
