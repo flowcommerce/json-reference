@@ -527,8 +527,21 @@ func createProvinces(data CleansedDataSet, locales []common.Locale) []common.Pro
 }
 
 func eurozone(countries []common.Country) common.Region {
+	// For currencies unsupported by Flow's payment processors, a default currency, `EUR`, is set.
+	// `EUR` is set as a default for countries which are NOT in the Eurozone, they must be filtered out of the final results.
+	excludeCountries := []string{
+		"MDG",
+		"MOZ",
+		"PRK",
+		"SSD",
+		"SUR",
+		"TJK",
+		"TKM",
+	}
+
 	countryCodes := findCountriesByCurrency(countries, "EUR")
-	theseCountries := findCountries(countries, countryCodes)
+	theseCountries := filterCountries(findCountries(countries, countryCodes), excludeCountries)
+
 	return common.Region{
 		Id:                 "eurozone",
 		Name:               "Eurozone",
@@ -745,6 +758,18 @@ func findCountries(countries []common.Country, codes []string) []common.Country 
 	}
 
 	return matching
+}
+
+func filterCountries(countries []common.Country, filter []string) []common.Country {
+	filtered := []common.Country{}
+
+	for _, country := range countries {
+		if !common.ContainsIgnoreCase(filter, country.Iso_3166_3) {
+			filtered = append(filtered, country)
+		}
+	}
+
+	return filtered
 }
 
 /**
