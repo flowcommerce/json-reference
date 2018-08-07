@@ -1665,7 +1665,6 @@
       "MCO",
       "MLT",
       "MNE",
-      "MRT",
       "MTQ",
       "MYT",
       "NLD",
@@ -1673,7 +1672,6 @@
       "REU",
       "SMR",
       "SPM",
-      "STP",
       "SVK",
       "SVN",
       "VAT"
@@ -1682,7 +1680,6 @@
       "EUR"
     ],
     "languages": [
-      "ar",
       "ca",
       "cs",
       "de",

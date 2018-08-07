@@ -533,8 +533,10 @@ func eurozone(countries []common.Country) common.Region {
 	excludeCountries := []string{
 		"MDG",
 		"MOZ",
+		"MRT",
 		"PRK",
 		"SSD",
+		"STP",
 		"SUR",
 		"TJK",
 		"TKM",
