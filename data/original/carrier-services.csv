@@ -1,6 +1,7 @@
 id,name,carrier_id
 asendia-express,Express,asendia
 asendia-standard,Standard,asendia
+canada-post-expedited-parcel,Expedited Parcel,canada-post
 canada-post-priority,Priority,canada-post
 canada-post-regular-parcel,Regular Parcel,canada-post
 canada-post-xpresspost,Xpresspost,canada-post
