@@ -1716,6 +1716,1172 @@
     ]
   },
   {
+    "id": "ESP-A",
+    "iso_3166_2": "A",
+    "name": "Alicante",
+    "country": "ESP",
+    "province_type": "province",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Alicante"
+      }
+    ]
+  },
+  {
+    "id": "ESP-AB",
+    "iso_3166_2": "AB",
+    "name": "Albacete",
+    "country": "ESP",
+    "province_type": "province",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Albacete"
+      }
+    ]
+  },
+  {
+    "id": "ESP-AL",
+    "iso_3166_2": "AL",
+    "name": "Almeria",
+    "country": "ESP",
+    "province_type": "province",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Almeria"
+      }
+    ]
+  },
+  {
+    "id": "ESP-AV",
+    "iso_3166_2": "AV",
+    "name": "Avila",
+    "country": "ESP",
+    "province_type": "province",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Avila"
+      }
+    ]
+  },
+  {
+    "id": "ESP-B",
+    "iso_3166_2": "B",
+    "name": "Barcelona",
+    "country": "ESP",
+    "province_type": "province",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Barcelona"
+      }
+    ]
+  },
+  {
+    "id": "ESP-BA",
+    "iso_3166_2": "BA",
+    "name": "Badajoz",
+    "country": "ESP",
+    "province_type": "province",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Badajoz"
+      }
+    ]
+  },
+  {
+    "id": "ESP-BI",
+    "iso_3166_2": "BI",
+    "name": "Biskaia",
+    "country": "ESP",
+    "province_type": "province",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Biskaia"
+      }
+    ]
+  },
+  {
+    "id": "ESP-BU",
+    "iso_3166_2": "BU",
+    "name": "Burgos",
+    "country": "ESP",
+    "province_type": "province",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Burgos"
+      }
+    ]
+  },
+  {
+    "id": "ESP-C",
+    "iso_3166_2": "C",
+    "name": "A Coruña",
+    "country": "ESP",
+    "province_type": "province",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "A Coruña"
+      }
+    ]
+  },
+  {
+    "id": "ESP-CA",
+    "iso_3166_2": "CA",
+    "name": "Cadiz",
+    "country": "ESP",
+    "province_type": "province",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Cadiz"
+      }
+    ]
+  },
+  {
+    "id": "ESP-CC",
+    "iso_3166_2": "CC",
+    "name": "Caceres",
+    "country": "ESP",
+    "province_type": "province",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Caceres"
+      }
+    ]
+  },
+  {
+    "id": "ESP-CE",
+    "iso_3166_2": "CE",
+    "name": "Ceuta",
+    "country": "ESP",
+    "province_type": "other",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Ceuta"
+      }
+    ]
+  },
+  {
+    "id": "ESP-CI",
+    "iso_3166_2": "CI",
+    "name": "Canary Islands",
+    "country": "ESP",
+    "province_type": "other",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Canary Islands"
+      }
+    ]
+  },
+  {
+    "id": "ESP-CO",
+    "iso_3166_2": "CO",
+    "name": "Cordoba",
+    "country": "ESP",
+    "province_type": "province",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Cordoba"
+      }
+    ]
+  },
+  {
+    "id": "ESP-CR",
+    "iso_3166_2": "CR",
+    "name": "Ciudad Real",
+    "country": "ESP",
+    "province_type": "province",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Ciudad Real"
+      }
+    ]
+  },
+  {
+    "id": "ESP-CS",
+    "iso_3166_2": "CS",
+    "name": "Castellon",
+    "country": "ESP",
+    "province_type": "province",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Castellon"
+      }
+    ]
+  },
+  {
+    "id": "ESP-CU",
+    "iso_3166_2": "CU",
+    "name": "Cuenca",
+    "country": "ESP",
+    "province_type": "province",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Cuenca"
+      }
+    ]
+  },
+  {
+    "id": "ESP-GC",
+    "iso_3166_2": "GC",
+    "name": "Las Palmas",
+    "country": "ESP",
+    "province_type": "province",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Las Palmas"
+      }
+    ]
+  },
+  {
+    "id": "ESP-GI",
+    "iso_3166_2": "GI",
+    "name": "Girona",
+    "country": "ESP",
+    "province_type": "province",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Girona"
+      }
+    ]
+  },
+  {
+    "id": "ESP-GR",
+    "iso_3166_2": "GR",
+    "name": "Granada",
+    "country": "ESP",
+    "province_type": "province",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Granada"
+      }
+    ]
+  },
+  {
+    "id": "ESP-GU",
+    "iso_3166_2": "GU",
+    "name": "Guadalajara",
+    "country": "ESP",
+    "province_type": "province",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Guadalajara"
+      }
+    ]
+  },
+  {
+    "id": "ESP-H",
+    "iso_3166_2": "H",
+    "name": "Huelva",
+    "country": "ESP",
+    "province_type": "province",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Huelva"
+      }
+    ]
+  },
+  {
+    "id": "ESP-HU",
+    "iso_3166_2": "HU",
+    "name": "Huesca",
+    "country": "ESP",
+    "province_type": "province",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Huesca"
+      }
+    ]
+  },
+  {
+    "id": "ESP-J",
+    "iso_3166_2": "J",
+    "name": "Jaen",
+    "country": "ESP",
+    "province_type": "province",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Jaen"
+      }
+    ]
+  },
+  {
+    "id": "ESP-L",
+    "iso_3166_2": "L",
+    "name": "Lleida",
+    "country": "ESP",
+    "province_type": "province",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Lleida"
+      }
+    ]
+  },
+  {
+    "id": "ESP-LE",
+    "iso_3166_2": "LE",
+    "name": "Leon",
+    "country": "ESP",
+    "province_type": "province",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Leon"
+      }
+    ]
+  },
+  {
+    "id": "ESP-LO",
+    "iso_3166_2": "LO",
+    "name": "La Rioja",
+    "country": "ESP",
+    "province_type": "province",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "La Rioja"
+      }
+    ]
+  },
+  {
+    "id": "ESP-LU",
+    "iso_3166_2": "LU",
+    "name": "Lugo",
+    "country": "ESP",
+    "province_type": "province",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Lugo"
+      }
+    ]
+  },
+  {
+    "id": "ESP-M",
+    "iso_3166_2": "M",
+    "name": "Madrid",
+    "country": "ESP",
+    "province_type": "province",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Madrid"
+      }
+    ]
+  },
+  {
+    "id": "ESP-MA",
+    "iso_3166_2": "MA",
+    "name": "Malaga",
+    "country": "ESP",
+    "province_type": "province",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Malaga"
+      }
+    ]
+  },
+  {
+    "id": "ESP-ML",
+    "iso_3166_2": "ML",
+    "name": "Melilla",
+    "country": "ESP",
+    "province_type": "other",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Melilla"
+      }
+    ]
+  },
+  {
+    "id": "ESP-MU",
+    "iso_3166_2": "MU",
+    "name": "Murcia",
+    "country": "ESP",
+    "province_type": "province",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Murcia"
+      }
+    ]
+  },
+  {
+    "id": "ESP-NA",
+    "iso_3166_2": "NA",
+    "name": "Navarra",
+    "country": "ESP",
+    "province_type": "province",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Navarra"
+      }
+    ]
+  },
+  {
+    "id": "ESP-O",
+    "iso_3166_2": "O",
+    "name": "Asturias",
+    "country": "ESP",
+    "province_type": "province",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Asturias"
+      }
+    ]
+  },
+  {
+    "id": "ESP-OR",
+    "iso_3166_2": "OR",
+    "name": "Ourense",
+    "country": "ESP",
+    "province_type": "province",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Ourense"
+      }
+    ]
+  },
+  {
+    "id": "ESP-P",
+    "iso_3166_2": "P",
+    "name": "Palencia",
+    "country": "ESP",
+    "province_type": "province",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Palencia"
+      }
+    ]
+  },
+  {
+    "id": "ESP-PM",
+    "iso_3166_2": "PM",
+    "name": "Balears",
+    "country": "ESP",
+    "province_type": "province",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Balears"
+      }
+    ]
+  },
+  {
+    "id": "ESP-PO",
+    "iso_3166_2": "PO",
+    "name": "Pontevedra",
+    "country": "ESP",
+    "province_type": "province",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Pontevedra"
+      }
+    ]
+  },
+  {
+    "id": "ESP-S",
+    "iso_3166_2": "S",
+    "name": "Cantabria",
+    "country": "ESP",
+    "province_type": "province",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Cantabria"
+      }
+    ]
+  },
+  {
+    "id": "ESP-SA",
+    "iso_3166_2": "SA",
+    "name": "Salamanca",
+    "country": "ESP",
+    "province_type": "province",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Salamanca"
+      }
+    ]
+  },
+  {
+    "id": "ESP-SE",
+    "iso_3166_2": "SE",
+    "name": "Sevilla",
+    "country": "ESP",
+    "province_type": "province",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Sevilla"
+      }
+    ]
+  },
+  {
+    "id": "ESP-SG",
+    "iso_3166_2": "SG",
+    "name": "Segovia",
+    "country": "ESP",
+    "province_type": "province",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Segovia"
+      }
+    ]
+  },
+  {
+    "id": "ESP-SO",
+    "iso_3166_2": "SO",
+    "name": "Soria",
+    "country": "ESP",
+    "province_type": "province",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Soria"
+      }
+    ]
+  },
+  {
+    "id": "ESP-SS",
+    "iso_3166_2": "SS",
+    "name": "Gipuzkoa",
+    "country": "ESP",
+    "province_type": "province",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Gipuzkoa"
+      }
+    ]
+  },
+  {
+    "id": "ESP-T",
+    "iso_3166_2": "T",
+    "name": "Tarragona",
+    "country": "ESP",
+    "province_type": "province",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Tarragona"
+      }
+    ]
+  },
+  {
+    "id": "ESP-TE",
+    "iso_3166_2": "TE",
+    "name": "Teruel",
+    "country": "ESP",
+    "province_type": "province",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Teruel"
+      }
+    ]
+  },
+  {
+    "id": "ESP-TF",
+    "iso_3166_2": "TF",
+    "name": "Santa Cruz de Tenerife",
+    "country": "ESP",
+    "province_type": "province",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Santa Cruz de Tenerife"
+      }
+    ]
+  },
+  {
+    "id": "ESP-TO",
+    "iso_3166_2": "TO",
+    "name": "Toledo",
+    "country": "ESP",
+    "province_type": "province",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Toledo"
+      }
+    ]
+  },
+  {
+    "id": "ESP-V",
+    "iso_3166_2": "V",
+    "name": "Valencia",
+    "country": "ESP",
+    "province_type": "province",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Valencia"
+      }
+    ]
+  },
+  {
+    "id": "ESP-VA",
+    "iso_3166_2": "VA",
+    "name": "Valladolid",
+    "country": "ESP",
+    "province_type": "province",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Valladolid"
+      }
+    ]
+  },
+  {
+    "id": "ESP-VI",
+    "iso_3166_2": "VI",
+    "name": "Alava",
+    "country": "ESP",
+    "province_type": "province",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Alava"
+      }
+    ]
+  },
+  {
+    "id": "ESP-Z",
+    "iso_3166_2": "Z",
+    "name": "Zaragoza",
+    "country": "ESP",
+    "province_type": "province",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Zaragoza"
+      }
+    ]
+  },
+  {
+    "id": "ESP-ZA",
+    "iso_3166_2": "ZA",
+    "name": "Zamora",
+    "country": "ESP",
+    "province_type": "province",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Zamora"
+      }
+    ]
+  },
+  {
     "id": "JPN-01",
     "iso_3166_2": "01",
     "name": "Hokkaido",
