@@ -4777,7 +4777,7 @@
   },
   {
     "iso_3166_2": "A",
-    "name": "Alicante / Alacant",
+    "name": "Alicante",
     "country": "ES",
     "province_type": "province"
   },
@@ -4789,13 +4789,13 @@
   },
   {
     "iso_3166_2": "AL",
-    "name": "Almer�a",
+    "name": "Almeria",
     "country": "ES",
     "province_type": "province"
   },
   {
     "iso_3166_2": "AV",
-    "name": "�vila",
+    "name": "Avila",
     "country": "ES",
     "province_type": "province"
   },
@@ -4825,19 +4825,19 @@
   },
   {
     "iso_3166_2": "C",
-    "name": "La Coru�a",
+    "name": "A Coruña",
     "country": "ES",
     "province_type": "province"
   },
   {
     "iso_3166_2": "CA",
-    "name": "C�diz",
+    "name": "Cadiz",
     "country": "ES",
     "province_type": "province"
   },
   {
     "iso_3166_2": "CC",
-    "name": "C�ceres",
+    "name": "Caceres",
     "country": "ES",
     "province_type": "province"
   },
@@ -4848,8 +4848,14 @@
     "province_type": "other"
   },
   {
+    "iso_3166_2": "CI",
+    "name": "Canary Islands",
+    "country": "ES",
+    "province_type": "other"
+  },
+  {
     "iso_3166_2": "CO",
-    "name": "C�rdoba",
+    "name": "Cordoba",
     "country": "ES",
     "province_type": "province"
   },
@@ -4861,7 +4867,7 @@
   },
   {
     "iso_3166_2": "CS",
-    "name": "Castell�n / Castell�",
+    "name": "Castellon",
     "country": "ES",
     "province_type": "province"
   },
@@ -4879,7 +4885,7 @@
   },
   {
     "iso_3166_2": "GI",
-    "name": "Gerona",
+    "name": "Girona",
     "country": "ES",
     "province_type": "province"
   },
@@ -4909,19 +4915,19 @@
   },
   {
     "iso_3166_2": "J",
-    "name": "Ja�n",
+    "name": "Jaen",
     "country": "ES",
     "province_type": "province"
   },
   {
     "iso_3166_2": "L",
-    "name": "L�rida",
+    "name": "Lleida",
     "country": "ES",
     "province_type": "province"
   },
   {
     "iso_3166_2": "LE",
-    "name": "Le�n",
+    "name": "Leon",
     "country": "ES",
     "province_type": "province"
   },
@@ -4945,7 +4951,7 @@
   },
   {
     "iso_3166_2": "MA",
-    "name": "M�laga",
+    "name": "Malaga",
     "country": "ES",
     "province_type": "province"
   },
@@ -4963,7 +4969,7 @@
   },
   {
     "iso_3166_2": "NA",
-    "name": "Navarra / Nafarroa",
+    "name": "Navarra",
     "country": "ES",
     "province_type": "province"
   },
@@ -4975,7 +4981,7 @@
   },
   {
     "iso_3166_2": "OR",
-    "name": "Orense",
+    "name": "Ourense",
     "country": "ES",
     "province_type": "province"
   },
@@ -4987,7 +4993,7 @@
   },
   {
     "iso_3166_2": "PM",
-    "name": "Baleares",
+    "name": "Balears",
     "country": "ES",
     "province_type": "province"
   },
@@ -5059,7 +5065,7 @@
   },
   {
     "iso_3166_2": "V",
-    "name": "Valencia / Val�ncia",
+    "name": "Valencia",
     "country": "ES",
     "province_type": "province"
   },
@@ -5071,7 +5077,7 @@
   },
   {
     "iso_3166_2": "VI",
-    "name": "�lava / Araba",
+    "name": "Alava",
     "country": "ES",
     "province_type": "province"
   },
