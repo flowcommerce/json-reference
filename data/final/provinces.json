@@ -2630,7 +2630,7 @@
   {
     "id": "ESP-V",
     "iso_3166_2": "V",
-    "name": "València",
+    "name": "Valencia",
     "country": "ESP",
     "province_type": "province",
     "translations": [
@@ -2644,7 +2644,7 @@
             "group": ""
           }
         },
-        "name": "València"
+        "name": "Valencia"
       }
     ]
   },
