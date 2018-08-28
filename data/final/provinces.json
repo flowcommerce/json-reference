@@ -8,12 +8,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Australian Capital Territory"
@@ -29,12 +30,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "New South Wales"
@@ -50,12 +52,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Northern Territory"
@@ -71,12 +74,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Queensland"
@@ -92,12 +96,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "South Australia"
@@ -113,12 +118,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Tasmania"
@@ -134,12 +140,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Victoria"
@@ -155,12 +162,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Western Australia"
@@ -176,24 +184,26 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Alberta"
       },
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "fr-CA",
+          "name": "French - Canada",
+          "country": "CAN",
+          "language": "fr",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ",",
+            "group": " "
           }
         },
         "name": "Alberta"
@@ -209,24 +219,26 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "British Columbia"
       },
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "fr-CA",
+          "name": "French - Canada",
+          "country": "CAN",
+          "language": "fr",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ",",
+            "group": " "
           }
         },
         "name": "Colombie-Britannique"
@@ -242,24 +254,26 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Manitoba"
       },
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "fr-CA",
+          "name": "French - Canada",
+          "country": "CAN",
+          "language": "fr",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ",",
+            "group": " "
           }
         },
         "name": "Manitoba"
@@ -275,24 +289,26 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "New Brunswick"
       },
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "fr-CA",
+          "name": "French - Canada",
+          "country": "CAN",
+          "language": "fr",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ",",
+            "group": " "
           }
         },
         "name": "Nouveau-Brunswick"
@@ -308,24 +324,26 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Newfoundland and Labrador"
       },
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "fr-CA",
+          "name": "French - Canada",
+          "country": "CAN",
+          "language": "fr",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ",",
+            "group": " "
           }
         },
         "name": "Terre-Neuve-et-Labrador"
@@ -341,24 +359,26 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Nova Scotia"
       },
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "fr-CA",
+          "name": "French - Canada",
+          "country": "CAN",
+          "language": "fr",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ",",
+            "group": " "
           }
         },
         "name": "Nouvelle-Écosse"
@@ -374,24 +394,26 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Northwest Territories"
       },
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "fr-CA",
+          "name": "French - Canada",
+          "country": "CAN",
+          "language": "fr",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ",",
+            "group": " "
           }
         },
         "name": "Territoires du Nord-Ouest"
@@ -407,24 +429,26 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Nunavut"
       },
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "fr-CA",
+          "name": "French - Canada",
+          "country": "CAN",
+          "language": "fr",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ",",
+            "group": " "
           }
         },
         "name": "Nunavut"
@@ -440,24 +464,26 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Ontario"
       },
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "fr-CA",
+          "name": "French - Canada",
+          "country": "CAN",
+          "language": "fr",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ",",
+            "group": " "
           }
         },
         "name": "Ontario"
@@ -473,24 +499,26 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Prince Edward Island"
       },
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "fr-CA",
+          "name": "French - Canada",
+          "country": "CAN",
+          "language": "fr",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ",",
+            "group": " "
           }
         },
         "name": "Île-du-Prince-Édouard"
@@ -506,24 +534,26 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Quebec"
       },
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "fr-CA",
+          "name": "French - Canada",
+          "country": "CAN",
+          "language": "fr",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ",",
+            "group": " "
           }
         },
         "name": "Québec"
@@ -539,24 +569,26 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Saskatchewan"
       },
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "fr-CA",
+          "name": "French - Canada",
+          "country": "CAN",
+          "language": "fr",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ",",
+            "group": " "
           }
         },
         "name": "Saskatchewan"
@@ -572,24 +604,26 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Yukon"
       },
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "fr-CA",
+          "name": "French - Canada",
+          "country": "CAN",
+          "language": "fr",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ",",
+            "group": " "
           }
         },
         "name": "Yukon"
@@ -605,24 +639,26 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Beijing"
       },
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "zh-CN",
+          "name": "Chinese - China",
+          "country": "CHN",
+          "language": "zh",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "北京市"
@@ -638,24 +674,26 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Tianjin"
       },
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "zh-CN",
+          "name": "Chinese - China",
+          "country": "CHN",
+          "language": "zh",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "天津市"
@@ -671,24 +709,26 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Hebei"
       },
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "zh-CN",
+          "name": "Chinese - China",
+          "country": "CHN",
+          "language": "zh",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "河北省"
@@ -704,24 +744,26 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Shanxi"
       },
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "zh-CN",
+          "name": "Chinese - China",
+          "country": "CHN",
+          "language": "zh",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "山西省"
@@ -737,24 +779,26 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Inner Mongolia"
       },
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "zh-CN",
+          "name": "Chinese - China",
+          "country": "CHN",
+          "language": "zh",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "内蒙古自治区"
@@ -770,24 +814,26 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Liaoning"
       },
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "zh-CN",
+          "name": "Chinese - China",
+          "country": "CHN",
+          "language": "zh",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "辽宁省"
@@ -803,24 +849,26 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Jilin"
       },
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "zh-CN",
+          "name": "Chinese - China",
+          "country": "CHN",
+          "language": "zh",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "吉林省"
@@ -836,24 +884,26 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Heilongjiang"
       },
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "zh-CN",
+          "name": "Chinese - China",
+          "country": "CHN",
+          "language": "zh",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "黑龙江省"
@@ -869,24 +919,26 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Shanghai"
       },
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "zh-CN",
+          "name": "Chinese - China",
+          "country": "CHN",
+          "language": "zh",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "上海市"
@@ -902,24 +954,26 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Jiangsu"
       },
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "zh-CN",
+          "name": "Chinese - China",
+          "country": "CHN",
+          "language": "zh",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "江苏省"
@@ -935,24 +989,26 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Zhejiang"
       },
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "zh-CN",
+          "name": "Chinese - China",
+          "country": "CHN",
+          "language": "zh",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "浙江省"
@@ -968,24 +1024,26 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Anhui"
       },
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "zh-CN",
+          "name": "Chinese - China",
+          "country": "CHN",
+          "language": "zh",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "安徽省"
@@ -1001,24 +1059,26 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Fujian"
       },
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "zh-CN",
+          "name": "Chinese - China",
+          "country": "CHN",
+          "language": "zh",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "福建省"
@@ -1034,24 +1094,26 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Jiangxi"
       },
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "zh-CN",
+          "name": "Chinese - China",
+          "country": "CHN",
+          "language": "zh",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "江西省"
@@ -1067,24 +1129,26 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Shandong"
       },
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "zh-CN",
+          "name": "Chinese - China",
+          "country": "CHN",
+          "language": "zh",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "山东省"
@@ -1100,24 +1164,26 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Henan"
       },
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "zh-CN",
+          "name": "Chinese - China",
+          "country": "CHN",
+          "language": "zh",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "河南省"
@@ -1133,24 +1199,26 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Hubei"
       },
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "zh-CN",
+          "name": "Chinese - China",
+          "country": "CHN",
+          "language": "zh",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "湖北省"
@@ -1166,24 +1234,26 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Hunan"
       },
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "zh-CN",
+          "name": "Chinese - China",
+          "country": "CHN",
+          "language": "zh",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "湖南省"
@@ -1199,24 +1269,26 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Guangdong"
       },
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "zh-CN",
+          "name": "Chinese - China",
+          "country": "CHN",
+          "language": "zh",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "广东省"
@@ -1232,24 +1304,26 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Guangxi"
       },
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "zh-CN",
+          "name": "Chinese - China",
+          "country": "CHN",
+          "language": "zh",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "广西壮族自治区"
@@ -1265,24 +1339,26 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Hainan"
       },
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "zh-CN",
+          "name": "Chinese - China",
+          "country": "CHN",
+          "language": "zh",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "海南省"
@@ -1298,24 +1374,26 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Chongqing"
       },
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "zh-CN",
+          "name": "Chinese - China",
+          "country": "CHN",
+          "language": "zh",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "重庆市"
@@ -1331,24 +1409,26 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Sichuan"
       },
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "zh-CN",
+          "name": "Chinese - China",
+          "country": "CHN",
+          "language": "zh",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "四川省"
@@ -1364,24 +1444,26 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Guizhou"
       },
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "zh-CN",
+          "name": "Chinese - China",
+          "country": "CHN",
+          "language": "zh",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "贵州省"
@@ -1397,24 +1479,26 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Yunnan"
       },
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "zh-CN",
+          "name": "Chinese - China",
+          "country": "CHN",
+          "language": "zh",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "云南省"
@@ -1430,24 +1514,26 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Tibet"
       },
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "zh-CN",
+          "name": "Chinese - China",
+          "country": "CHN",
+          "language": "zh",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "西藏"
@@ -1463,24 +1549,26 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Shaanxi"
       },
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "zh-CN",
+          "name": "Chinese - China",
+          "country": "CHN",
+          "language": "zh",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "陕西省"
@@ -1496,24 +1584,26 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Gansu"
       },
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "zh-CN",
+          "name": "Chinese - China",
+          "country": "CHN",
+          "language": "zh",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "甘肃省"
@@ -1529,24 +1619,26 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Qinghai"
       },
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "zh-CN",
+          "name": "Chinese - China",
+          "country": "CHN",
+          "language": "zh",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "青海省"
@@ -1562,24 +1654,26 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Ningxia"
       },
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "zh-CN",
+          "name": "Chinese - China",
+          "country": "CHN",
+          "language": "zh",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "宁夏回族自治区"
@@ -1595,24 +1689,26 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Xinjiang"
       },
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "zh-CN",
+          "name": "Chinese - China",
+          "country": "CHN",
+          "language": "zh",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "新疆维吾尔自治区"
@@ -1628,12 +1724,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Alicante"
@@ -1649,12 +1746,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Albacete"
@@ -1664,42 +1762,44 @@
   {
     "id": "ESP-AL",
     "iso_3166_2": "AL",
-    "name": "Almería",
+    "name": "Almeria",
     "country": "ESP",
     "province_type": "province",
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
-        "name": "Almería"
+        "name": "Almeria"
       }
     ]
   },
   {
     "id": "ESP-AV",
     "iso_3166_2": "AV",
-    "name": "Ávila",
+    "name": "Avila",
     "country": "ESP",
     "province_type": "province",
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
-        "name": "Ávila"
+        "name": "Avila"
       }
     ]
   },
@@ -1712,12 +1812,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Barcelona"
@@ -1733,12 +1834,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Badajoz"
@@ -1754,12 +1856,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Biskaia"
@@ -1775,12 +1878,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Burgos"
@@ -1796,12 +1900,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "A Coruña"
@@ -1811,42 +1916,44 @@
   {
     "id": "ESP-CA",
     "iso_3166_2": "CA",
-    "name": "Cádiz",
+    "name": "Cadiz",
     "country": "ESP",
     "province_type": "province",
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
-        "name": "Cádiz"
+        "name": "Cadiz"
       }
     ]
   },
   {
     "id": "ESP-CC",
     "iso_3166_2": "CC",
-    "name": "Cáceres",
+    "name": "Caceres",
     "country": "ESP",
     "province_type": "province",
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
-        "name": "Cáceres"
+        "name": "Caceres"
       }
     ]
   },
@@ -1859,12 +1966,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Ceuta"
@@ -1880,12 +1988,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Canary Islands"
@@ -1895,21 +2004,22 @@
   {
     "id": "ESP-CO",
     "iso_3166_2": "CO",
-    "name": "Córdoba",
+    "name": "Cordoba",
     "country": "ESP",
     "province_type": "province",
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
-        "name": "Córdoba"
+        "name": "Cordoba"
       }
     ]
   },
@@ -1922,12 +2032,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Ciudad Real"
@@ -1937,21 +2048,22 @@
   {
     "id": "ESP-CS",
     "iso_3166_2": "CS",
-    "name": "Castellón",
+    "name": "Castellon",
     "country": "ESP",
     "province_type": "province",
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
-        "name": "Castellón"
+        "name": "Castellon"
       }
     ]
   },
@@ -1964,12 +2076,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Cuenca"
@@ -1985,12 +2098,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Las Palmas"
@@ -2006,12 +2120,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Girona"
@@ -2027,12 +2142,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Granada"
@@ -2048,12 +2164,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Guadalajara"
@@ -2069,12 +2186,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Huelva"
@@ -2090,12 +2208,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Huesca"
@@ -2105,21 +2224,22 @@
   {
     "id": "ESP-J",
     "iso_3166_2": "J",
-    "name": "Jaén",
+    "name": "Jaen",
     "country": "ESP",
     "province_type": "province",
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
-        "name": "Jaén"
+        "name": "Jaen"
       }
     ]
   },
@@ -2132,12 +2252,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Lleida"
@@ -2147,21 +2268,22 @@
   {
     "id": "ESP-LE",
     "iso_3166_2": "LE",
-    "name": "León",
+    "name": "Leon",
     "country": "ESP",
     "province_type": "province",
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
-        "name": "León"
+        "name": "Leon"
       }
     ]
   },
@@ -2174,12 +2296,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "La Rioja"
@@ -2195,12 +2318,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Lugo"
@@ -2216,12 +2340,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Madrid"
@@ -2231,21 +2356,22 @@
   {
     "id": "ESP-MA",
     "iso_3166_2": "MA",
-    "name": "Málaga",
+    "name": "Malaga",
     "country": "ESP",
     "province_type": "province",
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
-        "name": "Málaga"
+        "name": "Malaga"
       }
     ]
   },
@@ -2258,12 +2384,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Melilla"
@@ -2279,12 +2406,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Murcia"
@@ -2300,12 +2428,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Navarra"
@@ -2321,12 +2450,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Asturias"
@@ -2342,12 +2472,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Ourense"
@@ -2363,12 +2494,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Palencia"
@@ -2384,12 +2516,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Balears"
@@ -2405,12 +2538,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Pontevedra"
@@ -2426,12 +2560,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Cantabria"
@@ -2447,12 +2582,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Salamanca"
@@ -2468,12 +2604,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Sevilla"
@@ -2489,12 +2626,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Segovia"
@@ -2510,12 +2648,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Soria"
@@ -2531,12 +2670,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Gipuzkoa"
@@ -2552,12 +2692,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Tarragona"
@@ -2573,12 +2714,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Teruel"
@@ -2594,12 +2736,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Santa Cruz de Tenerife"
@@ -2615,12 +2758,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Toledo"
@@ -2630,21 +2774,22 @@
   {
     "id": "ESP-V",
     "iso_3166_2": "V",
-    "name": "València",
+    "name": "Valencia",
     "country": "ESP",
     "province_type": "province",
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
-        "name": "València"
+        "name": "Valencia"
       }
     ]
   },
@@ -2657,12 +2802,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Valladolid"
@@ -2672,21 +2818,22 @@
   {
     "id": "ESP-VI",
     "iso_3166_2": "VI",
-    "name": "Álava",
+    "name": "Alava",
     "country": "ESP",
     "province_type": "province",
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
-        "name": "Álava"
+        "name": "Alava"
       }
     ]
   },
@@ -2699,12 +2846,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Zaragoza"
@@ -2720,12 +2868,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Zamora"
@@ -2741,12 +2890,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Hokkaido"
@@ -2797,12 +2947,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Fukushima"
@@ -2825,12 +2976,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Tochigi"
@@ -2860,12 +3012,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Chiba"
@@ -2881,12 +3034,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Tokyo"
@@ -2923,12 +3077,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Ishikawa"
@@ -2944,12 +3099,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Fukui"
@@ -2965,12 +3121,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Yamanashi"
@@ -2993,12 +3150,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Gifu"
@@ -3014,12 +3172,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Shizuoka"
@@ -3035,12 +3194,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Aichi"
@@ -3063,12 +3223,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Shiga"
@@ -3084,12 +3245,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Kyoto"
@@ -3105,12 +3267,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Osaka"
@@ -3126,12 +3289,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Hyogo"
@@ -3168,12 +3332,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Shimane"
@@ -3196,12 +3361,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Hiroshima"
@@ -3217,12 +3383,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Yamaguchi"
@@ -3238,12 +3405,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Tokushima"
@@ -3273,12 +3441,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Kochi"
@@ -3294,12 +3463,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Fukuoka"
@@ -3336,12 +3506,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Oita"
@@ -3364,12 +3535,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Kagoshima"
@@ -3392,12 +3564,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Alaska"
@@ -3413,12 +3586,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Alabama"
@@ -3434,12 +3608,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Arkansas"
@@ -3455,12 +3630,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Arizona"
@@ -3476,12 +3652,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "California"
@@ -3497,12 +3674,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Colorado"
@@ -3518,12 +3696,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Connecticut"
@@ -3539,12 +3718,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Washington DC"
@@ -3560,12 +3740,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Delaware"
@@ -3581,12 +3762,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Florida"
@@ -3602,12 +3784,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Georgia"
@@ -3623,12 +3806,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Hawaii"
@@ -3644,12 +3828,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Iowa"
@@ -3665,12 +3850,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Idaho"
@@ -3686,12 +3872,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Illinois"
@@ -3707,12 +3894,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Indiana"
@@ -3728,12 +3916,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Kansas"
@@ -3749,12 +3938,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Kentucky"
@@ -3770,12 +3960,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Louisiana"
@@ -3791,12 +3982,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Massachusetts"
@@ -3812,12 +4004,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Maryland"
@@ -3833,12 +4026,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Maine"
@@ -3854,12 +4048,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Michigan"
@@ -3875,12 +4070,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Minnesota"
@@ -3896,12 +4092,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Missouri"
@@ -3917,12 +4114,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Mississippi"
@@ -3938,12 +4136,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Montana"
@@ -3959,12 +4158,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "North Carolina"
@@ -3980,12 +4180,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "North Dakota"
@@ -4001,12 +4202,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Nebraska"
@@ -4022,12 +4224,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "New Hampshire"
@@ -4043,12 +4246,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "New Jersey"
@@ -4064,12 +4268,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "New Mexico"
@@ -4085,12 +4290,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Nevada"
@@ -4106,12 +4312,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "New York"
@@ -4127,12 +4334,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Ohio"
@@ -4148,12 +4356,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Oklahoma"
@@ -4169,12 +4378,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Oregon"
@@ -4190,12 +4400,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Pennsylvania"
@@ -4211,12 +4422,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Rhode Island"
@@ -4232,12 +4444,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "South Carolina"
@@ -4253,12 +4466,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "South Dakota"
@@ -4274,12 +4488,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Tennessee"
@@ -4295,12 +4510,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Texas"
@@ -4316,12 +4532,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Utah"
@@ -4337,12 +4554,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Virginia"
@@ -4358,12 +4576,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Vermont"
@@ -4379,12 +4598,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Washington"
@@ -4400,12 +4620,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Wisconsin"
@@ -4421,12 +4642,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "West Virginia"
@@ -4442,12 +4664,13 @@
     "translations": [
       {
         "locale": {
-          "id": "",
-          "name": "",
-          "country": "",
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
           "numbers": {
-            "decimal": "",
-            "group": ""
+            "decimal": ".",
+            "group": ","
           }
         },
         "name": "Wyoming"
