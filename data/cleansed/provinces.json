@@ -4789,13 +4789,13 @@
   },
   {
     "iso_3166_2": "AL",
-    "name": "Almeria",
+    "name": "Almería",
     "country": "ES",
     "province_type": "province"
   },
   {
     "iso_3166_2": "AV",
-    "name": "Avila",
+    "name": "Ávila",
     "country": "ES",
     "province_type": "province"
   },
@@ -4831,13 +4831,13 @@
   },
   {
     "iso_3166_2": "CA",
-    "name": "Cadiz",
+    "name": "Cádiz",
     "country": "ES",
     "province_type": "province"
   },
   {
     "iso_3166_2": "CC",
-    "name": "Caceres",
+    "name": "Cáceres",
     "country": "ES",
     "province_type": "province"
   },
@@ -4855,7 +4855,7 @@
   },
   {
     "iso_3166_2": "CO",
-    "name": "Cordoba",
+    "name": "Córdoba",
     "country": "ES",
     "province_type": "province"
   },
@@ -4867,7 +4867,7 @@
   },
   {
     "iso_3166_2": "CS",
-    "name": "Castellon",
+    "name": "Castellón",
     "country": "ES",
     "province_type": "province"
   },
@@ -4915,7 +4915,7 @@
   },
   {
     "iso_3166_2": "J",
-    "name": "Jaen",
+    "name": "Jaén",
     "country": "ES",
     "province_type": "province"
   },
@@ -4927,7 +4927,7 @@
   },
   {
     "iso_3166_2": "LE",
-    "name": "Leon",
+    "name": "León",
     "country": "ES",
     "province_type": "province"
   },
@@ -4951,7 +4951,7 @@
   },
   {
     "iso_3166_2": "MA",
-    "name": "Malaga",
+    "name": "Málaga",
     "country": "ES",
     "province_type": "province"
   },
@@ -5065,7 +5065,7 @@
   },
   {
     "iso_3166_2": "V",
-    "name": "Valencia",
+    "name": "València",
     "country": "ES",
     "province_type": "province"
   },
@@ -5077,7 +5077,7 @@
   },
   {
     "iso_3166_2": "VI",
-    "name": "Alava",
+    "name": "Álava",
     "country": "ES",
     "province_type": "province"
   },
