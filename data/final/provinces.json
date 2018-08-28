@@ -1762,7 +1762,7 @@
   {
     "id": "ESP-AL",
     "iso_3166_2": "AL",
-    "name": "Almeria",
+    "name": "Almería",
     "country": "ESP",
     "province_type": "province",
     "translations": [
@@ -1777,14 +1777,14 @@
             "group": ","
           }
         },
-        "name": "Almeria"
+        "name": "Almería"
       }
     ]
   },
   {
     "id": "ESP-AV",
     "iso_3166_2": "AV",
-    "name": "Avila",
+    "name": "Ávila",
     "country": "ESP",
     "province_type": "province",
     "translations": [
@@ -1799,7 +1799,7 @@
             "group": ","
           }
         },
-        "name": "Avila"
+        "name": "Ávila"
       }
     ]
   },
@@ -1916,7 +1916,7 @@
   {
     "id": "ESP-CA",
     "iso_3166_2": "CA",
-    "name": "Cadiz",
+    "name": "Cádiz",
     "country": "ESP",
     "province_type": "province",
     "translations": [
@@ -1931,14 +1931,14 @@
             "group": ","
           }
         },
-        "name": "Cadiz"
+        "name": "Cádiz"
       }
     ]
   },
   {
     "id": "ESP-CC",
     "iso_3166_2": "CC",
-    "name": "Caceres",
+    "name": "Cáceres",
     "country": "ESP",
     "province_type": "province",
     "translations": [
@@ -1953,7 +1953,7 @@
             "group": ","
           }
         },
-        "name": "Caceres"
+        "name": "Cáceres"
       }
     ]
   },
@@ -2004,7 +2004,7 @@
   {
     "id": "ESP-CO",
     "iso_3166_2": "CO",
-    "name": "Cordoba",
+    "name": "Córdoba",
     "country": "ESP",
     "province_type": "province",
     "translations": [
@@ -2019,7 +2019,7 @@
             "group": ","
           }
         },
-        "name": "Cordoba"
+        "name": "Córdoba"
       }
     ]
   },
@@ -2048,7 +2048,7 @@
   {
     "id": "ESP-CS",
     "iso_3166_2": "CS",
-    "name": "Castellon",
+    "name": "Castellón",
     "country": "ESP",
     "province_type": "province",
     "translations": [
@@ -2063,7 +2063,7 @@
             "group": ","
           }
         },
-        "name": "Castellon"
+        "name": "Castellón"
       }
     ]
   },
@@ -2224,7 +2224,7 @@
   {
     "id": "ESP-J",
     "iso_3166_2": "J",
-    "name": "Jaen",
+    "name": "Jaén",
     "country": "ESP",
     "province_type": "province",
     "translations": [
@@ -2239,7 +2239,7 @@
             "group": ","
           }
         },
-        "name": "Jaen"
+        "name": "Jaén"
       }
     ]
   },
@@ -2268,7 +2268,7 @@
   {
     "id": "ESP-LE",
     "iso_3166_2": "LE",
-    "name": "Leon",
+    "name": "León",
     "country": "ESP",
     "province_type": "province",
     "translations": [
@@ -2283,7 +2283,7 @@
             "group": ","
           }
         },
-        "name": "Leon"
+        "name": "León"
       }
     ]
   },
@@ -2356,7 +2356,7 @@
   {
     "id": "ESP-MA",
     "iso_3166_2": "MA",
-    "name": "Malaga",
+    "name": "Málaga",
     "country": "ESP",
     "province_type": "province",
     "translations": [
@@ -2371,7 +2371,7 @@
             "group": ","
           }
         },
-        "name": "Malaga"
+        "name": "Málaga"
       }
     ]
   },
@@ -2774,7 +2774,7 @@
   {
     "id": "ESP-V",
     "iso_3166_2": "V",
-    "name": "Valencia",
+    "name": "València",
     "country": "ESP",
     "province_type": "province",
     "translations": [
@@ -2789,7 +2789,7 @@
             "group": ","
           }
         },
-        "name": "Valencia"
+        "name": "València"
       }
     ]
   },
@@ -2818,7 +2818,7 @@
   {
     "id": "ESP-VI",
     "iso_3166_2": "VI",
-    "name": "Alava",
+    "name": "Álava",
     "country": "ESP",
     "province_type": "province",
     "translations": [
@@ -2833,7 +2833,7 @@
             "group": ","
           }
         },
-        "name": "Alava"
+        "name": "Álava"
       }
     ]
   },
