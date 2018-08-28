@@ -1113,7 +1113,7 @@
     "format": "%s%v"
   },
   "es-VE": {
-    "symbol": "VEF",
+    "symbol": "VES",
     "decimal": ",",
     "group": ".",
     "precision": 2,
