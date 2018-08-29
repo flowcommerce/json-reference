@@ -485,17 +485,37 @@
     "translation": "Albacete"
   },
   {
+    "locale_id": "es",
+    "province_id": "ESP-AB",
+    "translation": "Albacete"
+  },
+  {
     "locale_id": "en-US",
+    "province_id": "ESP-A",
+    "translation": "Alicante"
+  },
+  {
+    "locale_id": "es",
     "province_id": "ESP-A",
     "translation": "Alicante"
   },
   {
     "locale_id": "en-US",
     "province_id": "ESP-AL",
+    "translation": "Almeria"
+  },
+  {
+    "locale_id": "es",
+    "province_id": "ESP-AL",
     "translation": "Almería"
   },
   {
     "locale_id": "en-US",
+    "province_id": "ESP-AV",
+    "translation": "Avila"
+  },
+  {
+    "locale_id": "es",
     "province_id": "ESP-AV",
     "translation": "Ávila"
   },
@@ -505,7 +525,17 @@
     "translation": "Badajoz"
   },
   {
+    "locale_id": "es",
+    "province_id": "ESP-BA",
+    "translation": "Badajoz"
+  },
+  {
     "locale_id": "en-US",
+    "province_id": "ESP-B",
+    "translation": "Barcelona"
+  },
+  {
+    "locale_id": "es",
     "province_id": "ESP-B",
     "translation": "Barcelona"
   },
@@ -515,17 +545,37 @@
     "translation": "Biskaia"
   },
   {
+    "locale_id": "es",
+    "province_id": "ESP-BI",
+    "translation": "Biskaia"
+  },
+  {
     "locale_id": "en-US",
+    "province_id": "ESP-BU",
+    "translation": "Burgos"
+  },
+  {
+    "locale_id": "es",
     "province_id": "ESP-BU",
     "translation": "Burgos"
   },
   {
     "locale_id": "en-US",
     "province_id": "ESP-CA",
+    "translation": "Cadiz"
+  },
+  {
+    "locale_id": "es",
+    "province_id": "ESP-CA",
     "translation": "Cádiz"
   },
   {
     "locale_id": "en-US",
+    "province_id": "ESP-CC",
+    "translation": "Caceres"
+  },
+  {
+    "locale_id": "es",
     "province_id": "ESP-CC",
     "translation": "Cáceres"
   },
@@ -535,7 +585,17 @@
     "translation": "Ceuta"
   },
   {
+    "locale_id": "es",
+    "province_id": "ESP-CE",
+    "translation": "Ceuta"
+  },
+  {
     "locale_id": "en-US",
+    "province_id": "ESP-C",
+    "translation": "A Coruña"
+  },
+  {
+    "locale_id": "es",
     "province_id": "ESP-C",
     "translation": "A Coruña"
   },
@@ -545,7 +605,17 @@
     "translation": "Canary Islands"
   },
   {
+    "locale_id": "es",
+    "province_id": "ESP-CI",
+    "translation": "Canary Islands"
+  },
+  {
     "locale_id": "en-US",
+    "province_id": "ESP-CO",
+    "translation": "Cordoba"
+  },
+  {
+    "locale_id": "es",
     "province_id": "ESP-CO",
     "translation": "Córdoba"
   },
@@ -555,7 +625,17 @@
     "translation": "Ciudad Real"
   },
   {
+    "locale_id": "es",
+    "province_id": "ESP-CR",
+    "translation": "Ciudad Real"
+  },
+  {
     "locale_id": "en-US",
+    "province_id": "ESP-CS",
+    "translation": "Castellon"
+  },
+  {
+    "locale_id": "es",
     "province_id": "ESP-CS",
     "translation": "Castellón"
   },
@@ -565,7 +645,17 @@
     "translation": "Cuenca"
   },
   {
+    "locale_id": "es",
+    "province_id": "ESP-CU",
+    "translation": "Cuenca"
+  },
+  {
     "locale_id": "en-US",
+    "province_id": "ESP-GC",
+    "translation": "Las Palmas"
+  },
+  {
+    "locale_id": "es",
     "province_id": "ESP-GC",
     "translation": "Las Palmas"
   },
@@ -575,7 +665,17 @@
     "translation": "Girona"
   },
   {
+    "locale_id": "es",
+    "province_id": "ESP-GI",
+    "translation": "Girona"
+  },
+  {
     "locale_id": "en-US",
+    "province_id": "ESP-GR",
+    "translation": "Granada"
+  },
+  {
+    "locale_id": "es",
     "province_id": "ESP-GR",
     "translation": "Granada"
   },
@@ -585,7 +685,17 @@
     "translation": "Guadalajara"
   },
   {
+    "locale_id": "es",
+    "province_id": "ESP-GU",
+    "translation": "Guadalajara"
+  },
+  {
     "locale_id": "en-US",
+    "province_id": "ESP-H",
+    "translation": "Huelva"
+  },
+  {
+    "locale_id": "es",
     "province_id": "ESP-H",
     "translation": "Huelva"
   },
@@ -595,12 +705,27 @@
     "translation": "Huesca"
   },
   {
+    "locale_id": "es",
+    "province_id": "ESP-HU",
+    "translation": "Huesca"
+  },
+  {
     "locale_id": "en-US",
+    "province_id": "ESP-J",
+    "translation": "Jaen"
+  },
+  {
+    "locale_id": "es",
     "province_id": "ESP-J",
     "translation": "Jaén"
   },
   {
     "locale_id": "en-US",
+    "province_id": "ESP-LE",
+    "translation": "Leon"
+  },
+  {
+    "locale_id": "es",
     "province_id": "ESP-LE",
     "translation": "León"
   },
@@ -610,7 +735,17 @@
     "translation": "Lleida"
   },
   {
+    "locale_id": "es",
+    "province_id": "ESP-L",
+    "translation": "Lleida"
+  },
+  {
     "locale_id": "en-US",
+    "province_id": "ESP-LO",
+    "translation": "La Rioja"
+  },
+  {
+    "locale_id": "es",
     "province_id": "ESP-LO",
     "translation": "La Rioja"
   },
@@ -620,7 +755,17 @@
     "translation": "Lugo"
   },
   {
+    "locale_id": "es",
+    "province_id": "ESP-LU",
+    "translation": "Lugo"
+  },
+  {
     "locale_id": "en-US",
+    "province_id": "ESP-MA",
+    "translation": "Malaga"
+  },
+  {
+    "locale_id": "es",
     "province_id": "ESP-MA",
     "translation": "Málaga"
   },
@@ -630,7 +775,17 @@
     "translation": "Madrid"
   },
   {
+    "locale_id": "es",
+    "province_id": "ESP-M",
+    "translation": "Madrid"
+  },
+  {
     "locale_id": "en-US",
+    "province_id": "ESP-ML",
+    "translation": "Melilla"
+  },
+  {
+    "locale_id": "es",
     "province_id": "ESP-ML",
     "translation": "Melilla"
   },
@@ -640,7 +795,17 @@
     "translation": "Murcia"
   },
   {
+    "locale_id": "es",
+    "province_id": "ESP-MU",
+    "translation": "Murcia"
+  },
+  {
     "locale_id": "en-US",
+    "province_id": "ESP-NA",
+    "translation": "Navarra"
+  },
+  {
+    "locale_id": "es",
     "province_id": "ESP-NA",
     "translation": "Navarra"
   },
@@ -650,7 +815,17 @@
     "translation": "Asturias"
   },
   {
+    "locale_id": "es",
+    "province_id": "ESP-O",
+    "translation": "Asturias"
+  },
+  {
     "locale_id": "en-US",
+    "province_id": "ESP-OR",
+    "translation": "Ourense"
+  },
+  {
+    "locale_id": "es",
     "province_id": "ESP-OR",
     "translation": "Ourense"
   },
@@ -660,7 +835,17 @@
     "translation": "Palencia"
   },
   {
+    "locale_id": "es",
+    "province_id": "ESP-P",
+    "translation": "Palencia"
+  },
+  {
     "locale_id": "en-US",
+    "province_id": "ESP-PM",
+    "translation": "Balears"
+  },
+  {
+    "locale_id": "es",
     "province_id": "ESP-PM",
     "translation": "Balears"
   },
@@ -670,7 +855,17 @@
     "translation": "Pontevedra"
   },
   {
+    "locale_id": "es",
+    "province_id": "ESP-PO",
+    "translation": "Pontevedra"
+  },
+  {
     "locale_id": "en-US",
+    "province_id": "ESP-SA",
+    "translation": "Salamanca"
+  },
+  {
+    "locale_id": "es",
     "province_id": "ESP-SA",
     "translation": "Salamanca"
   },
@@ -680,7 +875,17 @@
     "translation": "Sevilla"
   },
   {
+    "locale_id": "es",
+    "province_id": "ESP-SE",
+    "translation": "Sevilla"
+  },
+  {
     "locale_id": "en-US",
+    "province_id": "ESP-S",
+    "translation": "Cantabria"
+  },
+  {
+    "locale_id": "es",
     "province_id": "ESP-S",
     "translation": "Cantabria"
   },
@@ -690,7 +895,17 @@
     "translation": "Segovia"
   },
   {
+    "locale_id": "es",
+    "province_id": "ESP-SG",
+    "translation": "Segovia"
+  },
+  {
     "locale_id": "en-US",
+    "province_id": "ESP-SO",
+    "translation": "Soria"
+  },
+  {
+    "locale_id": "es",
     "province_id": "ESP-SO",
     "translation": "Soria"
   },
@@ -700,7 +915,17 @@
     "translation": "Gipuzkoa"
   },
   {
+    "locale_id": "es",
+    "province_id": "ESP-SS",
+    "translation": "Gipuzkoa"
+  },
+  {
     "locale_id": "en-US",
+    "province_id": "ESP-TE",
+    "translation": "Teruel"
+  },
+  {
+    "locale_id": "es",
     "province_id": "ESP-TE",
     "translation": "Teruel"
   },
@@ -710,7 +935,17 @@
     "translation": "Tarragona"
   },
   {
+    "locale_id": "es",
+    "province_id": "ESP-T",
+    "translation": "Tarragona"
+  },
+  {
     "locale_id": "en-US",
+    "province_id": "ESP-TF",
+    "translation": "Santa Cruz de Tenerife"
+  },
+  {
+    "locale_id": "es",
     "province_id": "ESP-TF",
     "translation": "Santa Cruz de Tenerife"
   },
@@ -720,17 +955,37 @@
     "translation": "Toledo"
   },
   {
+    "locale_id": "es",
+    "province_id": "ESP-TO",
+    "translation": "Toledo"
+  },
+  {
     "locale_id": "en-US",
+    "province_id": "ESP-VA",
+    "translation": "Valladolid"
+  },
+  {
+    "locale_id": "es",
     "province_id": "ESP-VA",
     "translation": "Valladolid"
   },
   {
     "locale_id": "en-US",
     "province_id": "ESP-V",
-    "translation": "València"
+    "translation": "Valencia"
+  },
+  {
+    "locale_id": "es",
+    "province_id": "ESP-V",
+    "translation": "Valencia"
   },
   {
     "locale_id": "en-US",
+    "province_id": "ESP-VI",
+    "translation": "Alava"
+  },
+  {
+    "locale_id": "es",
     "province_id": "ESP-VI",
     "translation": "Álava"
   },
@@ -740,7 +995,17 @@
     "translation": "Zamora"
   },
   {
+    "locale_id": "es",
+    "province_id": "ESP-ZA",
+    "translation": "Zamora"
+  },
+  {
     "locale_id": "en-US",
+    "province_id": "ESP-Z",
+    "translation": "Zaragoza"
+  },
+  {
+    "locale_id": "es",
     "province_id": "ESP-Z",
     "translation": "Zaragoza"
   },

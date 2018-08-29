@@ -1734,6 +1734,19 @@
           }
         },
         "name": "Alicante"
+      },
+      {
+        "locale": {
+          "id": "es",
+          "name": "Spanish - Spain",
+          "country": "ESP",
+          "language": "es",
+          "numbers": {
+            "decimal": ",",
+            "group": "."
+          }
+        },
+        "name": "Alicante"
       }
     ]
   },
@@ -1753,6 +1766,19 @@
           "numbers": {
             "decimal": ".",
             "group": ","
+          }
+        },
+        "name": "Albacete"
+      },
+      {
+        "locale": {
+          "id": "es",
+          "name": "Spanish - Spain",
+          "country": "ESP",
+          "language": "es",
+          "numbers": {
+            "decimal": ",",
+            "group": "."
           }
         },
         "name": "Albacete"
@@ -1777,6 +1803,19 @@
             "group": ","
           }
         },
+        "name": "Almeria"
+      },
+      {
+        "locale": {
+          "id": "es",
+          "name": "Spanish - Spain",
+          "country": "ESP",
+          "language": "es",
+          "numbers": {
+            "decimal": ",",
+            "group": "."
+          }
+        },
         "name": "Almería"
       }
     ]
@@ -1797,6 +1836,19 @@
           "numbers": {
             "decimal": ".",
             "group": ","
+          }
+        },
+        "name": "Avila"
+      },
+      {
+        "locale": {
+          "id": "es",
+          "name": "Spanish - Spain",
+          "country": "ESP",
+          "language": "es",
+          "numbers": {
+            "decimal": ",",
+            "group": "."
           }
         },
         "name": "Ávila"
@@ -1822,6 +1874,19 @@
           }
         },
         "name": "Barcelona"
+      },
+      {
+        "locale": {
+          "id": "es",
+          "name": "Spanish - Spain",
+          "country": "ESP",
+          "language": "es",
+          "numbers": {
+            "decimal": ",",
+            "group": "."
+          }
+        },
+        "name": "Barcelona"
       }
     ]
   },
@@ -1841,6 +1906,19 @@
           "numbers": {
             "decimal": ".",
             "group": ","
+          }
+        },
+        "name": "Badajoz"
+      },
+      {
+        "locale": {
+          "id": "es",
+          "name": "Spanish - Spain",
+          "country": "ESP",
+          "language": "es",
+          "numbers": {
+            "decimal": ",",
+            "group": "."
           }
         },
         "name": "Badajoz"
@@ -1866,6 +1944,19 @@
           }
         },
         "name": "Biskaia"
+      },
+      {
+        "locale": {
+          "id": "es",
+          "name": "Spanish - Spain",
+          "country": "ESP",
+          "language": "es",
+          "numbers": {
+            "decimal": ",",
+            "group": "."
+          }
+        },
+        "name": "Biskaia"
       }
     ]
   },
@@ -1885,6 +1976,19 @@
           "numbers": {
             "decimal": ".",
             "group": ","
+          }
+        },
+        "name": "Burgos"
+      },
+      {
+        "locale": {
+          "id": "es",
+          "name": "Spanish - Spain",
+          "country": "ESP",
+          "language": "es",
+          "numbers": {
+            "decimal": ",",
+            "group": "."
           }
         },
         "name": "Burgos"
@@ -1910,6 +2014,19 @@
           }
         },
         "name": "A Coruña"
+      },
+      {
+        "locale": {
+          "id": "es",
+          "name": "Spanish - Spain",
+          "country": "ESP",
+          "language": "es",
+          "numbers": {
+            "decimal": ",",
+            "group": "."
+          }
+        },
+        "name": "A Coruña"
       }
     ]
   },
@@ -1929,6 +2046,19 @@
           "numbers": {
             "decimal": ".",
             "group": ","
+          }
+        },
+        "name": "Cadiz"
+      },
+      {
+        "locale": {
+          "id": "es",
+          "name": "Spanish - Spain",
+          "country": "ESP",
+          "language": "es",
+          "numbers": {
+            "decimal": ",",
+            "group": "."
           }
         },
         "name": "Cádiz"
@@ -1951,6 +2081,19 @@
           "numbers": {
             "decimal": ".",
             "group": ","
+          }
+        },
+        "name": "Caceres"
+      },
+      {
+        "locale": {
+          "id": "es",
+          "name": "Spanish - Spain",
+          "country": "ESP",
+          "language": "es",
+          "numbers": {
+            "decimal": ",",
+            "group": "."
           }
         },
         "name": "Cáceres"
@@ -1976,6 +2119,19 @@
           }
         },
         "name": "Ceuta"
+      },
+      {
+        "locale": {
+          "id": "es",
+          "name": "Spanish - Spain",
+          "country": "ESP",
+          "language": "es",
+          "numbers": {
+            "decimal": ",",
+            "group": "."
+          }
+        },
+        "name": "Ceuta"
       }
     ]
   },
@@ -1998,6 +2154,19 @@
           }
         },
         "name": "Canary Islands"
+      },
+      {
+        "locale": {
+          "id": "es",
+          "name": "Spanish - Spain",
+          "country": "ESP",
+          "language": "es",
+          "numbers": {
+            "decimal": ",",
+            "group": "."
+          }
+        },
+        "name": "Canary Islands"
       }
     ]
   },
@@ -2017,6 +2186,19 @@
           "numbers": {
             "decimal": ".",
             "group": ","
+          }
+        },
+        "name": "Cordoba"
+      },
+      {
+        "locale": {
+          "id": "es",
+          "name": "Spanish - Spain",
+          "country": "ESP",
+          "language": "es",
+          "numbers": {
+            "decimal": ",",
+            "group": "."
           }
         },
         "name": "Córdoba"
@@ -2042,6 +2224,19 @@
           }
         },
         "name": "Ciudad Real"
+      },
+      {
+        "locale": {
+          "id": "es",
+          "name": "Spanish - Spain",
+          "country": "ESP",
+          "language": "es",
+          "numbers": {
+            "decimal": ",",
+            "group": "."
+          }
+        },
+        "name": "Ciudad Real"
       }
     ]
   },
@@ -2061,6 +2256,19 @@
           "numbers": {
             "decimal": ".",
             "group": ","
+          }
+        },
+        "name": "Castellon"
+      },
+      {
+        "locale": {
+          "id": "es",
+          "name": "Spanish - Spain",
+          "country": "ESP",
+          "language": "es",
+          "numbers": {
+            "decimal": ",",
+            "group": "."
           }
         },
         "name": "Castellón"
@@ -2086,6 +2294,19 @@
           }
         },
         "name": "Cuenca"
+      },
+      {
+        "locale": {
+          "id": "es",
+          "name": "Spanish - Spain",
+          "country": "ESP",
+          "language": "es",
+          "numbers": {
+            "decimal": ",",
+            "group": "."
+          }
+        },
+        "name": "Cuenca"
       }
     ]
   },
@@ -2105,6 +2326,19 @@
           "numbers": {
             "decimal": ".",
             "group": ","
+          }
+        },
+        "name": "Las Palmas"
+      },
+      {
+        "locale": {
+          "id": "es",
+          "name": "Spanish - Spain",
+          "country": "ESP",
+          "language": "es",
+          "numbers": {
+            "decimal": ",",
+            "group": "."
           }
         },
         "name": "Las Palmas"
@@ -2130,6 +2364,19 @@
           }
         },
         "name": "Girona"
+      },
+      {
+        "locale": {
+          "id": "es",
+          "name": "Spanish - Spain",
+          "country": "ESP",
+          "language": "es",
+          "numbers": {
+            "decimal": ",",
+            "group": "."
+          }
+        },
+        "name": "Girona"
       }
     ]
   },
@@ -2149,6 +2396,19 @@
           "numbers": {
             "decimal": ".",
             "group": ","
+          }
+        },
+        "name": "Granada"
+      },
+      {
+        "locale": {
+          "id": "es",
+          "name": "Spanish - Spain",
+          "country": "ESP",
+          "language": "es",
+          "numbers": {
+            "decimal": ",",
+            "group": "."
           }
         },
         "name": "Granada"
@@ -2174,6 +2434,19 @@
           }
         },
         "name": "Guadalajara"
+      },
+      {
+        "locale": {
+          "id": "es",
+          "name": "Spanish - Spain",
+          "country": "ESP",
+          "language": "es",
+          "numbers": {
+            "decimal": ",",
+            "group": "."
+          }
+        },
+        "name": "Guadalajara"
       }
     ]
   },
@@ -2193,6 +2466,19 @@
           "numbers": {
             "decimal": ".",
             "group": ","
+          }
+        },
+        "name": "Huelva"
+      },
+      {
+        "locale": {
+          "id": "es",
+          "name": "Spanish - Spain",
+          "country": "ESP",
+          "language": "es",
+          "numbers": {
+            "decimal": ",",
+            "group": "."
           }
         },
         "name": "Huelva"
@@ -2218,6 +2504,19 @@
           }
         },
         "name": "Huesca"
+      },
+      {
+        "locale": {
+          "id": "es",
+          "name": "Spanish - Spain",
+          "country": "ESP",
+          "language": "es",
+          "numbers": {
+            "decimal": ",",
+            "group": "."
+          }
+        },
+        "name": "Huesca"
       }
     ]
   },
@@ -2237,6 +2536,19 @@
           "numbers": {
             "decimal": ".",
             "group": ","
+          }
+        },
+        "name": "Jaen"
+      },
+      {
+        "locale": {
+          "id": "es",
+          "name": "Spanish - Spain",
+          "country": "ESP",
+          "language": "es",
+          "numbers": {
+            "decimal": ",",
+            "group": "."
           }
         },
         "name": "Jaén"
@@ -2262,6 +2574,19 @@
           }
         },
         "name": "Lleida"
+      },
+      {
+        "locale": {
+          "id": "es",
+          "name": "Spanish - Spain",
+          "country": "ESP",
+          "language": "es",
+          "numbers": {
+            "decimal": ",",
+            "group": "."
+          }
+        },
+        "name": "Lleida"
       }
     ]
   },
@@ -2281,6 +2606,19 @@
           "numbers": {
             "decimal": ".",
             "group": ","
+          }
+        },
+        "name": "Leon"
+      },
+      {
+        "locale": {
+          "id": "es",
+          "name": "Spanish - Spain",
+          "country": "ESP",
+          "language": "es",
+          "numbers": {
+            "decimal": ",",
+            "group": "."
           }
         },
         "name": "León"
@@ -2306,6 +2644,19 @@
           }
         },
         "name": "La Rioja"
+      },
+      {
+        "locale": {
+          "id": "es",
+          "name": "Spanish - Spain",
+          "country": "ESP",
+          "language": "es",
+          "numbers": {
+            "decimal": ",",
+            "group": "."
+          }
+        },
+        "name": "La Rioja"
       }
     ]
   },
@@ -2325,6 +2676,19 @@
           "numbers": {
             "decimal": ".",
             "group": ","
+          }
+        },
+        "name": "Lugo"
+      },
+      {
+        "locale": {
+          "id": "es",
+          "name": "Spanish - Spain",
+          "country": "ESP",
+          "language": "es",
+          "numbers": {
+            "decimal": ",",
+            "group": "."
           }
         },
         "name": "Lugo"
@@ -2350,6 +2714,19 @@
           }
         },
         "name": "Madrid"
+      },
+      {
+        "locale": {
+          "id": "es",
+          "name": "Spanish - Spain",
+          "country": "ESP",
+          "language": "es",
+          "numbers": {
+            "decimal": ",",
+            "group": "."
+          }
+        },
+        "name": "Madrid"
       }
     ]
   },
@@ -2369,6 +2746,19 @@
           "numbers": {
             "decimal": ".",
             "group": ","
+          }
+        },
+        "name": "Malaga"
+      },
+      {
+        "locale": {
+          "id": "es",
+          "name": "Spanish - Spain",
+          "country": "ESP",
+          "language": "es",
+          "numbers": {
+            "decimal": ",",
+            "group": "."
           }
         },
         "name": "Málaga"
@@ -2394,6 +2784,19 @@
           }
         },
         "name": "Melilla"
+      },
+      {
+        "locale": {
+          "id": "es",
+          "name": "Spanish - Spain",
+          "country": "ESP",
+          "language": "es",
+          "numbers": {
+            "decimal": ",",
+            "group": "."
+          }
+        },
+        "name": "Melilla"
       }
     ]
   },
@@ -2413,6 +2816,19 @@
           "numbers": {
             "decimal": ".",
             "group": ","
+          }
+        },
+        "name": "Murcia"
+      },
+      {
+        "locale": {
+          "id": "es",
+          "name": "Spanish - Spain",
+          "country": "ESP",
+          "language": "es",
+          "numbers": {
+            "decimal": ",",
+            "group": "."
           }
         },
         "name": "Murcia"
@@ -2438,6 +2854,19 @@
           }
         },
         "name": "Navarra"
+      },
+      {
+        "locale": {
+          "id": "es",
+          "name": "Spanish - Spain",
+          "country": "ESP",
+          "language": "es",
+          "numbers": {
+            "decimal": ",",
+            "group": "."
+          }
+        },
+        "name": "Navarra"
       }
     ]
   },
@@ -2457,6 +2886,19 @@
           "numbers": {
             "decimal": ".",
             "group": ","
+          }
+        },
+        "name": "Asturias"
+      },
+      {
+        "locale": {
+          "id": "es",
+          "name": "Spanish - Spain",
+          "country": "ESP",
+          "language": "es",
+          "numbers": {
+            "decimal": ",",
+            "group": "."
           }
         },
         "name": "Asturias"
@@ -2482,6 +2924,19 @@
           }
         },
         "name": "Ourense"
+      },
+      {
+        "locale": {
+          "id": "es",
+          "name": "Spanish - Spain",
+          "country": "ESP",
+          "language": "es",
+          "numbers": {
+            "decimal": ",",
+            "group": "."
+          }
+        },
+        "name": "Ourense"
       }
     ]
   },
@@ -2501,6 +2956,19 @@
           "numbers": {
             "decimal": ".",
             "group": ","
+          }
+        },
+        "name": "Palencia"
+      },
+      {
+        "locale": {
+          "id": "es",
+          "name": "Spanish - Spain",
+          "country": "ESP",
+          "language": "es",
+          "numbers": {
+            "decimal": ",",
+            "group": "."
           }
         },
         "name": "Palencia"
@@ -2526,6 +2994,19 @@
           }
         },
         "name": "Balears"
+      },
+      {
+        "locale": {
+          "id": "es",
+          "name": "Spanish - Spain",
+          "country": "ESP",
+          "language": "es",
+          "numbers": {
+            "decimal": ",",
+            "group": "."
+          }
+        },
+        "name": "Balears"
       }
     ]
   },
@@ -2545,6 +3026,19 @@
           "numbers": {
             "decimal": ".",
             "group": ","
+          }
+        },
+        "name": "Pontevedra"
+      },
+      {
+        "locale": {
+          "id": "es",
+          "name": "Spanish - Spain",
+          "country": "ESP",
+          "language": "es",
+          "numbers": {
+            "decimal": ",",
+            "group": "."
           }
         },
         "name": "Pontevedra"
@@ -2570,6 +3064,19 @@
           }
         },
         "name": "Cantabria"
+      },
+      {
+        "locale": {
+          "id": "es",
+          "name": "Spanish - Spain",
+          "country": "ESP",
+          "language": "es",
+          "numbers": {
+            "decimal": ",",
+            "group": "."
+          }
+        },
+        "name": "Cantabria"
       }
     ]
   },
@@ -2589,6 +3096,19 @@
           "numbers": {
             "decimal": ".",
             "group": ","
+          }
+        },
+        "name": "Salamanca"
+      },
+      {
+        "locale": {
+          "id": "es",
+          "name": "Spanish - Spain",
+          "country": "ESP",
+          "language": "es",
+          "numbers": {
+            "decimal": ",",
+            "group": "."
           }
         },
         "name": "Salamanca"
@@ -2614,6 +3134,19 @@
           }
         },
         "name": "Sevilla"
+      },
+      {
+        "locale": {
+          "id": "es",
+          "name": "Spanish - Spain",
+          "country": "ESP",
+          "language": "es",
+          "numbers": {
+            "decimal": ",",
+            "group": "."
+          }
+        },
+        "name": "Sevilla"
       }
     ]
   },
@@ -2633,6 +3166,19 @@
           "numbers": {
             "decimal": ".",
             "group": ","
+          }
+        },
+        "name": "Segovia"
+      },
+      {
+        "locale": {
+          "id": "es",
+          "name": "Spanish - Spain",
+          "country": "ESP",
+          "language": "es",
+          "numbers": {
+            "decimal": ",",
+            "group": "."
           }
         },
         "name": "Segovia"
@@ -2658,6 +3204,19 @@
           }
         },
         "name": "Soria"
+      },
+      {
+        "locale": {
+          "id": "es",
+          "name": "Spanish - Spain",
+          "country": "ESP",
+          "language": "es",
+          "numbers": {
+            "decimal": ",",
+            "group": "."
+          }
+        },
+        "name": "Soria"
       }
     ]
   },
@@ -2677,6 +3236,19 @@
           "numbers": {
             "decimal": ".",
             "group": ","
+          }
+        },
+        "name": "Gipuzkoa"
+      },
+      {
+        "locale": {
+          "id": "es",
+          "name": "Spanish - Spain",
+          "country": "ESP",
+          "language": "es",
+          "numbers": {
+            "decimal": ",",
+            "group": "."
           }
         },
         "name": "Gipuzkoa"
@@ -2702,6 +3274,19 @@
           }
         },
         "name": "Tarragona"
+      },
+      {
+        "locale": {
+          "id": "es",
+          "name": "Spanish - Spain",
+          "country": "ESP",
+          "language": "es",
+          "numbers": {
+            "decimal": ",",
+            "group": "."
+          }
+        },
+        "name": "Tarragona"
       }
     ]
   },
@@ -2721,6 +3306,19 @@
           "numbers": {
             "decimal": ".",
             "group": ","
+          }
+        },
+        "name": "Teruel"
+      },
+      {
+        "locale": {
+          "id": "es",
+          "name": "Spanish - Spain",
+          "country": "ESP",
+          "language": "es",
+          "numbers": {
+            "decimal": ",",
+            "group": "."
           }
         },
         "name": "Teruel"
@@ -2746,6 +3344,19 @@
           }
         },
         "name": "Santa Cruz de Tenerife"
+      },
+      {
+        "locale": {
+          "id": "es",
+          "name": "Spanish - Spain",
+          "country": "ESP",
+          "language": "es",
+          "numbers": {
+            "decimal": ",",
+            "group": "."
+          }
+        },
+        "name": "Santa Cruz de Tenerife"
       }
     ]
   },
@@ -2765,6 +3376,19 @@
           "numbers": {
             "decimal": ".",
             "group": ","
+          }
+        },
+        "name": "Toledo"
+      },
+      {
+        "locale": {
+          "id": "es",
+          "name": "Spanish - Spain",
+          "country": "ESP",
+          "language": "es",
+          "numbers": {
+            "decimal": ",",
+            "group": "."
           }
         },
         "name": "Toledo"
@@ -2789,7 +3413,20 @@
             "group": ","
           }
         },
-        "name": "València"
+        "name": "Valencia"
+      },
+      {
+        "locale": {
+          "id": "es",
+          "name": "Spanish - Spain",
+          "country": "ESP",
+          "language": "es",
+          "numbers": {
+            "decimal": ",",
+            "group": "."
+          }
+        },
+        "name": "Valencia"
       }
     ]
   },
@@ -2812,6 +3449,19 @@
           }
         },
         "name": "Valladolid"
+      },
+      {
+        "locale": {
+          "id": "es",
+          "name": "Spanish - Spain",
+          "country": "ESP",
+          "language": "es",
+          "numbers": {
+            "decimal": ",",
+            "group": "."
+          }
+        },
+        "name": "Valladolid"
       }
     ]
   },
@@ -2831,6 +3481,19 @@
           "numbers": {
             "decimal": ".",
             "group": ","
+          }
+        },
+        "name": "Alava"
+      },
+      {
+        "locale": {
+          "id": "es",
+          "name": "Spanish - Spain",
+          "country": "ESP",
+          "language": "es",
+          "numbers": {
+            "decimal": ",",
+            "group": "."
           }
         },
         "name": "Álava"
@@ -2856,6 +3519,19 @@
           }
         },
         "name": "Zaragoza"
+      },
+      {
+        "locale": {
+          "id": "es",
+          "name": "Spanish - Spain",
+          "country": "ESP",
+          "language": "es",
+          "numbers": {
+            "decimal": ",",
+            "group": "."
+          }
+        },
+        "name": "Zaragoza"
       }
     ]
   },
@@ -2875,6 +3551,19 @@
           "numbers": {
             "decimal": ".",
             "group": ","
+          }
+        },
+        "name": "Zamora"
+      },
+      {
+        "locale": {
+          "id": "es",
+          "name": "Spanish - Spain",
+          "country": "ESP",
+          "language": "es",
+          "numbers": {
+            "decimal": ",",
+            "group": "."
           }
         },
         "name": "Zamora"
