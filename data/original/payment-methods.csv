@@ -11,6 +11,7 @@ card,mastercard,Mastercard,65,41,100,60,256,256,world
 card,visa,VISA,65,41,100,60,256,256,world
 online,ach,ACH,65,41,100,60,256,256,world
 online,alipay,Alipay,65,41,100,60,256,256,world
+online,apple_pay,Apple Pay,65,41,100,60,256,256,world
 online,bankTransfer_IBAN,International Bank Transfer (IBAN),65,41,100,60,256,256,world
 online,bitcoin,Bitcoin,65,41,100,60,256,256,world
 online,bitpay,BitPay,65,41,100,60,256,256,world
@@ -21,6 +22,7 @@ online,dragonpay_gcash,GCash via Dragonpay,65,41,100,60,256,256,world
 online,dragonpay_otc_banking,Dragonpay OTC,65,41,100,60,256,256,world
 online,ebanking_FI,Finnish E-Banking,65,41,100,60,256,256,world
 online,giropay,GiroPay,65,41,100,60,256,256,world
+online,google_pay,Google Pay,65,41,100,60,256,256,world
 online,ideal,iDEAL,65,41,100,60,256,256,world
 online,interac,Interac Online,65,41,100,60,256,256,world
 online,kcp_banktransfer,Bank Transfer via KCP,65,41,100,60,256,256,world
