@@ -18,6 +18,15 @@
     }
   },
   {
+    "id": "canada-post-expedited-parcel",
+    "name": "Expedited Parcel",
+    "carrier": {
+      "id": "canada-post",
+      "name": "Canada Post",
+      "tracking_url": "https://track.aftership.com/canada-post/"
+    }
+  },
+  {
     "id": "canada-post-priority",
     "name": "Priority",
     "carrier": {

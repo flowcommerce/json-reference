@@ -10,6 +10,11 @@
     "carrier_id": "asendia"
   },
   {
+    "id": "canada-post-expedited-parcel",
+    "name": "Expedited Parcel",
+    "carrier_id": "canada-post"
+  },
+  {
     "id": "canada-post-priority",
     "name": "Priority",
     "carrier_id": "canada-post"
