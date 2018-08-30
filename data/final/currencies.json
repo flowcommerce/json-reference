@@ -714,8 +714,7 @@
     "number_decimals": 1,
     "symbols": {
       "primary": "MRO"
-    },
-    "default_locale": "ar-MR"
+    }
   },
   {
     "name": "Mauritius Rupee",
@@ -1028,8 +1027,7 @@
     "number_decimals": 2,
     "symbols": {
       "primary": "STD"
-    },
-    "default_locale": "pt-ST"
+    }
   },
   {
     "name": "Saudi Riyal",

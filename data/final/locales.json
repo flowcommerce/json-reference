@@ -750,6 +750,16 @@
     }
   },
   {
+    "id": "en-SZ",
+    "name": "English - Eswatini",
+    "country": "SWZ",
+    "language": "en",
+    "numbers": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
     "id": "en-FK",
     "name": "English - Falkland Islands",
     "country": "FLK",
@@ -1287,16 +1297,6 @@
     "numbers": {
       "decimal": ",",
       "group": " "
-    }
-  },
-  {
-    "id": "en-SZ",
-    "name": "English - Swaziland",
-    "country": "SWZ",
-    "language": "en",
-    "numbers": {
-      "decimal": ".",
-      "group": ","
     }
   },
   {
