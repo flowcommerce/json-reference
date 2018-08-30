@@ -42,6 +42,20 @@
     ]
   },
   {
+    "id": "apple_pay",
+    "type": "online",
+    "name": "Apple Pay",
+    "small_width": 65,
+    "small_height": 41,
+    "medium_width": 100,
+    "medium_height": 60,
+    "large_width": 256,
+    "large_height": 256,
+    "regions": [
+      "world"
+    ]
+  },
+  {
     "id": "bankTransfer_IBAN",
     "type": "online",
     "name": "International Bank Transfer (IBAN)",
@@ -243,6 +257,20 @@
     "id": "giropay",
     "type": "online",
     "name": "GiroPay",
+    "small_width": 65,
+    "small_height": 41,
+    "medium_width": 100,
+    "medium_height": 60,
+    "large_width": 256,
+    "large_height": 256,
+    "regions": [
+      "world"
+    ]
+  },
+  {
+    "id": "google_pay",
+    "type": "online",
+    "name": "Google Pay",
     "small_width": 65,
     "small_height": 41,
     "medium_width": 100,
