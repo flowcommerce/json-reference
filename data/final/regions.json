@@ -1,21 +1,43 @@
 [
   {
+    "id": "afg",
+    "name": "Afghanistan",
+    "countries": [
+      "AFG"
+    ],
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "fa",
+      "ps"
+    ],
+    "measurement_systems": [
+      "metric"
+    ],
+    "timezones": []
+  },
+  {
     "id": "africa",
     "name": "Africa",
     "countries": [
       "AGO",
+      "BDI",
       "BEN",
       "BFA",
       "BWA",
       "CAF",
       "CIV",
       "CMR",
+      "COD",
       "COG",
       "COM",
       "CPV",
       "DJI",
       "DZA",
       "EGY",
+      "ERI",
+      "ESH",
       "ETH",
       "GAB",
       "GHA",
@@ -24,6 +46,7 @@
       "GNB",
       "GNQ",
       "KEN",
+      "LBR",
       "LBY",
       "LSO",
       "MAR",
@@ -39,6 +62,7 @@
       "NGA",
       "REU",
       "RWA",
+      "SDN",
       "SEN",
       "SHN",
       "SLE",
@@ -49,10 +73,12 @@
       "SYC",
       "TCD",
       "TGO",
+      "TUN",
       "TZA",
       "UGA",
       "ZAF",
-      "ZMB"
+      "ZMB",
+      "ZWE"
     ],
     "currencies": [
       "AOA",
@@ -80,6 +106,7 @@
       "SLL",
       "SOS",
       "SZL",
+      "TND",
       "TZS",
       "UGX",
       "XAF",
@@ -105,18 +132,22 @@
       "kj",
       "kr",
       "ln",
+      "lu",
       "mg",
       "nd",
       "nr",
       "ny",
       "pt",
+      "rn",
       "rw",
       "sg",
+      "sn",
       "so",
       "ss",
       "st",
       "sw",
       "ta",
+      "ti",
       "tn",
       "ts",
       "ve",
@@ -126,6 +157,7 @@
       "zu"
     ],
     "measurement_systems": [
+      "imperial",
       "metric"
     ],
     "timezones": []
@@ -302,6 +334,7 @@
     "id": "asia",
     "name": "Asia",
     "countries": [
+      "AFG",
       "ARE",
       "ARM",
       "AZE",
@@ -309,11 +342,15 @@
       "BHR",
       "BRN",
       "BTN",
+      "CCK",
       "CHN",
       "GEO",
       "HKG",
       "IDN",
       "IND",
+      "IOT",
+      "IRN",
+      "IRQ",
       "ISR",
       "JOR",
       "JPN",
@@ -327,6 +364,7 @@
       "LKA",
       "MAC",
       "MDV",
+      "MMR",
       "MNG",
       "MYS",
       "NPL",
@@ -337,6 +375,7 @@
       "QAT",
       "SAU",
       "SGP",
+      "SYR",
       "THA",
       "TJK",
       "TKM",
@@ -349,6 +388,7 @@
     "currencies": [
       "AED",
       "AMD",
+      "AUD",
       "AZN",
       "BDT",
       "BHD",
@@ -384,6 +424,7 @@
       "THB",
       "TRY",
       "TWD",
+      "USD",
       "UZS",
       "VND",
       "YER"
@@ -406,12 +447,15 @@
       "kk",
       "km",
       "ko",
+      "ku",
       "ky",
       "lo",
       "mn",
       "ms",
+      "my",
       "ne",
       "pa",
+      "ps",
       "pt",
       "ru",
       "si",
@@ -428,6 +472,7 @@
       "zh"
     ],
     "measurement_systems": [
+      "imperial",
       "metric"
     ],
     "timezones": [
@@ -549,6 +594,24 @@
     ],
     "languages": [
       "en"
+    ],
+    "measurement_systems": [
+      "metric"
+    ],
+    "timezones": []
+  },
+  {
+    "id": "blr",
+    "name": "Belarus",
+    "countries": [
+      "BLR"
+    ],
+    "currencies": [
+      "BYN"
+    ],
+    "languages": [
+      "be",
+      "ru"
     ],
     "measurement_systems": [
       "metric"
@@ -715,6 +778,21 @@
     "timezones": []
   },
   {
+    "id": "bvt",
+    "name": "Bouvet Island",
+    "countries": [
+      "BVT"
+    ],
+    "currencies": [
+      "NOK"
+    ],
+    "languages": [],
+    "measurement_systems": [
+      "metric"
+    ],
+    "timezones": []
+  },
+  {
     "id": "bra",
     "name": "Brazil",
     "countries": [
@@ -726,6 +804,21 @@
     "languages": [
       "pt"
     ],
+    "measurement_systems": [
+      "metric"
+    ],
+    "timezones": []
+  },
+  {
+    "id": "iot",
+    "name": "British Indian Ocean Territory",
+    "countries": [
+      "IOT"
+    ],
+    "currencies": [
+      "USD"
+    ],
+    "languages": [],
     "measurement_systems": [
       "metric"
     ],
@@ -792,6 +885,24 @@
     "languages": [
       "ff",
       "fr"
+    ],
+    "measurement_systems": [
+      "metric"
+    ],
+    "timezones": []
+  },
+  {
+    "id": "bdi",
+    "name": "Burundi",
+    "countries": [
+      "BDI"
+    ],
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "fr",
+      "rn"
     ],
     "measurement_systems": [
       "metric"
@@ -958,6 +1069,36 @@
     ]
   },
   {
+    "id": "cxr",
+    "name": "Christmas Island",
+    "countries": [
+      "CXR"
+    ],
+    "currencies": [
+      "AUD"
+    ],
+    "languages": [],
+    "measurement_systems": [
+      "metric"
+    ],
+    "timezones": []
+  },
+  {
+    "id": "cck",
+    "name": "Cocos (Keeling) Islands",
+    "countries": [
+      "CCK"
+    ],
+    "currencies": [
+      "AUD"
+    ],
+    "languages": [],
+    "measurement_systems": [
+      "metric"
+    ],
+    "timezones": []
+  },
+  {
     "id": "col",
     "name": "Colombia",
     "countries": [
@@ -1062,6 +1203,23 @@
     "timezones": []
   },
   {
+    "id": "cub",
+    "name": "Cuba",
+    "countries": [
+      "CUB"
+    ],
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "es"
+    ],
+    "measurement_systems": [
+      "metric"
+    ],
+    "timezones": []
+  },
+  {
     "id": "cuw",
     "name": "Curaçao",
     "countries": [
@@ -1143,6 +1301,27 @@
     ],
     "languages": [
       "ko"
+    ],
+    "measurement_systems": [
+      "metric"
+    ],
+    "timezones": []
+  },
+  {
+    "id": "cod",
+    "name": "Democratic Republic of the Congo",
+    "countries": [
+      "COD"
+    ],
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "fr",
+      "kg",
+      "ln",
+      "lu",
+      "sw"
     ],
     "measurement_systems": [
       "metric"
@@ -1291,6 +1470,25 @@
     "timezones": []
   },
   {
+    "id": "eri",
+    "name": "Eritrea",
+    "countries": [
+      "ERI"
+    ],
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "ar",
+      "en",
+      "ti"
+    ],
+    "measurement_systems": [
+      "metric"
+    ],
+    "timezones": []
+  },
+  {
     "id": "est",
     "name": "Estonia",
     "countries": [
@@ -1346,12 +1544,14 @@
     "id": "europe",
     "name": "Europe",
     "countries": [
+      "ALA",
       "ALB",
       "AND",
       "AUT",
       "BEL",
       "BGR",
       "BIH",
+      "BLR",
       "CHE",
       "CYP",
       "CZE",
@@ -1368,6 +1568,7 @@
       "GRC",
       "HRV",
       "HUN",
+      "IMN",
       "IRL",
       "ISL",
       "ITA",
@@ -1378,6 +1579,7 @@
       "LVA",
       "MCO",
       "MDA",
+      "MKD",
       "MLT",
       "MNE",
       "NLD",
@@ -1386,6 +1588,7 @@
       "PRT",
       "ROU",
       "RUS",
+      "SJM",
       "SMR",
       "SRB",
       "SVK",
@@ -1398,6 +1601,7 @@
       "ALL",
       "BAM",
       "BGN",
+      "BYN",
       "CHF",
       "CZK",
       "DKK",
@@ -1417,6 +1621,7 @@
       "UAH"
     ],
     "languages": [
+      "be",
       "bg",
       "bs",
       "ca",
@@ -1439,6 +1644,7 @@
       "lb",
       "lt",
       "lv",
+      "mk",
       "mt",
       "nb",
       "nl",
@@ -1643,12 +1849,19 @@
     "id": "eurozone",
     "name": "Eurozone",
     "countries": [
+      "AFG",
+      "ALA",
       "AND",
+      "ATF",
       "AUT",
+      "BDI",
       "BEL",
       "BLM",
+      "COD",
+      "CUB",
       "CYP",
       "DEU",
+      "ERI",
       "ESP",
       "EST",
       "FIN",
@@ -1657,29 +1870,38 @@
       "GRC",
       "GUF",
       "IRL",
+      "IRN",
+      "IRQ",
       "ITA",
+      "LBR",
       "LTU",
       "LUX",
       "LVA",
       "MAF",
       "MCO",
+      "MKD",
       "MLT",
+      "MMR",
       "MNE",
       "MTQ",
       "MYT",
       "NLD",
       "PRT",
       "REU",
+      "SDN",
       "SMR",
       "SPM",
       "SVK",
       "SVN",
-      "VAT"
+      "SYR",
+      "VAT",
+      "ZWE"
     ],
     "currencies": [
       "EUR"
     ],
     "languages": [
+      "ar",
       "ca",
       "cs",
       "de",
@@ -1687,23 +1909,37 @@
       "en",
       "es",
       "et",
+      "fa",
       "fi",
       "fr",
       "ga",
       "it",
+      "kg",
+      "ku",
       "la",
       "lb",
+      "ln",
       "lt",
+      "lu",
       "lv",
+      "mk",
       "mt",
+      "my",
+      "nd",
       "nl",
+      "ps",
       "pt",
+      "rn",
       "sk",
       "sl",
+      "sn",
       "sv",
+      "sw",
+      "ti",
       "tr"
     ],
     "measurement_systems": [
+      "imperial",
       "metric"
     ],
     "timezones": [
@@ -1829,6 +2065,21 @@
     "languages": [
       "fr"
     ],
+    "measurement_systems": [
+      "metric"
+    ],
+    "timezones": []
+  },
+  {
+    "id": "atf",
+    "name": "French Southern Territories",
+    "countries": [
+      "ATF"
+    ],
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [],
     "measurement_systems": [
       "metric"
     ],
@@ -2119,6 +2370,21 @@
     "timezones": []
   },
   {
+    "id": "hmd",
+    "name": "Heard Island and McDonald Islands",
+    "countries": [
+      "HMD"
+    ],
+    "currencies": [
+      "AUD"
+    ],
+    "languages": [],
+    "measurement_systems": [
+      "metric"
+    ],
+    "timezones": []
+  },
+  {
     "id": "vat",
     "name": "Holy See",
     "countries": [
@@ -2247,6 +2513,41 @@
     "timezones": []
   },
   {
+    "id": "irn",
+    "name": "Iran (Islamic Republic of)",
+    "countries": [
+      "IRN"
+    ],
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "fa"
+    ],
+    "measurement_systems": [
+      "metric"
+    ],
+    "timezones": []
+  },
+  {
+    "id": "irq",
+    "name": "Iraq",
+    "countries": [
+      "IRQ"
+    ],
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "ar",
+      "ku"
+    ],
+    "measurement_systems": [
+      "metric"
+    ],
+    "timezones": []
+  },
+  {
     "id": "irl",
     "name": "Ireland",
     "countries": [
@@ -2265,6 +2566,21 @@
     "timezones": [
       "GMT"
     ]
+  },
+  {
+    "id": "imn",
+    "name": "Isle of Man",
+    "countries": [
+      "IMN"
+    ],
+    "currencies": [
+      "GBP"
+    ],
+    "languages": [],
+    "measurement_systems": [
+      "metric"
+    ],
+    "timezones": []
   },
   {
     "id": "isr",
@@ -2525,6 +2841,23 @@
     ],
     "measurement_systems": [
       "metric"
+    ],
+    "timezones": []
+  },
+  {
+    "id": "lbr",
+    "name": "Liberia",
+    "countries": [
+      "LBR"
+    ],
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "en"
+    ],
+    "measurement_systems": [
+      "imperial"
     ],
     "timezones": []
   },
@@ -2948,6 +3281,23 @@
     "timezones": []
   },
   {
+    "id": "mmr",
+    "name": "Myanmar",
+    "countries": [
+      "MMR"
+    ],
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "my"
+    ],
+    "measurement_systems": [
+      "imperial"
+    ],
+    "timezones": []
+  },
+  {
     "id": "nam",
     "name": "Namibia",
     "countries": [
@@ -3124,6 +3474,21 @@
     "timezones": []
   },
   {
+    "id": "nfk",
+    "name": "Norfolk Island",
+    "countries": [
+      "NFK"
+    ],
+    "currencies": [
+      "AUD"
+    ],
+    "languages": [],
+    "measurement_systems": [
+      "metric"
+    ],
+    "timezones": []
+  },
+  {
     "id": "north-america",
     "name": "North America",
     "countries": [
@@ -3138,6 +3503,7 @@
       "BRB",
       "CAN",
       "CRI",
+      "CUB",
       "CUW",
       "CYM",
       "DMA",
@@ -3164,7 +3530,8 @@
       "TTO",
       "USA",
       "VCT",
-      "VGB"
+      "VGB",
+      "VIR"
     ],
     "currencies": [
       "ANG",
@@ -3248,6 +3615,7 @@
       "ASM",
       "AUS",
       "COK",
+      "CXR",
       "FJI",
       "FSM",
       "GUM",
@@ -3255,9 +3623,11 @@
       "MHL",
       "MNP",
       "NCL",
+      "NFK",
       "NIU",
       "NRU",
       "NZL",
+      "PCN",
       "PLW",
       "PNG",
       "PYF",
@@ -3266,6 +3636,7 @@
       "TLS",
       "TON",
       "TUV",
+      "UMI",
       "VUT",
       "WLF",
       "WSM"
@@ -3438,6 +3809,21 @@
       "en",
       "tl"
     ],
+    "measurement_systems": [
+      "metric"
+    ],
+    "timezones": []
+  },
+  {
+    "id": "pcn",
+    "name": "Pitcairn",
+    "countries": [
+      "PCN"
+    ],
+    "currencies": [
+      "NZD"
+    ],
+    "languages": [],
     "measurement_systems": [
       "metric"
     ],
@@ -4091,6 +4477,24 @@
     "timezones": []
   },
   {
+    "id": "sdn",
+    "name": "Sudan",
+    "countries": [
+      "SDN"
+    ],
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "ar",
+      "en"
+    ],
+    "measurement_systems": [
+      "metric"
+    ],
+    "timezones": []
+  },
+  {
     "id": "sur",
     "name": "Suriname",
     "countries": [
@@ -4102,6 +4506,21 @@
     "languages": [
       "nl"
     ],
+    "measurement_systems": [
+      "metric"
+    ],
+    "timezones": []
+  },
+  {
+    "id": "sjm",
+    "name": "Svalbard and Jan Mayen Islands",
+    "countries": [
+      "SJM"
+    ],
+    "currencies": [
+      "NOK"
+    ],
+    "languages": [],
     "measurement_systems": [
       "metric"
     ],
@@ -4138,6 +4557,23 @@
       "fr",
       "it",
       "rm"
+    ],
+    "measurement_systems": [
+      "metric"
+    ],
+    "timezones": []
+  },
+  {
+    "id": "syr",
+    "name": "Syrian Arab Republic",
+    "countries": [
+      "SYR"
+    ],
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "ar"
     ],
     "measurement_systems": [
       "metric"
@@ -4191,6 +4627,23 @@
     ],
     "languages": [
       "th"
+    ],
+    "measurement_systems": [
+      "metric"
+    ],
+    "timezones": []
+  },
+  {
+    "id": "mkd",
+    "name": "The former Yugoslav Republic of Macedonia",
+    "countries": [
+      "MKD"
+    ],
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "mk"
     ],
     "measurement_systems": [
       "metric"
@@ -4275,6 +4728,23 @@
     ],
     "languages": [
       "en"
+    ],
+    "measurement_systems": [
+      "metric"
+    ],
+    "timezones": []
+  },
+  {
+    "id": "tun",
+    "name": "Tunisia",
+    "countries": [
+      "TUN"
+    ],
+    "currencies": [
+      "TND"
+    ],
+    "languages": [
+      "ar"
     ],
     "measurement_systems": [
       "metric"
@@ -4438,6 +4908,21 @@
     "timezones": []
   },
   {
+    "id": "umi",
+    "name": "United States Minor Outlying Islands",
+    "countries": [
+      "UMI"
+    ],
+    "currencies": [
+      "USD"
+    ],
+    "languages": [],
+    "measurement_systems": [
+      "metric"
+    ],
+    "timezones": []
+  },
+  {
     "id": "usa",
     "name": "United States of America",
     "countries": [
@@ -4457,6 +4942,21 @@
       "America/Los_Angeles",
       "America/New_York"
     ]
+  },
+  {
+    "id": "vir",
+    "name": "United States Virgin Islands",
+    "countries": [
+      "VIR"
+    ],
+    "currencies": [
+      "USD"
+    ],
+    "languages": [],
+    "measurement_systems": [
+      "metric"
+    ],
+    "timezones": []
   },
   {
     "id": "ury",
@@ -4563,22 +5063,43 @@
     "timezones": []
   },
   {
+    "id": "esh",
+    "name": "Western Sahara",
+    "countries": [
+      "ESH"
+    ],
+    "currencies": [
+      "MAD"
+    ],
+    "languages": [
+      "es"
+    ],
+    "measurement_systems": [
+      "metric"
+    ],
+    "timezones": []
+  },
+  {
     "id": "world",
     "name": "World",
     "countries": [
       "ABW",
+      "AFG",
       "AGO",
       "AIA",
+      "ALA",
       "ALB",
       "AND",
       "ARE",
       "ARG",
       "ARM",
       "ASM",
+      "ATF",
       "ATG",
       "AUS",
       "AUT",
       "AZE",
+      "BDI",
       "BEL",
       "BEN",
       "BES",
@@ -4589,6 +5110,7 @@
       "BHS",
       "BIH",
       "BLM",
+      "BLR",
       "BLZ",
       "BMU",
       "BOL",
@@ -4596,21 +5118,26 @@
       "BRB",
       "BRN",
       "BTN",
+      "BVT",
       "BWA",
       "CAF",
       "CAN",
+      "CCK",
       "CHE",
       "CHL",
       "CHN",
       "CIV",
       "CMR",
+      "COD",
       "COG",
       "COK",
       "COL",
       "COM",
       "CPV",
       "CRI",
+      "CUB",
       "CUW",
+      "CXR",
       "CYM",
       "CYP",
       "CZE",
@@ -4622,6 +5149,8 @@
       "DZA",
       "ECU",
       "EGY",
+      "ERI",
+      "ESH",
       "ESP",
       "EST",
       "ETH",
@@ -4650,13 +5179,18 @@
       "GUM",
       "GUY",
       "HKG",
+      "HMD",
       "HND",
       "HRV",
       "HTI",
       "HUN",
       "IDN",
+      "IMN",
       "IND",
+      "IOT",
       "IRL",
+      "IRN",
+      "IRQ",
       "ISL",
       "ISR",
       "ITA",
@@ -4674,6 +5208,7 @@
       "KWT",
       "LAO",
       "LBN",
+      "LBR",
       "LBY",
       "LCA",
       "LIE",
@@ -4691,8 +5226,10 @@
       "MDV",
       "MEX",
       "MHL",
+      "MKD",
       "MLI",
       "MLT",
+      "MMR",
       "MNE",
       "MNG",
       "MNP",
@@ -4707,6 +5244,7 @@
       "NAM",
       "NCL",
       "NER",
+      "NFK",
       "NGA",
       "NIC",
       "NIU",
@@ -4718,6 +5256,7 @@
       "OMN",
       "PAK",
       "PAN",
+      "PCN",
       "PER",
       "PHL",
       "PLW",
@@ -4733,9 +5272,11 @@
       "RUS",
       "RWA",
       "SAU",
+      "SDN",
       "SEN",
       "SGP",
       "SHN",
+      "SJM",
       "SLB",
       "SLE",
       "SLV",
@@ -4752,6 +5293,7 @@
       "SWZ",
       "SXM",
       "SYC",
+      "SYR",
       "TCA",
       "TCD",
       "TGO",
@@ -4762,12 +5304,14 @@
       "TLS",
       "TON",
       "TTO",
+      "TUN",
       "TUR",
       "TUV",
       "TWN",
       "TZA",
       "UGA",
       "UKR",
+      "UMI",
       "URY",
       "USA",
       "UZB",
@@ -4775,13 +5319,15 @@
       "VCT",
       "VEN",
       "VGB",
+      "VIR",
       "VNM",
       "VUT",
       "WLF",
       "WSM",
       "YEM",
       "ZAF",
-      "ZMB"
+      "ZMB",
+      "ZWE"
     ],
     "currencies": [
       "AED",
@@ -4804,6 +5350,7 @@
       "BRL",
       "BSD",
       "BWP",
+      "BYN",
       "BZD",
       "CAD",
       "CHF",
@@ -4890,6 +5437,7 @@
       "SOS",
       "SZL",
       "THB",
+      "TND",
       "TOP",
       "TRY",
       "TTD",
@@ -4920,6 +5468,7 @@
       "ar",
       "ay",
       "az",
+      "be",
       "bg",
       "bi",
       "bm",
@@ -4965,19 +5514,23 @@
       "km",
       "ko",
       "kr",
+      "ku",
       "ky",
       "la",
       "lb",
       "ln",
       "lo",
       "lt",
+      "lu",
       "lv",
       "mg",
       "mh",
       "mi",
+      "mk",
       "mn",
       "ms",
       "mt",
+      "my",
       "nb",
       "nd",
       "ne",
@@ -4988,9 +5541,11 @@
       "ny",
       "pa",
       "pl",
+      "ps",
       "pt",
       "qu",
       "rm",
+      "rn",
       "ro",
       "ru",
       "rw",
@@ -4998,6 +5553,7 @@
       "si",
       "sk",
       "sl",
+      "sn",
       "so",
       "sq",
       "sr",
@@ -5009,6 +5565,7 @@
       "te",
       "tg",
       "th",
+      "ti",
       "tk",
       "tl",
       "tn",
@@ -5069,6 +5626,42 @@
     ],
     "languages": [
       "en"
+    ],
+    "measurement_systems": [
+      "metric"
+    ],
+    "timezones": []
+  },
+  {
+    "id": "zwe",
+    "name": "Zimbabwe",
+    "countries": [
+      "ZWE"
+    ],
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "en",
+      "nd",
+      "sn"
+    ],
+    "measurement_systems": [
+      "metric"
+    ],
+    "timezones": []
+  },
+  {
+    "id": "ala",
+    "name": "Åland Islands",
+    "countries": [
+      "ALA"
+    ],
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "sv"
     ],
     "measurement_systems": [
       "metric"

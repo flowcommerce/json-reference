@@ -318,89 +318,62 @@ func FormatUnderscore(value string) string {
 func UnsupportedCountryCodes() []string {
 	return []string{
 		"AF",
-		"AFG",
 		"AGQ",
-        "ALA",
 		"ATA", // Antarctica
-		"ATF",
-		"BDI",
-		"BLR",
-		"BVT",
-		"CCK",
-		"COD",
-		"CUB",
-		"CXR",
 		"ER",
-		"ERI",
-        "ESH",
-		"HMD",
-        "IMN",
-		"IOT",
-		"IRN",
 		"IQ",
-		"IRQ",
-		"LBR",
-		"MKD",
-		"MMR",
 		"PS",
 		"PSE",
 		"SD",
-		"SDN",
 		"SS",
 		"SGS",
 		"SR",
 		"SY",
-		"SYR",
-		"NFK",
-		"PCN",
 		"PRI",
-		"SJM",
 		"TJ",
-		"TUN",
-		"UMI",
-		"VIR",
-		"ZWE",
 	}
 }
 
 // Need to map some currency codes into the ones supported  by
 // most payment processors
 var remappedCurrencyCodes = map[string]string{
-    "AFN": "EUR",
-    "ALK": "EUR",
-    "BIF": "EUR",
-    "BYR": "EUR",
-    "CNH": "EUR",
-    "CNX": "EUR",
-    "CUP": "EUR",
-    "ERN": "EUR",
-    "ILR": "EUR",
-    "IQD": "EUR",
-    "IRR": "EUR",
-    "ISJ": "EUR",
-    "KPW": "EUR",
-    "LRD": "EUR",
-    "MGA": "EUR",
-    "MKD": "EUR",
-    "MMK": "EUR",
-    "MRU": "EUR",
-    "MVP": "EUR",
-    "MZN": "EUR",
-    "SDG": "EUR",
-    "SRD": "EUR",
-    "SSP": "EUR",
-    "STN": "EUR",
-    "SYP": "EUR",
-    "TJS": "EUR",
-    "TMT": "EUR",
-    "ZWL": "EUR",
+	"AFN": "EUR",
+	"ALK": "EUR",
+	"BIF": "EUR",
+	"BYR": "EUR",
+	"CNH": "EUR",
+	"CNX": "EUR",
+	"CUP": "EUR",
+	"CUP,CUC": "EUR",
+	"CDF": "EUR",
+	"ERN": "EUR",
+	"ILR": "EUR",
+	"IQD": "EUR",
+	"IRR": "EUR",
+	"ISJ": "EUR",
+	"KPW": "EUR",
+	"LRD": "EUR",
+	"MGA": "EUR",
+	"MKD": "EUR",
+	"MMK": "EUR",
+	"MRU": "EUR",
+	"MVP": "EUR",
+	"MZN": "EUR",
+	"SDG": "EUR",
+	"SRD": "EUR",
+	"SSP": "EUR",
+	"STN": "EUR",
+	"SYP": "EUR",
+	"TJS": "EUR",
+	"TMT": "EUR",
+	"ZWL": "EUR",
 }
 
 func RemapCurrencyCodeToSupported(code string) string {
-    newCurrency, _ := remappedCurrencyCodes[code]
-    if newCurrency == "" {
-        return code;
-    } else {
-        return newCurrency;
-    }
+	newCurrency, _ := remappedCurrencyCodes[code]
+	if newCurrency == "" {
+		return code
+	} else {
+		return newCurrency
+	}
 }
