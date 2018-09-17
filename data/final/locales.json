@@ -1320,6 +1320,16 @@
     }
   },
   {
+    "id": "en-TK",
+    "name": "English - Tokelau",
+    "country": "TKL",
+    "language": "en",
+    "numbers": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
     "id": "en-TO",
     "name": "English - Tonga",
     "country": "TON",
@@ -3070,9 +3080,9 @@
     }
   },
   {
-    "id": "tk-TM",
-    "name": "Turkmen - Turkmenistan",
-    "country": "TKM",
+    "id": "tk",
+    "name": "Turkmen - Tokelau",
+    "country": "TKL",
     "language": "tk",
     "numbers": {
       "decimal": ",",

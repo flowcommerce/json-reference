@@ -2421,6 +2421,16 @@
     "default_delivered_duty": "paid"
   },
   {
+    "name": "Tokelau",
+    "iso_3166_2": "TK",
+    "iso_3166_3": "TKL",
+    "measurement_system": "metric",
+    "default_currency": "NZD",
+    "languages": [],
+    "timezones": [],
+    "default_delivered_duty": "paid"
+  },
+  {
     "name": "Tonga",
     "iso_3166_2": "TO",
     "iso_3166_3": "TON",

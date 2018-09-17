@@ -3262,6 +3262,7 @@
       "PNG",
       "PYF",
       "SLB",
+      "TKL",
       "TLS",
       "TON",
       "TUV",
@@ -4232,6 +4233,21 @@
     "timezones": []
   },
   {
+    "id": "tkl",
+    "name": "Tokelau",
+    "countries": [
+      "TKL"
+    ],
+    "currencies": [
+      "NZD"
+    ],
+    "languages": [],
+    "measurement_systems": [
+      "metric"
+    ],
+    "timezones": []
+  },
+  {
     "id": "ton",
     "name": "Tonga",
     "countries": [
@@ -4741,6 +4757,7 @@
       "TGO",
       "THA",
       "TJK",
+      "TKL",
       "TKM",
       "TLS",
       "TON",

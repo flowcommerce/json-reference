@@ -1365,6 +1365,13 @@
     "currency": "XOF"
   },
   {
+    "name": "Tokelau",
+    "continent": "OC",
+    "iso_3166_2": "TK",
+    "iso_3166_3": "TKL",
+    "currency": "NZD"
+  },
+  {
     "name": "Tonga",
     "continent": "OC",
     "iso_3166_2": "TO",

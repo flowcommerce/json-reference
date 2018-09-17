@@ -356,7 +356,6 @@ func UnsupportedCountryCodes() []string {
 		"PRI",
 		"SJM",
 		"TJ",
-		"TKL",
 		"TUN",
 		"UMI",
 		"VIR",
