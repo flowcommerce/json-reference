@@ -239,6 +239,12 @@ func Cleanse() {
 						currency = "TWD"
 					} else if iso3 == "FLK" {
 						currency = "FKP"
+					} else if iso3 == "ATA" {
+						currency = "USD"
+					} else if iso3 == "SGS" {
+						currency = "GBP"
+					} else if iso3 == "PSE" {
+						currency = "JOD" // see: https://en.wikipedia.org/wiki/Palestine_pound
 					} else {
 						fmt.Printf("Country %s does not have a currency\n", iso3)
 						os.Exit(1)
@@ -934,4 +940,3 @@ func parseProvinceName(value string) string {
 	}
 	return brackets
 }
-
