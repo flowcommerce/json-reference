@@ -1,5 +1,17 @@
 [
   {
+    "name": "Afghanistan",
+    "iso_3166_2": "AF",
+    "iso_3166_3": "AFG",
+    "measurement_system": "metric",
+    "default_currency": "EUR",
+    "languages": [
+      "fa",
+      "ps"
+    ],
+    "timezones": []
+  },
+  {
     "name": "Albania",
     "iso_3166_2": "AL",
     "iso_3166_3": "ALB",
@@ -203,6 +215,18 @@
     "default_delivered_duty": "paid"
   },
   {
+    "name": "Belarus",
+    "iso_3166_2": "BY",
+    "iso_3166_3": "BLR",
+    "measurement_system": "metric",
+    "default_currency": "BYN",
+    "languages": [
+      "be",
+      "ru"
+    ],
+    "timezones": []
+  },
+  {
     "name": "Belgium",
     "iso_3166_2": "BE",
     "iso_3166_3": "BEL",
@@ -317,6 +341,15 @@
     "default_delivered_duty": "paid"
   },
   {
+    "name": "Bouvet Island",
+    "iso_3166_2": "BV",
+    "iso_3166_3": "BVT",
+    "measurement_system": "metric",
+    "default_currency": "NOK",
+    "languages": [],
+    "timezones": []
+  },
+  {
     "name": "Brazil",
     "iso_3166_2": "BR",
     "iso_3166_3": "BRA",
@@ -327,6 +360,15 @@
     ],
     "timezones": [],
     "default_delivered_duty": "paid"
+  },
+  {
+    "name": "British Indian Ocean Territory",
+    "iso_3166_2": "IO",
+    "iso_3166_3": "IOT",
+    "measurement_system": "metric",
+    "default_currency": "USD",
+    "languages": [],
+    "timezones": []
   },
   {
     "name": "British Virgin Islands",
@@ -374,6 +416,18 @@
     ],
     "timezones": [],
     "default_delivered_duty": "paid"
+  },
+  {
+    "name": "Burundi",
+    "iso_3166_2": "BI",
+    "iso_3166_3": "BDI",
+    "measurement_system": "metric",
+    "default_currency": "EUR",
+    "languages": [
+      "fr",
+      "rn"
+    ],
+    "timezones": []
   },
   {
     "name": "Cabo Verde",
@@ -490,6 +544,24 @@
     "default_delivered_duty": "paid"
   },
   {
+    "name": "Christmas Island",
+    "iso_3166_2": "CX",
+    "iso_3166_3": "CXR",
+    "measurement_system": "metric",
+    "default_currency": "AUD",
+    "languages": [],
+    "timezones": []
+  },
+  {
+    "name": "Cocos (Keeling) Islands",
+    "iso_3166_2": "CC",
+    "iso_3166_3": "CCK",
+    "measurement_system": "metric",
+    "default_currency": "AUD",
+    "languages": [],
+    "timezones": []
+  },
+  {
     "name": "Colombia",
     "iso_3166_2": "CO",
     "iso_3166_3": "COL",
@@ -564,6 +636,17 @@
     "default_delivered_duty": "paid"
   },
   {
+    "name": "Cuba",
+    "iso_3166_2": "CU",
+    "iso_3166_3": "CUB",
+    "measurement_system": "metric",
+    "default_currency": "EUR",
+    "languages": [
+      "es"
+    ],
+    "timezones": []
+  },
+  {
     "name": "Curaçao",
     "iso_3166_2": "CW",
     "iso_3166_3": "CUW",
@@ -622,6 +705,21 @@
     "default_currency": "EUR",
     "languages": [
       "ko"
+    ],
+    "timezones": []
+  },
+  {
+    "name": "Democratic Republic of the Congo",
+    "iso_3166_2": "CD",
+    "iso_3166_3": "COD",
+    "measurement_system": "metric",
+    "default_currency": "EUR",
+    "languages": [
+      "fr",
+      "kg",
+      "ln",
+      "lu",
+      "sw"
     ],
     "timezones": []
   },
@@ -725,6 +823,19 @@
     ],
     "timezones": [],
     "default_delivered_duty": "paid"
+  },
+  {
+    "name": "Eritrea",
+    "iso_3166_2": "ER",
+    "iso_3166_3": "ERI",
+    "measurement_system": "metric",
+    "default_currency": "EUR",
+    "languages": [
+      "ar",
+      "en",
+      "ti"
+    ],
+    "timezones": []
   },
   {
     "name": "Estonia",
@@ -849,6 +960,15 @@
     ],
     "timezones": [],
     "default_delivered_duty": "paid"
+  },
+  {
+    "name": "French Southern Territories",
+    "iso_3166_2": "TF",
+    "iso_3166_3": "ATF",
+    "measurement_system": "metric",
+    "default_currency": "EUR",
+    "languages": [],
+    "timezones": []
   },
   {
     "name": "Gabon",
@@ -1050,6 +1170,15 @@
     "default_delivered_duty": "paid"
   },
   {
+    "name": "Heard Island and McDonald Islands",
+    "iso_3166_2": "HM",
+    "iso_3166_3": "HMD",
+    "measurement_system": "metric",
+    "default_currency": "AUD",
+    "languages": [],
+    "timezones": []
+  },
+  {
     "name": "Holy See",
     "iso_3166_2": "VA",
     "iso_3166_3": "VAT",
@@ -1143,6 +1272,29 @@
     "default_delivered_duty": "paid"
   },
   {
+    "name": "Iran (Islamic Republic of)",
+    "iso_3166_2": "IR",
+    "iso_3166_3": "IRN",
+    "measurement_system": "metric",
+    "default_currency": "EUR",
+    "languages": [
+      "fa"
+    ],
+    "timezones": []
+  },
+  {
+    "name": "Iraq",
+    "iso_3166_2": "IQ",
+    "iso_3166_3": "IRQ",
+    "measurement_system": "metric",
+    "default_currency": "EUR",
+    "languages": [
+      "ar",
+      "ku"
+    ],
+    "timezones": []
+  },
+  {
     "name": "Ireland",
     "iso_3166_2": "IE",
     "iso_3166_3": "IRL",
@@ -1155,6 +1307,16 @@
     "timezones": [
       "GMT"
     ],
+    "default_delivered_duty": "paid"
+  },
+  {
+    "name": "Isle of Man",
+    "iso_3166_2": "IM",
+    "iso_3166_3": "IMN",
+    "measurement_system": "metric",
+    "default_currency": "GBP",
+    "languages": [],
+    "timezones": [],
     "default_delivered_duty": "paid"
   },
   {
@@ -1343,6 +1505,17 @@
     ],
     "timezones": [],
     "default_delivered_duty": "paid"
+  },
+  {
+    "name": "Liberia",
+    "iso_3166_2": "LR",
+    "iso_3166_3": "LBR",
+    "measurement_system": "imperial",
+    "default_currency": "EUR",
+    "languages": [
+      "en"
+    ],
+    "timezones": []
   },
   {
     "name": "Libya",
@@ -1642,6 +1815,17 @@
     "timezones": []
   },
   {
+    "name": "Myanmar",
+    "iso_3166_2": "MM",
+    "iso_3166_3": "MMR",
+    "measurement_system": "imperial",
+    "default_currency": "EUR",
+    "languages": [
+      "my"
+    ],
+    "timezones": []
+  },
+  {
     "name": "Namibia",
     "iso_3166_2": "NA",
     "iso_3166_3": "NAM",
@@ -1763,6 +1947,16 @@
     "iso_3166_3": "NIU",
     "measurement_system": "metric",
     "default_currency": "NZD",
+    "languages": [],
+    "timezones": [],
+    "default_delivered_duty": "paid"
+  },
+  {
+    "name": "Norfolk Island",
+    "iso_3166_2": "NF",
+    "iso_3166_3": "NFK",
+    "measurement_system": "metric",
+    "default_currency": "AUD",
     "languages": [],
     "timezones": [],
     "default_delivered_duty": "paid"
@@ -1890,6 +2084,16 @@
       "en",
       "tl"
     ],
+    "timezones": [],
+    "default_delivered_duty": "paid"
+  },
+  {
+    "name": "Pitcairn",
+    "iso_3166_2": "PN",
+    "iso_3166_3": "PCN",
+    "measurement_system": "metric",
+    "default_currency": "NZD",
+    "languages": [],
     "timezones": [],
     "default_delivered_duty": "paid"
   },
@@ -2321,6 +2525,18 @@
     "default_delivered_duty": "paid"
   },
   {
+    "name": "Sudan",
+    "iso_3166_2": "SD",
+    "iso_3166_3": "SDN",
+    "measurement_system": "metric",
+    "default_currency": "EUR",
+    "languages": [
+      "ar",
+      "en"
+    ],
+    "timezones": []
+  },
+  {
     "name": "Suriname",
     "iso_3166_2": "SR",
     "iso_3166_3": "SUR",
@@ -2330,6 +2546,16 @@
       "nl"
     ],
     "timezones": []
+  },
+  {
+    "name": "Svalbard and Jan Mayen Islands",
+    "iso_3166_2": "SJ",
+    "iso_3166_3": "SJM",
+    "measurement_system": "metric",
+    "default_currency": "NOK",
+    "languages": [],
+    "timezones": [],
+    "default_delivered_duty": "paid"
   },
   {
     "name": "Sweden",
@@ -2357,6 +2583,17 @@
     ],
     "timezones": [],
     "default_delivered_duty": "paid"
+  },
+  {
+    "name": "Syrian Arab Republic",
+    "iso_3166_2": "SY",
+    "iso_3166_3": "SYR",
+    "measurement_system": "metric",
+    "default_currency": "EUR",
+    "languages": [
+      "ar"
+    ],
+    "timezones": []
   },
   {
     "name": "Taiwan",
@@ -2394,6 +2631,17 @@
     ],
     "timezones": [],
     "default_delivered_duty": "paid"
+  },
+  {
+    "name": "The former Yugoslav Republic of Macedonia",
+    "iso_3166_2": "MK",
+    "iso_3166_3": "MKD",
+    "measurement_system": "metric",
+    "default_currency": "EUR",
+    "languages": [
+      "mk"
+    ],
+    "timezones": []
   },
   {
     "name": "Timor-Leste",
@@ -2450,6 +2698,18 @@
     "default_currency": "TTD",
     "languages": [
       "en"
+    ],
+    "timezones": [],
+    "default_delivered_duty": "paid"
+  },
+  {
+    "name": "Tunisia",
+    "iso_3166_2": "TN",
+    "iso_3166_3": "TUN",
+    "measurement_system": "metric",
+    "default_currency": "TND",
+    "languages": [
+      "ar"
     ],
     "timezones": [],
     "default_delivered_duty": "paid"
@@ -2565,6 +2825,15 @@
     "default_delivered_duty": "paid"
   },
   {
+    "name": "United States Minor Outlying Islands",
+    "iso_3166_2": "UM",
+    "iso_3166_3": "UMI",
+    "measurement_system": "metric",
+    "default_currency": "USD",
+    "languages": [],
+    "timezones": []
+  },
+  {
     "name": "United States of America",
     "iso_3166_2": "US",
     "iso_3166_3": "USA",
@@ -2578,6 +2847,16 @@
       "America/Los_Angeles",
       "America/New_York"
     ],
+    "default_delivered_duty": "paid"
+  },
+  {
+    "name": "United States Virgin Islands",
+    "iso_3166_2": "VI",
+    "iso_3166_3": "VIR",
+    "measurement_system": "metric",
+    "default_currency": "USD",
+    "languages": [],
+    "timezones": [],
     "default_delivered_duty": "paid"
   },
   {
@@ -2655,6 +2934,18 @@
     "default_delivered_duty": "paid"
   },
   {
+    "name": "Western Sahara",
+    "iso_3166_2": "EH",
+    "iso_3166_3": "ESH",
+    "measurement_system": "metric",
+    "default_currency": "MAD",
+    "languages": [
+      "es"
+    ],
+    "timezones": [],
+    "default_delivered_duty": "paid"
+  },
+  {
     "name": "Yemen",
     "iso_3166_2": "YE",
     "iso_3166_3": "YEM",
@@ -2674,6 +2965,31 @@
     "default_currency": "ZMW",
     "languages": [
       "en"
+    ],
+    "timezones": [],
+    "default_delivered_duty": "paid"
+  },
+  {
+    "name": "Zimbabwe",
+    "iso_3166_2": "ZW",
+    "iso_3166_3": "ZWE",
+    "measurement_system": "metric",
+    "default_currency": "EUR",
+    "languages": [
+      "en",
+      "nd",
+      "sn"
+    ],
+    "timezones": []
+  },
+  {
+    "name": "Åland Islands",
+    "iso_3166_2": "AX",
+    "iso_3166_3": "ALA",
+    "measurement_system": "metric",
+    "default_currency": "EUR",
+    "languages": [
+      "sv"
     ],
     "timezones": [],
     "default_delivered_duty": "paid"
