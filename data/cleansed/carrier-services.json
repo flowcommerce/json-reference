@@ -70,6 +70,21 @@
     "carrier_id": "fedex"
   },
   {
+    "id": "ilg-european-single-pack",
+    "name": "European Single Pack",
+    "carrier_id": "ilg"
+  },
+  {
+    "id": "ilg-global-courier",
+    "name": "Global Courier",
+    "carrier_id": "ilg"
+  },
+  {
+    "id": "ilg-international-courier",
+    "name": "International Courier",
+    "carrier_id": "ilg"
+  },
+  {
     "id": "la-poste-colissimo",
     "name": "Colissimo",
     "carrier_id": "la-poste"
@@ -92,6 +107,11 @@
   {
     "id": "ups-ground",
     "name": "Ground",
+    "carrier_id": "ups"
+  },
+  {
+    "id": "ups-international-import",
+    "name": "International Import",
     "carrier_id": "ups"
   },
   {
