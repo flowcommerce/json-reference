@@ -49,6 +49,13 @@
     "currency": "XCD"
   },
   {
+    "name": "Antarctica",
+    "continent": "AN",
+    "iso_3166_2": "AQ",
+    "iso_3166_3": "ATA",
+    "currency": "USD"
+  },
+  {
     "name": "Antigua and Barbuda",
     "continent": "NA",
     "iso_3166_2": "AG",
@@ -1421,6 +1428,13 @@
     "currency": "ZAR"
   },
   {
+    "name": "South Georgia and the South Sandwich Islands",
+    "continent": "AN",
+    "iso_3166_2": "GS",
+    "iso_3166_3": "SGS",
+    "currency": "GBP"
+  },
+  {
     "name": "South Sudan",
     "continent": "AF",
     "iso_3166_2": "SS",
@@ -1440,6 +1454,13 @@
     "iso_3166_2": "LK",
     "iso_3166_3": "LKA",
     "currency": "LKR"
+  },
+  {
+    "name": "State of Palestine",
+    "continent": "AS",
+    "iso_3166_2": "PS",
+    "iso_3166_3": "PSE",
+    "currency": "JOD"
   },
   {
     "name": "Sudan",

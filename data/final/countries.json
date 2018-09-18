@@ -81,6 +81,15 @@
     "default_delivered_duty": "paid"
   },
   {
+    "name": "Antarctica",
+    "iso_3166_2": "AQ",
+    "iso_3166_3": "ATA",
+    "measurement_system": "metric",
+    "default_currency": "USD",
+    "languages": [],
+    "timezones": []
+  },
+  {
     "name": "Antigua and Barbuda",
     "iso_3166_2": "AG",
     "iso_3166_3": "ATG",
@@ -2488,6 +2497,15 @@
     "default_delivered_duty": "paid"
   },
   {
+    "name": "South Georgia and the South Sandwich Islands",
+    "iso_3166_2": "GS",
+    "iso_3166_3": "SGS",
+    "measurement_system": "metric",
+    "default_currency": "GBP",
+    "languages": [],
+    "timezones": []
+  },
+  {
     "name": "South Sudan",
     "iso_3166_2": "SS",
     "iso_3166_3": "SSD",
@@ -2523,6 +2541,15 @@
     ],
     "timezones": [],
     "default_delivered_duty": "paid"
+  },
+  {
+    "name": "State of Palestine",
+    "iso_3166_2": "PS",
+    "iso_3166_3": "PSE",
+    "measurement_system": "metric",
+    "default_currency": "JOD",
+    "languages": [],
+    "timezones": []
   },
   {
     "name": "Sudan",

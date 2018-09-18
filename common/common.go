@@ -319,14 +319,11 @@ func UnsupportedCountryCodes() []string {
 	return []string{
 		"AF",
 		"AGQ",
-		"ATA", // Antarctica
 		"ER",
 		"IQ",
 		"PS",
-		"PSE",
 		"SD",
 		"SS",
-		"SGS",
 		"SR",
 		"SY",
 		"PRI",

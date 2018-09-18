@@ -67,9 +67,11 @@
     "name": "Antarctica",
     "code": "ANT",
     "countries": [
+      "ATA",
       "ATF",
       "BVT",
-      "HMD"
+      "HMD",
+      "SGS"
     ]
   },
   {
@@ -114,6 +116,7 @@
       "PAK",
       "PHL",
       "PRK",
+      "PSE",
       "QAT",
       "SAU",
       "SGP",

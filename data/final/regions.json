@@ -263,6 +263,21 @@
     "timezones": []
   },
   {
+    "id": "ata",
+    "name": "Antarctica",
+    "countries": [
+      "ATA"
+    ],
+    "currencies": [
+      "USD"
+    ],
+    "languages": [],
+    "measurement_systems": [
+      "metric"
+    ],
+    "timezones": []
+  },
+  {
     "id": "atg",
     "name": "Antigua and Barbuda",
     "countries": [
@@ -372,6 +387,7 @@
       "PAK",
       "PHL",
       "PRK",
+      "PSE",
       "QAT",
       "SAU",
       "SGP",
@@ -4424,6 +4440,21 @@
     "timezones": []
   },
   {
+    "id": "sgs",
+    "name": "South Georgia and the South Sandwich Islands",
+    "countries": [
+      "SGS"
+    ],
+    "currencies": [
+      "GBP"
+    ],
+    "languages": [],
+    "measurement_systems": [
+      "metric"
+    ],
+    "timezones": []
+  },
+  {
     "id": "ssd",
     "name": "South Sudan",
     "countries": [
@@ -4471,6 +4502,21 @@
       "si",
       "ta"
     ],
+    "measurement_systems": [
+      "metric"
+    ],
+    "timezones": []
+  },
+  {
+    "id": "pse",
+    "name": "State of Palestine",
+    "countries": [
+      "PSE"
+    ],
+    "currencies": [
+      "JOD"
+    ],
+    "languages": [],
     "measurement_systems": [
       "metric"
     ],
@@ -5094,6 +5140,7 @@
       "ARG",
       "ARM",
       "ASM",
+      "ATA",
       "ATF",
       "ATG",
       "AUS",
@@ -5265,6 +5312,7 @@
       "PRK",
       "PRT",
       "PRY",
+      "PSE",
       "PYF",
       "QAT",
       "REU",
@@ -5275,6 +5323,7 @@
       "SDN",
       "SEN",
       "SGP",
+      "SGS",
       "SHN",
       "SJM",
       "SLB",
