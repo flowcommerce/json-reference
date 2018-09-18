@@ -126,6 +126,33 @@
     }
   },
   {
+    "id": "ilg-european-single-pack",
+    "name": "European Single Pack",
+    "carrier": {
+      "id": "ilg",
+      "name": "ILG",
+      "tracking_url": "https://www.ilguk.com/track-trace/"
+    }
+  },
+  {
+    "id": "ilg-global-courier",
+    "name": "Global Courier",
+    "carrier": {
+      "id": "ilg",
+      "name": "ILG",
+      "tracking_url": "https://www.ilguk.com/track-trace/"
+    }
+  },
+  {
+    "id": "ilg-international-courier",
+    "name": "International Courier",
+    "carrier": {
+      "id": "ilg",
+      "name": "ILG",
+      "tracking_url": "https://www.ilguk.com/track-trace/"
+    }
+  },
+  {
     "id": "la-poste-colissimo",
     "name": "Colissimo",
     "carrier": {
@@ -164,6 +191,15 @@
   {
     "id": "ups-ground",
     "name": "Ground",
+    "carrier": {
+      "id": "ups",
+      "name": "UPS",
+      "tracking_url": "https://track.aftership.com/ups/"
+    }
+  },
+  {
+    "id": "ups-international-import",
+    "name": "International Import",
     "carrier": {
       "id": "ups",
       "name": "UPS",

@@ -35,6 +35,11 @@
     "tracking_url": "https://www.fedex.com/apps/fedextrack/?tracknumbers="
   },
   {
+    "id": "ilg",
+    "name": "ILG",
+    "tracking_url": "https://www.ilguk.com/track-trace/"
+  },
+  {
     "id": "la-poste",
     "name": "La Poste",
     "tracking_url": "https://www.laposte.fr/particulier/outils/en/track-a-parcel?code="
