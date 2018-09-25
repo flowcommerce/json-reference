@@ -529,22 +529,33 @@ func createProvinces(data CleansedDataSet, locales []common.Locale) []common.Pro
 }
 
 func eurozone(countries []common.Country) common.Region {
-	// For currencies unsupported by Flow's payment processors, a default currency, `EUR`, is set.
-	// `EUR` is set as a default for countries which are NOT in the Eurozone, they must be filtered out of the final results.
-	excludeCountries := []string{
-		"MDG",
-		"MOZ",
-		"MRT",
-		"PRK",
-		"SSD",
-		"STP",
-		"SUR",
-		"TJK",
-		"TKM",
+	// EUROZONE is an explicit set of Countries
+	// other countries may choose to use the EUR,
+	// but that doesn't mean they are part of the EUROZONE!
+	// see: https://app.clubhouse.io/flow/story/12716/country-picker-incorrect-countries-are-showing-for-eurzone
+	countryCodes := []string{
+		"AUT",
+		"BEL",
+		"CYP",
+		"EST",
+		"FIN",
+		"FRA",
+		"DEU",
+		"GRC",
+		"IRL",
+		"ITA",
+		"LVA",
+		"LTU",
+		"LUX",
+		"MLT",
+		"NLD",
+		"PRT",
+		"SVK",
+		"SVN",
+		"ESP",
 	}
 
-	countryCodes := filterCodes(findCountriesByCurrency(countries, "EUR"), excludeCountries)
-	theseCountries := filterCountries(findCountries(countries, countryCodes), excludeCountries)
+	theseCountries := findCountries(countries, countryCodes)
 
 	return common.Region{
 		Id:                 "eurozone",
