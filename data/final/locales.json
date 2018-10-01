@@ -1280,6 +1280,16 @@
     }
   },
   {
+    "id": "en-PR",
+    "name": "English - Puerto Rico",
+    "country": "PRI",
+    "language": "en",
+    "numbers": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
     "id": "en-RW",
     "name": "English - Rwanda",
     "country": "RWA",
@@ -3127,6 +3137,16 @@
     "numbers": {
       "decimal": ",",
       "group": "."
+    }
+  },
+  {
+    "id": "es-PR",
+    "name": "Spanish - Puerto Rico",
+    "country": "PRI",
+    "language": "es",
+    "numbers": {
+      "decimal": ".",
+      "group": ","
     }
   },
   {
