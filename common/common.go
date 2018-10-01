@@ -326,7 +326,6 @@ func UnsupportedCountryCodes() []string {
 		"SS",
 		"SR",
 		"SY",
-		"PRI",
 		"TJ",
 	}
 }

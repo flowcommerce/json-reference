@@ -1225,6 +1225,13 @@
     "currency": "EUR"
   },
   {
+    "name": "Puerto Rico",
+    "continent": "NA",
+    "iso_3166_2": "PR",
+    "iso_3166_3": "PRI",
+    "currency": "USD"
+  },
+  {
     "name": "Qatar",
     "continent": "AS",
     "iso_3166_2": "QA",

@@ -2131,6 +2131,18 @@
     "default_delivered_duty": "paid"
   },
   {
+    "name": "Puerto Rico",
+    "iso_3166_2": "PR",
+    "iso_3166_3": "PRI",
+    "measurement_system": "metric",
+    "default_currency": "USD",
+    "languages": [
+      "es"
+    ],
+    "timezones": [],
+    "default_delivered_duty": "paid"
+  },
+  {
     "name": "Qatar",
     "iso_3166_2": "QA",
     "iso_3166_3": "QAT",
