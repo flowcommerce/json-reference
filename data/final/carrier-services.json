@@ -63,6 +63,15 @@
     }
   },
   {
+    "id": "dhl-economy-select",
+    "name": "Economy Select",
+    "carrier": {
+      "id": "dhl",
+      "name": "DHL Express",
+      "tracking_url": "http://www.dhl.com/en/express/tracking.html?AWB="
+    }
+  },
+  {
     "id": "dhl-express-worldwide",
     "name": "Express Worldwide",
     "carrier": {
@@ -180,6 +189,15 @@
     }
   },
   {
+    "id": "ups-express-international",
+    "name": "Express International",
+    "carrier": {
+      "id": "ups",
+      "name": "UPS",
+      "tracking_url": "https://track.aftership.com/ups/"
+    }
+  },
+  {
     "id": "ups-express-saver",
     "name": "Express Saver",
     "carrier": {
@@ -200,6 +218,15 @@
   {
     "id": "ups-international-import",
     "name": "International Import",
+    "carrier": {
+      "id": "ups",
+      "name": "UPS",
+      "tracking_url": "https://track.aftership.com/ups/"
+    }
+  },
+  {
+    "id": "ups-standard-international",
+    "name": "Standard International",
     "carrier": {
       "id": "ups",
       "name": "UPS",

@@ -6,6 +6,7 @@ canada-post-priority,Priority,canada-post
 canada-post-regular-parcel,Regular Parcel,canada-post
 canada-post-xpresspost,Xpresspost,canada-post
 dhl-ecommerce-standard,Standard,dhl-ecommerce
+dhl-economy-select,Economy Select,dhl
 dhl-express-worldwide,Express Worldwide,dhl
 dhl-global-mail-packet-plus,Packet Plus,dhl-global-mail
 dhl-parcel-international-direct,International Direct,dhl-parcel
@@ -21,6 +22,8 @@ ilg-international-courier,International Courier,ilg
 sf-express-economy-express-parcel,Economy Express Parcel,sf-express
 ups-ground,Ground,ups
 ups-international-import,International Import,ups
+ups-express-international,Express International,ups
 ups-express-saver,Express Saver,ups
+ups-standard-international,Standard International,ups
 usps-priority-mail-international,Priority Mail International,usps
 wn-direct-standard,Standard,wn-direct

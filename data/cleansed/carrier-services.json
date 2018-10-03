@@ -35,6 +35,11 @@
     "carrier_id": "dhl-ecommerce"
   },
   {
+    "id": "dhl-economy-select",
+    "name": "Economy Select",
+    "carrier_id": "dhl"
+  },
+  {
     "id": "dhl-express-worldwide",
     "name": "Express Worldwide",
     "carrier_id": "dhl"
@@ -100,6 +105,11 @@
     "carrier_id": "sf-express"
   },
   {
+    "id": "ups-express-international",
+    "name": "Express International",
+    "carrier_id": "ups"
+  },
+  {
     "id": "ups-express-saver",
     "name": "Express Saver",
     "carrier_id": "ups"
@@ -112,6 +122,11 @@
   {
     "id": "ups-international-import",
     "name": "International Import",
+    "carrier_id": "ups"
+  },
+  {
+    "id": "ups-standard-international",
+    "name": "Standard International",
     "carrier_id": "ups"
   },
   {
