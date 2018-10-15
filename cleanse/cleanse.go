@@ -101,6 +101,11 @@ type CountryTimezone struct {
 	CountryCode  string `json:"country"`
 }
 
+type CountryDefaultLanguage struct {
+	LanguageCode string `json:"language"`
+	CountryCode  string `json:"country"`
+}
+
 type IncomingLanguages struct {
 	LanguageFamilies []string           `json:"languageFamilies"`
 	Languages        []IncomingLanguage `json:"languages"`
@@ -427,6 +432,23 @@ func Cleanse() {
 			},
 			func(record map[string]string) string {
 				return record["timezone"] + record["country"]
+			},
+		),
+	)
+
+	writeJson("data/cleansed/country-default-languages.json",
+		toObjects(readCsv("data/original/country-default-languages.csv"),
+			func(record map[string]string) bool {
+				return true
+			},
+			func(record map[string]string) interface{} {
+				return CountryDefaultLanguage{
+					LanguageCode: strings.ToLower(record["language"]),
+					CountryCode:  strings.ToUpper(record["country"]),
+				}
+			},
+			func(record map[string]string) string {
+				return record["country"]
 			},
 		),
 	)
