@@ -14,6 +14,20 @@
     ]
   },
   {
+    "id": "afterpay",
+    "type": "online",
+    "name": "Afterpay",
+    "small_width": 65,
+    "small_height": 41,
+    "medium_width": 100,
+    "medium_height": 60,
+    "large_width": 256,
+    "large_height": 256,
+    "regions": [
+      "world"
+    ]
+  },
+  {
     "id": "alipay",
     "type": "online",
     "name": "Alipay",
