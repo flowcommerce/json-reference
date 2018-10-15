@@ -38,6 +38,7 @@ type Country struct {
 	Iso_3166_3           string   `json:"iso_3166_3"`
 	MeasurementSystem    string   `json:"measurement_system"`
 	DefaultCurrency      string   `json:"default_currency,omitempty"`
+	DefaultLanguage      string   `json:"default_language,omitempty"`
 	Languages            []string `json:"languages"`
 	Timezones            []string `json:"timezones"`
 	DefaultDeliveredDuty string   `json:"default_delivered_duty,omitempty"`

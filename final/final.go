@@ -31,6 +31,7 @@ type CleansedDataSet struct {
 	ProvinceTranslations []cleanse.ProvinceTranslation
 	Timezones            []cleanse.Timezone
 	CountryTimezones     []cleanse.CountryTimezone
+	CountryDefaultLanguages     []cleanse.CountryDefaultLanguage
 }
 
 func Generate() {
@@ -51,6 +52,7 @@ func Generate() {
 		Numbers:              cleanse.LoadNumbers(),
 		Timezones:            cleanse.LoadTimezones(),
 		CountryTimezones:     cleanse.LoadCountryTimezones(),
+		CountryDefaultLanguages: cleanse.LoadCountryDefaultLanguages(),
 	}
 
 	continents := commonContinents(data)
@@ -408,6 +410,21 @@ func commonCountries(data CleansedDataSet) []common.Country {
 			}
 		}
 
+		var defaultLanguage string
+		for _, cl := range data.CountryDefaultLanguages {
+			if cl.CountryCode == c.Iso_3166_3 {
+                lang := findLanguageByCode(data.Languages, cl.LanguageCode)
+                if (defaultLanguage != "") {
+                    fmt.Printf("ERROR: invalid multiple default language codes for country[%s]\n", cl.CountryCode)
+                    os.Exit(1)
+                }
+				defaultLanguage = lang.Iso_639_2
+			}
+		}
+		if (defaultLanguage == "" && len(languages) > 0) {
+    		defaultLanguage = languages[0]
+		}
+
 		var defaultCurrency string
 		if c.Currency != "" {
 			defaultCurrency = findCurrencyByCode(data.Currencies, c.Currency).Iso_4217_3
@@ -428,6 +445,7 @@ func commonCountries(data CleansedDataSet) []common.Country {
 			Iso_3166_3:           c.Iso_3166_3,
 			MeasurementSystem:    getMeasurementSystem(c.Iso_3166_3),
 			DefaultCurrency:      defaultCurrency,
+			DefaultLanguage:      defaultLanguage,
 			Languages:            languages,
 			Timezones:            timezones,
 			DefaultDeliveredDuty: defaultDeliveredDuty,

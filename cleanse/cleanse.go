@@ -887,6 +887,13 @@ func LoadCountryTimezones() []CountryTimezone {
 	return countryTimezones
 }
 
+func LoadCountryDefaultLanguages() []CountryDefaultLanguage {
+	countryDefaultLanguages := []CountryDefaultLanguage{}
+	err := json.Unmarshal(common.ReadFile("data/cleansed/country-default-languages.json"), &countryDefaultLanguages)
+	util.ExitIfError(err, fmt.Sprintf("Failed to unmarshal country default languages: %s", err))
+	return countryDefaultLanguages
+}
+
 func loadCldrNumbers(dir string) []Number {
 	numbers := []Number{}
 	filepath.Walk(dir, func(path string, dirInfo os.FileInfo, err error) error {
