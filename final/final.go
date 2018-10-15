@@ -418,6 +418,10 @@ func commonCountries(data CleansedDataSet) []common.Country {
                     fmt.Printf("ERROR: invalid multiple default language codes for country[%s]\n", cl.CountryCode)
                     os.Exit(1)
                 }
+                if (!common.Contains(languages, lang.Iso_639_2)) {
+                    fmt.Printf("ERROR: default language[%s] is not listed in languages for country[%s]\n", lang.Iso_639_2, cl.CountryCode)
+                    os.Exit(1)
+                }
 				defaultLanguage = lang.Iso_639_2
 			}
 		}
