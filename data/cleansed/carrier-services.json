@@ -100,6 +100,21 @@
     "carrier_id": "landmark"
   },
   {
+    "id": "other-freight",
+    "name": "Freight",
+    "carrier_id": "other"
+  },
+  {
+    "id": "other-ltl",
+    "name": "Less Than Truckload",
+    "carrier_id": "other"
+  },
+  {
+    "id": "other-postal",
+    "name": "Postal",
+    "carrier_id": "other"
+  },
+  {
     "id": "sf-express-economy-express-parcel",
     "name": "Economy Express Parcel",
     "carrier_id": "sf-express"
