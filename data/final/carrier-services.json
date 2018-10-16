@@ -180,6 +180,33 @@
     }
   },
   {
+    "id": "other-freight",
+    "name": "Freight",
+    "carrier": {
+      "id": "other",
+      "name": "Other",
+      "tracking_url": "https://track.flow.io/"
+    }
+  },
+  {
+    "id": "other-ltl",
+    "name": "Less Than Truckload",
+    "carrier": {
+      "id": "other",
+      "name": "Other",
+      "tracking_url": "https://track.flow.io/"
+    }
+  },
+  {
+    "id": "other-postal",
+    "name": "Postal",
+    "carrier": {
+      "id": "other",
+      "name": "Other",
+      "tracking_url": "https://track.flow.io/"
+    }
+  },
+  {
     "id": "sf-express-economy-express-parcel",
     "name": "Economy Express Parcel",
     "carrier": {

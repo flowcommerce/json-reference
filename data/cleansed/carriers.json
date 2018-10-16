@@ -50,6 +50,11 @@
     "tracking_url": "https://track.landmarkglobal.com/?trck="
   },
   {
+    "id": "other",
+    "name": "Other",
+    "tracking_url": "https://track.flow.io/"
+  },
+  {
     "id": "sf-express",
     "name": "SF Express",
     "tracking_url": "http://www.sf-express.com/us/en/dynamic_function/waybill/#search/bill-number/"
