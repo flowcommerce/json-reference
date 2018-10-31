@@ -503,7 +503,7 @@
   {
     "name": "Hungarian Forint",
     "iso_4217_3": "HUF",
-    "number_decimals": 2,
+    "number_decimals": 0,
     "symbols": {
       "primary": "HUF",
       "narrow": "Ft"
@@ -996,7 +996,7 @@
   {
     "name": "Russian Ruble",
     "iso_4217_3": "RUB",
-    "number_decimals": 2,
+    "number_decimals": 0,
     "symbols": {
       "primary": "RUB",
       "narrow": "₽"
