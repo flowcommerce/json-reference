@@ -1508,7 +1508,7 @@
     "symbol": "HUF",
     "decimal": ",",
     "group": " ",
-    "precision": 2,
+    "precision": 0,
     "format": "%s%v"
   },
   "hy-AM": {
@@ -1914,7 +1914,7 @@
     "symbol": "RUB",
     "decimal": ",",
     "group": " ",
-    "precision": 2,
+    "precision": 0,
     "format": "%s%v"
   },
   "ru-KG": {

@@ -337,7 +337,7 @@
   {
     "iso_4217_3": "RUB",
     "name": "Russian Ruble",
-    "number_decimals": 2
+    "number_decimals": 0
   },
   {
     "iso_4217_3": "EEK",
@@ -432,7 +432,7 @@
   {
     "iso_4217_3": "HUF",
     "name": "Hungarian Forint",
-    "number_decimals": 2
+    "number_decimals": 0
   },
   {
     "iso_4217_3": "IDR",
