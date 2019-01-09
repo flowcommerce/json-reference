@@ -1119,7 +1119,8 @@
     "symbols": {
       "primary": "₩",
       "narrow": "₩"
-    }
+    },
+    "default_locale": "ko-KR"
   },
   {
     "name": "Sri Lanka Rupee",
