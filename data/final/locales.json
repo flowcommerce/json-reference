@@ -2380,6 +2380,16 @@
     }
   },
   {
+    "id": "ko-KR",
+    "name": "Korean - Korea",
+    "country": "KOR",
+    "language": "ko",
+    "numbers": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
     "id": "ky",
     "name": "Kyrgyz - Cayman Islands",
     "country": "CYM",
