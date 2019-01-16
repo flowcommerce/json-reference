@@ -866,6 +866,9 @@
     "primary": "UYU",
     "narrow": "$"
   },
+  "UYW": {
+    "primary": "UYW"
+  },
   "UZS": {
     "primary": "UZS"
   },
@@ -875,6 +878,9 @@
   "VEF": {
     "primary": "VEF",
     "narrow": "Bs"
+  },
+  "VES": {
+    "primary": "VES"
   },
   "VND": {
     "primary": "₫",
@@ -951,7 +957,7 @@
     "primary": "XUA"
   },
   "XXX": {
-    "primary": "XXX"
+    "primary": "¤"
   },
   "YDD": {
     "primary": "YDD"
