@@ -4254,7 +4254,7 @@
   {
     "id": "ROU-AG",
     "iso_3166_2": "AG",
-    "name": "Arges",
+    "name": "Argeș",
     "country": "ROU",
     "province_type": "other"
   },
@@ -4268,14 +4268,14 @@
   {
     "id": "ROU-B",
     "iso_3166_2": "B",
-    "name": "Bucuresti",
+    "name": "București",
     "country": "ROU",
     "province_type": "municipality"
   },
   {
     "id": "ROU-BC",
     "iso_3166_2": "BC",
-    "name": "Bacau",
+    "name": "Bacău",
     "country": "ROU",
     "province_type": "other"
   },
@@ -4289,35 +4289,35 @@
   {
     "id": "ROU-BN",
     "iso_3166_2": "BN",
-    "name": "Bistrita-Nasaud",
+    "name": "Bistrița-Năsăud",
     "country": "ROU",
     "province_type": "other"
   },
   {
     "id": "ROU-BR",
     "iso_3166_2": "BR",
-    "name": "Braila",
+    "name": "Brăila",
     "country": "ROU",
     "province_type": "other"
   },
   {
     "id": "ROU-BT",
     "iso_3166_2": "BT",
-    "name": "Botosani",
+    "name": "Botoșani",
     "country": "ROU",
     "province_type": "other"
   },
   {
     "id": "ROU-BV",
     "iso_3166_2": "BV",
-    "name": "Brasov",
+    "name": "Brașov",
     "country": "ROU",
     "province_type": "other"
   },
   {
     "id": "ROU-BZ",
     "iso_3166_2": "BZ",
-    "name": "Buzau",
+    "name": "Buzău",
     "country": "ROU",
     "province_type": "other"
   },
@@ -4331,21 +4331,21 @@
   {
     "id": "ROU-CL",
     "iso_3166_2": "CL",
-    "name": "Calarasi",
+    "name": "Călărași",
     "country": "ROU",
     "province_type": "other"
   },
   {
     "id": "ROU-CS",
     "iso_3166_2": "CS",
-    "name": "Caras-Severin",
+    "name": "Caraș-Severin",
     "country": "ROU",
     "province_type": "other"
   },
   {
     "id": "ROU-CT",
     "iso_3166_2": "CT",
-    "name": "Constarta",
+    "name": "Constanța",
     "country": "ROU",
     "province_type": "other"
   },
@@ -4359,7 +4359,7 @@
   {
     "id": "ROU-DB",
     "iso_3166_2": "DB",
-    "name": "D�mbovita",
+    "name": "Dâmbovița",
     "country": "ROU",
     "province_type": "other"
   },
@@ -4380,7 +4380,7 @@
   {
     "id": "ROU-GL",
     "iso_3166_2": "GL",
-    "name": "Galati",
+    "name": "Galați",
     "country": "ROU",
     "province_type": "other"
   },
@@ -4415,28 +4415,28 @@
   {
     "id": "ROU-IL",
     "iso_3166_2": "IL",
-    "name": "Ialomita",
+    "name": "Ialomița",
     "country": "ROU",
     "province_type": "other"
   },
   {
     "id": "ROU-IS",
     "iso_3166_2": "IS",
-    "name": "Iasi",
+    "name": "Iași",
     "country": "ROU",
     "province_type": "other"
   },
   {
     "id": "ROU-MH",
     "iso_3166_2": "MH",
-    "name": "Mehedinti",
+    "name": "Mehedinți",
     "country": "ROU",
     "province_type": "other"
   },
   {
     "id": "ROU-MM",
     "iso_3166_2": "MM",
-    "name": "Maramures",
+    "name": "Maramureș",
     "country": "ROU",
     "province_type": "other"
   },
@@ -4450,7 +4450,7 @@
   {
     "id": "ROU-NT",
     "iso_3166_2": "NT",
-    "name": "Neamt",
+    "name": "Neamț",
     "country": "ROU",
     "province_type": "other"
   },
@@ -4478,7 +4478,7 @@
   {
     "id": "ROU-SJ",
     "iso_3166_2": "SJ",
-    "name": "Salaj",
+    "name": "Sălaj",
     "country": "ROU",
     "province_type": "other"
   },
@@ -4506,7 +4506,7 @@
   {
     "id": "ROU-TM",
     "iso_3166_2": "TM",
-    "name": "Timis",
+    "name": "Timiș",
     "country": "ROU",
     "province_type": "other"
   },
@@ -4520,7 +4520,7 @@
   {
     "id": "ROU-VL",
     "iso_3166_2": "VL",
-    "name": "V�lcea",
+    "name": "Vâlcea",
     "country": "ROU",
     "province_type": "other"
   },
