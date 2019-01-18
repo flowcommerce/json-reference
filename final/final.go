@@ -511,6 +511,7 @@ func createProvinces(data CleansedDataSet, locales []common.Locale) []common.Pro
 		"USA",
 		"CHN",
 		"ESP",
+		"ROU",
 	}
 
 	for _, p := range data.Provinces {

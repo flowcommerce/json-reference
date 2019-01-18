@@ -4245,6 +4245,300 @@
     "province_type": "other"
   },
   {
+    "id": "ROU-AB",
+    "iso_3166_2": "AB",
+    "name": "Alba",
+    "country": "ROU",
+    "province_type": "other"
+  },
+  {
+    "id": "ROU-AG",
+    "iso_3166_2": "AG",
+    "name": "Arges",
+    "country": "ROU",
+    "province_type": "other"
+  },
+  {
+    "id": "ROU-AR",
+    "iso_3166_2": "AR",
+    "name": "Arad",
+    "country": "ROU",
+    "province_type": "other"
+  },
+  {
+    "id": "ROU-B",
+    "iso_3166_2": "B",
+    "name": "Bucuresti",
+    "country": "ROU",
+    "province_type": "municipality"
+  },
+  {
+    "id": "ROU-BC",
+    "iso_3166_2": "BC",
+    "name": "Bacau",
+    "country": "ROU",
+    "province_type": "other"
+  },
+  {
+    "id": "ROU-BH",
+    "iso_3166_2": "BH",
+    "name": "Bihor",
+    "country": "ROU",
+    "province_type": "other"
+  },
+  {
+    "id": "ROU-BN",
+    "iso_3166_2": "BN",
+    "name": "Bistrita-Nasaud",
+    "country": "ROU",
+    "province_type": "other"
+  },
+  {
+    "id": "ROU-BR",
+    "iso_3166_2": "BR",
+    "name": "Braila",
+    "country": "ROU",
+    "province_type": "other"
+  },
+  {
+    "id": "ROU-BT",
+    "iso_3166_2": "BT",
+    "name": "Botosani",
+    "country": "ROU",
+    "province_type": "other"
+  },
+  {
+    "id": "ROU-BV",
+    "iso_3166_2": "BV",
+    "name": "Brasov",
+    "country": "ROU",
+    "province_type": "other"
+  },
+  {
+    "id": "ROU-BZ",
+    "iso_3166_2": "BZ",
+    "name": "Buzau",
+    "country": "ROU",
+    "province_type": "other"
+  },
+  {
+    "id": "ROU-CJ",
+    "iso_3166_2": "CJ",
+    "name": "Cluj",
+    "country": "ROU",
+    "province_type": "other"
+  },
+  {
+    "id": "ROU-CL",
+    "iso_3166_2": "CL",
+    "name": "Calarasi",
+    "country": "ROU",
+    "province_type": "other"
+  },
+  {
+    "id": "ROU-CS",
+    "iso_3166_2": "CS",
+    "name": "Caras-Severin",
+    "country": "ROU",
+    "province_type": "other"
+  },
+  {
+    "id": "ROU-CT",
+    "iso_3166_2": "CT",
+    "name": "Constarta",
+    "country": "ROU",
+    "province_type": "other"
+  },
+  {
+    "id": "ROU-CV",
+    "iso_3166_2": "CV",
+    "name": "Covasna",
+    "country": "ROU",
+    "province_type": "other"
+  },
+  {
+    "id": "ROU-DB",
+    "iso_3166_2": "DB",
+    "name": "D�mbovita",
+    "country": "ROU",
+    "province_type": "other"
+  },
+  {
+    "id": "ROU-DJ",
+    "iso_3166_2": "DJ",
+    "name": "Dolj",
+    "country": "ROU",
+    "province_type": "other"
+  },
+  {
+    "id": "ROU-GJ",
+    "iso_3166_2": "GJ",
+    "name": "Gorj",
+    "country": "ROU",
+    "province_type": "other"
+  },
+  {
+    "id": "ROU-GL",
+    "iso_3166_2": "GL",
+    "name": "Galati",
+    "country": "ROU",
+    "province_type": "other"
+  },
+  {
+    "id": "ROU-GR",
+    "iso_3166_2": "GR",
+    "name": "Giurgiu",
+    "country": "ROU",
+    "province_type": "other"
+  },
+  {
+    "id": "ROU-HD",
+    "iso_3166_2": "HD",
+    "name": "Hunedoara",
+    "country": "ROU",
+    "province_type": "other"
+  },
+  {
+    "id": "ROU-HR",
+    "iso_3166_2": "HR",
+    "name": "Harghita",
+    "country": "ROU",
+    "province_type": "other"
+  },
+  {
+    "id": "ROU-IF",
+    "iso_3166_2": "IF",
+    "name": "Ilfov",
+    "country": "ROU",
+    "province_type": "other"
+  },
+  {
+    "id": "ROU-IL",
+    "iso_3166_2": "IL",
+    "name": "Ialomita",
+    "country": "ROU",
+    "province_type": "other"
+  },
+  {
+    "id": "ROU-IS",
+    "iso_3166_2": "IS",
+    "name": "Iasi",
+    "country": "ROU",
+    "province_type": "other"
+  },
+  {
+    "id": "ROU-MH",
+    "iso_3166_2": "MH",
+    "name": "Mehedinti",
+    "country": "ROU",
+    "province_type": "other"
+  },
+  {
+    "id": "ROU-MM",
+    "iso_3166_2": "MM",
+    "name": "Maramures",
+    "country": "ROU",
+    "province_type": "other"
+  },
+  {
+    "id": "ROU-MS",
+    "iso_3166_2": "MS",
+    "name": "Mures",
+    "country": "ROU",
+    "province_type": "other"
+  },
+  {
+    "id": "ROU-NT",
+    "iso_3166_2": "NT",
+    "name": "Neamt",
+    "country": "ROU",
+    "province_type": "other"
+  },
+  {
+    "id": "ROU-OT",
+    "iso_3166_2": "OT",
+    "name": "Olt",
+    "country": "ROU",
+    "province_type": "other"
+  },
+  {
+    "id": "ROU-PH",
+    "iso_3166_2": "PH",
+    "name": "Prahova",
+    "country": "ROU",
+    "province_type": "other"
+  },
+  {
+    "id": "ROU-SB",
+    "iso_3166_2": "SB",
+    "name": "Sibiu",
+    "country": "ROU",
+    "province_type": "other"
+  },
+  {
+    "id": "ROU-SJ",
+    "iso_3166_2": "SJ",
+    "name": "Salaj",
+    "country": "ROU",
+    "province_type": "other"
+  },
+  {
+    "id": "ROU-SM",
+    "iso_3166_2": "SM",
+    "name": "Satu Mare",
+    "country": "ROU",
+    "province_type": "other"
+  },
+  {
+    "id": "ROU-SV",
+    "iso_3166_2": "SV",
+    "name": "Suceava",
+    "country": "ROU",
+    "province_type": "other"
+  },
+  {
+    "id": "ROU-TL",
+    "iso_3166_2": "TL",
+    "name": "Tulcea",
+    "country": "ROU",
+    "province_type": "other"
+  },
+  {
+    "id": "ROU-TM",
+    "iso_3166_2": "TM",
+    "name": "Timis",
+    "country": "ROU",
+    "province_type": "other"
+  },
+  {
+    "id": "ROU-TR",
+    "iso_3166_2": "TR",
+    "name": "Teleorman",
+    "country": "ROU",
+    "province_type": "other"
+  },
+  {
+    "id": "ROU-VL",
+    "iso_3166_2": "VL",
+    "name": "V�lcea",
+    "country": "ROU",
+    "province_type": "other"
+  },
+  {
+    "id": "ROU-VN",
+    "iso_3166_2": "VN",
+    "name": "Vrancea",
+    "country": "ROU",
+    "province_type": "other"
+  },
+  {
+    "id": "ROU-VS",
+    "iso_3166_2": "VS",
+    "name": "Vaslui",
+    "country": "ROU",
+    "province_type": "other"
+  },
+  {
     "id": "USA-AK",
     "iso_3166_2": "AK",
     "name": "Alaska",
