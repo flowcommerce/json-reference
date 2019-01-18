@@ -17827,7 +17827,7 @@
   },
   {
     "iso_3166_2": "AG",
-    "name": "Arges",
+    "name": "Argeș",
     "country": "RO",
     "province_type": "other"
   },
@@ -17839,13 +17839,13 @@
   },
   {
     "iso_3166_2": "B",
-    "name": "Bucuresti",
+    "name": "București",
     "country": "RO",
     "province_type": "municipality"
   },
   {
     "iso_3166_2": "BC",
-    "name": "Bacau",
+    "name": "Bacău",
     "country": "RO",
     "province_type": "other"
   },
@@ -17857,31 +17857,31 @@
   },
   {
     "iso_3166_2": "BN",
-    "name": "Bistrita-Nasaud",
+    "name": "Bistrița-Năsăud",
     "country": "RO",
     "province_type": "other"
   },
   {
     "iso_3166_2": "BR",
-    "name": "Braila",
+    "name": "Brăila",
     "country": "RO",
     "province_type": "other"
   },
   {
     "iso_3166_2": "BT",
-    "name": "Botosani",
+    "name": "Botoșani",
     "country": "RO",
     "province_type": "other"
   },
   {
     "iso_3166_2": "BV",
-    "name": "Brasov",
+    "name": "Brașov",
     "country": "RO",
     "province_type": "other"
   },
   {
     "iso_3166_2": "BZ",
-    "name": "Buzau",
+    "name": "Buzău",
     "country": "RO",
     "province_type": "other"
   },
@@ -17893,19 +17893,19 @@
   },
   {
     "iso_3166_2": "CL",
-    "name": "Calarasi",
+    "name": "Călărași",
     "country": "RO",
     "province_type": "other"
   },
   {
     "iso_3166_2": "CS",
-    "name": "Caras-Severin",
+    "name": "Caraș-Severin",
     "country": "RO",
     "province_type": "other"
   },
   {
     "iso_3166_2": "CT",
-    "name": "Constarta",
+    "name": "Constanța",
     "country": "RO",
     "province_type": "other"
   },
@@ -17917,7 +17917,7 @@
   },
   {
     "iso_3166_2": "DB",
-    "name": "D�mbovita",
+    "name": "Dâmbovița",
     "country": "RO",
     "province_type": "other"
   },
@@ -17935,7 +17935,7 @@
   },
   {
     "iso_3166_2": "GL",
-    "name": "Galati",
+    "name": "Galați",
     "country": "RO",
     "province_type": "other"
   },
@@ -17965,25 +17965,25 @@
   },
   {
     "iso_3166_2": "IL",
-    "name": "Ialomita",
+    "name": "Ialomița",
     "country": "RO",
     "province_type": "other"
   },
   {
     "iso_3166_2": "IS",
-    "name": "Iasi",
+    "name": "Iași",
     "country": "RO",
     "province_type": "other"
   },
   {
     "iso_3166_2": "MH",
-    "name": "Mehedinti",
+    "name": "Mehedinți",
     "country": "RO",
     "province_type": "other"
   },
   {
     "iso_3166_2": "MM",
-    "name": "Maramures",
+    "name": "Maramureș",
     "country": "RO",
     "province_type": "other"
   },
@@ -17995,7 +17995,7 @@
   },
   {
     "iso_3166_2": "NT",
-    "name": "Neamt",
+    "name": "Neamț",
     "country": "RO",
     "province_type": "other"
   },
@@ -18019,7 +18019,7 @@
   },
   {
     "iso_3166_2": "SJ",
-    "name": "Salaj",
+    "name": "Sălaj",
     "country": "RO",
     "province_type": "other"
   },
@@ -18043,7 +18043,7 @@
   },
   {
     "iso_3166_2": "TM",
-    "name": "Timis",
+    "name": "Timiș",
     "country": "RO",
     "province_type": "other"
   },
@@ -18055,7 +18055,7 @@
   },
   {
     "iso_3166_2": "VL",
-    "name": "V�lcea",
+    "name": "Vâlcea",
     "country": "RO",
     "province_type": "other"
   },
