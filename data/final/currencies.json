@@ -1306,7 +1306,8 @@
     "symbols": {
       "primary": "₫",
       "narrow": "₫"
-    }
+    },
+    "default_locale": "vi-VN"
   },
   {
     "name": "Yemeni Rial",

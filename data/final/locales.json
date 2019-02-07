@@ -3400,9 +3400,9 @@
     }
   },
   {
-    "id": "vi",
-    "name": "Vietnamese - United States Virgin Islands",
-    "country": "VIR",
+    "id": "vi-VN",
+    "name": "Vietnamese - Vietnam",
+    "country": "VNM",
     "language": "vi",
     "numbers": {
       "decimal": ",",

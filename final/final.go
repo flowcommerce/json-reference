@@ -164,6 +164,7 @@ func commonLocales(data CleansedDataSet) []common.Locale {
 		"zh": "cn",
 		"el": "gr",
 		"ko": "kr",
+		"vi": "vn",
 	}
 
 	unsupportedLanguages := []string{
