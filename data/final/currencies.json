@@ -1166,7 +1166,8 @@
     "symbols": {
       "primary": "SEK",
       "narrow": "kr"
-    }
+    },
+    "default_locale": "sv-SE"
   },
   {
     "name": "Swiss Franc",

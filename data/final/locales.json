@@ -3250,9 +3250,9 @@
     }
   },
   {
-    "id": "sv",
-    "name": "Swedish - El Salvador",
-    "country": "SLV",
+    "id": "sv-FI",
+    "name": "Swedish - Finland",
+    "country": "FIN",
     "language": "sv",
     "numbers": {
       "decimal": ",",
@@ -3260,9 +3260,9 @@
     }
   },
   {
-    "id": "sv-FI",
-    "name": "Swedish - Finland",
-    "country": "FIN",
+    "id": "sv-SE",
+    "name": "Swedish - Sweden",
+    "country": "SWE",
     "language": "sv",
     "numbers": {
       "decimal": ",",
