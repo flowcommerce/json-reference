@@ -460,6 +460,16 @@
     }
   },
   {
+    "id": "zh-TW",
+    "name": "Chinese - Taiwan",
+    "country": "TWN",
+    "language": "zh",
+    "numbers": {
+      "decimal": ".",
+      "group": ","
+    }
+  },
+  {
     "id": "hr-BA",
     "name": "Croatian - Bosnia and Herzegovina",
     "country": "BIH",

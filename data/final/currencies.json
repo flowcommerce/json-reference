@@ -856,7 +856,8 @@
     "symbols": {
       "primary": "NT$",
       "narrow": "$"
-    }
+    },
+    "default_locale": "zh-TW"
   },
   {
     "name": "New Turkish Lira",
