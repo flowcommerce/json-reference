@@ -787,6 +787,28 @@ func LoadCurrencyLocales() map[string]string {
 	return table
 }
 
+
+// For some reason, some countries are missing from the underlying CLDR "Numbers" data that we ingest.
+// It's easier to add this manual override than figure out how to fix the source data.
+func LoadLocaleOverrides() []common.Locale {
+	results := []common.Locale{}
+
+	for _, record := range readCsv("data/overrides/locales.csv") {
+		results = append(results, common.Locale{
+			Id:       record["id"],
+			Name:     record["name"],
+			Country:  record["country"],
+			Language: record["language"],
+			Numbers: common.LocaleNumbers{
+				Decimal: record["numbers_decimal"],
+				Group:   record["numbers_group"],
+			},
+		})
+	}
+
+	return results
+}
+
 func LoadContinents() []Continent {
 	return []Continent{
 		Continent{
