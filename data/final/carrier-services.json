@@ -207,6 +207,24 @@
     }
   },
   {
+    "id": "rrdonnelley-international-ipa",
+    "name": "International IPA",
+    "carrier": {
+      "id": "rrdonnelley",
+      "name": "RR Donnelley",
+      "tracking_url": "https://track.aftership.com/rrdonnelley/"
+    }
+  },
+  {
+    "id": "rrdonnelley-international-ppdc",
+    "name": "International PPDC",
+    "carrier": {
+      "id": "rrdonnelley",
+      "name": "RR Donnelley",
+      "tracking_url": "https://track.aftership.com/rrdonnelley/"
+    }
+  },
+  {
     "id": "sf-express-economy-express-parcel",
     "name": "Economy Express Parcel",
     "carrier": {
