@@ -115,6 +115,16 @@
     "carrier_id": "other"
   },
   {
+    "id": "rrdonnelley-international-ipa",
+    "name": "International IPA",
+    "carrier_id": "rrdonnelley"
+  },
+  {
+    "id": "rrdonnelley-international-ppdc",
+    "name": "International PPDC",
+    "carrier_id": "rrdonnelley"
+  },
+  {
     "id": "sf-express-economy-express-parcel",
     "name": "Economy Express Parcel",
     "carrier_id": "sf-express"
