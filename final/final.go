@@ -184,21 +184,6 @@ func commonLocales(data CleansedDataSet) []common.Locale {
 		"se":  "sw",
 	}
 
-	// For some reason, Taiwan is missing from the underlying CLDR "Numbers" data that we ingest.
-	// It's easier to add this manual override than figuring out how to fix the source data.
-	overrides := []common.Locale{
-		common.Locale{
-			Id:       "zh-TW",
-			Name:     "Chinese - Taiwan",
-			Country:  "TWN",
-			Language: "zh",
-			Numbers: common.LocaleNumbers{
-				Decimal: ".",
-				Group:   ",",
-			},
-		},
-	}
-
 	unsupportedCountryCodes := common.UnsupportedCountryCodes()
 
 	for _, n := range data.Numbers {
@@ -294,7 +279,7 @@ func commonLocales(data CleansedDataSet) []common.Locale {
 		}
 	}
 
-	all = append(all, overrides...)
+	all = append(all, cleanse.LoadLocaleOverrides()...)
 
 	uniqueLocales := uniqueLocaleIds(all)
 	sortLocales(uniqueLocales)
