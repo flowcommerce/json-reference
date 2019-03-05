@@ -108,6 +108,15 @@
     }
   },
   {
+    "id": "fedex-ground",
+    "name": "Ground",
+    "carrier": {
+      "id": "fedex",
+      "name": "FedEx",
+      "tracking_url": "https://www.fedex.com/apps/fedextrack/?tracknumbers="
+    }
+  },
+  {
     "id": "fedex-international-economy",
     "name": "International Economy",
     "carrier": {
@@ -128,6 +137,15 @@
   {
     "id": "fedex-international-standard",
     "name": "International Standard",
+    "carrier": {
+      "id": "fedex",
+      "name": "FedEx",
+      "tracking_url": "https://www.fedex.com/apps/fedextrack/?tracknumbers="
+    }
+  },
+  {
+    "id": "fedex-overnight",
+    "name": "Overnight",
     "carrier": {
       "id": "fedex",
       "name": "FedEx",
