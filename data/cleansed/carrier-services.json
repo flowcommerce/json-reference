@@ -60,6 +60,11 @@
     "carrier_id": "dhl-parcel"
   },
   {
+    "id": "fedex-ground",
+    "name": "Ground",
+    "carrier_id": "fedex"
+  },
+  {
     "id": "fedex-international-economy",
     "name": "International Economy",
     "carrier_id": "fedex"
@@ -72,6 +77,11 @@
   {
     "id": "fedex-international-standard",
     "name": "International Standard",
+    "carrier_id": "fedex"
+  },
+  {
+    "id": "fedex-overnight",
+    "name": "Overnight",
     "carrier_id": "fedex"
   },
   {
