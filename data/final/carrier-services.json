@@ -54,6 +54,15 @@
     }
   },
   {
+    "id": "chronopost-chrono-express",
+    "name": "Express",
+    "carrier": {
+      "id": "chronopost",
+      "name": "Chronopost",
+      "tracking_url": "https://www.chronopost.fr/en/chrono_suivi_search?listeNumerosLT="
+    }
+  },
+  {
     "id": "dhl-ecommerce-standard",
     "name": "Standard",
     "carrier": {

@@ -30,6 +30,11 @@
     "carrier_id": "canada-post"
   },
   {
+    "id": "chronopost-chrono-express",
+    "name": "Express",
+    "carrier_id": "chronopost"
+  },
+  {
     "id": "dhl-ecommerce-standard",
     "name": "Standard",
     "carrier_id": "dhl-ecommerce"
