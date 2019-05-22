@@ -10,6 +10,11 @@
     "tracking_url": "https://track.aftership.com/canada-post/"
   },
   {
+    "id": "chronopost",
+    "name": "Chronopost",
+    "tracking_url": "https://www.chronopost.fr/en/chrono_suivi_search?listeNumerosLT="
+  },
+  {
     "id": "dhl",
     "name": "DHL Express",
     "tracking_url": "http://www.dhl.com/en/express/tracking.html?AWB="
