@@ -17,6 +17,8 @@ fedex-overnight,Overnight,fedex
 fedex-international-economy,International Economy,fedex
 fedex-international-priority,International Priority,fedex
 fedex-international-standard,International Standard,fedex
+fedex-crossborder-ecommerce,E-commerce,fedex-crossborder
+fedex-crossborder-ecommerce-lite,E-commerce Lite,fedex-crossborder
 landmark-global,Global,landmark
 la-poste-colissimo,Colissimo,la-poste
 ilg-european-single-pack,European Single Pack,ilg

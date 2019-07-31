@@ -117,6 +117,24 @@
     }
   },
   {
+    "id": "fedex-crossborder-ecommerce",
+    "name": "E-commerce",
+    "carrier": {
+      "id": "fedex-crossborder",
+      "name": "FedEx Crossborder",
+      "tracking_url": "https://www.trackmytrakpak.com/?MyTrakPakNumber="
+    }
+  },
+  {
+    "id": "fedex-crossborder-ecommerce-lite",
+    "name": "E-commerce Lite",
+    "carrier": {
+      "id": "fedex-crossborder",
+      "name": "FedEx Crossborder",
+      "tracking_url": "https://www.trackmytrakpak.com/?MyTrakPakNumber="
+    }
+  },
+  {
     "id": "fedex-ground",
     "name": "Ground",
     "carrier": {
