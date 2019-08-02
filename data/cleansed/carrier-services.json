@@ -65,6 +65,16 @@
     "carrier_id": "dhl-parcel"
   },
   {
+    "id": "fedex-crossborder-ecommerce",
+    "name": "E-commerce",
+    "carrier_id": "fedex-crossborder"
+  },
+  {
+    "id": "fedex-crossborder-ecommerce-lite",
+    "name": "E-commerce Lite",
+    "carrier_id": "fedex-crossborder"
+  },
+  {
     "id": "fedex-ground",
     "name": "Ground",
     "carrier_id": "fedex"

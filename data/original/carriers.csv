@@ -8,6 +8,7 @@ dhl-global-mail,DHL Global Mail,https://webtrack.dhlglobalmail.com/?trackingnumb
 dhl-parcel,DHL Parcel,https://webtrack.dhlglobalmail.com/?trackingnumber=
 other,Other,https://track.flow.io/
 fedex,FedEx,https://www.fedex.com/apps/fedextrack/?tracknumbers=
+fedex-crossborder,FedEx Crossborder,https://www.trackmytrakpak.com/?MyTrakPakNumber=
 ilg,ILG,https://www.ilguk.com/track-trace/
 landmark,Landmark,https://track.landmarkglobal.com/?trck=
 la-poste,La Poste,https://www.laposte.fr/particulier/outils/en/track-a-parcel?code=
