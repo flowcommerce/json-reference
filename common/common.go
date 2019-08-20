@@ -352,7 +352,6 @@ var remappedCurrencyCodes = map[string]string{
 	"LRD": "EUR",
 	"MGA": "EUR",
 	"MKD": "EUR",
-	"MMK": "EUR",
 	"MRU": "EUR",
 	"MVP": "EUR",
 	"MZN": "EUR",
