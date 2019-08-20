@@ -95,6 +95,11 @@
     "number_decimals": 2
   },
   {
+    "name": "Burmese Kyat",
+    "iso_4217_3": "MMK",
+    "number_decimals": 0
+  },
+  {
     "name": "Cambodia Riel",
     "iso_4217_3": "KHR",
     "number_decimals": 2
