@@ -212,7 +212,7 @@
   {
     "iso_4217_3": "MMK",
     "name": "Burmese Kyat",
-    "number_decimals": 0
+    "number_decimals": 2
   },
   {
     "iso_4217_3": "MNT",
