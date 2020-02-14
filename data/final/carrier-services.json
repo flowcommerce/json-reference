@@ -54,6 +54,15 @@
     }
   },
   {
+    "id": "chronopost-chrono-classic",
+    "name": "Classic",
+    "carrier": {
+      "id": "chronopost",
+      "name": "Chronopost",
+      "tracking_url": "https://www.chronopost.fr/en/chrono_suivi_search?listeNumerosLT="
+    }
+  },
+  {
     "id": "chronopost-chrono-express",
     "name": "Express",
     "carrier": {
@@ -74,6 +83,15 @@
   {
     "id": "dhl-economy-select",
     "name": "Economy Select",
+    "carrier": {
+      "id": "dhl",
+      "name": "DHL Express",
+      "tracking_url": "http://www.dhl.com/en/express/tracking.html?AWB="
+    }
+  },
+  {
+    "id": "dhl-express-export-economy",
+    "name": "Express Export Economy",
     "carrier": {
       "id": "dhl",
       "name": "DHL Express",
