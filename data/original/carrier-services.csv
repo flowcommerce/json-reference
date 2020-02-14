@@ -5,9 +5,11 @@ canada-post-expedited-parcel,Expedited Parcel,canada-post
 canada-post-priority,Priority,canada-post
 canada-post-regular-parcel,Regular Parcel,canada-post
 canada-post-xpresspost,Xpresspost,canada-post
+chronopost-chrono-classic,Classic,chronopost
 chronopost-chrono-express,Express,chronopost
 dhl-ecommerce-standard,Standard,dhl-ecommerce
 dhl-economy-select,Economy Select,dhl
+dhl-express-export-economy,Express Export Economy,dhl
 dhl-express-worldwide,Express Worldwide,dhl
 dhl-global-mail-packet-plus,Packet Plus,dhl-global-mail
 dhl-parcel-international-direct,International Direct,dhl-parcel

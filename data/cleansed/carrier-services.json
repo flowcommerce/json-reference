@@ -30,6 +30,11 @@
     "carrier_id": "canada-post"
   },
   {
+    "id": "chronopost-chrono-classic",
+    "name": "Classic",
+    "carrier_id": "chronopost"
+  },
+  {
     "id": "chronopost-chrono-express",
     "name": "Express",
     "carrier_id": "chronopost"
@@ -42,6 +47,11 @@
   {
     "id": "dhl-economy-select",
     "name": "Economy Select",
+    "carrier_id": "dhl"
+  },
+  {
+    "id": "dhl-express-export-economy",
+    "name": "Express Export Economy",
     "carrier_id": "dhl"
   },
   {
