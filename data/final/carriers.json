@@ -77,7 +77,7 @@
   {
     "id": "ups",
     "name": "UPS",
-    "tracking_url": "https://track.aftership.com/ups/"
+    "tracking_url": "https://www.ups.com/track?loc=en_US\u0026tracknum="
   },
   {
     "id": "usps",

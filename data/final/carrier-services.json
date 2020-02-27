@@ -297,12 +297,102 @@
     }
   },
   {
+    "id": "ups-2nd-day-air",
+    "name": "2nd Day Air",
+    "carrier": {
+      "id": "ups",
+      "name": "UPS",
+      "tracking_url": "https://www.ups.com/track?loc=en_US\u0026tracknum="
+    }
+  },
+  {
+    "id": "ups-2nd-day-air-am",
+    "name": "2nd Day Air AM",
+    "carrier": {
+      "id": "ups",
+      "name": "UPS",
+      "tracking_url": "https://www.ups.com/track?loc=en_US\u0026tracknum="
+    }
+  },
+  {
+    "id": "ups-3-day-select",
+    "name": "3 Day Select",
+    "carrier": {
+      "id": "ups",
+      "name": "UPS",
+      "tracking_url": "https://www.ups.com/track?loc=en_US\u0026tracknum="
+    }
+  },
+  {
+    "id": "ups-access-point-economy",
+    "name": "Access Point Economy",
+    "carrier": {
+      "id": "ups",
+      "name": "UPS",
+      "tracking_url": "https://www.ups.com/track?loc=en_US\u0026tracknum="
+    }
+  },
+  {
+    "id": "ups-economy-mail-innovations",
+    "name": "Economy Mail Innovations",
+    "carrier": {
+      "id": "ups",
+      "name": "UPS",
+      "tracking_url": "https://www.ups.com/track?loc=en_US\u0026tracknum="
+    }
+  },
+  {
+    "id": "ups-expedited",
+    "name": "Expedited",
+    "carrier": {
+      "id": "ups",
+      "name": "UPS",
+      "tracking_url": "https://www.ups.com/track?loc=en_US\u0026tracknum="
+    }
+  },
+  {
+    "id": "ups-expedited-maii-innovations",
+    "name": "Expedited MaiI Innovations",
+    "carrier": {
+      "id": "ups",
+      "name": "UPS",
+      "tracking_url": "https://www.ups.com/track?loc=en_US\u0026tracknum="
+    }
+  },
+  {
+    "id": "ups-express",
+    "name": "Express",
+    "carrier": {
+      "id": "ups",
+      "name": "UPS",
+      "tracking_url": "https://www.ups.com/track?loc=en_US\u0026tracknum="
+    }
+  },
+  {
+    "id": "ups-express-1200",
+    "name": "Express 1200",
+    "carrier": {
+      "id": "ups",
+      "name": "UPS",
+      "tracking_url": "https://www.ups.com/track?loc=en_US\u0026tracknum="
+    }
+  },
+  {
     "id": "ups-express-international",
     "name": "Express International",
     "carrier": {
       "id": "ups",
       "name": "UPS",
-      "tracking_url": "https://track.aftership.com/ups/"
+      "tracking_url": "https://www.ups.com/track?loc=en_US\u0026tracknum="
+    }
+  },
+  {
+    "id": "ups-express-plus",
+    "name": "Express Plus",
+    "carrier": {
+      "id": "ups",
+      "name": "UPS",
+      "tracking_url": "https://www.ups.com/track?loc=en_US\u0026tracknum="
     }
   },
   {
@@ -311,7 +401,16 @@
     "carrier": {
       "id": "ups",
       "name": "UPS",
-      "tracking_url": "https://track.aftership.com/ups/"
+      "tracking_url": "https://www.ups.com/track?loc=en_US\u0026tracknum="
+    }
+  },
+  {
+    "id": "ups-first-class-mail",
+    "name": "First Class Mail",
+    "carrier": {
+      "id": "ups",
+      "name": "UPS",
+      "tracking_url": "https://www.ups.com/track?loc=en_US\u0026tracknum="
     }
   },
   {
@@ -320,7 +419,7 @@
     "carrier": {
       "id": "ups",
       "name": "UPS",
-      "tracking_url": "https://track.aftership.com/ups/"
+      "tracking_url": "https://www.ups.com/track?loc=en_US\u0026tracknum="
     }
   },
   {
@@ -329,7 +428,70 @@
     "carrier": {
       "id": "ups",
       "name": "UPS",
-      "tracking_url": "https://track.aftership.com/ups/"
+      "tracking_url": "https://www.ups.com/track?loc=en_US\u0026tracknum="
+    }
+  },
+  {
+    "id": "ups-maii-innovations-returns",
+    "name": "MaiI Innovations Returns",
+    "carrier": {
+      "id": "ups",
+      "name": "UPS",
+      "tracking_url": "https://www.ups.com/track?loc=en_US\u0026tracknum="
+    }
+  },
+  {
+    "id": "ups-next-day-air",
+    "name": "Next Day Air",
+    "carrier": {
+      "id": "ups",
+      "name": "UPS",
+      "tracking_url": "https://www.ups.com/track?loc=en_US\u0026tracknum="
+    }
+  },
+  {
+    "id": "ups-next-day-air-early",
+    "name": "Next Day Air Early",
+    "carrier": {
+      "id": "ups",
+      "name": "UPS",
+      "tracking_url": "https://www.ups.com/track?loc=en_US\u0026tracknum="
+    }
+  },
+  {
+    "id": "ups-next-day-air-saver",
+    "name": "Next Day Air Saver",
+    "carrier": {
+      "id": "ups",
+      "name": "UPS",
+      "tracking_url": "https://www.ups.com/track?loc=en_US\u0026tracknum="
+    }
+  },
+  {
+    "id": "ups-priority-mail",
+    "name": "Priority Mail",
+    "carrier": {
+      "id": "ups",
+      "name": "UPS",
+      "tracking_url": "https://www.ups.com/track?loc=en_US\u0026tracknum="
+    }
+  },
+  {
+    "id": "ups-priority-mail-innovations",
+    "name": "Priority Mail Innovations",
+    "carrier": {
+      "id": "ups",
+      "name": "UPS",
+      "tracking_url": "https://www.ups.com/track?loc=en_US\u0026tracknum="
+    }
+  },
+  {
+    "id": "ups-standard",
+    "name": "Standard",
+    "carrier": {
+      "id": "ups",
+      "name": "UPS",
+      "tracking_url": "https://www.ups.com/track?loc=en_US\u0026tracknum="
     }
   },
   {
@@ -338,7 +500,88 @@
     "carrier": {
       "id": "ups",
       "name": "UPS",
-      "tracking_url": "https://track.aftership.com/ups/"
+      "tracking_url": "https://www.ups.com/track?loc=en_US\u0026tracknum="
+    }
+  },
+  {
+    "id": "ups-today-dedicated-courier",
+    "name": "Today Dedicated Courier",
+    "carrier": {
+      "id": "ups",
+      "name": "UPS",
+      "tracking_url": "https://www.ups.com/track?loc=en_US\u0026tracknum="
+    }
+  },
+  {
+    "id": "ups-today-express",
+    "name": "Today Express",
+    "carrier": {
+      "id": "ups",
+      "name": "UPS",
+      "tracking_url": "https://www.ups.com/track?loc=en_US\u0026tracknum="
+    }
+  },
+  {
+    "id": "ups-today-express-saver",
+    "name": "Today Express Saver",
+    "carrier": {
+      "id": "ups",
+      "name": "UPS",
+      "tracking_url": "https://www.ups.com/track?loc=en_US\u0026tracknum="
+    }
+  },
+  {
+    "id": "ups-today-intercity",
+    "name": "Today Intercity",
+    "carrier": {
+      "id": "ups",
+      "name": "UPS",
+      "tracking_url": "https://www.ups.com/track?loc=en_US\u0026tracknum="
+    }
+  },
+  {
+    "id": "ups-today-standard",
+    "name": "Today Standard",
+    "carrier": {
+      "id": "ups",
+      "name": "UPS",
+      "tracking_url": "https://www.ups.com/track?loc=en_US\u0026tracknum="
+    }
+  },
+  {
+    "id": "ups-worldwide-economy",
+    "name": "Worldwide Economy",
+    "carrier": {
+      "id": "ups",
+      "name": "UPS",
+      "tracking_url": "https://www.ups.com/track?loc=en_US\u0026tracknum="
+    }
+  },
+  {
+    "id": "ups-worldwide-economy-ddu",
+    "name": "Worldwide Economy DDU",
+    "carrier": {
+      "id": "ups",
+      "name": "UPS",
+      "tracking_url": "https://www.ups.com/track?loc=en_US\u0026tracknum="
+    }
+  },
+  {
+    "id": "ups-worldwide-express-freight-midday",
+    "name": "Worldwide Express Freight Midday",
+    "carrier": {
+      "id": "ups",
+      "name": "UPS",
+      "tracking_url": "https://www.ups.com/track?loc=en_US\u0026tracknum="
+    }
+  },
+  {
+    "id": "ups-worldwide-express-freight.",
+    "name": "Worldwide Express Freight",
+    "carrier": {
+      "id": "ups",
+      "name": "UPS",
+      "tracking_url": "https://www.ups.com/track?loc=en_US\u0026tracknum="
     }
   },
   {
