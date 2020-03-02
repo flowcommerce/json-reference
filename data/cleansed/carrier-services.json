@@ -165,13 +165,68 @@
     "carrier_id": "sf-express"
   },
   {
+    "id": "ups-2nd-day-air",
+    "name": "2nd Day Air",
+    "carrier_id": "ups"
+  },
+  {
+    "id": "ups-2nd-day-air-am",
+    "name": "2nd Day Air AM",
+    "carrier_id": "ups"
+  },
+  {
+    "id": "ups-3-day-select",
+    "name": "3 Day Select",
+    "carrier_id": "ups"
+  },
+  {
+    "id": "ups-access-point-economy",
+    "name": "Access Point Economy",
+    "carrier_id": "ups"
+  },
+  {
+    "id": "ups-economy-mail-innovations",
+    "name": "Economy Mail Innovations",
+    "carrier_id": "ups"
+  },
+  {
+    "id": "ups-expedited",
+    "name": "Expedited",
+    "carrier_id": "ups"
+  },
+  {
+    "id": "ups-expedited-maii-innovations",
+    "name": "Expedited MaiI Innovations",
+    "carrier_id": "ups"
+  },
+  {
+    "id": "ups-express",
+    "name": "Express",
+    "carrier_id": "ups"
+  },
+  {
+    "id": "ups-express-1200",
+    "name": "Express 1200",
+    "carrier_id": "ups"
+  },
+  {
     "id": "ups-express-international",
     "name": "Express International",
     "carrier_id": "ups"
   },
   {
+    "id": "ups-express-plus",
+    "name": "Express Plus",
+    "carrier_id": "ups"
+  },
+  {
     "id": "ups-express-saver",
     "name": "Express Saver",
+    "carrier_id": "ups"
+  },
+  {
+    "id": "ups-first-class-mail",
+    "name": "First Class Mail",
     "carrier_id": "ups"
   },
   {
@@ -185,8 +240,88 @@
     "carrier_id": "ups"
   },
   {
+    "id": "ups-maii-innovations-returns",
+    "name": "MaiI Innovations Returns",
+    "carrier_id": "ups"
+  },
+  {
+    "id": "ups-next-day-air",
+    "name": "Next Day Air",
+    "carrier_id": "ups"
+  },
+  {
+    "id": "ups-next-day-air-early",
+    "name": "Next Day Air Early",
+    "carrier_id": "ups"
+  },
+  {
+    "id": "ups-next-day-air-saver",
+    "name": "Next Day Air Saver",
+    "carrier_id": "ups"
+  },
+  {
+    "id": "ups-priority-mail",
+    "name": "Priority Mail",
+    "carrier_id": "ups"
+  },
+  {
+    "id": "ups-priority-mail-innovations",
+    "name": "Priority Mail Innovations",
+    "carrier_id": "ups"
+  },
+  {
+    "id": "ups-standard",
+    "name": "Standard",
+    "carrier_id": "ups"
+  },
+  {
     "id": "ups-standard-international",
     "name": "Standard International",
+    "carrier_id": "ups"
+  },
+  {
+    "id": "ups-today-dedicated-courier",
+    "name": "Today Dedicated Courier",
+    "carrier_id": "ups"
+  },
+  {
+    "id": "ups-today-express",
+    "name": "Today Express",
+    "carrier_id": "ups"
+  },
+  {
+    "id": "ups-today-express-saver",
+    "name": "Today Express Saver",
+    "carrier_id": "ups"
+  },
+  {
+    "id": "ups-today-intercity",
+    "name": "Today Intercity",
+    "carrier_id": "ups"
+  },
+  {
+    "id": "ups-today-standard",
+    "name": "Today Standard",
+    "carrier_id": "ups"
+  },
+  {
+    "id": "ups-worldwide-economy",
+    "name": "Worldwide Economy",
+    "carrier_id": "ups"
+  },
+  {
+    "id": "ups-worldwide-economy-ddu",
+    "name": "Worldwide Economy DDU",
+    "carrier_id": "ups"
+  },
+  {
+    "id": "ups-worldwide-express-freight-midday",
+    "name": "Worldwide Express Freight Midday",
+    "carrier_id": "ups"
+  },
+  {
+    "id": "ups-worldwide-express-freight.",
+    "name": "Worldwide Express Freight",
     "carrier_id": "ups"
   },
   {
