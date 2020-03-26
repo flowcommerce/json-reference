@@ -23,9 +23,12 @@ fedex-crossborder-ecommerce,E-commerce,fedex-crossborder
 fedex-crossborder-ecommerce-lite,E-commerce Lite,fedex-crossborder
 landmark-global,Global,landmark
 la-poste-colissimo,Colissimo,la-poste
+ilg-economy-untracked,Economy Untracked,ilg
 ilg-european-single-pack,European Single Pack,ilg
+ilg-express-tracked,Express Tracked,ilg
 ilg-global-courier,Global Courier,ilg
 ilg-international-courier,International Courier,ilg
+ilg-standard-tracked,Standard Tracked,ilg
 other-freight,Freight,other
 other-ltl,Less Than Truckload,other
 other-postal,Postal,other

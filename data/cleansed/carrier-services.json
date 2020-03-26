@@ -110,8 +110,18 @@
     "carrier_id": "fedex"
   },
   {
+    "id": "ilg-economy-untracked",
+    "name": "Economy Untracked",
+    "carrier_id": "ilg"
+  },
+  {
     "id": "ilg-european-single-pack",
     "name": "European Single Pack",
+    "carrier_id": "ilg"
+  },
+  {
+    "id": "ilg-express-tracked",
+    "name": "Express Tracked",
     "carrier_id": "ilg"
   },
   {
@@ -122,6 +132,11 @@
   {
     "id": "ilg-international-courier",
     "name": "International Courier",
+    "carrier_id": "ilg"
+  },
+  {
+    "id": "ilg-standard-tracked",
+    "name": "Standard Tracked",
     "carrier_id": "ilg"
   },
   {
