@@ -140,7 +140,7 @@
     ]
   },
   {
-    "id": "cryptopay",
+    "id": "cryptocom_pay",
     "type": "online",
     "name": "Crypto.com Pay",
     "small_width": 65,

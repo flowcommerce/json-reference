@@ -16,7 +16,7 @@ online,apple_pay,Apple Pay,65,41,100,60,256,256,world
 online,bankTransfer_IBAN,International Bank Transfer (IBAN),65,41,100,60,256,256,world
 online,bitcoin,Bitcoin,65,41,100,60,256,256,world
 online,bitpay,BitPay,65,41,100,60,256,256,world
-online,cryptopay,Crypto.com Pay,65,41,100,60,256,256,world
+online,cryptocom_pay,Crypto.com Pay,65,41,100,60,256,256,world
 online,directEbanking,Sofortüberweisung,65,41,100,60,256,256,world
 online,dotpay,Dotpay,65,41,100,60,256,256,world
 online,dragonpay_ebanking,Dragonpay eBanking,65,41,100,60,256,256,world
