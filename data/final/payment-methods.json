@@ -252,7 +252,7 @@
   {
     "id": "cryptopay",
     "type": "online",
-    "name": "CryptoPay",
+    "name": "Crypto.com Pay",
     "images": {
       "small": {
         "url": "https://flowcdn.io/util/logos/payment-methods/cryptopay/30/original.png",
