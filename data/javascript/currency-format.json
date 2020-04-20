@@ -2267,6 +2267,13 @@
     "precision": 2,
     "format": "%s%v"
   },
+  "sq-XK": {
+    "symbol": "€",
+    "decimal": ",",
+    "group": " ",
+    "precision": 2,
+    "format": "%s%v"
+  },
   "sr-BA": {
     "symbol": "BAM",
     "decimal": ",",
@@ -2283,6 +2290,13 @@
   },
   "sr-RS": {
     "symbol": "RSD",
+    "decimal": ",",
+    "group": ".",
+    "precision": 2,
+    "format": "%s%v"
+  },
+  "sr-XK": {
+    "symbol": "€",
     "decimal": ",",
     "group": ".",
     "precision": 2,

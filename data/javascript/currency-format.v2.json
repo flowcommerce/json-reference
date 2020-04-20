@@ -3239,6 +3239,16 @@
     "precision": 2,
     "format": "%s%v"
   },
+  "sq-XK": {
+    "symbol": {
+      "primary": "€",
+      "narrow": "€"
+    },
+    "decimal": ",",
+    "group": " ",
+    "precision": 2,
+    "format": "%s%v"
+  },
   "sr-BA": {
     "symbol": {
       "primary": "BAM",
@@ -3263,6 +3273,16 @@
     "symbol": {
       "primary": "RSD",
       "narrow": "RSD"
+    },
+    "decimal": ",",
+    "group": ".",
+    "precision": 2,
+    "format": "%s%v"
+  },
+  "sr-XK": {
+    "symbol": {
+      "primary": "€",
+      "narrow": "€"
     },
     "decimal": ",",
     "group": ".",
