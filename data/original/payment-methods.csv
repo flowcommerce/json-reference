@@ -1,42 +1,42 @@
-type,id,name,small_width,small_height,medium_width,medium_height,large_width,large_height,regions
-card,american_express,American Express,65,41,100,60,256,256,world
-card,cartes_bancaires,Cartes Bancaires,65,41,100,60,256,256,fra
-card,china_union_pay,China Union Pay,65,41,100,60,256,256,chn
-card,dankort,Dankort,65,41,100,60,256,256,europe
-card,diners_club,Diners Club,65,41,100,60,256,256,north-america europe
-card,discover,Discover,65,41,100,60,256,256,north-america europe
-card,jcb,Jcb,65,41,100,60,256,256,jpn
-card,maestro,Maestro,65,41,100,60,256,256,north-america europe
-card,mastercard,Mastercard,65,41,100,60,256,256,world
-card,visa,VISA,65,41,100,60,256,256,world
-online,ach,ACH,65,41,100,60,256,256,world
-online,alipay,Alipay,65,41,100,60,256,256,world
-online,afterpay,Afterpay,65,41,100,60,256,256,world
-online,apple_pay,Apple Pay,65,41,100,60,256,256,world
-online,bankTransfer_IBAN,International Bank Transfer (IBAN),65,41,100,60,256,256,world
-online,bitcoin,Bitcoin,65,41,100,60,256,256,world
-online,bitpay,BitPay,65,41,100,60,256,256,world
-online,cryptocom_pay,Crypto.com Pay,65,41,100,60,256,256,world
-online,directEbanking,Sofortüberweisung,65,41,100,60,256,256,world
-online,dotpay,Dotpay,65,41,100,60,256,256,world
-online,dragonpay_ebanking,Dragonpay eBanking,65,41,100,60,256,256,world
-online,dragonpay_gcash,GCash via Dragonpay,65,41,100,60,256,256,world
-online,dragonpay_otc_banking,Dragonpay OTC,65,41,100,60,256,256,world
-online,ebanking_FI,Finnish E-Banking,65,41,100,60,256,256,world
-online,giropay,GiroPay,65,41,100,60,256,256,world
-online,google_pay,Google Pay,65,41,100,60,256,256,world
-online,ideal,iDEAL,65,41,100,60,256,256,world
-online,interac,Interac Online,65,41,100,60,256,256,world
-online,kcp_banktransfer,Bank Transfer via KCP,65,41,100,60,256,256,world
-online,kcp_creditcard,Credit Card via KCP,65,41,100,60,256,256,world
-online,kcp_payco,PayCo,65,41,100,60,256,256,world
-online,klarna,Klarna,65,41,100,60,256,256,world
-online,molpay_points,MOLPoints via MOLPay,65,41,100,60,256,256,world
-online,multibanco,Multibanco,65,41,100,60,256,256,world
-online,paypal,PayPal,65,41,100,60,180,60,world
-online,qiwiwallet,Qiwi Wallet,65,41,100,60,256,256,world
-online,sepadirectdebit,SEPA Direct Debit,65,41,100,60,256,256,world
-online,trustly,Trustly,65,41,100,60,256,256,world
-online,trustpay,TrustPay,65,41,100,60,256,256,world
-online,unionpay,UnionPay,65,41,100,60,256,256,world
-online,wechatpay,WeChat Pay,65,41,100,60,256,256,world
+type,id,name,small_width,small_height,medium_width,medium_height,large_width,large_height,regions,capabilities
+card,american_express,American Express,65,41,100,60,256,256,world,credit
+card,cartes_bancaires,Cartes Bancaires,65,41,100,60,256,256,fra,credit
+card,china_union_pay,China Union Pay,65,41,100,60,256,256,chn,credit debit
+card,dankort,Dankort,65,41,100,60,256,256,europe,debit
+card,diners_club,Diners Club,65,41,100,60,256,256,north-america europe,credit
+card,discover,Discover,65,41,100,60,256,256,north-america europe,credit
+card,jcb,Jcb,65,41,100,60,256,256,jpn,credit debit
+card,maestro,Maestro,65,41,100,60,256,256,north-america europe,debit
+card,mastercard,Mastercard,65,41,100,60,256,256,world,credit debit
+card,visa,VISA,65,41,100,60,256,256,world,credit debit
+online,ach,ACH,65,41,100,60,256,256,world,
+online,alipay,Alipay,65,41,100,60,256,256,world,
+online,afterpay,Afterpay,65,41,100,60,256,256,world,
+online,apple_pay,Apple Pay,65,41,100,60,256,256,world,
+online,bankTransfer_IBAN,International Bank Transfer (IBAN),65,41,100,60,256,256,world,
+online,bitcoin,Bitcoin,65,41,100,60,256,256,world,
+online,bitpay,BitPay,65,41,100,60,256,256,world,
+online,cryptocom_pay,Crypto.com Pay,65,41,100,60,256,256,world,
+online,directEbanking,Sofortüberweisung,65,41,100,60,256,256,world,
+online,dotpay,Dotpay,65,41,100,60,256,256,world,
+online,dragonpay_ebanking,Dragonpay eBanking,65,41,100,60,256,256,world,
+online,dragonpay_gcash,GCash via Dragonpay,65,41,100,60,256,256,world,
+online,dragonpay_otc_banking,Dragonpay OTC,65,41,100,60,256,256,world,
+online,ebanking_FI,Finnish E-Banking,65,41,100,60,256,256,world,
+online,giropay,GiroPay,65,41,100,60,256,256,world,
+online,google_pay,Google Pay,65,41,100,60,256,256,world,
+online,ideal,iDEAL,65,41,100,60,256,256,world,
+online,interac,Interac Online,65,41,100,60,256,256,world,
+online,kcp_banktransfer,Bank Transfer via KCP,65,41,100,60,256,256,world,
+online,kcp_creditcard,Credit Card via KCP,65,41,100,60,256,256,world,
+online,kcp_payco,PayCo,65,41,100,60,256,256,world,
+online,klarna,Klarna,65,41,100,60,256,256,world,
+online,molpay_points,MOLPoints via MOLPay,65,41,100,60,256,256,world,
+online,multibanco,Multibanco,65,41,100,60,256,256,world,
+online,paypal,PayPal,65,41,100,60,180,60,world,
+online,qiwiwallet,Qiwi Wallet,65,41,100,60,256,256,world,
+online,sepadirectdebit,SEPA Direct Debit,65,41,100,60,256,256,world,
+online,trustly,Trustly,65,41,100,60,256,256,world,
+online,trustpay,TrustPay,65,41,100,60,256,256,world,
+online,unionpay,UnionPay,65,41,100,60,256,256,world,
+online,wechatpay,WeChat Pay,65,41,100,60,256,256,world,

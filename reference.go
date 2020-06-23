@@ -21,7 +21,7 @@ func main() {
 	app.Name = "reference"
 	app.Usage = "Flow Reference Library"
 
-	app.Commands = []cli.Command{
+	app.Commands = []*cli.Command{
 		{
 			Name:  "all",
 			Usage: "Runs all scripts",

@@ -65,11 +65,12 @@ type Language struct {
 }
 
 type PaymentMethod struct {
-	Id      string              `json:"id"`
-	Type    string              `json:"type"`
-	Name    string              `json:"name"`
-	Images  PaymentMethodImages `json:"images"`
-	Regions []string            `json:"regions"`
+	Id      				string              		`json:"id"`
+	Type    				string              		`json:"type"`
+	Name    				string              		`json:"name"`
+	Images  				PaymentMethodImages 		`json:"images"`
+	Regions 				[]string            		`json:"regions"`
+	Capabilities		[]string		            `json:"capabilities"`
 }
 
 type PaymentMethodImages struct {
