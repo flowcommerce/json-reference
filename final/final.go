@@ -319,6 +319,7 @@ func commonPaymentMethods(data CleansedDataSet, regions []common.Region) []commo
 	var all []common.PaymentMethod
 	for _, pm := range data.PaymentMethods {
 		theseRegions := []string{}
+		theseCapabilities := []string{}
 
 		hasWorld := false
 		for _, regionId := range pm.Regions {
@@ -335,6 +336,11 @@ func commonPaymentMethods(data CleansedDataSet, regions []common.Region) []commo
 			theseRegions = append(theseRegions, "world")
 		}
 
+		for _, capability := range pm.Capabilities {
+			theseCapabilities = append(theseCapabilities, capability)
+		}
+		sort.Strings(theseCapabilities)
+
 		all = append(all, common.PaymentMethod{
 			Id:   pm.Id,
 			Type: pm.Type,
@@ -345,6 +351,7 @@ func commonPaymentMethods(data CleansedDataSet, regions []common.Region) []commo
 				Large:  toPaymentMethodImage(pm.Id, pm.LargeWidth, pm.LargeHeight, "120"),
 			},
 			Regions: theseRegions,
+			Capabilities: theseCapabilities,
 		})
 	}
 	return all

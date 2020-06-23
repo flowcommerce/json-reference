@@ -169,6 +169,7 @@ type PaymentMethod struct {
 	LargeWidth   int      `json:"large_width"`
 	LargeHeight  int      `json:"large_height"`
 	Regions      []string `json:"regions"`
+	Capabilities []string `json:"capabilities"`
 }
 
 type Separators struct {
@@ -392,6 +393,9 @@ func Cleanse() {
 		),
 	)
 
+	splitCapabilities := func(c rune) bool {
+		return c == ' '
+	}
 	writeJson("data/cleansed/payment-methods.json",
 		toObjects(readCsv("data/original/payment-methods.csv"),
 			func(record map[string]string) bool {
@@ -409,6 +413,7 @@ func Cleanse() {
 					LargeWidth:   toInt32(record["large_width"]),
 					LargeHeight:  toInt32(record["large_height"]),
 					Regions:      strings.Split(record["regions"], " "),
+					Capabilities:	strings.FieldsFunc(record["capabilities"], splitCapabilities),
 				}
 			},
 			func(record map[string]string) string {
