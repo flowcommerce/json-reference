@@ -1466,7 +1466,7 @@
     },
     "decimal": ".",
     "group": ",",
-    "precision": 0,
+    "precision": 2,
     "format": "%s%v"
   },
   "en-UM": {
@@ -3366,7 +3366,7 @@
     },
     "decimal": ".",
     "group": ",",
-    "precision": 0,
+    "precision": 2,
     "format": "%s%v"
   },
   "ta-LK": {

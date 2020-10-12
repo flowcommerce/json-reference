@@ -642,7 +642,7 @@
   {
     "iso_4217_3": "UGX",
     "name": "Uganda Shilling",
-    "number_decimals": 0
+    "number_decimals": 2
   },
   {
     "iso_4217_3": "USD",
