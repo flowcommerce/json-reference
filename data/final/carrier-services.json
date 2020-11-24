@@ -90,6 +90,15 @@
     }
   },
   {
+    "id": "dhl-express-domestic-1800",
+    "name": "Express Domestic 18:00",
+    "carrier": {
+      "id": "dhl",
+      "name": "DHL Express",
+      "tracking_url": "http://www.dhl.com/en/express/tracking.html?AWB="
+    }
+  },
+  {
     "id": "dhl-express-export-economy",
     "name": "Express Export Economy",
     "carrier": {
