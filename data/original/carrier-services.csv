@@ -11,6 +11,7 @@ dhl-ecommerce-standard,Standard,dhl-ecommerce
 dhl-economy-select,Economy Select,dhl
 dhl-express-export-economy,Express Export Economy,dhl
 dhl-express-worldwide,Express Worldwide,dhl
+dhl-express-domestic-1800,Express Domestic 18:00,dhl
 dhl-global-mail-packet-plus,Packet Plus,dhl-global-mail
 dhl-parcel-international-direct,International Direct,dhl-parcel
 dhl-parcel-international-standard,International Standard,dhl-parcel
