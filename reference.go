@@ -1,19 +1,15 @@
-/**
- * Run using:
- * 	dev help
- **/
-
 package main
 
 import (
-	"./cleanse"
-	"./download"
-	"./final"
-	"./javascript"
-	"./javascript_v2"
 	"fmt"
-	"github.com/codegangsta/cli"
 	"os"
+
+	"github.com/urfave/cli"
+	"github.com/flowcommerce/json-reference/cleanse"
+	"github.com/flowcommerce/json-reference/download"
+	"github.com/flowcommerce/json-reference/final"
+	"github.com/flowcommerce/json-reference/javascript"
+	"github.com/flowcommerce/json-reference/javascript_v2"
 )
 
 func main() {

@@ -9,49 +9,49 @@ import (
 	"sort"
 	"strings"
 
-	"../cleanse"
-	"../common"
 	"github.com/bradfitz/slice"
+	"github.com/flowcommerce/json-reference/cleanse"
+	"github.com/flowcommerce/json-reference/common"
 )
 
 type CleansedDataSet struct {
-	Carriers             []cleanse.Carrier
-	CarrierServices      []cleanse.CarrierService
-	Continents           []cleanse.Continent
-	Countries            []cleanse.Country
-	CountryContinents    []cleanse.CountryContinent
-	CountryDuties        []cleanse.CountryDuty
-	Currencies           []cleanse.Currency
-	CurrencySymbols      map[string]cleanse.CurrencySymbols
-	Numbers              []cleanse.Number
-	Languages            []cleanse.Language
-	LocaleNames          []cleanse.LocaleName
-	PaymentMethods       []cleanse.PaymentMethod
-	Provinces            []cleanse.Province
-	ProvinceTranslations []cleanse.ProvinceTranslation
-	Timezones            []cleanse.Timezone
-	CountryTimezones     []cleanse.CountryTimezone
-	CountryDefaultLanguages     []cleanse.CountryDefaultLanguage
+	Carriers                []cleanse.Carrier
+	CarrierServices         []cleanse.CarrierService
+	Continents              []cleanse.Continent
+	Countries               []cleanse.Country
+	CountryContinents       []cleanse.CountryContinent
+	CountryDuties           []cleanse.CountryDuty
+	Currencies              []cleanse.Currency
+	CurrencySymbols         map[string]cleanse.CurrencySymbols
+	Numbers                 []cleanse.Number
+	Languages               []cleanse.Language
+	LocaleNames             []cleanse.LocaleName
+	PaymentMethods          []cleanse.PaymentMethod
+	Provinces               []cleanse.Province
+	ProvinceTranslations    []cleanse.ProvinceTranslation
+	Timezones               []cleanse.Timezone
+	CountryTimezones        []cleanse.CountryTimezone
+	CountryDefaultLanguages []cleanse.CountryDefaultLanguage
 }
 
 func Generate() {
 	data := CleansedDataSet{
-		Carriers:             cleanse.LoadCarriers(),
-		CarrierServices:      cleanse.LoadCarrierServices(),
-		Continents:           cleanse.LoadContinents(),
-		Countries:            cleanse.LoadCountries(),
-		CountryContinents:    cleanse.LoadCountryContinents(),
-		CountryDuties:        cleanse.LoadCountryDuties(),
-		Currencies:           cleanse.LoadCurrencies(),
-		CurrencySymbols:      cleanse.LoadCurrencySymbols(),
-		Languages:            cleanse.LoadLanguages(),
-		LocaleNames:          cleanse.LoadLocaleNames(),
-		PaymentMethods:       cleanse.LoadPaymentMethods(),
-		Provinces:            cleanse.LoadProvinces(),
-		ProvinceTranslations: cleanse.LoadProvinceTranslations(),
-		Numbers:              cleanse.LoadNumbers(),
-		Timezones:            cleanse.LoadTimezones(),
-		CountryTimezones:     cleanse.LoadCountryTimezones(),
+		Carriers:                cleanse.LoadCarriers(),
+		CarrierServices:         cleanse.LoadCarrierServices(),
+		Continents:              cleanse.LoadContinents(),
+		Countries:               cleanse.LoadCountries(),
+		CountryContinents:       cleanse.LoadCountryContinents(),
+		CountryDuties:           cleanse.LoadCountryDuties(),
+		Currencies:              cleanse.LoadCurrencies(),
+		CurrencySymbols:         cleanse.LoadCurrencySymbols(),
+		Languages:               cleanse.LoadLanguages(),
+		LocaleNames:             cleanse.LoadLocaleNames(),
+		PaymentMethods:          cleanse.LoadPaymentMethods(),
+		Provinces:               cleanse.LoadProvinces(),
+		ProvinceTranslations:    cleanse.LoadProvinceTranslations(),
+		Numbers:                 cleanse.LoadNumbers(),
+		Timezones:               cleanse.LoadTimezones(),
+		CountryTimezones:        cleanse.LoadCountryTimezones(),
 		CountryDefaultLanguages: cleanse.LoadCountryDefaultLanguages(),
 	}
 
@@ -350,7 +350,7 @@ func commonPaymentMethods(data CleansedDataSet, regions []common.Region) []commo
 				Medium: toPaymentMethodImage(pm.Id, pm.MediumWidth, pm.MediumHeight, "60"),
 				Large:  toPaymentMethodImage(pm.Id, pm.LargeWidth, pm.LargeHeight, "120"),
 			},
-			Regions: theseRegions,
+			Regions:      theseRegions,
 			Capabilities: theseCapabilities,
 		})
 	}
@@ -425,20 +425,20 @@ func commonCountries(data CleansedDataSet) []common.Country {
 		var defaultLanguage string
 		for _, cl := range data.CountryDefaultLanguages {
 			if cl.CountryCode == c.Iso_3166_3 {
-                lang := findLanguageByCode(data.Languages, cl.LanguageCode)
-                if (defaultLanguage != "") {
-                    fmt.Printf("ERROR: invalid multiple default language codes for country[%s]\n", cl.CountryCode)
-                    os.Exit(1)
-                }
-                if (!common.Contains(languages, lang.Iso_639_2)) {
-                    fmt.Printf("ERROR: default language[%s] is not listed in languages for country[%s]\n", lang.Iso_639_2, cl.CountryCode)
-                    os.Exit(1)
-                }
+				lang := findLanguageByCode(data.Languages, cl.LanguageCode)
+				if defaultLanguage != "" {
+					fmt.Printf("ERROR: invalid multiple default language codes for country[%s]\n", cl.CountryCode)
+					os.Exit(1)
+				}
+				if !common.Contains(languages, lang.Iso_639_2) {
+					fmt.Printf("ERROR: default language[%s] is not listed in languages for country[%s]\n", lang.Iso_639_2, cl.CountryCode)
+					os.Exit(1)
+				}
 				defaultLanguage = lang.Iso_639_2
 			}
 		}
-		if (defaultLanguage == "" && len(languages) > 0) {
-    		defaultLanguage = languages[0]
+		if defaultLanguage == "" && len(languages) > 0 {
+			defaultLanguage = languages[0]
 		}
 
 		var defaultCurrency string

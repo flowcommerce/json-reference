@@ -13,8 +13,8 @@ import (
 	"strconv"
 	"strings"
 
-	"../common"
 	"github.com/bradfitz/slice"
+	"github.com/flowcommerce/json-reference/common"
 	"github.com/flowcommerce/tools/util"
 )
 
@@ -257,11 +257,11 @@ func Cleanse() {
 					}
 				}
 
-                finalCurrency := common.RemapCurrencyCodeToSupported(currency);
-                if (finalCurrency == "") {
-                    fmt.Printf("Currency %s could not be remapped\n", currency)
-                    os.Exit(1)
-                }
+				finalCurrency := common.RemapCurrencyCodeToSupported(currency)
+				if finalCurrency == "" {
+					fmt.Printf("Currency %s could not be remapped\n", currency)
+					os.Exit(1)
+				}
 
 				return Country{
 					Name:       countryName(record),
@@ -413,7 +413,7 @@ func Cleanse() {
 					LargeWidth:   toInt32(record["large_width"]),
 					LargeHeight:  toInt32(record["large_height"]),
 					Regions:      strings.Split(record["regions"], " "),
-					Capabilities:	strings.FieldsFunc(record["capabilities"], splitCapabilities),
+					Capabilities: strings.FieldsFunc(record["capabilities"], splitCapabilities),
 				}
 			},
 			func(record map[string]string) string {
@@ -510,7 +510,7 @@ func countryName(record map[string]string) string {
 		"Falkland Islands (Malvinas)":                    "Falkland Islands",
 		"China, Hong Kong Special Administrative Region": "Hong Kong",
 		"China, Macao Special Administrative Region":     "Macau",
-		"Viet Nam":                                       "Vietnam",
+		"Viet Nam": "Vietnam",
 	}
 
 	name := record["official_name_en"]
@@ -645,29 +645,29 @@ func readCurrencySymbols(file string) map[string]CurrencySymbols {
 
 	for _, main := range data.Main {
 		for code, c := range main.Numbers.Currencies {
-            if c.Symbol == "" {
-                fmt.Printf("Currency %s has no symbol\n", code)
-                os.Exit(1)
-            }
+			if c.Symbol == "" {
+				fmt.Printf("Currency %s has no symbol\n", code)
+				os.Exit(1)
+			}
 
-            var narrow string
-            if c.Symbol == c.SymbolAltNarrow {
-                narrow = c.Symbol
-            } else {
-                narrow = c.SymbolAltNarrow
-            }
+			var narrow string
+			if c.Symbol == c.SymbolAltNarrow {
+				narrow = c.Symbol
+			} else {
+				narrow = c.SymbolAltNarrow
+			}
 
-            var primary string
-            if code == "USD" {
-                primary = "US$"
-            } else {
-                primary = c.Symbol
-            }
+			var primary string
+			if code == "USD" {
+				primary = "US$"
+			} else {
+				primary = c.Symbol
+			}
 
-            currencySymbols[code] = CurrencySymbols{
-                Primary: primary,
-                Narrow:  narrow,
-            }
+			currencySymbols[code] = CurrencySymbols{
+				Primary: primary,
+				Narrow:  narrow,
+			}
 		}
 	}
 	return currencySymbols
@@ -681,11 +681,11 @@ func readCurrencies(file string) []Currency {
 	currencies := []Currency{}
 
 	for _, c := range data {
-        currencies = append(currencies, Currency{
-            Name:           c.Name,
-            Iso_4217_3:     c.Iso_4217_3,
-            NumberDecimals: c.NumberDecimals,
-        })
+		currencies = append(currencies, Currency{
+			Name:           c.Name,
+			Iso_4217_3:     c.Iso_4217_3,
+			NumberDecimals: c.NumberDecimals,
+		})
 	}
 	sortCurrencies(currencies)
 
@@ -791,7 +791,6 @@ func LoadCurrencyLocales() map[string]string {
 	}
 	return table
 }
-
 
 // For some reason, some countries are missing from the underlying CLDR "Numbers" data that we ingest.
 // It's easier to add this manual override than figure out how to fix the source data.
