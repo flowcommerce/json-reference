@@ -833,13 +833,6 @@
     "currency": "AUD"
   },
   {
-    "name": "Kosovo",
-    "continent": "AS",
-    "iso_3166_2": "XK",
-    "iso_3166_3": "RKS",
-    "currency": "EUR"
-  },
-  {
     "name": "Kuwait",
     "continent": "AS",
     "iso_3166_2": "KW",
@@ -1698,7 +1691,7 @@
     "continent": "SA",
     "iso_3166_2": "VE",
     "iso_3166_3": "VEN",
-    "currency": "VEF"
+    "currency": "VES"
   },
   {
     "name": "Vietnam",
