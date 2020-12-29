@@ -661,8 +661,13 @@
   },
   {
     "iso_4217_3": "VEF",
-    "name": "Venezuelan Bolívar",
+    "name": "Venezuelan Bolívar Fuerte",
     "number_decimals": 2
+  },
+  {
+    "iso_4217_3": "VES",
+    "name": "Venezuelan Bolívar Soberano",
+    "number_decimals": 0
   },
   {
     "iso_4217_3": "VND",
