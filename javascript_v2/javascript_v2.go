@@ -1,36 +1,37 @@
 package javascript_v2
 
 import (
-	"../common"
 	"errors"
 	"fmt"
 	"os"
+
+	"github.com/flowcommerce/json-reference/common"
 )
 
 type JavascriptFormat struct {
-	Symbol     Symbol `json:"symbol"`
-	Decimal    string `json:"decimal"`
-	Group      string `json:"group"`
-	Precision  int    `json:"precision"`
-	Format     string `json:"format"`
+	Symbol    Symbol `json:"symbol"`
+	Decimal   string `json:"decimal"`
+	Group     string `json:"group"`
+	Precision int    `json:"precision"`
+	Format    string `json:"format"`
 }
 
 type Symbol struct {
-	Primary     string `json:"primary"`
-	Narrow      string `json:"narrow"`
+	Primary string `json:"primary"`
+	Narrow  string `json:"narrow"`
 }
 
 type CommonData struct {
-	Countries         []common.Country
-	Currencies        []common.Currency
-	Locales           []common.Locale
+	Countries  []common.Country
+	Currencies []common.Currency
+	Locales    []common.Locale
 }
 
 func Generate() {
 	data := CommonData{
-		Countries: common.Countries(),
+		Countries:  common.Countries(),
 		Currencies: common.Currencies(),
-		Locales: common.Locales(),
+		Locales:    common.Locales(),
 	}
 
 	common.WriteJson("data/javascript/currency-format.v2.json", generateFormatsByLocale(data))
@@ -50,12 +51,12 @@ func generateFormatsByLocale(data CommonData) map[string]JavascriptFormat {
 			all[l.Id] = JavascriptFormat{
 				Symbol: Symbol{
 					Primary: currency.Symbols.Primary,
-					Narrow: narrow,
+					Narrow:  narrow,
 				},
-				Decimal: l.Numbers.Decimal,
-				Group: l.Numbers.Group,
+				Decimal:   l.Numbers.Decimal,
+				Group:     l.Numbers.Group,
 				Precision: currency.NumberDecimals,
-				Format: "%s%v",
+				Format:    "%s%v",
 			}
 		}
 	}
