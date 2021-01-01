@@ -833,6 +833,13 @@
     "currency": "AUD"
   },
   {
+    "name": "Kosovo",
+    "continent": "AS",
+    "iso_3166_2": "XK",
+    "iso_3166_3": "RKS",
+    "currency": "EUR"
+  },
+  {
     "name": "Kuwait",
     "continent": "AS",
     "iso_3166_2": "KW",

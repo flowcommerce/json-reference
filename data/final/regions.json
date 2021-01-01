@@ -389,6 +389,7 @@
       "PRK",
       "PSE",
       "QAT",
+      "RKS",
       "SAU",
       "SGP",
       "SYR",
@@ -2701,6 +2702,21 @@
     "languages": [
       "en"
     ],
+    "measurement_systems": [
+      "metric"
+    ],
+    "timezones": []
+  },
+  {
+    "id": "rks",
+    "name": "Kosovo",
+    "countries": [
+      "RKS"
+    ],
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [],
     "measurement_systems": [
       "metric"
     ],
@@ -5285,6 +5301,7 @@
       "PYF",
       "QAT",
       "REU",
+      "RKS",
       "ROU",
       "RUS",
       "RWA",
