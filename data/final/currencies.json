@@ -1315,15 +1315,6 @@
     }
   },
   {
-    "name": "Venezuelan Bolívar Soberano",
-    "iso_4217_3": "VES",
-    "number_decimals": 0,
-    "symbols": {
-      "primary": "VES"
-    },
-    "default_locale": "es-VE"
-  },
-  {
     "name": "Vietnamese New Dong",
     "iso_4217_3": "VND",
     "number_decimals": 0,
