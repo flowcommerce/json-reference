@@ -324,7 +324,7 @@
     "iso_3166_3": "BOL",
     "measurement_system": "metric",
     "default_currency": "BOB",
-    "default_language": "ay",
+    "default_language": "es",
     "languages": [
       "ay",
       "es",
@@ -2215,7 +2215,7 @@
     "iso_3166_3": "PRY",
     "measurement_system": "metric",
     "default_currency": "PYG",
-    "default_language": "gn",
+    "default_language": "es",
     "languages": [
       "es",
       "gn"
@@ -2229,7 +2229,7 @@
     "iso_3166_3": "PER",
     "measurement_system": "metric",
     "default_currency": "PEN",
-    "default_language": "ay",
+    "default_language": "es",
     "languages": [
       "ay",
       "es",
