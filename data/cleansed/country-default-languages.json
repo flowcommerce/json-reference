@@ -1,7 +1,27 @@
 [
   {
+    "language": "es",
+    "country": "ARG"
+  },
+  {
+    "language": "es",
+    "country": "BOL"
+  },
+  {
     "language": "en",
     "country": "CAN"
+  },
+  {
+    "language": "es",
+    "country": "CHL"
+  },
+  {
+    "language": "es",
+    "country": "COL"
+  },
+  {
+    "language": "es",
+    "country": "ECU"
   },
   {
     "language": "en",
@@ -10,5 +30,21 @@
   {
     "language": "it",
     "country": "ITA"
+  },
+  {
+    "language": "es",
+    "country": "PER"
+  },
+  {
+    "language": "es",
+    "country": "PRY"
+  },
+  {
+    "language": "es",
+    "country": "URY"
+  },
+  {
+    "language": "es",
+    "country": "VEN"
   }
 ]
