@@ -8,32 +8,32 @@ simple, canonical set of reference data that we use throughout Flow.
 ## JSON Data
 
 JSON data files can be found in the
-[data/final](https://github.com/flowcommerce/json-reference/tree/master/data/final)
+[data/final](https://github.com/flowcommerce/json-reference/tree/main/data/final)
 directory.
 
-  - [Continents](https://github.com/flowcommerce/json-reference/blob/master/data/final/continents.json)
+  - [Continents](https://github.com/flowcommerce/json-reference/blob/main/data/final/continents.json)
     A list of continents and the countries they contain
 
-  - [Countries](https://github.com/flowcommerce/json-reference/blob/master/data/final/countries.json)
+  - [Countries](https://github.com/flowcommerce/json-reference/blob/main/data/final/countries.json)
     A list of countries, including metadata on their measurement
     system, default currency, languages, and timezones
 
-  - [Currencies](https://github.com/flowcommerce/json-reference/blob/master/data/final/currencies.json)
+  - [Currencies](https://github.com/flowcommerce/json-reference/blob/main/data/final/currencies.json)
     A list of currencies, including metadata for localization
 
-  - [Languages](https://github.com/flowcommerce/json-reference/blob/master/data/final/languages.json)
+  - [Languages](https://github.com/flowcommerce/json-reference/blob/main/data/final/languages.json)
     A list of languages and the countries in which they are spoken
 
-  - [Locales](https://github.com/flowcommerce/json-reference/blob/master/data/final/locales.json)
+  - [Locales](https://github.com/flowcommerce/json-reference/blob/main/data/final/locales.json)
     A list of locales and specific number formats
 
-  - [Payment Methods](https://github.com/flowcommerce/json-reference/blob/master/data/final/payment-methods.json)
+  - [Payment Methods](https://github.com/flowcommerce/json-reference/blob/main/data/final/payment-methods.json)
     A list of all the payment methods supported by Flow
 
-  - [Regions](https://github.com/flowcommerce/json-reference/blob/master/data/final/regions.json)
+  - [Regions](https://github.com/flowcommerce/json-reference/blob/main/data/final/regions.json)
     A region represents a geographic area of the world. Regions can be countries, continents or other political areas (like the Eurozone)
 
-  - [Timezones](https://github.com/flowcommerce/json-reference/blob/master/data/final/timezones.json)
+  - [Timezones](https://github.com/flowcommerce/json-reference/blob/main/data/final/timezones.json)
     A list of timezones
 
 ## Related libraries
