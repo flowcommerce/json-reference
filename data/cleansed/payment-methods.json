@@ -139,6 +139,21 @@
     ]
   },
   {
+    "id": "cash_on_delivery",
+    "type": "online",
+    "name": "Cash on Delivery",
+    "small_width": 65,
+    "small_height": 41,
+    "medium_width": 100,
+    "medium_height": 60,
+    "large_width": 256,
+    "large_height": 256,
+    "regions": [
+      "world"
+    ],
+    "capabilities": []
+  },
+  {
     "id": "china_union_pay",
     "type": "card",
     "name": "China Union Pay",
