@@ -122,7 +122,7 @@
   {
     "iso_4217_3": "CLP",
     "name": "Chilean Peso",
-    "number_decimals": 2
+    "number_decimals": 0
   },
   {
     "iso_4217_3": "CNY",
