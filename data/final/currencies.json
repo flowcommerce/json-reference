@@ -256,7 +256,7 @@
   {
     "name": "Chilean Peso",
     "iso_4217_3": "CLP",
-    "number_decimals": 2,
+    "number_decimals": 0,
     "symbols": {
       "primary": "CLP",
       "narrow": "$"
