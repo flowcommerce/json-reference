@@ -603,6 +603,24 @@
     }
   },
   {
+    "id": "ups-worldwide-expedited",
+    "name": "Worldwide Expedited",
+    "carrier": {
+      "id": "ups",
+      "name": "UPS",
+      "tracking_url": "https://www.ups.com/track?loc=en_US\u0026tracknum="
+    }
+  },
+  {
+    "id": "ups-worldwide-express",
+    "name": "Worldwide Express",
+    "carrier": {
+      "id": "ups",
+      "name": "UPS",
+      "tracking_url": "https://www.ups.com/track?loc=en_US\u0026tracknum="
+    }
+  },
+  {
     "id": "ups-worldwide-express-freight-midday",
     "name": "Worldwide Express Freight Midday",
     "carrier": {
@@ -614,6 +632,15 @@
   {
     "id": "ups-worldwide-express-freight.",
     "name": "Worldwide Express Freight",
+    "carrier": {
+      "id": "ups",
+      "name": "UPS",
+      "tracking_url": "https://www.ups.com/track?loc=en_US\u0026tracknum="
+    }
+  },
+  {
+    "id": "ups-worldwide-express-plus",
+    "name": "Worldwide Express Plus",
     "carrier": {
       "id": "ups",
       "name": "UPS",
