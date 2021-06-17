@@ -335,6 +335,16 @@
     "carrier_id": "ups"
   },
   {
+    "id": "ups-worldwide-expedited",
+    "name": "Worldwide Expedited",
+    "carrier_id": "ups"
+  },
+  {
+    "id": "ups-worldwide-express",
+    "name": "Worldwide Express",
+    "carrier_id": "ups"
+  },
+  {
     "id": "ups-worldwide-express-freight-midday",
     "name": "Worldwide Express Freight Midday",
     "carrier_id": "ups"
@@ -342,6 +352,11 @@
   {
     "id": "ups-worldwide-express-freight.",
     "name": "Worldwide Express Freight",
+    "carrier_id": "ups"
+  },
+  {
+    "id": "ups-worldwide-express-plus",
+    "name": "Worldwide Express Plus",
     "carrier_id": "ups"
   },
   {
