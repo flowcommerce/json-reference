@@ -10,8 +10,10 @@ import (
 	"os"
 	"regexp"
 	"strings"
+	"io"
 
 	"github.com/flowcommerce/tools/util"
+	"runtime"
 )
 
 type Carrier struct {
@@ -290,8 +292,13 @@ func WriteJson(target string, data interface{}) {
 		os.Exit(1)
 	}
 
-	err = os.Rename(tmp.Name(), target)
-	util.ExitIfError(err, "Error renaming tmp file")
+	if runtime.GOOS == "linux" {
+		err = MoveFile(tmp.Name(), target)
+		util.ExitIfError(err, "Error moving tmp file")
+	} else {
+		err = os.Rename(tmp.Name(), target)
+		util.ExitIfError(err, "Error renaming tmp file")
+	}
 }
 
 func FormatLocaleId(value string) string {
@@ -373,4 +380,30 @@ func RemapCurrencyCodeToSupported(code string) string {
 	} else {
 		return newCurrency
 	}
+}
+
+//This method is executed for linux OS
+//Reference for this method: https://gist.github.com/var23rav/23ae5d0d4d830aff886c3c970b8f6c6b
+func MoveFile(sourcePath, destPath string) error {
+    inputFile, err := os.Open(sourcePath)
+    if err != nil {
+        return fmt.Errorf("Couldn't open source file: %s", err)
+    }
+    outputFile, err := os.Create(destPath)
+    if err != nil {
+        inputFile.Close()
+        return fmt.Errorf("Couldn't open dest file: %s", err)
+    }
+    defer outputFile.Close()
+    _, err = io.Copy(outputFile, inputFile)
+    inputFile.Close()
+    if err != nil {
+        return fmt.Errorf("Writing to output file failed: %s", err)
+    }
+    // The copy was successful, so now delete the original file
+    err = os.Remove(sourcePath)
+    if err != nil {
+        return fmt.Errorf("Failed removing original file: %s", err)
+    }
+    return nil
 }

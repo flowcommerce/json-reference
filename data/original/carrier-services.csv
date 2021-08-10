@@ -1,4 +1,5 @@
 id,name,carrier_id
+asendia-e-paq-select,e-Paq Select,asendia
 asendia-express,Express,asendia
 asendia-standard,Standard,asendia
 canada-post-expedited-parcel,Expedited Parcel,canada-post
@@ -7,6 +8,8 @@ canada-post-regular-parcel,Regular Parcel,canada-post
 canada-post-xpresspost,Xpresspost,canada-post
 chronopost-chrono-classic,Classic,chronopost
 chronopost-chrono-express,Express,chronopost
+deutsche-post-packet-tracked-priority-gpt,Packet Tracked Priority GPT,deutsche-post
+deutsche-post-usa-direct,USA Direct,deutsche-post
 dhl-ecommerce-standard,Standard,dhl-ecommerce
 dhl-economy-select,Economy Select,dhl
 dhl-express-export-economy,Express Export Economy,dhl
