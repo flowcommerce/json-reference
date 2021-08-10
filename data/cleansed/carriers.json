@@ -15,6 +15,11 @@
     "tracking_url": "https://www.chronopost.fr/en/chrono_suivi_search?listeNumerosLT="
   },
   {
+    "id": "deutsche-post",
+    "name": "Deutsche Post",
+    "tracking_url": "https://track.aftership.com/deutsch-post/"
+  },
+  {
     "id": "dhl",
     "name": "DHL Express",
     "tracking_url": "http://www.dhl.com/en/express/tracking.html?AWB="

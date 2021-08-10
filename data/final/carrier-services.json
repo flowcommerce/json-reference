@@ -1,5 +1,14 @@
 [
   {
+    "id": "asendia-e-paq-select",
+    "name": "e-Paq Select",
+    "carrier": {
+      "id": "asendia",
+      "name": "Asendia",
+      "tracking_url": "https://track.aftership.com/asendia/"
+    }
+  },
+  {
     "id": "asendia-express",
     "name": "Express",
     "carrier": {
@@ -69,6 +78,24 @@
       "id": "chronopost",
       "name": "Chronopost",
       "tracking_url": "https://www.chronopost.fr/en/chrono_suivi_search?listeNumerosLT="
+    }
+  },
+  {
+    "id": "deutsche-post-packet-tracked-priority-gpt",
+    "name": "Packet Tracked Priority GPT",
+    "carrier": {
+      "id": "deutsche-post",
+      "name": "Deutsche Post",
+      "tracking_url": "https://track.aftership.com/deutsch-post/"
+    }
+  },
+  {
+    "id": "deutsche-post-usa-direct",
+    "name": "USA Direct",
+    "carrier": {
+      "id": "deutsche-post",
+      "name": "Deutsche Post",
+      "tracking_url": "https://track.aftership.com/deutsch-post/"
     }
   },
   {
