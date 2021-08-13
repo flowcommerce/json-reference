@@ -25,6 +25,18 @@ fedex-international-priority,International Priority,fedex
 fedex-international-standard,International Standard,fedex
 fedex-crossborder-ecommerce,E-commerce,fedex-crossborder
 fedex-crossborder-ecommerce-lite,E-commerce Lite,fedex-crossborder
+fedex-crossborder-fic-express-priority,FIC Express Priority,fedex-crossborder
+fedex-crossborder-fic-limited-tracked,FIC Limited Tracked,fedex-crossborder
+fedex-crossborder-fic-limited-tracked-plus,FIC Limited Tracked Plus,fedex-crossborder
+fedex-crossborder-fic-pudo-service,FIC PUDO Service,fedex-crossborder
+fedex-crossborder-fic-tracked-usa-priority,FIC Tracked USA Priority,fedex-crossborder
+fedex-crossborder-fic-tracked-worldwide,FIC Tracked Worldwide,fedex-crossborder
+fedex-crossborder-fic-untracked-uk,FIC Untracked UK,fedex-crossborder
+fedex-crossborder-royal-mail-tracked-24,Royal Mail Tracked 24,fedex-crossborder
+fedex-crossborder-royal-mail-tracked-48,Royal Mail Tracked 48,fedex-crossborder
+fedex-crossborder-uk-24-hours,UK 24 Hours,fedex-crossborder
+fedex-crossborder-uk-48-hours,UK 48 hours,fedex-crossborder
+fedex-crossborder-yodel-72-hour-packet,Yodel 72 Hour Packet,fedex-crossborder
 landmark-global,Global,landmark
 la-poste-colissimo,Colissimo,la-poste
 ilg-economy-untracked,Economy Untracked,ilg
