@@ -230,6 +230,11 @@
     "carrier_id": "landmark"
   },
   {
+    "id": "ocs-worldwide-international-standard-delivery",
+    "name": "International Standard Delivery",
+    "carrier_id": "ocs-worldwide"
+  },
+  {
     "id": "other-freight",
     "name": "Freight",
     "carrier_id": "other"

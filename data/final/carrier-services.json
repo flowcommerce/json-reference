@@ -414,6 +414,15 @@
     }
   },
   {
+    "id": "ocs-worldwide-international-standard-delivery",
+    "name": "International Standard Delivery",
+    "carrier": {
+      "id": "ocs-worldwide",
+      "name": "OCS Worldwide",
+      "tracking_url": "https://www.ocsworldwide.co.uk/Tracking.aspx?cwb="
+    }
+  },
+  {
     "id": "other-freight",
     "name": "Freight",
     "carrier": {
