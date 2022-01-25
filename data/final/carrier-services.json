@@ -414,6 +414,15 @@
     }
   },
   {
+    "id": "malca-amit",
+    "name": "Malca Amit",
+    "carrier": {
+      "id": "",
+      "name": "",
+      "tracking_url": ""
+    }
+  },
+  {
     "id": "ocs-worldwide-international-standard-delivery",
     "name": "International Standard Delivery",
     "carrier": {
