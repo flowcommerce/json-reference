@@ -230,9 +230,14 @@
     "carrier_id": "landmark"
   },
   {
-    "id": "malca-amit",
-    "name": "Malca Amit",
-    "carrier_id": "malca"
+    "id": "malca-amit-armored",
+    "name": "Armored",
+    "carrier_id": "malca-amit"
+  },
+  {
+    "id": "malca-amit-express",
+    "name": "Express",
+    "carrier_id": "malca-amit"
   },
   {
     "id": "ocs-worldwide-international-standard-delivery",
