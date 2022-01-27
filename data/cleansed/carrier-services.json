@@ -230,6 +230,16 @@
     "carrier_id": "landmark"
   },
   {
+    "id": "malca-amit-armored",
+    "name": "Armored",
+    "carrier_id": "malca-amit"
+  },
+  {
+    "id": "malca-amit-express",
+    "name": "Express",
+    "carrier_id": "malca-amit"
+  },
+  {
     "id": "ocs-worldwide-international-standard-delivery",
     "name": "International Standard Delivery",
     "carrier_id": "ocs-worldwide"
