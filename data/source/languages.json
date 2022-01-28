@@ -2350,7 +2350,7 @@
       "langCultureMs": [
         {
           "langCultureName": "mk-MK",
-          "displayName": "Macedonian (FYROM)",
+          "displayName": "Macedonian - North Macedonia",
           "cultureCode": "0x042F"
         }
       ]
@@ -10112,14 +10112,14 @@
       "code_2": "MK",
       "code_3": "MKD",
       "numCode": "807",
-      "name": "Macedonia, the former Yugoslav Republic of",
+      "name": "North Macedonia",
       "languages": [
         "mkd"
       ],
       "langCultureMs": [
         {
           "langCultureName": "mk-MK",
-          "displayName": "Macedonian (FYROM)",
+          "displayName": "Macedonian - North Macedonia",
           "cultureCode": "0x042F"
         }
       ]
