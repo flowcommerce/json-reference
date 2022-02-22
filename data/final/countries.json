@@ -2118,6 +2118,18 @@
     "default_delivered_duty": "paid"
   },
   {
+    "name": "North Macedonia",
+    "iso_3166_2": "MK",
+    "iso_3166_3": "MKD",
+    "measurement_system": "metric",
+    "default_currency": "EUR",
+    "default_language": "mk",
+    "languages": [
+      "mk"
+    ],
+    "timezones": []
+  },
+  {
     "name": "Northern Mariana Islands",
     "iso_3166_2": "MP",
     "iso_3166_3": "MNP",
@@ -2867,18 +2879,6 @@
     ],
     "timezones": [],
     "default_delivered_duty": "paid"
-  },
-  {
-    "name": "North Macedonia",
-    "iso_3166_2": "MK",
-    "iso_3166_3": "MKD",
-    "measurement_system": "metric",
-    "default_currency": "EUR",
-    "default_language": "mk",
-    "languages": [
-      "mk"
-    ],
-    "timezones": []
   },
   {
     "name": "Timor-Leste",

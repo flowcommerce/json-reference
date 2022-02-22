@@ -3558,6 +3558,23 @@
     ]
   },
   {
+    "id": "mkd",
+    "name": "North Macedonia",
+    "countries": [
+      "MKD"
+    ],
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "mk"
+    ],
+    "measurement_systems": [
+      "metric"
+    ],
+    "timezones": []
+  },
+  {
     "id": "mnp",
     "name": "Northern Mariana Islands",
     "countries": [
@@ -4657,23 +4674,6 @@
     ],
     "languages": [
       "th"
-    ],
-    "measurement_systems": [
-      "metric"
-    ],
-    "timezones": []
-  },
-  {
-    "id": "mkd",
-    "name": "North Macedonia",
-    "countries": [
-      "MKD"
-    ],
-    "currencies": [
-      "EUR"
-    ],
-    "languages": [
-      "mk"
     ],
     "measurement_systems": [
       "metric"

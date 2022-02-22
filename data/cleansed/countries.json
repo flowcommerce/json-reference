@@ -1141,6 +1141,13 @@
     "currency": "AUD"
   },
   {
+    "name": "North Macedonia",
+    "continent": "EU",
+    "iso_3166_2": "MK",
+    "iso_3166_3": "MKD",
+    "currency": "EUR"
+  },
+  {
     "name": "Northern Mariana Islands",
     "continent": "OC",
     "iso_3166_2": "MP",
@@ -1538,13 +1545,6 @@
     "iso_3166_2": "TH",
     "iso_3166_3": "THA",
     "currency": "THB"
-  },
-  {
-    "name": "North Macedonia",
-    "continent": "EU",
-    "iso_3166_2": "MK",
-    "iso_3166_3": "MKD",
-    "currency": "EUR"
   },
   {
     "name": "Timor-Leste",
