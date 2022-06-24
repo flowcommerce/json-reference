@@ -1616,7 +1616,7 @@
     },
     "decimal": ",",
     "group": ".",
-    "precision": 2,
+    "precision": 0,
     "format": "%s%v"
   },
   "es-CO": {

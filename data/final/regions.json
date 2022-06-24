@@ -389,7 +389,6 @@
       "PRK",
       "PSE",
       "QAT",
-      "RKS",
       "SAU",
       "SGP",
       "SYR",
@@ -2708,21 +2707,6 @@
     "timezones": []
   },
   {
-    "id": "rks",
-    "name": "Kosovo",
-    "countries": [
-      "RKS"
-    ],
-    "currencies": [
-      "EUR"
-    ],
-    "languages": [],
-    "measurement_systems": [
-      "metric"
-    ],
-    "timezones": []
-  },
-  {
     "id": "kwt",
     "name": "Kuwait",
     "countries": [
@@ -3556,23 +3540,6 @@
       "Canada/Eastern",
       "Mexico/General"
     ]
-  },
-  {
-    "id": "mkd",
-    "name": "North Macedonia",
-    "countries": [
-      "MKD"
-    ],
-    "currencies": [
-      "EUR"
-    ],
-    "languages": [
-      "mk"
-    ],
-    "measurement_systems": [
-      "metric"
-    ],
-    "timezones": []
   },
   {
     "id": "mnp",
@@ -4681,6 +4648,23 @@
     "timezones": []
   },
   {
+    "id": "mkd",
+    "name": "The former Yugoslav Republic of Macedonia",
+    "countries": [
+      "MKD"
+    ],
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "mk"
+    ],
+    "measurement_systems": [
+      "metric"
+    ],
+    "timezones": []
+  },
+  {
     "id": "tls",
     "name": "Timor-Leste",
     "countries": [
@@ -5301,7 +5285,6 @@
       "PYF",
       "QAT",
       "REU",
-      "RKS",
       "ROU",
       "RUS",
       "RWA",

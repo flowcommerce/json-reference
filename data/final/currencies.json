@@ -1312,7 +1312,8 @@
     "symbols": {
       "primary": "VEF",
       "narrow": "Bs"
-    }
+    },
+    "default_locale": "es-VE"
   },
   {
     "name": "Vietnamese New Dong",
