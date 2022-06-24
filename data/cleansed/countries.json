@@ -833,13 +833,6 @@
     "currency": "AUD"
   },
   {
-    "name": "Kosovo",
-    "continent": "AS",
-    "iso_3166_2": "XK",
-    "iso_3166_3": "RKS",
-    "currency": "EUR"
-  },
-  {
     "name": "Kuwait",
     "continent": "AS",
     "iso_3166_2": "KW",
@@ -1139,13 +1132,6 @@
     "iso_3166_2": "NF",
     "iso_3166_3": "NFK",
     "currency": "AUD"
-  },
-  {
-    "name": "North Macedonia",
-    "continent": "EU",
-    "iso_3166_2": "MK",
-    "iso_3166_3": "MKD",
-    "currency": "EUR"
   },
   {
     "name": "Northern Mariana Islands",
@@ -1547,6 +1533,13 @@
     "currency": "THB"
   },
   {
+    "name": "The former Yugoslav Republic of Macedonia",
+    "continent": "EU",
+    "iso_3166_2": "MK",
+    "iso_3166_3": "MKD",
+    "currency": "EUR"
+  },
+  {
     "name": "Timor-Leste",
     "continent": "OC",
     "iso_3166_2": "TL",
@@ -1698,7 +1691,7 @@
     "continent": "SA",
     "iso_3166_2": "VE",
     "iso_3166_3": "VEN",
-    "currency": "VEF"
+    "currency": "VES"
   },
   {
     "name": "Vietnam",
