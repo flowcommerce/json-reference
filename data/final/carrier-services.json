@@ -113,7 +113,7 @@
     "carrier": {
       "id": "dhl",
       "name": "DHL Express",
-      "tracking_url": "http://www.dhl.com/en/express/tracking.html?AWB="
+      "tracking_url": "https://mydhl.express.dhl/us/en/tracking.html#/results?id="
     }
   },
   {
@@ -122,7 +122,7 @@
     "carrier": {
       "id": "dhl",
       "name": "DHL Express",
-      "tracking_url": "http://www.dhl.com/en/express/tracking.html?AWB="
+      "tracking_url": "https://mydhl.express.dhl/us/en/tracking.html#/results?id="
     }
   },
   {
@@ -131,7 +131,7 @@
     "carrier": {
       "id": "dhl",
       "name": "DHL Express",
-      "tracking_url": "http://www.dhl.com/en/express/tracking.html?AWB="
+      "tracking_url": "https://mydhl.express.dhl/us/en/tracking.html#/results?id="
     }
   },
   {
@@ -140,7 +140,7 @@
     "carrier": {
       "id": "dhl",
       "name": "DHL Express",
-      "tracking_url": "http://www.dhl.com/en/express/tracking.html?AWB="
+      "tracking_url": "https://mydhl.express.dhl/us/en/tracking.html#/results?id="
     }
   },
   {
