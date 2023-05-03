@@ -457,7 +457,7 @@
   {
     "iso_4217_3": "ISK",
     "name": "Iceland Krona",
-    "number_decimals": 2
+    "number_decimals": 0
   },
   {
     "iso_4217_3": "JMD",
