@@ -162,8 +162,26 @@
     }
   },
   {
+    "id": "dhl-parcel-international-direct-smb",
+    "name": "International Direct SMB",
+    "carrier": {
+      "id": "dhl-parcel",
+      "name": "DHL Parcel",
+      "tracking_url": "https://webtrack.dhlglobalmail.com/?trackingnumber="
+    }
+  },
+  {
     "id": "dhl-parcel-international-standard",
     "name": "International Standard",
+    "carrier": {
+      "id": "dhl-parcel",
+      "name": "DHL Parcel",
+      "tracking_url": "https://webtrack.dhlglobalmail.com/?trackingnumber="
+    }
+  },
+  {
+    "id": "dhl-parcel-international-standard-smb",
+    "name": "International Standard SMB",
     "carrier": {
       "id": "dhl-parcel",
       "name": "DHL Parcel",

@@ -90,8 +90,18 @@
     "carrier_id": "dhl-parcel"
   },
   {
+    "id": "dhl-parcel-international-direct-smb",
+    "name": "International Direct SMB",
+    "carrier_id": "dhl-parcel"
+  },
+  {
     "id": "dhl-parcel-international-standard",
     "name": "International Standard",
+    "carrier_id": "dhl-parcel"
+  },
+  {
+    "id": "dhl-parcel-international-standard-smb",
+    "name": "International Standard SMB",
     "carrier_id": "dhl-parcel"
   },
   {
