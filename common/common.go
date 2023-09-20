@@ -327,8 +327,9 @@ func FormatUnderscore(value string) string {
 func UnsupportedCountryCodes() []string {
 	return []string{
 		"AF",
-		"AGQ",
+		"AQ",
 		"ER",
+		"KP",
 		"IQ",
 		"PS",
 		"SD",
