@@ -18,6 +18,8 @@ dhl-express-domestic-1800,Express Domestic 18:00,dhl
 dhl-global-mail-packet-plus,Packet Plus,dhl-global-mail
 dhl-parcel-international-direct,International Direct,dhl-parcel
 dhl-parcel-international-standard,International Standard,dhl-parcel
+dhl-parcel-international-direct-smb,International Direct SMB,dhl-parcel
+dhl-parcel-international-standard-smb,International Standard SMB,dhl-parcel
 fedex-ground,Ground,fedex
 fedex-overnight,Overnight,fedex
 fedex-international-economy,International Economy,fedex
