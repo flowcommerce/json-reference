@@ -677,7 +677,7 @@
     "iso_3166_2": "HR",
     "iso_3166_3": "HRV",
     "measurement_system": "metric",
-    "default_currency": "EUR",
+    "default_currency": "HRK",
     "default_language": "hr",
     "languages": [
       "hr",
@@ -1541,15 +1541,6 @@
     "default_delivered_duty": "paid"
   },
   {
-    "name": "Kosovo",
-    "iso_3166_2": "XK",
-    "iso_3166_3": "RKS",
-    "measurement_system": "metric",
-    "default_currency": "EUR",
-    "languages": [],
-    "timezones": []
-  },
-  {
     "name": "Kuwait",
     "iso_3166_2": "KW",
     "iso_3166_3": "KWT",
@@ -2116,18 +2107,6 @@
     "languages": [],
     "timezones": [],
     "default_delivered_duty": "paid"
-  },
-  {
-    "name": "North Macedonia",
-    "iso_3166_2": "MK",
-    "iso_3166_3": "MKD",
-    "measurement_system": "metric",
-    "default_currency": "EUR",
-    "default_language": "mk",
-    "languages": [
-      "mk"
-    ],
-    "timezones": []
   },
   {
     "name": "Northern Mariana Islands",
@@ -2879,6 +2858,18 @@
     ],
     "timezones": [],
     "default_delivered_duty": "paid"
+  },
+  {
+    "name": "The former Yugoslav Republic of Macedonia",
+    "iso_3166_2": "MK",
+    "iso_3166_3": "MKD",
+    "measurement_system": "metric",
+    "default_currency": "EUR",
+    "default_language": "mk",
+    "languages": [
+      "mk"
+    ],
+    "timezones": []
   },
   {
     "name": "Timor-Leste",

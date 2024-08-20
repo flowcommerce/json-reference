@@ -1130,7 +1130,7 @@
     "symbol": "CLP",
     "decimal": ",",
     "group": ".",
-    "precision": 2,
+    "precision": 0,
     "format": "%s%v"
   },
   "es-CO": {
@@ -1666,7 +1666,7 @@
     "format": "%s%v"
   },
   "hr": {
-    "symbol": "HRK",
+    "symbol": "€",
     "decimal": ",",
     "group": ".",
     "precision": 2,
