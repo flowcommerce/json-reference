@@ -1616,7 +1616,7 @@
     },
     "decimal": ",",
     "group": ".",
-    "precision": 0,
+    "precision": 2,
     "format": "%s%v"
   },
   "es-CO": {
@@ -2381,8 +2381,8 @@
   },
   "hr": {
     "symbol": {
-      "primary": "€",
-      "narrow": "€"
+      "primary": "HRK",
+      "narrow": "kn"
     },
     "decimal": ",",
     "group": ".",
