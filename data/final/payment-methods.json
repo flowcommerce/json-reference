@@ -882,6 +882,32 @@
     ]
   },
   {
+    "id": "mobilepay",
+    "type": "online",
+    "name": "MobilePay",
+    "images": {
+      "small": {
+        "url": "https://flowcdn.io/util/logos/payment-methods/mobilepay/30/original.png",
+        "width": 65,
+        "height": 41
+      },
+      "medium": {
+        "url": "https://flowcdn.io/util/logos/payment-methods/mobilepay/60/original.png",
+        "width": 100,
+        "height": 60
+      },
+      "large": {
+        "url": "https://flowcdn.io/util/logos/payment-methods/mobilepay/120/original.png",
+        "width": 256,
+        "height": 256
+      }
+    },
+    "regions": [
+      "world"
+    ],
+    "capabilities": []
+  },
+  {
     "id": "molpay_points",
     "type": "online",
     "name": "MOLPoints via MOLPay",
@@ -924,6 +950,32 @@
       },
       "large": {
         "url": "https://flowcdn.io/util/logos/payment-methods/multibanco/120/original.png",
+        "width": 256,
+        "height": 256
+      }
+    },
+    "regions": [
+      "world"
+    ],
+    "capabilities": []
+  },
+  {
+    "id": "onlineBanking_PL",
+    "type": "online",
+    "name": "Przelewy24",
+    "images": {
+      "small": {
+        "url": "https://flowcdn.io/util/logos/payment-methods/onlineBanking_PL/30/original.png",
+        "width": 65,
+        "height": 41
+      },
+      "medium": {
+        "url": "https://flowcdn.io/util/logos/payment-methods/onlineBanking_PL/60/original.png",
+        "width": 100,
+        "height": 60
+      },
+      "large": {
+        "url": "https://flowcdn.io/util/logos/payment-methods/onlineBanking_PL/120/original.png",
         "width": 256,
         "height": 256
       }
