@@ -519,6 +519,21 @@
     ]
   },
   {
+    "id": "mobilepay",
+    "type": "online",
+    "name": "MobilePay",
+    "small_width": 65,
+    "small_height": 41,
+    "medium_width": 100,
+    "medium_height": 60,
+    "large_width": 256,
+    "large_height": 256,
+    "regions": [
+      "world"
+    ],
+    "capabilities": []
+  },
+  {
     "id": "molpay_points",
     "type": "online",
     "name": "MOLPoints via MOLPay",
@@ -558,6 +573,21 @@
     "medium_height": 60,
     "large_width": 180,
     "large_height": 60,
+    "regions": [
+      "world"
+    ],
+    "capabilities": []
+  },
+  {
+    "id": "przelewy24",
+    "type": "online",
+    "name": "Przelewy24",
+    "small_width": 65,
+    "small_height": 41,
+    "medium_width": 100,
+    "medium_height": 60,
+    "large_width": 256,
+    "large_height": 256,
     "regions": [
       "world"
     ],
