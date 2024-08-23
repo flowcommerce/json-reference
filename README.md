@@ -69,3 +69,5 @@ View commands available:
 Run end to end process:
 
   `go run reference.go all`
+
+More details can be found [here](https://www.notion.so/flow/References-bd8b9b8f5c434d21aa0bf1c0b98e6d66)
