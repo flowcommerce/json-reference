@@ -641,7 +641,7 @@
   {
     "id": "grabpay_SG",
     "type": "online",
-    "name": "GrabPay",
+    "name": "GrabPay SG",
     "images": {
       "small": {
         "url": "https://flowcdn.io/util/logos/payment-methods/google_pay/30/original.png",
