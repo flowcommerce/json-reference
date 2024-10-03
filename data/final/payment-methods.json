@@ -1173,17 +1173,17 @@
     "name": "Vipps",
     "images": {
       "small": {
-        "url": "https://flowcdn.io/util/logos/payment-methods/grabpay/30/original.png",
+        "url": "https://flowcdn.io/util/logos/payment-methods/vipps/30/original.png",
         "width": 40,
         "height": 26
       },
       "medium": {
-        "url": "https://flowcdn.io/util/logos/payment-methods/grabpay/60/original.png",
+        "url": "https://flowcdn.io/util/logos/payment-methods/vipps/60/original.png",
         "width": 77,
         "height": 50
       },
       "large": {
-        "url": "https://flowcdn.io/util/logos/payment-methods/grabpay/120/original.png",
+        "url": "https://flowcdn.io/util/logos/payment-methods/vipps/120/original.png",
         "width": 154,
         "height": 100
       }
