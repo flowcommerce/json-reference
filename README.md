@@ -7,7 +7,16 @@ simple, canonical set of reference data that we use throughout Flow.
 
 ## JSON Data
 
-JSON data files can be found in the
+New reference data should be added to csv files in [data/original](https://github.com/flowcommerce/json-reference/tree/main/data/original)
+
+To generate JSON data execute:
+
+   `go run reference.go all`
+
+The script might create a lot of unrelated changes (removed currencies, locales, etc) that can be breaking.
+Therefore, every modification that is not desirable should be manually reverted before merging changes.
+
+The final JSON data files can be found in the
 [data/final](https://github.com/flowcommerce/json-reference/tree/main/data/final)
 directory.
 
@@ -41,7 +50,6 @@ directory.
   - [Scala Library](https://github.com/flowcommerce/lib-reference-scala)
   - [JavaScript Library](https://github.com/flowcommerce/lib-reference-javascript)
 
-  `go run reference.go all`
 
 ## Local development
 
@@ -61,3 +69,5 @@ View commands available:
 Run end to end process:
 
   `go run reference.go all`
+
+More details can be found [here](https://www.notion.so/flow/References-bd8b9b8f5c434d21aa0bf1c0b98e6d66)
