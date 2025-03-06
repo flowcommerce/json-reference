@@ -703,7 +703,7 @@
     "iso_3166_2": "CW",
     "iso_3166_3": "CUW",
     "measurement_system": "metric",
-    "default_currency": "ANG",
+    "default_currency": "XCG",
     "default_language": "nl",
     "languages": [
       "en",
@@ -2619,7 +2619,7 @@
     "iso_3166_2": "SX",
     "iso_3166_3": "SXM",
     "measurement_system": "metric",
-    "default_currency": "ANG",
+    "default_currency": "XCG",
     "default_language": "nl",
     "languages": [
       "en",
