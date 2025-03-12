@@ -1758,6 +1758,12 @@
             "symbol": "EC$",
             "symbol-alt-narrow": "$"
           },
+          "XCG": {
+            "displayName": "Caribbean Guilder",
+            "displayName-count-one": "Caribbean guilder",
+            "displayName-count-other": "Caribbean guilders",
+            "symbol": "XCG"
+          },
           "XDR": {
             "displayName": "Special Drawing Rights",
             "displayName-count-one": "special drawing rights",

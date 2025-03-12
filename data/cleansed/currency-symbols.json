@@ -917,6 +917,10 @@
     "primary": "EC$",
     "narrow": "$"
   },
+  "XCG": {
+    "primary": "XCG",
+    "narrow": "Cg"
+  },
   "XDR": {
     "primary": "XDR"
   },
