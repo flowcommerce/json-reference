@@ -115,6 +115,11 @@
     "number_decimals": 0
   },
   {
+    "name": "Caribbean Guilder",
+    "iso_4217_3": "XCG",
+    "number_decimals": 2
+  },
+  {
     "name": "Cayman Islands Dollar",
     "iso_4217_3": "KYD",
     "number_decimals": 2

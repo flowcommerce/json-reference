@@ -690,6 +690,11 @@
     "number_decimals": 2
   },
   {
+    "iso_4217_3": "XCG",
+    "name": "Carribean Guilder",
+    "number_decimals": 2
+  },
+  {
     "iso_4217_3": "XOF",
     "name": "CFA Franc BCEAO",
     "number_decimals": 0
