@@ -1002,7 +1002,7 @@ func sortTimezones(timezones []common.Timezone) []common.Timezone {
 }
 
 func toPaymentMethodImage(id string, width int, height int, size string) common.PaymentMethodImage {
-	url := fmt.Sprintf("https://flowcdn.io/util/logos/payment-methods/%s/%s/original.png", id, size)
+	url := fmt.Sprintf("https://cdn.flow.io/util/logos/payment-methods/%s/%s/original.png", id, size)
 
 	return common.PaymentMethodImage{
 		Url:    url,
