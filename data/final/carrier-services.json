@@ -324,6 +324,15 @@
     }
   },
   {
+    "id": "fedex-international-connect-plus",
+    "name": "International Connect Plus",
+    "carrier": {
+      "id": "fedex",
+      "name": "FedEx",
+      "tracking_url": "https://www.fedex.com/apps/fedextrack/?tracknumbers="
+    }
+  },
+  {
     "id": "fedex-international-economy",
     "name": "International Economy",
     "carrier": {
