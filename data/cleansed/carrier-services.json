@@ -180,6 +180,11 @@
     "carrier_id": "fedex"
   },
   {
+    "id": "fedex-international-connect-plus",
+    "name": "International Connect Plus",
+    "carrier_id": "fedex"
+  },
+  {
     "id": "fedex-international-economy",
     "name": "International Economy",
     "carrier_id": "fedex"
