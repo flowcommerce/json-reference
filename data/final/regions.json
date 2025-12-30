@@ -881,7 +881,7 @@
       "BGR"
     ],
     "currencies": [
-      "BGN"
+      "EUR"
     ],
     "languages": [
       "bg"
@@ -1863,6 +1863,7 @@
     "countries": [
       "AUT",
       "BEL",
+      "BGR",
       "CYP",
       "EST",
       "FIN",
@@ -1887,6 +1888,7 @@
     ],
     "languages": [
       "cs",
+      "bg",
       "de",
       "el",
       "en",

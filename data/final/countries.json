@@ -432,7 +432,7 @@
     "iso_3166_2": "BG",
     "iso_3166_3": "BGR",
     "measurement_system": "metric",
-    "default_currency": "BGN",
+    "default_currency": "EUR",
     "default_language": "bg",
     "languages": [
       "bg"
