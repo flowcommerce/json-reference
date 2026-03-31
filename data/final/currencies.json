@@ -693,6 +693,15 @@
     "default_locale": "zh-MO"
   },
   {
+    "name": "Macedonian Denar",
+    "iso_4217_3": "MKD",
+    "number_decimals": 2,
+    "symbols": {
+      "primary": "MKD"
+    },
+    "default_locale": "sk-MK"
+  },
+  {
     "name": "Malagasy Ariary",
     "iso_4217_3": "MGA",
     "number_decimals": 2,
