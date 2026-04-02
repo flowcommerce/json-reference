@@ -365,6 +365,11 @@
     "number_decimals": 2
   },
   {
+    "name": "Macedonian Denar",
+    "iso_4217_3": "MKD",
+    "number_decimals": 2
+  },
+  {
     "name": "Malagasy Ariary",
     "iso_4217_3": "MGA",
     "number_decimals": 2
