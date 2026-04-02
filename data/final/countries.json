@@ -2122,7 +2122,7 @@
     "iso_3166_2": "MK",
     "iso_3166_3": "MKD",
     "measurement_system": "metric",
-    "default_currency": "EUR",
+    "default_currency": "MKD",
     "default_language": "mk",
     "languages": [
       "mk"
