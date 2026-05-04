@@ -131,6 +131,15 @@
     }
   },
   {
+    "name": "Bhutanese Ngultrum",
+    "iso_4217_3": "BTN",
+    "number_decimals": 2,
+    "symbols": {
+      "primary": "BTN"
+    },
+    "default_locale": "bn-IN"
+  },
+  {
     "name": "Bolivia Boliviano",
     "iso_4217_3": "BOB",
     "number_decimals": 2,
