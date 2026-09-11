@@ -275,3 +275,11 @@ ESP-VA,es,Valladolid
 ESP-VI,es,Álava
 ESP-Z,es,Zaragoza
 ESP-ZA,es,Zamora
+GBR-ENG,en-GB,England
+GBR-ENG,en-US,England
+GBR-NIR,en-GB,Northern Ireland
+GBR-NIR,en-US,Northern Ireland
+GBR-SCT,en-GB,Scotland
+GBR-SCT,en-US,Scotland
+GBR-WLS,en-GB,Wales
+GBR-WLS,en-US,Wales
