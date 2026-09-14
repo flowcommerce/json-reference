@@ -1010,6 +1010,46 @@
     "translation": "Zaragoza"
   },
   {
+    "locale_id": "en-GB",
+    "province_id": "GBR-ENG",
+    "translation": "England"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "GBR-ENG",
+    "translation": "England"
+  },
+  {
+    "locale_id": "en-GB",
+    "province_id": "GBR-NIR",
+    "translation": "Northern Ireland"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "GBR-NIR",
+    "translation": "Northern Ireland"
+  },
+  {
+    "locale_id": "en-GB",
+    "province_id": "GBR-SCT",
+    "translation": "Scotland"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "GBR-SCT",
+    "translation": "Scotland"
+  },
+  {
+    "locale_id": "en-GB",
+    "province_id": "GBR-WLS",
+    "translation": "Wales"
+  },
+  {
+    "locale_id": "en-US",
+    "province_id": "GBR-WLS",
+    "translation": "Wales"
+  },
+  {
     "locale_id": "en-US",
     "province_id": "JPN-01",
     "translation": "Hokkaido"

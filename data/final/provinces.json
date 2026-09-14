@@ -3571,6 +3571,146 @@
     ]
   },
   {
+    "id": "GBR-ENG",
+    "iso_3166_2": "ENG",
+    "name": "England",
+    "country": "GBR",
+    "province_type": "other",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-GB",
+          "name": "English - United Kingdom",
+          "country": "GBR",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "England"
+      },
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "England"
+      }
+    ]
+  },
+  {
+    "id": "GBR-NIR",
+    "iso_3166_2": "NIR",
+    "name": "Northern Ireland",
+    "country": "GBR",
+    "province_type": "other",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-GB",
+          "name": "English - United Kingdom",
+          "country": "GBR",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Northern Ireland"
+      },
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Northern Ireland"
+      }
+    ]
+  },
+  {
+    "id": "GBR-SCT",
+    "iso_3166_2": "SCT",
+    "name": "Scotland",
+    "country": "GBR",
+    "province_type": "other",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-GB",
+          "name": "English - United Kingdom",
+          "country": "GBR",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Scotland"
+      },
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Scotland"
+      }
+    ]
+  },
+  {
+    "id": "GBR-WLS",
+    "iso_3166_2": "WLS",
+    "name": "Wales",
+    "country": "GBR",
+    "province_type": "other",
+    "translations": [
+      {
+        "locale": {
+          "id": "en-GB",
+          "name": "English - United Kingdom",
+          "country": "GBR",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Wales"
+      },
+      {
+        "locale": {
+          "id": "en-US",
+          "name": "English - United States",
+          "country": "USA",
+          "language": "en",
+          "numbers": {
+            "decimal": ".",
+            "group": ","
+          }
+        },
+        "name": "Wales"
+      }
+    ]
+  },
+  {
     "id": "JPN-01",
     "iso_3166_2": "01",
     "name": "Hokkaido",

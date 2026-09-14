@@ -6444,6 +6444,12 @@
     "province_type": "other"
   },
   {
+    "iso_3166_2": "ENG",
+    "name": "England",
+    "country": "GB",
+    "province_type": "other"
+  },
+  {
     "iso_3166_2": "ERW",
     "name": "East Renfrewshire",
     "country": "GB",
@@ -6828,6 +6834,12 @@
     "province_type": "other"
   },
   {
+    "iso_3166_2": "NIR",
+    "name": "Northern Ireland",
+    "country": "GB",
+    "province_type": "other"
+  },
+  {
     "iso_3166_2": "NLK",
     "name": "North Lanarkshire",
     "country": "GB",
@@ -7022,6 +7034,12 @@
   {
     "iso_3166_2": "SCB",
     "name": "Scottish Borders, The",
+    "country": "GB",
+    "province_type": "other"
+  },
+  {
+    "iso_3166_2": "SCT",
+    "name": "Scotland",
     "country": "GB",
     "province_type": "other"
   },
@@ -7274,6 +7292,12 @@
   {
     "iso_3166_2": "WLN",
     "name": "West Lothian",
+    "country": "GB",
+    "province_type": "other"
+  },
+  {
+    "iso_3166_2": "WLS",
+    "name": "Wales",
     "country": "GB",
     "province_type": "other"
   },

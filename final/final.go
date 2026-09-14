@@ -523,6 +523,14 @@ func createProvinces(data CleansedDataSet, locales []common.Locale) []common.Pro
 		"CHN",
 		"ESP",
 		"ROU",
+		"GBR",
+	}
+
+	// For some countries only a subset of the ISO 3166-2 subdivisions is useful. ISO 3166-2:GB is
+	// dominated by 200+ local authorities that change frequently; address forms and tax reporting need
+	// only the four constituent countries.
+	validProvincesByCountry := map[string][]string{
+		"GBR": {"ENG", "NIR", "SCT", "WLS"},
 	}
 
 	for _, p := range data.Provinces {
@@ -548,7 +556,8 @@ func createProvinces(data CleansedDataSet, locales []common.Locale) []common.Pro
 		}
 
 		// now create
-		if common.ContainsIgnoreCase(validCountries, country.Iso_3166_3) {
+		allowedProvinces, restricted := validProvincesByCountry[country.Iso_3166_3]
+		if common.ContainsIgnoreCase(validCountries, country.Iso_3166_3) && (!restricted || common.ContainsIgnoreCase(allowedProvinces, p.Iso_3166_2)) {
 			provinces = append(provinces, common.Province{
 				Id:           provinceId,
 				Iso_3166_2:   p.Iso_3166_2,
