@@ -78,6 +78,32 @@
     "capabilities": []
   },
   {
+    "id": "alipay_hk",
+    "type": "online",
+    "name": "AlipayHK",
+    "images": {
+      "small": {
+        "url": "https://cdn.flow.io/util/logos/payment-methods/alipay_hk/30/original.png",
+        "width": 65,
+        "height": 41
+      },
+      "medium": {
+        "url": "https://cdn.flow.io/util/logos/payment-methods/alipay_hk/60/original.png",
+        "width": 100,
+        "height": 60
+      },
+      "large": {
+        "url": "https://cdn.flow.io/util/logos/payment-methods/alipay_hk/120/original.png",
+        "width": 256,
+        "height": 256
+      }
+    },
+    "regions": [
+      "world"
+    ],
+    "capabilities": []
+  },
+  {
     "id": "american_express",
     "type": "card",
     "name": "American Express",
