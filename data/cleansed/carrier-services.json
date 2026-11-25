@@ -275,6 +275,16 @@
     "carrier_id": "other"
   },
   {
+    "id": "passport-express",
+    "name": "Express",
+    "carrier_id": "passport"
+  },
+  {
+    "id": "passport-standard",
+    "name": "Standard",
+    "carrier_id": "passport"
+  },
+  {
     "id": "rrdonnelley-international-ipa",
     "name": "International IPA",
     "carrier_id": "rrdonnelley"

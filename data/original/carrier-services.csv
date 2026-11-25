@@ -54,6 +54,8 @@ ocs-worldwide-international-standard-delivery,International Standard Delivery,oc
 other-freight,Freight,other
 other-ltl,Less Than Truckload,other
 other-postal,Postal,other
+passport-express,Express,passport
+passport-standard,Standard,passport
 rrdonnelley-international-ipa,International IPA,rrdonnelley
 rrdonnelley-international-ppdc,International PPDC,rrdonnelley
 sf-express-economy-express-parcel,Economy Express Parcel,sf-express
