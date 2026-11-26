@@ -500,7 +500,7 @@
     "carrier": {
       "id": "passport",
       "name": "Passport",
-      "tracking_url": "https://track.flow.io/"
+      "tracking_url": "https://track.passportglobal.com/"
     }
   },
   {
@@ -509,7 +509,7 @@
     "carrier": {
       "id": "passport",
       "name": "Passport",
-      "tracking_url": "https://track.flow.io/"
+      "tracking_url": "https://track.passportglobal.com/"
     }
   },
   {
